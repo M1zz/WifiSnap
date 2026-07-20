@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E02F6DD4022F49B5F548C5 /* WifiConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A9152B0BCC2104DD162C66 /* WifiConnector.swift */; };
+		2DA6929398B07B1BD33DFF6B /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6032FD5DE1A701813EF03248 /* QRCodeGenerator.swift */; };
+		32E0B9E6A19A5022003ECC86 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766D6E526B60772AA2246F7C /* TextRecognizer.swift */; };
+		3CACA1251F98764468B3370A /* SavedNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F227DCF115FF7485AF3EA4AD /* SavedNetwork.swift */; };
+		492A9AA39F1A86E534383583 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD026F980125CDF3004A9E59 /* ImagePicker.swift */; };
+		7E58538752F8DD984AD4746D /* QRCodeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144F51DE5E11764184CA5DB /* QRCodeSheet.swift */; };
+		AC9DBCC645648A7877CF70A0 /* WifiCredentialParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AF647E0AFA134C217C115 /* WifiCredentialParser.swift */; };
+		CF5A3581BBFEDEED8D576C6B /* WifiSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D1CA0E6D09DCA4E677F87 /* WifiSnapApp.swift */; };
+		EF905C3B074A0649E423A878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B020EA14A70200DBF8B17 /* ContentView.swift */; };
+		F60F0D4098F3E1B752F6FDCD /* CurrentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030840261208945F64C8855 /* CurrentNetworkService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0144F51DE5E11764184CA5DB /* QRCodeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeSheet.swift; sourceTree = "<group>"; };
+		290AF647E0AFA134C217C115 /* WifiCredentialParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiCredentialParser.swift; sourceTree = "<group>"; };
+		495D1CA0E6D09DCA4E677F87 /* WifiSnapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiSnapApp.swift; sourceTree = "<group>"; };
+		6032FD5DE1A701813EF03248 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		766D6E526B60772AA2246F7C /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		786B020EA14A70200DBF8B17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97A9152B0BCC2104DD162C66 /* WifiConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiConnector.swift; sourceTree = "<group>"; };
+		A030840261208945F64C8855 /* CurrentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentNetworkService.swift; sourceTree = "<group>"; };
+		A24E97C2C88C093826CAD1AF /* WifiSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F154FDB7DDDB52375DB95D25 /* WifiSnap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WifiSnap.entitlements; sourceTree = "<group>"; };
+		F227DCF115FF7485AF3EA4AD /* SavedNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedNetwork.swift; sourceTree = "<group>"; };
+		FD026F980125CDF3004A9E59 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		039CDF61D6A3C18AD2439CD3 = {
+			isa = PBXGroup;
+			children = (
+				94C17FCB866ED6DA1DA3EB8C /* WifiSnap */,
+				C2358F32D813FD5426172309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		104CF751AC8F27A36341F107 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A030840261208945F64C8855 /* CurrentNetworkService.swift */,
+				6032FD5DE1A701813EF03248 /* QRCodeGenerator.swift */,
+				766D6E526B60772AA2246F7C /* TextRecognizer.swift */,
+				97A9152B0BCC2104DD162C66 /* WifiConnector.swift */,
+				290AF647E0AFA134C217C115 /* WifiCredentialParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		61C2AB8FB6E4E08F9016D258 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				786B020EA14A70200DBF8B17 /* ContentView.swift */,
+				FD026F980125CDF3004A9E59 /* ImagePicker.swift */,
+				0144F51DE5E11764184CA5DB /* QRCodeSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94C17FCB866ED6DA1DA3EB8C /* WifiSnap */ = {
+			isa = PBXGroup;
+			children = (
+				F154FDB7DDDB52375DB95D25 /* WifiSnap.entitlements */,
+				495D1CA0E6D09DCA4E677F87 /* WifiSnapApp.swift */,
+				9D8D604A6A947101600F177B /* Models */,
+				104CF751AC8F27A36341F107 /* Services */,
+				61C2AB8FB6E4E08F9016D258 /* Views */,
+			);
+			path = WifiSnap;
+			sourceTree = "<group>";
+		};
+		9D8D604A6A947101600F177B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F227DCF115FF7485AF3EA4AD /* SavedNetwork.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C2358F32D813FD5426172309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24E97C2C88C093826CAD1AF /* WifiSnap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53823A0B88396056EFE1B1A3 /* WifiSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0228FA6D33F095B975DA53E /* Build configuration list for PBXNativeTarget "WifiSnap" */;
+			buildPhases = (
+				754DAB5B2BDAB32F0290ABFC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiSnap;
+			packageProductDependencies = (
+			);
+			productName = WifiSnap;
+			productReference = A24E97C2C88C093826CAD1AF /* WifiSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C4E223FC90FD4CC4FEAB160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 3A9C71B50180B19C8E4C7672 /* Build configuration list for PBXProject "WifiSnap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 039CDF61D6A3C18AD2439CD3;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53823A0B88396056EFE1B1A3 /* WifiSnap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		754DAB5B2BDAB32F0290ABFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF905C3B074A0649E423A878 /* ContentView.swift in Sources */,
+				F60F0D4098F3E1B752F6FDCD /* CurrentNetworkService.swift in Sources */,
+				492A9AA39F1A86E534383583 /* ImagePicker.swift in Sources */,
+				2DA6929398B07B1BD33DFF6B /* QRCodeGenerator.swift in Sources */,
+				7E58538752F8DD984AD4746D /* QRCodeSheet.swift in Sources */,
+				3CACA1251F98764468B3370A /* SavedNetwork.swift in Sources */,
+				32E0B9E6A19A5022003ECC86 /* TextRecognizer.swift in Sources */,
+				04E02F6DD4022F49B5F548C5 /* WifiConnector.swift in Sources */,
+				AC9DBCC645648A7877CF70A0 /* WifiCredentialParser.swift in Sources */,
+				CF5A3581BBFEDEED8D576C6B /* WifiSnapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0487C4BD9A083CB98C620927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C2557EEBCDE16ADEE542145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WifiSnap/WifiSnap.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.wifisnap;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5A0800F5DBDEA9785DAA4BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D8F87FAFC33466A428DF4A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WifiSnap/WifiSnap.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.wifisnap;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A9C71B50180B19C8E4C7672 /* Build configuration list for PBXProject "WifiSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0487C4BD9A083CB98C620927 /* Debug */,
+				5A0800F5DBDEA9785DAA4BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0228FA6D33F095B975DA53E /* Build configuration list for PBXNativeTarget "WifiSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F87FAFC33466A428DF4A44 /* Debug */,
+				4C2557EEBCDE16ADEE542145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C4E223FC90FD4CC4FEAB160 /* Project object */;
+}
