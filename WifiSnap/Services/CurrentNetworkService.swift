@@ -2,7 +2,7 @@ import Foundation
 import CoreLocation
 import NetworkExtension
 
-/// 현재 연결된 와이파이의 SSID를 감지
+/// 현재 연결된 와이파이의 SSID와 사용자의 현재 위치를 감지
 /// ⚠️ 요구사항:
 ///  - Signing & Capabilities에 "Access Wi-Fi Information" capability 추가
 ///  - Info.plist에 위치 권한 문구(NSLocationWhenInUseUsageDescription) 추가
@@ -14,6 +14,8 @@ final class CurrentNetworkService: NSObject, ObservableObject {
 
     @Published var currentSSID: String?
     @Published var permissionDenied = false
+    /// 근처 와이파이 추천에 쓰는 현재 위치
+    @Published var currentLocation: CLLocation?
 
     private let locationManager = CLLocationManager()
     private var fetchAfterAuthorization = false
@@ -21,9 +23,12 @@ final class CurrentNetworkService: NSObject, ObservableObject {
     override init() {
         super.init()
         locationManager.delegate = self
+        // 근처 추천 용도라 정밀도는 낮춰 배터리 절약
+        locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
+        locationManager.distanceFilter = 30
     }
 
-    /// 권한 상태를 확인하고 SSID를 가져옴 (필요 시 위치 권한 요청)
+    /// 권한 상태를 확인하고 SSID·위치를 가져옴 (필요 시 위치 권한 요청)
     func refresh() {
         switch locationManager.authorizationStatus {
         case .notDetermined:
@@ -31,6 +36,7 @@ final class CurrentNetworkService: NSObject, ObservableObject {
             locationManager.requestWhenInUseAuthorization()
         case .authorizedWhenInUse, .authorizedAlways:
             permissionDenied = false
+            locationManager.startUpdatingLocation()
             fetchSSID()
         case .denied, .restricted:
             permissionDenied = true
@@ -56,5 +62,16 @@ extension CurrentNetworkService: CLLocationManagerDelegate {
             self.fetchAfterAuthorization = false
             self.refresh()
         }
+    }
+
+    nonisolated func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let latest = locations.last else { return }
+        Task { @MainActor in
+            self.currentLocation = latest
+        }
+    }
+
+    nonisolated func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        // 일시적 실패는 무시 — 다음 업데이트에서 회복됨
     }
 }

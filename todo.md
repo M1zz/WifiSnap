@@ -24,6 +24,20 @@
 - [x] 생성 중 "QR 만드는 중…" ProgressView 표시 → 탭 즉시 시각 피드백
 - [x] QRCodeGenerator: CIContext 매번 생성 → static 1회 재사용(성능)
 
+## 근처 위치 기반 추천 — 완료
+- [x] SavedNetwork에 위치(latitude/longitude) 저장 (기존 데이터 nil 호환)
+- [x] CurrentNetworkService: 현재 위치 추적/발행(startUpdatingLocation, 100m 정밀도)
+- [x] 연결/QR 생성 시 현재 좌표 함께 저장
+- [x] 저장 목록 정렬: 반경 150m 내 네트워크를 거리순 최상단 + "📍 근처/여기" 뱃지
+- [x] 삭제를 id 기반으로 변경(정렬과 인덱스 불일치 방지)
+
+## 단일 화면 컴팩트 UI — 완료
+- [x] NavigationStack/"WifiSnap" 타이틀 제거, 장황한 footer/설명 문구 제거
+- [x] List → 카드형 VStack (스크롤 없이 한 화면)
+- [x] 촬영/앨범 버튼을 한 줄에 나란히 배치
+- [x] 저장 목록은 하단 카드에서 필요 시 내부 스크롤, 삭제는 길게 눌러 컨텍스트 메뉴
+- [x] 비밀번호 SecureField로 변경
+
 ## 실기기 실행 시 남은 작업 (사용자 몫)
 - [ ] Signing & Capabilities에서 본인 개발자 Team 선택
 - [ ] Bundle Identifier를 본인 것으로 변경 (현재 com.wifisnap.app)
