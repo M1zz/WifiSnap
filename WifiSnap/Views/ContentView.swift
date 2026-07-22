@@ -7,18 +7,16 @@ struct ContentView: View {
     @StateObject private var currentNetwork = CurrentNetworkService()
 
     // 기능 안내 팁
-    private let shareTip = ShareWifiTip()
     private let scanTip = ScanWifiTip()
     private let nearbyTip = NearbyWifiTip()
 
-    // 내 와이파이 공유 상태
-    @State private var sharePassword = ""
-    @State private var shareSSID = ""   // 자동 감지 실패 시 직접 입력용
-
     // 스캔 & 편집 상태
     @State private var credentials = WifiCredentials()
-    @State private var recognizedLines: [String] = []
     @State private var isRecognizing = false
+    // 스캔을 시작하면 인식 실패해도 입력 카드를 열어둬 직접 입력할 수 있게 함
+    @State private var showScanResult = false
+    // 앱 진입 시 '연결된 와이파이 없음'이면 카메라를 한 번 자동으로 띄운다
+    @State private var didAutoPresentCamera = false
 
     // 시트 상태 (한 뷰에 .sheet를 여러 개 붙이면 충돌하므로 enum 하나로 통합)
     @State private var activeSheet: ActiveSheet?
@@ -27,14 +25,19 @@ struct ContentView: View {
     @State private var isConnecting = false
     @State private var statusMessage: StatusMessage?
 
+    // 저장된 네트워크 목록 접기 (연결된 와이파이가 있으면 접고, 없으면 펼침)
+    @State private var savedExpanded = true
+
     enum ActiveSheet: Identifiable {
         case picker(ImagePicker.Source)
         case qr(SavedNetwork)
+        case map
 
         var id: String {
             switch self {
             case .picker(let source): return "picker-\(source.id)"
             case .qr(let network): return "qr-\(network.id)"
+            case .map: return "map"
             }
         }
     }
@@ -46,44 +49,71 @@ struct ContentView: View {
     }
 
     var body: some View {
+        mainStack
+            .background(backgroundLayer)
+            .onAppear {
+                currentNetwork.refresh()
+                savedExpanded = (connectedSaved == nil)
+            }
+            .onChange(of: connectedSaved?.id) { _, id in
+                // 연결된(로그인 정보 보유) 와이파이가 생기면 목록을 접고, 없으면 펼침
+                savedExpanded = (id == nil)
+            }
+            .onChange(of: currentNetwork.ssidResolved) { _, resolved in
+                autoPresentCameraIfNeeded(resolved: resolved)
+            }
+            .sheet(item: $activeSheet, content: sheetContent)
+            .alert(item: $statusMessage, content: alertContent)
+    }
+
+    private var mainStack: some View {
         VStack(spacing: 12) {
-            shareCard
+            connectedCard
             savedCard
-            if isRecognizing || !recognizedLines.isEmpty || hasInput {
+            if isRecognizing || hasInput || showScanResult {
                 resultCard
             }
             scanCard
         }
         .padding(16)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(
-            Color(.systemGroupedBackground)
+    }
+
+    private var backgroundLayer: some View {
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
+            .contentShape(Rectangle())
+            .onTapGesture { dismissKeyboard() }
+    }
+
+    @ViewBuilder
+    private func sheetContent(_ sheet: ActiveSheet) -> some View {
+        switch sheet {
+        case .picker(let source):
+            ImagePicker(source: source) { image in runOCR(on: image) }
                 .ignoresSafeArea()
-                .contentShape(Rectangle())
-                .onTapGesture { dismissKeyboard() }
-        )
-        .scrollDismissesKeyboard(.interactively)
-        .onAppear { currentNetwork.refresh() }
-        .onChange(of: currentNetwork.currentSSID) { _, newSSID in
-            // 이전에 저장해둔 네트워크면 비밀번호 자동 채움 → 바로 QR 가능
-            if let ssid = newSSID,
-               let saved = store.networks.first(where: { $0.ssid == ssid }) {
-                sharePassword = saved.password
-            }
+        case .qr(let network):
+            QRCodeSheet(ssid: network.ssid, password: network.password)
+        case .map:
+            MapSheet(networks: store.networks)
         }
-        .sheet(item: $activeSheet) { sheet in
-            switch sheet {
-            case .picker(let source):
-                ImagePicker(source: source) { image in runOCR(on: image) }
-                    .ignoresSafeArea()
-            case .qr(let network):
-                QRCodeSheet(ssid: network.ssid, password: network.password)
-            }
-        }
-        .alert(item: $statusMessage) { message in
-            Alert(title: Text(message.isError ? "연결 실패" : "완료"),
-                  message: Text(message.text),
-                  dismissButton: .default(Text("확인")))
+    }
+
+    private func alertContent(_ message: StatusMessage) -> Alert {
+        Alert(title: Text(message.isError ? "연결 실패" : "완료"),
+              message: Text(message.text),
+              dismissButton: .default(Text("확인")))
+    }
+
+    /// 연결된 와이파이가 없다고 확정되면 카메라를 한 번 자동으로 띄운다.
+    /// (연결돼 있으면 그 와이파이가 메인이므로 띄우지 않음)
+    private func autoPresentCameraIfNeeded(resolved: Bool) {
+        guard resolved, !didAutoPresentCamera else { return }
+        didAutoPresentCamera = true
+        if currentNetwork.currentSSID == nil,
+           activeSheet == nil,
+           ImagePicker.isCameraAvailable {
+            activeSheet = .picker(.camera)
         }
     }
 
@@ -91,71 +121,45 @@ struct ContentView: View {
         !credentials.ssid.isEmpty || !credentials.password.isEmpty
     }
 
-    /// 자동 감지된 SSID가 있으면 그것, 없으면 직접 입력값
-    private var effectiveShareSSID: String {
-        currentNetwork.currentSSID ?? shareSSID.trimmingCharacters(in: .whitespacesAndNewlines)
+    /// 지금 연결된 와이파이가 저장돼 있으면 그 네트워크(=여기)
+    private var connectedSaved: SavedNetwork? {
+        guard let ssid = currentNetwork.currentSSID else { return nil }
+        return store.networks.first { $0.ssid == ssid }
     }
 
     // MARK: - Cards
 
-    /// 지금 연결된 와이파이를 친구에게 QR로 공유
-    private var shareCard: some View {
-        card {
-            cardHeader(icon: "arrow.up.circle.fill",
-                       title: "내 와이파이 공유",
-                       subtitle: "지금 연결된 와이파이를 QR로 전달",
-                       color: .green)
-
-            if let ssid = currentNetwork.currentSSID {
-                HStack(spacing: 8) {
-                    Image(systemName: "wifi").foregroundStyle(.green)
-                    Text(ssid).font(.body.weight(.semibold))
-                    Spacer()
-                }
-            } else {
-                HStack(spacing: 8) {
-                    TextField("와이파이 이름 (SSID)", text: $shareSSID)
-                        .textInputAutocapitalization(.never)
-                        .autocorrectionDisabled()
-                        .textFieldStyle(.roundedBorder)
-                    Button {
-                        currentNetwork.refresh()
-                    } label: {
-                        Image(systemName: "antenna.radiowaves.left.and.right")
+    /// 지금 연결된(로그인 정보 보유) 와이파이를 크게 보여주는 메인 카드.
+    /// 카드 자체가 QR을 표시하므로 별도 '공유하기' 버튼은 없다 — 친구에게 화면만 보여주면 끝.
+    @ViewBuilder
+    private var connectedCard: some View {
+        if let network = connectedSaved {
+            card {
+                HStack(spacing: 10) {
+                    Image(systemName: "wifi")
+                        .font(.title2)
+                        .foregroundStyle(.white)
+                        .frame(width: 44, height: 44)
+                        .background(.green, in: RoundedRectangle(cornerRadius: 12))
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("📍 지금 연결됨")
+                            .font(.caption.weight(.semibold))
+                            .foregroundStyle(.green)
+                        Text(network.ssid)
+                            .font(.title3.weight(.bold))
+                            .lineLimit(1)
+                            .truncationMode(.middle)
                     }
-                    .buttonStyle(.bordered)
+                    Spacer(minLength: 8)
                 }
-            }
 
-            PasswordField(placeholder: "비밀번호", text: $sharePassword)
+                ConnectedQR(network: network)
 
-            // 비밀번호 입력란 아래 공유 안내
-            TipView(shareTip)
-
-            Button {
-                let name = effectiveShareSSID
-                // 지금 그 와이파이에 실제로 연결돼 있을 때만 '연결된 장소'로 위치 기록
-                let isConnectedHere = currentNetwork.currentSSID == name
-                let here = isConnectedHere ? currentNetwork.currentLocation?.coordinate : nil
-                store.upsert(ssid: name, password: sharePassword,
-                             latitude: here?.latitude, longitude: here?.longitude)
-                let network = SavedNetwork(ssid: name, password: sharePassword,
-                                           latitude: here?.latitude, longitude: here?.longitude)
-                activeSheet = .qr(network)
-                // 공유를 경험했으니 팁을 닫고, 다음 안내(스캔·근처)를 열어줌
-                shareTip.invalidate(reason: .actionPerformed)
-                Task {
-                    await WifiSnapTips.usedShare.donate()
-                    await WifiSnapTips.savedNetwork.donate()
-                }
-            } label: {
-                Label("QR 만들기", systemImage: "qrcode")
-                    .font(.headline)
+                Text("친구에게 이 QR을 보여주면 바로 연결돼요")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity)
             }
-            .buttonStyle(.borderedProminent)
-            .tint(.green)
-            .disabled(effectiveShareSSID.isEmpty || sharePassword.isEmpty)
         }
     }
 
@@ -228,51 +232,84 @@ struct ContentView: View {
         }
     }
 
+    /// 위치가 기록된(지도에 찍을 수 있는) 네트워크가 하나라도 있는지
+    private var hasMappableNetworks: Bool {
+        store.networks.contains { $0.coordinate != nil }
+    }
+
     private var savedCard: some View {
         card {
-            // 섹션 헤더
+            // 섹션 헤더 — 제목/개수는 탭하면 접기, 오른쪽에 지도 버튼
             HStack(spacing: 6) {
-                Text("저장된 네트워크")
-                    .font(.subheadline.weight(.semibold))
+                Button {
+                    withAnimation(.snappy) { savedExpanded.toggle() }
+                } label: {
+                    HStack(spacing: 6) {
+                        Text("저장된 네트워크")
+                            .font(.subheadline.weight(.semibold))
+                        if !store.networks.isEmpty {
+                            Text("\(store.networks.count)")
+                                .font(.caption.weight(.semibold))
+                                .foregroundStyle(.secondary)
+                        }
+                        Image(systemName: "chevron.down")
+                            .font(.caption.weight(.semibold))
+                            .foregroundStyle(.secondary)
+                            .rotationEffect(.degrees(savedExpanded ? 0 : -90))
+                    }
+                    .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+
                 Spacer()
-                if !store.networks.isEmpty {
-                    Text("\(store.networks.count)")
-                        .font(.caption.weight(.semibold))
-                        .foregroundStyle(.secondary)
+
+                // 지도에서 보기 (위치가 기록된 네트워크가 있을 때만)
+                if hasMappableNetworks {
+                    Button {
+                        activeSheet = .map
+                    } label: {
+                        Label("지도", systemImage: "map")
+                            .font(.caption.weight(.semibold))
+                    }
+                    .buttonStyle(.bordered)
+                    .buttonBorderShape(.capsule)
+                    .tint(.green)
                 }
             }
 
-            // 근처 추천 안내 (저장된 네트워크가 생기면 노출)
-            TipView(nearbyTip)
+            if savedExpanded {
+                // 근처 추천 안내 (저장된 네트워크가 생기면 노출)
+                TipView(nearbyTip)
 
-            if store.networks.isEmpty {
-                Text("저장된 네트워크 없음")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.vertical, 8)
-            } else {
-                // List로 구성해 스와이프 삭제 지원 (칩 디자인은 그대로 유지)
-                List {
-                    ForEach(sortedNetworks) { network in
-                        savedRow(network)
-                            .listRowInsets(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 0))
-                            .listRowSeparator(.hidden)
-                            .listRowBackground(Color.clear)
-                            .swipeActions(edge: .trailing, allowsFullSwipe: true) {
-                                Button(role: .destructive) {
-                                    store.delete(ids: [network.id])
-                                } label: {
-                                    Image(systemName: "trash")
+                if store.networks.isEmpty {
+                    Text("저장된 네트워크 없음")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.vertical, 8)
+                } else {
+                    // List로 구성해 스와이프 삭제 지원 (칩 디자인은 그대로 유지)
+                    List {
+                        ForEach(sortedNetworks) { network in
+                            savedRow(network)
+                                .listRowInsets(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 0))
+                                .listRowSeparator(.hidden)
+                                .listRowBackground(Color.clear)
+                                .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                                    Button(role: .destructive) {
+                                        store.delete(ids: [network.id])
+                                    } label: {
+                                        Image(systemName: "trash")
+                                    }
                                 }
-                            }
+                        }
                     }
+                    .listStyle(.plain)
+                    .scrollContentBackground(.hidden)
                 }
-                .listStyle(.plain)
-                .scrollContentBackground(.hidden)
             }
         }
-        .frame(maxHeight: .infinity)
+        .frame(maxHeight: savedExpanded ? .infinity : nil)
     }
 
     @ViewBuilder
@@ -288,31 +325,25 @@ struct ContentView: View {
                     Image(systemName: "wifi")
                         .font(.footnote.weight(.semibold))
                         .foregroundStyle(.blue)
-                    Text(network.ssid).font(.body.weight(.medium))
+                    // 긴 이름은 한 줄 가운데 말줄임 처리 (줄바꿈 방지)
+                    Text(network.ssid)
+                        .font(.body.weight(.medium))
+                        .lineLimit(1)
+                        .truncationMode(.middle)
                     if let tag = nearbyTag(for: network) {
                         Text(tag)
                             .font(.caption2.weight(.semibold))
                             .padding(.horizontal, 7).padding(.vertical, 2)
                             .background(Color.green.opacity(0.18), in: Capsule())
                             .foregroundStyle(.green)
+                            .fixedSize()          // 뱃지는 압축·줄바꿈 없이 항상 온전히
+                            .layoutPriority(1)    // 이름보다 우선 유지 → 이름이 먼저 줄어듦
                     }
                     Spacer(minLength: 4)
                 }
                 .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
-
-            // QR 바로 보기
-            Button {
-                activeSheet = .qr(network)
-            } label: {
-                Image(systemName: "qrcode")
-                    .font(.footnote.weight(.bold))
-                    .frame(width: 32, height: 32)
-            }
-            .buttonStyle(.bordered)
-            .buttonBorderShape(.roundedRectangle(radius: 9))
-            .tint(.blue)
 
             // QR 이미지 바로 공유
             ShareQRButton(network: network)
@@ -411,14 +442,14 @@ struct ContentView: View {
 
     private func runOCR(on image: UIImage) {
         isRecognizing = true
-        recognizedLines = []
+        // 인식 결과가 비어도 직접 입력할 수 있도록 입력 카드를 열어둔다
+        showScanResult = true
         TextRecognizer.recognizeLines(in: image) { lines in
-            recognizedLines = lines
             credentials = WifiCredentialParser.parse(lines: lines)
             isRecognizing = false
             if credentials.ssid.isEmpty && credentials.password.isEmpty {
                 statusMessage = StatusMessage(
-                    text: "사진에서 ID/PW를 찾지 못했어요. 더 가까이서 선명하게 찍어보세요.",
+                    text: "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요.",
                     isError: true
                 )
             } else {
@@ -442,6 +473,10 @@ struct ContentView: View {
                 store.upsert(ssid: credentials.ssid, password: credentials.password,
                              latitude: here?.latitude, longitude: here?.longitude)
                 statusMessage = StatusMessage(text: "'\(credentials.ssid)'에 연결했어요.", isError: false)
+                // 연결됐으니 입력 카드는 닫고 필드를 비운다
+                showScanResult = false
+                credentials = WifiCredentials()
+                currentNetwork.refresh()
                 Task { await WifiSnapTips.savedNetwork.donate() }
             case .failure(let error):
                 statusMessage = StatusMessage(text: error.localizedDescription, isError: true)
@@ -463,18 +498,13 @@ private struct ShareQRButton: View {
                     preview: SharePreview("\(network.ssid) 와이파이 QR",
                                           image: Image(uiImage: qrImage))
                 ) {
-                    Image(systemName: "square.and.arrow.up")
-                        .font(.footnote.weight(.bold))
-                        .frame(width: 32, height: 32)
+                    Image(systemName: "square.and.arrow.up").rowIcon()
                 }
-                .buttonStyle(.bordered)
-                .buttonBorderShape(.roundedRectangle(radius: 9))
-                .tint(.blue)
+                .rowIconButton()
             } else {
                 // 생성 전에는 비활성 버튼 모양으로 자리만 유지
                 Image(systemName: "square.and.arrow.up")
-                    .font(.footnote.weight(.bold))
-                    .frame(width: 32, height: 32)
+                    .rowIcon()
                     .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 9))
                     .foregroundStyle(.secondary)
                     .opacity(0.5)
@@ -490,7 +520,52 @@ private struct ShareQRButton: View {
     }
 }
 
+/// 지금 연결된 와이파이를 큼직한 QR로 표시 — 화면만 보여주면 바로 공유되는 메인 콘텐츠
+private struct ConnectedQR: View {
+    let network: SavedNetwork
+    @State private var qrImage: UIImage?
+
+    var body: some View {
+        Group {
+            if let qrImage {
+                Image(uiImage: qrImage)
+                    .interpolation(.none)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 220, height: 220)
+                    .padding(12)
+                    .background(.white, in: RoundedRectangle(cornerRadius: 16))
+            } else {
+                ProgressView()
+                    .frame(width: 220, height: 220)
+            }
+        }
+        .frame(maxWidth: .infinity)
+        .task(id: network.id) {
+            let ssid = network.ssid
+            let password = network.password
+            qrImage = await Task.detached(priority: .userInitiated) {
+                QRCodeGenerator.wifiQRImage(ssid: ssid, password: password)
+            }.value
+        }
+    }
+}
+
+extension Image {
+    /// 저장 목록 행의 작은 정사각형 아이콘 스타일
+    func rowIcon() -> some View {
+        self.font(.footnote.weight(.bold)).frame(width: 32, height: 32)
+    }
+}
+
 extension View {
+    /// 저장 목록 행의 작은 사각형 버튼 테두리 스타일
+    func rowIconButton() -> some View {
+        self.buttonStyle(.bordered)
+            .buttonBorderShape(.roundedRectangle(radius: 9))
+            .tint(.blue)
+    }
+
     /// 현재 편집 중인 텍스트 필드의 키보드를 내린다
     func dismissKeyboard() {
         UIApplication.shared.sendAction(

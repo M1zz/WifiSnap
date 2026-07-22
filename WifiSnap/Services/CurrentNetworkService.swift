@@ -16,6 +16,9 @@ final class CurrentNetworkService: NSObject, ObservableObject {
     @Published var permissionDenied = false
     /// 근처 와이파이 추천에 쓰는 현재 위치
     @Published var currentLocation: CLLocation?
+    /// SSID 조회를 한 번이라도 끝냈는지 (연결 여부가 확정됐다는 신호).
+    /// 이 값이 true인데 currentSSID가 nil이면 '연결된 와이파이 없음'이 확정된 상태.
+    @Published var ssidResolved = false
 
     private let locationManager = CLLocationManager()
     private var fetchAfterAuthorization = false
@@ -41,8 +44,10 @@ final class CurrentNetworkService: NSObject, ObservableObject {
         case .denied, .restricted:
             permissionDenied = true
             currentSSID = nil
+            ssidResolved = true   // 권한이 없어 조회 불가 = '연결 없음'으로 확정
         @unknown default:
             currentSSID = nil
+            ssidResolved = true
         }
     }
 
@@ -50,6 +55,7 @@ final class CurrentNetworkService: NSObject, ObservableObject {
         NEHotspotNetwork.fetchCurrent { [weak self] network in
             Task { @MainActor in
                 self?.currentSSID = network?.ssid
+                self?.ssidResolved = true
             }
         }
     }

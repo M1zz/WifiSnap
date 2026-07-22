@@ -16,6 +16,12 @@ struct SavedNetwork: Identifiable, Codable, Equatable {
         guard let latitude, let longitude else { return nil }
         return location.distance(from: CLLocation(latitude: latitude, longitude: longitude))
     }
+
+    /// 지도 표시용 좌표. 위치가 기록돼 있지 않으면 nil.
+    var coordinate: CLLocationCoordinate2D? {
+        guard let latitude, let longitude else { return nil }
+        return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
 }
 
 /// 저장소 (UserDefaults 기반 — 민감한 환경이라면 Keychain으로 교체 권장)
