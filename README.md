@@ -4,6 +4,7 @@
 
 1. **내 와이파이 공유** — 지금 연결된 와이파이를 감지해, 친구가 카메라로 비추면 바로 연결되는 표준 WiFi QR(`WIFI:S:...;T:WPA;P:...;;`)을 만들어 줍니다.
 2. **촬영 → 연결** — 와이파이 안내판(ID/PW)을 카메라로 찍으면 OCR로 자동 인식해 바로 연결합니다.
+3. **손님용 안내판 만들기** — 카페·숙소·매장이 비치할 예쁜 와이파이 안내판을 7가지 테마로 꾸며 이미지로 저장·공유하거나 **AirPrint로 바로 인쇄**합니다. **매장 로고·이름**을 얹고, **카드형 / A4 세로 포스터**(인쇄용 고해상) 중에서 고를 수 있습니다. (QR + SSID/비밀번호 + 안내 문구) iOS 기본 QR 공유가 못 하는 "비치용 제작" 니즈를 겨냥한 도구입니다.
 
 ## 링크
 
@@ -48,7 +49,8 @@ WifiSnap/
 ├── Views/
 │   ├── ContentView.swift      # 메인 화면
 │   ├── ImagePicker.swift      # 카메라/앨범 래퍼
-│   └── QRCodeSheet.swift      # 연결용 QR 표시/공유
+│   ├── QRCodeSheet.swift      # 연결용 QR 표시/공유
+│   └── WifiPosterSheet.swift  # 손님용 안내판 꾸미기·이미지 내보내기(인쇄)
 ├── Services/
 │   ├── CurrentNetworkService.swift  # 현재 SSID 감지
 │   ├── TextRecognizer.swift         # Vision OCR (한/영)

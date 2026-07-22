@@ -15,8 +15,10 @@ struct ContentView: View {
     @State private var isRecognizing = false
     // 스캔을 시작하면 인식 실패해도 입력 카드를 열어둬 직접 입력할 수 있게 함
     @State private var showScanResult = false
-    // 앱 진입 시 '연결된 와이파이 없음'이면 카메라를 한 번 자동으로 띄운다
-    @State private var didAutoPresentCamera = false
+    // '직접 입력'으로 열었는지 — 입력 카드 헤더 문구를 스캔과 구분
+    @State private var manualEntry = false
+    // 직접 입력 시 SSID 필드에 자동 포커스
+    @FocusState private var focusSSID: Bool
 
     // 시트 상태 (한 뷰에 .sheet를 여러 개 붙이면 충돌하므로 enum 하나로 통합)
     @State private var activeSheet: ActiveSheet?
@@ -25,18 +27,24 @@ struct ContentView: View {
     @State private var isConnecting = false
     @State private var statusMessage: StatusMessage?
 
-    // 저장된 네트워크 목록 접기 (연결된 와이파이가 있으면 접고, 없으면 펼침)
-    @State private var savedExpanded = true
+    // 저장된 네트워크 목록 접기 — 기본 접힘. 사용자가 헤더를 탭할 때만 펼친다.
+    @State private var savedExpanded = false
+    // '와이파이 추가' 섹션 접기 — 연결돼 있으면 접고, 없으면 펼친다.
+    @State private var scanExpanded = true
+    // 직접 연결 시 SSID 입력 모드: false=목록에서 선택(기본), true=키보드 타이핑
+    @State private var typingSSID = false
 
     enum ActiveSheet: Identifiable {
         case picker(ImagePicker.Source)
         case qr(SavedNetwork)
+        case poster(SavedNetwork)
         case map
 
         var id: String {
             switch self {
             case .picker(let source): return "picker-\(source.id)"
             case .qr(let network): return "qr-\(network.id)"
+            case .poster(let network): return "poster-\(network.id)"
             case .map: return "map"
             }
         }
@@ -53,30 +61,29 @@ struct ContentView: View {
             .background(backgroundLayer)
             .onAppear {
                 currentNetwork.refresh()
-                savedExpanded = (connectedSaved == nil)
+                scanExpanded = (connectedSaved == nil)
             }
             .onChange(of: connectedSaved?.id) { _, id in
-                // 연결된(로그인 정보 보유) 와이파이가 생기면 목록을 접고, 없으면 펼침
-                savedExpanded = (id == nil)
-            }
-            .onChange(of: currentNetwork.ssidResolved) { _, resolved in
-                autoPresentCameraIfNeeded(resolved: resolved)
+                // 연결되면 '와이파이 추가' 섹션을 접고, 끊기면 다시 펼친다
+                withAnimation(.snappy) { scanExpanded = (id == nil) }
             }
             .sheet(item: $activeSheet, content: sheetContent)
             .alert(item: $statusMessage, content: alertContent)
     }
 
     private var mainStack: some View {
-        VStack(spacing: 12) {
-            connectedCard
-            savedCard
-            if isRecognizing || hasInput || showScanResult {
-                resultCard
+        ScrollView {
+            VStack(spacing: 12) {
+                connectedCard
+                if isRecognizing || hasInput || showScanResult {
+                    resultCard
+                }
+                scanCard
+                savedCard
             }
-            scanCard
+            .padding(16)
         }
-        .padding(16)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .scrollDismissesKeyboard(.interactively)
     }
 
     private var backgroundLayer: some View {
@@ -94,6 +101,8 @@ struct ContentView: View {
                 .ignoresSafeArea()
         case .qr(let network):
             QRCodeSheet(ssid: network.ssid, password: network.password)
+        case .poster(let network):
+            WifiPosterSheet(ssid: network.ssid, password: network.password)
         case .map:
             MapSheet(networks: store.networks)
         }
@@ -105,20 +114,86 @@ struct ContentView: View {
               dismissButton: .default(Text("확인")))
     }
 
-    /// 연결된 와이파이가 없다고 확정되면 카메라를 한 번 자동으로 띄운다.
-    /// (연결돼 있으면 그 와이파이가 메인이므로 띄우지 않음)
-    private func autoPresentCameraIfNeeded(resolved: Bool) {
-        guard resolved, !didAutoPresentCamera else { return }
-        didAutoPresentCamera = true
-        if currentNetwork.currentSSID == nil,
-           activeSheet == nil,
-           ImagePicker.isCameraAvailable {
-            activeSheet = .picker(.camera)
-        }
-    }
-
     private var hasInput: Bool {
         !credentials.ssid.isEmpty || !credentials.password.isEmpty
+    }
+
+    /// 직접 입력 시 SSID 드롭다운 후보 — 지금 연결된 와이파이 + 저장된 네트워크(중복 제거).
+    /// iOS는 주변 와이파이 목록을 앱에 제공하지 않아 이 범위가 선택 가능한 최선이다.
+    private var selectableSSIDs: [String] {
+        var seen = Set<String>()
+        var result: [String] = []
+        if let current = currentNetwork.currentSSID, !current.isEmpty {
+            result.append(current)
+            seen.insert(current)
+        }
+        for network in store.networks where !network.ssid.isEmpty && !seen.contains(network.ssid) {
+            result.append(network.ssid)
+            seen.insert(network.ssid)
+        }
+        return result
+    }
+
+    /// 직접 연결 시 SSID 입력. 기본은 '목록에서 선택', 후보가 없거나 사용자가 원하면 키보드 입력.
+    @ViewBuilder
+    private var ssidInput: some View {
+        if selectableSSIDs.isEmpty || typingSSID {
+            HStack(spacing: 8) {
+                TextField("SSID (와이파이 이름)", text: $credentials.ssid)
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled()
+                    .textFieldStyle(.roundedBorder)
+                    .focused($focusSSID)
+
+                // 목록 선택으로 되돌아가기 (선택 가능한 와이파이가 있을 때만)
+                if !selectableSSIDs.isEmpty {
+                    Button {
+                        typingSSID = false
+                        focusSSID = false
+                    } label: {
+                        Image(systemName: "list.bullet.circle.fill")
+                            .font(.title2)
+                            .foregroundStyle(.orange)
+                    }
+                }
+            }
+        } else {
+            // 기본: 알고 있는 와이파이(지금 연결됨 + 저장됨)에서 선택
+            Menu {
+                ForEach(selectableSSIDs, id: \.self) { ssid in
+                    Button {
+                        credentials.ssid = ssid
+                    } label: {
+                        Label(ssid, systemImage: ssid == currentNetwork.currentSSID ? "wifi" : "clock.arrow.circlepath")
+                    }
+                }
+                Divider()
+                Button {
+                    credentials.ssid = ""
+                    typingSSID = true
+                    focusSSID = true
+                } label: {
+                    Label("직접 입력…", systemImage: "keyboard")
+                }
+            } label: {
+                HStack(spacing: 8) {
+                    Image(systemName: "wifi").foregroundStyle(.secondary)
+                    Text(credentials.ssid.isEmpty ? "와이파이 선택" : credentials.ssid)
+                        .foregroundStyle(credentials.ssid.isEmpty ? .secondary : .primary)
+                        .lineLimit(1)
+                        .truncationMode(.middle)
+                    Spacer()
+                    Image(systemName: "chevron.up.chevron.down")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+                .padding(.horizontal, 12)
+                .padding(.vertical, 10)
+                .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 8))
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+        }
     }
 
     /// 지금 연결된 와이파이가 저장돼 있으면 그 네트워크(=여기)
@@ -153,33 +228,85 @@ struct ContentView: View {
                     Spacer(minLength: 8)
                 }
 
-                ConnectedQR(network: network)
+                ConnectedFlipCard(network: network)
 
-                Text("친구에게 이 QR을 보여주면 바로 연결돼요")
+                Text("친구에게 QR을 보여주면 바로 연결 · 밀거나 탭하면 안내판 미리보기")
                     .font(.caption)
                     .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
                     .frame(maxWidth: .infinity)
+
+                // 카페·매장용: 비치할 예쁜 안내판을 만들어 인쇄/공유
+                Button {
+                    activeSheet = .poster(network)
+                } label: {
+                    Label("손님용 안내판 만들기", systemImage: "printer.fill")
+                        .font(.subheadline.weight(.semibold))
+                        .frame(maxWidth: .infinity, minHeight: 38)
+                }
+                .buttonStyle(.bordered)
+                .buttonBorderShape(.capsule)
+                .tint(.indigo)
             }
         }
     }
 
     private var scanCard: some View {
         card {
-            HStack(spacing: 10) {
-                Button {
-                    activeSheet = .picker(.camera)
-                } label: {
-                    Label("촬영", systemImage: "camera.fill")
-                        .frame(maxWidth: .infinity, minHeight: 40)
+            // 헤더 탭으로 접기/펼치기 (연결돼 있으면 기본 접힘)
+            Button {
+                withAnimation(.snappy) { scanExpanded.toggle() }
+            } label: {
+                HStack(spacing: 10) {
+                    Image(systemName: "plus.circle.fill")
+                        .font(.title3)
+                        .foregroundStyle(.white)
+                        .frame(width: 34, height: 34)
+                        .background(.blue, in: RoundedRectangle(cornerRadius: 9))
+                    VStack(alignment: .leading, spacing: 1) {
+                        Text("와이파이 추가").font(.subheadline.weight(.bold))
+                        Text("촬영·앨범·직접 연결").font(.caption).foregroundStyle(.secondary)
+                    }
+                    Spacer()
+                    Image(systemName: "chevron.down")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                        .rotationEffect(.degrees(scanExpanded ? 0 : -90))
                 }
-                .buttonStyle(.borderedProminent)
-                .disabled(!ImagePicker.isCameraAvailable)
-                .popoverTip(scanTip)
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
 
+            if scanExpanded {
+                HStack(spacing: 10) {
+                    Button {
+                        activeSheet = .picker(.camera)
+                    } label: {
+                        Label("촬영", systemImage: "camera.fill")
+                            .frame(maxWidth: .infinity, minHeight: 40)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .disabled(!ImagePicker.isCameraAvailable)
+                    .popoverTip(scanTip)
+
+                    Button {
+                        activeSheet = .picker(.library)
+                    } label: {
+                        Label("앨범", systemImage: "photo.on.rectangle")
+                            .frame(maxWidth: .infinity, minHeight: 40)
+                    }
+                    .buttonStyle(.bordered)
+                }
+
+                // 스캔 없이 SSID를 골라(또는 입력) 비밀번호로 바로 연결
                 Button {
-                    activeSheet = .picker(.library)
+                    manualEntry = true
+                    credentials = WifiCredentials()
+                    typingSSID = selectableSSIDs.isEmpty   // 후보 없으면 바로 타이핑
+                    showScanResult = true
+                    focusSSID = selectableSSIDs.isEmpty
                 } label: {
-                    Label("앨범", systemImage: "photo.on.rectangle")
+                    Label("와이파이 선택·직접 연결", systemImage: "keyboard")
                         .frame(maxWidth: .infinity, minHeight: 40)
                 }
                 .buttonStyle(.bordered)
@@ -189,9 +316,9 @@ struct ContentView: View {
 
     private var resultCard: some View {
         card {
-            cardHeader(icon: "camera.viewfinder",
-                       title: "스캔한 와이파이 연결",
-                       subtitle: "사진에서 읽은 정보로 이 폰을 연결",
+            cardHeader(icon: manualEntry ? "keyboard" : "camera.viewfinder",
+                       title: manualEntry ? "직접 입력으로 연결" : "스캔한 와이파이 연결",
+                       subtitle: manualEntry ? "아이디와 비밀번호를 입력해 이 폰을 연결" : "사진에서 읽은 정보로 이 폰을 연결",
                        color: .orange)
 
             if isRecognizing {
@@ -200,10 +327,7 @@ struct ContentView: View {
                     Text("인식 중…").foregroundStyle(.secondary)
                 }
             } else {
-                TextField("SSID", text: $credentials.ssid)
-                    .textInputAutocapitalization(.never)
-                    .autocorrectionDisabled()
-                    .textFieldStyle(.roundedBorder)
+                ssidInput
                 PasswordField(placeholder: "비밀번호", text: $credentials.password)
 
                 Button {
@@ -288,7 +412,8 @@ struct ContentView: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.vertical, 8)
                 } else {
-                    // List로 구성해 스와이프 삭제 지원 (칩 디자인은 그대로 유지)
+                    // List로 구성해 스와이프 삭제 지원 (칩 디자인은 그대로 유지).
+                    // 바깥이 ScrollView이므로 높이를 제한해 내부에서만 스크롤되게 한다.
                     List {
                         ForEach(sortedNetworks) { network in
                             savedRow(network)
@@ -306,10 +431,10 @@ struct ContentView: View {
                     }
                     .listStyle(.plain)
                     .scrollContentBackground(.hidden)
+                    .frame(height: min(CGFloat(store.networks.count) * 58 + 8, 360))
                 }
             }
         }
-        .frame(maxHeight: savedExpanded ? .infinity : nil)
     }
 
     @ViewBuilder
@@ -344,6 +469,16 @@ struct ContentView: View {
                 .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
+
+            // 손님용 안내판 만들기
+            Button {
+                activeSheet = .poster(network)
+            } label: {
+                Image(systemName: "printer").rowIcon()
+            }
+            .buttonStyle(.bordered)
+            .buttonBorderShape(.roundedRectangle(radius: 9))
+            .tint(.indigo)
 
             // QR 이미지 바로 공유
             ShareQRButton(network: network)
@@ -442,6 +577,8 @@ struct ContentView: View {
 
     private func runOCR(on image: UIImage) {
         isRecognizing = true
+        manualEntry = false   // 스캔 경로 — 입력 카드 헤더를 '스캔' 문구로
+        typingSSID = true     // 인식한 SSID를 편집 가능한 필드로 보여줌
         // 인식 결과가 비어도 직접 입력할 수 있도록 입력 카드를 열어둔다
         showScanResult = true
         TextRecognizer.recognizeLines(in: image) { lines in
@@ -520,34 +657,98 @@ private struct ShareQRButton: View {
     }
 }
 
-/// 지금 연결된 와이파이를 큼직한 QR로 표시 — 화면만 보여주면 바로 공유되는 메인 콘텐츠
-private struct ConnectedQR: View {
+/// 지금 연결된 와이파이 — 앞면은 연결용 QR, 뒷면은 손님용 안내판 미리보기.
+/// 카드를 탭하거나 좌우로 밀면 뒤집힌다.
+private struct ConnectedFlipCard: View {
     let network: SavedNetwork
     @State private var qrImage: UIImage?
+    @State private var posterImage: UIImage?
+    @State private var flipped = false
+
+    private let cardHeight: CGFloat = 300
 
     var body: some View {
+        ZStack {
+            front.opacity(flipped ? 0 : 1)
+            back
+                .opacity(flipped ? 1 : 0)
+                .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+        }
+        .frame(maxWidth: .infinity)
+        .frame(height: cardHeight)
+        .rotation3DEffect(.degrees(flipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
+        .animation(.spring(response: 0.5, dampingFraction: 0.85), value: flipped)
+        .contentShape(Rectangle())
+        .onTapGesture { flipped.toggle() }
+        // ScrollView 세로 스크롤을 막지 않도록 simultaneous, 가로가 우세할 때만 뒤집기
+        .simultaneousGesture(
+            DragGesture(minimumDistance: 30)
+                .onEnded { value in
+                    if abs(value.translation.width) > abs(value.translation.height) {
+                        flipped.toggle()
+                    }
+                }
+        )
+        .overlay(alignment: .bottomTrailing) {
+            Image(systemName: "arrow.triangle.2.circlepath")
+                .font(.footnote.weight(.bold))
+                .foregroundStyle(.secondary)
+                .padding(8)
+                .background(.ultraThinMaterial, in: Circle())
+                .padding(6)
+                .rotation3DEffect(.degrees(flipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
+        }
+        .task(id: network.id) { await generate() }
+    }
+
+    private var front: some View {
         Group {
             if let qrImage {
                 Image(uiImage: qrImage)
                     .interpolation(.none)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 220, height: 220)
+                    .frame(width: 210, height: 210)
                     .padding(12)
                     .background(.white, in: RoundedRectangle(cornerRadius: 16))
             } else {
-                ProgressView()
-                    .frame(width: 220, height: 220)
+                ProgressView().frame(width: 210, height: 210)
             }
         }
-        .frame(maxWidth: .infinity)
-        .task(id: network.id) {
-            let ssid = network.ssid
-            let password = network.password
-            qrImage = await Task.detached(priority: .userInitiated) {
-                QRCodeGenerator.wifiQRImage(ssid: ssid, password: password)
-            }.value
+    }
+
+    private var back: some View {
+        Group {
+            if let posterImage {
+                Image(uiImage: posterImage)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxHeight: cardHeight)
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                    .shadow(color: .black.opacity(0.15), radius: 8, y: 4)
+            } else {
+                ProgressView().frame(height: cardHeight)
+            }
         }
+    }
+
+    /// 앞면 QR과 뒷면 안내판 이미지를 만든다. 안내판은 기본 테마로 렌더한 미리보기.
+    @MainActor
+    private func generate() async {
+        let ssid = network.ssid
+        let password = network.password
+        let qr = await Task.detached(priority: .userInitiated) {
+            QRCodeGenerator.wifiQRImage(ssid: ssid, password: password)
+        }.value
+        qrImage = qr
+
+        let poster = WifiPosterView(ssid: ssid, password: password,
+                                    theme: PosterTheme.all[0],
+                                    heading: "무료 와이파이", subtitle: "편하게 이용하세요",
+                                    showPassword: true, qrImage: qr)
+        let renderer = ImageRenderer(content: poster)
+        renderer.scale = 3
+        posterImage = renderer.uiImage
     }
 }
 
