@@ -9,6 +9,9 @@ enum SharedDefaults {
     /// Signing & Capabilities의 App Groups에 이 그룹이 등록돼 있어야 위젯이 데이터를 본다
     static let appGroupID = "group.com.leeo.wifisnap"
     static let savedNetworksKey = "wifisnap.saved.networks"
+    /// 앱이 마지막으로 확인한 '지금 연결된 SSID'.
+    /// 위젯은 NEHotspotNetwork.fetchCurrent를 쓸 수 없어(포그라운드 앱 전용) 이 값에 의존한다.
+    static let currentSSIDKey = "wifisnap.current.ssid"
 
     static let store: UserDefaults = {
         guard let shared = UserDefaults(suiteName: appGroupID) else {

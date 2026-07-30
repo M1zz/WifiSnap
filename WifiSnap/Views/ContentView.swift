@@ -44,6 +44,9 @@ struct ContentView: View {
     // 직접 연결 시 SSID 입력 모드: false=목록에서 선택(기본), true=키보드 타이핑
     @State private var typingSSID = false
 
+    // 앱으로 돌아올 때 SSID를 다시 확인 — 위젯이 참조하는 '지금 연결됨'을 최신으로 유지한다
+    @Environment(\.scenePhase) private var scenePhase
+
     enum ActiveSheet: Identifiable {
         case picker(ImagePicker.Source)
         case detail(SavedNetwork)
@@ -85,6 +88,10 @@ struct ContentView: View {
             .onChange(of: connectedSaved?.id) { _, id in
                 // 연결되면 '와이파이 추가' 섹션을 접고, 끊기면 다시 펼친다
                 withAnimation(.snappy) { scanExpanded = (id == nil) }
+            }
+            .onChange(of: scenePhase) { _, phase in
+                // 설정에서 와이파이를 바꾸고 돌아온 경우를 잡는다
+                if phase == .active { currentNetwork.refresh() }
             }
             .sheet(item: $activeSheet, content: sheetContent)
             .alert(item: $statusMessage, content: alertContent)

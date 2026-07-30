@@ -17,6 +17,8 @@ struct WifiQREntry: TimelineEntry {
     let ssid: String
     /// 탭했을 때 앱에서 열 네트워크 id (없으면 앱이 최근 것을 연다)
     let networkID: String?
+    /// 앱이 마지막으로 확인했을 때 이 와이파이에 연결돼 있었는지
+    let isCurrent: Bool
     let qrImage: UIImage?
 
     var hasNetwork: Bool { !ssid.isEmpty }
@@ -31,7 +33,7 @@ struct WifiQREntry: TimelineEntry {
 struct WifiQRProvider: AppIntentTimelineProvider {
 
     func placeholder(in context: Context) -> WifiQREntry {
-        WifiQREntry(date: Date(), ssid: "WifiSnap", networkID: nil, qrImage: nil)
+        WifiQREntry(date: Date(), ssid: "WifiSnap", networkID: nil, isCurrent: false, qrImage: nil)
     }
 
     func snapshot(for configuration: SelectWifiIntent, in context: Context) async -> WifiQREntry {
@@ -44,19 +46,17 @@ struct WifiQRProvider: AppIntentTimelineProvider {
     }
 
     private func makeEntry(for configuration: SelectWifiIntent) -> WifiQREntry {
-        // 고정한 와이파이가 있으면 그것, 없으면 가장 최근에 연결한 것
-        let network = configuration.network.flatMap { WidgetNetworks.network(id: $0.id) }
-            ?? WidgetNetworks.latest()
-
-        guard let network else {
-            return WifiQREntry(date: Date(), ssid: "", networkID: nil, qrImage: nil)
+        // 고정한 것 → 지금 연결된 것 → 가장 최근에 연결한 것
+        guard let picked = WidgetNetworks.networkToShow(pinnedID: configuration.network?.id) else {
+            return WifiQREntry(date: Date(), ssid: "", networkID: nil, isCurrent: false, qrImage: nil)
         }
         // 위젯 메모리 한도가 빡빡하므로 앱보다 낮은 배율로 만든다 (작은 위젯에서도 충분히 선명)
-        let image = QRCodeGenerator.wifiQRImage(ssid: network.ssid,
-                                                password: network.password,
+        let image = QRCodeGenerator.wifiQRImage(ssid: picked.network.ssid,
+                                                password: picked.network.password,
                                                 scale: 8)
-        return WifiQREntry(date: Date(), ssid: network.ssid,
-                           networkID: network.id.uuidString, qrImage: image)
+        return WifiQREntry(date: Date(), ssid: picked.network.ssid,
+                           networkID: picked.network.id.uuidString,
+                           isCurrent: picked.isCurrent, qrImage: image)
     }
 }
 
@@ -122,9 +122,9 @@ struct WifiQRWidgetView: View {
                 HStack(spacing: 14) {
                     qr
                     VStack(alignment: .leading, spacing: 4) {
-                        Label("와이파이", systemImage: "wifi")
+                        Label(entry.isCurrent ? "지금 연결됨" : "와이파이", systemImage: "wifi")
                             .font(.caption2.weight(.semibold))
-                            .foregroundStyle(.secondary)
+                            .foregroundStyle(entry.isCurrent ? Color.green : .secondary)
                         Text(entry.ssid)
                             .font(.headline)
                             .fixedSize(horizontal: false, vertical: true)
@@ -215,7 +215,7 @@ struct WifiQRWidget: Widget {
             WifiQRWidgetView(entry: entry)
         }
         .configurationDisplayName("와이파이 QR")
-        .description("고정한 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 바꿀 수 있어요.")
+        .description("지금 연결된 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 특정 와이파이로 고정할 수도 있어요.")
         .supportedFamilies([
             .systemSmall, .systemMedium,
             .accessoryRectangular, .accessoryCircular, .accessoryInline

@@ -16,6 +16,31 @@ enum WidgetNetworks {
     static func network(id: String) -> SavedNetwork? {
         all().first { $0.id.uuidString == id }
     }
+
+    /// 지금 연결된 와이파이 — 앱이 남겨 둔 SSID와 일치하는 저장 네트워크.
+    /// 위젯은 SSID를 직접 조회할 수 없어(포그라운드 앱 전용) 앱이 갱신해 준 값에 의존한다.
+    static func currentlyConnected(in networks: [SavedNetwork]) -> SavedNetwork? {
+        guard let ssid = SharedDefaults.store.string(forKey: SharedDefaults.currentSSIDKey),
+              !ssid.isEmpty
+        else { return nil }
+        return networks.first { $0.ssid == ssid }
+    }
+
+    /// 위젯에 보여줄 네트워크.
+    /// 1) 사용자가 고정한 것 → 2) 지금 연결된 것 → 3) 가장 최근에 연결한 것
+    static func networkToShow(pinnedID: String?) -> (network: SavedNetwork, isCurrent: Bool)? {
+        let networks = all()
+        let current = currentlyConnected(in: networks)
+
+        if let pinnedID, let pinned = networks.first(where: { $0.id.uuidString == pinnedID }) {
+            return (pinned, pinned.ssid == current?.ssid)
+        }
+        if let current {
+            return (current, true)
+        }
+        guard let latest = networks.first else { return nil }
+        return (latest, false)
+    }
 }
 
 /// 위젯 편집 화면의 와이파이 선택 항목

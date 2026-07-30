@@ -1,6 +1,7 @@
 import Foundation
 import CoreLocation
 import NetworkExtension
+import WidgetKit
 
 /// 현재 연결된 와이파이의 SSID와 사용자의 현재 위치를 감지
 /// ⚠️ 요구사항:
@@ -12,7 +13,12 @@ import NetworkExtension
 @MainActor
 final class CurrentNetworkService: NSObject, ObservableObject {
 
-    @Published var currentSSID: String?
+    @Published var currentSSID: String? {
+        didSet {
+            guard oldValue != currentSSID else { return }
+            publishCurrentSSIDForWidget()
+        }
+    }
     @Published var permissionDenied = false
     /// 근처 와이파이 추천에 쓰는 현재 위치
     @Published var currentLocation: CLLocation?
@@ -61,6 +67,21 @@ final class CurrentNetworkService: NSObject, ObservableObject {
             currentSSID = nil
             ssidResolved = true
         }
+    }
+
+    /// 지금 연결된 SSID를 공유 저장소에 남겨 위젯이 읽게 한다.
+    ///
+    /// 위젯 익스텐션은 NEHotspotNetwork.fetchCurrent를 쓸 수 없다(포그라운드 앱만 허용).
+    /// 그래서 위젯의 '지금 연결된 와이파이'는 **앱이 마지막으로 확인한 시점**의 값이다 —
+    /// 앱을 열지 않고 와이파이를 바꾸면 위젯은 그 사실을 알 수 없다.
+    private func publishCurrentSSIDForWidget() {
+        let store = SharedDefaults.store
+        if let ssid = currentSSID, !ssid.isEmpty {
+            store.set(ssid, forKey: SharedDefaults.currentSSIDKey)
+        } else {
+            store.removeObject(forKey: SharedDefaults.currentSSIDKey)
+        }
+        WidgetCenter.shared.reloadAllTimelines()
     }
 
     /// 이 앱이 넣어둔 와이파이 설정 목록 (iOS 11+). 시뮬레이터에서는 항상 빈 배열.

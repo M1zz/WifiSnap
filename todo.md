@@ -137,7 +137,10 @@
 - [x] 잠금화면 vibrant 렌더링 대응: 흰 카드 없이 QR 얹기, 원형은 QR 대신 지름길로
 - [x] widgetURL(wifisnap://qr?id=…) + onOpenURL → 고정된 와이파이 QR 상세 열기
 - [x] 위젯에 고정할 와이파이 선택: AppIntentConfiguration + WifiNetworkEntity/Query
-      (길게 눌러 '위젯 편집', 고르지 않으면 최근 연결 것으로 대체)
+- [x] 위젯 표시 우선순위: 고정한 것 → 지금 연결된 것 → 가장 최근에 연결한 것
+- [x] 위젯은 SSID를 직접 조회 불가(포그라운드 앱 전용) → 앱이 공유 저장소에 현재 SSID를 남김
+- [x] scenePhase .active에서 refresh() — 설정에서 와이파이 바꾸고 돌아온 경우 반영
+- [x] '지금 연결됨' 초록 표시 (중간 위젯), 우선순위 7개 경우 검증
 - [x] CFBundleURLTypes 등록을 위해 앱 Info.plist를 명시 파일로 전환(권한 문구·런치스크린 이관)
 - [x] 목록 변경 시 WidgetCenter.reloadAllTimelines()
 - [x] 위젯 데이터 경로(공유 저장소 → 디코딩 → QR 문자열) 검증, 번들 임베드 확인
