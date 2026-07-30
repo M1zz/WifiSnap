@@ -1,6 +1,9 @@
 name: WifiSnap
 options:
-  bundleIdPrefix: com.wifisnap
+  # 번들 ID는 com.leeo.wifisnap 으로 고정한다. 한 번 앱스토어에 올라간 뒤로는
+  # 바꾸면 다른 앱이 되어 버리므로(업데이트 불가, 기기의 저장 데이터·와이파이 설정 소실)
+  # 절대 변경하지 말 것. 아래 preBuildScripts에서 빌드마다 검증한다.
+  bundleIdPrefix: com.leeo
   deploymentTarget:
     iOS: "17.0"
   createIntermediateGroups: true
@@ -19,7 +22,7 @@ targets:
       - path: WifiSnap
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.wifisnap.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.leeo.wifisnap   # 고정 — 변경 금지
         GENERATE_INFOPLIST_FILE: YES
         CODE_SIGN_ENTITLEMENTS: WifiSnap/WifiSnap.entitlements
         TARGETED_DEVICE_FAMILY: "1"
@@ -28,3 +31,13 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
         INFOPLIST_KEY_NSCameraUsageDescription: "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다."
         INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
+    preBuildScripts:
+      # 번들 ID가 실수로(Xcode UI 편집, 팀 자동설정 등) 바뀌면 빌드를 멈춘다
+      - name: 번들 ID 고정 확인
+        basedOnDependencyAnalysis: false
+        script: |
+          EXPECTED="com.leeo.wifisnap"
+          if [ "$PRODUCT_BUNDLE_IDENTIFIER" != "$EXPECTED" ]; then
+            echo "error: 번들 ID는 $EXPECTED 로 고정되어야 합니다 (현재: $PRODUCT_BUNDLE_IDENTIFIER). project.yml을 확인하세요."
+            exit 1
+          fi

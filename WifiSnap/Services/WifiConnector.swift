@@ -17,8 +17,13 @@ enum WifiConnector {
         }
     }
 
+    /// - Parameter verifyJoin: apply() 후 실제로 그 SSID에 붙었는지 확인할지 여부.
+    ///   iOS는 존재하지 않는 SSID에도 apply()에서 에러를 주지 않고 조용히 연결만 안 한다.
+    ///   그래서 확인 없이는 OCR이 잘못 읽은 이름도 '연결 성공'으로 처리된다.
+    ///   확인에는 위치 권한이 필요하므로(SSID 조회 조건), 권한이 없으면 false로 넘겨야 한다.
     static func connect(ssid: String,
                         password: String,
+                        verifyJoin: Bool = true,
                         completion: @escaping (Result<Void, Error>) -> Void) {
         let configuration: NEHotspotConfiguration
         if password.isEmpty {
@@ -34,7 +39,11 @@ enum WifiConnector {
         NEHotspotConfigurationManager.shared.apply(configuration) { error in
             DispatchQueue.main.async {
                 guard let nsError = error as NSError? else {
-                    completion(.success(()))
+                    if verifyJoin {
+                        verifyJoined(ssid: ssid, remaining: 5, completion: completion)
+                    } else {
+                        completion(.success(()))
+                    }
                     return
                 }
                 // 이미 해당 네트워크에 연결된 상태는 성공으로 처리
@@ -44,6 +53,32 @@ enum WifiConnector {
                     return
                 }
                 completion(.failure(ConnectError.failed(friendlyMessage(nsError))))
+            }
+        }
+    }
+
+    /// 실제로 그 SSID에 붙었는지 확인. 붙을 때까지 1초 간격으로 remaining번 재시도한다.
+    /// 끝내 못 붙으면 = 그 이름의 와이파이가 주변에 없다는 뜻이므로,
+    /// 설정 앱에 유령 네트워크가 쌓이지 않게 방금 넣은 설정을 되돌린다.
+    private static func verifyJoined(ssid: String,
+                                     remaining: Int,
+                                     completion: @escaping (Result<Void, Error>) -> Void) {
+        NEHotspotNetwork.fetchCurrent { network in
+            DispatchQueue.main.async {
+                if network?.ssid == ssid {
+                    completion(.success(()))
+                    return
+                }
+                guard remaining > 0 else {
+                    NEHotspotConfigurationManager.shared.removeConfiguration(forSSID: ssid)
+                    completion(.failure(ConnectError.failed(
+                        "'\(ssid)' 와이파이를 찾지 못했어요.\n이름이 정확한지, 신호 범위 안에 있는지 확인해 주세요."
+                    )))
+                    return
+                }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    verifyJoined(ssid: ssid, remaining: remaining - 1, completion: completion)
+                }
             }
         }
     }

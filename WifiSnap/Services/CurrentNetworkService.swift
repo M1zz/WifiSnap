@@ -19,6 +19,11 @@ final class CurrentNetworkService: NSObject, ObservableObject {
     /// SSID 조회를 한 번이라도 끝냈는지 (연결 여부가 확정됐다는 신호).
     /// 이 값이 true인데 currentSSID가 nil이면 '연결된 와이파이 없음'이 확정된 상태.
     @Published var ssidResolved = false
+    /// 이 앱이 설정해 둔 SSID들 — iOS가 알려주는 '실제로 존재했던' 이름이라 선택 후보로 신뢰할 수 있다.
+    /// (주변 와이파이 스캔은 iOS가 앱에 허용하지 않으므로 이게 목록을 넓힐 수 있는 유일한 수단)
+    @Published var configuredSSIDs: [String] = []
+    /// 위치 권한이 있어 SSID를 읽을 수 있는 상태인지 — 연결 후 검증 가능 여부와 직결
+    @Published var canReadSSID = false
 
     private let locationManager = CLLocationManager()
     private var fetchAfterAuthorization = false
@@ -33,21 +38,37 @@ final class CurrentNetworkService: NSObject, ObservableObject {
 
     /// 권한 상태를 확인하고 SSID·위치를 가져옴 (필요 시 위치 권한 요청)
     func refresh() {
+        // 설정해 둔 SSID 조회는 위치 권한과 무관하므로 항상 갱신
+        loadConfiguredSSIDs()
+
         switch locationManager.authorizationStatus {
         case .notDetermined:
             fetchAfterAuthorization = true
+            canReadSSID = false
             locationManager.requestWhenInUseAuthorization()
         case .authorizedWhenInUse, .authorizedAlways:
             permissionDenied = false
+            canReadSSID = true
             locationManager.startUpdatingLocation()
             fetchSSID()
         case .denied, .restricted:
             permissionDenied = true
+            canReadSSID = false
             currentSSID = nil
             ssidResolved = true   // 권한이 없어 조회 불가 = '연결 없음'으로 확정
         @unknown default:
+            canReadSSID = false
             currentSSID = nil
             ssidResolved = true
+        }
+    }
+
+    /// 이 앱이 넣어둔 와이파이 설정 목록 (iOS 11+). 시뮬레이터에서는 항상 빈 배열.
+    private func loadConfiguredSSIDs() {
+        NEHotspotConfigurationManager.shared.getConfiguredSSIDs { [weak self] ssids in
+            Task { @MainActor in
+                self?.configuredSSIDs = ssids
+            }
         }
     }
 

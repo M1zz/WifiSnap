@@ -5,6 +5,17 @@ struct WifiCredentials: Equatable {
     var password: String = ""
 }
 
+/// 사진 한 장의 인식 결과. 파서의 '최선의 추측'과 함께,
+/// 추측이 틀렸을 때 사용자가 바로 고를 수 있도록 SSID 후보들을 함께 돌려준다.
+struct WifiScanResult: Equatable {
+    var credentials = WifiCredentials()
+    /// SSID로 쓸 만한 후보 (추천순). 비어 있지 않으면 첫 항목이 credentials.ssid.
+    var ssidCandidates: [String] = []
+    /// 사진에서 읽은 값 조각 전부 (사진에 나온 순서).
+    /// 추측이 틀렸을 때 아이디·비밀번호 칸으로 끌어다 놓는 퍼즐 조각으로 쓴다.
+    var tokens: [String] = []
+}
+
 /// OCR로 읽은 줄들에서 ID(SSID)와 PW를 최대한 다양한 표기로 찾아내는 파서.
 ///
 /// 지원 패턴 예시:
@@ -28,10 +39,28 @@ enum WifiCredentialParser {
         "p/w", "pwd", "pw", "key"
     ]
 
-    // 안내판에 흔하지만 자격증명이 아닌 문구
+    // 안내판에 흔하지만 자격증명이 아닌 장식 문구
     private static let noiseWords = [
-        "free", "zone", "guest", "무료", "환영", "welcome", "무선", "인터넷", "wifi존"
+        "free", "zone", "guest", "무료", "환영", "welcome", "무선", "인터넷",
+        "wifi존", "wi-fi", "wifi", "와이파이"
     ]
+
+    /// 장식 문구뿐인 줄인지 — 장식 단어를 걷어냈을 때 남는 글자가 없으면 잡음("FREE WIFI", "무료").
+    /// 부분 일치로 판단하면 "CAFE_GUEST", "KT_WiFi", "welcome1234" 같은 진짜 값까지 사라진다.
+    private static func isNoise(_ text: String) -> Bool {
+        var rest = text.lowercased()
+        for word in noiseWords {
+            rest = rest.replacingOccurrences(of: word, with: " ")
+        }
+        return rest.rangeOfCharacter(from: .alphanumerics) == nil
+    }
+
+    /// 장식 문구를 뺀 후보를 우선 쓰되, 그러면 남는 게 없을 땐 장식 문구라도 쓴다.
+    /// (안내판에 "FreeWiFi" 한 줄만 있고 그게 진짜 이름인 경우를 잃지 않으려고)
+    private static func preferring(_ pool: [String]) -> [String] {
+        let clean = pool.filter { !isNoise($0) }
+        return clean.isEmpty ? pool : clean
+    }
 
     // 값 가장자리에서 걷어낼 구분/기호 문자
     private static let junk = CharacterSet(charactersIn: " \t\r\n:：=＝|｜→⇒>》「」\"'`()[]（）/／-–—.,·•*")
@@ -40,10 +69,11 @@ enum WifiCredentialParser {
 
     // MARK: - Public
 
-    static func parse(lines: [String]) -> WifiCredentials {
+    static func parse(lines: [String]) -> WifiScanResult {
         var result = WifiCredentials()
         var pendingKind: KeyKind? = nil     // "PW :"처럼 값이 다음 줄로 넘어간 경우
         var candidates: [String] = []       // 라벨 없는 줄 (마지막 추정용)
+        var seenValues: [String] = []       // 등장한 모든 값 (SSID 후보 목록용)
 
         for raw in lines {
             let line = raw.trimmingCharacters(in: .whitespaces)
@@ -55,7 +85,9 @@ enum WifiCredentialParser {
             if let pk = pendingKind {
                 pendingKind = nil
                 if hits.isEmpty {
-                    assign(pk, cleanValue(line), to: &result)
+                    let value = cleanValue(line)
+                    seenValues.append(value)
+                    assign(pk, value, to: &result)
                     continue
                 }
                 // 이 줄도 라벨이면 아래에서 새 라벨로 처리 (직전 라벨은 값 없이 버림)
@@ -64,6 +96,7 @@ enum WifiCredentialParser {
             // 라벨이 하나도 없으면 후보로만 모아두고 넘어감
             if hits.isEmpty {
                 candidates.append(line)
+                seenValues.append(cleanValue(line))
                 continue
             }
 
@@ -78,6 +111,7 @@ enum WifiCredentialParser {
                     .map { $0.trimmingCharacters(in: junk) }
                     .filter { !$0.isEmpty }
                 if parts.count >= 2 {
+                    seenValues.append(contentsOf: [parts.first!, parts.last!])
                     assign(linePairs[0].kind, parts.first!, to: &result)
                     assign(linePairs[1].kind, parts.last!, to: &result)
                     continue
@@ -88,13 +122,52 @@ enum WifiCredentialParser {
                 if value.isEmpty {
                     pendingKind = kind      // 값은 다음 줄에 있을 것
                 } else {
+                    seenValues.append(value)
                     assign(kind, value, to: &result)
                 }
             }
         }
 
         fillMissing(&result, candidates: candidates)
-        return result
+        return WifiScanResult(
+            credentials: result,
+            ssidCandidates: rankSSIDCandidates(seenValues, result: result),
+            tokens: tokenPool(seenValues)
+        )
+    }
+
+    /// 퍼즐 조각 풀 — 사진에 나온 순서 그대로, 값으로 쓸 만한 것만.
+    /// 사진의 배치와 순서가 같아야 사용자가 어떤 조각인지 알아본다.
+    private static func tokenPool(_ values: [String]) -> [String] {
+        var seen = Set<String>()
+        return values
+            .map { $0.trimmingCharacters(in: junk) }
+            // 퍼즐은 사용자의 탈출구이므로 장식 문구도 남긴다 — 그게 진짜 이름일 수도 있다
+            .filter { SSIDMatcher.isPlausible($0) && seen.insert($0).inserted }
+    }
+
+    /// 사진에서 나온 값들 중 SSID로 쓸 만한 것을 추천순으로 정렬한다.
+    /// 파서가 고른 값을 맨 앞에 두되, 그게 틀렸을 때 사용자가 바로 다른 걸 고를 수 있게 한다.
+    private static func rankSSIDCandidates(_ values: [String], result: WifiCredentials) -> [String] {
+        var seen = Set<String>()
+        let pool = values
+            .map { $0.trimmingCharacters(in: junk) }
+            .filter { SSIDMatcher.isPlausible($0) && $0 != result.password && seen.insert($0).inserted }
+
+        // 아이디다움 점수 순. 동점이면 사진에서 먼저 나온 줄 우선.
+        var ranked = pool.enumerated()
+            .sorted { a, b in
+                let sa = ssidRank(a.element), sb = ssidRank(b.element)
+                return sa != sb ? sa > sb : a.offset < b.offset
+            }
+            .map(\.element)
+
+        // 파서가 확정한 SSID는 항상 맨 앞
+        if !result.ssid.isEmpty {
+            ranked.removeAll { $0 == result.ssid }
+            ranked.insert(result.ssid, at: 0)
+        }
+        return Array(ranked.prefix(6))
     }
 
     // MARK: - 라벨 탐지
@@ -179,35 +252,69 @@ enum WifiCredentialParser {
 
     /// 라벨로 못 채운 칸을 "비밀번호처럼/아이디처럼 생겼는지"로 채운다.
     private static func fillMissing(_ result: inout WifiCredentials, candidates: [String]) {
-        let pool = candidates.filter { c in
-            c.count >= 4 &&
-            !noiseWords.contains(where: { c.lowercased().contains($0) }) &&
-            c != result.ssid && c != result.password
+        let usable = candidates.filter { c in
+            c.count >= 4 && c != result.ssid && c != result.password
         }
-        guard !pool.isEmpty else { return }
+        guard !usable.isEmpty else { return }
 
         if result.ssid.isEmpty && result.password.isEmpty {
-            if pool.count == 1 {
-                if pwScore(pool[0]) >= 2 { result.password = pool[0] } else { result.ssid = pool[0] }
+            if usable.count == 1 {
+                if pwScore(usable[0]) >= 2 { result.password = usable[0] } else { result.ssid = usable[0] }
                 return
             }
-            // 비번 점수 높은 순, 동점이면 뒤쪽 줄을 비번으로 (이름이 보통 위에 옴)
-            let ranked = pool.enumerated().sorted { a, b in
-                let sa = pwScore(a.element), sb = pwScore(b.element)
-                return sa != sb ? sa > sb : a.offset > b.offset
-            }.map(\.element)
-            result.password = ranked.first!
-            result.ssid = ranked.last!
+            // 비밀번호를 먼저 고르고, 남은 것 중에서 아이디를 고른다
+            let password = best(in: preferring(usable), by: passwordRank, preferLaterLine: true)
+            result.password = password
+            let rest = usable.filter { $0 != password }
+            result.ssid = best(in: preferring(rest.isEmpty ? usable : rest),
+                               by: ssidRank, preferLaterLine: false)
         } else if result.password.isEmpty {
-            if let best = pool.max(by: { pwScore($0) < pwScore($1) }), pwScore(best) >= 1 {
-                result.password = best
-            }
+            let candidate = best(in: preferring(usable), by: passwordRank, preferLaterLine: true)
+            if pwScore(candidate) >= 1 { result.password = candidate }
         } else if result.ssid.isEmpty {
-            // 가장 아이디다운(비번 점수 낮은) 것
-            if let best = pool.min(by: { pwScore($0) < pwScore($1) }) {
-                result.ssid = best
-            }
+            result.ssid = best(in: preferring(usable), by: ssidRank, preferLaterLine: false)
         }
+    }
+
+    /// 점수가 가장 높은 값. 동점이면 비밀번호는 아래쪽 줄, 아이디는 위쪽 줄을 고른다
+    /// (안내판은 보통 이름이 위, 비밀번호가 아래에 온다).
+    private static func best(in pool: [String],
+                             by score: (String) -> Int,
+                             preferLaterLine: Bool) -> String {
+        pool.enumerated().max { a, b in
+            let sa = score(a.element), sb = score(b.element)
+            if sa != sb { return sa < sb }
+            return preferLaterLine ? a.offset < b.offset : a.offset > b.offset
+        }!.element
+    }
+
+    /// 한글·한자·가나가 섞였는지. 와이파이 이름과 비밀번호는 라틴 문자·숫자가 압도적으로 많다.
+    private static func hasNonLatinScript(_ text: String) -> Bool {
+        text.unicodeScalars.contains { scalar in
+            (0xAC00...0xD7A3).contains(scalar.value)      // 한글 음절
+                || (0x1100...0x11FF).contains(scalar.value)   // 한글 자모
+                || (0x3130...0x318F).contains(scalar.value)   // 한글 호환 자모
+                || (0x3040...0x30FF).contains(scalar.value)   // 가나
+                || (0x4E00...0x9FFF).contains(scalar.value)   // 한자
+        }
+    }
+
+    /// 영문 우선 가산점. pwScore 범위(대략 ±6)보다 크게 잡아 라틴 문자 값이 항상 앞서게 한다.
+    /// 후보가 전부 한글이면 가산점이 모두에게 없으므로 그중에서 정상적으로 고른다.
+    private static let latinBonus = 10
+
+    private static func latinScore(_ text: String) -> Int {
+        hasNonLatinScript(text) ? 0 : latinBonus
+    }
+
+    /// 비밀번호 후보 점수 (클수록 비밀번호다움)
+    private static func passwordRank(_ text: String) -> Int {
+        pwScore(text) + latinScore(text)
+    }
+
+    /// 아이디 후보 점수 (클수록 아이디다움)
+    private static func ssidRank(_ text: String) -> Int {
+        -pwScore(text) + latinScore(text)
     }
 
     /// 값이 비밀번호처럼 보일수록 큰 점수 (아이디처럼 보이면 낮거나 음수)

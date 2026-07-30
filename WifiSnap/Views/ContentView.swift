@@ -5,13 +5,23 @@ import TipKit
 struct ContentView: View {
     @StateObject private var store = NetworkStore()
     @StateObject private var currentNetwork = CurrentNetworkService()
+    /// 사용자가 '설정 > Wi-Fi' 캡처에서 가져온 이름들
+    @StateObject private var knownSSIDStore = KnownSSIDStore()
+    /// 만들어 둔 손님용 안내판들
+    @StateObject private var posterStore = PosterDesignStore()
 
     // 기능 안내 팁
     private let scanTip = ScanWifiTip()
+    private let connectedTip = ConnectedCardTip()
+    private let rowActionsTip = SavedRowActionsTip()
     private let nearbyTip = NearbyWifiTip()
 
     // 스캔 & 편집 상태
     @State private var credentials = WifiCredentials()
+    // 사진에서 읽은 SSID 후보들 — 파서의 추측이 틀렸을 때 탭 한 번으로 바꿀 수 있게
+    @State private var ssidCandidates: [String] = []
+    // 사진에서 읽은 값 조각들 — 아이디·비밀번호 칸으로 끌어다 놓는 퍼즐 조각
+    @State private var scanTokens: [String] = []
     @State private var isRecognizing = false
     // 스캔을 시작하면 인식 실패해도 입력 카드를 열어둬 직접 입력할 수 있게 함
     @State private var showScanResult = false
@@ -36,16 +46,20 @@ struct ContentView: View {
 
     enum ActiveSheet: Identifiable {
         case picker(ImagePicker.Source)
-        case qr(SavedNetwork)
+        case detail(SavedNetwork)
         case poster(SavedNetwork)
+        case share(SavedNetwork, UIImage)
         case map
+        case importList
 
         var id: String {
             switch self {
             case .picker(let source): return "picker-\(source.id)"
-            case .qr(let network): return "qr-\(network.id)"
+            case .detail(let network): return "detail-\(network.id)"
             case .poster(let network): return "poster-\(network.id)"
+            case .share(let network, _): return "share-\(network.id)"
             case .map: return "map"
+            case .importList: return "importList"
             }
         }
     }
@@ -62,6 +76,11 @@ struct ContentView: View {
             .onAppear {
                 currentNetwork.refresh()
                 scanExpanded = (connectedSaved == nil)
+                // 이전 버전에서 저장한 네트워크만 있어도 목록 팁이 뜨도록 여기서도 도네이션.
+                // (연결 시점에만 도네이션하면 이미 목록이 있는 사용자에게는 팁이 영영 안 뜬다)
+                if !store.networks.isEmpty {
+                    Task { await WifiSnapTips.savedNetwork.donate() }
+                }
             }
             .onChange(of: connectedSaved?.id) { _, id in
                 // 연결되면 '와이파이 추가' 섹션을 접고, 끊기면 다시 펼친다
@@ -99,12 +118,22 @@ struct ContentView: View {
         case .picker(let source):
             ImagePicker(source: source) { image in runOCR(on: image) }
                 .ignoresSafeArea()
-        case .qr(let network):
-            QRCodeSheet(ssid: network.ssid, password: network.password)
+        case .detail(let network):
+            NetworkDetailSheet(network: network, posterStore: posterStore) {
+                credentials = WifiCredentials(ssid: network.ssid, password: network.password)
+                connect()
+            }
         case .poster(let network):
-            WifiPosterSheet(ssid: network.ssid, password: network.password)
+            PosterListSheet(store: posterStore, ssid: network.ssid, password: network.password)
+        case .share(let network, let image):
+            ActivityShareSheet(image: image)
+                .ignoresSafeArea()
+                .presentationDetents([.medium, .large])
+                .id(network.id)
         case .map:
             MapSheet(networks: store.networks)
+        case .importList:
+            WifiListImportSheet(store: knownSSIDStore)
         }
     }
 
@@ -118,35 +147,57 @@ struct ContentView: View {
         !credentials.ssid.isEmpty || !credentials.password.isEmpty
     }
 
-    /// 직접 입력 시 SSID 드롭다운 후보 — 지금 연결된 와이파이 + 저장된 네트워크(중복 제거).
-    /// iOS는 주변 와이파이 목록을 앱에 제공하지 않아 이 범위가 선택 가능한 최선이다.
-    private var selectableSSIDs: [String] {
+    /// 선택 가능한 와이파이 한 줄
+    private struct SSIDOption: Identifiable {
+        let ssid: String
+        let icon: String
+        let detail: String?
+        var id: String { ssid }
+    }
+
+    /// 이 폰이 '아는' 와이파이 — 지금 연결됨 + 앱에 저장됨(근처순) + 앱이 설정해 둠.
+    /// iOS는 주변 와이파이 스캔을 앱에 허용하지 않으므로(NEHotspotHelper 특별 엔타이틀먼트 전용),
+    /// 이 셋을 합친 것이 목록으로 제공할 수 있는 최대 범위다.
+    private var knownOptions: [SSIDOption] {
         var seen = Set<String>()
-        var result: [String] = []
-        if let current = currentNetwork.currentSSID, !current.isEmpty {
-            result.append(current)
-            seen.insert(current)
+        var result: [SSIDOption] = []
+        func add(_ ssid: String, icon: String, detail: String?) {
+            let name = ssid.trimmingCharacters(in: .whitespaces)
+            guard !name.isEmpty, seen.insert(name).inserted else { return }
+            result.append(SSIDOption(ssid: name, icon: icon, detail: detail))
         }
-        for network in store.networks where !network.ssid.isEmpty && !seen.contains(network.ssid) {
-            result.append(network.ssid)
-            seen.insert(network.ssid)
+        if let current = currentNetwork.currentSSID {
+            add(current, icon: "wifi", detail: "지금 연결됨")
+        }
+        for network in sortedNetworks {
+            add(network.ssid, icon: "clock.arrow.circlepath", detail: nearbyTag(for: network))
+        }
+        for ssid in currentNetwork.configuredSSIDs {
+            add(ssid, icon: "gearshape", detail: "이 폰에 설정됨")
+        }
+        // 사용자가 '설정 > Wi-Fi' 캡처로 알려준 이름들
+        for ssid in knownSSIDStore.ssids {
+            add(ssid, icon: "text.viewfinder", detail: "캡처에서 가져옴")
         }
         return result
     }
 
-    /// 직접 연결 시 SSID 입력. 기본은 '목록에서 선택', 후보가 없거나 사용자가 원하면 키보드 입력.
+    private var knownSSIDs: [String] { knownOptions.map(\.ssid) }
+
+    /// SSID 입력. 기본은 '목록/후보에서 선택', 사용자가 원하면 키보드 입력.
+    /// 고를 게 하나도 없어도 메뉴를 띄운다 — 거기에 '캡처에서 가져오기' 진입점이 있기 때문.
     @ViewBuilder
     private var ssidInput: some View {
-        if selectableSSIDs.isEmpty || typingSSID {
-            HStack(spacing: 8) {
-                TextField("SSID (와이파이 이름)", text: $credentials.ssid)
-                    .textInputAutocapitalization(.never)
-                    .autocorrectionDisabled()
-                    .textFieldStyle(.roundedBorder)
-                    .focused($focusSSID)
+        VStack(alignment: .leading, spacing: 8) {
+            if typingSSID {
+                HStack(spacing: 8) {
+                    TextField("SSID (와이파이 이름)", text: $credentials.ssid)
+                        .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled()
+                        .textFieldStyle(.roundedBorder)
+                        .focused($focusSSID)
 
-                // 목록 선택으로 되돌아가기 (선택 가능한 와이파이가 있을 때만)
-                if !selectableSSIDs.isEmpty {
+                    // 목록 선택으로 되돌아가기
                     Button {
                         typingSSID = false
                         focusSSID = false
@@ -156,44 +207,107 @@ struct ContentView: View {
                             .foregroundStyle(.orange)
                     }
                 }
+            } else {
+                ssidMenu
             }
-        } else {
-            // 기본: 알고 있는 와이파이(지금 연결됨 + 저장됨)에서 선택
-            Menu {
-                ForEach(selectableSSIDs, id: \.self) { ssid in
-                    Button {
-                        credentials.ssid = ssid
-                    } label: {
-                        Label(ssid, systemImage: ssid == currentNetwork.currentSSID ? "wifi" : "clock.arrow.circlepath")
+
+            // 사진에서 읽은 후보들 — 파서가 엉뚱한 줄을 골랐을 때 탭 한 번으로 교정
+            if !ssidCandidates.isEmpty && !typingSSID {
+                ssidCandidateChips
+            }
+        }
+    }
+
+    private var ssidMenu: some View {
+        Menu {
+            if !ssidCandidates.isEmpty {
+                Section("사진에서 읽음") {
+                    ForEach(ssidCandidates, id: \.self) { candidate in
+                        Button { selectSSID(candidate) } label: {
+                            Label(candidate, systemImage: "camera.viewfinder")
+                        }
                     }
                 }
-                Divider()
-                Button {
-                    credentials.ssid = ""
-                    typingSSID = true
-                    focusSSID = true
-                } label: {
-                    Label("직접 입력…", systemImage: "keyboard")
-                }
-            } label: {
-                HStack(spacing: 8) {
-                    Image(systemName: "wifi").foregroundStyle(.secondary)
-                    Text(credentials.ssid.isEmpty ? "와이파이 선택" : credentials.ssid)
-                        .foregroundStyle(credentials.ssid.isEmpty ? .secondary : .primary)
-                        .lineLimit(1)
-                        .truncationMode(.middle)
-                    Spacer()
-                    Image(systemName: "chevron.up.chevron.down")
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
-                }
-                .padding(.horizontal, 12)
-                .padding(.vertical, 10)
-                .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 8))
-                .contentShape(Rectangle())
             }
-            .buttonStyle(.plain)
+            if !knownOptions.isEmpty {
+                Section("이 폰이 아는 와이파이") {
+                    ForEach(knownOptions) { option in
+                        Button { selectSSID(option.ssid) } label: {
+                            Label(option.detail.map { "\(option.ssid) · \($0)" } ?? option.ssid,
+                                  systemImage: option.icon)
+                        }
+                    }
+                }
+            }
+            Divider()
+            // iOS가 저장된 와이파이 목록을 안 주므로, 사용자가 설정 화면을 캡처해 알려주는 경로
+            Button {
+                activeSheet = .importList
+            } label: {
+                Label("설정 캡처에서 목록 가져오기…", systemImage: "text.viewfinder")
+            }
+            Button {
+                credentials.ssid = ""
+                typingSSID = true
+                focusSSID = true
+            } label: {
+                Label("직접 입력…", systemImage: "keyboard")
+            }
+        } label: {
+            HStack(spacing: 8) {
+                Image(systemName: "wifi").foregroundStyle(.secondary)
+                Text(credentials.ssid.isEmpty ? "와이파이 선택" : credentials.ssid)
+                    .foregroundStyle(credentials.ssid.isEmpty ? .secondary : .primary)
+                    .lineLimit(1)
+                    .truncationMode(.middle)
+                Spacer()
+                Image(systemName: "chevron.up.chevron.down")
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
+            .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 8))
+            .contentShape(Rectangle())
         }
+        .buttonStyle(.plain)
+    }
+
+    private var ssidCandidateChips: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Text("사진에서 읽은 이름 — 맞는 걸 골라주세요")
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 6) {
+                    ForEach(ssidCandidates, id: \.self) { candidate in
+                        let isSelected = candidate == credentials.ssid
+                        Button {
+                            selectSSID(candidate)
+                        } label: {
+                            Text(candidate)
+                                .font(.caption.weight(.medium))
+                                .lineLimit(1)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 6)
+                                .background(isSelected ? Color.orange.opacity(0.2) : Color(.tertiarySystemFill),
+                                            in: Capsule())
+                                .foregroundStyle(isSelected ? .orange : .primary)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .padding(.horizontal, 1)   // 캡슐 테두리가 잘리지 않게
+            }
+        }
+    }
+
+    /// 후보를 고를 때, 이 폰이 아는 이름과 사실상 같으면 그 이름으로 교정한다.
+    /// (OCR이 O↔0, l↔1 등을 헷갈려 실제로 없는 이름을 만들어내는 걸 막는다)
+    private func selectSSID(_ ssid: String) {
+        credentials.ssid = SSIDMatcher.bestMatch(for: ssid, in: knownSSIDs) ?? ssid
+        typingSSID = false
+        focusSSID = false
     }
 
     /// 지금 연결된 와이파이가 저장돼 있으면 그 네트워크(=여기)
@@ -228,19 +342,19 @@ struct ContentView: View {
                     Spacer(minLength: 8)
                 }
 
-                ConnectedFlipCard(network: network)
+                ConnectedFlipCard(network: network, design: posterStore.current) {
+                    // 카드를 뒤집어 봤으면 사용법을 익힌 것 — 팁을 거둔다
+                    connectedTip.invalidate(reason: .actionPerformed)
+                }
 
-                Text("친구에게 QR을 보여주면 바로 연결 · 밀거나 탭하면 안내판 미리보기")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .multilineTextAlignment(.center)
-                    .frame(maxWidth: .infinity)
+                TipView(connectedTip)
 
-                // 카페·매장용: 비치할 예쁜 안내판을 만들어 인쇄/공유
+                // 카페·매장용: 비치할 안내판을 여러 장 만들어 인쇄/공유.
+                // 가장 최근에 고친 안내판이 위 카드 뒷면에 보인다.
                 Button {
                     activeSheet = .poster(network)
                 } label: {
-                    Label("손님용 안내판 만들기", systemImage: "printer.fill")
+                    Label("내 안내판 (\(posterStore.designs.count))", systemImage: "doc.text.image")
                         .font(.subheadline.weight(.semibold))
                         .frame(maxWidth: .infinity, minHeight: 38)
                 }
@@ -302,9 +416,11 @@ struct ContentView: View {
                 Button {
                     manualEntry = true
                     credentials = WifiCredentials()
-                    typingSSID = selectableSSIDs.isEmpty   // 후보 없으면 바로 타이핑
+                    ssidCandidates = []    // 스캔 후보는 직접 입력 모드와 무관
+                    scanTokens = []
+                    typingSSID = false     // 목록 선택이 기본 (메뉴에 캡처 가져오기도 있음)
                     showScanResult = true
-                    focusSSID = selectableSSIDs.isEmpty
+                    focusSSID = false
                 } label: {
                     Label("와이파이 선택·직접 연결", systemImage: "keyboard")
                         .frame(maxWidth: .infinity, minHeight: 40)
@@ -327,8 +443,15 @@ struct ContentView: View {
                     Text("인식 중…").foregroundStyle(.secondary)
                 }
             } else {
-                ssidInput
-                PasswordField(placeholder: "비밀번호", text: $credentials.password)
+                if scanTokens.isEmpty {
+                    ssidInput
+                    PasswordField(placeholder: "비밀번호", text: $credentials.password)
+                } else {
+                    // 사진에서 읽은 게 있으면 조각을 끌어다 놓아 고치는 퍼즐로 편집한다
+                    CredentialPuzzleView(groups: puzzleGroups,
+                                         ssid: $credentials.ssid,
+                                         password: $credentials.password)
+                }
 
                 Button {
                     connect()
@@ -354,6 +477,15 @@ struct ContentView: View {
                 .frame(width: 4)
                 .padding(.vertical, 10)
         }
+    }
+
+    /// 퍼즐에 올릴 조각 묶음 — 사진에서 읽은 값 + 이 폰이 아는 이름.
+    /// 사진 인식이 통째로 틀렸을 때도 아는 이름을 끌어다 놓으면 되도록 함께 얹는다.
+    private var puzzleGroups: [CredentialPuzzleView.TokenGroup] {
+        [
+            .init(id: "photo", title: "사진에서 읽음", icon: "camera.viewfinder", tokens: scanTokens),
+            .init(id: "known", title: "이 폰이 아는 이름", icon: "wifi", tokens: knownSSIDs)
+        ].filter { !$0.tokens.isEmpty }
     }
 
     /// 위치가 기록된(지도에 찍을 수 있는) 네트워크가 하나라도 있는지
@@ -402,7 +534,8 @@ struct ContentView: View {
             }
 
             if savedExpanded {
-                // 근처 추천 안내 (저장된 네트워크가 생기면 노출)
+                // 목록 조작법(탭·스와이프) → 써 보고 나면 근처 추천 안내로 넘어간다
+                TipView(rowActionsTip)
                 TipView(nearbyTip)
 
                 if store.networks.isEmpty {
@@ -420,79 +553,124 @@ struct ContentView: View {
                                 .listRowInsets(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 0))
                                 .listRowSeparator(.hidden)
                                 .listRowBackground(Color.clear)
+                                // 왼쪽으로 밀면 → QR 공유
                                 .swipeActions(edge: .trailing, allowsFullSwipe: true) {
-                                    Button(role: .destructive) {
-                                        store.delete(ids: [network.id])
+                                    Button {
+                                        shareQR(network)
                                     } label: {
-                                        Image(systemName: "trash")
+                                        Label("공유", systemImage: "square.and.arrow.up")
                                     }
+                                    .tint(.blue)
+                                }
+                                // 오른쪽으로 밀면 → 이 폰 연결
+                                .swipeActions(edge: .leading, allowsFullSwipe: true) {
+                                    Button {
+                                        connect(network)
+                                    } label: {
+                                        Label("연결", systemImage: "wifi")
+                                    }
+                                    .tint(.orange)
                                 }
                         }
                     }
                     .listStyle(.plain)
                     .scrollContentBackground(.hidden)
-                    .frame(height: min(CGFloat(store.networks.count) * 58 + 8, 360))
+                    .frame(height: savedListHeight)
                 }
             }
         }
     }
 
+    /// 저장 목록 행 — 이름을 온전히 보여주는 것이 최우선이라 행에는 이름만 두고,
+    /// 공유/연결은 스와이프, 나머지 기능은 탭 → 상세 화면으로 옮겼다.
     @ViewBuilder
     private func savedRow(_ network: SavedNetwork) -> some View {
-        HStack(spacing: 8) {
-            // 탭하면 바로 연결
-            Button {
-                credentials = WifiCredentials(ssid: network.ssid, password: network.password)
-                connect()
-            } label: {
-                HStack(spacing: 10) {
-                    // 와이파이 이름 앞 구분자
-                    Image(systemName: "wifi")
-                        .font(.footnote.weight(.semibold))
-                        .foregroundStyle(.blue)
-                    // 긴 이름은 한 줄 가운데 말줄임 처리 (줄바꿈 방지)
-                    Text(network.ssid)
-                        .font(.body.weight(.medium))
-                        .lineLimit(1)
-                        .truncationMode(.middle)
-                    if let tag = nearbyTag(for: network) {
-                        Text(tag)
-                            .font(.caption2.weight(.semibold))
-                            .padding(.horizontal, 7).padding(.vertical, 2)
-                            .background(Color.green.opacity(0.18), in: Capsule())
-                            .foregroundStyle(.green)
-                            .fixedSize()          // 뱃지는 압축·줄바꿈 없이 항상 온전히
-                            .layoutPriority(1)    // 이름보다 우선 유지 → 이름이 먼저 줄어듦
-                    }
-                    Spacer(minLength: 4)
-                }
-                .contentShape(Rectangle())
-            }
-            .buttonStyle(.plain)
+        Button {
+            markSavedRowUsed()
+            activeSheet = .detail(network)
+        } label: {
+            HStack(spacing: 10) {
+                // 와이파이 이름 앞 구분자
+                Image(systemName: "wifi")
+                    .font(.footnote.weight(.semibold))
+                    .foregroundStyle(.blue)
 
-            // 손님용 안내판 만들기
+                // 이름은 어떤 길이여도 잘리지 않는다 — 모자라면 여러 줄로 감싼다
+                Text(network.ssid)
+                    .font(.body.weight(.medium))
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                if let tag = nearbyTag(for: network) {
+                    Text(tag)
+                        .font(.caption2.weight(.semibold))
+                        .padding(.horizontal, 7).padding(.vertical, 2)
+                        .background(Color.green.opacity(0.18), in: Capsule())
+                        .foregroundStyle(.green)
+                        .fixedSize()   // 뱃지는 압축·줄바꿈 없이 항상 온전히
+                }
+
+                Image(systemName: "chevron.right")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.tertiary)
+            }
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .padding(.horizontal, 12)
+        .padding(.vertical, 12)
+        .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 10))
+        .contextMenu {
             Button {
                 activeSheet = .poster(network)
             } label: {
-                Image(systemName: "printer").rowIcon()
+                Label("안내판 만들기", systemImage: "printer")
             }
-            .buttonStyle(.bordered)
-            .buttonBorderShape(.roundedRectangle(radius: 9))
-            .tint(.indigo)
-
-            // QR 이미지 바로 공유
-            ShareQRButton(network: network)
-        }
-        .padding(.horizontal, 12)
-        .padding(.vertical, 10)
-        .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 10))
-        .contextMenu {
             Button(role: .destructive) {
                 store.delete(ids: [network.id])
             } label: {
                 Label("삭제", systemImage: "trash")
             }
         }
+    }
+
+    /// 목록 높이 — 바깥이 ScrollView라 List에 명시적 높이가 필요하다.
+    /// 이름이 길어 줄바꿈되는 행이 있으므로 글자 폭으로 줄 수를 어림한다. 넘치면 목록 안에서 스크롤.
+    private var savedListHeight: CGFloat {
+        let nameWidth: CGFloat = 250   // 아이콘·뱃지·화살표를 뺀 이름 영역의 대략적인 폭(pt)
+        let total = sortedNetworks.reduce(CGFloat(8)) { sum, network in
+            // 한글·CJK 한 글자는 라틴 문자의 약 두 배 폭을 차지한다
+            let width = network.ssid.reduce(CGFloat(0)) { $0 + ($1.isASCII ? 9.5 : 17) }
+            let lines = max(1, Int((width / nameWidth).rounded(.up)))
+            return sum + 32 + CGFloat(lines) * 21   // 32 = 상하 여백(24) + 행 간격(8)
+        }
+        return min(total, 360)
+    }
+
+    /// 스와이프 공유 — 스와이프 액션 안에서는 ShareLink가 제대로 동작하지 않아
+    /// QR을 만들어 시스템 공유 시트를 직접 띄운다.
+    private func shareQR(_ network: SavedNetwork) {
+        guard let image = QRCodeGenerator.wifiQRImage(ssid: network.ssid,
+                                                      password: network.password) else {
+            statusMessage = StatusMessage(text: "QR을 만들지 못했어요.", isError: true)
+            return
+        }
+        markSavedRowUsed()
+        activeSheet = .share(network, image)
+    }
+
+    /// 저장된 네트워크로 바로 연결
+    private func connect(_ network: SavedNetwork) {
+        markSavedRowUsed()
+        credentials = WifiCredentials(ssid: network.ssid, password: network.password)
+        connect()
+    }
+
+    /// 목록 행을 한 번이라도 써 봤음 — 조작법 팁을 거두고 다음 팁(근처 추천)을 열어준다
+    private func markSavedRowUsed() {
+        rowActionsTip.invalidate(reason: .actionPerformed)
+        Task { await WifiSnapTips.usedSavedRow.donate() }
     }
 
     // MARK: - Location helpers
@@ -578,22 +756,35 @@ struct ContentView: View {
     private func runOCR(on image: UIImage) {
         isRecognizing = true
         manualEntry = false   // 스캔 경로 — 입력 카드 헤더를 '스캔' 문구로
-        typingSSID = true     // 인식한 SSID를 편집 가능한 필드로 보여줌
+        typingSSID = false    // 인식 결과는 후보 중에서 고르는 게 기본
         // 인식 결과가 비어도 직접 입력할 수 있도록 입력 카드를 열어둔다
         showScanResult = true
         TextRecognizer.recognizeLines(in: image) { lines in
-            credentials = WifiCredentialParser.parse(lines: lines)
+            let scan = WifiCredentialParser.parse(lines: lines)
+            credentials = scan.credentials
+            // OCR 오탈자 교정: 아는 이름과 사실상 같으면 그 이름으로 바꾼다 (후보도 같이 교정해야
+            // 칩의 선택 표시가 어긋나지 않는다)
+            let known = knownSSIDs
+            var seen = Set<String>()
+            ssidCandidates = scan.ssidCandidates
+                .map { SSIDMatcher.bestMatch(for: $0, in: known) ?? $0 }
+                .filter { seen.insert($0).inserted }
+            // 퍼즐 조각은 사진에 나온 순서 그대로 (아는 이름으로의 교정만 적용)
+            var seenTokens = Set<String>()
+            scanTokens = scan.tokens
+                .map { SSIDMatcher.bestMatch(for: $0, in: known) ?? $0 }
+                .filter { seenTokens.insert($0).inserted }
+            if let corrected = SSIDMatcher.bestMatch(for: credentials.ssid, in: known) {
+                credentials.ssid = corrected
+            }
             isRecognizing = false
+            // 인식 결과는 저장하지 않는다 — 잘못 읽은 이름이 목록에 쌓이는 걸 막기 위해
+            // 실제 연결에 성공한 뒤에만 저장한다(connect 참고).
             if credentials.ssid.isEmpty && credentials.password.isEmpty {
                 statusMessage = StatusMessage(
                     text: "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요.",
                     isError: true
                 )
-            } else {
-                // 스캔한 원본 ID/PW는 저장하되, 위치는 남기지 않는다.
-                // '여기'/'근처'는 실제로 연결에 성공한 장소에서만 기록되어야 하기 때문.
-                store.upsert(ssid: credentials.ssid, password: credentials.password)
-                Task { await WifiSnapTips.savedNetwork.donate() }
             }
         }
     }
@@ -602,7 +793,9 @@ struct ContentView: View {
         guard !credentials.ssid.isEmpty else { return }
         isConnecting = true
         WifiConnector.connect(ssid: credentials.ssid,
-                              password: credentials.password) { result in
+                              password: credentials.password,
+                              // 연결 검증에는 SSID 조회 권한이 필요 — 없으면 예전처럼 apply 결과만 믿는다
+                              verifyJoin: currentNetwork.canReadSSID) { result in
             isConnecting = false
             switch result {
             case .success:
@@ -613,6 +806,8 @@ struct ContentView: View {
                 // 연결됐으니 입력 카드는 닫고 필드를 비운다
                 showScanResult = false
                 credentials = WifiCredentials()
+                ssidCandidates = []
+                scanTokens = []
                 currentNetwork.refresh()
                 Task { await WifiSnapTips.savedNetwork.donate() }
             case .failure(let error):
@@ -622,50 +817,35 @@ struct ContentView: View {
     }
 }
 
-/// 저장된 네트워크의 QR 이미지를 만들어 시스템 공유 시트로 바로 전달하는 버튼
-private struct ShareQRButton: View {
-    let network: SavedNetwork
-    @State private var qrImage: UIImage?
-
-    var body: some View {
-        Group {
-            if let qrImage {
-                ShareLink(
-                    item: Image(uiImage: qrImage),
-                    preview: SharePreview("\(network.ssid) 와이파이 QR",
-                                          image: Image(uiImage: qrImage))
-                ) {
-                    Image(systemName: "square.and.arrow.up").rowIcon()
-                }
-                .rowIconButton()
-            } else {
-                // 생성 전에는 비활성 버튼 모양으로 자리만 유지
-                Image(systemName: "square.and.arrow.up")
-                    .rowIcon()
-                    .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 9))
-                    .foregroundStyle(.secondary)
-                    .opacity(0.5)
-            }
-        }
-        .task(id: network.id) {
-            let ssid = network.ssid
-            let password = network.password
-            qrImage = await Task.detached(priority: .userInitiated) {
-                QRCodeGenerator.wifiQRImage(ssid: ssid, password: password)
-            }.value
-        }
-    }
-}
-
 /// 지금 연결된 와이파이 — 앞면은 연결용 QR, 뒷면은 손님용 안내판 미리보기.
 /// 카드를 탭하거나 좌우로 밀면 뒤집힌다.
 private struct ConnectedFlipCard: View {
     let network: SavedNetwork
+    /// 뒷면에 보여줄 안내판 — 가장 최근에 고친 것
+    let design: PosterDesign
+    /// 카드를 처음 뒤집었을 때 — 사용법 팁을 거두는 데 쓴다
+    var onFlip: () -> Void = {}
+
     @State private var qrImage: UIImage?
     @State private var posterImage: UIImage?
     @State private var flipped = false
+    /// 카드 실제 폭 — 뒷면 안내판을 축소 없이 보여주려면 필요하다
+    @State private var cardWidth: CGFloat = 330
 
-    private let cardHeight: CGFloat = 300
+    /// 앞면(QR) 높이
+    private let frontHeight: CGFloat = 340
+
+    /// 뒷면 높이 — 안내판 원본 비율 그대로 잡는다.
+    /// 예전처럼 고정 높이에 밀어 넣으면 절반 크기로 축소돼 글자가 작아 보였다.
+    private var backHeight: CGFloat {
+        guard let posterImage, posterImage.size.width > 0 else { return frontHeight }
+        return cardWidth * posterImage.size.height / posterImage.size.width
+    }
+
+    /// 안내판 내용이 바뀌면 다시 렌더한다 (updatedAt이 편집 때마다 갱신됨)
+    private var renderKey: String {
+        "\(network.id)|\(design.id)|\(design.updatedAt.timeIntervalSince1970)"
+    }
 
     var body: some View {
         ZStack {
@@ -675,17 +855,24 @@ private struct ConnectedFlipCard: View {
                 .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
         }
         .frame(maxWidth: .infinity)
-        .frame(height: cardHeight)
+        .frame(height: flipped ? backHeight : frontHeight)
+        .background {
+            GeometryReader { proxy in
+                Color.clear
+                    .onAppear { cardWidth = proxy.size.width }
+                    .onChange(of: proxy.size.width) { _, width in cardWidth = width }
+            }
+        }
         .rotation3DEffect(.degrees(flipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
         .animation(.spring(response: 0.5, dampingFraction: 0.85), value: flipped)
         .contentShape(Rectangle())
-        .onTapGesture { flipped.toggle() }
+        .onTapGesture { flip() }
         // ScrollView 세로 스크롤을 막지 않도록 simultaneous, 가로가 우세할 때만 뒤집기
         .simultaneousGesture(
             DragGesture(minimumDistance: 30)
                 .onEnded { value in
                     if abs(value.translation.width) > abs(value.translation.height) {
-                        flipped.toggle()
+                        flip()
                     }
                 }
         )
@@ -698,7 +885,12 @@ private struct ConnectedFlipCard: View {
                 .padding(6)
                 .rotation3DEffect(.degrees(flipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
         }
-        .task(id: network.id) { await generate() }
+        .task(id: renderKey) { await generate() }
+    }
+
+    private func flip() {
+        flipped.toggle()
+        onFlip()
     }
 
     private var front: some View {
@@ -708,31 +900,31 @@ private struct ConnectedFlipCard: View {
                     .interpolation(.none)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 210, height: 210)
-                    .padding(12)
-                    .background(.white, in: RoundedRectangle(cornerRadius: 16))
+                    .frame(width: 264, height: 264)
+                    .padding(14)
+                    .background(.white, in: RoundedRectangle(cornerRadius: 18))
             } else {
-                ProgressView().frame(width: 210, height: 210)
+                ProgressView().frame(width: 264, height: 264)
             }
         }
     }
 
+    /// 뒷면 — 안내판을 카드 폭에 꽉 채워 원본 크기로 보여준다
     private var back: some View {
         Group {
             if let posterImage {
                 Image(uiImage: posterImage)
                     .resizable()
                     .scaledToFit()
-                    .frame(maxHeight: cardHeight)
-                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                    .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
                     .shadow(color: .black.opacity(0.15), radius: 8, y: 4)
             } else {
-                ProgressView().frame(height: cardHeight)
+                ProgressView().frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
     }
 
-    /// 앞면 QR과 뒷면 안내판 이미지를 만든다. 안내판은 기본 테마로 렌더한 미리보기.
+    /// 앞면 QR과 뒷면 안내판 이미지를 만든다. 안내판은 저장된 문구·테마로 렌더한다.
     @MainActor
     private func generate() async {
         let ssid = network.ssid
@@ -742,31 +934,18 @@ private struct ConnectedFlipCard: View {
         }.value
         qrImage = qr
 
+        // 미리보기는 항상 카드 형태로 (A4로 만든 안내판도 카드 뒷면에는 카드로 보여준다)
+        var cardDesign = design
+        cardDesign.layoutID = PosterLayout.card.rawValue
         let poster = WifiPosterView(ssid: ssid, password: password,
-                                    theme: PosterTheme.all[0],
-                                    heading: "무료 와이파이", subtitle: "편하게 이용하세요",
-                                    showPassword: true, qrImage: qr)
+                                    design: cardDesign, qrImage: qr)
         let renderer = ImageRenderer(content: poster)
         renderer.scale = 3
         posterImage = renderer.uiImage
     }
 }
 
-extension Image {
-    /// 저장 목록 행의 작은 정사각형 아이콘 스타일
-    func rowIcon() -> some View {
-        self.font(.footnote.weight(.bold)).frame(width: 32, height: 32)
-    }
-}
-
 extension View {
-    /// 저장 목록 행의 작은 사각형 버튼 테두리 스타일
-    func rowIconButton() -> some View {
-        self.buttonStyle(.bordered)
-            .buttonBorderShape(.roundedRectangle(radius: 9))
-            .tint(.blue)
-    }
-
     /// 현재 편집 중인 텍스트 필드의 키보드를 내린다
     func dismissKeyboard() {
         UIApplication.shared.sendAction(

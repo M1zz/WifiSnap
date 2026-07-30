@@ -89,15 +89,12 @@ struct PosterMetrics {
 struct WifiPosterView: View {
     let ssid: String
     let password: String
-    let theme: PosterTheme
-    let heading: String
-    let subtitle: String
-    let showPassword: Bool
+    let design: PosterDesign
     let qrImage: UIImage?
-    var layout: PosterLayout = .card
     var logoImage: UIImage? = nil
-    var storeName: String = ""
 
+    private var theme: PosterTheme { design.theme }
+    private var layout: PosterLayout { design.layout }
     private var m: PosterMetrics { layout.metrics }
 
     var body: some View {
@@ -105,6 +102,7 @@ struct WifiPosterView: View {
             header
             qrCard
             infoCard
+            extraLines
             footer
             // A4는 남는 세로 공간을 아래로 채워 상단 정렬 유지(콘텐츠가 더 길면 프레임이 늘어나 잘리지 않음)
             if m.fillsHeight { Spacer(minLength: 0) }
@@ -129,39 +127,61 @@ struct WifiPosterView: View {
                     .padding(.bottom, 2)
             }
 
-            if !storeName.isEmpty {
-                Text(storeName)
+            if !design.storeName.isEmpty {
+                Text(design.storeName)
                     .font(.system(size: layout == .a4 ? 20 : 16, weight: .bold, design: .rounded))
                     .foregroundStyle(theme.foreground)
                     .multilineTextAlignment(.center)
                     .lineLimit(2)
             }
 
-            HStack(spacing: 6) {
-                Image(systemName: "wifi")
-                    .font(.caption.weight(.bold))
-                Text("WiFi")
-                    .font(.caption.weight(.bold))
-                    .tracking(1.5)
+            // 뱃지 문구를 비우면 뱃지 자체가 사라진다 (원하지 않는 사장님도 있으므로)
+            if !design.badge.isEmpty {
+                HStack(spacing: 6) {
+                    Image(systemName: "wifi")
+                        .font(.caption.weight(.bold))
+                    Text(design.badge)
+                        .font(.caption.weight(.bold))
+                        .tracking(1.5)
+                }
+                .foregroundStyle(theme.badge)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 6)
+                .background(theme.badge.opacity(0.18), in: Capsule())
             }
-            .foregroundStyle(theme.badge)
-            .padding(.horizontal, 12)
-            .padding(.vertical, 6)
-            .background(theme.badge.opacity(0.18), in: Capsule())
 
-            Text(heading.isEmpty ? "무료 와이파이" : heading)
-                .font(.system(size: m.titleSize, weight: .heavy, design: .rounded))
-                .foregroundStyle(theme.foreground)
-                .multilineTextAlignment(.center)
-                .minimumScaleFactor(0.6)
-                .lineLimit(2)
+            if !design.heading.isEmpty {
+                Text(design.heading)
+                    .font(.system(size: m.titleSize, weight: .heavy, design: .rounded))
+                    .foregroundStyle(theme.foreground)
+                    .multilineTextAlignment(.center)
+                    .minimumScaleFactor(0.6)
+                    .lineLimit(2)
+            }
 
-            if !subtitle.isEmpty {
-                Text(subtitle)
+            if !design.subtitle.isEmpty {
+                Text(design.subtitle)
                     .font(layout == .a4 ? .body.weight(.medium) : .subheadline.weight(.medium))
                     .foregroundStyle(theme.secondary)
                     .multilineTextAlignment(.center)
             }
+        }
+    }
+
+    /// 매장이 덧붙인 자유 텍스트 줄 (영업시간·인스타 계정 등)
+    @ViewBuilder
+    private var extraLines: some View {
+        let lines = design.visibleExtraLines
+        if !lines.isEmpty {
+            VStack(spacing: 4) {
+                ForEach(lines, id: \.self) { line in
+                    Text(line)
+                        .multilineTextAlignment(.center)
+                }
+            }
+            .font(layout == .a4 ? .subheadline.weight(.medium) : .caption.weight(.medium))
+            .foregroundStyle(theme.secondary)
+            .frame(maxWidth: .infinity)
         }
     }
 
@@ -188,10 +208,11 @@ struct WifiPosterView: View {
 
     private var infoCard: some View {
         VStack(spacing: 0) {
-            infoRow(label: "네트워크", value: ssid, mono: false)
-            if showPassword {
+            infoRow(label: design.networkLabel, value: ssid, mono: false)
+            if design.showPassword {
                 Divider().overlay(theme.foreground.opacity(0.12))
-                infoRow(label: "비밀번호", value: password.isEmpty ? "없음 (개방)" : password, mono: true)
+                infoRow(label: design.passwordLabel,
+                        value: password.isEmpty ? "없음 (개방)" : password, mono: true)
             }
         }
         .background(theme.panel, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
@@ -202,7 +223,8 @@ struct WifiPosterView: View {
             Text(label)
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(theme.secondary)
-                .frame(width: 58, alignment: .leading)
+                .fixedSize()   // 라벨을 바꿔 쓸 수 있으므로 고정 폭 대신 글자에 맞춘다
+                .frame(minWidth: 58, alignment: .leading)
             Text(value)
                 .font(mono ? .callout.weight(.bold).monospaced() : .callout.weight(.bold))
                 .foregroundStyle(theme.foreground)
@@ -216,36 +238,41 @@ struct WifiPosterView: View {
         .padding(.vertical, layout == .a4 ? 14 : 12)
     }
 
+    @ViewBuilder
     private var footer: some View {
-        HStack(spacing: 6) {
-            Image(systemName: "qrcode.viewfinder")
-            Text("카메라로 QR을 비추면 자동 연결")
+        if !design.footer.isEmpty {
+            HStack(spacing: 6) {
+                Image(systemName: "qrcode.viewfinder")
+                Text(design.footer)
+                    .multilineTextAlignment(.center)
+            }
+            .font(.caption2.weight(.semibold))
+            .foregroundStyle(theme.secondary)
         }
-        .font(.caption2.weight(.semibold))
-        .foregroundStyle(theme.secondary)
     }
 }
 
 // MARK: - 안내판 만들기 시트
 
-/// 저장된 네트워크로 손님용 안내판을 꾸며 이미지로 공유·인쇄하는 시트.
-/// iOS 기본 QR 공유가 못 하는 "예쁘게 만들어 비치" 니즈를 겨냥한 도구.
+/// 안내판 한 장을 편집하는 시트. 고칠 때마다 저장소에 바로 저장된다.
+/// 인쇄되는 글자는 라벨까지 전부 여기서 바꿔 쓸 수 있다.
 struct WifiPosterSheet: View {
     let ssid: String
     let password: String
+    @ObservedObject var store: PosterDesignStore
+    /// 편집 대상. 화면 안에서 고치고, 바뀔 때마다 store에 저장한다.
+    @State var design: PosterDesign
+
     @Environment(\.dismiss) private var dismiss
 
-    @State private var theme: PosterTheme = PosterTheme.all[0]
-    @State private var heading: String = "무료 와이파이"
-    @State private var subtitle: String = "편하게 이용하세요"
-    @State private var showPassword: Bool = true
     @State private var qrImage: UIImage?
     @State private var shareItem: ShareImage?
-    // 로고 / A4 포스터 옵션
-    @State private var layout: PosterLayout = .card
-    @State private var storeName: String = ""
+    // 로고는 사진이라 저장하지 않고 이 화면에서만 유지한다
     @State private var logoImage: UIImage?
     @State private var logoPickerItem: PhotosPickerItem?
+
+    private var theme: PosterTheme { design.theme }
+    private var layout: PosterLayout { design.layout }
 
     var body: some View {
         NavigationStack {
@@ -261,7 +288,7 @@ struct WifiPosterSheet: View {
                 .padding(16)
             }
             .background(Color(.systemGroupedBackground))
-            .navigationTitle("안내판 만들기")
+            .navigationTitle(design.name)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
@@ -281,7 +308,11 @@ struct WifiPosterSheet: View {
             }
         }
         .sheet(item: $shareItem) { item in
-            ActivityView(image: item.image)
+            ActivityShareSheet(image: item.image)
+        }
+        // 고칠 때마다 바로 저장 — '저장' 버튼을 눌러야 하는 부담을 없앤다
+        .onChange(of: design) { _, updated in
+            store.save(updated)
         }
         .onChange(of: logoPickerItem) { _, item in
             Task { await loadLogo(from: item) }
@@ -311,18 +342,16 @@ struct WifiPosterSheet: View {
 
     /// 미리보기와 내보내기가 공유하는 실제 안내판 뷰
     private var posterView: WifiPosterView {
-        WifiPosterView(ssid: ssid, password: password, theme: theme,
-                       heading: heading, subtitle: subtitle,
-                       showPassword: showPassword, qrImage: qrImage,
-                       layout: layout, logoImage: logoImage, storeName: storeName)
+        WifiPosterView(ssid: ssid, password: password, design: design,
+                       qrImage: qrImage, logoImage: logoImage)
     }
 
     // MARK: 레이아웃(카드 / A4) 선택
 
     private var layoutPicker: some View {
-        Picker("형태", selection: $layout.animation(.snappy)) {
+        Picker("형태", selection: $design.layoutID.animation(.snappy)) {
             ForEach(PosterLayout.allCases) { option in
-                Text(option.label).tag(option)
+                Text(option.label).tag(option.rawValue)
             }
         }
         .pickerStyle(.segmented)
@@ -338,8 +367,9 @@ struct WifiPosterSheet: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
                     ForEach(PosterTheme.all) { item in
+                        let isSelected = design.themeID == item.id
                         Button {
-                            withAnimation(.snappy) { theme = item }
+                            withAnimation(.snappy) { design.themeID = item.id }
                         } label: {
                             VStack(spacing: 6) {
                                 RoundedRectangle(cornerRadius: 12, style: .continuous)
@@ -347,11 +377,11 @@ struct WifiPosterSheet: View {
                                     .frame(width: 52, height: 52)
                                     .overlay {
                                         RoundedRectangle(cornerRadius: 12, style: .continuous)
-                                            .strokeBorder(theme == item ? Color.accentColor : .clear, lineWidth: 3)
+                                            .strokeBorder(isSelected ? Color.accentColor : .clear, lineWidth: 3)
                                     }
                                 Text(item.name)
-                                    .font(.caption2.weight(theme == item ? .bold : .regular))
-                                    .foregroundStyle(theme == item ? .primary : .secondary)
+                                    .font(.caption2.weight(isSelected ? .bold : .regular))
+                                    .foregroundStyle(isSelected ? .primary : .secondary)
                             }
                         }
                         .buttonStyle(.plain)
@@ -366,16 +396,48 @@ struct WifiPosterSheet: View {
 
     private var controls: some View {
         VStack(spacing: 14) {
-            logoRow
+            labeledField(title: "안내판 이름 (목록에서만 보임)", text: $design.name,
+                         placeholder: "예) 계산대용")
+
             Divider()
-            labeledField(title: "매장 이름", text: $storeName, placeholder: "예) 라운지 카페")
-            labeledField(title: "제목", text: $heading, placeholder: "무료 와이파이")
-            labeledField(title: "안내 문구", text: $subtitle, placeholder: "편하게 이용하세요")
-            Toggle(isOn: $showPassword) {
+            logoRow
+
+            Divider()
+            Text("안내판에 인쇄되는 글자")
+                .font(.subheadline.weight(.semibold))
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+            labeledField(title: "매장 이름", text: $design.storeName, placeholder: "예) 라운지 카페")
+            labeledField(title: "뱃지 (비우면 숨김)", text: $design.badge, placeholder: "WiFi")
+            labeledField(title: "제목", text: $design.heading, placeholder: "무료 와이파이")
+            labeledField(title: "안내 문구", text: $design.subtitle, placeholder: "편하게 이용하세요")
+            labeledField(title: "네트워크 라벨", text: $design.networkLabel, placeholder: "네트워크")
+            labeledField(title: "비밀번호 라벨", text: $design.passwordLabel, placeholder: "비밀번호")
+            labeledField(title: "맨 아래 문구 (비우면 숨김)", text: $design.footer,
+                         placeholder: "카메라로 QR을 비추면 자동 연결")
+
+            Divider()
+            extraLinesEditor
+
+            Divider()
+            Toggle(isOn: $design.showPassword) {
                 Label("비밀번호 표시", systemImage: "key.fill")
                     .font(.subheadline)
             }
             .padding(.vertical, 4)
+
+            HStack {
+                Text("고치는 즉시 저장돼요")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                Spacer(minLength: 8)
+                Button("글자 되돌리기") {
+                    withAnimation(.snappy) { resetText() }
+                }
+                .font(.caption.weight(.semibold))
+                .buttonStyle(.bordered)
+                .buttonBorderShape(.capsule)
+            }
         }
         .padding(14)
         .background(Color(.secondarySystemGroupedBackground),
@@ -437,6 +499,55 @@ struct WifiPosterSheet: View {
         logoImage = image
     }
 
+    /// 영업시간·인스타 계정처럼 매장이 원하는 만큼 덧붙이는 줄
+    private var extraLinesEditor: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("직접 쓰는 줄")
+                .font(.subheadline.weight(.semibold))
+            Text("영업시간, 인스타 계정, 매장 안내처럼 원하는 문구를 줄 단위로 넣으세요.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
+
+            ForEach(design.extraLines.indices, id: \.self) { index in
+                HStack(spacing: 8) {
+                    TextField("예) 영업시간 09:00–22:00", text: $design.extraLines[index])
+                        .textFieldStyle(.roundedBorder)
+                    Button {
+                        design.extraLines.remove(at: index)
+                    } label: {
+                        Image(systemName: "minus.circle.fill")
+                            .foregroundStyle(.red)
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+
+            Button {
+                design.extraLines.append("")
+            } label: {
+                Label("줄 추가", systemImage: "plus.circle")
+                    .font(.subheadline.weight(.semibold))
+            }
+            .buttonStyle(.bordered)
+            .buttonBorderShape(.capsule)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    /// 인쇄되는 글자만 기본값으로 되돌린다 (테마·형태·안내판 이름은 그대로)
+    private func resetText() {
+        let defaults = PosterDesign()
+        design.storeName = defaults.storeName
+        design.badge = defaults.badge
+        design.heading = defaults.heading
+        design.subtitle = defaults.subtitle
+        design.networkLabel = defaults.networkLabel
+        design.passwordLabel = defaults.passwordLabel
+        design.footer = defaults.footer
+        design.extraLines = []
+    }
+
     private func labeledField(title: String, text: Binding<String>, placeholder: String) -> some View {
         VStack(alignment: .leading, spacing: 6) {
             Text(title)
@@ -481,17 +592,6 @@ private struct ShareImage: Identifiable {
     let image: UIImage
 }
 
-/// UIActivityViewController 래퍼 — 이미지 저장/공유/AirPrint 인쇄를 한 번에 제공
-private struct ActivityView: UIViewControllerRepresentable {
-    let image: UIImage
-
-    func makeUIViewController(context: Context) -> UIActivityViewController {
-        UIActivityViewController(activityItems: [image], applicationActivities: nil)
-    }
-
-    func updateUIViewController(_ controller: UIActivityViewController, context: Context) {}
-}
-
 // MARK: - Color(hex:)
 
 extension Color {
@@ -505,5 +605,6 @@ extension Color {
 }
 
 #Preview {
-    WifiPosterSheet(ssid: "CAFE_WIFI_2G", password: "welcome1234")
+    WifiPosterSheet(ssid: "CAFE_WIFI_2G", password: "welcome1234",
+                    store: PosterDesignStore(), design: PosterDesign(name: "미리보기"))
 }
