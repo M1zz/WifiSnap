@@ -1,5 +1,6 @@
 import Foundation
 import CoreLocation
+import WidgetKit
 
 /// 앱에서 스캔했거나 직접 입력한 와이파이 정보
 struct SavedNetwork: Identifiable, Codable, Equatable {
@@ -24,12 +25,14 @@ struct SavedNetwork: Identifiable, Codable, Equatable {
     }
 }
 
-/// 저장소 (UserDefaults 기반 — 민감한 환경이라면 Keychain으로 교체 권장)
+/// 저장소 (UserDefaults 기반 — 민감한 환경이라면 Keychain으로 교체 권장).
+/// 위젯이 같은 목록을 읽어야 하므로 App Group 공유 저장소를 쓴다.
 @MainActor
 final class NetworkStore: ObservableObject {
     @Published private(set) var networks: [SavedNetwork] = []
 
-    private let storageKey = "wifisnap.saved.networks"
+    private let defaults = SharedDefaults.store
+    private let storageKey = SharedDefaults.savedNetworksKey
 
     init() {
         load()
@@ -59,13 +62,15 @@ final class NetworkStore: ObservableObject {
     }
 
     private func load() {
-        guard let data = UserDefaults.standard.data(forKey: storageKey),
+        guard let data = defaults.data(forKey: storageKey),
               let decoded = try? JSONDecoder().decode([SavedNetwork].self, from: data) else { return }
         networks = decoded
     }
 
     private func persist() {
         guard let data = try? JSONEncoder().encode(networks) else { return }
-        UserDefaults.standard.set(data, forKey: storageKey)
+        defaults.set(data, forKey: storageKey)
+        // 목록이 바뀌면 위젯의 QR도 다시 그려야 한다
+        WidgetCenter.shared.reloadAllTimelines()
     }
 }

@@ -37,7 +37,8 @@ enum QRCodeGenerator {
         return UIImage(cgImage: cgImage)
     }
 
-    static func wifiQRImage(ssid: String, password: String) -> UIImage? {
-        qrImage(for: wifiString(ssid: ssid, password: password))
+    /// - Parameter scale: 모듈 하나당 픽셀 수. 위젯처럼 메모리가 빡빡한 곳에서는 낮춰 쓴다.
+    static func wifiQRImage(ssid: String, password: String, scale: CGFloat = 14) -> UIImage? {
+        qrImage(for: wifiString(ssid: ssid, password: password), scale: scale)
     }
 }

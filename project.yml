@@ -20,6 +20,8 @@ targets:
     platform: iOS
     sources:
       - path: WifiSnap
+    dependencies:
+      - target: WifiSnapWidget
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.leeo.wifisnap   # 고정 — 변경 금지
@@ -41,3 +43,31 @@ targets:
             echo "error: 번들 ID는 $EXPECTED 로 고정되어야 합니다 (현재: $PRODUCT_BUNDLE_IDENTIFIER). project.yml을 확인하세요."
             exit 1
           fi
+
+  # 홈 화면 와이파이 QR 위젯. 앱과는 App Group(group.com.leeo.wifisnap)으로만 데이터를 공유한다.
+  WifiSnapWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: WifiSnapWidget
+        excludes:
+          - Info.plist
+          - WifiSnapWidget.entitlements
+      # 위젯이 쓰는 것만 골라 넣는다 (앱 전체를 끌어오지 않도록)
+      - path: WifiSnap/Models/SavedNetwork.swift
+      - path: WifiSnap/Shared/SharedDefaults.swift
+      - path: WifiSnap/Services/QRCodeGenerator.swift
+    info:
+      path: WifiSnapWidget/Info.plist
+      properties:
+        # GENERATE_INFOPLIST_FILE=NO이므로 INFOPLIST_KEY_* 는 무시된다 — 여기에 직접 적는다
+        CFBundleDisplayName: 와이파이 QR
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.leeo.wifisnap.widget   # 앱 번들 ID 하위여야 함
+        CODE_SIGN_ENTITLEMENTS: WifiSnapWidget/WifiSnapWidget.entitlements
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1"
+        SKIP_INSTALL: YES

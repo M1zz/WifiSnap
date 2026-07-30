@@ -379,7 +379,7 @@ struct ContentView: View {
                         .background(.blue, in: RoundedRectangle(cornerRadius: 9))
                     VStack(alignment: .leading, spacing: 1) {
                         Text("와이파이 추가").font(.subheadline.weight(.bold))
-                        Text("촬영·앨범·직접 연결").font(.caption).foregroundStyle(.secondary)
+                        Text("촬영·앨범·직접 입력").font(.caption).foregroundStyle(.secondary)
                     }
                     Spacer()
                     Image(systemName: "chevron.down")
@@ -412,17 +412,18 @@ struct ContentView: View {
                     .buttonStyle(.bordered)
                 }
 
-                // 스캔 없이 SSID를 골라(또는 입력) 비밀번호로 바로 연결
+                // 스캔 없이 아이디·비밀번호를 손으로 쳐서 바로 연결.
+                // 목록에서 고르는 건 실제로 쓸모가 없었으므로 바로 키보드를 띄운다.
                 Button {
                     manualEntry = true
                     credentials = WifiCredentials()
                     ssidCandidates = []    // 스캔 후보는 직접 입력 모드와 무관
                     scanTokens = []
-                    typingSSID = false     // 목록 선택이 기본 (메뉴에 캡처 가져오기도 있음)
+                    typingSSID = true
                     showScanResult = true
-                    focusSSID = false
+                    focusSSID = true
                 } label: {
-                    Label("와이파이 선택·직접 연결", systemImage: "keyboard")
+                    Label("아이디·비밀번호 입력해 연결", systemImage: "keyboard")
                         .frame(maxWidth: .infinity, minHeight: 40)
                 }
                 .buttonStyle(.bordered)
