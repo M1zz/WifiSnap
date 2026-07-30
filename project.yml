@@ -22,17 +22,27 @@ targets:
       - path: WifiSnap
     dependencies:
       - target: WifiSnapWidget
+    # CFBundleURLTypes(위젯 딥링크)는 INFOPLIST_KEY_* 로 넣을 수 없어 Info.plist를 명시한다
+    info:
+      path: WifiSnap/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSCameraUsageDescription: "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다."
+        NSLocationWhenInUseUsageDescription: "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
+        # 위젯을 탭하면 wifisnap://qr 로 앱이 열린다
+        CFBundleURLTypes:
+          - CFBundleURLName: com.leeo.wifisnap
+            CFBundleURLSchemes: [wifisnap]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.leeo.wifisnap   # 고정 — 변경 금지
-        GENERATE_INFOPLIST_FILE: YES
+        GENERATE_INFOPLIST_FILE: NO
         CODE_SIGN_ENTITLEMENTS: WifiSnap/WifiSnap.entitlements
         TARGETED_DEVICE_FAMILY: "1"
-        INFOPLIST_KEY_UILaunchScreen_Generation: YES
-        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
-        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
-        INFOPLIST_KEY_NSCameraUsageDescription: "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다."
-        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
     preBuildScripts:
       # 번들 ID가 실수로(Xcode UI 편집, 팀 자동설정 등) 바뀌면 빌드를 멈춘다
       - name: 번들 ID 고정 확인

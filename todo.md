@@ -133,7 +133,10 @@
 - [x] SharedDefaults: App Group(group.com.leeo.wifisnap)으로 와이파이 목록 공유 + 1회 마이그레이션
 - [x] WifiSnapWidget 타깃 추가 (app-extension, com.leeo.wifisnap.widget)
 - [x] 최근 연결 와이파이 QR을 systemSmall/systemMedium에 표시, 없으면 안내 문구
-- [x] 잠금화면 계열 미지원 (잠긴 폰에서 누구나 스캔 가능하므로 의도적으로 제외)
+- [x] 잠금화면 계열 지원: accessoryRectangular(QR+이름) / accessoryCircular / accessoryInline
+- [x] 잠금화면 vibrant 렌더링 대응: 흰 카드 없이 QR 얹기, 원형은 QR 대신 지름길로
+- [x] widgetURL(wifisnap://qr) + onOpenURL → 최근 와이파이 QR 상세 열기
+- [x] CFBundleURLTypes 등록을 위해 앱 Info.plist를 명시 파일로 전환(권한 문구·런치스크린 이관)
 - [x] 목록 변경 시 WidgetCenter.reloadAllTimelines()
 - [x] 위젯 데이터 경로(공유 저장소 → 디코딩 → QR 문자열) 검증, 번들 임베드 확인
 
@@ -143,4 +146,7 @@
 - [ ] **App Group 등록**: 개발자 계정에 group.com.leeo.wifisnap 추가 (없으면 위젯이 빈 상태로 뜸)
 - [ ] 위젯 타깃도 같은 Team으로 서명 (앱과 위젯 둘 다 필요)
 - [ ] 홈 화면에 위젯 추가해 QR 렌더링 확인 (시뮬레이터 터치 입력 불가로 미검증)
+- [ ] **잠금화면 위젯 QR이 실제로 스캔되는지 확인** — vibrant 변환 탓에 안 될 가능성이 높음.
+      안 되면 accessoryRectangular를 QR 대신 이름+지름길로 바꾸는 것을 권장
+- [ ] 위젯 탭 → wifisnap://qr → QR 상세가 열리는지 확인 (핸들러 미검증)
 - [ ] 실제 아이폰에서 ⌘R 실행 (와이파이 연결은 시뮬레이터 미지원)
