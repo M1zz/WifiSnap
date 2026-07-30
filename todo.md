@@ -128,7 +128,19 @@
 - [x] 메인 카드 뒷면은 '가장 최근에 고친 안내판'을 카드 형태로 렌더
 - [x] 시뮬레이터 검증: 커스텀 글자 전부 렌더 + 재실행 후에도 안내판 2장·자유 줄 유지
 
+## 직접 입력 연결 & QR 위젯 — 완료
+- [x] '와이파이 선택·직접 연결' → '아이디·비밀번호 입력해 연결' (바로 키보드)
+- [x] SharedDefaults: App Group(group.com.leeo.wifisnap)으로 와이파이 목록 공유 + 1회 마이그레이션
+- [x] WifiSnapWidget 타깃 추가 (app-extension, com.leeo.wifisnap.widget)
+- [x] 최근 연결 와이파이 QR을 systemSmall/systemMedium에 표시, 없으면 안내 문구
+- [x] 잠금화면 계열 미지원 (잠긴 폰에서 누구나 스캔 가능하므로 의도적으로 제외)
+- [x] 목록 변경 시 WidgetCenter.reloadAllTimelines()
+- [x] 위젯 데이터 경로(공유 저장소 → 디코딩 → QR 문자열) 검증, 번들 임베드 확인
+
 ## 실기기 실행 시 남은 작업 (사용자 몫)
 - [ ] Signing & Capabilities에서 본인 개발자 Team 선택
 - [x] Bundle Identifier를 com.leeo.wifisnap 으로 고정 (project.yml + 빌드 가드로 변경 차단)
+- [ ] **App Group 등록**: 개발자 계정에 group.com.leeo.wifisnap 추가 (없으면 위젯이 빈 상태로 뜸)
+- [ ] 위젯 타깃도 같은 Team으로 서명 (앱과 위젯 둘 다 필요)
+- [ ] 홈 화면에 위젯 추가해 QR 렌더링 확인 (시뮬레이터 터치 입력 불가로 미검증)
 - [ ] 실제 아이폰에서 ⌘R 실행 (와이파이 연결은 시뮬레이터 미지원)
