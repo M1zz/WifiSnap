@@ -141,7 +141,7 @@
 - [x] 위젯 데이터 경로(공유 저장소 → 디코딩 → QR 문자열) 검증, 번들 임베드 확인
 
 ## 실기기 실행 시 남은 작업 (사용자 몫)
-- [ ] Signing & Capabilities에서 본인 개발자 Team 선택
+- [x] Signing & Capabilities에서 개발자 Team 선택 (project.yml에 DEVELOPMENT_TEAM으로 고정 — Xcode UI에만 두면 재생성 시 지워짐)
 - [x] Bundle Identifier를 com.leeo.wifisnap 으로 고정 (project.yml + 빌드 가드로 변경 차단)
 - [ ] **App Group 등록**: 개발자 계정에 group.com.leeo.wifisnap 추가 (없으면 위젯이 빈 상태로 뜸)
 - [ ] 위젯 타깃도 같은 Team으로 서명 (앱과 위젯 둘 다 필요)
