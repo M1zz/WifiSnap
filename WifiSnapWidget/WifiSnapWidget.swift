@@ -1,5 +1,6 @@
 import WidgetKit
 import SwiftUI
+import AppIntents
 
 /// 와이파이 QR 위젯 (홈 화면 + 잠금화면).
 ///
@@ -14,43 +15,48 @@ import SwiftUI
 struct WifiQREntry: TimelineEntry {
     let date: Date
     let ssid: String
+    /// 탭했을 때 앱에서 열 네트워크 id (없으면 앱이 최근 것을 연다)
+    let networkID: String?
     let qrImage: UIImage?
 
     var hasNetwork: Bool { !ssid.isEmpty }
+
+    /// 위젯을 탭하면 앱의 QR 상세로 간다
+    var deepLink: URL? {
+        guard let networkID else { return URL(string: "wifisnap://qr") }
+        return URL(string: "wifisnap://qr?id=\(networkID)")
+    }
 }
 
-struct WifiQRProvider: TimelineProvider {
+struct WifiQRProvider: AppIntentTimelineProvider {
 
     func placeholder(in context: Context) -> WifiQREntry {
-        WifiQREntry(date: Date(), ssid: "WifiSnap", qrImage: nil)
+        WifiQREntry(date: Date(), ssid: "WifiSnap", networkID: nil, qrImage: nil)
     }
 
-    func getSnapshot(in context: Context, completion: @escaping (WifiQREntry) -> Void) {
-        completion(makeEntry())
+    func snapshot(for configuration: SelectWifiIntent, in context: Context) async -> WifiQREntry {
+        makeEntry(for: configuration)
     }
 
-    func getTimeline(in context: Context, completion: @escaping (Timeline<WifiQREntry>) -> Void) {
+    func timeline(for configuration: SelectWifiIntent, in context: Context) async -> Timeline<WifiQREntry> {
         // 시간이 지나서 바뀔 내용이 없다 — 목록이 바뀌면 앱이 reloadAllTimelines로 깨운다
-        completion(Timeline(entries: [makeEntry()], policy: .never))
+        Timeline(entries: [makeEntry(for: configuration)], policy: .never)
     }
 
-    private func makeEntry() -> WifiQREntry {
-        guard let network = latestNetwork() else {
-            return WifiQREntry(date: Date(), ssid: "", qrImage: nil)
+    private func makeEntry(for configuration: SelectWifiIntent) -> WifiQREntry {
+        // 고정한 와이파이가 있으면 그것, 없으면 가장 최근에 연결한 것
+        let network = configuration.network.flatMap { WidgetNetworks.network(id: $0.id) }
+            ?? WidgetNetworks.latest()
+
+        guard let network else {
+            return WifiQREntry(date: Date(), ssid: "", networkID: nil, qrImage: nil)
         }
         // 위젯 메모리 한도가 빡빡하므로 앱보다 낮은 배율로 만든다 (작은 위젯에서도 충분히 선명)
         let image = QRCodeGenerator.wifiQRImage(ssid: network.ssid,
                                                 password: network.password,
                                                 scale: 8)
-        return WifiQREntry(date: Date(), ssid: network.ssid, qrImage: image)
-    }
-
-    /// 가장 최근에 저장(=연결)한 와이파이
-    private func latestNetwork() -> SavedNetwork? {
-        guard let data = SharedDefaults.store.data(forKey: SharedDefaults.savedNetworksKey),
-              let networks = try? JSONDecoder().decode([SavedNetwork].self, from: data)
-        else { return nil }
-        return networks.max { $0.savedAt < $1.savedAt }
+        return WifiQREntry(date: Date(), ssid: network.ssid,
+                           networkID: network.id.uuidString, qrImage: image)
     }
 }
 
@@ -65,9 +71,9 @@ struct WifiQRWidgetView: View {
 
     var body: some View {
         content
-            // 탭하면 앱이 열려 큰 QR을 보여준다.
+            // 탭하면 앱이 열려 이 위젯에 고정된 와이파이의 큰 QR을 보여준다.
             // 잠금화면에서는 vibrant 변환 탓에 위젯의 QR이 스캔되지 않을 수 있어 이 경로가 중요하다.
-            .widgetURL(URL(string: "wifisnap://qr"))
+            .widgetURL(entry.deepLink)
             .containerBackground(for: .widget) {
                 if !isAccessory { Color(.systemBackground) }
             }
@@ -202,11 +208,14 @@ struct WifiQRWidgetView: View {
 
 struct WifiQRWidget: Widget {
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: "WifiSnapQRWidget", provider: WifiQRProvider()) { entry in
+        // 위젯을 길게 눌러 '위젯 편집'에서 고정할 와이파이를 고를 수 있다
+        AppIntentConfiguration(kind: "WifiSnapQRWidget",
+                               intent: SelectWifiIntent.self,
+                               provider: WifiQRProvider()) { entry in
             WifiQRWidgetView(entry: entry)
         }
         .configurationDisplayName("와이파이 QR")
-        .description("가장 최근에 연결한 와이파이의 QR을 보여줍니다. 잠금화면에서는 탭하면 큰 QR이 열려요.")
+        .description("고정한 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 바꿀 수 있어요.")
         .supportedFamilies([
             .systemSmall, .systemMedium,
             .accessoryRectangular, .accessoryCircular, .accessoryInline

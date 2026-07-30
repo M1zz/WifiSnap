@@ -135,7 +135,9 @@
 - [x] 최근 연결 와이파이 QR을 systemSmall/systemMedium에 표시, 없으면 안내 문구
 - [x] 잠금화면 계열 지원: accessoryRectangular(QR+이름) / accessoryCircular / accessoryInline
 - [x] 잠금화면 vibrant 렌더링 대응: 흰 카드 없이 QR 얹기, 원형은 QR 대신 지름길로
-- [x] widgetURL(wifisnap://qr) + onOpenURL → 최근 와이파이 QR 상세 열기
+- [x] widgetURL(wifisnap://qr?id=…) + onOpenURL → 고정된 와이파이 QR 상세 열기
+- [x] 위젯에 고정할 와이파이 선택: AppIntentConfiguration + WifiNetworkEntity/Query
+      (길게 눌러 '위젯 편집', 고르지 않으면 최근 연결 것으로 대체)
 - [x] CFBundleURLTypes 등록을 위해 앱 Info.plist를 명시 파일로 전환(권한 문구·런치스크린 이관)
 - [x] 목록 변경 시 WidgetCenter.reloadAllTimelines()
 - [x] 위젯 데이터 경로(공유 저장소 → 디코딩 → QR 문자열) 검증, 번들 임베드 확인
@@ -148,5 +150,6 @@
 - [ ] 홈 화면에 위젯 추가해 QR 렌더링 확인 (시뮬레이터 터치 입력 불가로 미검증)
 - [ ] **잠금화면 위젯 QR이 실제로 스캔되는지 확인** — vibrant 변환 탓에 안 될 가능성이 높음.
       안 되면 accessoryRectangular를 QR 대신 이름+지름길로 바꾸는 것을 권장
-- [ ] 위젯 탭 → wifisnap://qr → QR 상세가 열리는지 확인 (핸들러 미검증)
+- [ ] 위젯 탭 → QR 상세가 열리는지 확인 (핸들러 미검증)
+- [ ] 위젯 편집에서 와이파이 선택 목록이 뜨는지 확인 (AppIntents 메타데이터는 생성 확인)
 - [ ] 실제 아이폰에서 ⌘R 실행 (와이파이 연결은 시뮬레이터 미지원)

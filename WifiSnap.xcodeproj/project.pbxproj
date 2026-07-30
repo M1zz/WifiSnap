@@ -33,6 +33,7 @@
 		BC8CCF5D1BCF6C4CBDA063CB /* WifiSnapWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BBB3F3BCBE744A957F440 /* WifiSnapWidget.swift */; };
 		C4FDA8F9C8FC19D31856FC49 /* PosterListSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF98E1930134324BDE3C926C /* PosterListSheet.swift */; };
 		CF5A3581BBFEDEED8D576C6B /* WifiSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D1CA0E6D09DCA4E677F87 /* WifiSnapApp.swift */; };
+		E259D21978489D5195653321 /* SelectWifiIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203683BB7B8241D518E47E44 /* SelectWifiIntent.swift */; };
 		E5C5E087807A2D5A7EC8AE35 /* WifiListImportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07956BF286428D17B641827E /* WifiListImportSheet.swift */; };
 		EF905C3B074A0649E423A878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786B020EA14A70200DBF8B17 /* ContentView.swift */; };
 		F60F0D4098F3E1B752F6FDCD /* CurrentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030840261208945F64C8855 /* CurrentNetworkService.swift */; };
@@ -69,6 +70,7 @@
 		07956BF286428D17B641827E /* WifiListImportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListImportSheet.swift; sourceTree = "<group>"; };
 		08685B47F748EC8FF732F1A8 /* WifiPosterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiPosterSheet.swift; sourceTree = "<group>"; };
 		115D13F3B1150B3C12CB9B6B /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+		203683BB7B8241D518E47E44 /* SelectWifiIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWifiIntent.swift; sourceTree = "<group>"; };
 		290AF647E0AFA134C217C115 /* WifiCredentialParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiCredentialParser.swift; sourceTree = "<group>"; };
 		3C61243AEDD3DDF44908D092 /* CredentialPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialPuzzleView.swift; sourceTree = "<group>"; };
 		44E5DE2DEA472DD1FB2E50F1 /* WifiListParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListParser.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		7BC05F0D850A891DAD507FEB /* WifiSnapWidget */ = {
 			isa = PBXGroup;
 			children = (
+				203683BB7B8241D518E47E44 /* SelectWifiIntent.swift */,
 				933BBB3F3BCBE744A957F440 /* WifiSnapWidget.swift */,
 			);
 			path = WifiSnapWidget;
@@ -350,6 +353,7 @@
 			files = (
 				8CEA877F409CDA6707DD53FA /* QRCodeGenerator.swift in Sources */,
 				A73213C94412C1C3776E5219 /* SavedNetwork.swift in Sources */,
+				E259D21978489D5195653321 /* SelectWifiIntent.swift in Sources */,
 				B020590FF25F8A92E8D69B1D /* SharedDefaults.swift in Sources */,
 				BC8CCF5D1BCF6C4CBDA063CB /* WifiSnapWidget.swift in Sources */,
 			);

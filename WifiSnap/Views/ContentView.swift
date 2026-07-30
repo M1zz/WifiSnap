@@ -91,12 +91,19 @@ struct ContentView: View {
             .onOpenURL(perform: handleDeepLink)
     }
 
-    /// 위젯 탭 → wifisnap://qr → 가장 최근 와이파이의 QR 상세를 연다.
+    /// 위젯 탭 → wifisnap://qr?id=… → 그 위젯에 고정된 와이파이의 QR 상세를 연다.
+    /// id가 없거나 이미 지워진 네트워크면 가장 최근 것으로 대체한다.
     /// 잠금화면 위젯은 QR이 vibrant 렌더링으로 변환돼 스캔이 어려우므로 이 경로가 실질적인 사용법이다.
     private func handleDeepLink(_ url: URL) {
         guard url.scheme == "wifisnap", url.host == "qr" else { return }
-        guard let latest = store.networks.max(by: { $0.savedAt < $1.savedAt }) else { return }
-        activeSheet = .detail(latest)
+
+        let requestedID = URLComponents(url: url, resolvingAgainstBaseURL: false)?
+            .queryItems?.first { $0.name == "id" }?.value
+        let pinned = requestedID.flatMap { id in
+            store.networks.first { $0.id.uuidString == id }
+        }
+        guard let network = pinned ?? store.networks.max(by: { $0.savedAt < $1.savedAt }) else { return }
+        activeSheet = .detail(network)
     }
 
     private var mainStack: some View {
