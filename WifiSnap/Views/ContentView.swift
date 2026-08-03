@@ -35,6 +35,8 @@ struct ContentView: View {
 
     // 연결 상태
     @State private var isConnecting = false
+    // 연결이 여러 단계로 길어질 때(표기 바꿔 재시도 등) 버튼에 보여줄 진행 문구
+    @State private var connectingNote: String?
     @State private var statusMessage: StatusMessage?
 
     // 저장된 네트워크 목록 접기 — 기본 접힘. 사용자가 헤더를 탭할 때만 펼친다.
@@ -481,7 +483,7 @@ struct ContentView: View {
                     connect()
                 } label: {
                     if isConnecting {
-                        HStack { ProgressView(); Text("연결 중…") }
+                        HStack { ProgressView(); Text(connectingNote ?? "연결 중…") }
                             .frame(maxWidth: .infinity)
                     } else {
                         Label("이 폰 연결", systemImage: "wifi")
@@ -816,17 +818,27 @@ struct ContentView: View {
     private func connect() {
         guard !credentials.ssid.isEmpty else { return }
         isConnecting = true
+        connectingNote = nil
+        let password = credentials.password
         WifiConnector.connect(ssid: credentials.ssid,
-                              password: credentials.password,
-                              // 연결 검증에는 SSID 조회 권한이 필요 — 없으면 예전처럼 apply 결과만 믿는다
-                              verifyJoin: currentNetwork.canReadSSID) { result in
+                              password: password,
+                              // 붙었는지 이름으로 확인하려면 SSID 조회 권한이 필요하다
+                              canReadSSID: currentNetwork.canReadSSID,
+                              onProgress: { note in connectingNote = note }) { result in
             isConnecting = false
+            connectingNote = nil
             switch result {
-            case .success:
+            case .success(let joined):
+                // iOS가 알려준 표기를 저장한다 — OCR이 대소문자를 틀렸어도 여기서 바로잡힌다
                 let here = currentNetwork.currentLocation?.coordinate
-                store.upsert(ssid: credentials.ssid, password: credentials.password,
+                store.upsert(ssid: joined.ssid, password: password,
                              latitude: here?.latitude, longitude: here?.longitude)
-                statusMessage = StatusMessage(text: "'\(credentials.ssid)'에 연결했어요.", isError: false)
+                statusMessage = StatusMessage(
+                    text: joined.verified
+                        ? "'\(joined.ssid)'에 연결했어요."
+                        : "'\(joined.ssid)' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > WifiSnap > 위치)",
+                    isError: false
+                )
                 // 연결됐으니 입력 카드는 닫고 필드를 비운다
                 showScanResult = false
                 credentials = WifiCredentials()

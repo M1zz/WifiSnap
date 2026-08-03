@@ -236,8 +236,10 @@ enum WifiCredentialParser {
 
     // MARK: - 값 정리 / 배정
 
+    /// 값에서 가장자리 기호를 걷어내고, 눈에 안 보이는 문자(제로폭·전각)까지 정리한다.
+    /// 여기서 걸러두지 않으면 화면상 똑같아 보이는 값으로 연결만 조용히 실패한다.
     private static func cleanValue(_ text: String) -> String {
-        text.trimmingCharacters(in: junk)
+        SSIDMatcher.sanitize(text).trimmingCharacters(in: junk)
     }
 
     private static func assign(_ kind: KeyKind, _ value: String, to result: inout WifiCredentials) {

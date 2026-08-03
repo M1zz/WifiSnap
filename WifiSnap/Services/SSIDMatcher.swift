@@ -7,6 +7,48 @@ import Foundation
 /// 그 밖의 이름이 실제로 존재하는지는 실제 연결(WifiConnector)로만 확인할 수 있다.
 enum SSIDMatcher {
 
+    /// 눈에는 안 보이지만 iOS에게는 '다른 이름'이 되는 차이를 없앤다.
+    ///
+    /// OCR·복사붙여넣기로 제로폭 문자, 전각 영숫자(ＳＫ), 스마트 따옴표가 섞여 들어오면
+    /// 화면상으로는 똑같은 값인데 연결만 조용히 실패한다 — 가장 찾기 어려운 실패 원인이라
+    /// 연결 직전에 반드시 통과시킨다.
+    static func sanitize(_ raw: String) -> String {
+        var text = raw
+        // 전각 영숫자·기호가 실제로 섞였을 때만 반각으로 접는다.
+        // 조건 없이 변환하면 한글·가나 표기까지 건드릴 수 있다.
+        if text.unicodeScalars.contains(where: { (0xFF01...0xFF5E).contains($0.value) }) {
+            text = text.applyingTransform(.fullwidthToHalfwidth, reverse: false) ?? text
+        }
+        for (from, to) in punctuationFolds {
+            text = text.replacingOccurrences(of: from, with: to)
+        }
+        text = String(String.UnicodeScalarView(text.unicodeScalars.filter { !isInvisible($0) }))
+        return text.trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+
+    /// 대소문자만 다른 그럴듯한 표기들 (원본은 제외, 추천순).
+    /// OCR은 글자 모양은 맞춰도 대소문자를 자주 틀리는데(WiFi→Wifi), SSID는 대소문자를 구분해서
+    /// 한 글자만 달라도 '그런 이름의 네트워크는 없음'이 된다.
+    static func caseVariants(of raw: String) -> [String] {
+        let text = sanitize(raw)
+        guard text.rangeOfCharacter(from: .letters) != nil else { return [] }
+        var seen: Set<String> = [text]
+        return [brandCanonical(text), text.uppercased(), text.lowercased()]
+            .filter { seen.insert($0).inserted }
+    }
+
+    /// 공유기 라벨에 흔한 토큰을 정식 표기로 되돌린 이름
+    static func brandCanonical(_ text: String) -> String {
+        var result = text
+        for spelling in brandSpellings {
+            result = replacing(spelling.pattern,
+                               with: spelling.canonical,
+                               in: result,
+                               wholeTokenOnly: spelling.wholeToken)
+        }
+        return result
+    }
+
     /// SSID 규격(1~32바이트)과 상식에 맞는지 — OCR이 뱉은 쓰레기 값을 1차로 걸러낸다
     static func isPlausible(_ raw: String) -> Bool {
         let text = raw.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -43,7 +85,68 @@ enum SSIDMatcher {
         return 1.0 - Double(levenshtein(x, y)) / Double(max(x.count, y.count))
     }
 
-    // MARK: - Private
+    // MARK: - Private (정리·표기)
+
+    private static let punctuationFolds: [(String, String)] = [
+        ("\u{2018}", "'"), ("\u{2019}", "'"), ("\u{201C}", "\""), ("\u{201D}", "\""),
+        ("\u{2013}", "-"), ("\u{2014}", "-"), ("\u{2212}", "-"), ("\u{00A0}", " ")
+    ]
+
+    private static func isInvisible(_ scalar: Unicode.Scalar) -> Bool {
+        switch scalar.value {
+        case 0x200B...0x200F,   // 제로폭 공백·결합자·방향 표시
+             0x202A...0x202E,   // 방향 재정의
+             0x2060...0x2064,   // word joiner 계열
+             0xFEFF:            // BOM
+            return true
+        default:
+            return scalar.properties.generalCategory == .control
+        }
+    }
+
+    /// 국내 공유기 이름에 흔한 토큰의 정식 표기.
+    /// wholeToken=true는 짧아서 다른 단어 안에 우연히 박히기 쉬운 것(kt가 pocket 안에 들어가는 등)이라
+    /// 앞뒤가 영숫자가 아닐 때만 바꾼다.
+    private static let brandSpellings: [(pattern: String, canonical: String, wholeToken: Bool)] = [
+        ("wi-fi", "Wi-Fi", false),
+        ("wifi", "WiFi", false),
+        ("giga", "GIGA", false),
+        ("iptime", "ipTIME", false),
+        ("olleh", "olleh", false),
+        ("wlan", "WLAN", false),
+        ("kt", "KT", true),
+        ("sk", "SK", true),
+        ("skb", "SKB", true),
+        ("lg", "LG", true)
+    ]
+
+    private static func replacing(_ pattern: String,
+                                  with canonical: String,
+                                  in text: String,
+                                  wholeTokenOnly: Bool) -> String {
+        var result = text
+        var from = result.startIndex
+        while let range = result.range(of: pattern, options: .caseInsensitive, range: from..<result.endIndex) {
+            func isWordChar(_ c: Character) -> Bool { c.isLetter || c.isNumber }
+            let boundedOK = !wholeTokenOnly || (
+                (range.lowerBound == result.startIndex
+                    || !isWordChar(result[result.index(before: range.lowerBound)]))
+                && (range.upperBound == result.endIndex
+                    || !isWordChar(result[range.upperBound]))
+            )
+            guard boundedOK else {
+                from = range.upperBound
+                continue
+            }
+            result.replaceSubrange(range, with: canonical)
+            // 치환 후에는 인덱스가 무효해지므로 오프셋으로 다시 잡는다
+            let offset = result.distance(from: result.startIndex, to: range.lowerBound) + canonical.count
+            from = result.index(result.startIndex, offsetBy: offset)
+        }
+        return result
+    }
+
+    // MARK: - Private (유사도)
 
     /// OCR 혼동 글자표 (왼쪽을 오른쪽으로 접어서 비교)
     private static let confusions: [Character: Character] = [
