@@ -149,7 +149,9 @@ struct ContentView: View {
             ImagePicker(source: source) { image in runOCR(on: image) }
                 .ignoresSafeArea()
         case .detail(let network):
-            NetworkDetailSheet(network: network, posterStore: posterStore) {
+            NetworkDetailSheet(network: network,
+                               posterStore: posterStore,
+                               onSetHotspot: { store.setHotspot(id: network.id, $0) }) {
                 credentials = WifiCredentials(ssid: network.ssid, password: network.password)
                 connect()
             }
@@ -460,7 +462,7 @@ struct ContentView: View {
                     showScanResult = true
                     focusSSID = true
                 } label: {
-                    Label("아이디·비밀번호 직접 입력 (QR 만들기)", systemImage: "keyboard")
+                    Label("직접 입력", systemImage: "keyboard")
                         .frame(maxWidth: .infinity, minHeight: 40)
                 }
                 .buttonStyle(.bordered)
@@ -491,37 +493,19 @@ struct ContentView: View {
                                          password: $credentials.password)
                 }
 
-                Button {
-                    connect()
-                } label: {
-                    if isConnecting {
-                        HStack { ProgressView(); Text(connectingNote ?? "연결 중…") }
-                            .frame(maxWidth: .infinity)
-                    } else {
-                        Label("이 폰 연결", systemImage: "wifi")
-                            .font(.headline)
-                            .frame(maxWidth: .infinity)
-                    }
+                // 핫스팟 이름이면 두 버튼의 무게를 뒤집는다 — 내 폰은 내 핫스팟에 붙을 수 없어서
+                // '이 폰 연결'은 반드시 실패하는 버튼이고, 정작 필요한 건 QR 쪽이다.
+                if inputLooksLikeHotspot {
+                    qrOnlyButton(prominent: true)
+                    connectButton(prominent: false)
+                } else {
+                    connectButton(prominent: true)
+                    qrOnlyButton(prominent: false)
                 }
-                .buttonStyle(.borderedProminent)
-                .tint(.orange)
-                .disabled(credentials.ssid.isEmpty || isConnecting)
 
-                // 연결은 하지 않고 QR만 — 아직 그 자리에 없는 와이파이(다른 집·매장·예약한 숙소)도
-                // 이름·비밀번호만 알면 미리 만들어 둘 수 있어야 한다.
-                Button {
-                    saveWithoutConnecting()
-                } label: {
-                    Label("연결 없이 QR 만들기", systemImage: "qrcode")
-                        .font(.subheadline.weight(.semibold))
-                        .frame(maxWidth: .infinity, minHeight: 40)
-                }
-                .buttonStyle(.bordered)
-                .buttonBorderShape(.capsule)
-                .tint(.blue)
-                .disabled(credentials.ssid.isEmpty || isConnecting)
-
-                Text("이 폰을 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요.")
+                Text(inputLooksLikeHotspot
+                     ? "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요."
+                     : "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요.")
                     .font(.caption2)
                     .foregroundStyle(.secondary)
             }
@@ -532,6 +516,56 @@ struct ContentView: View {
                 .fill(.orange)
                 .frame(width: 4)
                 .padding(.vertical, 10)
+        }
+    }
+
+    /// 지금 입력된 이름이 기기 핫스팟처럼 보이는지 — 버튼의 무게와 안내 문구를 여기에 맞춘다
+    private var inputLooksLikeHotspot: Bool {
+        SavedNetwork.looksLikeHotspot(credentials.ssid)
+    }
+
+    @ViewBuilder
+    private func connectButton(prominent: Bool) -> some View {
+        let button = Button {
+            connect()
+        } label: {
+            if isConnecting {
+                HStack { ProgressView(); Text(connectingNote ?? "연결 중…") }
+                    .frame(maxWidth: .infinity, minHeight: prominent ? 0 : 40)
+            } else {
+                Label("이 폰 연결", systemImage: "wifi")
+                    .font(prominent ? .headline : .subheadline.weight(.semibold))
+                    .frame(maxWidth: .infinity, minHeight: prominent ? 0 : 40)
+            }
+        }
+        .tint(.orange)
+        .disabled(credentials.ssid.isEmpty || isConnecting)
+
+        if prominent {
+            button.buttonStyle(.borderedProminent)
+        } else {
+            button.buttonStyle(.bordered).buttonBorderShape(.capsule)
+        }
+    }
+
+    /// 연결은 하지 않고 QR만 — 아직 그 자리에 없는 와이파이(다른 집·매장·예약한 숙소)와
+    /// 애초에 이 폰이 붙을 수 없는 내 핫스팟은 이 경로로만 QR을 만들 수 있다.
+    @ViewBuilder
+    private func qrOnlyButton(prominent: Bool) -> some View {
+        let button = Button {
+            saveWithoutConnecting()
+        } label: {
+            Label(prominent ? "QR 만들기" : "연결 없이 QR 만들기", systemImage: "qrcode")
+                .font(prominent ? .headline : .subheadline.weight(.semibold))
+                .frame(maxWidth: .infinity, minHeight: prominent ? 0 : 40)
+        }
+        .tint(.blue)
+        .disabled(credentials.ssid.isEmpty || isConnecting)
+
+        if prominent {
+            button.buttonStyle(.borderedProminent)
+        } else {
+            button.buttonStyle(.bordered).buttonBorderShape(.capsule)
         }
     }
 
@@ -658,7 +692,15 @@ struct ContentView: View {
                     .fixedSize(horizontal: false, vertical: true)
                     .frame(maxWidth: .infinity, alignment: .leading)
 
-                if let tag = nearbyTag(for: network) {
+                // 핫스팟은 위치 뱃지가 뜰 수 없으므로(앵커를 남기지 않는다) 자리를 다투지 않는다
+                if network.isHotspot == true {
+                    Text("📶 핫스팟")
+                        .font(.caption2.weight(.semibold))
+                        .padding(.horizontal, 7).padding(.vertical, 2)
+                        .background(Color.orange.opacity(0.18), in: Capsule())
+                        .foregroundStyle(.orange)
+                        .fixedSize()
+                } else if let tag = nearbyTag(for: network) {
                     Text(tag)
                         .font(.caption2.weight(.semibold))
                         .padding(.horizontal, 7).padding(.vertical, 2)
@@ -750,11 +792,13 @@ struct ContentView: View {
         } else {
             ordered = store.networks
         }
-        guard let idx = ordered.firstIndex(where: { isConnected($0) }) else {
-            return ordered
+        // 핫스팟은 위치 정렬로는 절대 위에 오지 못한다 — 앵커를 남기지 않으니
+        // '근처'에 걸릴 수가 없어 쓸수록 아래로 밀린다. 늘 쓰는 것이므로 위로 고정한다.
+        var result = ordered.filter { $0.isHotspot == true } + ordered.filter { $0.isHotspot != true }
+        // 지금 연결된 와이파이('여기')는 그보다도 위
+        if let idx = result.firstIndex(where: { isConnected($0) }) {
+            result.insert(result.remove(at: idx), at: 0)
         }
-        var result = ordered
-        result.insert(result.remove(at: idx), at: 0)
         return result
     }
 
@@ -855,7 +899,11 @@ struct ContentView: View {
     private func saveWithoutConnecting() {
         // 붙여넣기·OCR로 섞여 들어온 제로폭 문자, 전각 영숫자를 걷어낸다.
         // 눈에는 똑같아 보여도 그대로 QR에 넣으면 스캔한 폰이 조용히 연결에 실패한다.
-        let ssid = SSIDMatcher.sanitize(credentials.ssid)
+        //
+        // 다만 직접 친 이름은 전각·스마트 따옴표까지 접지 않는다. 사진에서 읽은 값과 달리
+        // 옮겨 적히며 변형된 게 아니라 그 자체가 정답이고, 아이폰 핫스팟 이름의
+        // 스마트 어포스트로피(Leeo’s iPhone)를 ASCII '로 바꿔 버리면 실제 SSID와 달라진다.
+        let ssid = SSIDMatcher.sanitize(credentials.ssid, foldLookalikes: !manualEntry)
         guard !ssid.isEmpty else { return }
         let password = credentials.password
         dismissKeyboard()

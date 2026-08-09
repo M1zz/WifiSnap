@@ -11,6 +11,13 @@ struct SavedNetwork: Identifiable, Codable, Equatable {
     // 연결/공유 당시의 위치 (근처 추천용). 기존 저장분은 nil로 호환됨.
     var latitude: Double?
     var longitude: Double?
+    /// 내 기기의 핫스팟인지. 기존 저장분은 nil(=아님)로 호환됨.
+    ///
+    /// 핫스팟은 두 가지가 보통 와이파이와 다르다:
+    /// 이 폰이 AP 자신이라 '이 폰 연결'이 성립하지 않고, 나를 따라 움직이니 위치 앵커가 거짓말이 된다.
+    /// (Bool?인 것은 호환 때문이다 — 합성된 Decodable은 프로퍼티 기본값을 쓰지 않아서
+    ///  非옵셔널로 두면 키가 없는 기존 저장분의 디코딩이 통째로 실패한다)
+    var isHotspot: Bool?
 
     /// 저장된 위치에서 주어진 현재 위치까지의 거리(m). 위치가 없으면 nil.
     func distance(from location: CLLocation) -> CLLocationDistance? {
@@ -35,6 +42,16 @@ struct SavedNetwork: Identifiable, Codable, Equatable {
     }
 
     var matchKey: String { Self.matchKey(ssid) }
+
+    /// 이름만 보고 기기 핫스팟으로 짐작한다.
+    ///
+    /// 핫스팟 SSID는 기기 이름 그대로여서 패턴이 분명하다. 앱이 주변 와이파이 목록을 볼 수 없으니
+    /// 이름 말고는 단서가 없고, 틀리면 상세 화면의 토글로 사용자가 바로잡을 수 있다.
+    static func looksLikeHotspot(_ ssid: String) -> Bool {
+        let lower = ssid.lowercased()
+        return ["iphone", "ipad", "galaxy", "pixel", "androidap", "hotspot", "핫스팟"]
+            .contains { lower.contains($0) }
+    }
 }
 
 /// 저장소 (UserDefaults 기반 — 민감한 환경이라면 Keychain으로 교체 권장).
@@ -56,19 +73,39 @@ final class NetworkStore: ObservableObject {
     func upsert(ssid: String, password: String,
                 latitude: Double? = nil, longitude: Double? = nil,
                 verifiedName: Bool = false) {
+        let hotspot = SavedNetwork.looksLikeHotspot(ssid)
         if let idx = index(of: ssid) {
             if verifiedName { networks[idx].ssid = ssid }
             networks[idx].password = password
             networks[idx].savedAt = Date()
-            if let latitude, let longitude {
+            // 이 기능이 생기기 전에 저장된 항목도 다시 저장될 때 한 번은 짐작해 준다.
+            // 이미 값이 있으면 사용자가 토글로 정한 것일 수 있으므로 건드리지 않는다.
+            if networks[idx].isHotspot == nil { networks[idx].isHotspot = hotspot }
+            // 핫스팟에는 위치를 남기지 않는다 — 나를 따라 움직이니 앵커가 곧 거짓이 된다
+            if let latitude, let longitude, networks[idx].isHotspot != true {
                 networks[idx].latitude = latitude
                 networks[idx].longitude = longitude
             }
         } else {
             networks.insert(
-                SavedNetwork(ssid: ssid, password: password, latitude: latitude, longitude: longitude),
+                SavedNetwork(ssid: ssid, password: password,
+                             latitude: hotspot ? nil : latitude,
+                             longitude: hotspot ? nil : longitude,
+                             isHotspot: hotspot),
                 at: 0
             )
+        }
+        persist()
+    }
+
+    /// 핫스팟 여부를 사용자가 직접 정한다 (이름만으로 한 짐작이 틀렸을 때).
+    /// 핫스팟으로 표시하면 의미 없어진 위치 앵커도 함께 지운다.
+    func setHotspot(id: UUID, _ isHotspot: Bool) {
+        guard let idx = networks.firstIndex(where: { $0.id == id }) else { return }
+        networks[idx].isHotspot = isHotspot
+        if isHotspot {
+            networks[idx].latitude = nil
+            networks[idx].longitude = nil
         }
         persist()
     }
@@ -84,6 +121,8 @@ final class NetworkStore: ObservableObject {
         // 오차가 '근처' 반경보다 큰 위치는 앵커로 쓸 수 없다
         guard location.horizontalAccuracy >= 0, location.horizontalAccuracy <= 150,
               let idx = index(of: ssid),
+              // 핫스팟은 나를 따라 움직인다 — 지금 위치를 앵커로 박으면 다음 자리에서 곧 거짓이 된다
+              networks[idx].isHotspot != true,
               networks[idx].latitude == nil || networks[idx].longitude == nil else { return }
         networks[idx].latitude = location.coordinate.latitude
         networks[idx].longitude = location.coordinate.longitude

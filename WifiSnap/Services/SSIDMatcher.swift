@@ -12,16 +12,25 @@ enum SSIDMatcher {
     /// OCR·복사붙여넣기로 제로폭 문자, 전각 영숫자(ＳＫ), 스마트 따옴표가 섞여 들어오면
     /// 화면상으로는 똑같은 값인데 연결만 조용히 실패한다 — 가장 찾기 어려운 실패 원인이라
     /// 연결 직전에 반드시 통과시킨다.
-    static func sanitize(_ raw: String) -> String {
+    ///
+    /// - Parameter foldLookalikes: 전각·스마트 따옴표를 평범한 글자로 접을지.
+    ///   OCR·붙여넣기처럼 값이 '옮겨 적히면서 변형됐을' 때만 참이어야 한다.
+    ///   사용자가 직접 친 이름은 그 자체가 정답이라 접으면 오히려 망가진다 —
+    ///   아이폰 이름의 스마트 어포스트로피(Leeo’s iPhone)를 ASCII '로 바꾸면
+    ///   실제로 방송되는 SSID와 한 바이트가 달라져 스캔한 폰이 네트워크를 못 찾는다.
+    static func sanitize(_ raw: String, foldLookalikes: Bool = true) -> String {
         var text = raw
-        // 전각 영숫자·기호가 실제로 섞였을 때만 반각으로 접는다.
-        // 조건 없이 변환하면 한글·가나 표기까지 건드릴 수 있다.
-        if text.unicodeScalars.contains(where: { (0xFF01...0xFF5E).contains($0.value) }) {
-            text = text.applyingTransform(.fullwidthToHalfwidth, reverse: false) ?? text
+        if foldLookalikes {
+            // 전각 영숫자·기호가 실제로 섞였을 때만 반각으로 접는다.
+            // 조건 없이 변환하면 한글·가나 표기까지 건드릴 수 있다.
+            if text.unicodeScalars.contains(where: { (0xFF01...0xFF5E).contains($0.value) }) {
+                text = text.applyingTransform(.fullwidthToHalfwidth, reverse: false) ?? text
+            }
+            for (from, to) in punctuationFolds {
+                text = text.replacingOccurrences(of: from, with: to)
+            }
         }
-        for (from, to) in punctuationFolds {
-            text = text.replacingOccurrences(of: from, with: to)
-        }
+        // 보이지 않는 문자는 어느 경로로 들어왔든 사용자가 의도한 것이 아니다
         text = String(String.UnicodeScalarView(text.unicodeScalars.filter { !isInvisible($0) }))
         return text.trimmingCharacters(in: .whitespacesAndNewlines)
     }

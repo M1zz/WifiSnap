@@ -7,6 +7,8 @@ struct NetworkDetailSheet: View {
     @ObservedObject var posterStore: PosterDesignStore
     /// '이 폰 연결'을 눌렀을 때 — 시트를 닫고 호출 측에서 연결을 수행한다
     var onConnect: () -> Void
+    /// 핫스팟 여부를 사용자가 고쳤을 때 (이름만으로 한 짐작이 틀릴 수 있다)
+    var onSetHotspot: (Bool) -> Void
 
     @Environment(\.dismiss) private var dismiss
     @State private var qrImage: UIImage?
@@ -14,6 +16,18 @@ struct NetworkDetailSheet: View {
     @State private var showPoster = false
     @State private var revealPassword = false
     @State private var copied = false
+    @State private var isHotspot: Bool
+
+    init(network: SavedNetwork,
+         posterStore: PosterDesignStore,
+         onSetHotspot: @escaping (Bool) -> Void,
+         onConnect: @escaping () -> Void) {
+        self.network = network
+        self.posterStore = posterStore
+        self.onSetHotspot = onSetHotspot
+        self.onConnect = onConnect
+        _isHotspot = State(initialValue: network.isHotspot == true)
+    }
 
     var body: some View {
         NavigationStack {
@@ -27,6 +41,7 @@ struct NetworkDetailSheet: View {
                         .fixedSize(horizontal: false, vertical: true)
                         .frame(maxWidth: .infinity)
                     passwordRow
+                    hotspotRow
                     actionButtons
                 }
                 .padding(16)
@@ -125,18 +140,46 @@ struct NetworkDetailSheet: View {
         }
     }
 
+    /// 핫스팟 표시 + 그때만 필요한 안내.
+    ///
+    /// QR이 멀쩡해도 핫스팟이 꺼져 있으면 상대 폰에는 그냥 '네트워크를 찾을 수 없음'이 뜬다.
+    /// 원인이 QR이 아니라는 걸 알려 줄 곳이 QR 바로 옆 말고는 없다.
+    private var hotspotRow: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Toggle(isOn: $isHotspot) {
+                Label("내 핫스팟", systemImage: "personalhotspot")
+                    .font(.subheadline.weight(.semibold))
+            }
+            .tint(.orange)
+            .onChange(of: isHotspot) { _, value in onSetHotspot(value) }
+
+            if isHotspot {
+                Text("보여주기 전에 설정 > 개인용 핫스팟에서 ‘다른 사람의 연결 허용’을 켜 주세요. 꺼져 있으면 QR을 찍어도 네트워크를 찾지 못해요.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 12)
+        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 12))
+    }
+
     private var actionButtons: some View {
         VStack(spacing: 10) {
-            Button {
-                dismiss()
-                onConnect()
-            } label: {
-                Label("이 폰 연결", systemImage: "wifi")
-                    .font(.headline)
-                    .frame(maxWidth: .infinity, minHeight: 44)
+            // 내 핫스팟에는 이 폰이 붙을 수 없다 — 누르면 반드시 실패하는 버튼은 아예 두지 않는다
+            if !isHotspot {
+                Button {
+                    dismiss()
+                    onConnect()
+                } label: {
+                    Label("이 폰 연결", systemImage: "wifi")
+                        .font(.headline)
+                        .frame(maxWidth: .infinity, minHeight: 44)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.orange)
             }
-            .buttonStyle(.borderedProminent)
-            .tint(.orange)
 
             Button {
                 showPoster = true
