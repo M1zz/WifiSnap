@@ -23,6 +23,18 @@ struct SavedNetwork: Identifiable, Codable, Equatable {
         guard let latitude, let longitude else { return nil }
         return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
+
+    /// 같은 와이파이인지 비교할 때 쓰는 키.
+    ///
+    /// SSID 자체는 대소문자를 구분하지만, 사용자가 연결 전에 손으로 적어 만들어 둔 이름('iptime5g')과
+    /// 실제로 연결한 뒤 iOS가 알려준 정식 표기('ipTIME5G')가 서로 다른 항목으로 쌓이면
+    /// 위치·비밀번호가 엉뚱한 쪽에 붙는다. 화면 표시는 정식 표기로, 동일성 판단은 이 키로 한다.
+    /// (이 파일은 위젯 타깃에서도 컴파일되므로 SSIDMatcher 같은 앱 전용 코드에 기대지 않는다)
+    static func matchKey(_ ssid: String) -> String {
+        ssid.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+    }
+
+    var matchKey: String { Self.matchKey(ssid) }
 }
 
 /// 저장소 (UserDefaults 기반 — 민감한 환경이라면 Keychain으로 교체 권장).
@@ -39,8 +51,13 @@ final class NetworkStore: ObservableObject {
     }
 
     /// 네트워크를 저장/갱신. 위치가 주어지면 함께 기록(재연결 시 위치도 최신화).
-    func upsert(ssid: String, password: String, latitude: Double? = nil, longitude: Double? = nil) {
-        if let idx = networks.firstIndex(where: { $0.ssid == ssid }) {
+    /// - Parameter verifiedName: ssid가 실제 연결로 iOS가 확인해 준 정식 표기인지.
+    ///   true면 미리 만들어 둘 때 적었던 이름을 이 표기로 바로잡는다.
+    func upsert(ssid: String, password: String,
+                latitude: Double? = nil, longitude: Double? = nil,
+                verifiedName: Bool = false) {
+        if let idx = index(of: ssid) {
+            if verifiedName { networks[idx].ssid = ssid }
             networks[idx].password = password
             networks[idx].savedAt = Date()
             if let latitude, let longitude {
@@ -54,6 +71,36 @@ final class NetworkStore: ObservableObject {
             )
         }
         persist()
+    }
+
+    /// 이 와이파이에 위치가 아직 없으면 지금 위치를 앵커로 남긴다.
+    ///
+    /// 위치는 원래 '앱으로 연결에 성공한 순간'에만 기록됐다. 그러면 설정에서 직접 연결했거나,
+    /// 연결 없이 QR만 미리 만들어 둔 와이파이에는 앵커가 영영 생기지 않아 '📍 여기/근처'가 뜨지 않는다.
+    /// 지금 그 와이파이에 실제로 붙어 있다는 건 그 자리에 있다는 뜻이므로 앵커로 삼아도 된다.
+    ///
+    /// 이미 기록된 위치는 덮어쓰지 않는다 — 신호가 겨우 닿는 가장자리에서 갱신되면 앵커가 나빠진다.
+    func anchorLocationIfMissing(ssid: String, at location: CLLocation) {
+        // 오차가 '근처' 반경보다 큰 위치는 앵커로 쓸 수 없다
+        guard location.horizontalAccuracy >= 0, location.horizontalAccuracy <= 150,
+              let idx = index(of: ssid),
+              networks[idx].latitude == nil || networks[idx].longitude == nil else { return }
+        networks[idx].latitude = location.coordinate.latitude
+        networks[idx].longitude = location.coordinate.longitude
+        persist()
+    }
+
+    /// 이름으로 저장된 네트워크 찾기 (대소문자·앞뒤 공백 차이는 같은 것으로 본다)
+    func network(for ssid: String) -> SavedNetwork? {
+        index(of: ssid).map { networks[$0] }
+    }
+
+    /// 같은 와이파이로 볼 항목의 위치 — 정확히 같은 이름이 우선, 없으면 표기만 다른 것
+    private func index(of ssid: String) -> Int? {
+        if let exact = networks.firstIndex(where: { $0.ssid == ssid }) { return exact }
+        let key = SavedNetwork.matchKey(ssid)
+        guard !key.isEmpty else { return nil }
+        return networks.firstIndex { $0.matchKey == key }
     }
 
     func delete(ids: [UUID]) {

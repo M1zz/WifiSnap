@@ -90,6 +90,11 @@ struct ContentView: View {
             .onChange(of: connectedSaved?.id) { _, id in
                 // 연결되면 '와이파이 추가' 섹션을 접고, 끊기면 다시 펼친다
                 withAnimation(.snappy) { scanExpanded = (id == nil) }
+                anchorConnectedLocation()
+            }
+            // 위치가 뒤늦게 잡히는 경우(권한 승인 직후 등)에도 앵커를 남긴다
+            .onChange(of: currentNetwork.currentLocation?.timestamp) { _, _ in
+                anchorConnectedLocation()
             }
             .onChange(of: scenePhase) { _, phase in
                 // 설정에서 와이파이를 바꾸고 돌아온 경우를 잡는다
@@ -335,10 +340,17 @@ struct ContentView: View {
         focusSSID = false
     }
 
-    /// 지금 연결된 와이파이가 저장돼 있으면 그 네트워크(=여기)
+    /// 지금 연결된 와이파이가 저장돼 있으면 그 네트워크(=여기).
+    /// 미리 만들어 둔 이름과 iOS가 알려준 표기가 대소문자만 달라도 같은 것으로 본다.
     private var connectedSaved: SavedNetwork? {
         guard let ssid = currentNetwork.currentSSID else { return nil }
-        return store.networks.first { $0.ssid == ssid }
+        return store.network(for: ssid)
+    }
+
+    /// 이 네트워크에 지금 연결돼 있는지
+    private func isConnected(_ network: SavedNetwork) -> Bool {
+        guard let current = currentNetwork.currentSSID else { return false }
+        return SavedNetwork.matchKey(current) == network.matchKey
     }
 
     // MARK: - Cards
@@ -437,7 +449,7 @@ struct ContentView: View {
                     .buttonStyle(.bordered)
                 }
 
-                // 스캔 없이 아이디·비밀번호를 손으로 쳐서 바로 연결.
+                // 스캔 없이 아이디·비밀번호를 손으로 쳐서 연결하거나, 연결 없이 QR만 만든다.
                 // 목록에서 고르는 건 실제로 쓸모가 없었으므로 바로 키보드를 띄운다.
                 Button {
                     manualEntry = true
@@ -448,7 +460,7 @@ struct ContentView: View {
                     showScanResult = true
                     focusSSID = true
                 } label: {
-                    Label("아이디·비밀번호 입력해 연결", systemImage: "keyboard")
+                    Label("아이디·비밀번호 직접 입력 (QR 만들기)", systemImage: "keyboard")
                         .frame(maxWidth: .infinity, minHeight: 40)
                 }
                 .buttonStyle(.bordered)
@@ -459,8 +471,8 @@ struct ContentView: View {
     private var resultCard: some View {
         card {
             cardHeader(icon: manualEntry ? "keyboard" : "camera.viewfinder",
-                       title: manualEntry ? "직접 입력으로 연결" : "스캔한 와이파이 연결",
-                       subtitle: manualEntry ? "아이디와 비밀번호를 입력해 이 폰을 연결" : "사진에서 읽은 정보로 이 폰을 연결",
+                       title: manualEntry ? "직접 입력한 와이파이" : "스캔한 와이파이",
+                       subtitle: "이 폰을 연결하거나, 연결 없이 QR만 만들어요",
                        color: .orange)
 
             if isRecognizing {
@@ -494,6 +506,24 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(.orange)
                 .disabled(credentials.ssid.isEmpty || isConnecting)
+
+                // 연결은 하지 않고 QR만 — 아직 그 자리에 없는 와이파이(다른 집·매장·예약한 숙소)도
+                // 이름·비밀번호만 알면 미리 만들어 둘 수 있어야 한다.
+                Button {
+                    saveWithoutConnecting()
+                } label: {
+                    Label("연결 없이 QR 만들기", systemImage: "qrcode")
+                        .font(.subheadline.weight(.semibold))
+                        .frame(maxWidth: .infinity, minHeight: 40)
+                }
+                .buttonStyle(.bordered)
+                .buttonBorderShape(.capsule)
+                .tint(.blue)
+                .disabled(credentials.ssid.isEmpty || isConnecting)
+
+                Text("이 폰을 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요.")
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
             }
         }
         .overlay(alignment: .leading) {
@@ -707,7 +737,6 @@ struct ContentView: View {
     /// 현재 위치 기준: 반경 안의 네트워크를 거리순으로 맨 위에, 나머지는 최근 저장순
     private var sortedNetworks: [SavedNetwork] {
         // 지금 연결된 와이파이('여기')는 항상 맨 위로
-        let connectedSSID = currentNetwork.currentSSID
         let ordered: [SavedNetwork]
         if let here = currentNetwork.currentLocation {
             let tagged = store.networks.map { (net: $0, dist: $0.distance(from: here)) }
@@ -721,8 +750,7 @@ struct ContentView: View {
         } else {
             ordered = store.networks
         }
-        guard let connectedSSID,
-              let idx = ordered.firstIndex(where: { $0.ssid == connectedSSID }) else {
+        guard let idx = ordered.firstIndex(where: { isConnected($0) }) else {
             return ordered
         }
         var result = ordered
@@ -737,9 +765,7 @@ struct ContentView: View {
     /// 그 연결 지점에 다시 왔을 때만 '여기'/'근처'가 뜬다 (단순 추가만 한 건 안 뜸).
     private func nearbyTag(for network: SavedNetwork) -> String? {
         // 지금 이 와이파이에 실제로 연결돼 있으면 확실히 '여기'
-        if let current = currentNetwork.currentSSID, current == network.ssid {
-            return "📍 여기"
-        }
+        if isConnected(network) { return "📍 여기" }
         // 아니면, 연결했던 지점과의 거리로 판단
         guard let here = currentNetwork.currentLocation,
               let distance = network.distance(from: here),
@@ -815,6 +841,40 @@ struct ContentView: View {
         }
     }
 
+    /// 지금 연결된 와이파이가 저장돼 있는데 위치가 비어 있으면 현재 위치를 앵커로 남긴다.
+    /// 연결 없이 QR만 만들어 둔 것, 설정에서 직접 붙은 것도 이 경로로 '📍 여기/근처'를 갖게 된다.
+    private func anchorConnectedLocation() {
+        guard let ssid = currentNetwork.currentSSID,
+              let here = currentNetwork.currentLocation else { return }
+        store.anchorLocationIfMissing(ssid: ssid, at: here)
+    }
+
+    /// 연결하지 않고 입력한 이름·비밀번호만 저장하고, 바로 QR 상세를 연다.
+    /// iOS는 '연결에 성공해야만' 와이파이 정보를 얻을 수 있게 하지만, QR을 만드는 데는
+    /// 연결이 필요 없다 — 알고 있는 정보만으로 미리 만들어 둘 수 있어야 한다.
+    private func saveWithoutConnecting() {
+        // 붙여넣기·OCR로 섞여 들어온 제로폭 문자, 전각 영숫자를 걷어낸다.
+        // 눈에는 똑같아 보여도 그대로 QR에 넣으면 스캔한 폰이 조용히 연결에 실패한다.
+        let ssid = SSIDMatcher.sanitize(credentials.ssid)
+        guard !ssid.isEmpty else { return }
+        let password = credentials.password
+        dismissKeyboard()
+
+        // 위치는 여기서 기록하지 않는다 — 아직 그 자리에 가 있지 않을 수 있다(다른 집·예약한 숙소).
+        // 나중에 실제로 그 와이파이에 연결되면 anchorConnectedLocation()이 그때의 위치를 남긴다.
+        store.upsert(ssid: ssid, password: password)
+
+        // 입력 카드는 닫고 필드를 비운다 (연결 성공 시와 동일한 정리)
+        showScanResult = false
+        credentials = WifiCredentials()
+        ssidCandidates = []
+        scanTokens = []
+        Task { await WifiSnapTips.savedNetwork.donate() }
+
+        guard let saved = store.network(for: ssid) else { return }
+        activeSheet = .detail(saved)
+    }
+
     private func connect() {
         guard !credentials.ssid.isEmpty else { return }
         isConnecting = true
@@ -829,10 +889,12 @@ struct ContentView: View {
             connectingNote = nil
             switch result {
             case .success(let joined):
-                // iOS가 알려준 표기를 저장한다 — OCR이 대소문자를 틀렸어도 여기서 바로잡힌다
+                // iOS가 알려준 표기를 저장한다 — OCR이 대소문자를 틀렸어도, 연결 전에 미리
+                // 만들어 둔 QR의 이름이 달랐어도 여기서 그 항목의 이름이 정식 표기로 바로잡힌다.
                 let here = currentNetwork.currentLocation?.coordinate
                 store.upsert(ssid: joined.ssid, password: password,
-                             latitude: here?.latitude, longitude: here?.longitude)
+                             latitude: here?.latitude, longitude: here?.longitude,
+                             verifiedName: true)
                 statusMessage = StatusMessage(
                     text: joined.verified
                         ? "'\(joined.ssid)'에 연결했어요."
