@@ -67,8 +67,10 @@ enum WifiConnector {
                         onProgress: @escaping (String) -> Void = { _ in },
                         completion: @escaping (Result<Success, Error>) -> Void) {
         let ssid = SSIDMatcher.sanitize(rawSSID)
-        // 비밀번호는 대소문자·기호가 전부 의미를 가지므로 '보이지 않는 문자'만 걷어내고 그대로 쓴다
-        let password = SSIDMatcher.sanitize(rawPassword)
+        // 비밀번호는 대소문자·기호가 전부 의미를 가지므로 '보이지 않는 문자'만 걷어내고 그대로 쓴다.
+        // 전각·스마트 따옴표까지 접으면 사용자가 정확히 친 한 글자를 다른 글자로 바꾸는 셈이고,
+        // 그 결과는 '비밀번호가 틀렸다'가 아니라 원인을 알 수 없는 연결 실패로 나타난다.
+        let password = SSIDMatcher.sanitize(rawPassword, foldLookalikes: false)
 
         guard !ssid.isEmpty else { return completion(.failure(ConnectError.emptySSID)) }
         guard ssid.utf8.count <= 32 else { return completion(.failure(ConnectError.ssidTooLong)) }

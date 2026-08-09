@@ -927,7 +927,10 @@ struct ContentView: View {
         guard !credentials.ssid.isEmpty else { return }
         isConnecting = true
         connectingNote = nil
-        let password = credentials.password
+        // 연결에 실제로 쓰이는 값과 여기서 저장해 QR에 들어갈 값은 같아야 한다.
+        // 그러지 않으면 보이지 않는 문자가 섞였을 때 연결은 되는데(WifiConnector가 걷어낸다)
+        // 그 성공으로 저장된 QR만 조용히 안 되는, 가장 설명하기 어려운 상태가 된다.
+        let password = SSIDMatcher.sanitize(credentials.password, foldLookalikes: false)
         WifiConnector.connect(ssid: credentials.ssid,
                               password: password,
                               // 붙었는지 이름으로 확인하려면 SSID 조회 권한이 필요하다
