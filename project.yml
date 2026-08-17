@@ -29,6 +29,9 @@ targets:
     info:
       path: WifiSnap/Info.plist
       properties:
+        # 홈 화면·설정에 보이는 이름. 타깃/번들 ID(com.leeo.wifisnap)는 기술 식별자라
+        # 그대로 두고, 사용자에게 보이는 이름만 여기서 바꾼다.
+        CFBundleDisplayName: 마이파이
         UILaunchScreen: {}
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false

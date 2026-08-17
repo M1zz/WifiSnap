@@ -33,7 +33,7 @@ struct WifiQREntry: TimelineEntry {
 struct WifiQRProvider: AppIntentTimelineProvider {
 
     func placeholder(in context: Context) -> WifiQREntry {
-        WifiQREntry(date: Date(), ssid: "WifiSnap", networkID: nil, isCurrent: false, qrImage: nil)
+        WifiQREntry(date: Date(), ssid: "마이파이", networkID: nil, isCurrent: false, qrImage: nil)
     }
 
     func snapshot(for configuration: SelectWifiIntent, in context: Context) async -> WifiQREntry {

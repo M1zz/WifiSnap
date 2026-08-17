@@ -949,7 +949,7 @@ struct ContentView: View {
                 statusMessage = StatusMessage(
                     text: joined.verified
                         ? "'\(joined.ssid)'에 연결했어요."
-                        : "'\(joined.ssid)' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > WifiSnap > 위치)",
+                        : "'\(joined.ssid)' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)",
                     isError: false
                 )
                 // 연결됐으니 입력 카드는 닫고 필드를 비운다
