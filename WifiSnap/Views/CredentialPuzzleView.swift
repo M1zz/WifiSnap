@@ -56,7 +56,7 @@ struct CredentialPuzzleView: View {
                     .font(.caption2.weight(.semibold))
                     .foregroundStyle(.secondary)
                 // 끌어다 놓기와 별개로 직접 고칠 수도 있어야 한다
-                TextField("조각을 끌어다 놓거나 입력", text: value)
+                TextField("아래 조각을 탭하거나 직접 입력", text: value)
                     .font(.body.weight(.medium))
                     .textInputAutocapitalization(.never)
                     .autocorrectionDisabled()
@@ -128,19 +128,57 @@ struct CredentialPuzzleView: View {
         }
     }
 
+    /// 조각 하나. 탭이 기본 조작이고, 끌어다 놓기는 그대로 남는다.
+    ///
+    /// 원래는 끌어다 놓기만 있었는데, 스크롤되는 카드 안에서 작은 칩을 집어 옮기는 건
+    /// 한 손으로는 사실상 안 되는 조작이었다. 그래서 탭 한 번으로 빈 칸이 채워지게 하고,
+    /// 어디에 넣을지 정해야 할 때만 길게 눌러 고르게 한다.
     private func tokenChip(_ token: String) -> some View {
         let isUsed = token == ssid || token == password
-        return Text(token)
-            .font(.caption.weight(.medium))
-            .lineLimit(1)
-            .padding(.horizontal, 10)
-            .padding(.vertical, 7)
-            .background(isUsed ? Color.orange.opacity(0.2) : Color(.tertiarySystemFill), in: Capsule())
-            .foregroundStyle(isUsed ? Color.orange : .primary)
-            .overlay {
-                Capsule().strokeBorder(isUsed ? Color.orange.opacity(0.5) : .clear, lineWidth: 1)
+        return Button {
+            fill(token)
+        } label: {
+            Text(token)
+                .font(.caption.weight(.medium))
+                .lineLimit(1)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 7)
+                .background(isUsed ? Color.orange.opacity(0.2) : Color(.tertiarySystemFill), in: Capsule())
+                .foregroundStyle(isUsed ? Color.orange : .primary)
+                .overlay {
+                    Capsule().strokeBorder(isUsed ? Color.orange.opacity(0.5) : .clear, lineWidth: 1)
+                }
+        }
+        .buttonStyle(.plain)
+        .contextMenu {
+            Button {
+                drop(token, into: .ssid)
+            } label: {
+                Label("아이디로 넣기", systemImage: "wifi")
             }
-            .draggable(token)
+            Button {
+                drop(token, into: .password)
+            } label: {
+                Label("비밀번호로 넣기", systemImage: "key.fill")
+            }
+        }
+        .draggable(token)
+        .accessibilityLabel(Text("\(token) 조각"))
+        .accessibilityHint(Text("탭하면 빈 칸에 넣습니다. 길게 누르면 넣을 칸을 고릅니다."))
+    }
+
+    /// 탭했을 때 조각이 갈 자리 — 빈 칸을 아이디부터 채우고, 둘 다 차 있으면 아이디를 바꾼다.
+    /// (사진에서 이름을 잘못 읽는 경우가 대부분이라 다시 누르는 쪽도 아이디가 자연스럽다)
+    private func fill(_ token: String) {
+        if ssid.isEmpty {
+            drop(token, into: .ssid)
+        } else if password.isEmpty {
+            drop(token, into: .password)
+        } else if password == token {
+            drop(token, into: .ssid)
+        } else {
+            drop(token, into: ssid == token ? .password : .ssid)
+        }
     }
 }
 

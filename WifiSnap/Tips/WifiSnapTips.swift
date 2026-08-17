@@ -32,11 +32,11 @@ struct ConnectedCardTip: Tip {
 
 /// 2-1) 스캔 결과 편집 — 조각을 끌어다 놓는 방식은 알려주지 않으면 모른다
 struct CredentialPuzzleTip: Tip {
-    var title: Text { Text("끌어다 놓아 고치기") }
+    var title: Text { Text("조각을 탭해서 채우기") }
     var message: Text? {
-        Text("아래 조각을 아이디·비밀번호 칸으로 끌어다 놓으세요. 둘이 뒤바뀌었으면 칸끼리 서로 끌면 자리가 바뀌어요.")
+        Text("아래 조각을 탭하면 빈 칸에 들어가요. 길게 누르면 아이디·비밀번호 중 어디에 넣을지 고를 수 있고, 끌어다 놓아도 돼요.")
     }
-    var image: Image? { Image(systemName: "hand.point.up.left") }
+    var image: Image? { Image(systemName: "hand.tap") }
 }
 
 /// 3) 저장 목록 행 조작법 — 탭·스와이프는 눈에 보이지 않아 안내가 필요하다

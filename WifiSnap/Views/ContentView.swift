@@ -855,6 +855,23 @@ struct ContentView: View {
         typingSSID = false    // 인식 결과는 후보 중에서 고르는 게 기본
         // 인식 결과가 비어도 직접 입력할 수 있도록 입력 카드를 열어둔다
         showScanResult = true
+
+        // 안내판에 QR이 함께 인쇄돼 있으면 글자를 추측할 이유가 없다 —
+        // 그 QR 안에 이름과 비밀번호가 오탈자 없이 그대로 들어 있다.
+        TextRecognizer.decodeWifiQR(in: image) { qr in
+            if let qr {
+                credentials = qr
+                ssidCandidates = [qr.ssid]
+                scanTokens = [qr.ssid, qr.password].filter { !$0.isEmpty }
+                isRecognizing = false
+                statusMessage = StatusMessage(text: "사진 속 QR에서 읽었어요.", isError: false)
+                return
+            }
+            recognizeText(on: image)
+        }
+    }
+
+    private func recognizeText(on image: UIImage) {
         TextRecognizer.recognizeLines(in: image) { lines in
             let scan = WifiCredentialParser.parse(lines: lines)
             credentials = scan.credentials

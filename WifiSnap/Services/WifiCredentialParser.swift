@@ -5,6 +5,17 @@ struct WifiCredentials: Equatable {
     var password: String = ""
 }
 
+extension Character {
+    /// 한글(음절·자모)인지 — 라벨의 조사 처리와 안내 문장 판별에 쓴다.
+    var isHangul: Bool {
+        unicodeScalars.contains { scalar in
+            (0xAC00...0xD7A3).contains(scalar.value)      // 음절
+                || (0x1100...0x11FF).contains(scalar.value)   // 자모
+                || (0x3130...0x318F).contains(scalar.value)   // 호환 자모
+        }
+    }
+}
+
 /// 사진 한 장의 인식 결과. 파서의 '최선의 추측'과 함께,
 /// 추측이 틀렸을 때 사용자가 바로 고를 수 있도록 SSID 후보들을 함께 돌려준다.
 struct WifiScanResult: Equatable {
@@ -67,6 +78,28 @@ enum WifiCredentialParser {
     // 결합 라벨(ID/PW)의 값을 둘로 쪼갤 때 쓰는 구분자 (공백 포함)
     private static let comboDelimiters = CharacterSet(charactersIn: " \t/／,，·|｜")
 
+    /// 구분자(:/=) 없이 줄 가운데에 나와도 라벨로 인정할 키.
+    ///
+    /// 안내판은 "CAFE_MOMO PW 1234"처럼 구분자를 생략하는 일이 흔하다. 다만 아무 키나 그렇게
+    /// 인정하면 "Free WiFi zone", "Guest Network" 같은 이름이 라벨로 오인되므로,
+    /// 다른 뜻으로 쓰일 일이 거의 없는 키만 넣는다.
+    private static let looseKeys: Set<String> = [
+        "password", "passwd", "pwd", "pw", "p/w", "ssid",
+        "비밀번호", "패스워드", "패스", "비번", "암호", "아이디",
+        "네트워크이름", "네트워크명", "와이파이이름", "wifi이름", "wifi명"
+    ]
+
+    /// 한글 라벨에 달라붙는 조사 — "비밀번호는 1234"의 '는'을 라벨의 일부로 본다.
+    private static let hangulParticles: Set<Character> = [
+        "는", "은", "이", "가", "를", "을", "도", "와", "과", "의", "로", "에"
+    ]
+
+    /// 값 뒤에 붙는 안내 문장의 꼬리 — "momo1234 입력", "12341234 입니다"에서 걷어낸다.
+    private static let sentenceTails: Set<String> = [
+        "입니다", "입니당", "이에요", "예요", "예요.", "됩니다", "입력", "선택", "사용",
+        "접속", "연결", "하세요", "해주세요", "확인", "참고", "이용"
+    ]
+
     // MARK: - Public
 
     static func parse(lines: [String]) -> WifiScanResult {
@@ -79,7 +112,16 @@ enum WifiCredentialParser {
             let line = raw.trimmingCharacters(in: .whitespaces)
             if line.isEmpty { continue }
 
-            let hits = labelHits(in: line)
+            let chars = Array(line)
+            let hits = labelHits(in: chars)
+
+            // "CAFE_MOMO (ID)"처럼 라벨이 값 뒤에 붙은 표기는 여기서 먼저 풀어낸다
+            if hits.isEmpty || hits.allSatisfy({ $0.start > 0 }), let tail = trailingLabel(in: line) {
+                pendingKind = nil
+                seenValues.append(tail.value)
+                assign(tail.kind, tail.value, to: &result)
+                continue
+            }
 
             // 직전 줄이 "라벨만" 있었던 경우 → 이 줄이 그 값
             if let pk = pendingKind {
@@ -95,12 +137,22 @@ enum WifiCredentialParser {
 
             // 라벨이 하나도 없으면 후보로만 모아두고 넘어감
             if hits.isEmpty {
-                candidates.append(line)
-                seenValues.append(cleanValue(line))
+                let values = candidateValues(in: line)
+                candidates.append(contentsOf: values)
+                seenValues.append(contentsOf: values.map(cleanValue))
                 continue
             }
 
-            let linePairs = pairs(in: line, hits: hits)
+            // 라벨 앞에 놓인 값도 잃지 않는다 ("CAFE_MOMO PW 1234" 의 이름)
+            if let first = hits.first, first.start > 0 {
+                let prefix = cleanValue(String(chars[0..<first.start]))
+                if !prefix.isEmpty, !isPhrase(prefix) {
+                    candidates.append(prefix)
+                    seenValues.append(prefix)
+                }
+            }
+
+            let linePairs = pairs(in: chars, hits: hits)
 
             // 결합 라벨 "ID/PW: cafe / 1234": 앞 값이 비고 뒤 값에 구분자가 있으면 둘로 분할
             if linePairs.count == 2,
@@ -172,32 +224,62 @@ enum WifiCredentialParser {
 
     // MARK: - 라벨 탐지
 
-    private struct Hit { let kind: KeyKind; let range: Range<String.Index> }
+    /// 원문 문자 인덱스로 표현한 라벨 위치 (end는 미포함)
+    private struct Hit { let kind: KeyKind; let start: Int; let end: Int }
 
     /// 한 줄에서 유효한 라벨들의 위치를 찾는다.
-    /// 유효 조건: 단어 경계가 맞고, (줄 맨 앞 라벨) 또는 (뒤에 명시적 구분자 :/= 가 옴).
-    private static func labelHits(in line: String) -> [Hit] {
+    ///
+    /// 매칭은 **공백을 지운 사본** 위에서 한다. 안내판의 한글 라벨은 띄어쓰기가 제각각이라
+    /// ("와이파이 이름", "비밀 번호") 원문 그대로 찾으면 사전에 있는 키와 어긋난다.
+    /// 찾은 위치는 원문 인덱스로 되돌려, 값에 들어 있는 공백("1234 5678")은 그대로 살린다.
+    ///
+    /// 유효 조건: 단어 경계가 맞고, 아래 중 하나.
+    /// - 줄 맨 앞 라벨
+    /// - 뒤에 명시적 구분자(:/=)가 옴
+    /// - looseKeys에 속하고, 앞뒤가 공백으로 끊긴 채 값이 이어짐 ("CAFE_MOMO PW 1234")
+    private static func labelHits(in chars: [Character]) -> [Hit] {
+        // 공백을 지운 소문자 사본과, 그 각 글자가 원문 어디였는지의 지도
+        var condensed: [Character] = []
+        var origin: [Int] = []
+        for (index, character) in chars.enumerated() where !character.isWhitespace {
+            condensed.append(Character(String(character).lowercased().first.map(String.init) ?? String(character)))
+            origin.append(index)
+        }
+        guard !condensed.isEmpty else { return [] }
+        let firstContent = origin[0]
+
         var hits: [Hit] = []
-        let firstContent = line.firstIndex(where: { !$0.isWhitespace }) ?? line.startIndex
 
         func scan(_ keys: [String], _ kind: KeyKind) {
             for key in keys {
-                var from = line.startIndex
-                while let r = line.range(of: key, options: .caseInsensitive, range: from..<line.endIndex) {
-                    from = r.upperBound
+                let pattern = Array(key.lowercased())
+                guard pattern.count <= condensed.count else { continue }
+                for start in 0...(condensed.count - pattern.count) {
+                    guard Array(condensed[start..<(start + pattern.count)]) == pattern else { continue }
 
-                    // 앞 경계: 시작이거나 앞 글자가 문자(알파벳/한글)가 아님
-                    let beforeOK = r.lowerBound == line.startIndex
-                        || !line[line.index(before: r.lowerBound)].isLetter
-                    // 뒤 경계: 끝이거나 뒤 글자가 문자가 아님 (단어 안에 박힌 키 배제)
-                    let afterOK = r.upperBound == line.endIndex
-                        || !line[r.upperBound].isLetter
+                    // 한글 라벨에 달라붙은 조사는 라벨의 일부로 흡수한다 ("비밀번호는 1234")
+                    var end = start + pattern.count
+                    if pattern.last?.isHangul == true {
+                        while end < condensed.count, hangulParticles.contains(condensed[end]),
+                              end - (start + pattern.count) < 2 {
+                            end += 1
+                        }
+                    }
+
+                    let originStart = origin[start]
+                    let originEnd = origin[end - 1] + 1
+                    // 단어 경계는 반드시 원문에서 본다. 공백을 지운 사본에서 판단하면
+                    // "CAFE_MOMO PW 1234"의 PW가 앞 글자에 붙은 것으로 오인돼 라벨을 놓친다.
+                    let beforeOK = originStart == 0 || !chars[originStart - 1].isLetter
+                    let afterOK = originEnd >= chars.count || !chars[originEnd].isLetter
                     guard beforeOK, afterOK else { continue }
+                    let isLeading = originStart == firstContent
+                    let loose = looseKeys.contains(key)
+                        && separatedBefore(chars, at: originStart)
+                        && valueFollows(chars, from: originEnd)
 
-                    // 라벨 자격: 줄 맨 앞이거나, 뒤에 명시적 구분자가 붙어야 함
-                    let isLeading = r.lowerBound == firstContent
-                    if isLeading || followedBySeparator(line, after: r.upperBound) {
-                        hits.append(Hit(kind: kind, range: r))
+                    if isLeading || followedBySeparator(chars, from: originEnd) || loose {
+                        hits.append(Hit(kind: kind, start: originStart, end: originEnd))
                     }
                 }
             }
@@ -205,45 +287,133 @@ enum WifiCredentialParser {
         scan(pwKeys, .pw)   // pw를 먼저 (id의 "id"가 "ssid"에 포함되는 등 우선순위)
         scan(idKeys, .id)
 
-        // 위치순 정렬 후 겹치는 히트 제거(앞선 것 우선)
-        hits.sort { $0.range.lowerBound < $1.range.lowerBound }
+        // 위치순 정렬 후 겹치는 히트 제거(앞선 것, 같은 자리면 긴 것 우선)
+        hits.sort { $0.start != $1.start ? $0.start < $1.start : $0.end > $1.end }
         var deduped: [Hit] = []
-        for h in hits {
-            if let last = deduped.last, h.range.lowerBound < last.range.upperBound { continue }
-            deduped.append(h)
+        for hit in hits {
+            if let last = deduped.last, hit.start < last.end { continue }
+            deduped.append(hit)
         }
         return deduped
     }
 
     /// 라벨 뒤(공백 건너뛰고)에 명시적 구분자(:/=)가 오는지
-    private static func followedBySeparator(_ line: String, after index: String.Index) -> Bool {
+    private static func followedBySeparator(_ chars: [Character], from index: Int) -> Bool {
         var i = index
-        while i < line.endIndex, line[i] == " " || line[i] == "\t" { i = line.index(after: i) }
-        guard i < line.endIndex else { return false }
-        return ":：=＝".contains(line[i])
+        while i < chars.count, chars[i] == " " || chars[i] == "\t" { i += 1 }
+        guard i < chars.count else { return false }
+        return ":：=＝".contains(chars[i])
+    }
+
+    /// 라벨 앞이 줄 시작이거나 공백으로 끊겨 있는지 (단어 꼬리에 우연히 걸린 키 배제)
+    private static func separatedBefore(_ chars: [Character], at index: Int) -> Bool {
+        index == 0 || chars[index - 1].isWhitespace
+    }
+
+    /// 라벨 뒤에 공백 하나를 두고 값처럼 생긴 글자가 이어지는지
+    private static func valueFollows(_ chars: [Character], from index: Int) -> Bool {
+        guard index < chars.count, chars[index].isWhitespace else { return false }
+        var i = index
+        while i < chars.count, chars[i].isWhitespace { i += 1 }
+        guard i < chars.count else { return false }
+        return chars[i].isLetter || chars[i].isNumber
     }
 
     /// 히트들 사이 구간을 각 라벨의 값으로 잘라낸다.
-    private static func pairs(in line: String, hits: [Hit]) -> [(kind: KeyKind, value: String)] {
+    private static func pairs(in chars: [Character], hits: [Hit]) -> [(kind: KeyKind, value: String)] {
         var out: [(KeyKind, String)] = []
-        for (i, h) in hits.enumerated() {
-            let start = h.range.upperBound
-            let end = (i + 1 < hits.count) ? hits[i + 1].range.lowerBound : line.endIndex
-            out.append((h.kind, cleanValue(String(line[start..<end]))))
+        for (i, hit) in hits.enumerated() {
+            let start = hit.end
+            let end = (i + 1 < hits.count) ? hits[i + 1].start : chars.count
+            guard start <= end else { continue }
+            out.append((hit.kind, cleanValue(String(chars[start..<end]))))
         }
         return out
+    }
+
+    /// 값 뒤에 라벨이 괄호로 붙은 표기 ("CAFE_MOMO (ID)")를 값과 종류로 되돌린다.
+    private static func trailingLabel(in line: String) -> (kind: KeyKind, value: String)? {
+        let trimmed = line.trimmingCharacters(in: .whitespaces)
+        guard let open = trimmed.lastIndex(where: { $0 == "(" || $0 == "[" || $0 == "（" }),
+              trimmed.last == ")" || trimmed.last == "]" || trimmed.last == "）" else { return nil }
+
+        let inside = String(trimmed[trimmed.index(after: open)..<trimmed.index(before: trimmed.endIndex)])
+            .trimmingCharacters(in: .whitespaces)
+            .lowercased()
+            .replacingOccurrences(of: " ", with: "")
+        let value = cleanValue(String(trimmed[trimmed.startIndex..<open]))
+        guard !value.isEmpty else { return nil }
+
+        if pwKeys.contains(inside) { return (.pw, value) }
+        if idKeys.contains(inside) { return (.id, value) }
+        return nil
     }
 
     // MARK: - 값 정리 / 배정
 
     /// 값에서 가장자리 기호를 걷어내고, 눈에 안 보이는 문자(제로폭·전각)까지 정리한다.
     /// 여기서 걸러두지 않으면 화면상 똑같아 보이는 값으로 연결만 조용히 실패한다.
+    /// 안내 문장의 꼬리("… 입력", "… 입니다")도 함께 떼어낸다.
     private static func cleanValue(_ text: String) -> String {
-        SSIDMatcher.sanitize(text).trimmingCharacters(in: junk)
+        strippingSentenceTails(SSIDMatcher.sanitize(text).trimmingCharacters(in: junk))
+    }
+
+    /// 값 앞뒤에 붙은 안내 문구를 걷어낸다 ("momo1234 입력" → "momo1234").
+    /// 값이 통째로 한글 문구면 건드리지 않는다 — 그건 값이 아니라 문장이고, 따로 걸러진다.
+    private static func strippingSentenceTails(_ value: String) -> String {
+        var parts = value.split(separator: " ").map(String.init)
+        guard parts.count >= 2 else { return value }
+
+        /// 떼어내고 남은 것이 값처럼 보일 때만 뗀다. 남는 게 또 한글 낱말뿐이면
+        /// 애초에 값이 아니라 문장이므로, 문장의 일부만 남겨 값인 척하게 두면 안 된다.
+        func keepsValue(_ remaining: [String]) -> Bool {
+            remaining.contains { part in
+                part.contains { $0.isNumber || ($0.isLetter && !$0.isHangul) }
+            }
+        }
+        while parts.count > 1, let last = parts.last,
+              sentenceTails.contains(last.trimmingCharacters(in: junk)),
+              keepsValue(Array(parts.dropLast())) {
+            parts.removeLast()
+        }
+        while parts.count > 1, let first = parts.first,
+              sentenceTails.contains(first.trimmingCharacters(in: junk)),
+              keepsValue(Array(parts.dropFirst())) {
+            parts.removeFirst()
+        }
+        return parts.joined(separator: " ").trimmingCharacters(in: junk)
+    }
+
+    /// 자격증명 값이 아니라 안내 문장인지 — 한글 낱말이 둘 이상 이어진 덩어리("접속 방법").
+    /// 한 낱말짜리 한글 이름("우리집와이파이")은 실제 SSID일 수 있으므로 값으로 인정한다.
+    private static func isPhrase(_ value: String) -> Bool {
+        let parts = value.split(separator: " ")
+        guard parts.count >= 2 else { return false }
+        return parts.allSatisfy { part in
+            part.contains(where: { $0.isHangul }) && !part.contains(where: { $0.isNumber })
+        }
+    }
+
+    /// 라벨 없는 줄에서 값으로 쓸 만한 조각을 뽑는다.
+    ///
+    /// "1. 설정에서 CAFE_MOMO 선택"처럼 안내 문장 안에 값이 섞여 있으면 줄 전체는 값이 될 수 없다.
+    /// 한글 문장 안에 라틴·숫자 낱말이 섞여 있을 때만 그 낱말을 따로 떼어 후보로 삼는다
+    /// (한글이 없는 줄은 "CAFE MOMO"처럼 이름 자체일 수 있으므로 통째로 둔다).
+    private static func candidateValues(in line: String) -> [String] {
+        let hasHangul = line.contains { $0.isHangul }
+        guard hasHangul else { return [line] }
+
+        let words = line.split(separator: " ").map { String($0).trimmingCharacters(in: junk) }
+        let latinWords = words.filter { word in
+            word.count >= 4
+                && !word.contains(where: { $0.isHangul })
+                && word.rangeOfCharacter(from: .alphanumerics) != nil
+        }
+        return latinWords.isEmpty ? [line] : latinWords
     }
 
     private static func assign(_ kind: KeyKind, _ value: String, to result: inout WifiCredentials) {
-        guard !value.isEmpty else { return }
+        guard !value.isEmpty, !isPhrase(value) else { return }
         switch kind {
         case .id: if result.ssid.isEmpty { result.ssid = value }
         case .pw: if result.password.isEmpty { result.password = value }
