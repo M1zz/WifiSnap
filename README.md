@@ -8,12 +8,12 @@
 
 ## 링크
 
-- 🏠 [홈페이지](https://m1zz.github.io/WifiSnap/)
+- 🏠 [앱 소개 페이지](https://m1zz.github.io/WifiSnap/) — 기능 소개 랜딩 페이지
+- 🔒 [개인정보 처리방침](https://m1zz.github.io/WifiSnap/privacy.html) — 앱스토어 제출용 URL
 - 🛟 [지원 / 도움말](https://m1zz.github.io/WifiSnap/support.html)
-- 🔒 [개인정보 처리방침](https://m1zz.github.io/WifiSnap/privacy.html)
 
-> 위 페이지는 저장소의 [`docs/`](docs/) 폴더로 만들어집니다. GitHub 저장소 **Settings → Pages** 에서
-> Source를 `main` 브랜치의 `/docs` 폴더로 설정하면 위 URL로 게시됩니다.
+> 위 페이지는 저장소의 [`docs/`](docs/) 폴더에서 GitHub Pages로 게시됩니다
+> (Settings → Pages: `main` 브랜치의 `/docs`). `docs/`를 수정해 push하면 몇 분 안에 반영됩니다.
 
 ## 요구 사항
 
