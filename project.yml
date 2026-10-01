@@ -29,6 +29,8 @@ targets:
     info:
       path: WifiSnap/Info.plist
       properties:
+        # 수출 규정: 운영체제 암호화(HTTPS 등)만 쓴다 — 심사 때 암호화 질문을 건너뛴다
+        ITSAppUsesNonExemptEncryption: false
         # 홈 화면·설정에 보이는 이름. 타깃/번들 ID(com.leeo.wifisnap)는 기술 식별자라
         # 그대로 두고, 사용자에게 보이는 이름만 여기서 바꾼다.
         CFBundleDisplayName: 마이파이
