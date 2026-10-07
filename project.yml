@@ -17,6 +17,11 @@ settings:
     # 다음 xcodegen generate에 지워진다 — 여기 적어야 유지된다. (앱·위젯 두 타깃 모두 적용)
     DEVELOPMENT_TEAM: QGAQ3AY3R3
 
+packages:
+  LeeoKit:
+    url: https://github.com/M1zz/LeeoKit.git
+    majorVersion: 3.16.1
+
 targets:
   WifiSnap:
     type: application
@@ -25,6 +30,7 @@ targets:
       - path: WifiSnap
     dependencies:
       - target: WifiSnapWidget
+      - package: LeeoKit
     # CFBundleURLTypes(위젯 딥링크)는 INFOPLIST_KEY_* 로 넣을 수 없어 Info.plist를 명시한다
     info:
       path: WifiSnap/Info.plist

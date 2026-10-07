@@ -16,6 +16,7 @@
 		3589AF7FB8E7B6BF51734729 /* ActivityShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9475D6007B279B92806D1D /* ActivityShareSheet.swift */; };
 		3CACA1251F98764468B3370A /* SavedNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F227DCF115FF7485AF3EA4AD /* SavedNetwork.swift */; };
 		4431278BEAC3C20F2F447C8E /* PosterDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C05BCC4167A6878A290A51 /* PosterDesign.swift */; };
+		46DDBA79F2695F532841EB2C /* WifiSnapSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE688CEF6948C86D529BC38 /* WifiSnapSpec.swift */; };
 		492A9AA39F1A86E534383583 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD026F980125CDF3004A9E59 /* ImagePicker.swift */; };
 		4B937F4FAF6850881D76A40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92FFFE2DCC7EBB3226E7F92 /* Assets.xcassets */; };
 		53C0B473635940E6315EE88D /* CredentialPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C61243AEDD3DDF44908D092 /* CredentialPuzzleView.swift */; };
@@ -32,6 +33,7 @@
 		B4C6E3BD8F3FA05A8819EDE0 /* WifiQRPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132B88B58A6A5FD0CD8B9DA4 /* WifiQRPayload.swift */; };
 		B83E5F1A81336986DB037E67 /* WifiPosterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08685B47F748EC8FF732F1A8 /* WifiPosterSheet.swift */; };
 		BC8CCF5D1BCF6C4CBDA063CB /* WifiSnapWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933BBB3F3BCBE744A957F440 /* WifiSnapWidget.swift */; };
+		BE3B0D159F309BD8808276EF /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 25F0DDC848F958DB5D553E97 /* LeeoKit */; };
 		C4FDA8F9C8FC19D31856FC49 /* PosterListSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF98E1930134324BDE3C926C /* PosterListSheet.swift */; };
 		CF5A3581BBFEDEED8D576C6B /* WifiSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D1CA0E6D09DCA4E677F87 /* WifiSnapApp.swift */; };
 		E259D21978489D5195653321 /* SelectWifiIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203683BB7B8241D518E47E44 /* SelectWifiIntent.swift */; };
@@ -74,6 +76,7 @@
 		132B88B58A6A5FD0CD8B9DA4 /* WifiQRPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiQRPayload.swift; sourceTree = "<group>"; };
 		203683BB7B8241D518E47E44 /* SelectWifiIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWifiIntent.swift; sourceTree = "<group>"; };
 		290AF647E0AFA134C217C115 /* WifiCredentialParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiCredentialParser.swift; sourceTree = "<group>"; };
+		2FE688CEF6948C86D529BC38 /* WifiSnapSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiSnapSpec.swift; sourceTree = "<group>"; };
 		3C61243AEDD3DDF44908D092 /* CredentialPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialPuzzleView.swift; sourceTree = "<group>"; };
 		44E5DE2DEA472DD1FB2E50F1 /* WifiListParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListParser.swift; sourceTree = "<group>"; };
 		495D1CA0E6D09DCA4E677F87 /* WifiSnapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiSnapApp.swift; sourceTree = "<group>"; };
@@ -101,6 +104,17 @@
 		F227DCF115FF7485AF3EA4AD /* SavedNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedNetwork.swift; sourceTree = "<group>"; };
 		FD026F980125CDF3004A9E59 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7BF78FA9B509FBBCE66C327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3B0D159F309BD8808276EF /* LeeoKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		039CDF61D6A3C18AD2439CD3 = {
@@ -161,6 +175,7 @@
 				B1AA0E8EF555D951AB012A72 /* Info.plist */,
 				F154FDB7DDDB52375DB95D25 /* WifiSnap.entitlements */,
 				495D1CA0E6D09DCA4E677F87 /* WifiSnapApp.swift */,
+				2FE688CEF6948C86D529BC38 /* WifiSnapSpec.swift */,
 				9D8D604A6A947101600F177B /* Models */,
 				104CF751AC8F27A36341F107 /* Services */,
 				E2905443D56F85C347977C59 /* Shared */,
@@ -233,6 +248,7 @@
 				AF3A3DFBCBA486D9D17FCC83 /* 번들 ID 고정 확인 */,
 				754DAB5B2BDAB32F0290ABFC /* Sources */,
 				C1B3E618F0897F30EB4A575B /* Resources */,
+				A7BF78FA9B509FBBCE66C327 /* Frameworks */,
 				66234D5810162AFD056D0FC4 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
@@ -242,6 +258,7 @@
 			);
 			name = WifiSnap;
 			packageProductDependencies = (
+				25F0DDC848F958DB5D553E97 /* LeeoKit */,
 			);
 			productName = WifiSnap;
 			productReference = A24E97C2C88C093826CAD1AF /* WifiSnap.app */;
@@ -274,6 +291,9 @@
 			);
 			mainGroup = 039CDF61D6A3C18AD2439CD3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E5CB7C14525D5C608C96CAA3 /* XCRemoteSwiftPackageReference "LeeoKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
@@ -347,6 +367,7 @@
 				B83E5F1A81336986DB037E67 /* WifiPosterSheet.swift in Sources */,
 				B4C6E3BD8F3FA05A8819EDE0 /* WifiQRPayload.swift in Sources */,
 				CF5A3581BBFEDEED8D576C6B /* WifiSnapApp.swift in Sources */,
+				46DDBA79F2695F532841EB2C /* WifiSnapSpec.swift in Sources */,
 				08FDB58DE5160F9737B8AC2A /* WifiSnapTips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +623,25 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5CB7C14525D5C608C96CAA3 /* XCRemoteSwiftPackageReference "LeeoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.16.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25F0DDC848F958DB5D553E97 /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5CB7C14525D5C608C96CAA3 /* XCRemoteSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C4E223FC90FD4CC4FEAB160 /* Project object */;
 }
