@@ -68,6 +68,24 @@ targets:
             exit 1
           fi
 
+  # 단위 테스트 — 파서·QR·이름 교정 같은 순수 로직.
+  # 앱을 호스트로 띄우지 않고 해당 소스만 직접 컴파일한다: 앱을 띄우면 CloudKit·위치 권한 같은
+  # 실행 환경이 필요해지고, 순수 로직 시험이 그 환경에 따라 깨진다. (위젯 타깃과 같은 방식)
+  WifiSnapTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: WifiSnapTests
+      - path: WifiSnap/Services/WifiQRPayload.swift
+      - path: WifiSnap/Services/WifiCredentialParser.swift
+      - path: WifiSnap/Services/SSIDMatcher.swift
+      - path: WifiSnap/Services/QRCodeGenerator.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.leeo.wifisnap.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TARGETED_DEVICE_FAMILY: "1"
+
   # 홈 화면 와이파이 QR 위젯. 앱과는 App Group(group.com.leeo.wifisnap)으로만 데이터를 공유한다.
   WifiSnapWidget:
     type: app-extension
