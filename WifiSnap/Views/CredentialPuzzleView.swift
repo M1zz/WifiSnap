@@ -70,6 +70,7 @@ struct CredentialPuzzleView: View {
                         .foregroundStyle(.secondary)
                 }
                 .buttonStyle(.plain)
+                .accessibilityLabel(slot == .ssid ? "아이디 지우기" : "비밀번호 지우기")
             }
         }
         .padding(.horizontal, 12)

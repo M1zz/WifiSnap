@@ -104,6 +104,8 @@ struct WifiListImportSheet: View {
                             .foregroundStyle(candidate.isSelected ? Color.accentColor : .secondary)
                     }
                     .buttonStyle(.plain)
+                    .accessibilityLabel("가져오기에 포함")
+                    .accessibilityValue(candidate.isSelected ? "선택됨" : "선택 안 됨")
 
                     // 인식이 틀렸을 수 있으니 이름을 그 자리에서 고칠 수 있게 한다
                     TextField("와이파이 이름", text: $candidate.name)

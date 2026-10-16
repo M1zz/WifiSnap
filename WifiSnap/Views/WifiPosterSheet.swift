@@ -520,6 +520,7 @@ struct WifiPosterSheet: View {
                             .foregroundStyle(.red)
                     }
                     .buttonStyle(.plain)
+                    .accessibilityLabel("이 줄 삭제")
                 }
             }
 
