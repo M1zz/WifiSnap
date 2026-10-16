@@ -1,6 +1,7 @@
 import SwiftUI
 import CoreLocation
 import TipKit
+import LeeoKit
 
 struct ContentView: View {
     @StateObject private var store = NetworkStore()
@@ -46,6 +47,13 @@ struct ContentView: View {
     // 직접 연결 시 SSID 입력 모드: false=목록에서 선택(기본), true=키보드 타이핑
     @State private var typingSSID = false
 
+    // 첫 실행 안내 — 처음 연 사용자에게 한 번만 (설정에서 다시 볼 수 있다)
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+    @State private var showOnboarding = false
+
+    // 단축어·Siri 에서 들어온 요청 (→ Intents/WifiSnapShortcuts.swift)
+    @ObservedObject private var router = AppRouter.shared
+
     // 앱으로 돌아올 때 SSID를 다시 확인 — 위젯이 참조하는 '지금 연결됨'을 최신으로 유지한다
     @Environment(\.scenePhase) private var scenePhase
 
@@ -56,6 +64,7 @@ struct ContentView: View {
         case share(SavedNetwork, UIImage)
         case map
         case importList
+        case settings
 
         var id: String {
             switch self {
@@ -65,6 +74,7 @@ struct ContentView: View {
             case .share(let network, _): return "share-\(network.id)"
             case .map: return "map"
             case .importList: return "importList"
+            case .settings: return "settings"
             }
         }
     }
@@ -86,6 +96,15 @@ struct ContentView: View {
                 if !store.networks.isEmpty {
                     Task { await WifiSnapTips.savedNetwork.donate() }
                 }
+                // 첫 실행 안내는 처음 온 사용자에게만. 이미 와이파이를 저장해 쓰던 사용자는
+                // 이 기능이 생기기 전부터 쓰던 사람이라 다시 가르치지 않는다.
+                if !hasSeenOnboarding {
+                    if store.networks.isEmpty {
+                        showOnboarding = true
+                    } else {
+                        hasSeenOnboarding = true
+                    }
+                }
             }
             .onChange(of: connectedSaved?.id) { _, id in
                 // 연결되면 '와이파이 추가' 섹션을 접고, 끊기면 다시 펼친다
@@ -103,6 +122,34 @@ struct ContentView: View {
             .sheet(item: $activeSheet, content: sheetContent)
             .alert(item: $statusMessage, content: alertContent)
             .onOpenURL(perform: handleDeepLink)
+            .fullScreenCover(isPresented: $showOnboarding) {
+                WifiSnapOnboardingView {
+                    hasSeenOnboarding = true
+                    showOnboarding = false
+                }
+            }
+            // 단축어로 열린 경우 — 앱이 막 켜졌어도 구독 즉시 남아 있던 요청을 받는다
+            .onReceive(router.$pending.compactMap { $0 }) { route in
+                router.pending = nil
+                handleRoute(route)
+            }
+    }
+
+    /// 단축어·Siri 요청 처리
+    private func handleRoute(_ route: AppRouter.Route) {
+        switch route {
+        case .showWifiQR:
+            // 지금 연결된 와이파이가 우선, 없으면 가장 최근에 저장한 것
+            let latest = store.networks.max(by: { $0.savedAt < $1.savedAt })
+            if let network = connectedSaved ?? latest {
+                activeSheet = .detail(network)
+            } else {
+                // 보여 줄 QR이 아직 없다 — 와이파이를 추가하는 곳을 펼쳐 둔다
+                withAnimation(.snappy) { scanExpanded = true }
+            }
+        case .scanWifiPhoto:
+            activeSheet = .picker(UIImagePickerController.isSourceTypeAvailable(.camera) ? .camera : .library)
+        }
     }
 
     /// 위젯 탭 → wifisnap://qr?id=… → 그 위젯에 고정된 와이파이의 QR 상세를 연다.
@@ -123,6 +170,7 @@ struct ContentView: View {
     private var mainStack: some View {
         ScrollView {
             VStack(spacing: 12) {
+                header
                 connectedCard
                 if isRecognizing || hasInput || showScanResult {
                     resultCard
@@ -133,6 +181,26 @@ struct ContentView: View {
             .padding(16)
         }
         .scrollDismissesKeyboard(.interactively)
+    }
+
+    /// 맨 위 한 줄 — 앱 이름과 설정 버튼
+    private var header: some View {
+        HStack {
+            Text("마이파이")
+                .font(.title2.weight(.bold))
+            Spacer()
+            Button {
+                activeSheet = .settings
+            } label: {
+                Image(systemName: "gearshape")
+                    .font(.title3)
+                    .frame(width: 44, height: 44)
+                    .contentShape(Rectangle())
+            }
+            .foregroundStyle(.secondary)
+            .accessibilityLabel("설정")
+        }
+        .padding(.leading, 4)
     }
 
     private var backgroundLayer: some View {
@@ -166,6 +234,8 @@ struct ContentView: View {
             MapSheet(networks: store.networks)
         case .importList:
             WifiListImportSheet(store: knownSSIDStore)
+        case .settings:
+            SettingsSheet()
         }
     }
 
@@ -238,6 +308,7 @@ struct ContentView: View {
                             .font(.title2)
                             .foregroundStyle(.orange)
                     }
+                    .accessibilityLabel("목록에서 와이파이 고르기")
                 }
             } else {
                 ssidMenu
@@ -272,11 +343,14 @@ struct ContentView: View {
                 }
             }
             Divider()
-            // iOS가 저장된 와이파이 목록을 안 주므로, 사용자가 설정 화면을 캡처해 알려주는 경로
-            Button {
-                activeSheet = .importList
-            } label: {
-                Label("설정 캡처에서 목록 가져오기…", systemImage: "text.viewfinder")
+            // iOS가 저장된 와이파이 목록을 안 주므로, 사용자가 설정 화면을 캡처해 알려주는 경로.
+            // 설정 앱 화면 모양에 기대는 기능이라 원격 킬스위치로 내릴 수 있게 둔다.
+            if LeeoRemoteFlags.isEnabled(WifiSnapFlag.settingsListImport) {
+                Button {
+                    activeSheet = .importList
+                } label: {
+                    Label("설정 캡처에서 목록 가져오기…", systemImage: "text.viewfinder")
+                }
             }
             Button {
                 credentials.ssid = ""
@@ -935,6 +1009,8 @@ struct ContentView: View {
         ssidCandidates = []
         scanTokens = []
         Task { await WifiSnapTips.savedNetwork.donate() }
+        // QR을 만들어 둔 것은 이 앱의 목적을 이룬 순간 — 만족도 질문의 근거로 센다
+        LeeoEngagement.shared.registerSignificantEvent()
 
         guard let saved = store.network(for: ssid) else { return }
         activeSheet = .detail(saved)
@@ -976,6 +1052,8 @@ struct ContentView: View {
                 scanTokens = []
                 currentNetwork.refresh()
                 Task { await WifiSnapTips.savedNetwork.donate() }
+                // 연결에 성공한 순간 — 만족도 질문의 근거로 센다
+                LeeoEngagement.shared.registerSignificantEvent()
             case .failure(let error):
                 statusMessage = StatusMessage(text: error.localizedDescription, isError: true)
             }
@@ -1050,7 +1128,14 @@ private struct ConnectedFlipCard: View {
                 .background(.ultraThinMaterial, in: Circle())
                 .padding(6)
                 .rotation3DEffect(.degrees(flipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
+                .accessibilityHidden(true)
         }
+        // VoiceOver: 카드 한 장으로 읽고, 두 번 탭하면 뒤집는다 (밀기 제스처는 VoiceOver 로 할 수 없다)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(flipped ? "\(network.ssid) 손님용 안내판 미리보기" : "\(network.ssid) 연결용 QR 코드")
+        .accessibilityHint(flipped ? "두 번 탭하면 QR 코드로 돌아갑니다." : "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다.")
+        .accessibilityAddTraits(.isButton)
+        .accessibilityAction { flip() }
         .task(id: renderKey) { await generate() }
     }
 

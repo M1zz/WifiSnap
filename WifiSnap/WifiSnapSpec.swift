@@ -29,6 +29,9 @@ enum WifiSnapSpec: LeeoAppSpec {
         marketingURL: URL(string: "https://m1zz.github.io/WifiSnap/")!
     )
 
+    /// App Store 앱 ID — 설정의 '리뷰 남기기'가 리뷰 작성 페이지로 바로 연결된다.
+    static let appStoreID: String? = "6793472383"
+
     /// 수익모델 (LeeoKit 3.x 부터 필수) — 인앱 결제가 없는 무료 앱.
     static let monetization = LeeoMonetization.free
 
