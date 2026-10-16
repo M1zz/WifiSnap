@@ -1,6 +1,7 @@
 import Foundation
 import Network
 import NetworkExtension
+import LeeoKit
 
 /// NEHotspotConfiguration으로 실제 와이파이 연결을 수행
 /// ⚠️ 요구사항:
@@ -89,10 +90,17 @@ enum WifiConnector {
             // 1차는 사용자가 준 이름 그대로. 못 붙으면 대소문자 표기만 바꿔 한 번 더 —
             // OCR이 가장 자주 틀리는 게 대소문자인데 SSID는 그걸 구분하기 때문이다.
             // (시도마다 시스템 확인 창이 뜨므로 재시도는 가장 유력한 후보 하나로 제한한다)
+            // 원격 킬스위치로 재시도를 끄면 확인 창을 한 번만 띄우고, 못 붙으면
+            // 표기 후보를 모두 안내해 사용자가 직접 골라 다시 누르게 한다.
+            let retryEnabled = LeeoRemoteFlags.isEnabled(WifiSnapFlag.connectCaseRetry)
             let fallback = SSIDMatcher.caseVariants(of: ssid).first
             attempt(ssid: ssid, password: password, security: security, canReadSSID: canReadSSID) { result in
                 guard isNotFound(result), let fallback else {
                     return completion(result)
+                }
+                guard retryEnabled else {
+                    let suggestions = SSIDMatcher.caseVariants(of: ssid)
+                    return completion(.failure(ConnectError.notFound(ssid: ssid, suggestions: suggestions)))
                 }
                 onProgress("'\(fallback)' 표기로 다시 시도 중…")
                 attempt(ssid: fallback, password: password, security: security,
