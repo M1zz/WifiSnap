@@ -32,6 +32,8 @@ struct SettingsSheet: View {
 
                 Section {
                     LeeoSupportSection<WifiSnapSpec>()
+                    // 앞으로 만들 기능 — 원본은 WifiSnapRoadmap.swift
+                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                 } header: {
                     Text("의견 · 리뷰")
                 } footer: {
