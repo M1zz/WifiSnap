@@ -69,6 +69,12 @@
             "value" : "เชื่อมต่อในแอปสักครั้ง แล้ว QR จะแสดงที่นี่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối một lần trong ứng dụng, mã QR sẽ hiện ở đây"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -146,6 +152,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -233,6 +245,12 @@
             "value" : "QR ของ Wi-Fi"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã QR Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -313,6 +331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือก Wi-Fi"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -397,6 +421,12 @@
             "value" : "เลือก Wi-Fi ที่จะปักหมุดไว้ที่วิดเจ็ต หากไม่เลือก จะแสดงอันที่เชื่อมต่อล่าสุด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn Wi-Fi để ghim vào tiện ích. Nếu không chọn, sẽ hiện Wi-Fi bạn kết nối gần nhất."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มี Wi-Fi ที่บันทึกไว้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa lưu Wi-Fi nào"
           }
         },
         "zh-Hans" : {
@@ -561,6 +597,12 @@
             "value" : "แสดง QR ของ Wi-Fi ที่เชื่อมต่ออยู่ กดค้างแล้วเลือก “แก้ไขวิดเจ็ต” เพื่อปักหมุด Wi-Fi ที่ต้องการ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiện mã QR của Wi-Fi bạn đang kết nối. Nhấn giữ rồi chọn “Sửa tiện ích” để ghim một Wi-Fi cụ thể."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -641,6 +683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่ออยู่ตอนนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang kết nối"
           }
         },
         "zh-Hans" : {
@@ -725,6 +773,12 @@
             "value" : "สแกนด้วยกล้องเพื่อเชื่อมต่อ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quét bằng camera để kết nối"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -805,6 +859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะเพื่อดู QR ขนาดใหญ่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm để xem mã QR lớn"
           }
         },
         "zh-Hans" : {

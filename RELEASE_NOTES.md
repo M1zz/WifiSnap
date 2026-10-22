@@ -95,3 +95,10 @@ Compartilhe seu hotspot com um QR.
 แก้ปัญหาเชื่อมต่อไม่สำเร็จเป็นบางครั้ง
 สร้าง QR ได้แม้ไม่เชื่อมต่อ
 แชร์ฮอตสปอตของคุณด้วย QR ใบเดียว
+
+### 앱스토어 (베트남어)
+
+Đọc Wi-Fi trong ảnh chính xác hơn.
+Sửa lỗi thỉnh thoảng không kết nối được.
+Tạo mã QR mà không cần kết nối.
+Chia sẻ điểm phát sóng bằng một mã QR.

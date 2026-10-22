@@ -727,3 +727,59 @@ https://m1zz.github.io/WifiSnap/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/WifiSnap/
+
+## vi
+
+### 이름
+
+MyFi: Mã QR Wi-Fi
+
+### 부제
+
+Chụp là kết nối, in bảng
+
+### 키워드
+
+mật,khẩu,chia,sẻ,khách,sạn,quán,cafe,homestay,router,camera,quét,áp,phích,phát,sóng,cửa,hàng
+
+### 프로모션 텍스트
+
+Chụp bảng Wi-Fi để kết nối ngay, hoặc chia sẻ mạng của bạn bằng một mã QR. Tạo bảng cho khách của quán cà phê hay homestay và in ra trong vài phút.
+
+### 설명
+
+Không cần đọc mật khẩu hay chép tay nữa. Chụp bảng là kết nối, còn Wi-Fi của bạn thì chia sẻ bằng một mã QR.
+Tạo bảng Wi-Fi cho khách của quán cà phê, nơi lưu trú hay cửa hàng chỉ với vài lần chạm rồi in ngay.
+
+Chụp là kết nối
+Chụp bảng Wi-Fi hoặc hóa đơn dán trên tường, hoặc chọn ảnh từ thư viện, ứng dụng sẽ đọc tài khoản và mật khẩu rồi kết nối iPhone này ngay.
+Nếu chữ đọc được chưa chắc chắn, hãy kéo đoạn chữ cắt từ ảnh vào ô tài khoản hoặc mật khẩu.
+Bạn cũng có thể nhập tay để kết nối, hoặc chỉ tạo mã QR mà không kết nối.
+
+Chia sẻ bằng một mã QR
+Ứng dụng nhận ra Wi-Fi bạn đang kết nối và tạo mã QR để bạn bè quét bằng camera là kết nối ngay.
+Gửi ảnh mã QR qua tin nhắn, hoặc chia sẻ điểm phát sóng của bạn bằng mã QR.
+
+Tạo bảng dành cho khách
+Chọn trong 7 giao diện, thêm tên cửa hàng, logo và các dòng tự viết như giờ mở cửa.
+Chọn dạng thẻ hoặc áp phích A4 dọc, lưu thành ảnh hoặc in thẳng bằng AirPrint.
+Lưu nhiều bảng, mỗi cửa hàng hay mỗi bàn một bảng, và chỉnh sửa bất cứ lúc nào.
+
+Tiện ích và bản đồ
+Đặt mã QR của Wi-Fi hay dùng lên màn hình chính hoặc màn hình khóa. Chạm vào để mở mã QR lớn.
+Nơi bạn từng kết nối được ghi nhớ trên bản đồ, và khi quay lại, Wi-Fi của nơi đó hiện lên trước.
+
+Quyền riêng tư
+Thông tin Wi-Fi đã lưu chỉ nằm trên thiết bị này và không được gửi tới máy chủ.
+
+### 지원 URL
+
+https://m1zz.github.io/WifiSnap/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/WifiSnap/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/WifiSnap/

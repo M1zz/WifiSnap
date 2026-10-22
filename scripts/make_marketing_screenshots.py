@@ -129,7 +129,17 @@ SHOTS["th"] = [
     ("04-poster-a4.png", "flat-rotate", "โปสเตอร์ A4<br>พิมพ์ได้ทันที", "7 ธีม พิมพ์ด้วย AirPrint ในขั้นตอนเดียว"),
     ("05-saved.png", "dark", "Wi-Fi ที่เคยใช้<br>รวมไว้ในที่เดียว", "เมื่อไปถึง Wi-Fi ของที่นั่นจะขึ้นก่อน"),
 ]
+STORE["vi"] = "vi"
+SHOTS["vi"] = [
+    ("01-scan.png", "hero-bleed", "Chụp bảng<br>là kết nối ngay", "Đọc tài khoản và mật khẩu từ ảnh chụp"),
+    ("02-qr.png", "left-text", "Một mã QR thay cho<br>việc đọc mật khẩu", "Bạn bè chỉ cần quét bằng camera"),
+    ("03-poster-card.png", "text-bottom", "Bảng Wi-Fi cho khách", "Thêm tên cửa hàng và giờ mở cửa"),
+    ("04-poster-a4.png", "flat-rotate", "Áp phích A4<br>in ngay", "7 giao diện, in bằng AirPrint một lần"),
+    ("05-saved.png", "dark", "Mọi Wi-Fi từng dùng<br>ở một nơi", "Đến gần là Wi-Fi nơi đó lên đầu"),
+]
 # i18n-end
+
+
 
 
 

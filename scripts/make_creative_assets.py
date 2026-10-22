@@ -94,7 +94,13 @@ STORE["th"] = "th"
 SCREEN["th"] = "th"
 SEARCH["th"] = ("QR ของ Wi-Fi", "สร้างป้าย Wi-Fi<br>สำหรับแขก", "เชื่อมต่อด้วย QR<br>พิมพ์ได้ในขั้นตอนเดียว")
 HEADER["th"] = ("แชร์ Wi-Fi", "ไม่ต้องบอกรหัสผ่าน<br>แค่โชว์ QR")
+STORE["vi"] = "vi"
+SCREEN["vi"] = "vi"
+SEARCH["vi"] = ("Mã QR Wi-Fi", "Tạo bảng Wi-Fi<br>cho khách", "Kết nối bằng mã QR,<br>in ngay một lần")
+HEADER["vi"] = ("Chia sẻ Wi-Fi", "Đừng đọc mật khẩu nữa:<br>hãy đưa mã QR")
 # i18n-end
+
+
 
 
 

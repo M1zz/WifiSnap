@@ -69,6 +69,12 @@
             "value" : "QR ของ Wi-Fi"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã QR Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",

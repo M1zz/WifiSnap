@@ -69,6 +69,12 @@
             "value" : "สำเนาของ %@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bản sao của %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวอย่างป้ายสำหรับแขกของ %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bản xem trước bảng dành cho khách của %@"
           }
         },
         "zh-Hans" : {
@@ -233,6 +245,12 @@
             "value" : "QR สำหรับเชื่อมต่อ %@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã QR để kết nối với %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -313,6 +331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR ของ Wi-Fi %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã QR Wi-Fi của %@"
           }
         },
         "zh-Hans" : {
@@ -397,6 +421,12 @@
             "value" : "ส่วนข้อความ “%@”"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đoạn “%@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตั้งค่าการเชื่อมต่อ “%@” แล้ว\nต้องใช้สิทธิ์ตำแหน่งเพื่อตรวจสอบว่าเชื่อมต่อสำเร็จ (การตั้งค่า > MyFi > ตำแหน่ง)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã thiết lập kết nối với “%@”.\nĐể xác nhận đã kết nối, ứng dụng cần quyền truy cập vị trí. (Cài đặt > MyFi > Vị trí)"
           }
         },
         "zh-Hans" : {
@@ -561,6 +597,12 @@
             "value" : "เชื่อมต่อ “%@” ไม่ได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không kết nối được với “%@”."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -641,6 +683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังลองใหม่ด้วยชื่อ “%@”…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang thử lại với tên “%@”…"
           }
         },
         "zh-Hans" : {
@@ -725,6 +773,12 @@
             "value" : "เชื่อมต่อ “%@” แล้ว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã kết nối với “%@”."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -805,6 +859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โปสเตอร์ A4"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Áp phích A4"
           }
         },
         "zh-Hans" : {
@@ -889,6 +949,12 @@
             "value" : "ล็อกด้วย Face ID"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa bằng Face ID"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -969,6 +1035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อปกป้องรหัสผ่านที่บันทึกไว้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa ứng dụng bằng Face ID hoặc Touch ID để bảo vệ mật khẩu đã lưu."
           }
         },
         "zh-Hans" : {
@@ -1053,6 +1125,12 @@
             "value" : "กำลังสร้าง QR…"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tạo mã QR…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1133,6 +1211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้าง QR"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo mã QR"
           }
         },
         "zh-Hans" : {
@@ -1217,6 +1301,12 @@
             "value" : "สร้าง QR ไม่สำเร็จ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo mã QR không thành công"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1297,6 +1387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์รูป QR"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia sẻ ảnh mã QR"
           }
         },
         "zh-Hans" : {
@@ -1381,6 +1477,12 @@
             "value" : "ถ้าสร้างเฉพาะ QR iPhone เครื่องนี้จะไม่เชื่อมต่อ แต่บันทึกไว้เท่านั้น หากรหัสผ่านผิด QR ก็จะเชื่อมต่อไม่ได้เช่นกัน โปรดตรวจสอบ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nếu chỉ tạo mã QR, iPhone này sẽ không kết nối mà chỉ lưu lại. Nếu mật khẩu sai thì mã QR cũng không kết nối được, hãy kiểm tra lại."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1461,6 +1563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้าง QR ไม่สำเร็จ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tạo được mã QR."
           }
         },
         "zh-Hans" : {
@@ -1545,6 +1653,12 @@
             "value" : "SSID (ชื่อ Wi-Fi)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (tên Wi-Fi)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1625,6 +1739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำนำหน้า SSID ไม่ถูกต้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiền tố SSID không hợp lệ."
           }
         },
         "zh-Hans" : {
@@ -1709,6 +1829,12 @@
             "value" : "ใช้งานกับ VoiceOver ได้สะดวกขึ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng VoiceOver thuận tiện hơn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1789,6 +1915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] สอบถาม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Thắc mắc"
           }
         },
         "zh-Hans" : {
@@ -1873,6 +2005,12 @@
             "value" : "iOS ไม่ส่งรายการ Wi-Fi ที่บันทึกไว้ให้แอป การแคปหน้าจอจึงเป็นวิธีเดียว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS không cung cấp danh sách Wi-Fi đã lưu cho ứng dụng, nên chụp màn hình là cách duy nhất."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1953,6 +2091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รวมในการนำเข้า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa vào danh sách nhập"
           }
         },
         "zh-Hans" : {
@@ -2037,6 +2181,12 @@
             "value" : "นำเข้าแล้ว %lld ชื่อ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã nhập %lld tên"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2117,6 +2267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้าม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ qua"
           }
         },
         "zh-Hans" : {
@@ -2201,6 +2357,12 @@
             "value" : "บันทึกทันทีที่แก้ไข"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu ngay khi bạn sửa"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2281,6 +2443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia sẻ"
           }
         },
         "zh-Hans" : {
@@ -2365,6 +2533,12 @@
             "value" : "Wi-Fi ใกล้ตัวขึ้นก่อน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi gần bạn lên trước"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2445,6 +2619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คืนค่าข้อความ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khôi phục chữ"
           }
         },
         "zh-Hans" : {
@@ -2529,6 +2709,12 @@
             "value" : "เมื่อขยายขนาดตัวอักษร หน้าจอจะจัดวางใหม่โดยไม่ถูกตัดขาด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi tăng cỡ chữ, màn hình sẽ tự sắp xếp lại và không bị cắt mất nội dung."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2609,6 +2795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซิงค์ข้ามอุปกรณ์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng bộ giữa các thiết bị"
           }
         },
         "zh-Hans" : {
@@ -2693,6 +2885,12 @@
             "value" : "Wi-Fi และป้ายที่บันทึกไว้จะตามไปด้วยเมื่อเปลี่ยนเครื่อง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi và bảng đã lưu được giữ nguyên khi bạn đổi thiết bị."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2773,6 +2971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบข้อมูลของฉันทั้งหมด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa toàn bộ dữ liệu của tôi"
           }
         },
         "zh-Hans" : {
@@ -2857,6 +3061,12 @@
             "value" : "ป้ายของฉัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bảng của tôi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2937,6 +3147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ป้ายของฉัน (%lld)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bảng của tôi (%lld)"
           }
         },
         "zh-Hans" : {
@@ -3021,6 +3237,12 @@
             "value" : "ฮอตสปอตของฉัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điểm phát sóng của tôi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3101,6 +3323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เครือข่าย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mạng"
           }
         },
         "zh-Hans" : {
@@ -3185,6 +3413,12 @@
             "value" : "ป้ายกำกับเครือข่าย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhãn mạng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3265,6 +3499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชื่อเครือข่าย (SSID) ไม่ถูกต้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên mạng (SSID) không hợp lệ."
           }
         },
         "zh-Hans" : {
@@ -3349,6 +3589,12 @@
             "value" : "โปรดตรวจสอบข้อมูลเครือข่าย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vui lòng kiểm tra thông tin mạng."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3429,6 +3675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกภาพหน้าจออื่น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn ảnh chụp khác"
           }
         },
         "zh-Hans" : {
@@ -3513,6 +3765,12 @@
             "value" : "ถัดไป"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp theo"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3593,6 +3851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โหมดมืด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chế độ tối"
           }
         },
         "zh-Hans" : {
@@ -3677,6 +3941,12 @@
             "value" : "ปิด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3757,6 +4027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านได้ชัดเจนแม้เปิดเพิ่มคอนทราสต์หรือแยกสียาก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi thứ vẫn dễ đọc, kể cả khi bật tăng độ tương phản hoặc khó phân biệt màu."
           }
         },
         "zh-Hans" : {
@@ -3841,6 +4117,12 @@
             "value" : "ใช้แอปได้หลายภาษามากขึ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3921,6 +4203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รองรับหลายภาษามากขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm ngôn ngữ"
           }
         },
         "zh-Hans" : {
@@ -4005,6 +4293,12 @@
             "value" : "ความช่วยเหลือ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trợ giúp"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4085,6 +4379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะสองครั้งเพื่อกลับไปที่ QR"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm hai lần để quay lại mã QR."
           }
         },
         "zh-Hans" : {
@@ -4169,6 +4469,12 @@
             "value" : "ดีไซน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiết kế"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4246,6 +4552,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -4333,6 +4645,12 @@
             "value" : "เปิดไว้เฉพาะชื่อที่ถูกต้อง แตะเพื่อแก้ตัวอักษรที่ผิด แล้วแตะ “เพิ่ม” ที่มุมขวาบน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ để bật những tên đúng, chạm để sửa chữ sai, rồi nhấn “Thêm” ở góc trên bên phải."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4413,6 +4731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โลโก้ร้าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo cửa hàng"
           }
         },
         "zh-Hans" : {
@@ -4497,6 +4821,12 @@
             "value" : "ชื่อร้าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên cửa hàng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4577,6 +4907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้างป้าย Wi-Fi สำหรับร้านหรือบ้านของคุณ\nแล้วพิมพ์ออกมาหรือแชร์เป็นรูปภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo bảng Wi-Fi cho cửa hàng hoặc nhà bạn,\nrồi in ra hoặc chia sẻ dưới dạng ảnh."
           }
         },
         "zh-Hans" : {
@@ -4661,6 +4997,12 @@
             "value" : "ข้อความบรรทัดล่างสุด (ซ่อนหากเว้นว่าง)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng cuối (ẩn nếu để trống)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4741,6 +5083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การ์ดในหน้าหลักจะแสดงป้ายที่แก้ไขล่าสุด ปัดไปทางซ้ายเพื่อทำซ้ำหรือลบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thẻ ở màn hình chính hiển thị bảng bạn sửa gần nhất. Vuốt sang trái để nhân bản hoặc xóa."
           }
         },
         "zh-Hans" : {
@@ -4825,6 +5173,12 @@
             "value" : "ส่งอีเมลสอบถาม (%@)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gửi email (%@)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4905,6 +5259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โมโน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đơn sắc"
           }
         },
         "zh-Hans" : {
@@ -4989,6 +5349,12 @@
             "value" : "ใช้งานได้ทันทีจากรายการ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thao tác nhanh trong danh sách"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5069,6 +5435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือก Wi-Fi จากรายการ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn Wi-Fi từ danh sách"
           }
         },
         "zh-Hans" : {
@@ -5153,6 +5525,12 @@
             "value" : "Wi-Fi ฟรี"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi miễn phí"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5233,6 +5611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên hệ"
           }
         },
         "zh-Hans" : {
@@ -5317,6 +5701,12 @@
             "value" : "เที่ยงคืน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nửa đêm"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5397,6 +5787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวอย่าง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem trước"
           }
         },
         "zh-Hans" : {
@@ -5481,6 +5877,12 @@
             "value" : "มิ้นต์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạc hà"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5561,6 +5963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สำรองข้อมูลและส่งออก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao lưu và xuất dữ liệu"
           }
         },
         "zh-Hans" : {
@@ -5645,6 +6053,12 @@
             "value" : "ป้ายเล็ก (ซ่อนหากเว้นว่าง)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhãn nhỏ (ẩn nếu để trống)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5725,6 +6139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปลี่ยน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đổi"
           }
         },
         "zh-Hans" : {
@@ -5809,6 +6229,12 @@
             "value" : "สีและคอนทราสต์ที่อ่านสบายตา"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu sắc và độ tương phản dễ nhìn hơn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5889,6 +6315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นักพัฒนาอ่านทุกข้อความที่คุณส่งมาด้วยตัวเอง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhà phát triển đích thân đọc từng tin nhắn bạn gửi."
           }
         },
         "zh-Hans" : {
@@ -5973,6 +6405,12 @@
             "value" : "ก่อนโชว์ ให้เปิด “อนุญาตให้ผู้อื่นเข้าร่วม” ที่ การตั้งค่า > ฮอตสปอตส่วนบุคคล หากปิดอยู่ แม้สแกน QR ก็จะหาเครือข่ายไม่พบ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trước khi cho xem, hãy bật “Cho phép người khác tham gia” trong Cài đặt > Điểm truy cập cá nhân. Nếu tắt, quét mã QR cũng không tìm thấy mạng."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6053,6 +6491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แค่โชว์ก็เชื่อมต่อได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ cần đưa cho xem là kết nối được"
           }
         },
         "zh-Hans" : {
@@ -6137,6 +6581,12 @@
             "value" : "ทำซ้ำ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhân bản"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6217,6 +6667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รหัสผ่าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mật khẩu"
           }
         },
         "zh-Hans" : {
@@ -6301,6 +6757,12 @@
             "value" : "ป้ายกำกับรหัสผ่าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhãn mật khẩu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6381,6 +6843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แสดงรหัสผ่าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiện mật khẩu"
           }
         },
         "zh-Hans" : {
@@ -6465,6 +6933,12 @@
             "value" : "คัดลอกรหัสผ่าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép mật khẩu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6545,6 +7019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คัดลอกรหัสผ่านแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã sao chép mật khẩu"
           }
         },
         "zh-Hans" : {
@@ -6629,6 +7109,12 @@
             "value" : "ซ่อนรหัสผ่าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ẩn mật khẩu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6709,6 +7195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล้างรหัสผ่าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa mật khẩu"
           }
         },
         "zh-Hans" : {
@@ -6793,6 +7285,12 @@
             "value" : "แสดงรหัสผ่าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiện mật khẩu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6873,6 +7371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รูปแบบรหัสผ่านไม่ถูกต้อง (WEP ใช้ 5 หรือ 13 ตัวอักษร)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Định dạng mật khẩu không hợp lệ. (WEP: 5 hoặc 13 ký tự)"
           }
         },
         "zh-Hans" : {
@@ -6957,6 +7461,12 @@
             "value" : "รูปแบบรหัสผ่านไม่ถูกต้อง (WPA ใช้ 8–63 ตัวอักษร)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Định dạng mật khẩu không hợp lệ. (WPA: 8–63 ký tự)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7037,6 +7547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รหัสผ่านมี %lld ตัวอักษร รหัสผ่าน Wi-Fi ต้องมีอย่างน้อย 8 ตัวอักษร (WEP แบบเก่าใช้ 5 หรือ 13 ตัว) ตรวจสอบว่ามีตัวอักษรตกหล่นหรือไม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mật khẩu có %lld ký tự. Mật khẩu Wi-Fi phải có ít nhất 8 ký tự (khóa WEP cũ là 5 hoặc 13 ký tự). Hãy kiểm tra xem có thiếu ký tự nào không."
           }
         },
         "zh-Hans" : {
@@ -7121,6 +7637,12 @@
             "value" : "ใส่เป็นรหัสผ่าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa vào mật khẩu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7201,6 +7723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านจาก QR ในรูปแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã đọc từ mã QR trong ảnh."
           }
         },
         "zh-Hans" : {
@@ -7285,6 +7813,12 @@
             "value" : "เชื่อมต่อด้วยรูปเดียว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối chỉ với một tấm ảnh"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7365,6 +7899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่พบ ID และรหัสผ่านในรูป พิมพ์เอง หรือถ่ายใหม่ให้ใกล้และคมชัดขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tìm thấy tài khoản và mật khẩu trong ảnh. Hãy nhập tay hoặc chụp lại gần và rõ hơn."
           }
         },
         "zh-Hans" : {
@@ -7449,6 +7989,12 @@
             "value" : "ชื่อที่อ่านได้จากรูป — เลือกชื่อที่ถูกต้อง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên đọc được từ ảnh — hãy chọn tên đúng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7529,6 +8075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านจากรูปถ่าย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đọc từ ảnh chụp"
           }
         },
         "zh-Hans" : {
@@ -7613,6 +8165,12 @@
             "value" : "กรอกอัตโนมัติจากรูปถ่าย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự điền từ ảnh chụp"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7693,6 +8251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa"
           }
         },
         "zh-Hans" : {
@@ -7777,6 +8341,12 @@
             "value" : "ป้ายใหม่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bảng mới"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7857,6 +8427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พระอาทิตย์ตก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoàng hôn"
           }
         },
         "zh-Hans" : {
@@ -7941,6 +8517,12 @@
             "value" : "เลือก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8021,6 +8603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่บังคับ — แสดงด้านบน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tùy chọn — hiện ở phía trên"
           }
         },
         "zh-Hans" : {
@@ -8105,6 +8693,12 @@
             "value" : "ยังไม่ได้เลือก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa chọn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8185,6 +8779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã chọn"
           }
         },
         "zh-Hans" : {
@@ -8269,6 +8869,12 @@
             "value" : "การตั้งค่า"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8349,6 +8955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นำเข้ารายการจากภาพหน้าจอการตั้งค่า…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập danh sách từ ảnh chụp màn hình Cài đặt…"
           }
         },
         "zh-Hans" : {
@@ -8433,6 +9045,12 @@
             "value" : "การตอบสนองด้วยการสั่น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phản hồi rung"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8513,6 +9131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้างป้ายสำหรับแขก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo bảng dành cho khách"
           }
         },
         "zh-Hans" : {
@@ -8597,6 +9221,12 @@
             "value" : "พิมพ์หรือแชร์ป้ายสำหรับแขก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In hoặc chia sẻ bảng dành cho khách"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8677,6 +9307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi ที่สแกนได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi đã quét"
           }
         },
         "zh-Hans" : {
@@ -8761,6 +9397,12 @@
             "value" : "เครือข่ายนี้จัดการโดยการตั้งค่าระบบ จึงเปลี่ยนแปลงไม่ได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mạng này do cài đặt hệ thống quản lý nên không thể thay đổi."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8841,6 +9483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มต้นใช้งาน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu"
           }
         },
         "zh-Hans" : {
@@ -8925,6 +9573,12 @@
             "value" : "แตะส่วนข้อความด้านล่าง หรือพิมพ์เอง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm vào một đoạn bên dưới hoặc nhập tay"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9005,6 +9659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะส่วนข้อความด้านล่างเพื่อใส่ลงในช่องว่าง กดค้างเพื่อเลือกว่าจะใส่เป็น ID หรือรหัสผ่าน หรือจะลากไปวางก็ได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm vào một đoạn bên dưới để đưa vào ô trống. Nhấn giữ để chọn đưa vào tài khoản hay mật khẩu, hoặc kéo thả vào."
           }
         },
         "zh-Hans" : {
@@ -9089,6 +9749,12 @@
             "value" : "ID"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tài khoản"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9169,6 +9835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล้าง ID"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa tài khoản"
           }
         },
         "zh-Hans" : {
@@ -9253,6 +9925,12 @@
             "value" : "ใส่เป็น ID"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa vào tài khoản"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9333,6 +10011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แคปภาพหน้าจอ “การตั้งค่า > Wi-Fi” ของ iPhone แล้วเลือกรูปนั้น แอปจะอ่านชื่อในรายการให้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy chụp màn hình “Cài đặt > Wi-Fi” trên iPhone rồi chọn ảnh đó, ứng dụng sẽ đọc các tên trong danh sách."
           }
         },
         "zh-Hans" : {
@@ -9417,6 +10101,12 @@
             "value" : "ข้อความต้อนรับ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lời nhắn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9497,6 +10187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายป้าย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp bảng"
           }
         },
         "zh-Hans" : {
@@ -9581,6 +10277,12 @@
             "value" : "ป้าย %lld"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bảng %lld"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9661,6 +10363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้างป้าย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo bảng"
           }
         },
         "zh-Hans" : {
@@ -9745,6 +10453,12 @@
             "value" : "ชื่อป้าย (แสดงเฉพาะในรายการ)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên bảng (chỉ hiện trong danh sách)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9825,6 +10539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์หรือพิมพ์รูปป้าย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia sẻ hoặc in ảnh bảng"
           }
         },
         "zh-Hans" : {
@@ -9909,6 +10629,12 @@
             "value" : "ข้อความที่พิมพ์บนป้าย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chữ in trên bảng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9989,6 +10715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หากแอปปิดไประหว่างออกแบบป้าย งานที่ทำไว้จะยังอยู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nếu ứng dụng đóng lại khi bạn đang thiết kế bảng, phần đã làm vẫn được giữ."
           }
         },
         "zh-Hans" : {
@@ -10073,6 +10805,12 @@
             "value" : "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ ตรวจสอบว่าอยู่ในระยะสัญญาณของเครือข่าย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã xảy ra lỗi không xác định. Hãy kiểm tra xem bạn có đang trong vùng phủ sóng không."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10153,6 +10891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แจ้งเตือน Wi-Fi ใกล้เคียง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông báo Wi-Fi gần bạn"
           }
         },
         "zh-Hans" : {
@@ -10237,6 +10981,12 @@
             "value" : "อัลบั้ม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thư viện"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10317,6 +11067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โปรดลองอีกครั้งขณะที่แอปเปิดอยู่บนหน้าจอ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vui lòng thử lại khi ứng dụng đang mở trên màn hình."
           }
         },
         "zh-Hans" : {
@@ -10401,6 +11157,12 @@
             "value" : "ตัวอักษรและปุ่มยังคมชัดแม้ในโหมดมืด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chữ và nút vẫn rõ nét ngay cả ở chế độ tối."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10481,6 +11243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะแจ้งว่ามีอะไรใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần đầu mở sau khi cập nhật, bạn sẽ biết có gì mới."
           }
         },
         "zh-Hans" : {
@@ -10565,6 +11333,12 @@
             "value" : "มีอะไรใหม่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có gì mới"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10645,6 +11419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มี (เครือข่ายเปิด)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không (mạng mở)"
           }
         },
         "zh-Hans" : {
@@ -10729,6 +11509,12 @@
             "value" : "Wi-Fi ที่บันทึกไว้ที่นี่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi đã lưu tại đây"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10809,6 +11595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối"
           }
         },
         "zh-Hans" : {
@@ -10893,6 +11685,12 @@
             "value" : "เชื่อมต่อไม่สำเร็จ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối không thành công"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10973,6 +11771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้าง QR โดยไม่เชื่อมต่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo mã QR không kết nối"
           }
         },
         "zh-Hans" : {
@@ -11057,6 +11861,12 @@
             "value" : "กำลังเชื่อมต่อ…"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang kết nối…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11137,6 +11947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ต้องแตะ “เชื่อมต่อ” ในหน้าต่างยืนยันจึงจะเชื่อมต่อได้ โปรดลองอีกครั้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn cần nhấn “Kết nối” trong cửa sổ xác nhận. Vui lòng thử lại."
           }
         },
         "zh-Hans" : {
@@ -11221,6 +12037,12 @@
             "value" : "QR สำหรับเชื่อมต่อ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã QR để kết nối"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11301,6 +12123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รองรับภาษาอังกฤษ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ tiếng Anh"
           }
         },
         "zh-Hans" : {
@@ -11385,6 +12213,12 @@
             "value" : "ใส่ข้อความที่ต้องการได้ทีละบรรทัด เช่น เวลาทำการ บัญชีอินสตาแกรม หรือกฎของร้าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm bất kỳ nội dung nào bạn muốn, từng dòng một: giờ mở cửa, tài khoản Instagram, nội quy cửa hàng…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11465,6 +12299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เช่น สำหรับแคชเชียร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VD: Dùng cho quầy thu ngân"
           }
         },
         "zh-Hans" : {
@@ -11549,6 +12389,12 @@
             "value" : "เช่น Lounge Café"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VD: Lounge Café"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11629,6 +12475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เช่น เปิด 09:00–22:00 น."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VD: Mở cửa 09:00–22:00"
           }
         },
         "zh-Hans" : {
@@ -11713,6 +12565,12 @@
             "value" : "มหาสมุทร"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đại dương"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11793,6 +12651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR ของ Wi-Fi"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mã QR Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -11877,6 +12741,12 @@
             "value" : "แสดง QR ของ Wi-Fi"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiện mã QR Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11957,6 +12827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นำเข้ารายการ Wi-Fi"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập danh sách Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -12041,6 +12917,12 @@
             "value" : "รายละเอียด Wi-Fi"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chi tiết Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12121,6 +13003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือก Wi-Fi"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -12205,6 +13093,12 @@
             "value" : "ถ่ายป้าย Wi-Fi"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp bảng Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12285,6 +13179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชื่อ Wi-Fi"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -12369,6 +13269,12 @@
             "value" : "ชื่อ Wi-Fi ยาวเกินไป (สูงสุด 32 ไบต์)"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên Wi-Fi quá dài. (tối đa 32 byte)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12449,6 +13355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่ได้ใส่ชื่อ Wi-Fi"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên Wi-Fi đang để trống."
           }
         },
         "zh-Hans" : {
@@ -12533,6 +13445,12 @@
             "value" : "เพิ่ม Wi-Fi"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12613,6 +13531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สั่นเบา ๆ เมื่อเชื่อมต่อ Wi-Fi ได้หรืออ่านข้อความสำเร็จ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rung nhẹ khi kết nối Wi-Fi hoặc khi đọc được chữ."
           }
         },
         "zh-Hans" : {
@@ -12697,6 +13621,12 @@
             "value" : "เมื่อเชื่อมต่อ Wi-Fi หรือแชร์จาก “ที่นี่” ตำแหน่งนั้นจะถูกบันทึกลงบนแผนที่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bạn kết nối Wi-Fi hoặc chia sẻ từ “Tại đây”, vị trí đó sẽ được ghi lên bản đồ."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12777,6 +13707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เสร็จสิ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong"
           }
         },
         "zh-Hans" : {
@@ -12861,6 +13797,12 @@
             "value" : "แอปและป้ายใช้ภาษาอังกฤษได้ด้วย เพื่อให้แขกต่างชาติอ่านได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ứng dụng và bảng Wi-Fi cũng có tiếng Anh để khách nước ngoài đọc được."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12941,6 +13883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลดการเคลื่อนไหว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giảm chuyển động"
           }
         },
         "zh-Hans" : {
@@ -13025,6 +13973,12 @@
             "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะเบาลง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bật “Giảm chuyển động”, hiệu ứng trên màn hình sẽ dịu hơn."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13105,6 +14059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบ Wi-Fi และป้ายที่บันทึกไว้ทั้งหมดได้จากในแอป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa mọi Wi-Fi và bảng đã lưu ngay trong ứng dụng."
           }
         },
         "zh-Hans" : {
@@ -13189,6 +14149,12 @@
             "value" : "ความเห็นและรีวิว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Góp ý và đánh giá"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13269,6 +14235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เครือข่ายนี้ไม่รองรับการเชื่อมต่อแบบครั้งเดียว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mạng này không hỗ trợ kết nối một lần."
           }
         },
         "zh-Hans" : {
@@ -13353,6 +14325,12 @@
             "value" : "ลบบรรทัดนี้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa dòng này"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13433,6 +14411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โชว์การ์ดใบนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy đưa thẻ này cho bạn bè xem"
           }
         },
         "zh-Hans" : {
@@ -13517,6 +14501,12 @@
             "value" : "เชื่อมต่อ iPhone เครื่องนี้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối iPhone này"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13597,6 +14587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตั้งค่าไว้ใน iPhone เครื่องนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã thiết lập trên iPhone này"
           }
         },
         "zh-Hans" : {
@@ -13681,6 +14677,12 @@
             "value" : "เชื่อมต่อ iPhone เครื่องนี้ หรือสร้างเฉพาะ QR โดยไม่เชื่อมต่อก็ได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết nối iPhone này, hoặc chỉ tạo mã QR mà không kết nối"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13761,6 +14763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi ที่ iPhone เครื่องนี้รู้จัก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi mà iPhone này biết"
           }
         },
         "zh-Hans" : {
@@ -13845,6 +14853,12 @@
             "value" : "ชื่อที่ iPhone เครื่องนี้รู้จัก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên mà iPhone này biết"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13925,6 +14939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อาจสะกดแบบนี้:"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có thể tên được viết như sau:"
           }
         },
         "zh-Hans" : {
@@ -14009,6 +15029,12 @@
             "value" : "กำลังอ่านชื่อ…"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang đọc tên…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14089,6 +15115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตรวจสอบว่าชื่อและรหัสผ่านถูกต้องทุกตัว รวมถึงตัวพิมพ์เล็ก-ใหญ่ และอยู่ในระยะสัญญาณ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy kiểm tra tên và mật khẩu có chính xác từng ký tự, kể cả chữ hoa chữ thường, và bạn có đang trong vùng phủ sóng không."
           }
         },
         "zh-Hans" : {
@@ -14173,6 +15205,12 @@
             "value" : "ไม่พบชื่อ ลองแคปหน้าจอใหม่ให้เห็นรายการชัดเจน หรือพิมพ์เองด้านล่าง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tìm thấy tên nào. Hãy chụp lại sao cho danh sách rõ ràng hoặc nhập tay bên dưới."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14253,6 +15291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่ออยู่แล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã kết nối rồi."
           }
         },
         "zh-Hans" : {
@@ -14337,6 +15381,12 @@
             "value" : "กำลังประมวลผลคำขอเชื่อมต่อก่อนหน้า โปรดลองใหม่อีกครั้งในอีกสักครู่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yêu cầu kết nối trước đó đang được xử lý. Vui lòng thử lại sau giây lát."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14417,6 +15467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DM อินสตาแกรม (@lee25_ios)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhắn tin Instagram (@lee25_ios)"
           }
         },
         "zh-Hans" : {
@@ -14501,6 +15557,12 @@
             "value" : "กำลังรู้จำ…"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang nhận dạng…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14581,6 +15643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านได้ %lld ชื่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã đọc %lld tên"
           }
         },
         "zh-Hans" : {
@@ -14665,6 +15733,12 @@
             "value" : "เครือข่ายที่บันทึกไว้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mạng đã lưu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14745,6 +15819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มีเครือข่ายที่บันทึกไว้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có mạng nào được lưu"
           }
         },
         "zh-Hans" : {
@@ -14829,6 +15909,12 @@
             "value" : "แผนที่ Wi-Fi ที่บันทึกไว้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bản đồ Wi-Fi đã lưu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14909,6 +15995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แจ้งเตือนเมื่อคุณมาถึงที่ที่มี Wi-Fi ที่บันทึกไว้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhận thông báo khi bạn đến nơi có Wi-Fi đã lưu."
           }
         },
         "zh-Hans" : {
@@ -14993,6 +16085,12 @@
             "value" : "Wi-Fi ที่บันทึกไว้จะจำตำแหน่งไปด้วย เมื่อกลับมาที่เดิม จะขึ้นไปอยู่บนสุดของรายการพร้อมป้าย “📍 ใกล้ที่นี่”"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi đã lưu được nhớ cùng vị trí. Khi bạn quay lại nơi đó, chúng sẽ lên đầu danh sách kèm nhãn “📍 Gần đây”."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15073,6 +16171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึก Wi-Fi และป้ายเป็นไฟล์ แล้วนำกลับมาใช้ภายหลังได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu Wi-Fi và bảng thành tệp rồi nhập lại khi cần."
           }
         },
         "zh-Hans" : {
@@ -15157,6 +16261,12 @@
             "value" : "ใช้แล้ว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã áp dụng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15237,6 +16347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นำออก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gỡ bỏ"
           }
         },
         "zh-Hans" : {
@@ -15321,6 +16437,12 @@
             "value" : "หัวข้อ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiêu đề"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15401,6 +16523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะส่วนข้อความเพื่อกรอก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm vào các đoạn để điền"
           }
         },
         "zh-Hans" : {
@@ -15485,6 +16613,12 @@
             "value" : "เพิ่มบรรทัด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm dòng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15565,6 +16699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โชว์ QR ของ Wi-Fi ที่คุณเชื่อมต่ออยู่\nเมื่อเพื่อนสแกนด้วยกล้อง ก็เชื่อมต่อได้ทันทีโดยไม่ต้องรู้รหัสผ่าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy cho xem mã QR của Wi-Fi bạn đang kết nối.\nBạn bè quét bằng camera là kết nối ngay, không cần biết mật khẩu."
           }
         },
         "zh-Hans" : {
@@ -15649,6 +16789,12 @@
             "value" : "เปิด QR ของ Wi-Fi ที่เชื่อมต่ออยู่ หากยังไม่ได้บันทึกไว้ จะเปิดอันที่บันทึกล่าสุด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở mã QR của Wi-Fi bạn đang kết nối. Nếu chưa lưu, sẽ mở Wi-Fi lưu gần nhất."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15729,6 +16875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่ออยู่ตอนนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang kết nối"
           }
         },
         "zh-Hans" : {
@@ -15813,6 +16965,12 @@
             "value" : "แผนที่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bản đồ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15893,6 +17051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มีตำแหน่งให้แสดงบนแผนที่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có vị trí nào để hiện trên bản đồ"
           }
         },
         "zh-Hans" : {
@@ -15977,6 +17141,12 @@
             "value" : "บรรทัดที่เขียนเอง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng tự viết"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16057,6 +17227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บรรทัดที่เขียนเอง %lld บรรทัด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dòng tự viết"
           }
         },
         "zh-Hans" : {
@@ -16141,6 +17317,12 @@
             "value" : "พิมพ์เอง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập tay"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16221,6 +17403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พิมพ์เอง…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập thủ công…"
           }
         },
         "zh-Hans" : {
@@ -16305,6 +17493,12 @@
             "value" : "Wi-Fi ที่พิมพ์เอง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi nhập tay"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16385,6 +17579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พิมพ์เพิ่มเอง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm thủ công"
           }
         },
         "zh-Hans" : {
@@ -16469,6 +17669,12 @@
             "value" : "ดูคำแนะนำเริ่มต้นอีกครั้ง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem lại phần giới thiệu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16549,6 +17755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายรูป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp ảnh"
           }
         },
         "zh-Hans" : {
@@ -16633,6 +17845,12 @@
             "value" : "ถ่ายรูป อัลบั้ม หรือพิมพ์เอง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp ảnh, thư viện hoặc nhập tay"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16713,6 +17931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่ม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm"
           }
         },
         "zh-Hans" : {
@@ -16797,6 +18021,12 @@
             "value" : "เมื่อเพื่อนสแกน QR ด้วยกล้อง ก็เชื่อมต่อได้ทันทีโดยไม่ต้องใช้รหัสผ่าน ปัดหรือแตะการ์ดเพื่อพลิกไปดูตัวอย่างป้ายสำหรับแขก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bạn bè quét mã QR bằng camera, họ kết nối ngay mà không cần mật khẩu. Vuốt hoặc chạm vào thẻ để lật sang bản xem trước của bảng dành cho khách."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16877,6 +18107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การ์ด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thẻ"
           }
         },
         "zh-Hans" : {
@@ -16961,6 +18197,12 @@
             "value" : "สแกน QR ด้วยกล้องเพื่อเชื่อมต่ออัตโนมัติ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quét mã QR bằng camera để tự động kết nối"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17041,6 +18283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สแกนด้วยกล้องเพื่อเชื่อมต่อได้ทันที"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quét bằng camera để kết nối ngay"
           }
         },
         "zh-Hans" : {
@@ -17125,6 +18373,12 @@
             "value" : "สแกนด้วยกล้องเพื่อเชื่อมต่อโดยไม่ต้องใช้รหัสผ่าน แตะสองครั้งเพื่อพลิกไปดูตัวอย่างป้าย"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quét bằng camera để kết nối không cần mật khẩu. Chạm hai lần để lật sang bản xem trước của bảng."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17205,6 +18459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดกล้องเพื่อถ่ายป้าย Wi-Fi แล้วอ่านชื่อเครือข่ายและรหัสผ่านให้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở camera để chụp bảng Wi-Fi và đọc tên mạng cùng mật khẩu."
           }
         },
         "zh-Hans" : {
@@ -17289,6 +18549,12 @@
             "value" : "คาเฟ่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cà phê"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17369,6 +18635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายป้าย Wi-Fi ที่ร้านกาแฟหรือที่พัก หรือเลือกจากอัลบั้ม\nแอปจะอ่านชื่อกับรหัสผ่านแล้วเชื่อมต่อ iPhone เครื่องนี้ให้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp bảng Wi-Fi ở quán cà phê hoặc nơi lưu trú, hoặc chọn ảnh từ thư viện.\nỨng dụng đọc tên và mật khẩu rồi kết nối iPhone này."
           }
         },
         "zh-Hans" : {
@@ -17453,6 +18725,12 @@
             "value" : "ถ่ายป้าย Wi-Fi ที่ร้านกาแฟหรือที่พัก หรือเลือกจากอัลบั้ม แอปจะอ่าน ID และรหัสผ่านแล้วเชื่อมต่อให้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp bảng Wi-Fi ở quán cà phê hoặc nơi lưu trú, hoặc chọn ảnh từ thư viện, ứng dụng sẽ đọc tài khoản và mật khẩu rồi kết nối."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17533,6 +18811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกภาพหน้าจอ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn ảnh chụp"
           }
         },
         "zh-Hans" : {
@@ -17617,6 +18901,12 @@
             "value" : "นำเข้าจากภาพหน้าจอ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lấy từ ảnh chụp màn hình"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17697,6 +18987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หน้าจอสำหรับตัวอักษรขนาดใหญ่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình cho cỡ chữ lớn"
           }
         },
         "zh-Hans" : {
@@ -17781,6 +19077,12 @@
             "value" : "แตะเพื่อใส่ลงในช่องว่าง กดค้างเพื่อเลือกช่อง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm để đưa vào ô trống. Nhấn giữ để chọn ô."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17861,6 +19163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ได้ตามสบาย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cứ thoải mái sử dụng"
           }
         },
         "zh-Hans" : {
@@ -17945,6 +19253,12 @@
             "value" : "หน้าจอ iPhone แบบพับได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình iPhone gập"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18025,6 +19339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บน iPhone แบบพับได้ จอกว้างจะแบ่งเป็นสองส่วน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trên iPhone gập, màn hình rộng được chia thành hai ngăn."
           }
         },
         "zh-Hans" : {
@@ -18109,6 +19429,12 @@
             "value" : "ป่าไม้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rừng xanh"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18189,6 +19515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำต่อจากที่ค้างไว้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục từ chỗ đang dở"
           }
         },
         "zh-Hans" : {
@@ -18273,6 +19605,12 @@
             "value" : "iPhone เครื่องนี้เชื่อมต่อกับฮอตสปอตไม่ได้ ให้สร้าง QR แล้วโชว์ให้อีกฝ่ายสแกน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone này không thể kết nối với điểm phát sóng. Hãy tạo mã QR và cho đối phương xem."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18353,6 +19691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะแถวเพื่อเปิด QR และรายละเอียด ปัดไปทางขวาเพื่อเชื่อมต่อ iPhone เครื่องนี้ ปัดไปทางซ้ายเพื่อแชร์ QR"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm vào một dòng để mở mã QR và chi tiết. Vuốt sang phải để kết nối iPhone này, vuốt sang trái để chia sẻ mã QR."
           }
         },
         "zh-Hans" : {
@@ -18437,6 +19781,12 @@
             "value" : "รูปแบบ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dạng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18517,6 +19867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver อ่านข้อมูล Wi-Fi และปุ่มทั้งหมดครบถ้วนตามลำดับที่ถูกต้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver đọc đầy đủ thông tin Wi-Fi và các nút, đúng thứ tự."
           }
         },
         "zh-Hans" : {
@@ -18601,6 +19957,12 @@
             "value" : "ตกลง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18681,6 +20043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 ใกล้ที่นี่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Gần đây"
           }
         },
         "zh-Hans" : {
@@ -18765,6 +20133,12 @@
             "value" : "📍 ที่นี่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Tại đây"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18847,6 +20221,12 @@
             "value" : "📍 เชื่อมต่ออยู่ตอนนี้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Đang kết nối"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18927,6 +20307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 ฮอตสปอต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Điểm phát sóng"
           }
         },
         "zh-Hans" : {

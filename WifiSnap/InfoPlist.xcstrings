@@ -69,6 +69,12 @@
             "value" : "MyFi"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
             "value" : "ใช้ถ่ายป้าย Wi-Fi เพื่ออ่านชื่อเครือข่ายและรหัสผ่าน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng để chụp bảng Wi-Fi và nhận dạng tên mạng cùng mật khẩu."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -231,6 +243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จำเป็นต่อการตรวจสอบชื่อ Wi-Fi ที่คุณเชื่อมต่ออยู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cần để kiểm tra tên Wi-Fi bạn đang kết nối."
           }
         },
         "zh-Hans" : {
