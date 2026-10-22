@@ -87,6 +87,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -209,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vis Wi-Fi-QR i ${applicationName}"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toon wifi-QR in ${applicationName}"
           }
         },
         "pt-BR" : {
@@ -335,6 +347,12 @@
             "value" : "${applicationName} fotografer Wi-Fi"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} wifi fotograferen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -459,6 +477,12 @@
             "value" : "Fotografer Wi-Fi-oppslag med ${applicationName}"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografeer wifi-bordje met ${applicationName}"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -581,6 +605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Åpne Wi-Fi-QR i ${applicationName}"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open wifi-QR in ${applicationName}"
           }
         },
         "pt-BR" : {

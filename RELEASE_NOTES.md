@@ -144,3 +144,10 @@ Bilder leses av mer nøyaktig.
 Rettet tilfeldige tilkoblingsfeil.
 Lag QR-kode uten å koble til.
 Del sonen din med én QR-kode.
+
+### 앱스토어 (네덜란드어)
+
+Foto’s worden nauwkeuriger uitgelezen.
+Sporadische verbindingsfouten verholpen.
+Maak een QR-code zonder te verbinden.
+Deel je hotspot met één QR-code.

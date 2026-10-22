@@ -87,6 +87,12 @@
             "value" : "Kopi av %@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopie van %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -209,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forhåndsvisning av gjesteoppslag for %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorbeeld van gastenbordje voor %@"
           }
         },
         "pt-BR" : {
@@ -335,6 +347,12 @@
             "value" : "QR-kode for å koble til %@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-code om te verbinden met %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -457,6 +475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi-QR for %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-QR van %@"
           }
         },
         "pt-BR" : {
@@ -583,6 +607,12 @@
             "value" : "Utsnitt «%@»"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fragment ‘%@’"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -705,6 +735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilkoblingen til «%@» er satt opp.\nFor å sjekke at den er opprettet, trenger appen tilgang til posisjonen din. (Innstillinger > MyFi > Posisjon)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De verbinding met ‘%@’ is ingesteld.\nOm te controleren of die tot stand is gekomen, heeft de app toegang tot je locatie nodig. (Instellingen > MyFi > Locatie)"
           }
         },
         "pt-BR" : {
@@ -831,6 +867,12 @@
             "value" : "Kunne ikke koble til «%@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan geen verbinding maken met ‘%@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -953,6 +995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prøver på nytt som «%@» …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opnieuw proberen als ‘%@’…"
           }
         },
         "pt-BR" : {
@@ -1079,6 +1127,12 @@
             "value" : "Koblet til «%@»."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbonden met ‘%@’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1201,6 +1255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A4-plakat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4-poster"
           }
         },
         "pt-BR" : {
@@ -1327,6 +1387,12 @@
             "value" : "Face ID-lås"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID-vergrendeling"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1449,6 +1515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lås appen med Face ID eller Touch ID og beskytt de lagrede passordene."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vergrendel de app met Face ID of Touch ID om je opgeslagen wachtwoorden te beschermen."
           }
         },
         "pt-BR" : {
@@ -1575,6 +1647,12 @@
             "value" : "Lager QR-kode …"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-code maken…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1697,6 +1775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lag QR-kode"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-code maken"
           }
         },
         "pt-BR" : {
@@ -1823,6 +1907,12 @@
             "value" : "QR-koden kunne ikke lages"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-code maken mislukt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1945,6 +2035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Del QR-bilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-afbeelding delen"
           }
         },
         "pt-BR" : {
@@ -2071,6 +2167,12 @@
             "value" : "Hvis du bare lager QR-koden, kobler ikke denne iPhonen til, men lagrer bare nettverket. Er passordet feil, fungerer heller ikke QR-koden, så sjekk det."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als je alleen de QR-code maakt, verbindt deze iPhone niet maar slaat hij het netwerk alleen op. Is het wachtwoord fout, dan werkt ook de QR-code niet, dus controleer het."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2193,6 +2295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR-koden kunne ikke lages."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De QR-code kon niet worden gemaakt."
           }
         },
         "pt-BR" : {
@@ -2319,6 +2427,12 @@
             "value" : "SSID (Wi-Fi-navn)"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (wifi-naam)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2441,6 +2555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SSID-prefikset er ugyldig."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het SSID-voorvoegsel is ongeldig."
           }
         },
         "pt-BR" : {
@@ -2567,6 +2687,12 @@
             "value" : "Enklere med VoiceOver"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makkelijker met VoiceOver"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2689,6 +2815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Spørsmål"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Vraag"
           }
         },
         "pt-BR" : {
@@ -2815,6 +2947,12 @@
             "value" : "iOS gir ikke apper listen over lagrede Wi-Fi-nettverk, så skjermbilde er eneste måte."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS geeft apps de lijst met opgeslagen wifi-netwerken niet door, dus een schermafbeelding is de enige manier."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2937,6 +3075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta med i importen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meenemen in de import"
           }
         },
         "pt-BR" : {
@@ -3063,6 +3207,12 @@
             "value" : "%lld navn importert"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld namen geïmporteerd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3185,6 +3335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hopp over"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sla over"
           }
         },
         "pt-BR" : {
@@ -3311,6 +3467,12 @@
             "value" : "Lagres med en gang"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direct opgeslagen zodra je iets wijzigt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3433,6 +3595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Del"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel"
           }
         },
         "pt-BR" : {
@@ -3559,6 +3727,12 @@
             "value" : "Nettverk i nærheten først"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netwerken in de buurt eerst"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3681,6 +3855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilbakestill tekst"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksten herstellen"
           }
         },
         "pt-BR" : {
@@ -3807,6 +3987,12 @@
             "value" : "Når du gjør teksten større, ordnes skjermene på nytt, så ingenting kuttes."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als je de tekst vergroot, worden schermen opnieuw ingedeeld zodat niets wordt afgekapt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3929,6 +4115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synkronisering mellom enheter"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchroniseren tussen apparaten"
           }
         },
         "pt-BR" : {
@@ -4055,6 +4247,12 @@
             "value" : "De lagrede nettverkene og oppslagene dine følger med når du bytter enhet."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je opgeslagen netwerken en bordjes gaan mee als je van apparaat wisselt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4177,6 +4375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett alle dataene mine"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al mijn gegevens wissen"
           }
         },
         "pt-BR" : {
@@ -4303,6 +4507,12 @@
             "value" : "Mitt oppslag"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn bordje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4425,6 +4635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mine oppslag (%lld)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn bordjes (%lld)"
           }
         },
         "pt-BR" : {
@@ -4551,6 +4767,12 @@
             "value" : "Min sone"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn hotspot"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4673,6 +4895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nettverk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netwerk"
           }
         },
         "pt-BR" : {
@@ -4799,6 +5027,12 @@
             "value" : "Etikett for nettverk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label voor netwerk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4921,6 +5155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nettverksnavnet (SSID) er ugyldig."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De netwerknaam (SSID) is ongeldig."
           }
         },
         "pt-BR" : {
@@ -5047,6 +5287,12 @@
             "value" : "Sjekk nettverksinformasjonen."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controleer de netwerkgegevens."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5169,6 +5415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg et annet skjermbilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies een andere schermafbeelding"
           }
         },
         "pt-BR" : {
@@ -5295,6 +5547,12 @@
             "value" : "Neste"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volgende"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5417,6 +5675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mørk modus"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donkere modus"
           }
         },
         "pt-BR" : {
@@ -5543,6 +5807,12 @@
             "value" : "Lukk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluit"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5665,6 +5935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alt er fortsatt lesbart, også med økt kontrast eller hvis det er vanskelig å se forskjell på farger."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles blijft leesbaar, ook met meer contrast of als je kleuren moeilijk kunt onderscheiden."
           }
         },
         "pt-BR" : {
@@ -5791,6 +6067,12 @@
             "value" : "Bruk appen på flere språk."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de app in meer talen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5913,6 +6195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flere språk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meer talen"
           }
         },
         "pt-BR" : {
@@ -6039,6 +6327,12 @@
             "value" : "Hjelp"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Help"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6161,6 +6455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dobbelttrykk for å gå tilbake til QR-koden."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik twee keer om terug te gaan naar de QR-code."
           }
         },
         "pt-BR" : {
@@ -6287,6 +6587,12 @@
             "value" : "Design"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontwerp"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6406,6 +6712,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -6535,6 +6847,12 @@
             "value" : "La bare de riktige stå på, trykk for å rette feil bokstaver, og trykk på «Legg til» øverst til høyre."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laat alleen de juiste namen aan staan, tik om verkeerde letters te corrigeren en tik rechtsboven op ‘Voeg toe’."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6657,6 +6975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo for stedet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo van de zaak"
           }
         },
         "pt-BR" : {
@@ -6783,6 +7107,12 @@
             "value" : "Navn på stedet"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naam van de zaak"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6905,6 +7235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lag et Wi-Fi-oppslag til stedet ditt eller hjemmet ditt,\nog skriv det ut eller del det som bilde."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak een wifi-bordje voor je zaak of huis\nen print het of deel het als afbeelding."
           }
         },
         "pt-BR" : {
@@ -7031,6 +7367,12 @@
             "value" : "Nederste linje (skjules hvis tom)"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onderste regel (verborgen als leeg)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7153,6 +7495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kortet på hovedskjermen viser oppslaget du sist endret. Sveip til venstre for å duplisere eller slette."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De kaart op het hoofdscherm toont het bordje dat je het laatst hebt aangepast. Veeg naar links om te dupliceren of te verwijderen."
           }
         },
         "pt-BR" : {
@@ -7279,6 +7627,12 @@
             "value" : "Send e-post (%@)"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mail ons (%@)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7398,6 +7752,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mono"
@@ -7527,6 +7887,12 @@
             "value" : "Raske handlinger i listen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snelle acties in de lijst"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7649,6 +8015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg Wi-Fi fra listen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies wifi uit de lijst"
           }
         },
         "pt-BR" : {
@@ -7775,6 +8147,12 @@
             "value" : "Gratis Wi-Fi"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratis wifi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7897,6 +8275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
           }
         },
         "pt-BR" : {
@@ -8023,6 +8407,12 @@
             "value" : "Midnatt"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Middernacht"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8145,6 +8535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forhåndsvisning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorbeeld"
           }
         },
         "pt-BR" : {
@@ -8271,6 +8667,12 @@
             "value" : "Mynte"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Munt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8393,6 +8795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sikkerhetskopi og eksport"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back-up en export"
           }
         },
         "pt-BR" : {
@@ -8519,6 +8927,12 @@
             "value" : "Merke (skjules hvis tomt)"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badge (verborgen als leeg)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8641,6 +9055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bytt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wijzig"
           }
         },
         "pt-BR" : {
@@ -8767,6 +9187,12 @@
             "value" : "Mer behagelige farger og kontrast"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prettigere kleuren en contrast"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8889,6 +9315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utvikleren leser hver eneste melding du sender."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ontwikkelaar leest elk bericht dat je stuurt zelf."
           }
         },
         "pt-BR" : {
@@ -9015,6 +9447,12 @@
             "value" : "Før du viser den, slå på «Tillat andre å bli med» i Innstillinger > Personlig sone. Hvis den er av, finnes ikke nettverket selv om man skanner QR-koden."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zet voordat je dit laat zien ‘Anderen toestaan deel te nemen’ aan bij Instellingen > Persoonlijke hotspot. Staat die uit, dan wordt het netwerk ook met de QR-code niet gevonden."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9137,6 +9575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bare vis det, så er du tilkoblet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gewoon laten zien en je bent verbonden"
           }
         },
         "pt-BR" : {
@@ -9263,6 +9707,12 @@
             "value" : "Dupliser"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dupliceer"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9385,6 +9835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passord"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachtwoord"
           }
         },
         "pt-BR" : {
@@ -9511,6 +9967,12 @@
             "value" : "Etikett for passord"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label voor wachtwoord"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9633,6 +10095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vis passord"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachtwoord tonen"
           }
         },
         "pt-BR" : {
@@ -9759,6 +10227,12 @@
             "value" : "Kopier passord"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopieer wachtwoord"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9881,6 +10355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passord kopiert"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachtwoord gekopieerd"
           }
         },
         "pt-BR" : {
@@ -10007,6 +10487,12 @@
             "value" : "Skjul passord"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachtwoord verbergen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10129,6 +10615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fjern passord"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachtwoord wissen"
           }
         },
         "pt-BR" : {
@@ -10255,6 +10747,12 @@
             "value" : "Vis passord"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachtwoord tonen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10377,6 +10875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passordformatet er ugyldig. (WEP: 5 eller 13 tegn)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De indeling van het wachtwoord is ongeldig. (WEP: 5 of 13 tekens)"
           }
         },
         "pt-BR" : {
@@ -10503,6 +11007,12 @@
             "value" : "Passordformatet er ugyldig. (WPA: 8 til 63 tegn)"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De indeling van het wachtwoord is ongeldig. (WPA: 8 tot 63 tekens)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10625,6 +11135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passordet er på %lld tegn. Wi-Fi-passord må ha minst 8 tegn (gamle WEP-nøkler: 5 eller 13). Sjekk om det mangler tegn."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het wachtwoord is %lld tekens lang. Een wifi-wachtwoord moet minstens 8 tekens hebben (oude WEP-sleutels: 5 of 13). Controleer of er geen tekens ontbreken."
           }
         },
         "pt-BR" : {
@@ -10751,6 +11267,12 @@
             "value" : "Bruk som passord"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invoegen als wachtwoord"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10873,6 +11395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lest fra QR-koden i bildet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitgelezen uit de QR-code op de foto."
           }
         },
         "pt-BR" : {
@@ -10999,6 +11527,12 @@
             "value" : "Koble til med ett bilde"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinden met één foto"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11121,6 +11655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fant verken id eller passord i bildet. Skriv dem selv, eller ta et nytt bilde nærmere og skarpere."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruikersnaam en wachtwoord zijn niet gevonden op de foto. Typ ze zelf in, of maak een nieuwe foto van dichterbij en scherper."
           }
         },
         "pt-BR" : {
@@ -11247,6 +11787,12 @@
             "value" : "Navn lest fra bildet – velg det riktige"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namen uit de foto – kies de juiste"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11369,6 +11915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lest fra bilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitgelezen uit foto"
           }
         },
         "pt-BR" : {
@@ -11495,6 +12047,12 @@
             "value" : "Fyll ut fra et bilde"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invullen met een foto"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11617,6 +12175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder"
           }
         },
         "pt-BR" : {
@@ -11743,6 +12307,12 @@
             "value" : "Nytt oppslag"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieuw bordje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11865,6 +12435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Solnedgang"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zonsondergang"
           }
         },
         "pt-BR" : {
@@ -11991,6 +12567,12 @@
             "value" : "Velg"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12113,6 +12695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valgfritt – vises øverst"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optioneel – bovenaan getoond"
           }
         },
         "pt-BR" : {
@@ -12239,6 +12827,12 @@
             "value" : "Ikke valgt"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niet geselecteerd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12361,6 +12955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valgt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geselecteerd"
           }
         },
         "pt-BR" : {
@@ -12487,6 +13087,12 @@
             "value" : "Innstillinger"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12609,6 +13215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importer liste fra skjermbilde av Innstillinger …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lijst importeren uit schermafbeelding van Instellingen…"
           }
         },
         "pt-BR" : {
@@ -12735,6 +13347,12 @@
             "value" : "Haptisk tilbakemelding"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptische feedback"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12857,6 +13475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lag gjesteoppslag"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak gastenbordjes"
           }
         },
         "pt-BR" : {
@@ -12983,6 +13607,12 @@
             "value" : "Skriv ut eller del gjesteoppslag"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gastenbordje printen of delen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13105,6 +13735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skannet Wi-Fi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gescande wifi"
           }
         },
         "pt-BR" : {
@@ -13231,6 +13867,12 @@
             "value" : "Dette nettverket styres av systeminnstillingene og kan ikke endres."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit netwerk wordt beheerd via de systeeminstellingen en kan niet worden gewijzigd."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13353,6 +13995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kom i gang"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aan de slag"
           }
         },
         "pt-BR" : {
@@ -13479,6 +14127,12 @@
             "value" : "Trykk på et utsnitt nedenfor, eller skriv selv"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik op een fragment hieronder of typ zelf"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13601,6 +14255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trykk på et utsnitt nedenfor, så havner det i det tomme feltet. Hold nede for å velge mellom id og passord, eller dra det på plass."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik op een fragment hieronder om het in het lege veld te plaatsen. Houd ingedrukt om te kiezen tussen gebruikersnaam en wachtwoord, of sleep het op zijn plek."
           }
         },
         "pt-BR" : {
@@ -13727,6 +14387,12 @@
             "value" : "Id"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruikersnaam"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13849,6 +14515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fjern id"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruikersnaam wissen"
           }
         },
         "pt-BR" : {
@@ -13975,6 +14647,12 @@
             "value" : "Bruk som id"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invoegen als gebruikersnaam"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14099,6 +14777,12 @@
             "value" : "Ta et skjermbilde av «Innstillinger > Wi-Fi» på iPhone, og velg det her. Appen leser navnene i listen."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak een schermafbeelding van ‘Instellingen > Wifi’ op de iPhone en kies die hier. De app leest de namen in de lijst uit."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14218,6 +14902,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst"
@@ -14347,6 +15037,12 @@
             "value" : "Fotografer oppslag"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bordje fotograferen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14469,6 +15165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oppslag %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bordje %lld"
           }
         },
         "pt-BR" : {
@@ -14595,6 +15297,12 @@
             "value" : "Lag oppslag"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bordje maken"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14717,6 +15425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Navn på oppslaget (vises bare i listen)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naam van het bordje (alleen zichtbaar in de lijst)"
           }
         },
         "pt-BR" : {
@@ -14843,6 +15557,12 @@
             "value" : "Del eller skriv ut bilde av oppslaget"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afbeelding van het bordje delen of printen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14965,6 +15685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst som skrives ut på oppslaget"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst die op het bordje wordt geprint"
           }
         },
         "pt-BR" : {
@@ -15091,6 +15817,12 @@
             "value" : "Hvis appen lukkes mens du lager et oppslag, er arbeidet ditt der fortsatt."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als de app sluit terwijl je een bordje maakt, blijft je werk behouden."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15213,6 +15945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det oppstod en ukjent feil. Sjekk at du er innenfor nettverkets rekkevidde."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er is een onbekende fout opgetreden. Controleer of je binnen bereik van het netwerk bent."
           }
         },
         "pt-BR" : {
@@ -15339,6 +16077,12 @@
             "value" : "Varsler om Wi-Fi i nærheten"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meldingen over wifi in de buurt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15461,6 +16205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bilder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto’s"
           }
         },
         "pt-BR" : {
@@ -15587,6 +16337,12 @@
             "value" : "Prøv igjen mens appen er åpen på skjermen."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probeer het opnieuw terwijl de app op het scherm geopend is."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15709,6 +16465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekst og knapper er skarpe også i mørk modus."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst en knoppen blijven ook in de donkere modus scherp."
           }
         },
         "pt-BR" : {
@@ -15835,6 +16597,12 @@
             "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bij de eerste keer openen na een update zie je wat er nieuw is."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15957,6 +16725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nyheter"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieuw"
           }
         },
         "pt-BR" : {
@@ -16083,6 +16857,12 @@
             "value" : "Ingen (åpent nettverk)"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen (open netwerk)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16205,6 +16985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi lagret her"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hier opgeslagen wifi"
           }
         },
         "pt-BR" : {
@@ -16331,6 +17117,12 @@
             "value" : "Koble til"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbind"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16453,6 +17245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilkoblingen mislyktes"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinden mislukt"
           }
         },
         "pt-BR" : {
@@ -16579,6 +17377,12 @@
             "value" : "Lag QR-kode uten tilkobling"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-code maken zonder te verbinden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16701,6 +17505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kobler til …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinden…"
           }
         },
         "pt-BR" : {
@@ -16827,6 +17637,12 @@
             "value" : "Du må trykke på «Koble til» i bekreftelsesvinduet. Prøv igjen."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je moet in het bevestigingsvenster op ‘Verbind’ tikken. Probeer het opnieuw."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16949,6 +17765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR for tilkobling"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR om te verbinden"
           }
         },
         "pt-BR" : {
@@ -17075,6 +17897,12 @@
             "value" : "Støtte for engelsk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ondersteuning voor Engels"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17197,6 +18025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Legg inn den teksten du vil, linje for linje, for eksempel åpningstider, Instagram-konto eller husregler."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg zelf tekst toe, regel voor regel, zoals openingstijden, een Instagram-account of huisregels."
           }
         },
         "pt-BR" : {
@@ -17323,6 +18157,12 @@
             "value" : "F.eks. Til kassen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bijv. Voor de kassa"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17445,6 +18285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "F.eks. Lounge Café"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bijv. Lounge Café"
           }
         },
         "pt-BR" : {
@@ -17571,6 +18417,12 @@
             "value" : "F.eks. Åpent 09–22"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bijv. Open 9.00–22.00 uur"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17693,6 +18545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hav"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oceaan"
           }
         },
         "pt-BR" : {
@@ -17819,6 +18677,12 @@
             "value" : "Wi-Fi-QR"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-QR"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17941,6 +18805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vis Wi-Fi-QR"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-QR tonen"
           }
         },
         "pt-BR" : {
@@ -18067,6 +18937,12 @@
             "value" : "Importer Wi-Fi-liste"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-lijst importeren"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18189,6 +19065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi-detaljer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-details"
           }
         },
         "pt-BR" : {
@@ -18315,6 +19197,12 @@
             "value" : "Velg Wi-Fi"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies wifi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18437,6 +19325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotografer Wi-Fi-oppslag"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-bordje fotograferen"
           }
         },
         "pt-BR" : {
@@ -18563,6 +19457,12 @@
             "value" : "Wi-Fi-navn"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-naam"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18685,6 +19585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi-navnet er for langt. (maks. 32 byte)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De wifi-naam is te lang. (maximaal 32 bytes)"
           }
         },
         "pt-BR" : {
@@ -18811,6 +19717,12 @@
             "value" : "Wi-Fi-navnet er tomt."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De wifi-naam is leeg."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18933,6 +19845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Legg til Wi-Fi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi toevoegen"
           }
         },
         "pt-BR" : {
@@ -19059,6 +19977,12 @@
             "value" : "En lett vibrasjon når du kobler til eller teksten er gjenkjent."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een lichte trilling als je verbinding maakt of tekst wordt herkend."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19181,6 +20105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Når du kobler til et nettverk eller deler det fra «Her», registreres stedet på kartet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als je verbinding maakt met een netwerk of het deelt vanaf ‘Hier’, wordt de locatie op de kaart vastgelegd."
           }
         },
         "pt-BR" : {
@@ -19307,6 +20237,12 @@
             "value" : "Ferdig"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gereed"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19429,6 +20365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Appen og oppslagene finnes også på engelsk, slik at utenlandske gjester kan lese dem."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De app en bordjes ook in het Engels, zodat buitenlandse gasten ze kunnen lezen."
           }
         },
         "pt-BR" : {
@@ -19555,6 +20497,12 @@
             "value" : "Reduser bevegelse"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beweging verminderen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19677,6 +20625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Når «Reduser bevegelse» er slått på, blir skjermeffektene roligere."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Met ‘Beweging verminderen’ aan worden schermeffecten rustiger."
           }
         },
         "pt-BR" : {
@@ -19803,6 +20757,12 @@
             "value" : "Slett alle lagrede nettverk og oppslag rett i appen."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wis alle opgeslagen netwerken en bordjes direct in de app."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19925,6 +20885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilbakemelding og anmeldelser"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feedback en recensies"
           }
         },
         "pt-BR" : {
@@ -20051,6 +21017,12 @@
             "value" : "Dette nettverket støtter ikke engangstilkobling."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit netwerk ondersteunt geen eenmalige verbinding."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20173,6 +21145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett denne linjen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze regel verwijderen"
           }
         },
         "pt-BR" : {
@@ -20299,6 +21277,12 @@
             "value" : "Vis dette kortet"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laat deze kaart zien"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20421,6 +21405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koble til denne iPhonen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze iPhone verbinden"
           }
         },
         "pt-BR" : {
@@ -20547,6 +21537,12 @@
             "value" : "Satt opp på denne iPhonen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingesteld op deze iPhone"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20669,6 +21665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koble til denne iPhonen, eller lag bare QR-koden uten å koble til"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbind deze iPhone, of maak alleen de QR-code zonder te verbinden"
           }
         },
         "pt-BR" : {
@@ -20795,6 +21797,12 @@
             "value" : "Wi-Fi som denne iPhonen kjenner"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-netwerken die deze iPhone kent"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20917,6 +21925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Navn som denne iPhonen kjenner"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namen die deze iPhone kent"
           }
         },
         "pt-BR" : {
@@ -21043,6 +22057,12 @@
             "value" : "Kanskje det skrives slik:"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misschien wordt het zo geschreven:"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21165,6 +22185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leser navn …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namen uitlezen…"
           }
         },
         "pt-BR" : {
@@ -21291,6 +22317,12 @@
             "value" : "Sjekk at navn og passord er helt riktige, også store og små bokstaver, og at du er innenfor rekkevidde."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controleer of naam en wachtwoord precies kloppen, inclusief hoofd- en kleine letters, en of je binnen bereik bent."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21413,6 +22445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fant ingen navn. Ta et nytt skjermbilde der listen er tydelig, eller skriv dem inn nedenfor."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen namen gevonden. Maak een nieuwe schermafbeelding waarop de lijst goed te zien is, of typ ze hieronder zelf in."
           }
         },
         "pt-BR" : {
@@ -21539,6 +22577,12 @@
             "value" : "Du er allerede tilkoblet."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je bent al verbonden."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21661,6 +22705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En tidligere tilkoblingsforespørsel behandles fortsatt. Prøv igjen om litt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een eerder verbindingsverzoek wordt nog verwerkt. Probeer het zo meteen opnieuw."
           }
         },
         "pt-BR" : {
@@ -21787,6 +22837,12 @@
             "value" : "Instagram-DM (@lee25_ios)"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-bericht (@lee25_ios)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21909,6 +22965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gjenkjenner …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkennen…"
           }
         },
         "pt-BR" : {
@@ -22035,6 +23097,12 @@
             "value" : "%lld navn lest"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld namen uitgelezen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22157,6 +23225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lagrede nettverk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opgeslagen netwerken"
           }
         },
         "pt-BR" : {
@@ -22283,6 +23357,12 @@
             "value" : "Ingen lagrede nettverk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen opgeslagen netwerken"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22405,6 +23485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kart over lagret Wi-Fi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaart met opgeslagen wifi"
           }
         },
         "pt-BR" : {
@@ -22531,6 +23617,12 @@
             "value" : "Få et varsel når du kommer til et sted med et lagret nettverk."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontvang een melding als je aankomt op een plek met een opgeslagen netwerk."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22653,6 +23745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lagrede nettverk huskes sammen med stedet. Når du kommer tilbake, flyttes de øverst i listen med merket «📍 Nær»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opgeslagen netwerken worden samen met de plek onthouden. Kom je daar terug, dan springen ze bovenaan de lijst met het label ‘📍 In de buurt’."
           }
         },
         "pt-BR" : {
@@ -22779,6 +23877,12 @@
             "value" : "Lagre nettverk og oppslag i en fil, og hent dem tilbake senere."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar je netwerken en bordjes in een bestand en haal ze later weer op."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22901,6 +24005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brukt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toegepast"
           }
         },
         "pt-BR" : {
@@ -23027,6 +24137,12 @@
             "value" : "Fjern"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23149,6 +24265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Overskrift"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kop"
           }
         },
         "pt-BR" : {
@@ -23275,6 +24397,12 @@
             "value" : "Trykk på utsnittene for å fylle ut"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik op fragmenten om in te vullen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23397,6 +24525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Legg til linje"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regel toevoegen"
           }
         },
         "pt-BR" : {
@@ -23523,6 +24657,12 @@
             "value" : "Vis QR-koden til Wi-Fi-nettverket du er koblet til.\nNår en venn retter kameraet mot den, kobler vedkommende til uten å kjenne passordet."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laat de QR-code zien van het wifi-netwerk waarmee je verbonden bent.\nAls een vriend de camera erop richt, verbindt die zonder het wachtwoord te kennen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23645,6 +24785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Åpner QR-koden til Wi-Fi-nettverket du er koblet til. Hvis det ikke er lagret, åpnes det sist lagrede."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opent de QR-code van het wifi-netwerk waarmee je verbonden bent. Is dat niet opgeslagen, dan wordt het laatst opgeslagen netwerk geopend."
           }
         },
         "pt-BR" : {
@@ -23771,6 +24917,12 @@
             "value" : "Tilkoblet nå"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu verbonden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23893,6 +25045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kart"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaart"
           }
         },
         "pt-BR" : {
@@ -24019,6 +25177,12 @@
             "value" : "Ingen steder å vise på kartet"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen locaties om op de kaart te tonen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24141,6 +25305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Egne linjer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eigen regels"
           }
         },
         "pt-BR" : {
@@ -24267,6 +25437,12 @@
             "value" : "%lld egne linjer"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld eigen regels"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24389,6 +25565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv selv"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelf typen"
           }
         },
         "pt-BR" : {
@@ -24515,6 +25697,12 @@
             "value" : "Skriv selv …"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelf typen…"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24637,6 +25825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi skrevet inn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelf getypte wifi"
           }
         },
         "pt-BR" : {
@@ -24763,6 +25957,12 @@
             "value" : "Legg til selv"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelf toevoegen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24885,6 +26085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se introduksjonen igjen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introductie opnieuw bekijken"
           }
         },
         "pt-BR" : {
@@ -25011,6 +26217,12 @@
             "value" : "Kamera"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25133,6 +26345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamera, bilder eller skriv selv"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera, foto’s of zelf typen"
           }
         },
         "pt-BR" : {
@@ -25259,6 +26477,12 @@
             "value" : "Legg til"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg toe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25381,6 +26605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Når en venn retter kameraet mot QR-koden, kobler vedkommende til uten passord. Sveip eller trykk på kortet for å snu det til en forhåndsvisning av gjesteoppslaget."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als een vriend de camera op de QR-code richt, verbindt die zonder wachtwoord. Veeg of tik op de kaart om hem om te draaien naar een voorbeeld van het gastenbordje."
           }
         },
         "pt-BR" : {
@@ -25507,6 +26737,12 @@
             "value" : "Kort"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaart"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25629,6 +26865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skann QR-koden med kameraet for å koble til"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan de QR-code met de camera om te verbinden"
           }
         },
         "pt-BR" : {
@@ -25755,6 +26997,12 @@
             "value" : "Rett kameraet mot den for å koble til med en gang"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Richt de camera erop om direct te verbinden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25877,6 +27125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rett kameraet mot den for å koble til uten passord. Dobbelttrykk for å snu til forhåndsvisning av oppslaget."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Richt de camera erop om zonder wachtwoord te verbinden. Tik twee keer om om te draaien naar het voorbeeld van het bordje."
           }
         },
         "pt-BR" : {
@@ -26003,6 +27257,12 @@
             "value" : "Åpner kameraet slik at du kan fotografere et Wi-Fi-oppslag og få lest nettverksnavn og passord."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opent de camera zodat je een wifi-bordje kunt fotograferen en de netwerknaam en het wachtwoord worden uitgelezen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26125,6 +27385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kafé"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
           }
         },
         "pt-BR" : {
@@ -26251,6 +27517,12 @@
             "value" : "Fotografer et Wi-Fi-oppslag på en kafé eller et overnattingssted, eller velg et bilde fra biblioteket.\nAppen leser navn og passord og kobler til denne iPhonen."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografeer een wifi-bordje in een café of verblijf, of kies een foto uit je bibliotheek.\nDe app leest de naam en het wachtwoord uit en verbindt deze iPhone."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26373,6 +27645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotografer et Wi-Fi-oppslag på en kafé eller et overnattingssted, eller velg et bilde fra biblioteket. Appen leser id og passord og kobler til."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografeer een wifi-bordje in een café of verblijf, of kies een foto uit je bibliotheek. De app leest de gebruikersnaam en het wachtwoord uit en verbindt."
           }
         },
         "pt-BR" : {
@@ -26499,6 +27777,12 @@
             "value" : "Velg skjermbilde"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies schermafbeelding"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26621,6 +27905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hentet fra skjermbilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overgenomen van een schermafbeelding"
           }
         },
         "pt-BR" : {
@@ -26747,6 +28037,12 @@
             "value" : "Skjermer for stor tekst"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermen voor grote tekst"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26869,6 +28165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trykk for å legge det i et tomt felt. Hold nede for å velge felt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik om het in een leeg veld te plaatsen. Houd ingedrukt om het veld te kiezen."
           }
         },
         "pt-BR" : {
@@ -26995,6 +28297,12 @@
             "value" : "Bare bruk det"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veel plezier"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27117,6 +28425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skjerm for sammenleggbar iPhone"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scherm van uitklapbare iPhone"
           }
         },
         "pt-BR" : {
@@ -27243,6 +28557,12 @@
             "value" : "På en sammenleggbar iPhone deles den brede skjermen i to ruter."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Op een uitklapbare iPhone wordt het brede scherm in twee delen verdeeld."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27365,6 +28685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skog"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bos"
           }
         },
         "pt-BR" : {
@@ -27491,6 +28817,12 @@
             "value" : "Fortsett der du slapp"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verdergaan waar je was gebleven"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27613,6 +28945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denne iPhonen kan ikke koble til en sone. Lag en QR-kode og vis den til den andre."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze iPhone kan geen verbinding maken met een hotspot. Maak een QR-code en laat die aan de ander zien."
           }
         },
         "pt-BR" : {
@@ -27739,6 +29077,12 @@
             "value" : "Trykk på en rad for å åpne QR-koden og detaljene. Sveip til høyre for å koble til denne iPhonen, til venstre for å dele QR-koden."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik op een rij om de QR-code en details te openen. Veeg naar rechts om deze iPhone te verbinden, naar links om de QR-code te delen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27861,6 +29205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Format"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formaat"
           }
         },
         "pt-BR" : {
@@ -27987,6 +29337,12 @@
             "value" : "VoiceOver leser opp all informasjon om nettverket og alle knapper i riktig rekkefølge."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leest alle netwerkgegevens en knoppen voor, in de juiste volgorde."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28106,6 +29462,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -28235,6 +29597,12 @@
             "value" : "📍 Nær"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 In de buurt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28357,6 +29725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Her"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Hier"
           }
         },
         "pt-BR" : {
@@ -28483,6 +29857,12 @@
             "value" : "📍 Tilkoblet nå"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Nu verbonden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28605,6 +29985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Sone"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Hotspot"
           }
         },
         "pt-BR" : {

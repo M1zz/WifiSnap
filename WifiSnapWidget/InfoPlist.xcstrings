@@ -87,6 +87,12 @@
             "value" : "Wi-Fi-QR"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-QR"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",

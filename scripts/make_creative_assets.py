@@ -122,7 +122,13 @@ STORE["nb"] = "nb"
 SCREEN["nb"] = "nb"
 SEARCH["nb"] = ("Wi-Fi-QR", "Lag Wi-Fi-oppslag<br>til gjester", "Koble til med QR-kode,<br>skriv ut i ett trinn")
 HEADER["nb"] = ("Del Wi-Fi", "Ikke les opp passordet:<br>vis en QR-kode")
+STORE["nl"] = "nl"
+SCREEN["nl"] = "nl"
+SEARCH["nl"] = ("Wifi-QR", "Maak wifi-bordjes<br>voor gasten", "Verbind met een QR-code,<br>print in één keer")
+HEADER["nl"] = ("Deel wifi", "Lees het wachtwoord niet voor:<br>laat een QR-code zien")
 # i18n-end
+
+
 
 
 

@@ -87,6 +87,12 @@
             "value" : "Koble til én gang i appen, så vises QR-koden her"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbind één keer in de app en de QR-code verschijnt hier"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -209,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi"
           }
         },
         "pt-BR" : {
@@ -335,6 +347,12 @@
             "value" : "Wi-Fi-QR"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wifi-QR"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -457,6 +475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg Wi-Fi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies wifi"
           }
         },
         "pt-BR" : {
@@ -583,6 +607,12 @@
             "value" : "Velg Wi-Fi-nettverket som skal festes til widgeten. Velger du ikke, vises det sist tilkoblede."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies de wifi die je aan de widget wilt vastzetten. Kies je niets, dan wordt de laatst verbonden wifi getoond."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -705,6 +735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen lagret Wi-Fi"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen opgeslagen wifi"
           }
         },
         "pt-BR" : {
@@ -831,6 +867,12 @@
             "value" : "Viser QR-koden til Wi-Fi-nettverket du er koblet til. Hold nede og velg «Rediger widget» for å feste et bestemt nettverk."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toont de QR-code van het wifi-netwerk waarmee je verbonden bent. Houd ingedrukt en kies ‘Wijzig widget’ om een specifiek netwerk vast te zetten."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -953,6 +995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilkoblet nå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu verbonden"
           }
         },
         "pt-BR" : {
@@ -1079,6 +1127,12 @@
             "value" : "Rett kameraet mot den for å koble til"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Richt de camera erop om te verbinden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1201,6 +1255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trykk for stor QR-kode"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik voor grote QR-code"
           }
         },
         "pt-BR" : {
