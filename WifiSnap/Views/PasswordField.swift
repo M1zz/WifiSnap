@@ -32,7 +32,7 @@ struct PasswordField: View {
                     .foregroundStyle(.secondary)
             }
             .buttonStyle(.borderless)
-            .accessibilityLabel(isRevealed ? "비밀번호 숨기기" : "비밀번호 표시")
+            .accessibilityLabel(isRevealed ? String(localized: "비밀번호 숨기기") : String(localized: "비밀번호 표시"))
         }
         .padding(.horizontal, 12)
         .padding(.vertical, 8)

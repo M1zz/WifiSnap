@@ -69,7 +69,7 @@ struct WifiListImportSheet: View {
                 Button {
                     showPicker = true
                 } label: {
-                    Label(didScan ? "다른 캡처 고르기" : "캡처 고르기", systemImage: "photo.on.rectangle")
+                    Label(didScan ? String(localized: "다른 캡처 고르기") : String(localized: "캡처 고르기"), systemImage: "photo.on.rectangle")
                         .font(.subheadline.weight(.semibold))
                         .frame(maxWidth: .infinity, minHeight: 40)
                 }
@@ -105,7 +105,7 @@ struct WifiListImportSheet: View {
                     }
                     .buttonStyle(.plain)
                     .accessibilityLabel("가져오기에 포함")
-                    .accessibilityValue(candidate.isSelected ? "선택됨" : "선택 안 됨")
+                    .accessibilityValue(candidate.isSelected ? String(localized: "선택됨") : String(localized: "선택 안 됨"))
 
                     // 인식이 틀렸을 수 있으니 이름을 그 자리에서 고칠 수 있게 한다
                     TextField("와이파이 이름", text: $candidate.name)

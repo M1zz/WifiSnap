@@ -240,7 +240,7 @@ struct ContentView: View {
     }
 
     private func alertContent(_ message: StatusMessage) -> Alert {
-        Alert(title: Text(message.isError ? "연결 실패" : "완료"),
+        Alert(title: Text(message.isError ? String(localized: "연결 실패") : String(localized: "완료")),
               message: Text(message.text),
               dismissButton: .default(Text("확인")))
     }
@@ -269,17 +269,17 @@ struct ContentView: View {
             result.append(SSIDOption(ssid: name, icon: icon, detail: detail))
         }
         if let current = currentNetwork.currentSSID {
-            add(current, icon: "wifi", detail: "지금 연결됨")
+            add(current, icon: "wifi", detail: String(localized: "지금 연결됨"))
         }
         for network in sortedNetworks {
             add(network.ssid, icon: "clock.arrow.circlepath", detail: nearbyTag(for: network))
         }
         for ssid in currentNetwork.configuredSSIDs {
-            add(ssid, icon: "gearshape", detail: "이 폰에 설정됨")
+            add(ssid, icon: "gearshape", detail: String(localized: "이 폰에 설정됨"))
         }
         // 사용자가 '설정 > Wi-Fi' 캡처로 알려준 이름들
         for ssid in knownSSIDStore.ssids {
-            add(ssid, icon: "text.viewfinder", detail: "캡처에서 가져옴")
+            add(ssid, icon: "text.viewfinder", detail: String(localized: "캡처에서 가져옴"))
         }
         return result
     }
@@ -362,7 +362,7 @@ struct ContentView: View {
         } label: {
             HStack(spacing: 8) {
                 Image(systemName: "wifi").foregroundStyle(.secondary)
-                Text(credentials.ssid.isEmpty ? "와이파이 선택" : credentials.ssid)
+                Text(credentials.ssid.isEmpty ? String(localized: "와이파이 선택") : credentials.ssid)
                     .foregroundStyle(credentials.ssid.isEmpty ? .secondary : .primary)
                     .lineLimit(1)
                     .truncationMode(.middle)
@@ -547,8 +547,8 @@ struct ContentView: View {
     private var resultCard: some View {
         card {
             cardHeader(icon: manualEntry ? "keyboard" : "camera.viewfinder",
-                       title: manualEntry ? "직접 입력한 와이파이" : "스캔한 와이파이",
-                       subtitle: "이 폰을 연결하거나, 연결 없이 QR만 만들어요",
+                       title: manualEntry ? String(localized: "직접 입력한 와이파이") : String(localized: "스캔한 와이파이"),
+                       subtitle: String(localized: "이 폰을 연결하거나, 연결 없이 QR만 만들어요"),
                        color: .orange)
 
             if isRecognizing {
@@ -578,8 +578,8 @@ struct ContentView: View {
                 }
 
                 Text(inputLooksLikeHotspot
-                     ? "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요."
-                     : "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요.")
+                     ? String(localized: "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요.")
+                     : String(localized: "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요."))
                     .font(.caption2)
                     .foregroundStyle(.secondary)
             }
@@ -604,7 +604,7 @@ struct ContentView: View {
             connect()
         } label: {
             if isConnecting {
-                HStack { ProgressView(); Text(connectingNote ?? "연결 중…") }
+                HStack { ProgressView(); Text(connectingNote ?? String(localized: "연결 중…")) }
                     .frame(maxWidth: .infinity, minHeight: prominent ? 0 : 40)
             } else {
                 Label("이 폰 연결", systemImage: "wifi")
@@ -629,7 +629,7 @@ struct ContentView: View {
         let button = Button {
             saveWithoutConnecting()
         } label: {
-            Label(prominent ? "QR 만들기" : "연결 없이 QR 만들기", systemImage: "qrcode")
+            Label(prominent ? String(localized: "QR 만들기") : String(localized: "연결 없이 QR 만들기"), systemImage: "qrcode")
                 .font(prominent ? .headline : .subheadline.weight(.semibold))
                 .frame(maxWidth: .infinity, minHeight: prominent ? 0 : 40)
         }
@@ -647,8 +647,8 @@ struct ContentView: View {
     /// 사진 인식이 통째로 틀렸을 때도 아는 이름을 끌어다 놓으면 되도록 함께 얹는다.
     private var puzzleGroups: [CredentialPuzzleView.TokenGroup] {
         [
-            .init(id: "photo", title: "사진에서 읽음", icon: "camera.viewfinder", tokens: scanTokens),
-            .init(id: "known", title: "이 폰이 아는 이름", icon: "wifi", tokens: knownSSIDs)
+            .init(id: "photo", title: String(localized: "사진에서 읽음"), icon: "camera.viewfinder", tokens: scanTokens),
+            .init(id: "known", title: String(localized: "이 폰이 아는 이름"), icon: "wifi", tokens: knownSSIDs)
         ].filter { !$0.tokens.isEmpty }
     }
 
@@ -825,7 +825,7 @@ struct ContentView: View {
     private func shareQR(_ network: SavedNetwork) {
         guard let image = QRCodeGenerator.wifiQRImage(ssid: network.ssid,
                                                       password: network.password) else {
-            statusMessage = StatusMessage(text: "QR을 만들지 못했어요.", isError: true)
+            statusMessage = StatusMessage(text: String(localized: "QR을 만들지 못했어요."), isError: true)
             return
         }
         markSavedRowUsed()
@@ -883,12 +883,12 @@ struct ContentView: View {
     /// 그 연결 지점에 다시 왔을 때만 '여기'/'근처'가 뜬다 (단순 추가만 한 건 안 뜸).
     private func nearbyTag(for network: SavedNetwork) -> String? {
         // 지금 이 와이파이에 실제로 연결돼 있으면 확실히 '여기'
-        if isConnected(network) { return "📍 여기" }
+        if isConnected(network) { return String(localized: "📍 여기") }
         // 아니면, 연결했던 지점과의 거리로 판단
         guard let here = currentNetwork.currentLocation,
               let distance = network.distance(from: here),
               distance <= nearbyRadius else { return nil }
-        return distance <= hereRadius ? "📍 여기" : "📍 근처"
+        return distance <= hereRadius ? String(localized: "📍 여기") : String(localized: "📍 근처")
     }
 
     // MARK: - Card container
@@ -938,7 +938,7 @@ struct ContentView: View {
                 ssidCandidates = [qr.ssid]
                 scanTokens = [qr.ssid, qr.password].filter { !$0.isEmpty }
                 isRecognizing = false
-                statusMessage = StatusMessage(text: "사진 속 QR에서 읽었어요.", isError: false)
+                statusMessage = StatusMessage(text: String(localized: "사진 속 QR에서 읽었어요."), isError: false)
                 return
             }
             recognizeText(on: image)
@@ -969,7 +969,7 @@ struct ContentView: View {
             // 실제 연결에 성공한 뒤에만 저장한다(connect 참고).
             if credentials.ssid.isEmpty && credentials.password.isEmpty {
                 statusMessage = StatusMessage(
-                    text: "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요.",
+                    text: String(localized: "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요."),
                     isError: true
                 )
             }
@@ -1041,8 +1041,8 @@ struct ContentView: View {
                              verifiedName: true)
                 statusMessage = StatusMessage(
                     text: joined.verified
-                        ? "'\(joined.ssid)'에 연결했어요."
-                        : "'\(joined.ssid)' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)",
+                        ? String(localized: "'\(joined.ssid)'에 연결했어요.")
+                        : String(localized: "'\(joined.ssid)' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)"),
                     isError: false
                 )
                 // 연결됐으니 입력 카드는 닫고 필드를 비운다
@@ -1132,8 +1132,8 @@ private struct ConnectedFlipCard: View {
         }
         // VoiceOver: 카드 한 장으로 읽고, 두 번 탭하면 뒤집는다 (밀기 제스처는 VoiceOver 로 할 수 없다)
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel(flipped ? "\(network.ssid) 손님용 안내판 미리보기" : "\(network.ssid) 연결용 QR 코드")
-        .accessibilityHint(flipped ? "두 번 탭하면 QR 코드로 돌아갑니다." : "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다.")
+        .accessibilityLabel(flipped ? String(localized: "\(network.ssid) 손님용 안내판 미리보기") : String(localized: "\(network.ssid) 연결용 QR 코드"))
+        .accessibilityHint(flipped ? String(localized: "두 번 탭하면 QR 코드로 돌아갑니다.") : String(localized: "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다."))
         .accessibilityAddTraits(.isButton)
         .accessibilityAction { flip() }
         .task(id: renderKey) { await generate() }

@@ -124,7 +124,7 @@ struct NetworkDetailSheet: View {
                 }
                 .buttonStyle(.plain)
                 .foregroundStyle(.secondary)
-                .accessibilityLabel(revealPassword ? "비밀번호 숨기기" : "비밀번호 보기")
+                .accessibilityLabel(revealPassword ? String(localized: "비밀번호 숨기기") : String(localized: "비밀번호 보기"))
 
                 Button {
                     UIPasteboard.general.string = network.password
@@ -134,7 +134,7 @@ struct NetworkDetailSheet: View {
                 }
                 .buttonStyle(.plain)
                 .foregroundStyle(copied ? .green : .secondary)
-                .accessibilityLabel(copied ? "비밀번호 복사됨" : "비밀번호 복사")
+                .accessibilityLabel(copied ? String(localized: "비밀번호 복사됨") : String(localized: "비밀번호 복사"))
             }
             .padding(.horizontal, 14)
             .padding(.vertical, 12)

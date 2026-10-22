@@ -34,16 +34,16 @@ enum WifiConnector {
         var errorDescription: String? {
             switch self {
             case .emptySSID:
-                return "와이파이 이름이 비어 있어요."
+                return String(localized: "와이파이 이름이 비어 있어요.")
             case .ssidTooLong:
-                return "와이파이 이름이 너무 길어요. (최대 32바이트)"
+                return String(localized: "와이파이 이름이 너무 길어요. (최대 32바이트)")
             case .badPasswordLength(let count):
-                return "비밀번호가 \(count)자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요."
+                return String(localized: "비밀번호가 \(count)자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요.")
             case .notFound(let ssid, let suggestions):
-                var text = "'\(ssid)' 와이파이에 붙지 못했어요.\n"
-                text += "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요."
+                var text = String(localized: "'\(ssid)' 와이파이에 붙지 못했어요.") + "\n"
+                text += String(localized: "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요.")
                 if !suggestions.isEmpty {
-                    text += "\n\n이런 표기일 수도 있어요:\n" + suggestions.map { "• \($0)" }.joined(separator: "\n")
+                    text += "\n\n" + String(localized: "이런 표기일 수도 있어요:") + "\n" + suggestions.map { "• \($0)" }.joined(separator: "\n")
                 }
                 return text
             case .message(let text):
@@ -102,7 +102,7 @@ enum WifiConnector {
                     let suggestions = SSIDMatcher.caseVariants(of: ssid)
                     return completion(.failure(ConnectError.notFound(ssid: ssid, suggestions: suggestions)))
                 }
-                onProgress("'\(fallback)' 표기로 다시 시도 중…")
+                onProgress(String(localized: "'\(fallback)' 표기로 다시 시도 중…"))
                 attempt(ssid: fallback, password: password, security: security,
                         canReadSSID: canReadSSID) { retry in
                     guard isNotFound(retry) else { return completion(retry) }
@@ -272,17 +272,17 @@ enum WifiConnector {
             return error.localizedDescription
         }
         switch code {
-        case .invalidSSID: return "네트워크 이름(SSID)이 올바르지 않아요."
-        case .invalidWPAPassphrase: return "비밀번호 형식이 올바르지 않아요. (WPA는 8~63자)"
-        case .invalidWEPPassphrase: return "비밀번호 형식이 올바르지 않아요. (WEP은 5자 또는 13자)"
-        case .userDenied: return "연결 확인 창에서 '연결'을 눌러야 연결됩니다. 다시 시도해 주세요."
-        case .pending: return "이전 연결 요청을 처리 중이에요. 잠시 후 다시 시도해 주세요."
-        case .systemConfiguration: return "시스템 설정으로 관리되는 네트워크라 변경할 수 없어요."
-        case .unknown: return "알 수 없는 오류가 발생했어요. 신호 범위 안에 있는지 확인해 주세요."
-        case .joinOnceNotSupported: return "이 네트워크는 일회성 연결을 지원하지 않아요."
-        case .alreadyAssociated: return "이미 연결되어 있어요."
-        case .applicationIsNotInForeground: return "앱이 화면에 떠 있는 상태에서 시도해 주세요."
-        case .invalidSSIDPrefix: return "SSID 접두사가 올바르지 않아요."
+        case .invalidSSID: return String(localized: "네트워크 이름(SSID)이 올바르지 않아요.")
+        case .invalidWPAPassphrase: return String(localized: "비밀번호 형식이 올바르지 않아요. (WPA는 8~63자)")
+        case .invalidWEPPassphrase: return String(localized: "비밀번호 형식이 올바르지 않아요. (WEP은 5자 또는 13자)")
+        case .userDenied: return String(localized: "연결 확인 창에서 '연결'을 눌러야 연결됩니다. 다시 시도해 주세요.")
+        case .pending: return String(localized: "이전 연결 요청을 처리 중이에요. 잠시 후 다시 시도해 주세요.")
+        case .systemConfiguration: return String(localized: "시스템 설정으로 관리되는 네트워크라 변경할 수 없어요.")
+        case .unknown: return String(localized: "알 수 없는 오류가 발생했어요. 신호 범위 안에 있는지 확인해 주세요.")
+        case .joinOnceNotSupported: return String(localized: "이 네트워크는 일회성 연결을 지원하지 않아요.")
+        case .alreadyAssociated: return String(localized: "이미 연결되어 있어요.")
+        case .applicationIsNotInForeground: return String(localized: "앱이 화면에 떠 있는 상태에서 시도해 주세요.")
+        case .invalidSSIDPrefix: return String(localized: "SSID 접두사가 올바르지 않아요.")
         default: return error.localizedDescription
         }
     }

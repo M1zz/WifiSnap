@@ -56,6 +56,10 @@
 		F60F0D4098F3E1B752F6FDCD /* CurrentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A030840261208945F64C8855 /* CurrentNetworkService.swift */; };
 		F6D581CE4B712E22CE03BF9F /* WifiSnapWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E88946C99C33FA9A51702624 /* WifiSnapWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FADF569F7726FF36C73A4EFD /* SSIDMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AA4934AD2587CE38EBE090 /* SSIDMatcher.swift */; };
+		0DDE576F28323870421DCD29 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 167E327C405ADE616926C660 /* InfoPlist.xcstrings */; };
+		DC6531D61669E768DA3BF12E /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 47DFD94F0411C3BEFFDEFD26 /* AppShortcuts.xcstrings */; };
+		18AFB48EDE5D16B359BF3CD2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BDBDDB07CFD9C208AC9E2B34 /* Localizable.xcstrings */; };
+		3A62CD032B32D694AEECC62B /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BE7BE1B370874540C4867BB5 /* InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +132,10 @@
 		F154FDB7DDDB52375DB95D25 /* WifiSnap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WifiSnap.entitlements; sourceTree = "<group>"; };
 		F227DCF115FF7485AF3EA4AD /* SavedNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedNetwork.swift; sourceTree = "<group>"; };
 		FD026F980125CDF3004A9E59 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		167E327C405ADE616926C660 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		47DFD94F0411C3BEFFDEFD26 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		BDBDDB07CFD9C208AC9E2B34 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		BE7BE1B370874540C4867BB5 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +227,8 @@
 			children = (
 				203683BB7B8241D518E47E44 /* SelectWifiIntent.swift */,
 				933BBB3F3BCBE744A957F440 /* WifiSnapWidget.swift */,
+				BDBDDB07CFD9C208AC9E2B34 /* Localizable.xcstrings */,
+				BE7BE1B370874540C4867BB5 /* InfoPlist.xcstrings */,
 			);
 			path = WifiSnapWidget;
 			sourceTree = "<group>";
@@ -229,6 +239,8 @@
 				C92FFFE2DCC7EBB3226E7F92 /* Assets.xcassets */,
 				B1AA0E8EF555D951AB012A72 /* Info.plist */,
 				335D7DD59A232680C72798A2 /* Localizable.xcstrings */,
+				167E327C405ADE616926C660 /* InfoPlist.xcstrings */,
+				47DFD94F0411C3BEFFDEFD26 /* AppShortcuts.xcstrings */,
 				F154FDB7DDDB52375DB95D25 /* WifiSnap.entitlements */,
 				495D1CA0E6D09DCA4E677F87 /* WifiSnapApp.swift */,
 				2779EAD7DCC0561EB24D0958 /* WifiSnapFlags.swift */,
@@ -306,6 +318,7 @@
 			buildConfigurationList = 34217D75F52F1B5C30ABB087 /* Build configuration list for PBXNativeTarget "WifiSnapWidget" */;
 			buildPhases = (
 				8155D36BDF0B630E2B7BB6AD /* Sources */,
+				47C68EF0E138CF2DD5FF4835 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -393,6 +406,17 @@
 			files = (
 				4B937F4FAF6850881D76A40A /* Assets.xcassets in Resources */,
 				E13ACB6F0D304FF049E6053D /* Localizable.xcstrings in Resources */,
+				0DDE576F28323870421DCD29 /* InfoPlist.xcstrings in Resources */,
+				DC6531D61669E768DA3BF12E /* AppShortcuts.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C68EF0E138CF2DD5FF4835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AFB48EDE5D16B359BF3CD2 /* Localizable.xcstrings in Resources */,
+				3A62CD032B32D694AEECC62B /* InfoPlist.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,7 @@ struct SettingsSheet: View {
         var components = URLComponents()
         components.scheme = "mailto"
         components.path = WifiSnapSpec.developerEmail
-        components.queryItems = [URLQueryItem(name: "subject", value: "[마이파이 \(version)] 문의")]
+        components.queryItems = [URLQueryItem(name: "subject", value: String(localized: "[마이파이 \(version)] 문의"))]
         return components.url
     }
 

@@ -18,8 +18,8 @@ enum PosterSettings {
     // MARK: 기본값
 
     static let defaultStoreName    = ""
-    static let defaultHeading      = "무료 와이파이"
-    static let defaultSubtitle     = "편하게 이용하세요"
+    static let defaultHeading      = String(localized: "무료 와이파이")
+    static let defaultSubtitle     = String(localized: "편하게 이용하세요")
     static let defaultShowPassword = true
     static var defaultThemeID: String { PosterTheme.all[0].id }
     static var defaultLayoutID: String { PosterLayout.card.rawValue }
@@ -34,7 +34,7 @@ enum PosterSettings {
     static func migratedDesign() -> PosterDesign {
         let defaults = UserDefaults.standard
         return PosterDesign(
-            name: "내 안내판",
+            name: String(localized: "내 안내판"),
             storeName: defaults.string(forKey: storeNameKey) ?? defaultStoreName,
             heading: defaults.string(forKey: headingKey) ?? defaultHeading,
             subtitle: defaults.string(forKey: subtitleKey) ?? defaultSubtitle,

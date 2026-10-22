@@ -22,25 +22,25 @@ struct PosterTheme: Identifiable, Equatable {
     var panel: Color { foreground.opacity(0.10) }
 
     static let all: [PosterTheme] = [
-        PosterTheme(id: "midnight", name: "미드나잇",
+        PosterTheme(id: "midnight", name: String(localized: "미드나잇"),
                     colors: [Color(hex: 0x1E1B4B), Color(hex: 0x4338CA), Color(hex: 0x7C3AED)],
                     foreground: .white, secondary: Color(hex: 0xC7D2FE), badge: Color(hex: 0x34D399)),
-        PosterTheme(id: "sunset", name: "선셋",
+        PosterTheme(id: "sunset", name: String(localized: "선셋"),
                     colors: [Color(hex: 0xFF6B6B), Color(hex: 0xFF8E53), Color(hex: 0xFFB088)],
                     foreground: .white, secondary: Color(hex: 0xFFF1E6), badge: .white),
-        PosterTheme(id: "mint", name: "민트",
+        PosterTheme(id: "mint", name: String(localized: "민트"),
                     colors: [Color(hex: 0x06B6D4), Color(hex: 0x10B981)],
                     foreground: .white, secondary: Color(hex: 0xE0F7F4), badge: .white),
-        PosterTheme(id: "ocean", name: "오션",
+        PosterTheme(id: "ocean", name: String(localized: "오션"),
                     colors: [Color(hex: 0x2563EB), Color(hex: 0x0EA5E9), Color(hex: 0x22D3EE)],
                     foreground: .white, secondary: Color(hex: 0xDBEAFE), badge: .white),
-        PosterTheme(id: "forest", name: "포레스트",
+        PosterTheme(id: "forest", name: String(localized: "포레스트"),
                     colors: [Color(hex: 0x065F46), Color(hex: 0x059669), Color(hex: 0x34D399)],
                     foreground: .white, secondary: Color(hex: 0xD1FAE5), badge: .white),
-        PosterTheme(id: "cafe", name: "카페",
+        PosterTheme(id: "cafe", name: String(localized: "카페"),
                     colors: [Color(hex: 0xF5E9DA), Color(hex: 0xE8D3B5)],
                     foreground: Color(hex: 0x5B3A29), secondary: Color(hex: 0x8A6E56), badge: Color(hex: 0xB5835A)),
-        PosterTheme(id: "mono", name: "모노",
+        PosterTheme(id: "mono", name: String(localized: "모노"),
                     colors: [Color(hex: 0xFAFAFA), Color(hex: 0xEDEDED)],
                     foreground: Color(hex: 0x111111), secondary: Color(hex: 0x6B7280), badge: Color(hex: 0x111111))
     ]
@@ -52,7 +52,7 @@ struct PosterTheme: Identifiable, Equatable {
 enum PosterLayout: String, CaseIterable, Identifiable {
     case card, a4
     var id: String { rawValue }
-    var label: String { self == .card ? "카드" : "A4 포스터" }
+    var label: String { self == .card ? String(localized: "카드") : String(localized: "A4 포스터") }
 
     /// 각 레이아웃의 크기·여백·글자 규격
     var metrics: PosterMetrics {
@@ -212,7 +212,7 @@ struct WifiPosterView: View {
             if design.showPassword {
                 Divider().overlay(theme.foreground.opacity(0.12))
                 infoRow(label: design.passwordLabel,
-                        value: password.isEmpty ? "없음 (개방)" : password, mono: true)
+                        value: password.isEmpty ? String(localized: "없음 (개방)") : password, mono: true)
             }
         }
         .background(theme.panel, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
@@ -396,8 +396,8 @@ struct WifiPosterSheet: View {
 
     private var controls: some View {
         VStack(spacing: 14) {
-            labeledField(title: "안내판 이름 (목록에서만 보임)", text: $design.name,
-                         placeholder: "예) 계산대용")
+            labeledField(title: String(localized: "안내판 이름 (목록에서만 보임)"), text: $design.name,
+                         placeholder: String(localized: "예) 계산대용"))
 
             Divider()
             logoRow
@@ -407,14 +407,14 @@ struct WifiPosterSheet: View {
                 .font(.subheadline.weight(.semibold))
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            labeledField(title: "매장 이름", text: $design.storeName, placeholder: "예) 라운지 카페")
+            labeledField(title: String(localized: "매장 이름"), text: $design.storeName, placeholder: String(localized: "예) 라운지 카페"))
             labeledField(title: "뱃지 (비우면 숨김)", text: $design.badge, placeholder: "WiFi")
-            labeledField(title: "제목", text: $design.heading, placeholder: "무료 와이파이")
-            labeledField(title: "안내 문구", text: $design.subtitle, placeholder: "편하게 이용하세요")
-            labeledField(title: "네트워크 라벨", text: $design.networkLabel, placeholder: "네트워크")
-            labeledField(title: "비밀번호 라벨", text: $design.passwordLabel, placeholder: "비밀번호")
-            labeledField(title: "맨 아래 문구 (비우면 숨김)", text: $design.footer,
-                         placeholder: "카메라로 QR을 비추면 자동 연결")
+            labeledField(title: String(localized: "제목"), text: $design.heading, placeholder: String(localized: "무료 와이파이"))
+            labeledField(title: String(localized: "안내 문구"), text: $design.subtitle, placeholder: String(localized: "편하게 이용하세요"))
+            labeledField(title: String(localized: "네트워크 라벨"), text: $design.networkLabel, placeholder: String(localized: "네트워크"))
+            labeledField(title: String(localized: "비밀번호 라벨"), text: $design.passwordLabel, placeholder: String(localized: "비밀번호"))
+            labeledField(title: String(localized: "맨 아래 문구 (비우면 숨김)"), text: $design.footer,
+                         placeholder: String(localized: "카메라로 QR을 비추면 자동 연결"))
 
             Divider()
             extraLinesEditor
@@ -466,7 +466,7 @@ struct WifiPosterSheet: View {
             VStack(alignment: .leading, spacing: 1) {
                 Text("매장 로고")
                     .font(.subheadline.weight(.semibold))
-                Text(logoImage == nil ? "선택 사항 — 상단에 표시" : "적용됨")
+                Text(logoImage == nil ? String(localized: "선택 사항 — 상단에 표시") : String(localized: "적용됨"))
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -483,7 +483,7 @@ struct WifiPosterSheet: View {
             }
 
             PhotosPicker(selection: $logoPickerItem, matching: .images) {
-                Text(logoImage == nil ? "선택" : "변경")
+                Text(logoImage == nil ? String(localized: "선택") : String(localized: "변경"))
                     .font(.subheadline.weight(.semibold))
             }
             .buttonStyle(.bordered)

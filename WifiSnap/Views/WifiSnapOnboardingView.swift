@@ -17,16 +17,16 @@ struct WifiSnapOnboardingView: View {
     private let pages: [Page] = [
         Page(symbol: "qrcode",
              tint: .green,
-             title: "보여주기만 하면 연결",
-             message: "지금 연결된 와이파이를 QR로 보여 주세요.\n친구가 카메라로 비추면 비밀번호를 몰라도 바로 연결돼요."),
+             title: String(localized: "보여주기만 하면 연결"),
+             message: String(localized: "지금 연결된 와이파이를 QR로 보여 주세요.\n친구가 카메라로 비추면 비밀번호를 몰라도 바로 연결돼요.")),
         Page(symbol: "camera.viewfinder",
              tint: .blue,
-             title: "사진 한 장으로 연결",
-             message: "카페·숙소의 와이파이 안내문을 찍거나 앨범에서 고르세요.\n이름과 비밀번호를 읽어 이 폰을 연결해 줘요."),
+             title: String(localized: "사진 한 장으로 연결"),
+             message: String(localized: "카페·숙소의 와이파이 안내문을 찍거나 앨범에서 고르세요.\n이름과 비밀번호를 읽어 이 폰을 연결해 줘요.")),
         Page(symbol: "doc.text.image",
              tint: .indigo,
-             title: "손님용 안내판 만들기",
-             message: "매장이나 집에 둘 와이파이 안내판을 만들어\n인쇄하거나 이미지로 공유할 수 있어요.")
+             title: String(localized: "손님용 안내판 만들기"),
+             message: String(localized: "매장이나 집에 둘 와이파이 안내판을 만들어\n인쇄하거나 이미지로 공유할 수 있어요."))
     ]
 
     private var isLastPage: Bool { page == pages.count - 1 }
@@ -60,7 +60,7 @@ struct WifiSnapOnboardingView: View {
                     withAnimation { page += 1 }
                 }
             } label: {
-                Text(isLastPage ? "시작하기" : "다음")
+                Text(isLastPage ? String(localized: "시작하기") : String(localized: "다음"))
                     .font(.headline)
                     .frame(maxWidth: .infinity, minHeight: 50)
             }

@@ -52,7 +52,7 @@ struct CredentialPuzzleView: View {
                 .frame(width: 20)
 
             VStack(alignment: .leading, spacing: 2) {
-                Text(slot == .ssid ? "아이디" : "비밀번호")
+                Text(slot == .ssid ? String(localized: "아이디") : String(localized: "비밀번호"))
                     .font(.caption2.weight(.semibold))
                     .foregroundStyle(.secondary)
                 // 끌어다 놓기와 별개로 직접 고칠 수도 있어야 한다
@@ -70,7 +70,7 @@ struct CredentialPuzzleView: View {
                         .foregroundStyle(.secondary)
                 }
                 .buttonStyle(.plain)
-                .accessibilityLabel(slot == .ssid ? "아이디 지우기" : "비밀번호 지우기")
+                .accessibilityLabel(slot == .ssid ? String(localized: "아이디 지우기") : String(localized: "비밀번호 지우기"))
             }
         }
         .padding(.horizontal, 12)

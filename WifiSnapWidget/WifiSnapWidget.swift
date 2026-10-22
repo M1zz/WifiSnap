@@ -84,7 +84,7 @@ struct WifiQRWidgetView: View {
         switch family {
         case .accessoryInline:
             // 인라인은 한 줄 텍스트만 — 시각 요소를 넣을 수 없다
-            Label(entry.hasNetwork ? entry.ssid : "저장된 와이파이 없음", systemImage: "wifi")
+            Label(entry.hasNetwork ? entry.ssid : String(localized: "저장된 와이파이 없음"), systemImage: "wifi")
 
         case .accessoryCircular:
             // 원형은 QR을 넣어도 읽을 수 없는 크기다 — 앱으로 가는 지름길로 쓴다
@@ -122,7 +122,7 @@ struct WifiQRWidgetView: View {
                 HStack(spacing: 14) {
                     qr
                     VStack(alignment: .leading, spacing: 4) {
-                        Label(entry.isCurrent ? "지금 연결됨" : "와이파이", systemImage: "wifi")
+                        Label(entry.isCurrent ? String(localized: "지금 연결됨") : String(localized: "와이파이"), systemImage: "wifi")
                             .font(.caption2.weight(.semibold))
                             .foregroundStyle(entry.isCurrent ? Color.green : .secondary)
                         Text(entry.ssid)
