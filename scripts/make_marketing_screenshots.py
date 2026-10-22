@@ -169,7 +169,17 @@ SHOTS["fi"] = [
     ("04-poster-a4.png", "flat-rotate", "A4-juliste<br>suoraan tulostukseen", "7 teemaa, tulosta AirPrintillä yhdellä kertaa"),
     ("05-saved.png", "dark", "Kaikki käyttämäsi Wi-Fi-verkot<br>yhdessä paikassa", "Kun olet lähellä, oikea verkko nousee ensin"),
 ]
+STORE["id"] = "id"
+SHOTS["id"] = [
+    ("01-scan.png", "hero-bleed", "Foto papannya,<br>langsung tersambung", "Membaca ID dan kata sandi dari foto"),
+    ("02-qr.png", "left-text", "Cukup satu QR,<br>tak perlu menyebut kata sandi", "Teman tinggal arahkan kamera"),
+    ("03-poster-card.png", "text-bottom", "Papan Wi-Fi untuk tamu", "Lengkap dengan nama tempat dan jam buka"),
+    ("04-poster-a4.png", "flat-rotate", "Poster A4<br>langsung cetak", "7 tema, cetak lewat AirPrint sekali jalan"),
+    ("05-saved.png", "dark", "Semua Wi-Fi yang pernah dipakai<br>di satu tempat", "Saat di dekatnya, yang pas muncul paling atas"),
+]
 # i18n-end
+
+
 
 
 

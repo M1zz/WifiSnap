@@ -57,6 +57,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Afficher le QR Wi-Fi dans ${applicationName}"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan QR Wi-Fi di ${applicationName}"
           }
         },
         "it" : {
@@ -281,6 +293,12 @@
             "value" : "${applicationName} photographier Wi-Fi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} foto Wi-Fi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -393,6 +411,12 @@
             "value" : "Photographier l’affichette Wi-Fi avec ${applicationName}"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto papan Wi-Fi dengan ${applicationName}"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -503,6 +527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvrir le QR Wi-Fi dans ${applicationName}"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buka QR Wi-Fi di ${applicationName}"
           }
         },
         "it" : {

@@ -57,6 +57,12 @@
             "value" : "MyFi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -169,6 +175,12 @@
             "value" : "Sert à photographier les affichettes Wi-Fi pour reconnaître le nom du réseau et le mot de passe."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Digunakan untuk memotret papan Wi-Fi dan mengenali nama jaringan serta kata sandi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -279,6 +291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nécessaire pour vérifier le nom du réseau Wi-Fi auquel vous êtes connecté."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diperlukan untuk memeriksa nama Wi-Fi yang sedang tersambung."
           }
         },
         "it" : {

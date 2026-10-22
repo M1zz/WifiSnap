@@ -114,7 +114,13 @@ STORE["fi"] = "fi"
 SCREEN["fi"] = "fi"
 SEARCH["fi"] = ("Wi-Fi-QR", "Tee Wi-Fi-kyltit<br>vieraille", "Yhdistä QR-koodilla,<br>tulosta yhdellä kertaa")
 HEADER["fi"] = ("Jaa Wi-Fi", "Älä sanele salasanaa:<br>näytä QR-koodi")
+STORE["id"] = "id"
+SCREEN["id"] = "id"
+SEARCH["id"] = ("QR Wi-Fi", "Buat papan Wi-Fi<br>untuk tamu", "Tersambung lewat QR,<br>cetak sekali jalan")
+HEADER["id"] = ("Bagikan Wi-Fi", "Tak perlu sebut kata sandi:<br>tunjukkan kode QR")
 # i18n-end
+
+
 
 
 

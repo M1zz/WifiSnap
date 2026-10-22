@@ -57,6 +57,12 @@
             "value" : "Connectez-vous une fois dans l’app et le QR code s’affichera ici"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sambungkan sekali di app, lalu kode QR muncul di sini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -164,6 +170,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -281,6 +293,12 @@
             "value" : "QR Wi-Fi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -391,6 +409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir un réseau Wi-Fi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih Wi-Fi"
           }
         },
         "it" : {
@@ -505,6 +529,12 @@
             "value" : "Choisissez le réseau Wi-Fi à épingler au widget. Sans choix, le dernier réseau auquel vous vous êtes connecté s’affiche."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih Wi-Fi yang akan disematkan di widget. Jika tidak dipilih, yang terakhir tersambung akan ditampilkan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -615,6 +645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun réseau Wi-Fi enregistré"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada Wi-Fi tersimpan"
           }
         },
         "it" : {
@@ -729,6 +765,12 @@
             "value" : "Affiche le QR code du réseau Wi-Fi auquel vous êtes connecté. Maintenez le doigt puis choisissez « Modifier le widget » pour épingler un réseau précis."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menampilkan kode QR Wi-Fi yang sedang tersambung. Tahan lalu pilih “Edit Widget” untuk menyematkan jaringan tertentu."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -839,6 +881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecté actuellement"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedang tersambung"
           }
         },
         "it" : {
@@ -953,6 +1001,12 @@
             "value" : "Scannez pour vous connecter"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arahkan kamera untuk tersambung"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1063,6 +1117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez pour un grand QR code"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk untuk QR besar"
           }
         },
         "it" : {

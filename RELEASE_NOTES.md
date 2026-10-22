@@ -130,3 +130,10 @@ Kuvien Wi-Fi-tiedot luetaan tarkemmin.
 Korjattu satunnaisia yhdistämisvikoja.
 Tee QR-koodi yhdistämättä.
 Jaa hotspotisi yhdellä QR-koodilla.
+
+### 앱스토어 (인도네시아어)
+
+Membaca info Wi-Fi di foto lebih akurat.
+Memperbaiki gagal tersambung sesekali.
+Buat kode QR tanpa tersambung.
+Bagikan hotspot dengan satu kode QR.

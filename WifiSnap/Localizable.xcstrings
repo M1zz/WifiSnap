@@ -57,6 +57,12 @@
             "value" : "Copie de %@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salinan %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aperçu de l’affichette invités pour %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratinjau papan untuk tamu %@"
           }
         },
         "it" : {
@@ -281,6 +293,12 @@
             "value" : "QR code de connexion à %@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kode QR untuk tersambung ke %@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -391,6 +409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR Wi-Fi de %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi %@"
           }
         },
         "it" : {
@@ -505,6 +529,12 @@
             "value" : "Fragment « %@ »"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potongan “%@”"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -615,6 +645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La connexion à « %@ » est configurée.\nPour vérifier qu’elle fonctionne, l’app a besoin d’accéder à votre position. (Réglages > MyFi > Position)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sambungan ke “%@” sudah diatur.\nUntuk memastikan sudah tersambung, app memerlukan izin lokasi. (Pengaturan > MyFi > Lokasi)"
           }
         },
         "it" : {
@@ -729,6 +765,12 @@
             "value" : "Impossible de se connecter à « %@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat tersambung ke “%@”."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -839,6 +881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouvel essai avec « %@ »…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mencoba lagi dengan nama “%@”…"
           }
         },
         "it" : {
@@ -953,6 +1001,12 @@
             "value" : "Connecté à « %@ »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tersambung ke “%@”."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1063,6 +1117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Affiche A4"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poster A4"
           }
         },
         "it" : {
@@ -1177,6 +1237,12 @@
             "value" : "Verrouillage par Face ID"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci dengan Face ID"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1287,6 +1353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verrouillez l’app avec Face ID ou Touch ID pour protéger vos mots de passe enregistrés."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci app dengan Face ID atau Touch ID untuk melindungi kata sandi yang tersimpan."
           }
         },
         "it" : {
@@ -1401,6 +1473,12 @@
             "value" : "Création du QR code…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membuat kode QR…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1511,6 +1589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer le QR code"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buat kode QR"
           }
         },
         "it" : {
@@ -1625,6 +1709,12 @@
             "value" : "Création du QR code impossible"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal membuat kode QR"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1735,6 +1825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager l’image du QR code"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan gambar QR"
           }
         },
         "it" : {
@@ -1849,6 +1945,12 @@
             "value" : "Si vous ne créez que le QR code, cet iPhone ne se connecte pas et se contente d’enregistrer le réseau. Si le mot de passe est faux, le QR code ne connectera pas non plus : vérifiez-le."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika hanya membuat kode QR, iPhone ini tidak tersambung dan hanya menyimpan jaringan. Jika kata sandi salah, kode QR juga tidak akan tersambung, jadi periksa lagi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1959,6 +2061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impossible de créer le QR code."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kode QR tidak dapat dibuat."
           }
         },
         "it" : {
@@ -2073,6 +2181,12 @@
             "value" : "SSID (nom du réseau Wi-Fi)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (nama Wi-Fi)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2183,6 +2297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le préfixe du SSID n’est pas valide."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Awalan SSID tidak valid."
           }
         },
         "it" : {
@@ -2297,6 +2417,12 @@
             "value" : "Plus pratique avec VoiceOver"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih nyaman dengan VoiceOver"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2407,6 +2533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Question"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Pertanyaan"
           }
         },
         "it" : {
@@ -2521,6 +2653,12 @@
             "value" : "iOS ne transmet pas aux apps la liste des réseaux Wi-Fi enregistrés ; la capture d’écran est donc le seul moyen."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS tidak memberi app daftar Wi-Fi yang tersimpan, jadi tangkapan layar adalah satu-satunya cara."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2631,6 +2769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inclure dans l’import"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sertakan dalam impor"
           }
         },
         "it" : {
@@ -2745,6 +2889,12 @@
             "value" : "%lld noms importés"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nama diimpor"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2855,6 +3005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lewati"
           }
         },
         "it" : {
@@ -2969,6 +3125,12 @@
             "value" : "Enregistré dès que vous modifiez"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tersimpan begitu diubah"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3079,6 +3241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan"
           }
         },
         "it" : {
@@ -3193,6 +3361,12 @@
             "value" : "Réseaux proches en premier"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaringan terdekat lebih dulu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3303,6 +3477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rétablir le texte"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kembalikan teks"
           }
         },
         "it" : {
@@ -3417,6 +3597,12 @@
             "value" : "Les écrans se réorganisent au lieu d’être tronqués quand vous agrandissez le texte."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat ukuran teks diperbesar, tampilan tertata ulang agar tidak ada yang terpotong."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3527,6 +3713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchronisation entre appareils"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinkronisasi antarperangkat"
           }
         },
         "it" : {
@@ -3641,6 +3833,12 @@
             "value" : "Vos réseaux et affichettes enregistrés vous suivent quand vous changez d’appareil."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaringan dan papan yang tersimpan ikut berpindah saat Anda berganti perangkat."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3751,6 +3949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer toutes mes données"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua data saya"
           }
         },
         "it" : {
@@ -3865,6 +4069,12 @@
             "value" : "Mon affichette"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan saya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3975,6 +4185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mes affichettes (%lld)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan saya (%lld)"
           }
         },
         "it" : {
@@ -4089,6 +4305,12 @@
             "value" : "Mon point d’accès"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotspot saya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4199,6 +4421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réseau"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaringan"
           }
         },
         "it" : {
@@ -4313,6 +4541,12 @@
             "value" : "Libellé du réseau"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label jaringan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4423,6 +4657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le nom du réseau (SSID) n’est pas valide."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama jaringan (SSID) tidak valid."
           }
         },
         "it" : {
@@ -4537,6 +4777,12 @@
             "value" : "Vérifiez les informations du réseau."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Periksa informasi jaringan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4647,6 +4893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir une autre capture"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih tangkapan layar lain"
           }
         },
         "it" : {
@@ -4761,6 +5013,12 @@
             "value" : "Suivant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjut"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4871,6 +5129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mode sombre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode gelap"
           }
         },
         "it" : {
@@ -4985,6 +5249,12 @@
             "value" : "Fermer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5095,6 +5365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout reste lisible, même avec un contraste renforcé ou si les couleurs sont difficiles à distinguer."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semuanya tetap terbaca, meski kontras ditingkatkan atau sulit membedakan warna."
           }
         },
         "it" : {
@@ -5209,6 +5485,12 @@
             "value" : "Utilisez l’app dans davantage de langues."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gunakan app dalam lebih banyak bahasa."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5319,6 +5601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus de langues"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih banyak bahasa"
           }
         },
         "it" : {
@@ -5433,6 +5721,12 @@
             "value" : "Aide"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bantuan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5543,6 +5837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez deux fois pour revenir au QR code."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk dua kali untuk kembali ke kode QR."
           }
         },
         "it" : {
@@ -5657,6 +5957,12 @@
             "value" : "Design"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desain"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5764,6 +6070,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -5881,6 +6193,12 @@
             "value" : "Gardez uniquement les bons noms, touchez pour corriger les lettres erronées, puis touchez « Ajouter » en haut à droite."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biarkan aktif hanya yang benar, ketuk untuk memperbaiki huruf yang salah, lalu ketuk “Tambah” di kanan atas."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5991,6 +6309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo de l’établissement"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo tempat"
           }
         },
         "it" : {
@@ -6105,6 +6429,12 @@
             "value" : "Nom de l’établissement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama tempat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6215,6 +6545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créez une affichette Wi-Fi pour votre établissement ou votre maison,\npuis imprimez-la ou partagez-la en image."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buat papan Wi-Fi untuk tempat usaha atau rumah Anda,\nlalu cetak atau bagikan sebagai gambar."
           }
         },
         "it" : {
@@ -6329,6 +6665,12 @@
             "value" : "Dernière ligne (masquée si vide)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baris paling bawah (disembunyikan jika kosong)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6439,6 +6781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La carte de l’écran principal affiche la dernière affichette modifiée. Balayez vers la gauche pour dupliquer ou supprimer."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartu di layar utama menampilkan papan yang terakhir Anda ubah. Geser ke kiri untuk menduplikasi atau menghapus."
           }
         },
         "it" : {
@@ -6553,6 +6901,12 @@
             "value" : "Nous écrire par e-mail (%@)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirim email (%@)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6660,6 +7014,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mono"
@@ -6777,6 +7137,12 @@
             "value" : "Gestes rapides dans la liste"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aksi cepat di daftar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6887,6 +7253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir un réseau dans la liste"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih Wi-Fi dari daftar"
           }
         },
         "it" : {
@@ -7001,6 +7373,12 @@
             "value" : "Wi-Fi gratuit"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi gratis"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7111,6 +7489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hubungi kami"
           }
         },
         "it" : {
@@ -7225,6 +7609,12 @@
             "value" : "Minuit"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tengah Malam"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7335,6 +7725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aperçu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratinjau"
           }
         },
         "it" : {
@@ -7449,6 +7845,12 @@
             "value" : "Menthe"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mint"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7559,6 +7961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sauvegarde et export"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cadangan dan ekspor"
           }
         },
         "it" : {
@@ -7673,6 +8081,12 @@
             "value" : "Badge (masqué si vide)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lencana (disembunyikan jika kosong)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7783,6 +8197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Changer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ganti"
           }
         },
         "it" : {
@@ -7897,6 +8317,12 @@
             "value" : "Couleurs et contrastes plus confortables"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna dan kontras yang lebih nyaman"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8007,6 +8433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le développeur lit lui-même chacun de vos messages."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengembang membaca sendiri setiap pesan yang Anda kirim."
           }
         },
         "it" : {
@@ -8121,6 +8553,12 @@
             "value" : "Avant de le montrer, activez « Autoriser d’autres personnes à rejoindre » dans Réglages > Partage de connexion. Si l’option est désactivée, le réseau restera introuvable même en scannant le QR code."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebelum menunjukkannya, aktifkan “Izinkan Orang Lain Bergabung” di Pengaturan > Hotspot Pribadi. Jika nonaktif, jaringan tidak akan ditemukan meski kode QR dipindai."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8231,6 +8669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il suffit de montrer pour se connecter"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cukup tunjukkan, langsung tersambung"
           }
         },
         "it" : {
@@ -8345,6 +8789,12 @@
             "value" : "Dupliquer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplikat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8455,6 +8905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mot de passe"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kata sandi"
           }
         },
         "it" : {
@@ -8569,6 +9025,12 @@
             "value" : "Libellé du mot de passe"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label kata sandi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8679,6 +9141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Afficher le mot de passe"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan kata sandi"
           }
         },
         "it" : {
@@ -8793,6 +9261,12 @@
             "value" : "Copier le mot de passe"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salin kata sandi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8903,6 +9377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mot de passe copié"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kata sandi disalin"
           }
         },
         "it" : {
@@ -9017,6 +9497,12 @@
             "value" : "Masquer le mot de passe"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sembunyikan kata sandi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9127,6 +9613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer le mot de passe"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus kata sandi"
           }
         },
         "it" : {
@@ -9241,6 +9733,12 @@
             "value" : "Afficher le mot de passe"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan kata sandi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9351,6 +9849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le format du mot de passe n’est pas valide. (WEP : 5 ou 13 caractères)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format kata sandi tidak valid. (WEP: 5 atau 13 karakter)"
           }
         },
         "it" : {
@@ -9465,6 +9969,12 @@
             "value" : "Le format du mot de passe n’est pas valide. (WPA : 8 à 63 caractères)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format kata sandi tidak valid. (WPA: 8–63 karakter)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9575,6 +10085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le mot de passe fait %lld caractères. Un mot de passe Wi-Fi doit en compter au moins 8 (5 ou 13 pour les anciennes clés WEP). Vérifiez qu’il ne manque aucun caractère."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kata sandi terdiri dari %lld karakter. Kata sandi Wi-Fi minimal 8 karakter (kunci WEP lama: 5 atau 13). Periksa apakah ada karakter yang terlewat."
           }
         },
         "it" : {
@@ -9689,6 +10205,12 @@
             "value" : "Placer comme mot de passe"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan sebagai kata sandi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9799,6 +10321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lu à partir du QR code de la photo."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dibaca dari kode QR di foto."
           }
         },
         "it" : {
@@ -9913,6 +10441,12 @@
             "value" : "Connexion avec une seule photo"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tersambung dengan satu foto"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10023,6 +10557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Identifiant et mot de passe introuvables sur la photo. Saisissez-les à la main ou reprenez la photo de plus près et plus nettement."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ID dan kata sandi tidak ditemukan di foto. Ketik manual, atau foto lagi dari lebih dekat dan lebih tajam."
           }
         },
         "it" : {
@@ -10137,6 +10677,12 @@
             "value" : "Noms lus sur la photo : choisissez le bon"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama yang dibaca dari foto — pilih yang benar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10247,6 +10793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lu sur la photo"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dibaca dari foto"
           }
         },
         "it" : {
@@ -10361,6 +10913,12 @@
             "value" : "Remplir à partir d’une photo"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isi otomatis dari foto"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10471,6 +11029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus"
           }
         },
         "it" : {
@@ -10585,6 +11149,12 @@
             "value" : "Nouvelle affichette"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan baru"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10695,6 +11265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coucher de soleil"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senja"
           }
         },
         "it" : {
@@ -10809,6 +11385,12 @@
             "value" : "Choisir"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10919,6 +11501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Facultatif : affiché en haut"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opsional — tampil di bagian atas"
           }
         },
         "it" : {
@@ -11033,6 +11621,12 @@
             "value" : "Non sélectionné"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dipilih"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11143,6 +11737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sélectionné"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dipilih"
           }
         },
         "it" : {
@@ -11257,6 +11857,12 @@
             "value" : "Réglages"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11367,6 +11973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importer la liste depuis une capture des Réglages…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impor daftar dari tangkapan layar Pengaturan…"
           }
         },
         "it" : {
@@ -11481,6 +12093,12 @@
             "value" : "Retour haptique"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umpan balik getar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11591,6 +12209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer une affichette pour vos invités"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buat papan untuk tamu"
           }
         },
         "it" : {
@@ -11705,6 +12329,12 @@
             "value" : "Imprimer ou partager l’affichette invités"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cetak atau bagikan papan untuk tamu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11815,6 +12445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réseau Wi-Fi scanné"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi hasil pindai"
           }
         },
         "it" : {
@@ -11929,6 +12565,12 @@
             "value" : "Ce réseau est géré par les réglages système et ne peut pas être modifié."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaringan ini dikelola oleh pengaturan sistem dan tidak dapat diubah."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12039,6 +12681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Commencer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai"
           }
         },
         "it" : {
@@ -12153,6 +12801,12 @@
             "value" : "Touchez un fragment ci-dessous ou saisissez à la main"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk potongan di bawah, atau ketik manual"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12263,6 +12917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez un fragment ci-dessous pour le placer dans le champ vide. Maintenez-le pour choisir identifiant ou mot de passe, ou faites-le glisser."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk potongan di bawah agar masuk ke kolom kosong. Tahan untuk memilih ID atau kata sandi, atau seret ke tempatnya."
           }
         },
         "it" : {
@@ -12377,6 +13037,12 @@
             "value" : "Identifiant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ID"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12487,6 +13153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer l’identifiant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus ID"
           }
         },
         "it" : {
@@ -12601,6 +13273,12 @@
             "value" : "Placer comme identifiant"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukkan sebagai ID"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12711,6 +13389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Faites une capture de l’écran « Réglages > Wi-Fi » de l’iPhone puis choisissez-la ici : l’app lit les noms de la liste."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil tangkapan layar halaman “Pengaturan > Wi-Fi” di iPhone, lalu pilih gambarnya di sini. App akan membaca nama-nama di daftar."
           }
         },
         "it" : {
@@ -12825,6 +13509,12 @@
             "value" : "Message"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pesan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12935,6 +13625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photographier l’affichette"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto papan"
           }
         },
         "it" : {
@@ -13049,6 +13745,12 @@
             "value" : "Affichette %lld"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan %lld"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13159,6 +13861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer une affichette"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buat papan"
           }
         },
         "it" : {
@@ -13273,6 +13981,12 @@
             "value" : "Nom de l’affichette (visible uniquement dans la liste)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama papan (hanya tampil di daftar)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13383,6 +14097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager ou imprimer l’image de l’affichette"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan atau cetak gambar papan"
           }
         },
         "it" : {
@@ -13497,6 +14217,12 @@
             "value" : "Texte imprimé sur l’affichette"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teks yang dicetak di papan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13607,6 +14333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si l’app se ferme pendant que vous créez une affichette, votre travail est conservé."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika app tertutup saat Anda membuat papan, pekerjaan Anda tetap tersimpan."
           }
         },
         "it" : {
@@ -13721,6 +14453,12 @@
             "value" : "Une erreur inconnue s’est produite. Vérifiez que vous êtes à portée du réseau."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terjadi kesalahan yang tidak diketahui. Periksa apakah Anda berada dalam jangkauan jaringan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13831,6 +14569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alertes Wi-Fi à proximité"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pemberitahuan Wi-Fi di sekitar"
           }
         },
         "it" : {
@@ -13945,6 +14689,12 @@
             "value" : "Photothèque"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galeri"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14055,6 +14805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réessayez avec l’app ouverte à l’écran."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coba lagi saat app terbuka di layar."
           }
         },
         "it" : {
@@ -14169,6 +14925,12 @@
             "value" : "Le texte et les boutons restent nets en mode sombre."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teks dan tombol tetap jelas di mode gelap."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14279,6 +15041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat membuka app pertama kali setelah pembaruan, Anda akan tahu apa yang baru."
           }
         },
         "it" : {
@@ -14393,6 +15161,12 @@
             "value" : "Nouveautés"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang baru"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14503,6 +15277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun (réseau ouvert)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada (jaringan terbuka)"
           }
         },
         "it" : {
@@ -14617,6 +15397,12 @@
             "value" : "Réseaux enregistrés ici"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi yang disimpan di sini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14727,6 +15513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecter"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sambung"
           }
         },
         "it" : {
@@ -14841,6 +15633,12 @@
             "value" : "Connexion impossible"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal tersambung"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14951,6 +15749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer le QR code sans connexion"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buat kode QR tanpa tersambung"
           }
         },
         "it" : {
@@ -15065,6 +15869,12 @@
             "value" : "Connexion…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menyambung…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15175,6 +15985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il faut appuyer sur « Se connecter » dans la fenêtre de confirmation. Réessayez."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anda perlu mengetuk “Sambung” di jendela konfirmasi. Coba lagi."
           }
         },
         "it" : {
@@ -15289,6 +16105,12 @@
             "value" : "QR code de connexion"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR untuk tersambung"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15399,6 +16221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prise en charge de l’anglais"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan bahasa Inggris"
           }
         },
         "it" : {
@@ -15513,6 +16341,12 @@
             "value" : "Ajoutez le texte de votre choix, ligne par ligne : horaires, compte Instagram, consignes de l’établissement…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambahkan teks apa pun, baris demi baris, seperti jam buka, akun Instagram, atau aturan tempat."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15623,6 +16457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ex. : Pour la caisse"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contoh: Untuk kasir"
           }
         },
         "it" : {
@@ -15737,6 +16577,12 @@
             "value" : "Ex. : Lounge Café"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contoh: Lounge Café"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15847,6 +16693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ex. : Ouvert de 9 h à 22 h"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contoh: Buka 09.00–22.00"
           }
         },
         "it" : {
@@ -15961,6 +16813,12 @@
             "value" : "Océan"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samudra"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16068,6 +16926,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR Wi-Fi"
@@ -16185,6 +17049,12 @@
             "value" : "Afficher le QR Wi-Fi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan QR Wi-Fi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16295,6 +17165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importer la liste Wi-Fi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impor daftar Wi-Fi"
           }
         },
         "it" : {
@@ -16409,6 +17285,12 @@
             "value" : "Détails du réseau Wi-Fi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detail Wi-Fi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16519,6 +17401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir un réseau Wi-Fi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih Wi-Fi"
           }
         },
         "it" : {
@@ -16633,6 +17521,12 @@
             "value" : "Photographier une affichette Wi-Fi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto papan Wi-Fi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16743,6 +17637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nom du réseau Wi-Fi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama Wi-Fi"
           }
         },
         "it" : {
@@ -16857,6 +17757,12 @@
             "value" : "Le nom du réseau Wi-Fi est trop long. (32 octets maximum)"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama Wi-Fi terlalu panjang. (maksimal 32 byte)"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16967,6 +17873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le nom du réseau Wi-Fi est vide."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama Wi-Fi masih kosong."
           }
         },
         "it" : {
@@ -17081,6 +17993,12 @@
             "value" : "Ajouter un réseau Wi-Fi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah Wi-Fi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17191,6 +18109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une légère vibration quand vous vous connectez ou qu’un texte est reconnu."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Getaran halus saat tersambung ke jaringan atau teks berhasil dikenali."
           }
         },
         "it" : {
@@ -17305,6 +18229,12 @@
             "value" : "Quand vous vous connectez à un réseau ou le partagez depuis « Ici », son lieu est noté sur le plan."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat Anda tersambung ke jaringan atau membagikannya dari “Di sini”, lokasinya dicatat di peta."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17415,6 +18345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terminé"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
           }
         },
         "it" : {
@@ -17529,6 +18465,12 @@
             "value" : "L’app et les affichettes aussi en anglais, pour que vos visiteurs étrangers puissent les lire."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App dan papan juga tersedia dalam bahasa Inggris agar tamu asing bisa membacanya."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17639,6 +18581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réduire les animations"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurangi gerakan"
           }
         },
         "it" : {
@@ -17753,6 +18701,12 @@
             "value" : "Avec « Réduire les animations » activé, les effets à l’écran se font plus discrets."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat “Kurangi Gerakan” aktif, efek di layar menjadi lebih tenang."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17863,6 +18817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimez depuis l’app tous les réseaux et affichettes enregistrés."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua jaringan dan papan yang tersimpan langsung dari app."
           }
         },
         "it" : {
@@ -17977,6 +18937,12 @@
             "value" : "Avis et commentaires"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukan dan ulasan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18087,6 +19053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce réseau ne prend pas en charge la connexion ponctuelle."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaringan ini tidak mendukung sambungan sekali pakai."
           }
         },
         "it" : {
@@ -18201,6 +19173,12 @@
             "value" : "Supprimer cette ligne"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus baris ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18311,6 +19289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Montrez cette carte"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunjukkan kartu ini"
           }
         },
         "it" : {
@@ -18425,6 +19409,12 @@
             "value" : "Connecter cet iPhone"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sambungkan iPhone ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18535,6 +19525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Configuré sur cet iPhone"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diatur di iPhone ini"
           }
         },
         "it" : {
@@ -18649,6 +19645,12 @@
             "value" : "Connectez cet iPhone, ou créez simplement le QR code sans vous connecter"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sambungkan iPhone ini, atau cukup buat kode QR tanpa tersambung"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18759,6 +19761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réseaux Wi-Fi connus de cet iPhone"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi yang dikenal iPhone ini"
           }
         },
         "it" : {
@@ -18873,6 +19881,12 @@
             "value" : "Noms connus de cet iPhone"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama yang dikenal iPhone ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18983,6 +19997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il s’écrit peut-être ainsi :"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mungkin penulisannya seperti ini:"
           }
         },
         "it" : {
@@ -19097,6 +20117,12 @@
             "value" : "Lecture des noms…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membaca nama…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19207,6 +20233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vérifiez que le nom et le mot de passe sont exacts, majuscules et minuscules comprises, et que vous êtes à portée."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Periksa apakah nama dan kata sandi sudah persis benar, termasuk huruf besar dan kecil, serta apakah Anda berada dalam jangkauan."
           }
         },
         "it" : {
@@ -19321,6 +20353,12 @@
             "value" : "Aucun nom trouvé. Refaites une capture où la liste est bien visible, ou saisissez-les ci-dessous."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama tidak ditemukan. Ambil tangkapan layar lagi agar daftarnya terlihat jelas, atau ketik di bawah."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19431,6 +20469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Déjà connecté."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah tersambung."
           }
         },
         "it" : {
@@ -19545,6 +20589,12 @@
             "value" : "Une demande de connexion précédente est en cours de traitement. Réessayez dans un instant."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permintaan sambungan sebelumnya masih diproses. Coba lagi sebentar lagi."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19655,6 +20705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Message Instagram (@lee25_ios)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DM Instagram (@lee25_ios)"
           }
         },
         "it" : {
@@ -19769,6 +20825,12 @@
             "value" : "Reconnaissance…"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengenali…"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19879,6 +20941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld noms lus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nama terbaca"
           }
         },
         "it" : {
@@ -19993,6 +21061,12 @@
             "value" : "Réseaux enregistrés"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaringan tersimpan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20103,6 +21177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun réseau enregistré"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada jaringan tersimpan"
           }
         },
         "it" : {
@@ -20217,6 +21297,12 @@
             "value" : "Plan des réseaux Wi-Fi enregistrés"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peta Wi-Fi tersimpan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20327,6 +21413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recevez une notification en arrivant dans un lieu où un réseau est enregistré."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dapatkan pemberitahuan saat Anda tiba di tempat yang punya jaringan tersimpan."
           }
         },
         "it" : {
@@ -20441,6 +21533,12 @@
             "value" : "Les réseaux enregistrés sont mémorisés avec leur lieu. Quand vous y revenez, ils remontent en haut de la liste avec le badge « 📍 À proximité »."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaringan yang tersimpan diingat beserta lokasinya. Saat Anda kembali ke sana, jaringan naik ke puncak daftar dengan lencana “📍 Dekat”."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20551,6 +21649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enregistrez vos réseaux et affichettes dans un fichier et rechargez-les plus tard."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan jaringan dan papan ke dalam file, lalu impor kembali nanti."
           }
         },
         "it" : {
@@ -20665,6 +21769,12 @@
             "value" : "Appliqué"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diterapkan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20775,6 +21885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retirer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus"
           }
         },
         "it" : {
@@ -20889,6 +22005,12 @@
             "value" : "Titre"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Judul"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20999,6 +22121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez les fragments pour remplir"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk potongan untuk mengisi"
           }
         },
         "it" : {
@@ -21113,6 +22241,12 @@
             "value" : "Ajouter une ligne"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah baris"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21223,6 +22357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Montrez le QR code du réseau Wi-Fi auquel vous êtes connecté.\nVotre ami le scanne et se connecte sans connaître le mot de passe."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunjukkan kode QR Wi-Fi yang sedang Anda gunakan.\nSaat teman mengarahkan kamera, ia tersambung tanpa perlu tahu kata sandinya."
           }
         },
         "it" : {
@@ -21337,6 +22477,12 @@
             "value" : "Ouvre le QR du réseau Wi-Fi auquel vous êtes connecté. S’il n’est pas enregistré, ouvre le dernier réseau enregistré."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membuka kode QR Wi-Fi yang sedang tersambung. Jika belum tersimpan, yang terakhir disimpan akan dibuka."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21447,6 +22593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecté actuellement"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedang tersambung"
           }
         },
         "it" : {
@@ -21561,6 +22713,12 @@
             "value" : "Plan"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peta"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21671,6 +22829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun lieu à afficher sur le plan"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada lokasi untuk ditampilkan di peta"
           }
         },
         "it" : {
@@ -21785,6 +22949,12 @@
             "value" : "Lignes personnalisées"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baris tambahan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21895,6 +23065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld lignes personnalisées"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld baris tambahan"
           }
         },
         "it" : {
@@ -22009,6 +23185,12 @@
             "value" : "Saisie manuelle"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketik manual"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22119,6 +23301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saisir à la main…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketik manual…"
           }
         },
         "it" : {
@@ -22233,6 +23421,12 @@
             "value" : "Réseau Wi-Fi saisi à la main"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi yang diketik manual"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22343,6 +23537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter à la main"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah manual"
           }
         },
         "it" : {
@@ -22457,6 +23657,12 @@
             "value" : "Revoir la présentation"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihat pengantar lagi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22567,6 +23773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photo"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera"
           }
         },
         "it" : {
@@ -22681,6 +23893,12 @@
             "value" : "Photo, bibliothèque ou saisie manuelle"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera, galeri, atau ketik manual"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22791,6 +24009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah"
           }
         },
         "it" : {
@@ -22905,6 +24129,12 @@
             "value" : "Quand un ami scanne le QR code avec son appareil photo, il se connecte sans mot de passe. Balayez ou touchez la carte pour voir l’aperçu de l’affichette pour vos invités."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat teman mengarahkan kamera ke kode QR, ia langsung tersambung tanpa kata sandi. Geser atau ketuk kartu untuk membaliknya ke pratinjau papan untuk tamu."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23015,6 +24245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carte"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartu"
           }
         },
         "it" : {
@@ -23129,6 +24365,12 @@
             "value" : "Scannez le QR code avec l’appareil photo pour vous connecter"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindai kode QR dengan kamera untuk tersambung"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23239,6 +24481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scannez avec l’appareil photo pour vous connecter aussitôt"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arahkan kamera untuk langsung tersambung"
           }
         },
         "it" : {
@@ -23353,6 +24601,12 @@
             "value" : "Scannez-le avec l’appareil photo pour vous connecter sans mot de passe. Touchez deux fois pour passer à l’aperçu de l’affichette."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arahkan kamera untuk tersambung tanpa kata sandi. Ketuk dua kali untuk membalik ke pratinjau papan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23463,6 +24717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvre l’appareil photo : photographiez une affichette Wi-Fi pour lire le nom du réseau et le mot de passe."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membuka kamera agar Anda bisa memotret papan Wi-Fi dan membaca nama jaringan serta kata sandinya."
           }
         },
         "it" : {
@@ -23577,6 +24837,12 @@
             "value" : "Café"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafe"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23687,6 +24953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photographiez une affichette Wi-Fi dans un café ou un logement, ou choisissez une photo.\nL’app lit le nom et le mot de passe puis connecte cet iPhone."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto papan Wi-Fi di kafe atau penginapan, atau pilih foto dari galeri.\nApp membaca nama dan kata sandi lalu menyambungkan iPhone ini."
           }
         },
         "it" : {
@@ -23801,6 +25073,12 @@
             "value" : "Photographiez une affichette Wi-Fi dans un café ou un logement, ou choisissez une photo : l’app lit l’identifiant et le mot de passe, puis se connecte."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto papan Wi-Fi di kafe atau penginapan, atau pilih foto dari galeri. App akan membaca ID dan kata sandi lalu tersambung."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23911,6 +25189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir une capture"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih tangkapan layar"
           }
         },
         "it" : {
@@ -24025,6 +25309,12 @@
             "value" : "Importé d’une capture"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dari tangkapan layar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24135,6 +25425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écrans adaptés au texte agrandi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilan untuk teks besar"
           }
         },
         "it" : {
@@ -24249,6 +25545,12 @@
             "value" : "Touchez pour le placer dans un champ vide. Maintenez pour choisir le champ."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk untuk memasukkan ke kolom kosong. Tahan untuk memilih kolom."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24359,6 +25661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bon séjour"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silakan digunakan"
           }
         },
         "it" : {
@@ -24473,6 +25781,12 @@
             "value" : "Écran d’iPhone pliable"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layar iPhone lipat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24583,6 +25897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sur un iPhone pliable, le grand écran se divise en deux volets."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di iPhone lipat, layar yang lebar dibagi menjadi dua panel."
           }
         },
         "it" : {
@@ -24697,6 +26017,12 @@
             "value" : "Forêt"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hutan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24807,6 +26133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reprendre où vous en étiez"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjutkan dari terakhir"
           }
         },
         "it" : {
@@ -24921,6 +26253,12 @@
             "value" : "Cet iPhone ne peut pas se connecter à un point d’accès. Créez un QR code et montrez-le à l’autre personne."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone ini tidak bisa tersambung ke hotspot. Buat kode QR dan tunjukkan ke orang lain."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25031,6 +26369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez une ligne pour ouvrir son QR code et ses détails. Balayez vers la droite pour connecter cet iPhone, vers la gauche pour partager le QR code."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk baris untuk membuka kode QR dan detailnya. Geser ke kanan untuk menyambungkan iPhone ini, geser ke kiri untuk membagikan kode QR."
           }
         },
         "it" : {
@@ -25145,6 +26489,12 @@
             "value" : "Format"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bentuk"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25257,6 +26607,12 @@
             "value" : "VoiceOver lit toutes les infos du réseau et tous les boutons, dans le bon ordre."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver membacakan semua info jaringan dan tombol dengan urutan yang tepat."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25364,6 +26720,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -25481,6 +26843,12 @@
             "value" : "📍 À proximité"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Dekat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25591,6 +26959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Ici"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Di sini"
           }
         },
         "it" : {
@@ -25705,6 +27079,12 @@
             "value" : "📍 Connecté actuellement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Sedang tersambung"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25815,6 +27195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Point d’accès"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Hotspot"
           }
         },
         "it" : {

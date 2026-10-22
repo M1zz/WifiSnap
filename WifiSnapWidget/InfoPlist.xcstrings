@@ -57,6 +57,12 @@
             "value" : "QR Wi-Fi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
