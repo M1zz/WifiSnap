@@ -50,7 +50,12 @@ STORE["en"] = "en-US"
 SCREEN["en"] = "en"
 SEARCH["en"] = ("Wi-Fi QR", "Make guest<br>Wi-Fi signs", "Connect with a QR code,<br>print in one go")
 HEADER["en"] = ("Share Wi-Fi", "Skip reading out passwords.<br>Show a QR code.")
+STORE["en-GB"] = "en-GB"
+SCREEN["en-GB"] = "en-GB"
+SEARCH["en-GB"] = ("Wi-Fi QR", "Make guest<br>Wi-Fi signs", "Connect with a QR code,<br>print in one go")
+HEADER["en-GB"] = ("Share Wi-Fi", "Skip reading out passwords.<br>Show a QR code.")
 # i18n-end
+
 
 
 # 바탕 · 글자색은 앱의 색이다: 밝은 시스템 그룹 배경 + iOS 파랑 포인트(앱의 주 버튼 색).

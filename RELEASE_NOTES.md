@@ -18,3 +18,10 @@ Photos are read more accurately.
 Fixed occasional connection failures.
 Make a QR code without connecting.
 Share your hotspot with one QR code.
+
+### 앱스토어 (영어-영국)
+
+Photos are read more accurately.
+Fixed occasional connection failures.
+Make a QR code without connecting.
+Share your hotspot with one QR code.

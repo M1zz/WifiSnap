@@ -9,6 +9,12 @@
             "value" : "Wi-Fi QR"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",

@@ -9,6 +9,12 @@
             "value" : "Connect once in the app and the QR code shows up here"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect once in the app and the QR code shows up here"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20,6 +26,12 @@
     "와이파이" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -41,6 +53,12 @@
             "value" : "Wi-Fi QR"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -52,6 +70,12 @@
     "와이파이 선택" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose Wi-Fi"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose Wi-Fi"
@@ -73,6 +97,12 @@
             "value" : "Choose the Wi-Fi to pin to the widget. If you don’t choose, it shows the one you connected to most recently."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose the Wi-Fi to pin to the widget. If you don’t choose, it shows the one you connected to most recently."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -84,6 +114,12 @@
     "저장된 와이파이 없음" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No saved Wi-Fi"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No saved Wi-Fi"
@@ -105,6 +141,12 @@
             "value" : "Shows the QR code for the Wi-Fi you’re connected to. Touch and hold, then choose Edit Widget to pin a specific network."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shows the QR code for the Wi-Fi you’re connected to. Touch and hold, then choose Edit Widget to pin a specific network."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -116,6 +158,12 @@
     "지금 연결됨" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connected now"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connected now"
@@ -137,6 +185,12 @@
             "value" : "Point a camera at it to connect"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Point a camera at it to connect"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -148,6 +202,12 @@
     "탭하면 큰 QR" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap for a big QR code"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap for a big QR code"

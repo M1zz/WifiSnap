@@ -9,6 +9,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20,6 +26,12 @@
     "${applicationName} 와이파이 QR 보여줘" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} show Wi-Fi QR"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName} show Wi-Fi QR"
@@ -41,6 +53,12 @@
             "value" : "${applicationName} scan Wi-Fi sign"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} scan Wi-Fi sign"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -57,6 +75,12 @@
             "value" : "Scan a Wi-Fi sign with ${applicationName}"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan a Wi-Fi sign with ${applicationName}"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -68,6 +92,12 @@
     "${applicationName}에서 와이파이 QR 열어줘" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Wi-Fi QR in ${applicationName}"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Wi-Fi QR in ${applicationName}"
