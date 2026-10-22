@@ -45,6 +45,12 @@
             "value" : "Copia de %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (kopio)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vista previa del cartel para invitados de %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vieraskyltin esikatselu: %@"
           }
         },
         "fr" : {
@@ -257,6 +269,12 @@
             "value" : "QR para conectarse a %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-koodi verkkoon %@ yhdistämiseen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -361,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR de la Wi-Fi %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: Wi-Fi-QR"
           }
         },
         "fr" : {
@@ -469,6 +493,12 @@
             "value" : "Fragmento «%@»"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekstinpätkä ”%@”"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -573,6 +603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se configuró la conexión a «%@».\nPara comprobar que se conectó, la app necesita acceso a la ubicación. (Ajustes > MyFi > Ubicación)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhteys verkkoon ”%@” on määritetty.\nSen varmistamiseksi, että yhteys syntyi, sovellus tarvitsee sijaintilupaa. (Asetukset > MyFi > Sijainti)"
           }
         },
         "fr" : {
@@ -681,6 +717,12 @@
             "value" : "No se pudo conectar a «%@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistäminen verkkoon ”%@” ei onnistunut."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -785,6 +827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reintentando como «%@»…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yritetään uudelleen nimellä ”%@” …"
           }
         },
         "fr" : {
@@ -893,6 +941,12 @@
             "value" : "Conectado a «%@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistetty verkkoon ”%@”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -997,6 +1051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Póster A4"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4-juliste"
           }
         },
         "fr" : {
@@ -1105,6 +1165,12 @@
             "value" : "Bloqueo con Face ID"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID -lukitus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1209,6 +1275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloquea la app con Face ID o Touch ID para proteger las contraseñas guardadas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukitse sovellus Face ID:llä tai Touch ID:llä ja suojaa tallennetut salasanat."
           }
         },
         "fr" : {
@@ -1317,6 +1389,12 @@
             "value" : "Creando QR…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tehdään QR-koodia …"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1421,6 +1499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear QR"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee QR-koodi"
           }
         },
         "fr" : {
@@ -1529,6 +1613,12 @@
             "value" : "No se pudo crear el QR"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-koodin teko epäonnistui"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1633,6 +1723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartir imagen del QR"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaa QR-kuva"
           }
         },
         "fr" : {
@@ -1741,6 +1837,12 @@
             "value" : "Si solo creas el QR, este iPhone no se conecta: únicamente guarda la red. Si la contraseña es incorrecta, el QR tampoco conectará, así que revísala."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos teet vain QR-koodin, tämä iPhone ei yhdistä vaan tallentaa verkon. Jos salasana on väärä, QR-koodikaan ei yhdistä, joten tarkista se."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1845,6 +1947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No se pudo crear el QR."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-koodia ei voitu tehdä."
           }
         },
         "fr" : {
@@ -1953,6 +2061,12 @@
             "value" : "SSID (nombre de la red Wi-Fi)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (Wi-Fi-verkon nimi)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2057,6 +2171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El prefijo del SSID no es válido."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID-etuliite ei kelpaa."
           }
         },
         "fr" : {
@@ -2165,6 +2285,12 @@
             "value" : "Más cómoda con VoiceOver"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helpompi käyttää VoiceOverilla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2269,6 +2395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Consulta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Kysymys"
           }
         },
         "fr" : {
@@ -2377,6 +2509,12 @@
             "value" : "iOS no comparte con las apps la lista de redes Wi-Fi guardadas, así que la captura es la única forma."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS ei anna sovelluksille tallennettujen Wi-Fi-verkkojen luetteloa, joten kuvakaappaus on ainoa tapa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2481,6 +2619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Incluir en la importación"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sisällytä tuontiin"
           }
         },
         "fr" : {
@@ -2589,6 +2733,12 @@
             "value" : "%lld nombres importados"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nimeä tuotu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2693,6 +2843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omitir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohita"
           }
         },
         "fr" : {
@@ -2801,6 +2957,12 @@
             "value" : "Se guarda al instante"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallentuu heti muokatessa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2905,6 +3067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaa"
           }
         },
         "fr" : {
@@ -3013,6 +3181,12 @@
             "value" : "Primero las redes cercanas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähellä olevat verkot ensin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3117,6 +3291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restablecer texto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta tekstit"
           }
         },
         "fr" : {
@@ -3225,6 +3405,12 @@
             "value" : "Las pantallas se reorganizan para que nada se corte al aumentar el tamaño del texto."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun suurennat tekstiä, näkymät järjestyvät uudelleen, eikä mikään leikkaannu pois."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3329,6 +3515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sincronización entre dispositivos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronointi laitteiden välillä"
           }
         },
         "fr" : {
@@ -3437,6 +3629,12 @@
             "value" : "Tus redes y carteles guardados se mantienen al cambiar de dispositivo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennetut verkot ja kyltit säilyvät, kun vaihdat laitetta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3541,6 +3739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borrar todos mis datos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki tietoni"
           }
         },
         "fr" : {
@@ -3649,6 +3853,12 @@
             "value" : "Mi cartel"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oma kylttini"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3753,6 +3963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mis carteles (%lld)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omat kyltit (%lld)"
           }
         },
         "fr" : {
@@ -3861,6 +4077,12 @@
             "value" : "Mi punto de acceso"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oma hotspotini"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3965,6 +4187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Red"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verkko"
           }
         },
         "fr" : {
@@ -4073,6 +4301,12 @@
             "value" : "Etiqueta de la red"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verkon nimike"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4177,6 +4411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El nombre de la red (SSID) no es válido."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verkon nimi (SSID) ei kelpaa."
           }
         },
         "fr" : {
@@ -4285,6 +4525,12 @@
             "value" : "Revisa los datos de la red."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarkista verkon tiedot."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4389,6 +4635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegir otra captura"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse toinen kuvakaappaus"
           }
         },
         "fr" : {
@@ -4497,6 +4749,12 @@
             "value" : "Siguiente"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraava"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4601,6 +4859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modo oscuro"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tumma tila"
           }
         },
         "fr" : {
@@ -4709,6 +4973,12 @@
             "value" : "Cerrar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulje"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4813,6 +5083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todo se lee bien, incluso con más contraste o si cuesta distinguir los colores."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki pysyy luettavana, vaikka kontrastia olisi lisätty tai värien erottaminen olisi vaikeaa."
           }
         },
         "fr" : {
@@ -4921,6 +5197,12 @@
             "value" : "Usa la app en más idiomas."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä sovellusta useammalla kielellä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5025,6 +5307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Más idiomas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kieliä"
           }
         },
         "fr" : {
@@ -5133,6 +5421,12 @@
             "value" : "Ayuda"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohje"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5237,6 +5531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca dos veces para volver al QR."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palaa QR-koodiin kaksoisnapauttamalla."
           }
         },
         "fr" : {
@@ -5345,6 +5645,12 @@
             "value" : "Diseño"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulkoasu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5446,6 +5752,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -5557,6 +5869,12 @@
             "value" : "Deja activados solo los correctos, toca para corregir las letras que estén mal y pulsa «Añadir» arriba a la derecha."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätä päälle vain oikeat nimet, korjaa väärät kirjaimet napauttamalla ja napauta oikealta ylhäältä ”Lisää”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5661,6 +5979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logotipo del local"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paikan logo"
           }
         },
         "fr" : {
@@ -5769,6 +6093,12 @@
             "value" : "Nombre del local"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paikan nimi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5873,6 +6203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crea un cartel de Wi-Fi para tu local o tu casa\ny luego imprímelo o compártelo como imagen."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee Wi-Fi-kyltti liikkeeseesi tai kotiisi\nja tulosta se tai jaa se kuvana."
           }
         },
         "fr" : {
@@ -5981,6 +6317,12 @@
             "value" : "Línea final (se oculta si está vacía)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alin rivi (piilotetaan, jos tyhjä)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6085,6 +6427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La tarjeta de la pantalla principal muestra el último cartel que editaste. Desliza a la izquierda para duplicar o eliminar."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päänäkymän kortti näyttää viimeksi muokatun kyltin. Pyyhkäise vasemmalle monistaaksesi tai poistaaksesi."
           }
         },
         "fr" : {
@@ -6193,6 +6541,12 @@
             "value" : "Escribir por correo (%@)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetä sähköpostia (%@)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6294,6 +6648,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mono"
@@ -6405,6 +6765,12 @@
             "value" : "Acciones rápidas en la lista"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nopeat toiminnot luettelossa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6509,6 +6875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegir una red de la lista"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse verkko luettelosta"
           }
         },
         "fr" : {
@@ -6617,6 +6989,12 @@
             "value" : "Wi-Fi gratis"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmainen Wi-Fi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6721,6 +7099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contacto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhteydenotto"
           }
         },
         "fr" : {
@@ -6829,6 +7213,12 @@
             "value" : "Medianoche"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keskiyö"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6933,6 +7323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vista previa"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esikatselu"
           }
         },
         "fr" : {
@@ -7041,6 +7437,12 @@
             "value" : "Menta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minttu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7145,6 +7547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copia de seguridad y exportación"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varmuuskopio ja vienti"
           }
         },
         "fr" : {
@@ -7253,6 +7661,12 @@
             "value" : "Insignia (se oculta si está vacía)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merkki (piilotetaan, jos tyhjä)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7357,6 +7771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cambiar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda"
           }
         },
         "fr" : {
@@ -7465,6 +7885,12 @@
             "value" : "Colores y contraste más cómodos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mukavammat värit ja kontrasti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7569,6 +7995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El desarrollador lee personalmente cada mensaje que le envías."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kehittäjä lukee jokaisen lähettämäsi viestin itse."
           }
         },
         "fr" : {
@@ -7677,6 +8109,12 @@
             "value" : "Antes de mostrarlo, activa «Permitir que otros se unan» en Ajustes > Punto de acceso personal. Si está desactivado, quien escanee el QR no encontrará la red."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ennen kuin näytät sen, ota käyttöön ”Salli muiden liittyminen” kohdassa Asetukset > Henkilökohtainen yhteyspiste. Jos se on pois päältä, verkkoa ei löydy QR-koodillakaan."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7781,6 +8219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con solo mostrarlo, te conectas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä vain, niin yhdistät"
           }
         },
         "fr" : {
@@ -7889,6 +8333,12 @@
             "value" : "Duplicar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monista"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7993,6 +8443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contraseña"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salasana"
           }
         },
         "fr" : {
@@ -8101,6 +8557,12 @@
             "value" : "Etiqueta de la contraseña"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salasanan nimike"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8205,6 +8667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mostrar contraseña"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä salasana"
           }
         },
         "fr" : {
@@ -8313,6 +8781,12 @@
             "value" : "Copiar contraseña"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi salasana"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8417,6 +8891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contraseña copiada"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salasana kopioitu"
           }
         },
         "fr" : {
@@ -8525,6 +9005,12 @@
             "value" : "Ocultar contraseña"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piilota salasana"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8629,6 +9115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borrar contraseña"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyhjennä salasana"
           }
         },
         "fr" : {
@@ -8737,6 +9229,12 @@
             "value" : "Mostrar contraseña"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä salasana"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8841,6 +9339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El formato de la contraseña no es válido. (WEP: 5 o 13 caracteres)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salasanan muoto ei kelpaa. (WEP: 5 tai 13 merkkiä)"
           }
         },
         "fr" : {
@@ -8949,6 +9453,12 @@
             "value" : "El formato de la contraseña no es válido. (WPA: de 8 a 63 caracteres)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salasanan muoto ei kelpaa. (WPA: 8–63 merkkiä)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9053,6 +9563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La contraseña tiene %lld caracteres. Las contraseñas de Wi-Fi deben tener al menos 8 caracteres (las claves WEP antiguas, 5 o 13). Comprueba que no falte ningún carácter."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salasanassa on %lld merkkiä. Wi-Fi-salasanan on oltava vähintään 8 merkkiä (vanhat WEP-avaimet: 5 tai 13). Tarkista, ettei merkkejä puutu."
           }
         },
         "fr" : {
@@ -9161,6 +9677,12 @@
             "value" : "Usar como contraseña"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä salasanana"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9265,6 +9787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leído del QR de la foto."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luettu kuvan QR-koodista."
           }
         },
         "fr" : {
@@ -9373,6 +9901,12 @@
             "value" : "Conéctate con una sola foto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistä yhdellä kuvalla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9477,6 +10011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No se encontró el usuario ni la contraseña en la foto. Escríbelos a mano o haz otra más cerca y más nítida."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvasta ei löytynyt tunnusta eikä salasanaa. Kirjoita ne itse tai kuvaa uudelleen lähempää ja tarkemmin."
           }
         },
         "fr" : {
@@ -9585,6 +10125,12 @@
             "value" : "Nombres leídos de la foto: elige el correcto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvasta luetut nimet – valitse oikea"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9689,6 +10235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leído de la foto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luettu kuvasta"
           }
         },
         "fr" : {
@@ -9797,6 +10349,12 @@
             "value" : "Rellenar con una foto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Täytä kuvan perusteella"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9901,6 +10459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eliminar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista"
           }
         },
         "fr" : {
@@ -10009,6 +10573,12 @@
             "value" : "Cartel nuevo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi kyltti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10113,6 +10683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Atardecer"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auringonlasku"
           }
         },
         "fr" : {
@@ -10221,6 +10797,12 @@
             "value" : "Elegir"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10325,6 +10907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opcional: aparece arriba"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valinnainen – näkyy ylhäällä"
           }
         },
         "fr" : {
@@ -10433,6 +11021,12 @@
             "value" : "No seleccionado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei valittu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10537,6 +11131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seleccionado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valittu"
           }
         },
         "fr" : {
@@ -10645,6 +11245,12 @@
             "value" : "Ajustes"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10749,6 +11355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importar lista desde una captura de Ajustes…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuo luettelo Asetukset-kuvakaappauksesta …"
           }
         },
         "fr" : {
@@ -10857,6 +11469,12 @@
             "value" : "Respuesta háptica"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptinen palaute"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10961,6 +11579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crea carteles para invitados"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee vieraskylttejä"
           }
         },
         "fr" : {
@@ -11069,6 +11693,12 @@
             "value" : "Imprimir o compartir cartel para invitados"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tulosta tai jaa vieraskyltti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11173,6 +11803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi escaneada"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skannattu Wi-Fi"
           }
         },
         "fr" : {
@@ -11281,6 +11917,12 @@
             "value" : "Esta red se gestiona desde los ajustes del sistema y no se puede cambiar."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tätä verkkoa hallitaan järjestelmäasetuksista, eikä sitä voi muuttaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11385,6 +12027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empezar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita"
           }
         },
         "fr" : {
@@ -11493,6 +12141,12 @@
             "value" : "Toca un fragmento de abajo o escribe a mano"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta alla olevaa tekstinpätkää tai kirjoita itse"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11597,6 +12251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca un fragmento de abajo y se colocará en el campo vacío. Mantén pulsado para elegir si va en el usuario o en la contraseña, o arrástralo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta alla olevaa tekstinpätkää, niin se siirtyy tyhjään kenttään. Pidä painettuna valitaksesi tunnuksen tai salasanan, tai vedä se paikalleen."
           }
         },
         "fr" : {
@@ -11705,6 +12365,12 @@
             "value" : "Usuario"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11809,6 +12475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borrar usuario"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyhjennä tunnus"
           }
         },
         "fr" : {
@@ -11917,6 +12589,12 @@
             "value" : "Usar como usuario"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä tunnuksena"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12021,6 +12699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Haz una captura de la pantalla «Ajustes > Wi-Fi» del iPhone y elígela aquí: la app leerá los nombres de la lista."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota iPhonen ”Asetukset > Wi-Fi” -näytöstä kuvakaappaus ja valitse se tästä. Sovellus lukee luettelon nimet."
           }
         },
         "fr" : {
@@ -12129,6 +12813,12 @@
             "value" : "Mensaje"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viesti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12233,6 +12923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotografiar cartel"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvaa kyltti"
           }
         },
         "fr" : {
@@ -12341,6 +13037,12 @@
             "value" : "Cartel %lld"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kyltti %lld"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12445,6 +13147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear cartel"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee kyltti"
           }
         },
         "fr" : {
@@ -12553,6 +13261,12 @@
             "value" : "Nombre del cartel (solo se ve en la lista)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kyltin nimi (näkyy vain luettelossa)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12657,6 +13371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartir o imprimir imagen del cartel"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaa tai tulosta kyltin kuva"
           }
         },
         "fr" : {
@@ -12765,6 +13485,12 @@
             "value" : "Texto impreso en el cartel"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kylttiin tulostuva teksti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12869,6 +13595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si la app se cierra mientras diseñas un cartel, no pierdes lo que llevabas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos sovellus sulkeutuu kylttiä tehdessäsi, työsi säilyy ennallaan."
           }
         },
         "fr" : {
@@ -12977,6 +13709,12 @@
             "value" : "Se produjo un error desconocido. Comprueba que estés dentro del alcance de la red."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tapahtui tuntematon virhe. Tarkista, että olet verkon kantaman sisällä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13081,6 +13819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avisos de Wi-Fi cercanas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilmoitukset lähellä olevista Wi-Fi-verkoista"
           }
         },
         "fr" : {
@@ -13189,6 +13933,12 @@
             "value" : "Galería"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvat"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13293,6 +14043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inténtalo con la app abierta en pantalla."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yritä uudelleen, kun sovellus on auki näytöllä."
           }
         },
         "fr" : {
@@ -13401,6 +14157,12 @@
             "value" : "El texto y los botones se ven nítidos también en modo oscuro."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti ja painikkeet pysyvät terävinä myös tummassa tilassa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13505,6 +14267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La primera vez que abras la app tras una actualización, verás las novedades."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun avaat sovelluksen päivityksen jälkeen ensimmäistä kertaa, näet mitä uutta on."
           }
         },
         "fr" : {
@@ -13613,6 +14381,12 @@
             "value" : "Novedades"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uutta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13717,6 +14491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ninguna (red abierta)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei mitään (avoin verkko)"
           }
         },
         "fr" : {
@@ -13825,6 +14605,12 @@
             "value" : "Wi-Fi guardadas aquí"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Täällä tallennetut Wi-Fi-verkot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13929,6 +14715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conectar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistä"
           }
         },
         "fr" : {
@@ -14037,6 +14829,12 @@
             "value" : "No se pudo conectar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistäminen epäonnistui"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14141,6 +14939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear QR sin conectar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tee QR-koodi yhdistämättä"
           }
         },
         "fr" : {
@@ -14249,6 +15053,12 @@
             "value" : "Conectando…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistetään …"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14353,6 +15163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Debes tocar «Conectar» en la ventana de confirmación. Inténtalo de nuevo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vahvistusikkunassa pitää napauttaa ”Yhdistä”. Yritä uudelleen."
           }
         },
         "fr" : {
@@ -14461,6 +15277,12 @@
             "value" : "QR de conexión"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-koodi yhdistämiseen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14565,6 +15387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compatibilidad con inglés"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Englannin tuki"
           }
         },
         "fr" : {
@@ -14673,6 +15501,12 @@
             "value" : "Escribe el texto que quieras, línea por línea: horario, cuenta de Instagram, normas del local…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää haluamasi teksti rivi kerrallaan, esimerkiksi aukioloajat, Instagram-tili tai talon säännöt."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14777,6 +15611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ej.: Para la caja"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esim. Kassalle"
           }
         },
         "fr" : {
@@ -14885,6 +15725,12 @@
             "value" : "Ej.: Lounge Café"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esim. Lounge Café"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14989,6 +15835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ej.: Abierto de 9:00 a 22:00"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esim. Avoinna 9–22"
           }
         },
         "fr" : {
@@ -15097,6 +15949,12 @@
             "value" : "Océano"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valtameri"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15201,6 +16059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR de Wi-Fi"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-QR"
           }
         },
         "fr" : {
@@ -15309,6 +16173,12 @@
             "value" : "Mostrar QR de Wi-Fi"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä Wi-Fi-QR"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15413,6 +16283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importar lista de Wi-Fi"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuo Wi-Fi-luettelo"
           }
         },
         "fr" : {
@@ -15521,6 +16397,12 @@
             "value" : "Detalles de la Wi-Fi"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fin tiedot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15625,6 +16507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegir Wi-Fi"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse Wi-Fi"
           }
         },
         "fr" : {
@@ -15733,6 +16621,12 @@
             "value" : "Fotografiar cartel de Wi-Fi"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvaa Wi-Fi-kyltti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15837,6 +16731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nombre de la Wi-Fi"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-verkon nimi"
           }
         },
         "fr" : {
@@ -15945,6 +16845,12 @@
             "value" : "El nombre de la red Wi-Fi es demasiado largo. (máximo 32 bytes)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-verkon nimi on liian pitkä. (enintään 32 tavua)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16049,6 +16955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El nombre de la red Wi-Fi está vacío."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-verkon nimi on tyhjä."
           }
         },
         "fr" : {
@@ -16157,6 +17069,12 @@
             "value" : "Añadir Wi-Fi"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää Wi-Fi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16261,6 +17179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una vibración suave cuando te conectas a una red o se reconoce el texto."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kevyt värinä, kun yhdistät verkkoon tai teksti tunnistetaan."
           }
         },
         "fr" : {
@@ -16369,6 +17293,12 @@
             "value" : "Al conectarte a una red o compartirla desde «Aquí», su ubicación queda registrada en el mapa."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun yhdistät verkkoon tai jaat sen kohdasta ”Täällä”, paikka tallentuu kartalle."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16473,6 +17403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Listo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
           }
         },
         "fr" : {
@@ -16581,6 +17517,12 @@
             "value" : "La app y los carteles también en inglés, para que los visitantes extranjeros los entiendan."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sovellus ja kyltit myös englanniksi, jotta ulkomaiset vieraat voivat lukea ne."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16685,6 +17627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reducir movimiento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vähennä liikettä"
           }
         },
         "fr" : {
@@ -16793,6 +17741,12 @@
             "value" : "Con «Reducir movimiento» activado, los efectos de pantalla son más sutiles."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun ”Vähennä liikettä” on päällä, näytön tehosteet rauhoittuvat."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16897,6 +17851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borra desde la app todas las redes y carteles guardados."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki tallennetut verkot ja kyltit suoraan sovelluksesta."
           }
         },
         "fr" : {
@@ -17005,6 +17965,12 @@
             "value" : "Opiniones y reseñas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palaute ja arvostelut"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17109,6 +18075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esta red no admite conexiones de una sola vez."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämä verkko ei tue kertayhdistämistä."
           }
         },
         "fr" : {
@@ -17217,6 +18189,12 @@
             "value" : "Eliminar esta línea"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista tämä rivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17321,6 +18299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muestra esta tarjeta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä tämä kortti"
           }
         },
         "fr" : {
@@ -17429,6 +18413,12 @@
             "value" : "Conectar este iPhone"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistä tämä iPhone"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17533,6 +18523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Configurada en este iPhone"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Määritetty tässä iPhonessa"
           }
         },
         "fr" : {
@@ -17641,6 +18637,12 @@
             "value" : "Conecta este iPhone o crea solo el QR, sin conectarte"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistä tämä iPhone tai tee pelkkä QR-koodi yhdistämättä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17745,6 +18747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Redes Wi-Fi que conoce este iPhone"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-verkot, jotka tämä iPhone tuntee"
           }
         },
         "fr" : {
@@ -17853,6 +18861,12 @@
             "value" : "Nombres que conoce este iPhone"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nimet, jotka tämä iPhone tuntee"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17957,6 +18971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Puede que se escriba así:"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se voi olla kirjoitettu näin:"
           }
         },
         "fr" : {
@@ -18065,6 +19085,12 @@
             "value" : "Leyendo nombres…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luetaan nimiä …"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18169,6 +19195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comprueba que el nombre y la contraseña sean exactos, con mayúsculas y minúsculas, y que estés dentro del alcance."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarkista, että nimi ja salasana ovat täsmälleen oikein isoja ja pieniä kirjaimia myöten ja että olet kantaman sisällä."
           }
         },
         "fr" : {
@@ -18277,6 +19309,12 @@
             "value" : "No se encontraron nombres. Haz otra captura donde se vea bien la lista o escríbelos abajo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nimiä ei löytynyt. Ota uusi kuvakaappaus, jossa luettelo näkyy selvästi, tai kirjoita ne alle."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18381,6 +19419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ya estás conectado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhteys on jo muodostettu."
           }
         },
         "fr" : {
@@ -18489,6 +19533,12 @@
             "value" : "Se está procesando una solicitud de conexión anterior. Inténtalo de nuevo en un momento."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edellistä yhdistyspyyntöä käsitellään vielä. Yritä hetken kuluttua uudelleen."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18593,6 +19643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mensaje directo en Instagram (@lee25_ios)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-viesti (@lee25_ios)"
           }
         },
         "fr" : {
@@ -18701,6 +19757,12 @@
             "value" : "Reconociendo…"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnistetaan …"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18805,6 +19867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld nombres leídos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nimeä luettu"
           }
         },
         "fr" : {
@@ -18913,6 +19981,12 @@
             "value" : "Redes guardadas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennetut verkot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19017,6 +20091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay redes guardadas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei tallennettuja verkkoja"
           }
         },
         "fr" : {
@@ -19125,6 +20205,12 @@
             "value" : "Mapa de redes Wi-Fi guardadas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennettujen Wi-Fi-verkkojen kartta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19229,6 +20315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Te avisamos con una notificación cuando llegues a un sitio con una red guardada."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat ilmoituksen, kun saavut paikkaan, jossa on tallennettu verkko."
           }
         },
         "fr" : {
@@ -19337,6 +20429,12 @@
             "value" : "Las redes guardadas se recuerdan junto con su ubicación. Cuando vuelvas a ese lugar, subirán al principio de la lista con la insignia «📍 Cerca»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennetut verkot muistetaan paikkoineen. Kun palaat sinne, ne nousevat luettelon kärkeen ja saavat merkin ”📍 Lähellä”."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19441,6 +20539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guarda tus redes y carteles en un archivo y recupéralos cuando quieras."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna verkot ja kyltit tiedostoon ja tuo ne takaisin myöhemmin."
           }
         },
         "fr" : {
@@ -19549,6 +20653,12 @@
             "value" : "Aplicado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytössä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19653,6 +20763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quitar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista"
           }
         },
         "fr" : {
@@ -19761,6 +20877,12 @@
             "value" : "Título"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otsikko"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19865,6 +20987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca los fragmentos para rellenar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Täytä napauttamalla tekstinpätkiä"
           }
         },
         "fr" : {
@@ -19973,6 +21101,12 @@
             "value" : "Añadir línea"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää rivi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20077,6 +21211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muestra el QR de la Wi-Fi a la que estás conectado.\nCuando un amigo apunte con la cámara, se conectará sin saber la contraseña."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä sen Wi-Fi-verkon QR-koodi, johon olet yhdistänyt.\nKun ystävä osoittaa kameralla, hän yhdistää tietämättä salasanaa."
           }
         },
         "fr" : {
@@ -20185,6 +21325,12 @@
             "value" : "Abre el QR de la red Wi-Fi a la que estás conectado. Si no está guardada, abre la última que guardaste."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa sen Wi-Fi-verkon QR-koodin, johon olet yhdistänyt. Jos verkkoa ei ole tallennettu, avaa viimeksi tallennetun."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20289,6 +21435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conectada ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistetty nyt"
           }
         },
         "fr" : {
@@ -20397,6 +21549,12 @@
             "value" : "Mapa"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20501,6 +21659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay ubicaciones para mostrar en el mapa"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartalla ei ole näytettäviä paikkoja"
           }
         },
         "fr" : {
@@ -20609,6 +21773,12 @@
             "value" : "Líneas propias"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omat rivit"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20713,6 +21883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld líneas propias"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld omaa riviä"
           }
         },
         "fr" : {
@@ -20821,6 +21997,12 @@
             "value" : "Escribir a mano"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita itse"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20925,6 +22107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escribir a mano…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita itse …"
           }
         },
         "fr" : {
@@ -21033,6 +22221,12 @@
             "value" : "Wi-Fi escrita a mano"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Itse kirjoitettu Wi-Fi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21137,6 +22331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir a mano"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää itse"
           }
         },
         "fr" : {
@@ -21245,6 +22445,12 @@
             "value" : "Ver de nuevo la introducción"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katso esittely uudelleen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21349,6 +22555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cámara"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera"
           }
         },
         "fr" : {
@@ -21457,6 +22669,12 @@
             "value" : "Foto, galería o escribir a mano"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera, kuvat tai kirjoita itse"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21561,6 +22779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää"
           }
         },
         "fr" : {
@@ -21669,6 +22893,12 @@
             "value" : "Cuando un amigo apunte con la cámara al QR, se conectará sin contraseña. Desliza o toca la tarjeta para ver la vista previa del cartel para invitados."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun ystävä osoittaa kameralla QR-koodia, hän yhdistää ilman salasanaa. Pyyhkäise korttia tai napauta sitä, niin se kääntyy vieraskyltin esikatseluksi."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21773,6 +23003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tarjeta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortti"
           }
         },
         "fr" : {
@@ -21881,6 +23117,12 @@
             "value" : "Apunta con la cámara al QR para conectarte"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skannaa QR-koodi kameralla ja yhdistä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21985,6 +23227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apunta con la cámara para conectarte al instante"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osoita kameralla ja yhdistä heti"
           }
         },
         "fr" : {
@@ -22093,6 +23341,12 @@
             "value" : "Apunta con la cámara para conectarte sin contraseña. Toca dos veces para girar a la vista previa del cartel."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osoita kameralla ja yhdistä ilman salasanaa. Käännä kaksoisnapauttamalla kyltin esikatseluun."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22197,6 +23451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abre la cámara; al fotografiar un cartel de Wi-Fi, lee el nombre de la red y la contraseña."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa kameran. Kuvaa Wi-Fi-kyltti, niin verkon nimi ja salasana luetaan."
           }
         },
         "fr" : {
@@ -22305,6 +23565,12 @@
             "value" : "Cafetería"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kahvila"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22409,6 +23675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotografía un cartel de Wi-Fi en una cafetería o alojamiento, o elige una foto de la galería.\nLa app lee el nombre y la contraseña y conecta este iPhone."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvaa Wi-Fi-kyltti kahvilassa tai majoituksessa tai valitse kuva kirjastosta.\nSovellus lukee nimen ja salasanan ja yhdistää tämän iPhonen."
           }
         },
         "fr" : {
@@ -22517,6 +23789,12 @@
             "value" : "Fotografía un cartel de Wi-Fi en una cafetería o alojamiento, o elige una foto de la galería, y la app leerá el usuario y la contraseña y se conectará."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvaa Wi-Fi-kyltti kahvilassa tai majoituksessa tai valitse kuva kirjastosta. Sovellus lukee tunnuksen ja salasanan ja yhdistää."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22621,6 +23899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegir captura"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse kuvakaappaus"
           }
         },
         "fr" : {
@@ -22729,6 +24013,12 @@
             "value" : "Importada de una captura"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuotu kuvakaappauksesta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22833,6 +24123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pantallas para texto grande"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näkymät suurelle tekstille"
           }
         },
         "fr" : {
@@ -22941,6 +24237,12 @@
             "value" : "Toca para colocarlo en un campo vacío. Mantén pulsado para elegir el campo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta siirtääksesi tyhjään kenttään. Pidä painettuna valitaksesi kentän."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23045,6 +24347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disfruta de tu visita"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ole hyvä ja käytä"
           }
         },
         "fr" : {
@@ -23153,6 +24461,12 @@
             "value" : "Pantalla de iPhone plegable"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taitettavan iPhonen näkymä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23257,6 +24571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En un iPhone plegable, la pantalla ancha se divide en dos paneles."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taitettavassa iPhonessa leveä näyttö jaetaan kahteen osaan."
           }
         },
         "fr" : {
@@ -23365,6 +24685,12 @@
             "value" : "Bosque"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metsä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23469,6 +24795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retomar donde lo dejaste"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka siitä, mihin jäit"
           }
         },
         "fr" : {
@@ -23577,6 +24909,12 @@
             "value" : "Este iPhone no puede conectarse a un punto de acceso. Crea un QR y muéstraselo a la otra persona."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tällä iPhonella ei voi yhdistää hotspotiin. Tee QR-koodi ja näytä se toiselle."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23681,6 +25019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca una fila para abrir su QR y los detalles. Desliza a la derecha para conectar este iPhone o a la izquierda para compartir el QR."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta riviä avataksesi QR-koodin ja tiedot. Pyyhkäise oikealle yhdistääksesi tämän iPhonen tai vasemmalle jakaaksesi QR-koodin."
           }
         },
         "fr" : {
@@ -23789,6 +25133,12 @@
             "value" : "Formato"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muoto"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23895,6 +25245,12 @@
             "value" : "VoiceOver lee cada dato de la red y cada botón, en el orden correcto."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lukee kaikki verkon tiedot ja painikkeet oikeassa järjestyksessä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23996,6 +25352,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -24107,6 +25469,12 @@
             "value" : "📍 Cerca"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Lähellä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24211,6 +25579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Aquí"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Täällä"
           }
         },
         "fr" : {
@@ -24319,6 +25693,12 @@
             "value" : "📍 Conectada ahora"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Yhdistetty nyt"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24423,6 +25803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Punto de acceso"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Hotspot"
           }
         },
         "fr" : {

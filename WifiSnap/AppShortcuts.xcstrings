@@ -45,6 +45,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muestra el QR de Wi-Fi en ${applicationName}"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näytä Wi-Fi-QR sovelluksessa ${applicationName}"
           }
         },
         "fr" : {
@@ -257,6 +269,12 @@
             "value" : "${applicationName} fotografiar Wi-Fi"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} kuvaa Wi-Fi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -363,6 +381,12 @@
             "value" : "Fotografía un cartel de Wi-Fi con ${applicationName}"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvaa Wi-Fi-kyltti sovelluksella ${applicationName}"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -467,6 +491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abre el QR de Wi-Fi en ${applicationName}"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa Wi-Fi-QR sovelluksessa ${applicationName}"
           }
         },
         "fr" : {

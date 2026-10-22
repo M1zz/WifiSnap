@@ -45,6 +45,12 @@
             "value" : "MyFi"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
             "value" : "Se usa para fotografiar carteles de Wi-Fi y reconocer el nombre de la red y la contraseña."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytetään Wi-Fi-kylttien kuvaamiseen, jotta verkon nimi ja salasana voidaan tunnistaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -255,6 +267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se necesita para comprobar el nombre de la red Wi-Fi a la que estás conectado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarvitaan sen Wi-Fi-verkon nimen tarkistamiseen, johon olet yhdistänyt."
           }
         },
         "fr" : {

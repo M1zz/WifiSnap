@@ -110,7 +110,13 @@ STORE["el"] = "el"
 SCREEN["el"] = "el"
 SEARCH["el"] = ("QR Wi-Fi", "Φτιάξτε πινακίδες<br>Wi-Fi για επισκέπτες", "Σύνδεση με QR,<br>εκτύπωση με ένα βήμα")
 HEADER["el"] = ("Κοινοποιήστε το Wi-Fi", "Μην υπαγορεύετε τον κωδικό:<br>δείξτε έναν κωδικό QR")
+STORE["fi"] = "fi"
+SCREEN["fi"] = "fi"
+SEARCH["fi"] = ("Wi-Fi-QR", "Tee Wi-Fi-kyltit<br>vieraille", "Yhdistä QR-koodilla,<br>tulosta yhdellä kertaa")
+HEADER["fi"] = ("Jaa Wi-Fi", "Älä sanele salasanaa:<br>näytä QR-koodi")
 # i18n-end
+
+
 
 
 

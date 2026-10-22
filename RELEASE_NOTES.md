@@ -123,3 +123,10 @@ Del din hotspot med én QR-kode.
 Διορθώθηκαν σπάνιες αποτυχίες σύνδεσης.
 Δημιουργήστε QR χωρίς σύνδεση.
 Κοινοποιήστε το hotspot σας με έναν QR.
+
+### 앱스토어 (핀란드어)
+
+Kuvien Wi-Fi-tiedot luetaan tarkemmin.
+Korjattu satunnaisia yhdistämisvikoja.
+Tee QR-koodi yhdistämättä.
+Jaa hotspotisi yhdellä QR-koodilla.

@@ -45,6 +45,12 @@
             "value" : "QR de Wi-Fi"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-QR"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",

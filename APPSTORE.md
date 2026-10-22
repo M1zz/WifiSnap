@@ -935,10 +935,66 @@ MyFi: QR Wi-Fi
 
 Γραφικό στοιχείο και χάρτης
 Βάλτε τον κωδικό QR του αγαπημένου σας Wi-Fi στην Αρχική οθόνη ή στην οθόνη κλειδώματος. Πατήστε τον για να ανοίξει μεγάλος κωδικός QR.
-Τα μέρη όπου συνδεθήκατε θυμούνται στον χάρτη και, όταν επιστρέψετε, το δίκτυο του χώρου εμφανίζεται πρώτο.
+Τα μέρη όπου συνδεθήκατε καταγράφονται στον χάρτη και, όταν επιστρέψετε, το δίκτυο του χώρου εμφανίζεται πρώτο.
 
 Απόρρητο
 Οι αποθηκευμένες πληροφορίες Wi-Fi μένουν σε αυτήν τη συσκευή και δεν στέλνονται σε κανέναν διακομιστή.
+
+### 지원 URL
+
+https://m1zz.github.io/WifiSnap/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/WifiSnap/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/WifiSnap/
+
+## fi
+
+### 이름
+
+MyFi: Wi-Fi QR
+
+### 부제
+
+Kuvaa, yhdistä ja tulosta
+
+### 키워드
+
+salasana,jako,vieraat,hotspot,kahvila,hostelli,hotelli,kauppa,reititin,widget,kamera,skanneri
+
+### 프로모션 텍스트
+
+Kuvaa Wi-Fi-kyltti ja yhdistä heti tai jaa oma verkkosi yhdellä QR-koodilla. Tee vieraskyltti kahvilaasi tai majoitukseesi ja tulosta se.
+
+### 설명
+
+Ei enää salasanojen saneluja eikä käsin kirjoittamista. Kuvaa kyltti ja yhdistä, tai jaa oma Wi-Fisi yhdellä QR-koodilla.
+Tee kahvilasi, majoituksesi tai kauppasi vieraille Wi-Fi-kyltti muutamalla napautuksella ja tulosta se saman tien.
+
+Kuvaa ja yhdistä
+Kuvaa seinällä oleva Wi-Fi-kyltti tai kuitti tai valitse kuva kirjastosta. Sovellus lukee tunnuksen ja salasanan ja yhdistää tämän iPhonen heti.
+Jos luettu teksti on epävarma, vedä kuvasta leikattu tekstinpätkä tunnuksen tai salasanan kenttään.
+Voit myös kirjoittaa tiedot itse tai tehdä pelkän QR-koodin yhdistämättä.
+
+Jaa yhdellä QR-koodilla
+Sovellus tunnistaa Wi-Fi-verkon, johon olet yhdistänyt, ja tekee QR-koodin, joka yhdistää ystävän heti, kun hän osoittaa sitä kameralla.
+Lähetä QR-kuva viestissä tai jaa oma hotspotisi QR-koodina.
+
+Tee vieraskylttejä
+Valitse 7 teeman väliltä ja lisää paikan nimi, logo ja omia rivejä, kuten aukioloajat.
+Valitse kortti tai pystysuuntainen A4-juliste, tallenna se kuvana tai tulosta suoraan AirPrintillä.
+Säilytä useita kylttejä, yksi kullekin paikalle tai pöydälle, ja muokkaa niitä milloin vain.
+
+Widget ja kartta
+Laita suosikkiverkkosi QR-koodi Koti-valikkoon tai lukittuun näyttöön. Napauttamalla avautuu iso QR-koodi.
+Paikat, joissa olet yhdistänyt, tallentuvat kartalle, ja kun palaat, paikan verkko näytetään ensin.
+
+Tietosuoja
+Tallennetut Wi-Fi-tiedot pysyvät tässä laitteessa, eikä niitä lähetetä millekään palvelimelle.
 
 ### 지원 URL
 

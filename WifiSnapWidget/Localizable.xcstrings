@@ -45,6 +45,12 @@
             "value" : "Conéctate una vez en la app y el QR aparecerá aquí"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistä kerran sovelluksessa, niin QR-koodi näkyy tässä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -146,6 +152,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -257,6 +269,12 @@
             "value" : "QR de Wi-Fi"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-QR"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -361,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elegir Wi-Fi"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse Wi-Fi"
           }
         },
         "fr" : {
@@ -469,6 +493,12 @@
             "value" : "Elige la Wi-Fi que quieres fijar en el widget. Si no eliges ninguna, mostrará la última a la que te conectaste."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse Wi-Fi, joka kiinnitetään widgetiin. Jos et valitse mitään, näytetään viimeksi yhdistetty."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -573,6 +603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay Wi-Fi guardadas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei tallennettua Wi-Fi-verkkoa"
           }
         },
         "fr" : {
@@ -681,6 +717,12 @@
             "value" : "Muestra el QR de la Wi-Fi a la que estás conectado. Mantén pulsado y elige «Editar widget» para fijar una red concreta."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näyttää sen Wi-Fi-verkon QR-koodin, johon olet yhdistänyt. Pidä painettuna ja valitse ”Muokkaa widgetiä”, jos haluat kiinnittää tietyn verkon."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -785,6 +827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conectada ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistetty nyt"
           }
         },
         "fr" : {
@@ -893,6 +941,12 @@
             "value" : "Apunta con la cámara para conectarte"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osoita kameralla ja yhdistä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -997,6 +1051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca para ver el QR en grande"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta isoa QR-koodia varten"
           }
         },
         "fr" : {
