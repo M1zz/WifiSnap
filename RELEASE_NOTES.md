@@ -88,3 +88,10 @@ Leitura mais precisa do Wi-Fi nas fotos.
 Corrigimos falhas de conexão ocasionais.
 Crie um QR sem precisar se conectar.
 Compartilhe seu hotspot com um QR.
+
+### 앱스토어 (태국어)
+
+อ่านข้อมูล Wi-Fi ในรูปได้แม่นยำขึ้น
+แก้ปัญหาเชื่อมต่อไม่สำเร็จเป็นบางครั้ง
+สร้าง QR ได้แม้ไม่เชื่อมต่อ
+แชร์ฮอตสปอตของคุณด้วย QR ใบเดียว

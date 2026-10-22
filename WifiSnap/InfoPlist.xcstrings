@@ -63,6 +63,12 @@
             "value" : "MyFi"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -139,6 +145,12 @@
             "value" : "Нужна, чтобы сфотографировать табличку Wi-Fi и распознать название сети и пароль."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ถ่ายป้าย Wi-Fi เพื่ออ่านชื่อเครือข่ายและรหัสผ่าน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -213,6 +225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нужна, чтобы определить название сети Wi-Fi, к которой вы сейчас подключены."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จำเป็นต่อการตรวจสอบชื่อ Wi-Fi ที่คุณเชื่อมต่ออยู่"
           }
         },
         "zh-Hans" : {

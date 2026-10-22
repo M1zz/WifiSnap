@@ -121,7 +121,18 @@ SHOTS["pt-BR"] = [
     ("04-poster-a4.png", "flat-rotate", "Pôster A4<br>pronto para imprimir", "7 temas, com AirPrint de uma vez"),
     ("05-saved.png", "dark", "Todas as suas redes<br>em um só lugar", "Ao chegar, a rede do local aparece primeiro"),
 ]
+STORE["th"] = "th"
+SHOTS["th"] = [
+    ("01-scan.png", "hero-bleed", "ถ่ายป้าย<br>เชื่อมต่อทันที", "อ่าน ID และรหัสผ่านจากรูปถ่าย"),
+    ("02-qr.png", "left-text", "ใช้ QR แทน<br>การบอกรหัสผ่าน", "เพื่อนแค่สแกนด้วยกล้อง"),
+    ("03-poster-card.png", "text-bottom", "ป้าย Wi-Fi สำหรับแขก", "ใส่ชื่อร้านและเวลาทำการได้"),
+    ("04-poster-a4.png", "flat-rotate", "โปสเตอร์ A4<br>พิมพ์ได้ทันที", "7 ธีม พิมพ์ด้วย AirPrint ในขั้นตอนเดียว"),
+    ("05-saved.png", "dark", "Wi-Fi ที่เคยใช้<br>รวมไว้ในที่เดียว", "เมื่อไปถึง Wi-Fi ของที่นั่นจะขึ้นก่อน"),
+]
 # i18n-end
+
+
+
 
 
 
