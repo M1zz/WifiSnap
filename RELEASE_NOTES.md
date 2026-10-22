@@ -67,3 +67,10 @@ Fotos werden genauer gelesen.
 Verbindungsfehler behoben.
 QR-Code auch ohne Verbindung erstellen.
 Eigenen Hotspot per QR-Code teilen.
+
+### 앱스토어 (프랑스어)
+
+Les photos sont lues plus précisément.
+Correction de pannes de connexion.
+Créez un QR code sans vous connecter.
+Partagez votre point d’accès en QR code.

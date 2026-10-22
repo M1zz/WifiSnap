@@ -27,6 +27,12 @@
             "value" : "MyFi"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -85,6 +91,12 @@
             "value" : "Se usa para fotografiar carteles de Wi-Fi y reconocer el nombre de la red y la contraseña."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sert à photographier les affichettes Wi-Fi pour reconnaître le nom du réseau et le mot de passe."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -141,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se necesita para comprobar el nombre de la red Wi-Fi a la que estás conectado."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nécessaire pour vérifier le nom du réseau Wi-Fi auquel vous êtes connecté."
           }
         },
         "ja" : {

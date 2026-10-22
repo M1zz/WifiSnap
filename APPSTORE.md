@@ -503,3 +503,59 @@ https://m1zz.github.io/WifiSnap/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/WifiSnap/
+
+## fr
+
+### 이름
+
+MyFi : QR Wi-Fi
+
+### 부제
+
+Une photo, et c’est connecté
+
+### 키워드
+
+partage,invités,hotspot,café,gîte,hôtel,boutique,box,widget,scanner,affiche,AirPrint
+
+### 프로모션 텍스트
+
+Photographiez une affichette Wi-Fi pour vous connecter aussitôt, ou partagez votre réseau en un QR code. Créez l’affichette de votre café ou gîte et imprimez-la.
+
+### 설명
+
+Fini de dicter ou de recopier les mots de passe. Photographiez l’affichette pour vous connecter, ou partagez votre Wi-Fi avec un seul QR code.
+Créez en quelques touches l’affichette Wi-Fi pour les invités de votre café, de votre hébergement ou de votre boutique, et imprimez-la aussitôt.
+
+Photographiez et connectez-vous
+Prenez en photo l’affichette Wi-Fi ou le ticket affiché au mur, ou choisissez une image dans votre photothèque : l’app lit l’identifiant et le mot de passe, puis connecte cet iPhone.
+Si le texte lu est incertain, faites glisser un fragment découpé dans la photo vers le champ de l’identifiant ou du mot de passe.
+Vous pouvez aussi saisir les informations à la main, ou créer seulement le QR code sans vous connecter.
+
+Un seul QR code pour partager
+L’app repère le réseau Wi-Fi auquel vous êtes connecté et crée un QR code qui connecte un ami dès qu’il le scanne avec son appareil photo.
+Envoyez l’image du QR code dans un message, ou partagez votre propre point d’accès sous forme de QR code.
+
+Créez une affichette pour vos invités
+Choisissez parmi 7 thèmes et ajoutez le nom de votre établissement, votre logo et vos propres lignes, comme les horaires.
+Optez pour une carte ou une affiche A4 verticale, enregistrez-la en image ou imprimez-la directement avec AirPrint.
+Gardez plusieurs affichettes, une par établissement ou par table, et modifiez-les à tout moment.
+
+Widget et plan
+Placez le QR code de votre Wi-Fi préféré sur l’écran d’accueil ou l’écran verrouillé. Touchez-le pour ouvrir un grand QR code.
+Les lieux où vous vous êtes connecté sont mémorisés sur un plan, et à votre retour le réseau du lieu s’affiche en premier.
+
+Confidentialité
+Les informations Wi-Fi enregistrées restent sur cet appareil et ne sont envoyées à aucun serveur.
+
+### 지원 URL
+
+https://m1zz.github.io/WifiSnap/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/WifiSnap/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/WifiSnap/

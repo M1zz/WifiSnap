@@ -78,7 +78,13 @@ STORE["de"] = "de"
 SCREEN["de"] = "de"
 SEARCH["de"] = ("WLAN-QR-Code", "WLAN-Aushänge<br>für Gäste erstellen", "Per QR-Code verbinden,<br>in einem Rutsch drucken")
 HEADER["de"] = ("WLAN teilen", "Passwort nicht ansagen –<br>einfach QR-Code zeigen")
+STORE["fr"] = "fr"
+SCREEN["fr"] = "fr"
+SEARCH["fr"] = ("QR Wi-Fi", "Créez des affichettes<br>Wi-Fi pour invités", "Connexion par QR code,<br>impression en un geste")
+HEADER["fr"] = ("Partagez votre Wi-Fi", "Ne dictez plus le mot de passe :<br>montrez un QR code")
 # i18n-end
+
+
 
 
 
