@@ -98,7 +98,13 @@ STORE["vi"] = "vi"
 SCREEN["vi"] = "vi"
 SEARCH["vi"] = ("Mã QR Wi-Fi", "Tạo bảng Wi-Fi<br>cho khách", "Kết nối bằng mã QR,<br>in ngay một lần")
 HEADER["vi"] = ("Chia sẻ Wi-Fi", "Đừng đọc mật khẩu nữa:<br>hãy đưa mã QR")
+STORE["cs"] = "cs"
+SCREEN["cs"] = "cs"
+SEARCH["cs"] = ("QR kód Wi-Fi", "Vytvořte Wi-Fi tabulky<br>pro hosty", "Připojení přes QR kód,<br>tisk jedním krokem")
+HEADER["cs"] = ("Sdílejte Wi-Fi", "Nediktujte heslo,<br>ukažte QR kód")
 # i18n-end
+
+
 
 
 

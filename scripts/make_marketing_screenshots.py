@@ -137,7 +137,17 @@ SHOTS["vi"] = [
     ("04-poster-a4.png", "flat-rotate", "Áp phích A4<br>in ngay", "7 giao diện, in bằng AirPrint một lần"),
     ("05-saved.png", "dark", "Mọi Wi-Fi từng dùng<br>ở một nơi", "Đến gần là Wi-Fi nơi đó lên đầu"),
 ]
+STORE["cs"] = "cs"
+SHOTS["cs"] = [
+    ("01-scan.png", "hero-bleed", "Vyfoťte tabulku<br>a hned se připojte", "Jméno a heslo přečte z fotky"),
+    ("02-qr.png", "left-text", "QR kód místo<br>diktování hesla", "Kamarádi jen namíří fotoaparát"),
+    ("03-poster-card.png", "text-bottom", "Wi-Fi tabulky pro hosty", "S názvem podniku a otevírací dobou"),
+    ("04-poster-a4.png", "flat-rotate", "Plakát A4<br>rovnou k tisku", "7 vzhledů, tisk přes AirPrint jedním krokem"),
+    ("05-saved.png", "dark", "Všechny vaše Wi-Fi<br>na jednom místě", "V okolí se ta správná zobrazí první"),
+]
 # i18n-end
+
+
 
 
 

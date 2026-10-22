@@ -102,3 +102,10 @@ Compartilhe seu hotspot com um QR.
 Sửa lỗi thỉnh thoảng không kết nối được.
 Tạo mã QR mà không cần kết nối.
 Chia sẻ điểm phát sóng bằng một mã QR.
+
+### 앱스토어 (체코어)
+
+Údaje na fotkách se čtou přesněji.
+Opravili jsme občasné chyby připojení.
+QR kód vytvoříte i bez připojení.
+Hotspot nasdílíte jedním QR kódem.

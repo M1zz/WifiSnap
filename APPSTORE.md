@@ -783,3 +783,59 @@ https://m1zz.github.io/WifiSnap/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/WifiSnap/
+
+## cs
+
+### 이름
+
+MyFi: QR Wi-Fi
+
+### 부제
+
+Vyfoťte, připojte, vytiskněte
+
+### 키워드
+
+heslo,sdílení,hosté,hotspot,kavárna,hostel,hotel,obchod,router,widget,fotoaparát,skener,AirPrint
+
+### 프로모션 텍스트
+
+Vyfoťte tabulku s Wi-Fi a hned se připojte, nebo sdílejte svou síť jedním QR kódem. Vytvořte tabulku pro hosty své kavárny či ubytování a rovnou ji vytiskněte.
+
+### 설명
+
+Žádné diktování hesel ani opisování. Vyfoťte tabulku a jste připojeni, nebo sdílejte svou Wi-Fi jedním QR kódem.
+Tabulku s Wi-Fi pro hosty kavárny, ubytování nebo obchodu vytvoříte pár klepnutími a hned ji vytisknete.
+
+Vyfoťte a připojte se
+Vyfoťte tabulku s Wi-Fi nebo účtenku na zdi, případně vyberte fotku z galerie. Aplikace přečte jméno a heslo a rovnou připojí tento iPhone.
+Pokud je přečtený text nejistý, přetáhněte úryvek vystřižený z fotky do pole pro jméno nebo heslo.
+Údaje můžete také zadat ručně, nebo vytvořit jen QR kód bez připojení.
+
+Sdílení jedním QR kódem
+Aplikace pozná síť Wi-Fi, ke které jste připojeni, a vytvoří QR kód, který kamaráda připojí, jakmile na něj namíří fotoaparát.
+Obrázek QR kódu pošlete ve zprávě, nebo sdílejte vlastní hotspot jako QR kód.
+
+Tabulky pro hosty
+Vyberte ze 7 vzhledů a doplňte název podniku, logo a vlastní řádky, třeba otevírací dobu.
+Můžete zvolit kartu nebo plakát A4 na výšku, uložit ho jako obrázek nebo rovnou vytisknout přes AirPrint.
+Uložte si víc tabulek, pro každý podnik nebo stůl jednu, a kdykoli je upravte.
+
+Widget a mapa
+Dejte QR kód oblíbené Wi-Fi na plochu nebo zamčenou obrazovku. Klepnutím se otevře velký QR kód.
+Místa, kde jste se připojili, si aplikace pamatuje na mapě a po návratu ukáže jako první tamní síť.
+
+Soukromí
+Uložené údaje o Wi-Fi zůstávají jen v tomto zařízení a neodesílají se na žádný server.
+
+### 지원 URL
+
+https://m1zz.github.io/WifiSnap/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/WifiSnap/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/WifiSnap/
