@@ -3,6 +3,12 @@
   "strings" : {
     "CFBundleDisplayName" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55,6 +61,12 @@
     },
     "NSCameraUsageDescription" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird verwendet, um WLAN-Aushänge zu fotografieren und Netzwerkname und Passwort zu erkennen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -107,6 +119,12 @@
     },
     "NSLocationWhenInUseUsageDescription" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird benötigt, um den Namen des aktuell verbundenen WLANs zu prüfen."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

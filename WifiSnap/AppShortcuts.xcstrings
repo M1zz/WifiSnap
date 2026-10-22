@@ -3,6 +3,12 @@
   "strings" : {
     "${applicationName} QR" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55,6 +61,12 @@
     },
     "${applicationName} 와이파이 QR 보여줘" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} WLAN-QR-Code anzeigen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -107,6 +119,12 @@
     },
     "${applicationName} 와이파이 촬영" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} WLAN fotografieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -159,6 +177,12 @@
     },
     "${applicationName}로 와이파이 안내문 찍어줘" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WLAN-Aushang mit ${applicationName} fotografieren"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +235,12 @@
     },
     "${applicationName}에서 와이파이 QR 열어줘" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WLAN-QR-Code in ${applicationName} öffnen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

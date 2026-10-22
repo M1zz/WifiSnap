@@ -60,3 +60,10 @@ Leemos mejor la Wi-Fi de las fotos.
 Corregidos fallos de conexión.
 Crea un QR sin necesidad de conectarte.
 Comparte tu punto de acceso con un QR.
+
+### 앱스토어 (독일어)
+
+Fotos werden genauer gelesen.
+Verbindungsfehler behoben.
+QR-Code auch ohne Verbindung erstellen.
+Eigenen Hotspot per QR-Code teilen.

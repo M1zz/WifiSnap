@@ -447,3 +447,59 @@ https://m1zz.github.io/WifiSnap/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/WifiSnap/
+
+## de
+
+### 이름
+
+MyFi: WLAN-QR-Code
+
+### 부제
+
+Abfotografieren und verbinden
+
+### 키워드
+
+Passwort,teilen,Gäste,Hotspot,Café,Hostel,Hotel,Laden,Router,Widget,Kamera,Scanner,Poster,AirPrint
+
+### 프로모션 텍스트
+
+Fotografiere einen WLAN-Aushang und sei sofort verbunden – oder teile dein Netz per QR-Code. Gäste-Aushang für Café oder Ferienwohnung gestalten und gleich drucken.
+
+### 설명
+
+Passwörter ansagen oder abtippen war gestern. Aushang fotografieren und verbinden – oder dein WLAN mit einem QR-Code teilen.
+Einen WLAN-Aushang für Gäste in Café, Unterkunft oder Laden erstellst du in wenigen Taps und druckst ihn sofort aus.
+
+Fotografieren und verbinden
+Fotografiere einen WLAN-Aushang oder Kassenbon an der Wand oder wähle ein Foto aus der Mediathek. Die App liest Kennung und Passwort und verbindet dieses iPhone.
+Ist der gelesene Text unklar, ziehst du einen aus dem Foto geschnittenen Schnipsel in das Feld für Kennung oder Passwort.
+Du kannst die Daten auch von Hand eingeben oder nur einen QR-Code erstellen, ohne dich zu verbinden.
+
+Mit einem QR-Code teilen
+Die App erkennt das WLAN, mit dem du verbunden bist, und erstellt einen QR-Code, der Freunde verbindet, sobald sie die Kamera darauf richten.
+Sende das QR-Bild per Nachricht oder teile deinen eigenen Hotspot als QR-Code.
+
+Gäste-Aushang erstellen
+Wähle aus 7 Designs und ergänze Lokalname, Logo und eigene Zeilen wie die Öffnungszeiten.
+Du hast die Wahl zwischen Karte und A4-Poster im Hochformat, kannst es als Bild sichern oder direkt per AirPrint drucken.
+Lege mehrere Aushänge an, je einen für jedes Lokal oder jeden Tisch, und bearbeite sie jederzeit.
+
+Widget und Karte
+Lege den QR-Code deines Lieblings-WLANs auf den Home-Bildschirm oder Sperrbildschirm. Ein Tipp öffnet den großen QR-Code.
+Orte, an denen du verbunden warst, merkt sich die Karte, und kommst du wieder hin, steht das passende WLAN ganz oben.
+
+Datenschutz
+Gespeicherte WLAN-Angaben bleiben auf diesem Gerät und werden nicht an einen Server gesendet.
+
+### 지원 URL
+
+https://m1zz.github.io/WifiSnap/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/WifiSnap/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/WifiSnap/

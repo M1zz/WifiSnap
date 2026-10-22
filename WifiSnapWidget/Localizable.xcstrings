@@ -3,6 +3,12 @@
   "strings" : {
     "앱에서 한 번 연결하면 여기에 QR이 떠요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinde dich einmal in der App, dann erscheint hier der QR-Code"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55,6 +61,12 @@
     },
     "와이파이" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WLAN"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -107,6 +119,12 @@
     },
     "와이파이 QR" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WLAN-QR-Code"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -159,6 +177,12 @@
     },
     "와이파이 선택" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WLAN wählen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +235,12 @@
     },
     "위젯에 고정할 와이파이를 고릅니다. 고르지 않으면 가장 최근에 연결한 와이파이를 보여줍니다." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle das WLAN, das am Widget angeheftet werden soll. Ohne Auswahl zeigt es das zuletzt verbundene WLAN."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -263,6 +293,12 @@
     },
     "저장된 와이파이 없음" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kein gespeichertes WLAN"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -315,6 +351,12 @@
     },
     "지금 연결된 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 특정 와이파이로 고정할 수도 있어요." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeigt den QR-Code des WLANs, mit dem du verbunden bist. Gedrückt halten und „Widget bearbeiten“ wählen, um ein bestimmtes WLAN anzuheften."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -367,6 +409,12 @@
     },
     "지금 연결됨" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerade verbunden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -419,6 +467,12 @@
     },
     "카메라로 비추면 바로 연결" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera darauf richten und verbinden"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -471,6 +525,12 @@
     },
     "탭하면 큰 QR" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tippen für großen QR-Code"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

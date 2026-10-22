@@ -3,6 +3,12 @@
   "strings" : {
     "CFBundleDisplayName" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WLAN-QR-Code"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
