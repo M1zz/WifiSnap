@@ -81,3 +81,10 @@ Le foto sono lette con più precisione.
 Risolti alcuni problemi di connessione.
 Crea un QR senza connetterti.
 Condividi il tuo hotspot con un QR.
+
+### 앱스토어 (포르투갈어(브라질))
+
+Leitura mais precisa do Wi-Fi nas fotos.
+Corrigimos falhas de conexão ocasionais.
+Crie um QR sem precisar se conectar.
+Compartilhe seu hotspot com um QR.

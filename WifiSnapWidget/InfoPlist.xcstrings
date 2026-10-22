@@ -51,6 +51,12 @@
             "value" : "와이파이 QR"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR do Wi-Fi"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",

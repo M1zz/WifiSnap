@@ -51,6 +51,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName} 와이파이 QR 보여줘"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar o QR do Wi-Fi no ${applicationName}"
           }
         },
         "ru" : {
@@ -191,6 +203,12 @@
             "value" : "${applicationName} 와이파이 촬영"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} fotografar Wi-Fi"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -261,6 +279,12 @@
             "value" : "${applicationName}로 와이파이 안내문 찍어줘"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografar a placa de Wi-Fi com o ${applicationName}"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -329,6 +353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName}에서 와이파이 QR 열어줘"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir o QR do Wi-Fi no ${applicationName}"
           }
         },
         "ru" : {

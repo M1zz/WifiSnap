@@ -51,6 +51,12 @@
             "value" : "앱에서 한 번 연결하면 여기에 QR이 떠요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecte uma vez no app e o QR aparece aqui"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
           }
         },
         "ru" : {
@@ -191,6 +203,12 @@
             "value" : "와이파이 QR"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR do Wi-Fi"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -259,6 +277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 선택"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher Wi-Fi"
           }
         },
         "ru" : {
@@ -331,6 +355,12 @@
             "value" : "위젯에 고정할 와이파이를 고릅니다. 고르지 않으면 가장 최근에 연결한 와이파이를 보여줍니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolha a rede Wi-Fi para fixar no widget. Se você não escolher, ele mostra a última à qual se conectou."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -399,6 +429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장된 와이파이 없음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhuma rede Wi-Fi salva"
           }
         },
         "ru" : {
@@ -471,6 +507,12 @@
             "value" : "지금 연결된 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 특정 와이파이로 고정할 수도 있어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra o QR da rede Wi-Fi à qual você está conectado. Mantenha pressionado e escolha «Editar Widget» para fixar uma rede específica."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -539,6 +581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 연결됨"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectada agora"
           }
         },
         "ru" : {
@@ -611,6 +659,12 @@
             "value" : "카메라로 비추면 바로 연결"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aponte a câmera para conectar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -679,6 +733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "탭하면 큰 QR"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque para ver o QR grande"
           }
         },
         "ru" : {

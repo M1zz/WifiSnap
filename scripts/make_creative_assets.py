@@ -86,7 +86,13 @@ STORE["it"] = "it"
 SCREEN["it"] = "it"
 SEARCH["it"] = ("QR Wi-Fi", "Crea cartelli Wi-Fi<br>per gli ospiti", "Connessione con un QR,<br>stampa in un attimo")
 HEADER["it"] = ("Condividi il Wi-Fi", "Non dettare la password:<br>mostra un QR")
+STORE["pt-BR"] = "pt-BR"
+SCREEN["pt-BR"] = "pt-BR"
+SEARCH["pt-BR"] = ("QR do Wi-Fi", "Crie placas de Wi-Fi<br>para visitantes", "Conecte com um QR,<br>imprima de uma vez")
+HEADER["pt-BR"] = ("Compartilhe o Wi-Fi", "Chega de ditar a senha:<br>mostre um QR")
 # i18n-end
+
+
 
 
 

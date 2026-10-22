@@ -51,6 +51,12 @@
             "value" : "%@ 사본"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cópia de %@"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 손님용 안내판 미리보기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prévia da placa para visitantes de %@"
           }
         },
         "ru" : {
@@ -191,6 +203,12 @@
             "value" : "%@ 연결용 QR 코드"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR para conectar a %@"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -259,6 +277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 와이파이 QR"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR do Wi-Fi de %@"
           }
         },
         "ru" : {
@@ -331,6 +355,12 @@
             "value" : "%@ 조각"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trecho «%@»"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -399,6 +429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A conexão com «%@» foi configurada.\nPara confirmar se conectou, o app precisa de acesso à localização. (Ajustes > MyFi > Localização)"
           }
         },
         "ru" : {
@@ -471,6 +507,12 @@
             "value" : "'%@' 와이파이에 붙지 못했어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não foi possível conectar a «%@»."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -539,6 +581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 표기로 다시 시도 중…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tentando de novo como «%@»…"
           }
         },
         "ru" : {
@@ -611,6 +659,12 @@
             "value" : "'%@'에 연결했어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectado a «%@»."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -679,6 +733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A4 포스터"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pôster A4"
           }
         },
         "ru" : {
@@ -751,6 +811,12 @@
             "value" : "Face ID 잠금"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloqueio com Face ID"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -819,6 +885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 저장한 비밀번호를 지켜요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloqueie o app com Face ID ou Touch ID para proteger as senhas salvas."
           }
         },
         "ru" : {
@@ -891,6 +963,12 @@
             "value" : "QR 만드는 중…"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criando o QR…"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -959,6 +1037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR 만들기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criar QR"
           }
         },
         "ru" : {
@@ -1031,6 +1115,12 @@
             "value" : "QR 생성 실패"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não foi possível criar o QR"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1099,6 +1189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR 이미지 공유"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartilhar imagem do QR"
           }
         },
         "ru" : {
@@ -1171,6 +1267,12 @@
             "value" : "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se você criar só o QR, este iPhone não se conecta e apenas salva a rede. Se a senha estiver errada, o QR também não vai conectar, então confira."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1239,6 +1341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR을 만들지 못했어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não foi possível criar o QR."
           }
         },
         "ru" : {
@@ -1311,6 +1419,12 @@
             "value" : "SSID (와이파이 이름)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (nome da rede Wi-Fi)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1379,6 +1493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SSID 접두사가 올바르지 않아요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O prefixo do SSID não é válido."
           }
         },
         "ru" : {
@@ -1451,6 +1571,12 @@
             "value" : "VoiceOver로 더 편하게"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mais prático com o VoiceOver"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1519,6 +1645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[마이파이 %@] 문의"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Dúvida"
           }
         },
         "ru" : {
@@ -1591,6 +1723,12 @@
             "value" : "iOS는 저장된 와이파이 목록을 앱에 알려주지 않아서, 캡처가 유일한 방법이에요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O iOS não informa aos apps a lista de redes Wi-Fi salvas, então a captura de tela é o único jeito."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1659,6 +1797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "가져오기에 포함"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incluir na importação"
           }
         },
         "ru" : {
@@ -1731,6 +1875,12 @@
             "value" : "가져온 이름 %lld개"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nomes importados"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1799,6 +1949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "건너뛰기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pular"
           }
         },
         "ru" : {
@@ -1871,6 +2027,12 @@
             "value" : "고치는 즉시 저장돼요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salvo assim que você edita"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1939,6 +2101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "공유"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartilhar"
           }
         },
         "ru" : {
@@ -2011,6 +2179,12 @@
             "value" : "근처 와이파이 먼저"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redes próximas primeiro"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2079,6 +2253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "글자 되돌리기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar texto"
           }
         },
         "ru" : {
@@ -2151,6 +2331,12 @@
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ao aumentar o tamanho do texto, as telas se reorganizam sem cortar nada."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2219,6 +2405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기기 간 동기화"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronização entre dispositivos"
           }
         },
         "ru" : {
@@ -2291,6 +2483,12 @@
             "value" : "기기를 바꿔도 저장한 와이파이와 안내판이 그대로 이어져요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suas redes e placas salvas acompanham você ao trocar de aparelho."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2359,6 +2557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 데이터 한 번에 지우기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagar todos os meus dados"
           }
         },
         "ru" : {
@@ -2431,6 +2635,12 @@
             "value" : "내 안내판"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minha placa"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2499,6 +2709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 안내판 (%lld)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minhas placas (%lld)"
           }
         },
         "ru" : {
@@ -2571,6 +2787,12 @@
             "value" : "내 핫스팟"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meu ponto de acesso"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2639,6 +2861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네트워크"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rede"
           }
         },
         "ru" : {
@@ -2711,6 +2939,12 @@
             "value" : "네트워크 라벨"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rótulo da rede"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2779,6 +3013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네트워크 이름(SSID)이 올바르지 않아요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O nome da rede (SSID) não é válido."
           }
         },
         "ru" : {
@@ -2851,6 +3091,12 @@
             "value" : "네트워크 정보를 확인해 주세요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confira os dados da rede."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2919,6 +3165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다른 캡처 고르기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher outra captura"
           }
         },
         "ru" : {
@@ -2991,6 +3243,12 @@
             "value" : "다음"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avançar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3059,6 +3317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다크 모드"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo escuro"
           }
         },
         "ru" : {
@@ -3131,6 +3395,12 @@
             "value" : "닫기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fechar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3199,6 +3469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tudo continua legível, mesmo com mais contraste ou se for difícil distinguir as cores."
           }
         },
         "ru" : {
@@ -3271,6 +3547,12 @@
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use o app em mais idiomas."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3339,6 +3621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 언어"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mais idiomas"
           }
         },
         "ru" : {
@@ -3411,6 +3699,12 @@
             "value" : "도움말"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajuda"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3479,6 +3773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "두 번 탭하면 QR 코드로 돌아갑니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque duas vezes para voltar ao QR."
           }
         },
         "ru" : {
@@ -3551,6 +3851,12 @@
             "value" : "디자인"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3619,6 +3925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마이파이"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
           }
         },
         "ru" : {
@@ -3691,6 +4003,12 @@
             "value" : "맞는 것만 켜 두고, 틀린 글자는 눌러서 고친 뒤 오른쪽 위 '추가'를 누르세요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deixe ativados só os corretos, toque para corrigir as letras erradas e toque em «Adicionar» no canto superior direito."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3759,6 +4077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "매장 로고"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logotipo do estabelecimento"
           }
         },
         "ru" : {
@@ -3831,6 +4155,12 @@
             "value" : "매장 이름"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome do estabelecimento"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3899,6 +4229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "매장이나 집에 둘 와이파이 안내판을 만들어\n인쇄하거나 이미지로 공유할 수 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crie uma placa de Wi-Fi para o seu estabelecimento ou sua casa\ne depois imprima ou compartilhe como imagem."
           }
         },
         "ru" : {
@@ -3971,6 +4307,12 @@
             "value" : "맨 아래 문구 (비우면 숨김)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Última linha (oculta se vazia)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4039,6 +4381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "메인 화면 카드에는 가장 최근에 고친 안내판이 보여요. 왼쪽으로 밀면 복제·삭제할 수 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O cartão da tela principal mostra a última placa que você editou. Deslize para a esquerda para duplicar ou excluir."
           }
         },
         "ru" : {
@@ -4111,6 +4459,12 @@
             "value" : "메일로 문의 (%@)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar e-mail (%@)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4179,6 +4533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "모노"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
           }
         },
         "ru" : {
@@ -4251,6 +4611,12 @@
             "value" : "목록에서 바로 쓰기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ações rápidas na lista"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4319,6 +4685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "목록에서 와이파이 고르기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher uma rede da lista"
           }
         },
         "ru" : {
@@ -4391,6 +4763,12 @@
             "value" : "무료 와이파이"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi grátis"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4459,6 +4837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "문의"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contato"
           }
         },
         "ru" : {
@@ -4531,6 +4915,12 @@
             "value" : "미드나잇"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meia-noite"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4599,6 +4989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "미리보기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prévia"
           }
         },
         "ru" : {
@@ -4671,6 +5067,12 @@
             "value" : "민트"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menta"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4739,6 +5141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "백업과 내보내기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup e exportação"
           }
         },
         "ru" : {
@@ -4811,6 +5219,12 @@
             "value" : "뱃지 (비우면 숨김)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selo (oculto se vazio)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4879,6 +5293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "변경"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trocar"
           }
         },
         "ru" : {
@@ -4951,6 +5371,12 @@
             "value" : "보기 편한 색과 대비"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cores e contraste mais confortáveis"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5019,6 +5445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보내 주신 의견은 개발자가 하나하나 직접 읽어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O desenvolvedor lê pessoalmente cada mensagem que você envia."
           }
         },
         "ru" : {
@@ -5091,6 +5523,12 @@
             "value" : "보여주기 전에 설정 > 개인용 핫스팟에서 ‘다른 사람의 연결 허용’을 켜 주세요. 꺼져 있으면 QR을 찍어도 네트워크를 찾지 못해요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antes de mostrar, ative «Permitir que Outros Entrem» em Ajustes > Hotspot Pessoal. Se estiver desativado, quem ler o QR não encontrará a rede."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5159,6 +5597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보여주기만 하면 연결"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "É só mostrar para conectar"
           }
         },
         "ru" : {
@@ -5231,6 +5675,12 @@
             "value" : "복제"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplicar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5299,6 +5749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senha"
           }
         },
         "ru" : {
@@ -5371,6 +5827,12 @@
             "value" : "비밀번호 라벨"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rótulo da senha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5439,6 +5901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 보기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar senha"
           }
         },
         "ru" : {
@@ -5511,6 +5979,12 @@
             "value" : "비밀번호 복사"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar senha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5579,6 +6053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 복사됨"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senha copiada"
           }
         },
         "ru" : {
@@ -5651,6 +6131,12 @@
             "value" : "비밀번호 숨기기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocultar senha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5719,6 +6205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 지우기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagar senha"
           }
         },
         "ru" : {
@@ -5791,6 +6283,12 @@
             "value" : "비밀번호 표시"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar senha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5859,6 +6357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 형식이 올바르지 않아요. (WEP은 5자 또는 13자)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O formato da senha não é válido. (WEP: 5 ou 13 caracteres)"
           }
         },
         "ru" : {
@@ -5931,6 +6435,12 @@
             "value" : "비밀번호 형식이 올바르지 않아요. (WPA는 8~63자)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O formato da senha não é válido. (WPA: de 8 a 63 caracteres)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5999,6 +6509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호가 %lld자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A senha tem %lld caracteres. Senhas de Wi-Fi precisam ter pelo menos 8 caracteres (chaves WEP antigas, 5 ou 13). Confira se não falta nenhum caractere."
           }
         },
         "ru" : {
@@ -6071,6 +6587,12 @@
             "value" : "비밀번호로 넣기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar como senha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6139,6 +6661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진 속 QR에서 읽었어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lido do QR da foto."
           }
         },
         "ru" : {
@@ -6211,6 +6739,12 @@
             "value" : "사진 한 장으로 연결"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecte com uma única foto"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6279,6 +6813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não encontramos usuário e senha na foto. Digite manualmente ou tire outra foto, mais perto e mais nítida."
           }
         },
         "ru" : {
@@ -6351,6 +6891,12 @@
             "value" : "사진에서 읽은 이름 — 맞는 걸 골라주세요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nomes lidos da foto — escolha o correto"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6419,6 +6965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진에서 읽음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lido da foto"
           }
         },
         "ru" : {
@@ -6491,6 +7043,12 @@
             "value" : "사진으로 자동 입력"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preencher com uma foto"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6559,6 +7117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "삭제"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excluir"
           }
         },
         "ru" : {
@@ -6631,6 +7195,12 @@
             "value" : "새 안내판"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova placa"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6699,6 +7269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선셋"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pôr do sol"
           }
         },
         "ru" : {
@@ -6771,6 +7347,12 @@
             "value" : "선택"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6839,6 +7421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택 사항 — 상단에 표시"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opcional — aparece no topo"
           }
         },
         "ru" : {
@@ -6911,6 +7499,12 @@
             "value" : "선택 안 됨"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não selecionado"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6979,6 +7573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택됨"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecionado"
           }
         },
         "ru" : {
@@ -7051,6 +7651,12 @@
             "value" : "설정"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7119,6 +7725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정 캡처에서 목록 가져오기…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importar lista de uma captura dos Ajustes…"
           }
         },
         "ru" : {
@@ -7191,6 +7803,12 @@
             "value" : "손끝으로 느끼는 반응"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resposta tátil"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7259,6 +7877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "손님용 안내판 만들기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crie placas para visitantes"
           }
         },
         "ru" : {
@@ -7331,6 +7955,12 @@
             "value" : "손님용 안내판 인쇄·공유"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imprimir ou compartilhar placa para visitantes"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7399,6 +8029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "스캔한 와이파이"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi escaneada"
           }
         },
         "ru" : {
@@ -7471,6 +8107,12 @@
             "value" : "시스템 설정으로 관리되는 네트워크라 변경할 수 없어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta rede é gerenciada pelos ajustes do sistema e não pode ser alterada."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7539,6 +8181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작하기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Começar"
           }
         },
         "ru" : {
@@ -7611,6 +8259,12 @@
             "value" : "아래 조각을 탭하거나 직접 입력"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque em um trecho abaixo ou digite"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7679,6 +8333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아래 조각을 탭하면 빈 칸에 들어가요. 길게 누르면 아이디·비밀번호 중 어디에 넣을지 고를 수 있고, 끌어다 놓아도 돼요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque em um trecho abaixo e ele vai para o campo vazio. Mantenha pressionado para escolher entre usuário e senha, ou arraste."
           }
         },
         "ru" : {
@@ -7751,6 +8411,12 @@
             "value" : "아이디"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuário"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7819,6 +8485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이디 지우기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagar usuário"
           }
         },
         "ru" : {
@@ -7891,6 +8563,12 @@
             "value" : "아이디로 넣기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar como usuário"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7959,6 +8637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이폰 '설정 > Wi-Fi' 화면을 캡처한 뒤 그 사진을 고르면, 목록에 있는 이름을 읽어옵니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tire uma captura da tela «Ajustes > Wi-Fi» do iPhone e escolha a imagem aqui: o app lê os nomes da lista."
           }
         },
         "ru" : {
@@ -8031,6 +8715,12 @@
             "value" : "안내 문구"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mensagem"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8099,6 +8789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내문 촬영"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografar placa"
           }
         },
         "ru" : {
@@ -8171,6 +8867,12 @@
             "value" : "안내판 %lld"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Placa %lld"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8239,6 +8941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판 만들기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criar placa"
           }
         },
         "ru" : {
@@ -8311,6 +9019,12 @@
             "value" : "안내판 이름 (목록에서만 보임)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome da placa (aparece só na lista)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8379,6 +9093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판 이미지 공유·인쇄"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartilhar ou imprimir imagem da placa"
           }
         },
         "ru" : {
@@ -8451,6 +9171,12 @@
             "value" : "안내판에 인쇄되는 글자"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto impresso na placa"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8519,6 +9245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판을 꾸미다 앱이 꺼져도 하던 내용이 남아 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se o app fechar enquanto você cria uma placa, o que você fez continua lá."
           }
         },
         "ru" : {
@@ -8591,6 +9323,12 @@
             "value" : "알 수 없는 오류가 발생했어요. 신호 범위 안에 있는지 확인해 주세요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocorreu um erro desconhecido. Confira se você está ao alcance da rede."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8659,6 +9397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "알림"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avisos de Wi-Fi por perto"
           }
         },
         "ru" : {
@@ -8731,6 +9475,12 @@
             "value" : "앨범"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galeria"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8799,6 +9549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱이 화면에 떠 있는 상태에서 시도해 주세요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tente de novo com o app aberto na tela."
           }
         },
         "ru" : {
@@ -8871,6 +9627,12 @@
             "value" : "어두운 화면에서도 글자와 단추가 또렷하게 보여요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto e botões continuam nítidos também no modo escuro."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8939,6 +9701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na primeira abertura após uma atualização, veja o que há de novo."
           }
         },
         "ru" : {
@@ -9011,6 +9779,12 @@
             "value" : "업데이트 소식"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novidades"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9079,6 +9853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "없음 (개방)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhuma (rede aberta)"
           }
         },
         "ru" : {
@@ -9151,6 +9931,12 @@
             "value" : "여기서 저장한 와이파이"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi salvas aqui"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9219,6 +10005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectar"
           }
         },
         "ru" : {
@@ -9291,6 +10083,12 @@
             "value" : "연결 실패"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falha na conexão"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9359,6 +10157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결 없이 QR 만들기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criar QR sem conectar"
           }
         },
         "ru" : {
@@ -9431,6 +10235,12 @@
             "value" : "연결 중…"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectando…"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9499,6 +10309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결 확인 창에서 '연결'을 눌러야 연결됩니다. 다시 시도해 주세요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você precisa tocar em «Conectar» na janela de confirmação. Tente de novo."
           }
         },
         "ru" : {
@@ -9571,6 +10387,12 @@
             "value" : "연결용 QR"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR de conexão"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9639,6 +10461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 지원"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suporte ao inglês"
           }
         },
         "ru" : {
@@ -9711,6 +10539,12 @@
             "value" : "영업시간, 인스타 계정, 매장 안내처럼 원하는 문구를 줄 단위로 넣으세요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicione o texto que quiser, linha por linha: horário, conta do Instagram, regras da casa…"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9779,6 +10613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예) 계산대용"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ex.: Para o caixa"
           }
         },
         "ru" : {
@@ -9851,6 +10691,12 @@
             "value" : "예) 라운지 카페"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ex.: Lounge Café"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9919,6 +10765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예) 영업시간 09:00–22:00"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ex.: Aberto das 9h às 22h"
           }
         },
         "ru" : {
@@ -9991,6 +10843,12 @@
             "value" : "오션"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oceano"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10059,6 +10917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 QR"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR do Wi-Fi"
           }
         },
         "ru" : {
@@ -10131,6 +10995,12 @@
             "value" : "와이파이 QR 보여주기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar QR do Wi-Fi"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10199,6 +11069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 목록 가져오기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importar lista de Wi-Fi"
           }
         },
         "ru" : {
@@ -10271,6 +11147,12 @@
             "value" : "와이파이 상세"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detalhes do Wi-Fi"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10339,6 +11221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 선택"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher Wi-Fi"
           }
         },
         "ru" : {
@@ -10411,6 +11299,12 @@
             "value" : "와이파이 안내문 촬영"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografar placa de Wi-Fi"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10479,6 +11373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 이름"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome da rede Wi-Fi"
           }
         },
         "ru" : {
@@ -10551,6 +11451,12 @@
             "value" : "와이파이 이름이 너무 길어요. (최대 32바이트)"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O nome da rede Wi-Fi é longo demais. (máximo de 32 bytes)"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10619,6 +11525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 이름이 비어 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O nome da rede Wi-Fi está vazio."
           }
         },
         "ru" : {
@@ -10691,6 +11603,12 @@
             "value" : "와이파이 추가"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar Wi-Fi"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10759,6 +11677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이에 연결되거나 글자를 읽어 내면 가볍게 떨려서 알려 줘요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma vibração leve quando você se conecta ou o texto é reconhecido."
           }
         },
         "ru" : {
@@ -10831,6 +11755,12 @@
             "value" : "와이파이에 연결하거나 '여기'에서 공유하면 그 위치가 지도에 기록돼요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando você se conecta a uma rede ou a compartilha de «Aqui», o local é registrado no mapa."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10899,6 +11829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "완료"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluído"
           }
         },
         "ru" : {
@@ -10971,6 +11907,12 @@
             "value" : "외국인 손님도 읽을 수 있게 앱과 안내판을 영어로도 써요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App e placas também em inglês, para que visitantes de outros países consigam ler."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11039,6 +11981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduzir movimento"
           }
         },
         "ru" : {
@@ -11111,6 +12059,12 @@
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Com «Reduzir Movimento» ativado, os efeitos na tela ficam mais discretos."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11179,6 +12133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "원하면 앱 안에서 저장한 와이파이와 안내판을 모두 지울 수 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apague, direto no app, todas as redes e placas salvas."
           }
         },
         "ru" : {
@@ -11251,6 +12211,12 @@
             "value" : "의견 · 리뷰"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opiniões e avaliações"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11319,6 +12285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 네트워크는 일회성 연결을 지원하지 않아요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta rede não aceita conexão única."
           }
         },
         "ru" : {
@@ -11391,6 +12363,12 @@
             "value" : "이 줄 삭제"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Excluir esta linha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11459,6 +12437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 카드를 보여주세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostre este cartão"
           }
         },
         "ru" : {
@@ -11531,6 +12515,12 @@
             "value" : "이 폰 연결"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectar este iPhone"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11599,6 +12589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 폰에 설정됨"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurada neste iPhone"
           }
         },
         "ru" : {
@@ -11671,6 +12667,12 @@
             "value" : "이 폰을 연결하거나, 연결 없이 QR만 만들어요"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecte este iPhone ou crie só o QR, sem se conectar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11739,6 +12741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 폰이 아는 와이파이"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redes Wi-Fi que este iPhone conhece"
           }
         },
         "ru" : {
@@ -11811,6 +12819,12 @@
             "value" : "이 폰이 아는 이름"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nomes que este iPhone conhece"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11879,6 +12893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이런 표기일 수도 있어요:"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pode ser que se escreva assim:"
           }
         },
         "ru" : {
@@ -11951,6 +12971,12 @@
             "value" : "이름 읽는 중…"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lendo os nomes…"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12019,6 +13045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confira se o nome e a senha estão exatos, inclusive maiúsculas e minúsculas, e se você está ao alcance da rede."
           }
         },
         "ru" : {
@@ -12091,6 +13123,12 @@
             "value" : "이름을 찾지 못했어요. 목록이 잘 보이게 다시 캡처하거나, 아래에서 직접 적어 주세요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não encontramos nomes. Tire outra captura em que a lista apareça bem ou digite abaixo."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12159,6 +13197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이미 연결되어 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Já conectado."
           }
         },
         "ru" : {
@@ -12231,6 +13275,12 @@
             "value" : "이전 연결 요청을 처리 중이에요. 잠시 후 다시 시도해 주세요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma solicitação de conexão anterior ainda está sendo processada. Tente de novo em instantes."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12299,6 +13349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mensagem no Instagram (@lee25_ios)"
           }
         },
         "ru" : {
@@ -12371,6 +13427,12 @@
             "value" : "인식 중…"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reconhecendo…"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12439,6 +13501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "읽어낸 이름 %lld개"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nomes lidos"
           }
         },
         "ru" : {
@@ -12511,6 +13579,12 @@
             "value" : "저장된 네트워크"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redes salvas"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12579,6 +13653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장된 네트워크 없음"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhuma rede salva"
           }
         },
         "ru" : {
@@ -12651,6 +13731,12 @@
             "value" : "저장한 와이파이 지도"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mapa das redes Wi-Fi salvas"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12719,6 +13805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장한 와이파이가 있는 곳에 오면 알림으로 알려 줘요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receba uma notificação ao chegar a um lugar com rede salva."
           }
         },
         "ru" : {
@@ -12791,6 +13883,12 @@
             "value" : "저장한 와이파이는 위치와 함께 기억돼요. 그 장소에 다시 오면 목록 맨 위로 올라오고 '📍 근처' 뱃지가 붙어요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As redes salvas são lembradas junto com o local. Quando você voltar lá, elas sobem para o topo da lista com o selo «📍 Por perto»."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12859,6 +13957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장한 와이파이와 안내판을 파일로 저장하고 다시 불러올 수 있어요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salve suas redes e placas em um arquivo e restaure quando quiser."
           }
         },
         "ru" : {
@@ -12931,6 +14035,12 @@
             "value" : "적용됨"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicado"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12999,6 +14109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제거"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remover"
           }
         },
         "ru" : {
@@ -13071,6 +14187,12 @@
             "value" : "제목"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Título"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13139,6 +14261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조각을 탭해서 채우기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque nos trechos para preencher"
           }
         },
         "ru" : {
@@ -13211,6 +14339,12 @@
             "value" : "줄 추가"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar linha"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13279,6 +14413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 연결된 와이파이를 QR로 보여 주세요.\n친구가 카메라로 비추면 비밀번호를 몰라도 바로 연결돼요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostre o QR da rede Wi-Fi à qual você está conectado.\nQuando um amigo apontar a câmera, ele se conecta sem saber a senha."
           }
         },
         "ru" : {
@@ -13351,6 +14491,12 @@
             "value" : "지금 연결된 와이파이의 QR을 엽니다. 연결된 와이파이가 저장돼 있지 않으면 가장 최근에 저장한 와이파이를 엽니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre o QR da rede Wi-Fi à qual você está conectado. Se ela não estiver salva, abre a última que você salvou."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13419,6 +14565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 연결됨"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectada agora"
           }
         },
         "ru" : {
@@ -13491,6 +14643,12 @@
             "value" : "지도"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mapa"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13559,6 +14717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지도에 표시할 위치가 없어요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum local para mostrar no mapa"
           }
         },
         "ru" : {
@@ -13631,6 +14795,12 @@
             "value" : "직접 쓰는 줄"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linhas próprias"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13699,6 +14869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 쓴 줄 %lld개"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld linhas próprias"
           }
         },
         "ru" : {
@@ -13771,6 +14947,12 @@
             "value" : "직접 입력"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Digitar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13839,6 +15021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 입력…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Digitar manualmente…"
           }
         },
         "ru" : {
@@ -13911,6 +15099,12 @@
             "value" : "직접 입력한 와이파이"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi digitada"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13979,6 +15173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 적어 넣기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar manualmente"
           }
         },
         "ru" : {
@@ -14051,6 +15251,12 @@
             "value" : "처음 안내 다시 보기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver a introdução de novo"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14119,6 +15325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "촬영"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câmera"
           }
         },
         "ru" : {
@@ -14191,6 +15403,12 @@
             "value" : "촬영·앨범·직접 입력"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câmera, galeria ou digitação"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14259,6 +15477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "추가"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar"
           }
         },
         "ru" : {
@@ -14331,6 +15555,12 @@
             "value" : "친구가 QR을 카메라로 비추면 비밀번호 없이 바로 연결돼요. 카드를 밀거나 탭하면 손님용 안내판 미리보기로 뒤집혀요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando um amigo apontar a câmera para o QR, ele se conecta sem senha. Deslize ou toque no cartão para ver a prévia da placa para visitantes."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14399,6 +15629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카드"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cartão"
           }
         },
         "ru" : {
@@ -14471,6 +15707,12 @@
             "value" : "카메라로 QR을 비추면 자동 연결"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aponte a câmera para o QR para se conectar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14539,6 +15781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카메라로 비추면 바로 연결돼요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aponte a câmera para se conectar na hora"
           }
         },
         "ru" : {
@@ -14611,6 +15859,12 @@
             "value" : "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aponte a câmera para se conectar sem senha. Toque duas vezes para virar para a prévia da placa."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14679,6 +15933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카메라를 열어 와이파이 안내문을 찍으면 이름과 비밀번호를 읽어 줍니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre a câmera: fotografe uma placa de Wi-Fi para ler o nome da rede e a senha."
           }
         },
         "ru" : {
@@ -14751,6 +16011,12 @@
             "value" : "카페"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14819,6 +16085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카페·숙소의 와이파이 안내문을 찍거나 앨범에서 고르세요.\n이름과 비밀번호를 읽어 이 폰을 연결해 줘요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografe uma placa de Wi-Fi em um café ou hospedagem, ou escolha uma foto da galeria.\nO app lê o nome e a senha e conecta este iPhone."
           }
         },
         "ru" : {
@@ -14891,6 +16163,12 @@
             "value" : "카페·숙소의 와이파이 안내문을 촬영하거나 앨범에서 고르면, ID와 비밀번호를 알아서 읽어 연결해요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografe uma placa de Wi-Fi em um café ou hospedagem, ou escolha uma foto da galeria, e o app lê o usuário e a senha e se conecta."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14959,6 +16237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "캡처 고르기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher captura"
           }
         },
         "ru" : {
@@ -15031,6 +16315,12 @@
             "value" : "캡처에서 가져옴"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importada de uma captura de tela"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15099,6 +16389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "큰 글씨에 맞춘 화면"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Telas para texto grande"
           }
         },
         "ru" : {
@@ -15171,6 +16467,12 @@
             "value" : "탭하면 빈 칸에 넣습니다. 길게 누르면 넣을 칸을 고릅니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque para colocar em um campo vazio. Mantenha pressionado para escolher o campo."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15239,6 +16541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "편하게 이용하세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fique à vontade"
           }
         },
         "ru" : {
@@ -15311,6 +16619,12 @@
             "value" : "펼치는 아이폰 화면"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tela de iPhone dobrável"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15379,6 +16693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em um iPhone dobrável, a tela ampla se divide em dois painéis."
           }
         },
         "ru" : {
@@ -15451,6 +16771,12 @@
             "value" : "포레스트"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Floresta"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15519,6 +16845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "하던 일 이어서 하기"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar de onde você parou"
           }
         },
         "ru" : {
@@ -15591,6 +16923,12 @@
             "value" : "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este iPhone não consegue se conectar a um ponto de acesso. Crie um QR e mostre à outra pessoa."
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15659,6 +16997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "행을 탭하면 QR·상세가 열려요. 오른쪽으로 밀면 이 폰 연결, 왼쪽으로 밀면 QR 공유예요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque em uma linha para abrir o QR e os detalhes. Deslize para a direita para conectar este iPhone ou para a esquerda para compartilhar o QR."
           }
         },
         "ru" : {
@@ -15731,6 +17075,12 @@
             "value" : "형태"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formato"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15799,6 +17149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "화면 읽기 기능이 와이파이 정보와 단추를 빠짐없이, 알맞은 순서로 읽어 줘요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O VoiceOver lê todas as informações da rede e todos os botões, na ordem certa."
           }
         },
         "ru" : {
@@ -15871,6 +17227,12 @@
             "value" : "확인"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15939,6 +17301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 근처"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Por perto"
           }
         },
         "ru" : {
@@ -16011,6 +17379,12 @@
             "value" : "📍 여기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Aqui"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16081,6 +17455,12 @@
             "value" : "📍 지금 연결됨"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Conectada agora"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16149,6 +17529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 핫스팟"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Ponto de acesso"
           }
         },
         "ru" : {
