@@ -187,6 +187,7 @@ HEADER["tr"] = ("Wi-Fi’yi paylaşın", "Şifreyi söylemeyin:<br>QR kodunu gö
 
 
 
+
 # 바탕 · 글자색은 앱의 색이다: 밝은 시스템 그룹 배경 + iOS 파랑 포인트(앱의 주 버튼 색).
 BASE_CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

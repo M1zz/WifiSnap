@@ -559,7 +559,7 @@ struct ContentView: View {
             } else {
                 if scanTokens.isEmpty {
                     ssidInput
-                    PasswordField(placeholder: "비밀번호", text: $credentials.password)
+                    PasswordField(placeholder: String(localized: "비밀번호"), text: $credentials.password)
                 } else {
                     // 사진에서 읽은 게 있으면 조각을 끌어다 놓아 고치는 퍼즐로 편집한다
                     CredentialPuzzleView(groups: puzzleGroups,

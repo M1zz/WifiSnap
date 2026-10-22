@@ -408,7 +408,7 @@ struct WifiPosterSheet: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
 
             labeledField(title: String(localized: "매장 이름"), text: $design.storeName, placeholder: String(localized: "예) 라운지 카페"))
-            labeledField(title: "뱃지 (비우면 숨김)", text: $design.badge, placeholder: "WiFi")
+            labeledField(title: String(localized: "뱃지 (비우면 숨김)"), text: $design.badge, placeholder: "WiFi")
             labeledField(title: String(localized: "제목"), text: $design.heading, placeholder: String(localized: "무료 와이파이"))
             labeledField(title: String(localized: "안내 문구"), text: $design.subtitle, placeholder: String(localized: "편하게 이용하세요"))
             labeledField(title: String(localized: "네트워크 라벨"), text: $design.networkLabel, placeholder: String(localized: "네트워크"))
