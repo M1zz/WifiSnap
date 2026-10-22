@@ -193,7 +193,17 @@ SHOTS["nl"] = [
     ("04-poster-a4.png", "flat-rotate", "A4-poster<br>direct printklaar", "7 thema’s, in één keer printen via AirPrint"),
     ("05-saved.png", "dark", "Alle wifi die je gebruikte<br>op één plek", "Ben je in de buurt, dan komt de juiste bovenaan"),
 ]
+STORE["pl"] = "pl"
+SHOTS["pl"] = [
+    ("01-scan.png", "hero-bleed", "Sfotografuj tabliczkę<br>i połącz się od razu", "Odczytuje login i hasło ze zdjęcia"),
+    ("02-qr.png", "left-text", "Kod QR zamiast<br>dyktowania hasła", "Znajomi tylko kierują aparat"),
+    ("03-poster-card.png", "text-bottom", "Tabliczki Wi-Fi dla gości", "Z nazwą lokalu i godzinami otwarcia"),
+    ("04-poster-a4.png", "flat-rotate", "Plakat A4<br>od razu do druku", "7 motywów, druk przez AirPrint jednym krokiem"),
+    ("05-saved.png", "dark", "Wszystkie Twoje sieci Wi-Fi<br>w jednym miejscu", "W pobliżu właściwa sieć jest na górze"),
+]
 # i18n-end
+
+
 
 
 

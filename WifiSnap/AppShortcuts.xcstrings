@@ -93,6 +93,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -221,6 +227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toon wifi-QR in ${applicationName}"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokaż kod QR Wi-Fi w ${applicationName}"
           }
         },
         "pt-BR" : {
@@ -353,6 +365,12 @@
             "value" : "${applicationName} wifi fotograferen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} sfotografuj Wi-Fi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -483,6 +501,12 @@
             "value" : "Fotografeer wifi-bordje met ${applicationName}"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sfotografuj tabliczkę Wi-Fi w ${applicationName}"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -611,6 +635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open wifi-QR in ${applicationName}"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otwórz kod QR Wi-Fi w ${applicationName}"
           }
         },
         "pt-BR" : {

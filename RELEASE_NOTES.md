@@ -151,3 +151,10 @@ Foto’s worden nauwkeuriger uitgelezen.
 Sporadische verbindingsfouten verholpen.
 Maak een QR-code zonder te verbinden.
 Deel je hotspot met één QR-code.
+
+### 앱스토어 (폴란드어)
+
+Dokładniej odczytujemy dane ze zdjęć.
+Naprawiono sporadyczne błędy połączenia.
+Utwórz kod QR bez łączenia.
+Udostępnij hotspot jednym kodem QR.

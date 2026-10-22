@@ -93,6 +93,12 @@
             "value" : "MyFi"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -223,6 +229,12 @@
             "value" : "Wordt gebruikt om wifi-bordjes te fotograferen en de netwerknaam en het wachtwoord te herkennen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Służy do fotografowania tabliczek Wi-Fi i rozpoznawania nazwy sieci oraz hasła."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -351,6 +363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nodig om de naam te controleren van het wifi-netwerk waarmee je verbonden bent."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potrzebne do sprawdzenia nazwy sieci Wi-Fi, z którą jesteś połączony."
           }
         },
         "pt-BR" : {
