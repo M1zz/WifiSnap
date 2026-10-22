@@ -137,3 +137,10 @@ Membaca info Wi-Fi di foto lebih akurat.
 Memperbaiki gagal tersambung sesekali.
 Buat kode QR tanpa tersambung.
 Bagikan hotspot dengan satu kode QR.
+
+### 앱스토어 (노르웨이어)
+
+Bilder leses av mer nøyaktig.
+Rettet tilfeldige tilkoblingsfeil.
+Lag QR-kode uten å koble til.
+Del sonen din med én QR-kode.

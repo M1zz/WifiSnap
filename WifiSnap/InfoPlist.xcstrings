@@ -81,6 +81,12 @@
             "value" : "마이파이"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -199,6 +205,12 @@
             "value" : "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brukes til å fotografere Wi-Fi-oppslag og gjenkjenne nettverksnavn og passord."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -315,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trengs for å sjekke navnet på Wi-Fi-nettverket du er koblet til."
           }
         },
         "pt-BR" : {

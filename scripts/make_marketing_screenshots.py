@@ -177,7 +177,17 @@ SHOTS["id"] = [
     ("04-poster-a4.png", "flat-rotate", "Poster A4<br>langsung cetak", "7 tema, cetak lewat AirPrint sekali jalan"),
     ("05-saved.png", "dark", "Semua Wi-Fi yang pernah dipakai<br>di satu tempat", "Saat di dekatnya, yang pas muncul paling atas"),
 ]
+STORE["nb"] = "nb"
+SHOTS["nb"] = [
+    ("01-scan.png", "hero-bleed", "Fotografer oppslaget,<br>og koble til med en gang", "Leser id og passord fra bildet"),
+    ("02-qr.png", "left-text", "En QR-kode i stedet for<br>å si passordet høyt", "Venner trenger bare å rette kameraet"),
+    ("03-poster-card.png", "text-bottom", "Wi-Fi-oppslag til gjester", "Med stedets navn og åpningstider"),
+    ("04-poster-a4.png", "flat-rotate", "A4-plakat<br>klar til utskrift", "7 temaer, skriv ut med AirPrint i ett trinn"),
+    ("05-saved.png", "dark", "All Wi-Fi du har brukt,<br>samlet på ett sted", "Er du i nærheten, kommer riktig nettverk først"),
+]
 # i18n-end
+
+
 
 
 

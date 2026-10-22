@@ -118,7 +118,13 @@ STORE["id"] = "id"
 SCREEN["id"] = "id"
 SEARCH["id"] = ("QR Wi-Fi", "Buat papan Wi-Fi<br>untuk tamu", "Tersambung lewat QR,<br>cetak sekali jalan")
 HEADER["id"] = ("Bagikan Wi-Fi", "Tak perlu sebut kata sandi:<br>tunjukkan kode QR")
+STORE["nb"] = "nb"
+SCREEN["nb"] = "nb"
+SEARCH["nb"] = ("Wi-Fi-QR", "Lag Wi-Fi-oppslag<br>til gjester", "Koble til med QR-kode,<br>skriv ut i ett trinn")
+HEADER["nb"] = ("Del Wi-Fi", "Ikke les opp passordet:<br>vis en QR-kode")
 # i18n-end
+
+
 
 
 
