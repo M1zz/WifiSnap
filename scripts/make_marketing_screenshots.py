@@ -105,7 +105,18 @@ SHOTS["fr"] = [
     ("04-poster-a4.png", "flat-rotate", "Une affiche A4<br>prête à imprimer", "7 thèmes, impression AirPrint en un geste"),
     ("05-saved.png", "dark", "Tous vos Wi-Fi<br>au même endroit", "À proximité, le bon réseau passe en premier"),
 ]
+STORE["it"] = "it"
+SHOTS["it"] = [
+    ("01-scan.png", "hero-bleed", "Fotografa il cartello<br>e ti connetti subito", "Legge ID e password dalla foto"),
+    ("02-qr.png", "left-text", "Un QR al posto<br>della password a voce", "Gli amici inquadrano e basta"),
+    ("03-poster-card.png", "text-bottom", "Cartelli Wi-Fi per gli ospiti", "Con nome del locale e orari"),
+    ("04-poster-a4.png", "flat-rotate", "Poster A4<br>pronto da stampare", "7 temi, stampa con AirPrint in un attimo"),
+    ("05-saved.png", "dark", "Tutte le tue Wi-Fi<br>in un unico posto", "Quando sei vicino, la rete giusta è in cima"),
+]
 # i18n-end
+
+
+
 
 
 

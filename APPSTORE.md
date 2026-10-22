@@ -516,7 +516,7 @@ Une photo, et c’est connecté
 
 ### 키워드
 
-partage,invités,hotspot,café,gîte,hôtel,boutique,box,widget,scanner,affiche,AirPrint
+partage,invités,hotspot,café,gîte,hôtel,boutique,box,widget,scanner,affiche,AirPrint,restaurant,bar
 
 ### 프로모션 텍스트
 
@@ -547,6 +547,62 @@ Les lieux où vous vous êtes connecté sont mémorisés sur un plan, et à votr
 
 Confidentialité
 Les informations Wi-Fi enregistrées restent sur cet appareil et ne sont envoyées à aucun serveur.
+
+### 지원 URL
+
+https://m1zz.github.io/WifiSnap/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/WifiSnap/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/WifiSnap/
+
+## it
+
+### 이름
+
+MyFi: QR Wi-Fi
+
+### 부제
+
+Scatta, connettiti e stampa
+
+### 키워드
+
+password,condividere,ospiti,hotspot,bar,ostello,hotel,negozio,router,widget,fotocamera,scanner
+
+### 프로모션 텍스트
+
+Fotografa un cartello Wi-Fi e ti connetti subito, oppure condividi la tua rete con un solo QR. Crea il cartello per gli ospiti del tuo bar o B&B e stampalo.
+
+### 설명
+
+Basta dettare le password o ricopiarle a mano. Fotografa il cartello e ti connetti, oppure condividi il tuo Wi-Fi con un solo codice QR.
+Crea in pochi tocchi il cartello Wi-Fi per gli ospiti del tuo bar, della tua struttura o del tuo negozio e stampalo subito.
+
+Scatta e connettiti
+Fotografa il cartello Wi-Fi o lo scontrino appeso al muro, oppure scegli una foto dalla libreria: l’app legge ID e password e connette questo iPhone.
+Se il testo letto non è chiaro, trascina nel campo di ID o password un frammento ritagliato dalla foto.
+Puoi anche inserire i dati a mano oppure creare solo il codice QR, senza connetterti.
+
+Condividi con un solo QR
+L’app riconosce la rete Wi-Fi a cui sei connesso e crea un codice QR che connette un amico non appena lo inquadra con la fotocamera.
+Invia l’immagine del QR in un messaggio oppure condividi il tuo hotspot come codice QR.
+
+Crea un cartello per gli ospiti
+Scegli tra 7 temi e aggiungi il nome del locale, il logo e righe tue, come gli orari.
+Puoi scegliere tra scheda e poster A4 verticale, salvarlo come immagine o stamparlo subito con AirPrint.
+Tieni più cartelli, uno per ogni locale o tavolo, e modificali quando vuoi.
+
+Widget e mappa
+Metti il QR della tua Wi-Fi preferita nella schermata Home o nella schermata di blocco. Toccandolo si apre un QR grande.
+I luoghi in cui ti sei connesso restano sulla mappa e, quando ci torni, la rete di quel posto compare per prima.
+
+Privacy
+I dati Wi-Fi salvati restano su questo dispositivo e non vengono inviati a nessun server.
 
 ### 지원 URL
 

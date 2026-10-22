@@ -33,6 +33,12 @@
             "value" : "Copie de %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia di %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -95,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aperçu de l’affichette invités pour %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anteprima del cartello per gli ospiti di %@"
           }
         },
         "ja" : {
@@ -161,6 +173,12 @@
             "value" : "QR code de connexion à %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR per connettersi a %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -223,6 +241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR Wi-Fi de %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi di %@"
           }
         },
         "ja" : {
@@ -289,6 +313,12 @@
             "value" : "Fragment « %@ »"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frammento «%@»"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -351,6 +381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La connexion à « %@ » est configurée.\nPour vérifier qu’elle fonctionne, l’app a besoin d’accéder à votre position. (Réglages > MyFi > Position)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connessione a «%@» configurata.\nPer verificare che sia attiva, l’app ha bisogno dell’accesso alla posizione. (Impostazioni > MyFi > Posizione)"
           }
         },
         "ja" : {
@@ -417,6 +453,12 @@
             "value" : "Impossible de se connecter à « %@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile connettersi a «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -479,6 +521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouvel essai avec « %@ »…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuovo tentativo come «%@»…"
           }
         },
         "ja" : {
@@ -545,6 +593,12 @@
             "value" : "Connecté à « %@ »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connesso a «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -607,6 +661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Affiche A4"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poster A4"
           }
         },
         "ja" : {
@@ -673,6 +733,12 @@
             "value" : "Verrouillage par Face ID"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocco con Face ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -735,6 +801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verrouillez l’app avec Face ID ou Touch ID pour protéger vos mots de passe enregistrés."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocca l’app con Face ID o Touch ID per proteggere le password salvate."
           }
         },
         "ja" : {
@@ -801,6 +873,12 @@
             "value" : "Création du QR code…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creazione del QR…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -863,6 +941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer le QR code"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea QR"
           }
         },
         "ja" : {
@@ -929,6 +1013,12 @@
             "value" : "Création du QR code impossible"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile creare il QR"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -991,6 +1081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager l’image du QR code"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi immagine del QR"
           }
         },
         "ja" : {
@@ -1057,6 +1153,12 @@
             "value" : "Si vous ne créez que le QR code, cet iPhone ne se connecte pas et se contente d’enregistrer le réseau. Si le mot de passe est faux, le QR code ne connectera pas non plus : vérifiez-le."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se crei solo il QR, questo iPhone non si connette ma salva soltanto la rete. Se la password è sbagliata, nemmeno il QR si connetterà: controllala."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1119,6 +1221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impossible de créer le QR code."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile creare il QR."
           }
         },
         "ja" : {
@@ -1185,6 +1293,12 @@
             "value" : "SSID (nom du réseau Wi-Fi)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (nome della rete Wi-Fi)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1247,6 +1361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le préfixe du SSID n’est pas valide."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il prefisso SSID non è valido."
           }
         },
         "ja" : {
@@ -1313,6 +1433,12 @@
             "value" : "Plus pratique avec VoiceOver"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più comoda con VoiceOver"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1375,6 +1501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Question"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Richiesta"
           }
         },
         "ja" : {
@@ -1441,6 +1573,12 @@
             "value" : "iOS ne transmet pas aux apps la liste des réseaux Wi-Fi enregistrés ; la capture d’écran est donc le seul moyen."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS non fornisce alle app l’elenco delle reti Wi-Fi salvate, quindi lo screenshot è l’unico modo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1503,6 +1641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inclure dans l’import"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Includi nell’importazione"
           }
         },
         "ja" : {
@@ -1569,6 +1713,12 @@
             "value" : "%lld noms importés"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nomi importati"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1631,6 +1781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salta"
           }
         },
         "ja" : {
@@ -1697,6 +1853,12 @@
             "value" : "Enregistré dès que vous modifiez"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salvato appena modifichi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1759,6 +1921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi"
           }
         },
         "ja" : {
@@ -1825,6 +1993,12 @@
             "value" : "Réseaux proches en premier"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima le reti vicine"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1887,6 +2061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rétablir le texte"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina testo"
           }
         },
         "ja" : {
@@ -1953,6 +2133,12 @@
             "value" : "Les écrans se réorganisent au lieu d’être tronqués quand vous agrandissez le texte."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se ingrandisci il testo, le schermate si riorganizzano senza tagliare nulla."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2015,6 +2201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchronisation entre appareils"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizzazione tra dispositivi"
           }
         },
         "ja" : {
@@ -2081,6 +2273,12 @@
             "value" : "Vos réseaux et affichettes enregistrés vous suivent quand vous changez d’appareil."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le reti e i cartelli salvati ti seguono quando cambi dispositivo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2143,6 +2341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer toutes mes données"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutti i miei dati"
           }
         },
         "ja" : {
@@ -2209,6 +2413,12 @@
             "value" : "Mon affichette"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il mio cartello"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2271,6 +2481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mes affichettes (%lld)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I miei cartelli (%lld)"
           }
         },
         "ja" : {
@@ -2337,6 +2553,12 @@
             "value" : "Mon point d’accès"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il mio hotspot"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2399,6 +2621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réseau"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rete"
           }
         },
         "ja" : {
@@ -2465,6 +2693,12 @@
             "value" : "Libellé du réseau"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etichetta della rete"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2527,6 +2761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le nom du réseau (SSID) n’est pas valide."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il nome della rete (SSID) non è valido."
           }
         },
         "ja" : {
@@ -2593,6 +2833,12 @@
             "value" : "Vérifiez les informations du réseau."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controlla i dati della rete."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2655,6 +2901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir une autre capture"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli un altro screenshot"
           }
         },
         "ja" : {
@@ -2721,6 +2973,12 @@
             "value" : "Suivant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2783,6 +3041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mode sombre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modalità scura"
           }
         },
         "ja" : {
@@ -2849,6 +3113,12 @@
             "value" : "Fermer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2911,6 +3181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout reste lisible, même avec un contraste renforcé ou si les couleurs sont difficiles à distinguer."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto resta leggibile, anche con contrasto elevato o se fai fatica a distinguere i colori."
           }
         },
         "ja" : {
@@ -2977,6 +3253,12 @@
             "value" : "Utilisez l’app dans davantage de langues."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa l’app in più lingue."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3039,6 +3321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus de langues"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più lingue"
           }
         },
         "ja" : {
@@ -3105,6 +3393,12 @@
             "value" : "Aide"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aiuto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3169,6 +3463,12 @@
             "value" : "Touchez deux fois pour revenir au QR code."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca due volte per tornare al QR."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3228,6 +3528,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Design"
@@ -3297,6 +3603,12 @@
             "value" : "MyFi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3359,6 +3671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gardez uniquement les bons noms, touchez pour corriger les lettres erronées, puis touchez « Ajouter » en haut à droite."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascia attivi solo quelli giusti, tocca per correggere le lettere sbagliate e poi tocca «Aggiungi» in alto a destra."
           }
         },
         "ja" : {
@@ -3425,6 +3743,12 @@
             "value" : "Logo de l’établissement"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logo del locale"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3487,6 +3811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nom de l’établissement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome del locale"
           }
         },
         "ja" : {
@@ -3553,6 +3883,12 @@
             "value" : "Créez une affichette Wi-Fi pour votre établissement ou votre maison,\npuis imprimez-la ou partagez-la en image."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea un cartello Wi-Fi per il tuo locale o la tua casa,\npoi stampalo o condividilo come immagine."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3615,6 +3951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dernière ligne (masquée si vide)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultima riga (nascosta se vuota)"
           }
         },
         "ja" : {
@@ -3681,6 +4023,12 @@
             "value" : "La carte de l’écran principal affiche la dernière affichette modifiée. Balayez vers la gauche pour dupliquer ou supprimer."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La scheda della schermata principale mostra l’ultimo cartello modificato. Scorri verso sinistra per duplicare o eliminare."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3745,6 +4093,12 @@
             "value" : "Nous écrire par e-mail (%@)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivici via e-mail (%@)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3804,6 +4158,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mono"
@@ -3873,6 +4233,12 @@
             "value" : "Gestes rapides dans la liste"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Azioni rapide nell’elenco"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3935,6 +4301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir un réseau dans la liste"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli una rete dall’elenco"
           }
         },
         "ja" : {
@@ -4001,6 +4373,12 @@
             "value" : "Wi-Fi gratuit"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi gratuito"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4063,6 +4441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contatti"
           }
         },
         "ja" : {
@@ -4129,6 +4513,12 @@
             "value" : "Minuit"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mezzanotte"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4191,6 +4581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aperçu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anteprima"
           }
         },
         "ja" : {
@@ -4257,6 +4653,12 @@
             "value" : "Menthe"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4319,6 +4721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sauvegarde et export"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup ed esportazione"
           }
         },
         "ja" : {
@@ -4385,6 +4793,12 @@
             "value" : "Badge (masqué si vide)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badge (nascosto se vuoto)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4447,6 +4861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Changer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambia"
           }
         },
         "ja" : {
@@ -4513,6 +4933,12 @@
             "value" : "Couleurs et contrastes plus confortables"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colori e contrasto più comodi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4575,6 +5001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le développeur lit lui-même chacun de vos messages."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lo sviluppatore legge di persona ogni messaggio che invii."
           }
         },
         "ja" : {
@@ -4641,6 +5073,12 @@
             "value" : "Avant de le montrer, activez « Autoriser d’autres personnes à rejoindre » dans Réglages > Partage de connexion. Si l’option est désactivée, le réseau restera introuvable même en scannant le QR code."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima di mostrarlo, attiva «Consenti ad altri di accedere» in Impostazioni > Hotspot personale. Se è disattivato, la rete non verrà trovata nemmeno inquadrando il QR."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4703,6 +5141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il suffit de montrer pour se connecter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basta mostrarlo per connettersi"
           }
         },
         "ja" : {
@@ -4769,6 +5213,12 @@
             "value" : "Dupliquer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4831,6 +5281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mot de passe"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
           }
         },
         "ja" : {
@@ -4897,6 +5353,12 @@
             "value" : "Libellé du mot de passe"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etichetta della password"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4959,6 +5421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Afficher le mot de passe"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra password"
           }
         },
         "ja" : {
@@ -5025,6 +5493,12 @@
             "value" : "Copier le mot de passe"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia password"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5087,6 +5561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mot de passe copié"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password copiata"
           }
         },
         "ja" : {
@@ -5153,6 +5633,12 @@
             "value" : "Masquer le mot de passe"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nascondi password"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5215,6 +5701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer le mot de passe"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella password"
           }
         },
         "ja" : {
@@ -5281,6 +5773,12 @@
             "value" : "Afficher le mot de passe"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra password"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5343,6 +5841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le format du mot de passe n’est pas valide. (WEP : 5 ou 13 caractères)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il formato della password non è valido. (WEP: 5 o 13 caratteri)"
           }
         },
         "ja" : {
@@ -5409,6 +5913,12 @@
             "value" : "Le format du mot de passe n’est pas valide. (WPA : 8 à 63 caractères)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il formato della password non è valido. (WPA: da 8 a 63 caratteri)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5471,6 +5981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le mot de passe fait %lld caractères. Un mot de passe Wi-Fi doit en compter au moins 8 (5 ou 13 pour les anciennes clés WEP). Vérifiez qu’il ne manque aucun caractère."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La password è di %lld caratteri. Le password Wi-Fi devono avere almeno 8 caratteri (le vecchie chiavi WEP, 5 o 13). Controlla che non manchi nessun carattere."
           }
         },
         "ja" : {
@@ -5537,6 +6053,12 @@
             "value" : "Placer comme mot de passe"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa come password"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5599,6 +6121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lu à partir du QR code de la photo."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letto dal QR nella foto."
           }
         },
         "ja" : {
@@ -5665,6 +6193,12 @@
             "value" : "Connexion avec une seule photo"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connettiti con una sola foto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5727,6 +6261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Identifiant et mot de passe introuvables sur la photo. Saisissez-les à la main ou reprenez la photo de plus près et plus nettement."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nella foto non sono stati trovati ID e password. Inseriscili a mano o scatta di nuovo più da vicino e più nitida."
           }
         },
         "ja" : {
@@ -5793,6 +6333,12 @@
             "value" : "Noms lus sur la photo : choisissez le bon"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nomi letti dalla foto: scegli quello giusto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5855,6 +6401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lu sur la photo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letto dalla foto"
           }
         },
         "ja" : {
@@ -5921,6 +6473,12 @@
             "value" : "Remplir à partir d’une photo"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compila da una foto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5983,6 +6541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina"
           }
         },
         "ja" : {
@@ -6049,6 +6613,12 @@
             "value" : "Nouvelle affichette"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuovo cartello"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6111,6 +6681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coucher de soleil"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tramonto"
           }
         },
         "ja" : {
@@ -6177,6 +6753,12 @@
             "value" : "Choisir"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6239,6 +6821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Facultatif : affiché en haut"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Facoltativo: mostrato in alto"
           }
         },
         "ja" : {
@@ -6305,6 +6893,12 @@
             "value" : "Non sélectionné"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non selezionato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6367,6 +6961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sélectionné"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selezionato"
           }
         },
         "ja" : {
@@ -6433,6 +7033,12 @@
             "value" : "Réglages"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6495,6 +7101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importer la liste depuis une capture des Réglages…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importa elenco da uno screenshot di Impostazioni…"
           }
         },
         "ja" : {
@@ -6561,6 +7173,12 @@
             "value" : "Retour haptique"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Risposta aptica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6623,6 +7241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer une affichette pour vos invités"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea cartelli per gli ospiti"
           }
         },
         "ja" : {
@@ -6689,6 +7313,12 @@
             "value" : "Imprimer ou partager l’affichette invités"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stampa o condividi il cartello per gli ospiti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6751,6 +7381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réseau Wi-Fi scanné"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi scansionata"
           }
         },
         "ja" : {
@@ -6817,6 +7453,12 @@
             "value" : "Ce réseau est géré par les réglages système et ne peut pas être modifié."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa rete è gestita dalle impostazioni di sistema e non può essere modificata."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6879,6 +7521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Commencer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia"
           }
         },
         "ja" : {
@@ -6945,6 +7593,12 @@
             "value" : "Touchez un fragment ci-dessous ou saisissez à la main"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca un frammento qui sotto o inserisci a mano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7007,6 +7661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez un fragment ci-dessous pour le placer dans le champ vide. Maintenez-le pour choisir identifiant ou mot de passe, ou faites-le glisser."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca un frammento qui sotto e andrà nel campo vuoto. Tieni premuto per scegliere tra ID e password, oppure trascinalo."
           }
         },
         "ja" : {
@@ -7073,6 +7733,12 @@
             "value" : "Identifiant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7135,6 +7801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Effacer l’identifiant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella ID"
           }
         },
         "ja" : {
@@ -7201,6 +7873,12 @@
             "value" : "Placer comme identifiant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa come ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7263,6 +7941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Faites une capture de l’écran « Réglages > Wi-Fi » de l’iPhone puis choisissez-la ici : l’app lit les noms de la liste."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fai uno screenshot della schermata «Impostazioni > Wi-Fi» dell’iPhone e sceglilo qui: l’app legge i nomi dell’elenco."
           }
         },
         "ja" : {
@@ -7329,6 +8013,12 @@
             "value" : "Message"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messaggio"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7391,6 +8081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photographier l’affichette"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografa cartello"
           }
         },
         "ja" : {
@@ -7457,6 +8153,12 @@
             "value" : "Affichette %lld"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cartello %lld"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7519,6 +8221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer une affichette"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea cartello"
           }
         },
         "ja" : {
@@ -7585,6 +8293,12 @@
             "value" : "Nom de l’affichette (visible uniquement dans la liste)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome del cartello (visibile solo nell’elenco)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7647,6 +8361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager ou imprimer l’image de l’affichette"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi o stampa l’immagine del cartello"
           }
         },
         "ja" : {
@@ -7713,6 +8433,12 @@
             "value" : "Texte imprimé sur l’affichette"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testo stampato sul cartello"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7775,6 +8501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si l’app se ferme pendant que vous créez une affichette, votre travail est conservé."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se l’app si chiude mentre crei un cartello, il tuo lavoro resta com’era."
           }
         },
         "ja" : {
@@ -7841,6 +8573,12 @@
             "value" : "Une erreur inconnue s’est produite. Vérifiez que vous êtes à portée du réseau."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si è verificato un errore sconosciuto. Controlla di essere nel raggio della rete."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7903,6 +8641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alertes Wi-Fi à proximité"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvisi Wi-Fi nelle vicinanze"
           }
         },
         "ja" : {
@@ -7969,6 +8713,12 @@
             "value" : "Photothèque"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libreria"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8031,6 +8781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réessayez avec l’app ouverte à l’écran."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprova con l’app aperta sullo schermo."
           }
         },
         "ja" : {
@@ -8097,6 +8853,12 @@
             "value" : "Le texte et les boutons restent nets en mode sombre."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testo e pulsanti restano nitidi anche in modalità scura."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8159,6 +8921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla prima apertura dopo un aggiornamento, scopri le novità."
           }
         },
         "ja" : {
@@ -8225,6 +8993,12 @@
             "value" : "Nouveautés"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novità"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8287,6 +9061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun (réseau ouvert)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna (rete aperta)"
           }
         },
         "ja" : {
@@ -8353,6 +9133,12 @@
             "value" : "Réseaux enregistrés ici"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi salvate qui"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8415,6 +9201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connetti"
           }
         },
         "ja" : {
@@ -8481,6 +9273,12 @@
             "value" : "Connexion impossible"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connessione non riuscita"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8543,6 +9341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer le QR code sans connexion"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea QR senza connettere"
           }
         },
         "ja" : {
@@ -8609,6 +9413,12 @@
             "value" : "Connexion…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connessione…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8671,6 +9481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il faut appuyer sur « Se connecter » dans la fenêtre de confirmation. Réessayez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devi toccare «Connetti» nella finestra di conferma. Riprova."
           }
         },
         "ja" : {
@@ -8737,6 +9553,12 @@
             "value" : "QR code de connexion"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR per connettersi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8799,6 +9621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prise en charge de l’anglais"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporto per l’inglese"
           }
         },
         "ja" : {
@@ -8865,6 +9693,12 @@
             "value" : "Ajoutez le texte de votre choix, ligne par ligne : horaires, compte Instagram, consignes de l’établissement…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi il testo che vuoi, riga per riga: orari, account Instagram, regole del locale…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8927,6 +9761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ex. : Pour la caisse"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es.: Per la cassa"
           }
         },
         "ja" : {
@@ -8993,6 +9833,12 @@
             "value" : "Ex. : Lounge Café"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es.: Lounge Café"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9055,6 +9901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ex. : Ouvert de 9 h à 22 h"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es.: Aperto dalle 9:00 alle 22:00"
           }
         },
         "ja" : {
@@ -9121,6 +9973,12 @@
             "value" : "Océan"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oceano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9180,6 +10038,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR Wi-Fi"
@@ -9249,6 +10113,12 @@
             "value" : "Afficher le QR Wi-Fi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra QR Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9311,6 +10181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importer la liste Wi-Fi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importa elenco Wi-Fi"
           }
         },
         "ja" : {
@@ -9377,6 +10253,12 @@
             "value" : "Détails du réseau Wi-Fi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dettagli Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9439,6 +10321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir un réseau Wi-Fi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli Wi-Fi"
           }
         },
         "ja" : {
@@ -9505,6 +10393,12 @@
             "value" : "Photographier une affichette Wi-Fi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografa cartello Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9567,6 +10461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nom du réseau Wi-Fi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome della rete Wi-Fi"
           }
         },
         "ja" : {
@@ -9633,6 +10533,12 @@
             "value" : "Le nom du réseau Wi-Fi est trop long. (32 octets maximum)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il nome della rete Wi-Fi è troppo lungo. (massimo 32 byte)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9695,6 +10601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le nom du réseau Wi-Fi est vide."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il nome della rete Wi-Fi è vuoto."
           }
         },
         "ja" : {
@@ -9761,6 +10673,12 @@
             "value" : "Ajouter un réseau Wi-Fi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9823,6 +10741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une légère vibration quand vous vous connectez ou qu’un texte est reconnu."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una leggera vibrazione quando ti connetti o il testo viene riconosciuto."
           }
         },
         "ja" : {
@@ -9889,6 +10813,12 @@
             "value" : "Quand vous vous connectez à un réseau ou le partagez depuis « Ici », son lieu est noté sur le plan."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando ti connetti a una rete o la condividi da «Qui», il luogo viene registrato sulla mappa."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9951,6 +10881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terminé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fine"
           }
         },
         "ja" : {
@@ -10017,6 +10953,12 @@
             "value" : "L’app et les affichettes aussi en anglais, pour que vos visiteurs étrangers puissent les lire."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App e cartelli anche in inglese, così li capiscono pure gli ospiti stranieri."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10079,6 +11021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réduire les animations"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riduci movimento"
           }
         },
         "ja" : {
@@ -10145,6 +11093,12 @@
             "value" : "Avec « Réduire les animations » activé, les effets à l’écran se font plus discrets."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con «Riduci movimento» attivo, gli effetti sullo schermo diventano più sobri."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10207,6 +11161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimez depuis l’app tous les réseaux et affichettes enregistrés."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina dall’app tutte le reti e i cartelli salvati."
           }
         },
         "ja" : {
@@ -10273,6 +11233,12 @@
             "value" : "Avis et commentaires"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opinioni e recensioni"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10335,6 +11301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce réseau ne prend pas en charge la connexion ponctuelle."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa rete non supporta la connessione una tantum."
           }
         },
         "ja" : {
@@ -10401,6 +11373,12 @@
             "value" : "Supprimer cette ligne"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina questa riga"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10463,6 +11441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Montrez cette carte"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra questa scheda"
           }
         },
         "ja" : {
@@ -10529,6 +11513,12 @@
             "value" : "Connecter cet iPhone"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connetti questo iPhone"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10591,6 +11581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Configuré sur cet iPhone"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurata su questo iPhone"
           }
         },
         "ja" : {
@@ -10657,6 +11653,12 @@
             "value" : "Connectez cet iPhone, ou créez simplement le QR code sans vous connecter"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connetti questo iPhone oppure crea solo il QR senza connetterti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10719,6 +11721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réseaux Wi-Fi connus de cet iPhone"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reti Wi-Fi note a questo iPhone"
           }
         },
         "ja" : {
@@ -10785,6 +11793,12 @@
             "value" : "Noms connus de cet iPhone"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nomi noti a questo iPhone"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10847,6 +11861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Il s’écrit peut-être ainsi :"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potrebbe essere scritto così:"
           }
         },
         "ja" : {
@@ -10913,6 +11933,12 @@
             "value" : "Lecture des noms…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lettura dei nomi…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10975,6 +12001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vérifiez que le nom et le mot de passe sont exacts, majuscules et minuscules comprises, et que vous êtes à portée."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controlla che nome e password siano esatti, maiuscole e minuscole comprese, e che tu sia nel raggio della rete."
           }
         },
         "ja" : {
@@ -11041,6 +12073,12 @@
             "value" : "Aucun nom trouvé. Refaites une capture où la liste est bien visible, ou saisissez-les ci-dessous."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun nome trovato. Rifai lo screenshot con l’elenco ben visibile oppure scrivili qui sotto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11103,6 +12141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Déjà connecté."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Già connesso."
           }
         },
         "ja" : {
@@ -11169,6 +12213,12 @@
             "value" : "Une demande de connexion précédente est en cours de traitement. Réessayez dans un instant."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una richiesta di connessione precedente è ancora in corso. Riprova tra un attimo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11231,6 +12281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Message Instagram (@lee25_ios)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messaggio su Instagram (@lee25_ios)"
           }
         },
         "ja" : {
@@ -11297,6 +12353,12 @@
             "value" : "Reconnaissance…"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riconoscimento…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11359,6 +12421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld noms lus"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nomi letti"
           }
         },
         "ja" : {
@@ -11425,6 +12493,12 @@
             "value" : "Réseaux enregistrés"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reti salvate"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11487,6 +12561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun réseau enregistré"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna rete salvata"
           }
         },
         "ja" : {
@@ -11553,6 +12633,12 @@
             "value" : "Plan des réseaux Wi-Fi enregistrés"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mappa delle reti Wi-Fi salvate"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11615,6 +12701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recevez une notification en arrivant dans un lieu où un réseau est enregistré."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricevi una notifica quando arrivi in un luogo con una rete salvata."
           }
         },
         "ja" : {
@@ -11681,6 +12773,12 @@
             "value" : "Les réseaux enregistrés sont mémorisés avec leur lieu. Quand vous y revenez, ils remontent en haut de la liste avec le badge « 📍 À proximité »."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le reti salvate vengono ricordate insieme al luogo. Quando ci torni, salgono in cima all’elenco con il badge «📍 Vicino»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11743,6 +12841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enregistrez vos réseaux et affichettes dans un fichier et rechargez-les plus tard."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva reti e cartelli in un file e ripristinali quando vuoi."
           }
         },
         "ja" : {
@@ -11809,6 +12913,12 @@
             "value" : "Appliqué"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applicato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11871,6 +12981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retirer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rimuovi"
           }
         },
         "ja" : {
@@ -11937,6 +13053,12 @@
             "value" : "Titre"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titolo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11999,6 +13121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez les fragments pour remplir"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca i frammenti per compilare"
           }
         },
         "ja" : {
@@ -12065,6 +13193,12 @@
             "value" : "Ajouter une ligne"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi riga"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12127,6 +13261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Montrez le QR code du réseau Wi-Fi auquel vous êtes connecté.\nVotre ami le scanne et se connecte sans connaître le mot de passe."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra il QR della rete Wi-Fi a cui sei connesso.\nQuando un amico lo inquadra, si connette senza conoscere la password."
           }
         },
         "ja" : {
@@ -12193,6 +13333,12 @@
             "value" : "Ouvre le QR du réseau Wi-Fi auquel vous êtes connecté. S’il n’est pas enregistré, ouvre le dernier réseau enregistré."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apre il QR della rete Wi-Fi a cui sei connesso. Se non è salvata, apre l’ultima rete che hai salvato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12255,6 +13401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecté actuellement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connessa ora"
           }
         },
         "ja" : {
@@ -12321,6 +13473,12 @@
             "value" : "Plan"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mappa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12383,6 +13541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun lieu à afficher sur le plan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun luogo da mostrare sulla mappa"
           }
         },
         "ja" : {
@@ -12449,6 +13613,12 @@
             "value" : "Lignes personnalisées"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Righe personalizzate"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12511,6 +13681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld lignes personnalisées"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld righe personalizzate"
           }
         },
         "ja" : {
@@ -12577,6 +13753,12 @@
             "value" : "Saisie manuelle"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inserisci a mano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12639,6 +13821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saisir à la main…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inserisci a mano…"
           }
         },
         "ja" : {
@@ -12705,6 +13893,12 @@
             "value" : "Réseau Wi-Fi saisi à la main"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi inserita a mano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12767,6 +13961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter à la main"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi a mano"
           }
         },
         "ja" : {
@@ -12833,6 +14033,12 @@
             "value" : "Revoir la présentation"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rivedi l’introduzione"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12895,6 +14101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotocamera"
           }
         },
         "ja" : {
@@ -12961,6 +14173,12 @@
             "value" : "Photo, bibliothèque ou saisie manuelle"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto, libreria o inserimento a mano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13023,6 +14241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi"
           }
         },
         "ja" : {
@@ -13089,6 +14313,12 @@
             "value" : "Quand un ami scanne le QR code avec son appareil photo, il se connecte sans mot de passe. Balayez ou touchez la carte pour voir l’aperçu de l’affichette pour vos invités."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando un amico inquadra il QR con la fotocamera, si connette senza password. Scorri o tocca la scheda per vedere l’anteprima del cartello per gli ospiti."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13151,6 +14381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carte"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scheda"
           }
         },
         "ja" : {
@@ -13217,6 +14453,12 @@
             "value" : "Scannez le QR code avec l’appareil photo pour vous connecter"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inquadra il QR con la fotocamera per connetterti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13279,6 +14521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scannez avec l’appareil photo pour vous connecter aussitôt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inquadra con la fotocamera per connetterti subito"
           }
         },
         "ja" : {
@@ -13345,6 +14593,12 @@
             "value" : "Scannez-le avec l’appareil photo pour vous connecter sans mot de passe. Touchez deux fois pour passer à l’aperçu de l’affichette."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inquadralo con la fotocamera per connetterti senza password. Tocca due volte per passare all’anteprima del cartello."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13407,6 +14661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvre l’appareil photo : photographiez une affichette Wi-Fi pour lire le nom du réseau et le mot de passe."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apre la fotocamera: fotografa un cartello Wi-Fi per leggere nome della rete e password."
           }
         },
         "ja" : {
@@ -13473,6 +14733,12 @@
             "value" : "Café"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caffè"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13535,6 +14801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photographiez une affichette Wi-Fi dans un café ou un logement, ou choisissez une photo.\nL’app lit le nom et le mot de passe puis connecte cet iPhone."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografa un cartello Wi-Fi in un bar o in una struttura, oppure scegli una foto.\nL’app legge nome e password e connette questo iPhone."
           }
         },
         "ja" : {
@@ -13601,6 +14873,12 @@
             "value" : "Photographiez une affichette Wi-Fi dans un café ou un logement, ou choisissez une photo : l’app lit l’identifiant et le mot de passe, puis se connecte."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografa un cartello Wi-Fi in un bar o in una struttura, oppure scegli una foto: l’app legge ID e password e si connette."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13663,6 +14941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir une capture"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli screenshot"
           }
         },
         "ja" : {
@@ -13729,6 +15013,12 @@
             "value" : "Importé d’une capture"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importata da uno screenshot"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13791,6 +15081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écrans adaptés au texte agrandi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermate per testo grande"
           }
         },
         "ja" : {
@@ -13857,6 +15153,12 @@
             "value" : "Touchez pour le placer dans un champ vide. Maintenez pour choisir le champ."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca per inserirlo nel campo vuoto. Tieni premuto per scegliere il campo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13919,6 +15221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bon séjour"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buona connessione"
           }
         },
         "ja" : {
@@ -13985,6 +15293,12 @@
             "value" : "Écran d’iPhone pliable"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermo di iPhone pieghevole"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14047,6 +15361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sur un iPhone pliable, le grand écran se divise en deux volets."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su un iPhone pieghevole, il display ampio si divide in due riquadri."
           }
         },
         "ja" : {
@@ -14113,6 +15433,12 @@
             "value" : "Forêt"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foresta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14175,6 +15501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reprendre où vous en étiez"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprendi da dove avevi lasciato"
           }
         },
         "ja" : {
@@ -14241,6 +15573,12 @@
             "value" : "Cet iPhone ne peut pas se connecter à un point d’accès. Créez un QR code et montrez-le à l’autre personne."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questo iPhone non può connettersi a un hotspot. Crea un QR e mostralo all’altra persona."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14303,6 +15641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez une ligne pour ouvrir son QR code et ses détails. Balayez vers la droite pour connecter cet iPhone, vers la gauche pour partager le QR code."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca una riga per aprire QR e dettagli. Scorri verso destra per connettere questo iPhone, verso sinistra per condividere il QR."
           }
         },
         "ja" : {
@@ -14369,6 +15713,12 @@
             "value" : "Format"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14433,6 +15783,12 @@
             "value" : "VoiceOver lit toutes les infos du réseau et tous les boutons, dans le bon ordre."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver legge ogni dato della rete e ogni pulsante, nell’ordine giusto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14492,6 +15848,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -14561,6 +15923,12 @@
             "value" : "📍 À proximité"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Vicino"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14623,6 +15991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Ici"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Qui"
           }
         },
         "ja" : {
@@ -14689,6 +16063,12 @@
             "value" : "📍 Connecté actuellement"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Connessa ora"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14751,6 +16131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Point d’accès"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Hotspot"
           }
         },
         "ja" : {

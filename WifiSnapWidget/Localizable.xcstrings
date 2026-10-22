@@ -33,6 +33,12 @@
             "value" : "Connectez-vous une fois dans l’app et le QR code s’affichera ici"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connettiti una volta nell’app e qui comparirà il QR"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -92,6 +98,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -161,6 +173,12 @@
             "value" : "QR Wi-Fi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -223,6 +241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir un réseau Wi-Fi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli Wi-Fi"
           }
         },
         "ja" : {
@@ -289,6 +313,12 @@
             "value" : "Choisissez le réseau Wi-Fi à épingler au widget. Sans choix, le dernier réseau auquel vous vous êtes connecté s’affiche."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli la rete Wi-Fi da fissare al widget. Se non ne scegli nessuna, mostra l’ultima a cui ti sei connesso."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -351,6 +381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun réseau Wi-Fi enregistré"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna rete Wi-Fi salvata"
           }
         },
         "ja" : {
@@ -417,6 +453,12 @@
             "value" : "Affiche le QR code du réseau Wi-Fi auquel vous êtes connecté. Maintenez le doigt puis choisissez « Modifier le widget » pour épingler un réseau précis."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra il QR della rete Wi-Fi a cui sei connesso. Tieni premuto e scegli «Modifica widget» per fissare una rete specifica."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -479,6 +521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecté actuellement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connessa ora"
           }
         },
         "ja" : {
@@ -545,6 +593,12 @@
             "value" : "Scannez pour vous connecter"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inquadra per connetterti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -607,6 +661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez pour un grand QR code"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca per un QR grande"
           }
         },
         "ja" : {

@@ -74,3 +74,10 @@ Les photos sont lues plus précisément.
 Correction de pannes de connexion.
 Créez un QR code sans vous connecter.
 Partagez votre point d’accès en QR code.
+
+### 앱스토어 (이탈리아어)
+
+Le foto sono lette con più precisione.
+Risolti alcuni problemi di connessione.
+Crea un QR senza connetterti.
+Condividi il tuo hotspot con un QR.

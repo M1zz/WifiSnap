@@ -33,6 +33,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -95,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Afficher le QR Wi-Fi dans ${applicationName}"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra il QR Wi-Fi con ${applicationName}"
           }
         },
         "ja" : {
@@ -161,6 +173,12 @@
             "value" : "${applicationName} photographier Wi-Fi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} fotografa Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -225,6 +243,12 @@
             "value" : "Photographier l’affichette Wi-Fi avec ${applicationName}"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografa il cartello Wi-Fi con ${applicationName}"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -287,6 +311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvrir le QR Wi-Fi dans ${applicationName}"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri il QR Wi-Fi in ${applicationName}"
           }
         },
         "ja" : {

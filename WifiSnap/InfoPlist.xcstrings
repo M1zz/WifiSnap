@@ -33,6 +33,12 @@
             "value" : "MyFi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -97,6 +103,12 @@
             "value" : "Sert à photographier les affichettes Wi-Fi pour reconnaître le nom du réseau et le mot de passe."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serve per fotografare i cartelli Wi-Fi e riconoscere nome della rete e password."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -159,6 +171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nécessaire pour vérifier le nom du réseau Wi-Fi auquel vous êtes connecté."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serve per verificare il nome della rete Wi-Fi a cui sei connesso."
           }
         },
         "ja" : {
