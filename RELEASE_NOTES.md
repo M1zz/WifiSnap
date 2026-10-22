@@ -53,3 +53,10 @@ Wi-Fiの接続が失敗することがある問題を修正しました。
 Исправили редкие сбои при подключении.
 QR-код можно создать без подключения.
 Свой хотспот тоже раздаётся по QR-коду.
+
+### 앱스토어 (스페인어)
+
+Leemos mejor la Wi-Fi de las fotos.
+Corregidos fallos de conexión.
+Crea un QR sin necesidad de conectarte.
+Comparte tu punto de acceso con un QR.

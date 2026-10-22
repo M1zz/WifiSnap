@@ -15,6 +15,12 @@
             "value" : "%@ copy"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia de %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59,6 +65,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guest sign preview for %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vista previa del cartel para invitados de %@"
           }
         },
         "ja" : {
@@ -107,6 +119,12 @@
             "value" : "QR code to connect to %@"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR para conectarse a %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Wi-Fi QR"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR de la Wi-Fi %@"
           }
         },
         "ja" : {
@@ -199,6 +223,12 @@
             "value" : "%@ piece"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fragmento «%@»"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -243,6 +273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set up the connection to “%@”.\nTo confirm it connected, the app needs location access. (Settings > MyFi > Location)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se configuró la conexión a «%@».\nPara comprobar que se conectó, la app necesita acceso a la ubicación. (Ajustes > MyFi > Ubicación)"
           }
         },
         "ja" : {
@@ -291,6 +327,12 @@
             "value" : "Couldn’t join “%@”."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo conectar a «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -335,6 +377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trying again as “%@”…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reintentando como «%@»…"
           }
         },
         "ja" : {
@@ -383,6 +431,12 @@
             "value" : "Connected to “%@”."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectado a «%@»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -427,6 +481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A4 poster"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Póster A4"
           }
         },
         "ja" : {
@@ -475,6 +535,12 @@
             "value" : "Face ID lock"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloqueo con Face ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -519,6 +585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock the app with Face ID or Touch ID to keep your saved passwords safe."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloquea la app con Face ID o Touch ID para proteger las contraseñas guardadas."
           }
         },
         "ja" : {
@@ -567,6 +639,12 @@
             "value" : "Making QR code…"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Creando QR…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -611,6 +689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Make QR code"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear QR"
           }
         },
         "ja" : {
@@ -659,6 +743,12 @@
             "value" : "Couldn’t make the QR code"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo crear el QR"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -703,6 +793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share QR image"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir imagen del QR"
           }
         },
         "ja" : {
@@ -751,6 +847,12 @@
             "value" : "Making only a QR code saves the network without connecting this phone. If the password is wrong, the QR code won’t connect either, so double-check it."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si solo creas el QR, este iPhone no se conecta: únicamente guarda la red. Si la contraseña es incorrecta, el QR tampoco conectará, así que revísala."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -795,6 +897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn’t make the QR code."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo crear el QR."
           }
         },
         "ja" : {
@@ -843,6 +951,12 @@
             "value" : "SSID (Wi-Fi name)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (nombre de la red Wi-Fi)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -887,6 +1001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The SSID prefix isn’t valid."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El prefijo del SSID no es válido."
           }
         },
         "ja" : {
@@ -935,6 +1055,12 @@
             "value" : "Better VoiceOver support"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más cómoda con VoiceOver"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -979,6 +1105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Question"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Consulta"
           }
         },
         "ja" : {
@@ -1027,6 +1159,12 @@
             "value" : "iOS doesn’t share your saved Wi-Fi list with apps, so a screenshot is the only way."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS no comparte con las apps la lista de redes Wi-Fi guardadas, así que la captura es la única forma."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1071,6 +1209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Include in import"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incluir en la importación"
           }
         },
         "ja" : {
@@ -1119,6 +1263,12 @@
             "value" : "%lld names imported"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nombres importados"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1163,6 +1313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skip"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omitir"
           }
         },
         "ja" : {
@@ -1211,6 +1367,12 @@
             "value" : "Saved as you type"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se guarda al instante"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1255,6 +1417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir"
           }
         },
         "ja" : {
@@ -1303,6 +1471,12 @@
             "value" : "Nearby networks first"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Primero las redes cercanas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1347,6 +1521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer texto"
           }
         },
         "ja" : {
@@ -1395,6 +1575,12 @@
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las pantallas se reorganizan para que nada se corte al aumentar el tamaño del texto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1439,6 +1625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sync across devices"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronización entre dispositivos"
           }
         },
         "ja" : {
@@ -1487,6 +1679,12 @@
             "value" : "Your saved networks and signs carry over when you switch devices."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus redes y carteles guardados se mantienen al cambiar de dispositivo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1531,6 +1729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erase all my data"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar todos mis datos"
           }
         },
         "ja" : {
@@ -1579,6 +1783,12 @@
             "value" : "My sign"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mi cartel"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1623,6 +1833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "My signs (%lld)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mis carteles (%lld)"
           }
         },
         "ja" : {
@@ -1671,6 +1887,12 @@
             "value" : "My hotspot"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mi punto de acceso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1715,6 +1937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Network"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Red"
           }
         },
         "ja" : {
@@ -1763,6 +1991,12 @@
             "value" : "Network label"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etiqueta de la red"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1807,6 +2041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The network name (SSID) isn’t valid."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El nombre de la red (SSID) no es válido."
           }
         },
         "ja" : {
@@ -1855,6 +2095,12 @@
             "value" : "Please check the network details."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revisa los datos de la red."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1899,6 +2145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick another screenshot"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir otra captura"
           }
         },
         "ja" : {
@@ -1947,6 +2199,12 @@
             "value" : "Next"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siguiente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1991,6 +2249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dark Mode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo oscuro"
           }
         },
         "ja" : {
@@ -2039,6 +2303,12 @@
             "value" : "Close"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2083,6 +2353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everything stays easy to read, even with Increase Contrast on or if colours are hard to tell apart."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo se lee bien, incluso con más contraste o si cuesta distinguir los colores."
           }
         },
         "ja" : {
@@ -2131,6 +2407,12 @@
             "value" : "Use the app in more languages."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa la app en más idiomas."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2175,6 +2457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More languages"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más idiomas"
           }
         },
         "ja" : {
@@ -2223,6 +2511,12 @@
             "value" : "Help"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayuda"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2267,6 +2561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Double-tap to go back to the QR code."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca dos veces para volver al QR."
           }
         },
         "ja" : {
@@ -2315,6 +2615,12 @@
             "value" : "Design"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseño"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2356,6 +2662,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -2407,6 +2719,12 @@
             "value" : "Keep on only the correct ones, tap a name to fix any wrong letters, then tap Add at the top right."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deja activados solo los correctos, toca para corregir las letras que estén mal y pulsa «Añadir» arriba a la derecha."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2451,6 +2769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shop logo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logotipo del local"
           }
         },
         "ja" : {
@@ -2499,6 +2823,12 @@
             "value" : "Shop name"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre del local"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2543,6 +2873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Design a Wi-Fi sign for your shop or home,\nthen print it or share it as an image."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea un cartel de Wi-Fi para tu local o tu casa\ny luego imprímelo o compártelo como imagen."
           }
         },
         "ja" : {
@@ -2591,6 +2927,12 @@
             "value" : "Bottom line (hidden if empty)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Línea final (se oculta si está vacía)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2635,6 +2977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The main screen card shows the sign you edited most recently. Swipe left to duplicate or delete."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La tarjeta de la pantalla principal muestra el último cartel que editaste. Desliza a la izquierda para duplicar o eliminar."
           }
         },
         "ja" : {
@@ -2683,6 +3031,12 @@
             "value" : "Email us (%@)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribir por correo (%@)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2724,6 +3078,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mono"
@@ -2775,6 +3135,12 @@
             "value" : "Quick actions in the list"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acciones rápidas en la lista"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2819,6 +3185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose from list"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir una red de la lista"
           }
         },
         "ja" : {
@@ -2867,6 +3239,12 @@
             "value" : "Free Wi-Fi"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi gratis"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2911,6 +3289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacto"
           }
         },
         "ja" : {
@@ -2959,6 +3343,12 @@
             "value" : "Midnight"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medianoche"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3003,6 +3393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Preview"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vista previa"
           }
         },
         "ja" : {
@@ -3051,6 +3447,12 @@
             "value" : "Mint"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3095,6 +3497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Backup and export"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia de seguridad y exportación"
           }
         },
         "ja" : {
@@ -3143,6 +3551,12 @@
             "value" : "Badge (hidden if empty)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insignia (se oculta si está vacía)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3187,6 +3601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiar"
           }
         },
         "ja" : {
@@ -3235,6 +3655,12 @@
             "value" : "Easier colours and contrast"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colores y contraste más cómodos"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3279,6 +3705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The developer reads every message you send."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El desarrollador lee personalmente cada mensaje que le envías."
           }
         },
         "ja" : {
@@ -3327,6 +3759,12 @@
             "value" : "Before showing this, turn on “Allow Others to Join” in Settings > Personal Hotspot. If it’s off, people who scan the QR code won’t find the network."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antes de mostrarlo, activa «Permitir que otros se unan» en Ajustes > Punto de acceso personal. Si está desactivado, quien escanee el QR no encontrará la red."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3371,6 +3809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Just show it to connect"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con solo mostrarlo, te conectas"
           }
         },
         "ja" : {
@@ -3419,6 +3863,12 @@
             "value" : "Duplicate"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplicar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3463,6 +3913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contraseña"
           }
         },
         "ja" : {
@@ -3511,6 +3967,12 @@
             "value" : "Password label"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etiqueta de la contraseña"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3555,6 +4017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show password"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar contraseña"
           }
         },
         "ja" : {
@@ -3603,6 +4071,12 @@
             "value" : "Copy password"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar contraseña"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3647,6 +4121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password copied"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contraseña copiada"
           }
         },
         "ja" : {
@@ -3695,6 +4175,12 @@
             "value" : "Hide password"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocultar contraseña"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3739,6 +4225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clear password"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar contraseña"
           }
         },
         "ja" : {
@@ -3787,6 +4279,12 @@
             "value" : "Show password"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar contraseña"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3831,6 +4329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The password isn’t valid. (WEP needs 5 or 13 characters)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El formato de la contraseña no es válido. (WEP: 5 o 13 caracteres)"
           }
         },
         "ja" : {
@@ -3879,6 +4383,12 @@
             "value" : "The password isn’t valid. (WPA needs 8–63 characters)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El formato de la contraseña no es válido. (WPA: de 8 a 63 caracteres)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3923,6 +4433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The password is %lld characters long. Wi-Fi passwords must be at least 8 characters (older WEP keys are 5 or 13). Check that no characters are missing."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La contraseña tiene %lld caracteres. Las contraseñas de Wi-Fi deben tener al menos 8 caracteres (las claves WEP antiguas, 5 o 13). Comprueba que no falte ningún carácter."
           }
         },
         "ja" : {
@@ -3971,6 +4487,12 @@
             "value" : "Use as password"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar como contraseña"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4015,6 +4537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Read from the QR code in the photo."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leído del QR de la foto."
           }
         },
         "ja" : {
@@ -4063,6 +4591,12 @@
             "value" : "Connect from a single photo"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conéctate con una sola foto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4107,6 +4641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn’t find an ID or password in the photo. Type them in, or try again closer and in sharper focus."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontró el usuario ni la contraseña en la foto. Escríbelos a mano o haz otra más cerca y más nítida."
           }
         },
         "ja" : {
@@ -4155,6 +4695,12 @@
             "value" : "Names read from the photo — pick the right one"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombres leídos de la foto: elige el correcto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4199,6 +4745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Read from photo"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leído de la foto"
           }
         },
         "ja" : {
@@ -4247,6 +4799,12 @@
             "value" : "Fill in from a photo"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rellenar con una foto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4291,6 +4849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
           }
         },
         "ja" : {
@@ -4339,6 +4903,12 @@
             "value" : "New sign"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cartel nuevo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4383,6 +4953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sunset"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atardecer"
           }
         },
         "ja" : {
@@ -4431,6 +5007,12 @@
             "value" : "Choose"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4475,6 +5057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Optional — shown at the top"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opcional: aparece arriba"
           }
         },
         "ja" : {
@@ -4523,6 +5111,12 @@
             "value" : "Not selected"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No seleccionado"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4567,6 +5161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selected"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleccionado"
           }
         },
         "ja" : {
@@ -4615,6 +5215,12 @@
             "value" : "Settings"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4659,6 +5265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Import list from a Settings screenshot…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importar lista desde una captura de Ajustes…"
           }
         },
         "ja" : {
@@ -4707,6 +5319,12 @@
             "value" : "Haptic feedback"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respuesta háptica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4751,6 +5369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Make a guest Wi-Fi sign"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea carteles para invitados"
           }
         },
         "ja" : {
@@ -4799,6 +5423,12 @@
             "value" : "Print or share a guest sign"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imprimir o compartir cartel para invitados"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4843,6 +5473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scanned Wi-Fi"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi escaneada"
           }
         },
         "ja" : {
@@ -4891,6 +5527,12 @@
             "value" : "This network is managed by system settings and can’t be changed."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta red se gestiona desde los ajustes del sistema y no se puede cambiar."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4935,6 +5577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get Started"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar"
           }
         },
         "ja" : {
@@ -4983,6 +5631,12 @@
             "value" : "Tap a piece below, or type it in"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca un fragmento de abajo o escribe a mano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5027,6 +5681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap a piece below to drop it into an empty field. Press and hold to choose between ID and password, or drag it into place."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca un fragmento de abajo y se colocará en el campo vacío. Mantén pulsado para elegir si va en el usuario o en la contraseña, o arrástralo."
           }
         },
         "ja" : {
@@ -5075,6 +5735,12 @@
             "value" : "ID"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuario"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5119,6 +5785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clear ID"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar usuario"
           }
         },
         "ja" : {
@@ -5167,6 +5839,12 @@
             "value" : "Use as ID"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar como usuario"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5211,6 +5889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Take a screenshot of the Wi-Fi screen in Settings, then pick it here and the app reads the network names in the list."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haz una captura de la pantalla «Ajustes > Wi-Fi» del iPhone y elígela aquí: la app leerá los nombres de la lista."
           }
         },
         "ja" : {
@@ -5259,6 +5943,12 @@
             "value" : "Message"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mensaje"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5303,6 +5993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scan sign"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografiar cartel"
           }
         },
         "ja" : {
@@ -5351,6 +6047,12 @@
             "value" : "Sign %lld"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cartel %lld"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5395,6 +6097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Make a sign"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear cartel"
           }
         },
         "ja" : {
@@ -5443,6 +6151,12 @@
             "value" : "Sign name (shown only in the list)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre del cartel (solo se ve en la lista)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5487,6 +6201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share or print sign image"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir o imprimir imagen del cartel"
           }
         },
         "ja" : {
@@ -5535,6 +6255,12 @@
             "value" : "Text printed on the sign"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto impreso en el cartel"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5579,6 +6305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your sign stays as it was, even if the app closes while you’re designing it."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si la app se cierra mientras diseñas un cartel, no pierdes lo que llevabas."
           }
         },
         "ja" : {
@@ -5627,6 +6359,12 @@
             "value" : "An unknown error occurred. Make sure you’re within range of the network."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se produjo un error desconocido. Comprueba que estés dentro del alcance de la red."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5671,6 +6409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nearby Wi-Fi alerts"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avisos de Wi-Fi cercanas"
           }
         },
         "ja" : {
@@ -5719,6 +6463,12 @@
             "value" : "Photos"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Galería"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5763,6 +6513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Please try again while the app is open on screen."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inténtalo con la app abierta en pantalla."
           }
         },
         "ja" : {
@@ -5811,6 +6567,12 @@
             "value" : "Text and buttons stay crisp and clear in Dark Mode."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El texto y los botones se ven nítidos también en modo oscuro."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5855,6 +6617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The first time you open the app after an update, see what’s new."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La primera vez que abras la app tras una actualización, verás las novedades."
           }
         },
         "ja" : {
@@ -5903,6 +6671,12 @@
             "value" : "What’s new"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novedades"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5947,6 +6721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "None (open network)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ninguna (red abierta)"
           }
         },
         "ja" : {
@@ -5995,6 +6775,12 @@
             "value" : "Wi-Fi saved here"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi guardadas aquí"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6039,6 +6825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connect"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectar"
           }
         },
         "ja" : {
@@ -6087,6 +6879,12 @@
             "value" : "Couldn’t Connect"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo conectar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6131,6 +6929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Make QR code without connecting"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear QR sin conectar"
           }
         },
         "ja" : {
@@ -6179,6 +6983,12 @@
             "value" : "Connecting…"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectando…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6223,6 +7033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You need to tap Join in the confirmation prompt. Please try again."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debes tocar «Conectar» en la ventana de confirmación. Inténtalo de nuevo."
           }
         },
         "ja" : {
@@ -6271,6 +7087,12 @@
             "value" : "QR to connect"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR de conexión"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6315,6 +7137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Full English support"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compatibilidad con inglés"
           }
         },
         "ja" : {
@@ -6363,6 +7191,12 @@
             "value" : "Add any text you like, one line at a time, such as opening hours, an Instagram handle, or house rules."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribe el texto que quieras, línea por línea: horario, cuenta de Instagram, normas del local…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6407,6 +7241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "e.g. For the till"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ej.: Para la caja"
           }
         },
         "ja" : {
@@ -6455,6 +7295,12 @@
             "value" : "e.g. Lounge Café"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ej.: Lounge Café"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6499,6 +7345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "e.g. Open 09:00–22:00"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ej.: Abierto de 9:00 a 22:00"
           }
         },
         "ja" : {
@@ -6547,6 +7399,12 @@
             "value" : "Ocean"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Océano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6591,6 +7449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi QR"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR de Wi-Fi"
           }
         },
         "ja" : {
@@ -6639,6 +7503,12 @@
             "value" : "Show Wi-Fi QR"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar QR de Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6683,6 +7553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Import Wi-Fi list"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importar lista de Wi-Fi"
           }
         },
         "ja" : {
@@ -6731,6 +7607,12 @@
             "value" : "Wi-Fi details"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detalles de la Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6775,6 +7657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose Wi-Fi"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir Wi-Fi"
           }
         },
         "ja" : {
@@ -6823,6 +7711,12 @@
             "value" : "Scan Wi-Fi sign"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografiar cartel de Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6867,6 +7761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi name"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de la Wi-Fi"
           }
         },
         "ja" : {
@@ -6915,6 +7815,12 @@
             "value" : "The Wi-Fi name is too long. (32 bytes max)"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El nombre de la red Wi-Fi es demasiado largo. (máximo 32 bytes)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6959,6 +7865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The Wi-Fi name is empty."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El nombre de la red Wi-Fi está vacío."
           }
         },
         "ja" : {
@@ -7007,6 +7919,12 @@
             "value" : "Add Wi-Fi"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7051,6 +7969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A gentle tap when you join a network or the text is recognised."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una vibración suave cuando te conectas a una red o se reconoce el texto."
           }
         },
         "ja" : {
@@ -7099,6 +8023,12 @@
             "value" : "When you connect to a network or share from “Here”, its location is recorded on the map."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al conectarte a una red o compartirla desde «Aquí», su ubicación queda registrada en el mapa."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7143,6 +8073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo"
           }
         },
         "ja" : {
@@ -7191,6 +8127,12 @@
             "value" : "Use the app and make Wi-Fi signs in English, so visitors from abroad can read them too."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app y los carteles también en inglés, para que los visitantes extranjeros los entiendan."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7235,6 +8177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduce Motion"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducir movimiento"
           }
         },
         "ja" : {
@@ -7283,6 +8231,12 @@
             "value" : "With Reduce Motion on, screen effects calm down."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con «Reducir movimiento» activado, los efectos de pantalla son más sutiles."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7327,6 +8281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete all your saved networks and signs, right from the app."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borra desde la app todas las redes y carteles guardados."
           }
         },
         "ja" : {
@@ -7375,6 +8335,12 @@
             "value" : "Feedback & reviews"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opiniones y reseñas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7419,6 +8385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This network doesn’t support one-time connections."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta red no admite conexiones de una sola vez."
           }
         },
         "ja" : {
@@ -7467,6 +8439,12 @@
             "value" : "Delete this line"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar esta línea"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7511,6 +8489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show this card"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muestra esta tarjeta"
           }
         },
         "ja" : {
@@ -7559,6 +8543,12 @@
             "value" : "Connect this phone"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectar este iPhone"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7603,6 +8593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set up on this phone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurada en este iPhone"
           }
         },
         "ja" : {
@@ -7651,6 +8647,12 @@
             "value" : "Connect this phone, or just make a QR code without connecting"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecta este iPhone o crea solo el QR, sin conectarte"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7695,6 +8697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi networks this phone knows"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redes Wi-Fi que conoce este iPhone"
           }
         },
         "ja" : {
@@ -7743,6 +8751,12 @@
             "value" : "Names this phone knows"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombres que conoce este iPhone"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7787,6 +8801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "It might be spelled like this:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puede que se escriba así:"
           }
         },
         "ja" : {
@@ -7835,6 +8855,12 @@
             "value" : "Reading names…"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leyendo nombres…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7879,6 +8905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Check that the name and password are exactly right, including capitalisation, and that you’re within range."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comprueba que el nombre y la contraseña sean exactos, con mayúsculas y minúsculas, y que estés dentro del alcance."
           }
         },
         "ja" : {
@@ -7927,6 +8959,12 @@
             "value" : "Couldn’t find any names. Take a clearer screenshot of the list, or type them in below."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontraron nombres. Haz otra captura donde se vea bien la lista o escríbelos abajo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7971,6 +9009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Already connected."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ya estás conectado."
           }
         },
         "ja" : {
@@ -8019,6 +9063,12 @@
             "value" : "A previous connection request is still in progress. Please try again in a moment."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se está procesando una solicitud de conexión anterior. Inténtalo de nuevo en un momento."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8063,6 +9113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mensaje directo en Instagram (@lee25_ios)"
           }
         },
         "ja" : {
@@ -8111,6 +9167,12 @@
             "value" : "Reading…"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reconociendo…"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8155,6 +9217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld names found"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld nombres leídos"
           }
         },
         "ja" : {
@@ -8203,6 +9271,12 @@
             "value" : "Saved networks"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redes guardadas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8247,6 +9321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No saved networks"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay redes guardadas"
           }
         },
         "ja" : {
@@ -8295,6 +9375,12 @@
             "value" : "Map of saved Wi-Fi"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mapa de redes Wi-Fi guardadas"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8339,6 +9425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get a notification when you arrive somewhere with a saved network."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te avisamos con una notificación cuando llegues a un sitio con una red guardada."
           }
         },
         "ja" : {
@@ -8387,6 +9479,12 @@
             "value" : "Saved networks are remembered with their location. When you’re back there, they move to the top with a “📍 Nearby” badge."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las redes guardadas se recuerdan junto con su ubicación. Cuando vuelvas a ese lugar, subirán al principio de la lista con la insignia «📍 Cerca»."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8431,6 +9529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save your networks and signs to a file and bring them back later."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda tus redes y carteles en un archivo y recupéralos cuando quieras."
           }
         },
         "ja" : {
@@ -8479,6 +9583,12 @@
             "value" : "Applied"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicado"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8523,6 +9633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitar"
           }
         },
         "ja" : {
@@ -8571,6 +9687,12 @@
             "value" : "Heading"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Título"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8615,6 +9737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap pieces to fill in"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca los fragmentos para rellenar"
           }
         },
         "ja" : {
@@ -8663,6 +9791,12 @@
             "value" : "Add line"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir línea"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8707,6 +9841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show the QR code for the Wi-Fi you’re on.\nWhen a friend points their camera at it, they join without knowing the password."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muestra el QR de la Wi-Fi a la que estás conectado.\nCuando un amigo apunte con la cámara, se conectará sin saber la contraseña."
           }
         },
         "ja" : {
@@ -8755,6 +9895,12 @@
             "value" : "Opens the QR code for the Wi-Fi you’re connected to. If that network isn’t saved, opens the one you saved most recently."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre el QR de la red Wi-Fi a la que estás conectado. Si no está guardada, abre la última que guardaste."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8799,6 +9945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connected now"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectada ahora"
           }
         },
         "ja" : {
@@ -8847,6 +9999,12 @@
             "value" : "Map"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mapa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8891,6 +10049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No locations to show on the map"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay ubicaciones para mostrar en el mapa"
           }
         },
         "ja" : {
@@ -8939,6 +10103,12 @@
             "value" : "Custom lines"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Líneas propias"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8983,6 +10153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld custom lines"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld líneas propias"
           }
         },
         "ja" : {
@@ -9031,6 +10207,12 @@
             "value" : "Type it in"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribir a mano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9075,6 +10257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter manually…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escribir a mano…"
           }
         },
         "ja" : {
@@ -9123,6 +10311,12 @@
             "value" : "Wi-Fi you entered"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi escrita a mano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9167,6 +10361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Type one in"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir a mano"
           }
         },
         "ja" : {
@@ -9215,6 +10415,12 @@
             "value" : "Replay the intro"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver de nuevo la introducción"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9259,6 +10465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Camera"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cámara"
           }
         },
         "ja" : {
@@ -9307,6 +10519,12 @@
             "value" : "Camera, photos, or type it in"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto, galería o escribir a mano"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9351,6 +10569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir"
           }
         },
         "ja" : {
@@ -9399,6 +10623,12 @@
             "value" : "When a friend points their camera at the QR code, they join without a password. Swipe or tap the card to flip it to a preview of your guest sign."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando un amigo apunte con la cámara al QR, se conectará sin contraseña. Desliza o toca la tarjeta para ver la vista previa del cartel para invitados."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9443,6 +10673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Card"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarjeta"
           }
         },
         "ja" : {
@@ -9491,6 +10727,12 @@
             "value" : "Point your camera at the QR code to connect"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apunta con la cámara al QR para conectarte"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9535,6 +10777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Point a camera at it to connect right away"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apunta con la cámara para conectarte al instante"
           }
         },
         "ja" : {
@@ -9583,6 +10831,12 @@
             "value" : "Point a camera at it to connect without a password. Double-tap to flip to the guest sign preview."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apunta con la cámara para conectarte sin contraseña. Toca dos veces para girar a la vista previa del cartel."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9627,6 +10881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opens the camera so you can photograph a Wi-Fi sign and read its network name and password."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre la cámara; al fotografiar un cartel de Wi-Fi, lee el nombre de la red y la contraseña."
           }
         },
         "ja" : {
@@ -9675,6 +10935,12 @@
             "value" : "Café"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cafetería"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9719,6 +10985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photograph a Wi-Fi sign at a café or holiday let, or pick one from your photos.\nThe app reads the name and password and connects this phone."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografía un cartel de Wi-Fi en una cafetería o alojamiento, o elige una foto de la galería.\nLa app lee el nombre y la contraseña y conecta este iPhone."
           }
         },
         "ja" : {
@@ -9767,6 +11039,12 @@
             "value" : "Photograph a Wi-Fi sign at a café or holiday let, or pick one from your photos, and the app reads the ID and password and connects."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografía un cartel de Wi-Fi en una cafetería o alojamiento, o elige una foto de la galería, y la app leerá el usuario y la contraseña y se conectará."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9811,6 +11089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick a screenshot"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir captura"
           }
         },
         "ja" : {
@@ -9859,6 +11143,12 @@
             "value" : "Imported from screenshot"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importada de una captura"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9903,6 +11193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Layouts for larger text"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pantallas para texto grande"
           }
         },
         "ja" : {
@@ -9951,6 +11247,12 @@
             "value" : "Tap to drop it into an empty field. Press and hold to choose which field."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca para colocarlo en un campo vacío. Mantén pulsado para elegir el campo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9995,6 +11297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enjoy your stay"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disfruta de tu visita"
           }
         },
         "ja" : {
@@ -10043,6 +11351,12 @@
             "value" : "Foldable iPhone layout"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pantalla de iPhone plegable"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10087,6 +11401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En un iPhone plegable, la pantalla ancha se divide en dos paneles."
           }
         },
         "ja" : {
@@ -10135,6 +11455,12 @@
             "value" : "Forest"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bosque"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10179,6 +11505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick up where you left off"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retomar donde lo dejaste"
           }
         },
         "ja" : {
@@ -10227,6 +11559,12 @@
             "value" : "A hotspot can’t be joined from this phone. Make a QR code and show it to the other person."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este iPhone no puede conectarse a un punto de acceso. Crea un QR y muéstraselo a la otra persona."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10271,6 +11609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap a row to open its QR code and details. Swipe right to join on this phone, or swipe left to share the QR code."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca una fila para abrir su QR y los detalles. Desliza a la derecha para conectar este iPhone o a la izquierda para compartir el QR."
           }
         },
         "ja" : {
@@ -10319,6 +11663,12 @@
             "value" : "Format"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10365,6 +11715,12 @@
             "value" : "VoiceOver reads every Wi-Fi detail and button, in the right order."
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lee cada dato de la red y cada botón, en el orden correcto."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10406,6 +11762,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -10457,6 +11819,12 @@
             "value" : "📍 Nearby"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Cerca"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10501,6 +11869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Here"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Aquí"
           }
         },
         "ja" : {
@@ -10549,6 +11923,12 @@
             "value" : "📍 Connected now"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Conectada ahora"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10593,6 +11973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Hotspot"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Punto de acceso"
           }
         },
         "ja" : {

@@ -15,6 +15,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59,6 +65,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName} show Wi-Fi QR"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muestra el QR de Wi-Fi en ${applicationName}"
           }
         },
         "ja" : {
@@ -107,6 +119,12 @@
             "value" : "${applicationName} scan Wi-Fi sign"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} fotografiar Wi-Fi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -153,6 +171,12 @@
             "value" : "Scan a Wi-Fi sign with ${applicationName}"
           }
         },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografía un cartel de Wi-Fi con ${applicationName}"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -197,6 +221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Wi-Fi QR in ${applicationName}"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre el QR de Wi-Fi en ${applicationName}"
           }
         },
         "ja" : {
