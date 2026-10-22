@@ -123,6 +123,12 @@
             "value" : "QR ของ Wi-Fi"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",

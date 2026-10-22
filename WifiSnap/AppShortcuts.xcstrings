@@ -123,6 +123,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -263,6 +269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แสดง QR ของ Wi-Fi ใน ${applicationName}"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} ile Wi-Fi QR’ını göster"
           }
         },
         "vi" : {
@@ -407,6 +419,12 @@
             "value" : "${applicationName} ถ่าย Wi-Fi"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} Wi-Fi çek"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -549,6 +567,12 @@
             "value" : "ถ่ายป้าย Wi-Fi ด้วย ${applicationName}"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} ile Wi-Fi tabelasını çek"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -689,6 +713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิด QR ของ Wi-Fi ใน ${applicationName}"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} içinde Wi-Fi QR’ını aç"
           }
         },
         "vi" : {

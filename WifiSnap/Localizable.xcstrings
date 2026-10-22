@@ -123,6 +123,12 @@
             "value" : "สำเนาของ %@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ kopyası"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -263,6 +269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวอย่างป้ายสำหรับแขกของ %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ misafir tabelası önizlemesi"
           }
         },
         "vi" : {
@@ -407,6 +419,12 @@
             "value" : "QR สำหรับเชื่อมต่อ %@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ağına bağlanmak için QR kodu"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -547,6 +565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR ของ Wi-Fi %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Wi-Fi QR"
           }
         },
         "vi" : {
@@ -691,6 +715,12 @@
             "value" : "ส่วนข้อความ “%@”"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” parçası"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -831,6 +861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตั้งค่าการเชื่อมต่อ “%@” แล้ว\nต้องใช้สิทธิ์ตำแหน่งเพื่อตรวจสอบว่าเชื่อมต่อสำเร็จ (การตั้งค่า > MyFi > ตำแหน่ง)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” bağlantısı ayarlandı.\nBağlanıp bağlanmadığını doğrulamak için uygulamanın konum iznine ihtiyacı var. (Ayarlar > MyFi > Konum)"
           }
         },
         "vi" : {
@@ -975,6 +1011,12 @@
             "value" : "เชื่อมต่อ “%@” ไม่ได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” ağına bağlanılamadı."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1115,6 +1157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังลองใหม่ด้วยชื่อ “%@”…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” adıyla yeniden deneniyor…"
           }
         },
         "vi" : {
@@ -1259,6 +1307,12 @@
             "value" : "เชื่อมต่อ “%@” แล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” ağına bağlanıldı."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1399,6 +1453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โปสเตอร์ A4"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4 poster"
           }
         },
         "vi" : {
@@ -1543,6 +1603,12 @@
             "value" : "ล็อกด้วย Face ID"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID kilidi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1683,6 +1749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อปกป้องรหัสผ่านที่บันทึกไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı şifrelerinizi korumak için uygulamayı Face ID veya Touch ID ile kilitleyin."
           }
         },
         "vi" : {
@@ -1827,6 +1899,12 @@
             "value" : "กำลังสร้าง QR…"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR kodu oluşturuluyor…"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1967,6 +2045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้าง QR"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR kodu oluştur"
           }
         },
         "vi" : {
@@ -2111,6 +2195,12 @@
             "value" : "สร้าง QR ไม่สำเร็จ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR kodu oluşturulamadı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2251,6 +2341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์รูป QR"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR görselini paylaş"
           }
         },
         "vi" : {
@@ -2395,6 +2491,12 @@
             "value" : "ถ้าสร้างเฉพาะ QR iPhone เครื่องนี้จะไม่เชื่อมต่อ แต่บันทึกไว้เท่านั้น หากรหัสผ่านผิด QR ก็จะเชื่อมต่อไม่ได้เช่นกัน โปรดตรวจสอบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca QR kodu oluşturursanız bu iPhone bağlanmaz, ağı sadece kaydeder. Şifre yanlışsa QR kodu da bağlanmaz, bu yüzden kontrol edin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2535,6 +2637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้าง QR ไม่สำเร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR kodu oluşturulamadı."
           }
         },
         "vi" : {
@@ -2679,6 +2787,12 @@
             "value" : "SSID (ชื่อ Wi-Fi)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (Wi-Fi adı)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2819,6 +2933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำนำหน้า SSID ไม่ถูกต้อง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID öneki geçersiz."
           }
         },
         "vi" : {
@@ -2963,6 +3083,12 @@
             "value" : "ใช้งานกับ VoiceOver ได้สะดวกขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver ile daha rahat kullanım"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3103,6 +3229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] สอบถาม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Soru"
           }
         },
         "vi" : {
@@ -3247,6 +3379,12 @@
             "value" : "iOS ไม่ส่งรายการ Wi-Fi ที่บันทึกไว้ให้แอป การแคปหน้าจอจึงเป็นวิธีเดียว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS, kayıtlı Wi-Fi listesini uygulamalara vermez; bu yüzden ekran görüntüsü tek yoldur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3387,6 +3525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รวมในการนำเข้า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçe aktarmaya dahil et"
           }
         },
         "vi" : {
@@ -3531,6 +3675,12 @@
             "value" : "นำเข้าแล้ว %lld ชื่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ad içe aktarıldı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3671,6 +3821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้าม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atla"
           }
         },
         "vi" : {
@@ -3815,6 +3971,12 @@
             "value" : "บันทึกทันทีที่แก้ไข"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Değiştirdiğiniz anda kaydedilir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3955,6 +4117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paylaş"
           }
         },
         "vi" : {
@@ -4099,6 +4267,12 @@
             "value" : "Wi-Fi ใกล้ตัวขึ้นก่อน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce yakındaki ağlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4239,6 +4413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คืนค่าข้อความ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazıları sıfırla"
           }
         },
         "vi" : {
@@ -4383,6 +4563,12 @@
             "value" : "เมื่อขยายขนาดตัวอักษร หน้าจอจะจัดวางใหม่โดยไม่ถูกตัดขาด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazı boyutunu büyüttüğünüzde ekranlar kesilmeden yeniden düzenlenir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4523,6 +4709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซิงค์ข้ามอุปกรณ์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cihazlar arası eşitleme"
           }
         },
         "vi" : {
@@ -4667,6 +4859,12 @@
             "value" : "Wi-Fi และป้ายที่บันทึกไว้จะตามไปด้วยเมื่อเปลี่ยนเครื่อง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cihaz değiştirdiğinizde kayıtlı ağlarınız ve tabelalarınız da sizinle gelir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4807,6 +5005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบข้อมูลของฉันทั้งหมด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm verilerimi sil"
           }
         },
         "vi" : {
@@ -4951,6 +5155,12 @@
             "value" : "ป้ายของฉัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabelam"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5091,6 +5301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ป้ายของฉัน (%lld)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabelalarım (%lld)"
           }
         },
         "vi" : {
@@ -5235,6 +5451,12 @@
             "value" : "ฮอตสปอตของฉัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kişisel erişim noktam"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5375,6 +5597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เครือข่าย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ağ"
           }
         },
         "vi" : {
@@ -5519,6 +5747,12 @@
             "value" : "ป้ายกำกับเครือข่าย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ağ etiketi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5659,6 +5893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชื่อเครือข่าย (SSID) ไม่ถูกต้อง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ağ adı (SSID) geçersiz."
           }
         },
         "vi" : {
@@ -5803,6 +6043,12 @@
             "value" : "โปรดตรวจสอบข้อมูลเครือข่าย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen ağ bilgilerini kontrol edin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5943,6 +6189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกภาพหน้าจออื่น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başka ekran görüntüsü seç"
           }
         },
         "vi" : {
@@ -6087,6 +6339,12 @@
             "value" : "ถัดไป"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İleri"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6227,6 +6485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โหมดมืด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koyu mod"
           }
         },
         "vi" : {
@@ -6371,6 +6635,12 @@
             "value" : "ปิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6511,6 +6781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านได้ชัดเจนแม้เปิดเพิ่มคอนทราสต์หรือแยกสียาก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrast artırıldığında ya da renkleri ayırt etmek zor olduğunda bile her şey okunaklı kalır."
           }
         },
         "vi" : {
@@ -6655,6 +6931,12 @@
             "value" : "ใช้แอปได้หลายภาษามากขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı daha fazla dilde kullanın."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6795,6 +7077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รองรับหลายภาษามากขึ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha fazla dil"
           }
         },
         "vi" : {
@@ -6939,6 +7227,12 @@
             "value" : "ความช่วยเหลือ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yardım"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7079,6 +7373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะสองครั้งเพื่อกลับไปที่ QR"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR koduna dönmek için çift dokunun."
           }
         },
         "vi" : {
@@ -7223,6 +7523,12 @@
             "value" : "ดีไซน์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tasarım"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7360,6 +7666,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -7507,6 +7819,12 @@
             "value" : "เปิดไว้เฉพาะชื่อที่ถูกต้อง แตะเพื่อแก้ตัวอักษรที่ผิด แล้วแตะ “เพิ่ม” ที่มุมขวาบน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca doğru olanları açık bırakın, yanlış harfleri düzeltmek için dokunun ve sağ üstteki “Ekle”ye dokunun."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7647,6 +7965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โลโก้ร้าน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mekân logosu"
           }
         },
         "vi" : {
@@ -7791,6 +8115,12 @@
             "value" : "ชื่อร้าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mekân adı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7931,6 +8261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้างป้าย Wi-Fi สำหรับร้านหรือบ้านของคุณ\nแล้วพิมพ์ออกมาหรือแชร์เป็นรูปภาพ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mekânınız veya eviniz için bir Wi-Fi tabelası hazırlayın,\nsonra yazdırın ya da görsel olarak paylaşın."
           }
         },
         "vi" : {
@@ -8075,6 +8411,12 @@
             "value" : "ข้อความบรรทัดล่างสุด (ซ่อนหากเว้นว่าง)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En alt satır (boşsa gizlenir)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8215,6 +8557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การ์ดในหน้าหลักจะแสดงป้ายที่แก้ไขล่าสุด ปัดไปทางซ้ายเพื่อทำซ้ำหรือลบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana ekrandaki kart en son düzenlediğiniz tabelayı gösterir. Çoğaltmak veya silmek için sola kaydırın."
           }
         },
         "vi" : {
@@ -8359,6 +8707,12 @@
             "value" : "ส่งอีเมลสอบถาม (%@)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-posta gönder (%@)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8499,6 +8853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โมโน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
           }
         },
         "vi" : {
@@ -8643,6 +9003,12 @@
             "value" : "ใช้งานได้ทันทีจากรายการ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listede hızlı işlemler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8783,6 +9149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือก Wi-Fi จากรายการ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listeden Wi-Fi seç"
           }
         },
         "vi" : {
@@ -8927,6 +9299,12 @@
             "value" : "Wi-Fi ฟรี"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ücretsiz Wi-Fi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9067,6 +9445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İletişim"
           }
         },
         "vi" : {
@@ -9211,6 +9595,12 @@
             "value" : "เที่ยงคืน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gece yarısı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9351,6 +9741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวอย่าง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önizleme"
           }
         },
         "vi" : {
@@ -9495,6 +9891,12 @@
             "value" : "มิ้นต์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nane"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9635,6 +10037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สำรองข้อมูลและส่งออก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yedekleme ve dışa aktarma"
           }
         },
         "vi" : {
@@ -9779,6 +10187,12 @@
             "value" : "ป้ายเล็ก (ซ่อนหากเว้นว่าง)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozet (boşsa gizlenir)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9919,6 +10333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปลี่ยน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Değiştir"
           }
         },
         "vi" : {
@@ -10063,6 +10483,12 @@
             "value" : "สีและคอนทราสต์ที่อ่านสบายตา"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha rahat renkler ve kontrast"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10203,6 +10629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นักพัฒนาอ่านทุกข้อความที่คุณส่งมาด้วยตัวเอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gönderdiğiniz her mesajı geliştirici bizzat okur."
           }
         },
         "vi" : {
@@ -10347,6 +10779,12 @@
             "value" : "ก่อนโชว์ ให้เปิด “อนุญาตให้ผู้อื่นเข้าร่วม” ที่ การตั้งค่า > ฮอตสปอตส่วนบุคคล หากปิดอยู่ แม้สแกน QR ก็จะหาเครือข่ายไม่พบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göstermeden önce Ayarlar > Kişisel Erişim Noktası bölümünde “Başkalarının Katılmasına İzin Ver”i açın. Kapalıysa QR kodu taransa bile ağ bulunamaz."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10487,6 +10925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แค่โชว์ก็เชื่อมต่อได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göstermek yeter, bağlanırsınız"
           }
         },
         "vi" : {
@@ -10631,6 +11075,12 @@
             "value" : "ทำซ้ำ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çoğalt"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10771,6 +11221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รหัสผ่าน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifre"
           }
         },
         "vi" : {
@@ -10915,6 +11371,12 @@
             "value" : "ป้ายกำกับรหัสผ่าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifre etiketi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11055,6 +11517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แสดงรหัสผ่าน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifreyi göster"
           }
         },
         "vi" : {
@@ -11199,6 +11667,12 @@
             "value" : "คัดลอกรหัสผ่าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifreyi kopyala"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11339,6 +11813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คัดลอกรหัสผ่านแล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifre kopyalandı"
           }
         },
         "vi" : {
@@ -11483,6 +11963,12 @@
             "value" : "ซ่อนรหัสผ่าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifreyi gizle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11623,6 +12109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล้างรหัสผ่าน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifreyi temizle"
           }
         },
         "vi" : {
@@ -11767,6 +12259,12 @@
             "value" : "แสดงรหัสผ่าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifreyi göster"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11907,6 +12405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รูปแบบรหัสผ่านไม่ถูกต้อง (WEP ใช้ 5 หรือ 13 ตัวอักษร)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifre biçimi geçersiz. (WEP: 5 veya 13 karakter)"
           }
         },
         "vi" : {
@@ -12051,6 +12555,12 @@
             "value" : "รูปแบบรหัสผ่านไม่ถูกต้อง (WPA ใช้ 8–63 ตัวอักษร)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifre biçimi geçersiz. (WPA: 8–63 karakter)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12191,6 +12701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รหัสผ่านมี %lld ตัวอักษร รหัสผ่าน Wi-Fi ต้องมีอย่างน้อย 8 ตัวอักษร (WEP แบบเก่าใช้ 5 หรือ 13 ตัว) ตรวจสอบว่ามีตัวอักษรตกหล่นหรือไม่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifre %lld karakter. Wi-Fi şifresi en az 8 karakter olmalıdır (eski WEP anahtarları 5 veya 13). Eksik karakter olup olmadığını kontrol edin."
           }
         },
         "vi" : {
@@ -12335,6 +12851,12 @@
             "value" : "ใส่เป็นรหัสผ่าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifre olarak yerleştir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12475,6 +12997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านจาก QR ในรูปแล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraftaki QR kodundan okundu."
           }
         },
         "vi" : {
@@ -12619,6 +13147,12 @@
             "value" : "เชื่อมต่อด้วยรูปเดียว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tek bir fotoğrafla bağlanın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12759,6 +13293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่พบ ID และรหัสผ่านในรูป พิมพ์เอง หรือถ่ายใหม่ให้ใกล้และคมชัดขึ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğrafta kullanıcı adı ve şifre bulunamadı. Elle yazın ya da daha yakından ve net şekilde yeniden çekin."
           }
         },
         "vi" : {
@@ -12903,6 +13443,12 @@
             "value" : "ชื่อที่อ่านได้จากรูป — เลือกชื่อที่ถูกต้อง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraftan okunan adlar — doğru olanı seçin"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13043,6 +13589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านจากรูปถ่าย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraftan okundu"
           }
         },
         "vi" : {
@@ -13187,6 +13739,12 @@
             "value" : "กรอกอัตโนมัติจากรูปถ่าย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraftan otomatik doldur"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13327,6 +13885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
           }
         },
         "vi" : {
@@ -13471,6 +14035,12 @@
             "value" : "ป้ายใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni tabela"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13611,6 +14181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พระอาทิตย์ตก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gün batımı"
           }
         },
         "vi" : {
@@ -13755,6 +14331,12 @@
             "value" : "เลือก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seç"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13895,6 +14477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่บังคับ — แสดงด้านบน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İsteğe bağlı — üstte gösterilir"
           }
         },
         "vi" : {
@@ -14039,6 +14627,12 @@
             "value" : "ยังไม่ได้เลือก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçili değil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14179,6 +14773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกแล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçili"
           }
         },
         "vi" : {
@@ -14323,6 +14923,12 @@
             "value" : "การตั้งค่า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14463,6 +15069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นำเข้ารายการจากภาพหน้าจอการตั้งค่า…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar ekran görüntüsünden listeyi içe aktar…"
           }
         },
         "vi" : {
@@ -14607,6 +15219,12 @@
             "value" : "การตอบสนองด้วยการสั่น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokunsal geri bildirim"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14747,6 +15365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้างป้ายสำหรับแขก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misafir tabelaları oluşturun"
           }
         },
         "vi" : {
@@ -14891,6 +15515,12 @@
             "value" : "พิมพ์หรือแชร์ป้ายสำหรับแขก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misafir tabelasını yazdır veya paylaş"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15031,6 +15661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi ที่สแกนได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taranan Wi-Fi"
           }
         },
         "vi" : {
@@ -15175,6 +15811,12 @@
             "value" : "เครือข่ายนี้จัดการโดยการตั้งค่าระบบ จึงเปลี่ยนแปลงไม่ได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu ağ sistem ayarlarıyla yönetiliyor, değiştirilemez."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15315,6 +15957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มต้นใช้งาน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başla"
           }
         },
         "vi" : {
@@ -15459,6 +16107,12 @@
             "value" : "แตะส่วนข้อความด้านล่าง หรือพิมพ์เอง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aşağıdaki bir parçaya dokunun veya elle yazın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15599,6 +16253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะส่วนข้อความด้านล่างเพื่อใส่ลงในช่องว่าง กดค้างเพื่อเลือกว่าจะใส่เป็น ID หรือรหัสผ่าน หรือจะลากไปวางก็ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aşağıdaki bir parçaya dokunursanız boş alana geçer. Kullanıcı adı mı şifre mi olacağını seçmek için basılı tutun ya da sürükleyip bırakın."
           }
         },
         "vi" : {
@@ -15743,6 +16403,12 @@
             "value" : "ID"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanıcı adı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15883,6 +16549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล้าง ID"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanıcı adını temizle"
           }
         },
         "vi" : {
@@ -16027,6 +16699,12 @@
             "value" : "ใส่เป็น ID"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanıcı adı olarak yerleştir"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16167,6 +16845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แคปภาพหน้าจอ “การตั้งค่า > Wi-Fi” ของ iPhone แล้วเลือกรูปนั้น แอปจะอ่านชื่อในรายการให้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone’daki “Ayarlar > Wi-Fi” ekranının görüntüsünü alıp burada seçin; uygulama listedeki adları okur."
           }
         },
         "vi" : {
@@ -16311,6 +16995,12 @@
             "value" : "ข้อความต้อนรับ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mesaj"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16451,6 +17141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายป้าย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabela çek"
           }
         },
         "vi" : {
@@ -16595,6 +17291,12 @@
             "value" : "ป้าย %lld"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabela %lld"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16735,6 +17437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้างป้าย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabela oluştur"
           }
         },
         "vi" : {
@@ -16879,6 +17587,12 @@
             "value" : "ชื่อป้าย (แสดงเฉพาะในรายการ)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabela adı (yalnızca listede görünür)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17019,6 +17733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์หรือพิมพ์รูปป้าย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabela görselini paylaş veya yazdır"
           }
         },
         "vi" : {
@@ -17163,6 +17883,12 @@
             "value" : "ข้อความที่พิมพ์บนป้าย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabelada basılan yazı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17303,6 +18029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หากแอปปิดไประหว่างออกแบบป้าย งานที่ทำไว้จะยังอยู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tabela hazırlarken uygulama kapansa bile yaptıklarınız kaybolmaz."
           }
         },
         "vi" : {
@@ -17447,6 +18179,12 @@
             "value" : "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ ตรวจสอบว่าอยู่ในระยะสัญญาณของเครือข่าย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilinmeyen bir hata oluştu. Ağın kapsama alanında olduğunuzu kontrol edin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17587,6 +18325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แจ้งเตือน Wi-Fi ใกล้เคียง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakındaki Wi-Fi bildirimleri"
           }
         },
         "vi" : {
@@ -17731,6 +18475,12 @@
             "value" : "อัลบั้ม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17871,6 +18621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โปรดลองอีกครั้งขณะที่แอปเปิดอยู่บนหน้าจอ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen uygulama ekranda açıkken yeniden deneyin."
           }
         },
         "vi" : {
@@ -18015,6 +18771,12 @@
             "value" : "ตัวอักษรและปุ่มยังคมชัดแม้ในโหมดมืด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metin ve düğmeler koyu modda da net görünür."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18155,6 +18917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะแจ้งว่ามีอะไรใหม่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir güncellemeden sonra uygulamayı ilk açtığınızda nelerin yeni olduğunu görürsünüz."
           }
         },
         "vi" : {
@@ -18299,6 +19067,12 @@
             "value" : "มีอะไรใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilikler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18439,6 +19213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มี (เครือข่ายเปิด)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yok (açık ağ)"
           }
         },
         "vi" : {
@@ -18583,6 +19363,12 @@
             "value" : "Wi-Fi ที่บันทึกไว้ที่นี่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burada kaydedilen Wi-Fi ağları"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18723,6 +19509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlan"
           }
         },
         "vi" : {
@@ -18867,6 +19659,12 @@
             "value" : "เชื่อมต่อไม่สำเร็จ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlantı başarısız"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19007,6 +19805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้าง QR โดยไม่เชื่อมต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlanmadan QR kodu oluştur"
           }
         },
         "vi" : {
@@ -19151,6 +19955,12 @@
             "value" : "กำลังเชื่อมต่อ…"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlanıyor…"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19291,6 +20101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ต้องแตะ “เชื่อมต่อ” ในหน้าต่างยืนยันจึงจะเชื่อมต่อได้ โปรดลองอีกครั้ง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onay penceresinde “Bağlan”a dokunmanız gerekir. Lütfen yeniden deneyin."
           }
         },
         "vi" : {
@@ -19435,6 +20251,12 @@
             "value" : "QR สำหรับเชื่อมต่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlantı QR’ı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19575,6 +20397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รองรับภาษาอังกฤษ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İngilizce desteği"
           }
         },
         "vi" : {
@@ -19719,6 +20547,12 @@
             "value" : "ใส่ข้อความที่ต้องการได้ทีละบรรทัด เช่น เวลาทำการ บัญชีอินสตาแกรม หรือกฎของร้าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çalışma saatleri, Instagram hesabı ya da mekân kuralları gibi istediğiniz metni satır satır ekleyin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19859,6 +20693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เช่น สำหรับแคชเชียร์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Örn. Kasa için"
           }
         },
         "vi" : {
@@ -20003,6 +20843,12 @@
             "value" : "เช่น Lounge Café"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Örn. Lounge Café"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20143,6 +20989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เช่น เปิด 09:00–22:00 น."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Örn. Açık 09.00–22.00"
           }
         },
         "vi" : {
@@ -20287,6 +21139,12 @@
             "value" : "มหาสมุทร"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okyanus"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20427,6 +21285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR ของ Wi-Fi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
           }
         },
         "vi" : {
@@ -20571,6 +21435,12 @@
             "value" : "แสดง QR ของ Wi-Fi"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR’ını göster"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20711,6 +21581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นำเข้ารายการ Wi-Fi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi listesini içe aktar"
           }
         },
         "vi" : {
@@ -20855,6 +21731,12 @@
             "value" : "รายละเอียด Wi-Fi"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi ayrıntıları"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20995,6 +21877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือก Wi-Fi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi seç"
           }
         },
         "vi" : {
@@ -21139,6 +22027,12 @@
             "value" : "ถ่ายป้าย Wi-Fi"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi tabelasını çek"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21279,6 +22173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชื่อ Wi-Fi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi adı"
           }
         },
         "vi" : {
@@ -21423,6 +22323,12 @@
             "value" : "ชื่อ Wi-Fi ยาวเกินไป (สูงสุด 32 ไบต์)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi adı çok uzun. (en fazla 32 bayt)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21563,6 +22469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่ได้ใส่ชื่อ Wi-Fi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi adı boş."
           }
         },
         "vi" : {
@@ -21707,6 +22619,12 @@
             "value" : "เพิ่ม Wi-Fi"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi ekle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21847,6 +22765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สั่นเบา ๆ เมื่อเชื่อมต่อ Wi-Fi ได้หรืออ่านข้อความสำเร็จ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir ağa bağlandığınızda veya metin tanındığında hafif bir titreşim hissedersiniz."
           }
         },
         "vi" : {
@@ -21991,6 +22915,12 @@
             "value" : "เมื่อเชื่อมต่อ Wi-Fi หรือแชร์จาก “ที่นี่” ตำแหน่งนั้นจะถูกบันทึกลงบนแผนที่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir ağa bağlandığınızda ya da “Burada” seçeneğinden paylaştığınızda konum haritaya kaydedilir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22131,6 +23061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เสร็จสิ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti"
           }
         },
         "vi" : {
@@ -22275,6 +23211,12 @@
             "value" : "แอปและป้ายใช้ภาษาอังกฤษได้ด้วย เพื่อให้แขกต่างชาติอ่านได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yabancı misafirler de okuyabilsin diye uygulama ve tabelalar İngilizce de kullanılabilir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22415,6 +23357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลดการเคลื่อนไหว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi azalt"
           }
         },
         "vi" : {
@@ -22559,6 +23507,12 @@
             "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะเบาลง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Hareketi Azalt” açıkken ekran efektleri daha sakin olur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22699,6 +23653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบ Wi-Fi และป้ายที่บันทึกไว้ทั้งหมดได้จากในแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı tüm ağları ve tabelaları doğrudan uygulamadan silin."
           }
         },
         "vi" : {
@@ -22843,6 +23803,12 @@
             "value" : "ความเห็นและรีวิว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri bildirim ve yorumlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22983,6 +23949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เครือข่ายนี้ไม่รองรับการเชื่อมต่อแบบครั้งเดียว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu ağ tek seferlik bağlantıyı desteklemiyor."
           }
         },
         "vi" : {
@@ -23127,6 +24099,12 @@
             "value" : "ลบบรรทัดนี้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu satırı sil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23267,6 +24245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โชว์การ์ดใบนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu kartı gösterin"
           }
         },
         "vi" : {
@@ -23411,6 +24395,12 @@
             "value" : "เชื่อมต่อ iPhone เครื่องนี้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu iPhone’u bağla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23551,6 +24541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตั้งค่าไว้ใน iPhone เครื่องนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu iPhone’da ayarlı"
           }
         },
         "vi" : {
@@ -23695,6 +24691,12 @@
             "value" : "เชื่อมต่อ iPhone เครื่องนี้ หรือสร้างเฉพาะ QR โดยไม่เชื่อมต่อก็ได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu iPhone’u bağlayın ya da bağlanmadan yalnızca QR kodu oluşturun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23835,6 +24837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi ที่ iPhone เครื่องนี้รู้จัก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu iPhone’un bildiği Wi-Fi ağları"
           }
         },
         "vi" : {
@@ -23979,6 +24987,12 @@
             "value" : "ชื่อที่ iPhone เครื่องนี้รู้จัก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu iPhone’un bildiği adlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24119,6 +25133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อาจสะกดแบบนี้:"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şöyle yazılıyor olabilir:"
           }
         },
         "vi" : {
@@ -24263,6 +25283,12 @@
             "value" : "กำลังอ่านชื่อ…"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adlar okunuyor…"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24403,6 +25429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตรวจสอบว่าชื่อและรหัสผ่านถูกต้องทุกตัว รวมถึงตัวพิมพ์เล็ก-ใหญ่ และอยู่ในระยะสัญญาณ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adın ve şifrenin büyük-küçük harfler dahil tam doğru olduğunu ve kapsama alanında olduğunuzu kontrol edin."
           }
         },
         "vi" : {
@@ -24547,6 +25579,12 @@
             "value" : "ไม่พบชื่อ ลองแคปหน้าจอใหม่ให้เห็นรายการชัดเจน หรือพิมพ์เองด้านล่าง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiç ad bulunamadı. Listenin net göründüğü yeni bir ekran görüntüsü alın ya da aşağıya elle yazın."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24687,6 +25725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่ออยู่แล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaten bağlısınız."
           }
         },
         "vi" : {
@@ -24831,6 +25875,12 @@
             "value" : "กำลังประมวลผลคำขอเชื่อมต่อก่อนหน้า โปรดลองใหม่อีกครั้งในอีกสักครู่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önceki bağlantı isteği hâlâ işleniyor. Lütfen biraz sonra yeniden deneyin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24971,6 +26021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DM อินสตาแกรม (@lee25_ios)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
           }
         },
         "vi" : {
@@ -25115,6 +26171,12 @@
             "value" : "กำลังรู้จำ…"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanınıyor…"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25255,6 +26317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อ่านได้ %lld ชื่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ad okundu"
           }
         },
         "vi" : {
@@ -25399,6 +26467,12 @@
             "value" : "เครือข่ายที่บันทึกไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı ağlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25539,6 +26613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มีเครือข่ายที่บันทึกไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı ağ yok"
           }
         },
         "vi" : {
@@ -25683,6 +26763,12 @@
             "value" : "แผนที่ Wi-Fi ที่บันทึกไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı Wi-Fi haritası"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25823,6 +26909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แจ้งเตือนเมื่อคุณมาถึงที่ที่มี Wi-Fi ที่บันทึกไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı bir ağın olduğu yere vardığınızda bildirim alın."
           }
         },
         "vi" : {
@@ -25967,6 +27059,12 @@
             "value" : "Wi-Fi ที่บันทึกไว้จะจำตำแหน่งไปด้วย เมื่อกลับมาที่เดิม จะขึ้นไปอยู่บนสุดของรายการพร้อมป้าย “📍 ใกล้ที่นี่”"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı ağlar konumuyla birlikte hatırlanır. Oraya tekrar geldiğinizde listenin en üstüne çıkar ve “📍 Yakın” rozeti alır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26107,6 +27205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึก Wi-Fi และป้ายเป็นไฟล์ แล้วนำกลับมาใช้ภายหลังได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ağlarınızı ve tabelalarınızı bir dosyaya kaydedin, sonra geri yükleyin."
           }
         },
         "vi" : {
@@ -26251,6 +27355,12 @@
             "value" : "ใช้แล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulandı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26391,6 +27501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นำออก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaldır"
           }
         },
         "vi" : {
@@ -26535,6 +27651,12 @@
             "value" : "หัวข้อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlık"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26675,6 +27797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะส่วนข้อความเพื่อกรอก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parçalara dokunarak doldurun"
           }
         },
         "vi" : {
@@ -26819,6 +27947,12 @@
             "value" : "เพิ่มบรรทัด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satır ekle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26959,6 +28093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โชว์ QR ของ Wi-Fi ที่คุณเชื่อมต่ออยู่\nเมื่อเพื่อนสแกนด้วยกล้อง ก็เชื่อมต่อได้ทันทีโดยไม่ต้องรู้รหัสผ่าน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlı olduğunuz Wi-Fi’nin QR kodunu gösterin.\nBir arkadaşınız kamerayı tuttuğunda şifreyi bilmeden bağlanır."
           }
         },
         "vi" : {
@@ -27103,6 +28243,12 @@
             "value" : "เปิด QR ของ Wi-Fi ที่เชื่อมต่ออยู่ หากยังไม่ได้บันทึกไว้ จะเปิดอันที่บันทึกล่าสุด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlı olduğunuz Wi-Fi ağının QR kodunu açar. Kayıtlı değilse en son kaydettiğiniz ağı açar."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27243,6 +28389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่ออยู่ตอนนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şu an bağlı"
           }
         },
         "vi" : {
@@ -27387,6 +28539,12 @@
             "value" : "แผนที่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harita"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27527,6 +28685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มีตำแหน่งให้แสดงบนแผนที่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haritada gösterilecek konum yok"
           }
         },
         "vi" : {
@@ -27671,6 +28835,12 @@
             "value" : "บรรทัดที่เขียนเอง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özel satırlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27811,6 +28981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บรรทัดที่เขียนเอง %lld บรรทัด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld özel satır"
           }
         },
         "vi" : {
@@ -27955,6 +29131,12 @@
             "value" : "พิมพ์เอง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elle yaz"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28095,6 +29277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พิมพ์เอง…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elle yaz…"
           }
         },
         "vi" : {
@@ -28239,6 +29427,12 @@
             "value" : "Wi-Fi ที่พิมพ์เอง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elle yazılan Wi-Fi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28379,6 +29573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พิมพ์เพิ่มเอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elle ekle"
           }
         },
         "vi" : {
@@ -28523,6 +29723,12 @@
             "value" : "ดูคำแนะนำเริ่มต้นอีกครั้ง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanıtımı yeniden izle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28663,6 +29869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายรูป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera"
           }
         },
         "vi" : {
@@ -28807,6 +30019,12 @@
             "value" : "ถ่ายรูป อัลบั้ม หรือพิมพ์เอง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera, fotoğraflar veya elle yazma"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28947,6 +30165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่ม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekle"
           }
         },
         "vi" : {
@@ -29091,6 +30315,12 @@
             "value" : "เมื่อเพื่อนสแกน QR ด้วยกล้อง ก็เชื่อมต่อได้ทันทีโดยไม่ต้องใช้รหัสผ่าน ปัดหรือแตะการ์ดเพื่อพลิกไปดูตัวอย่างป้ายสำหรับแขก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir arkadaşınız kamerayı QR koduna tuttuğunda şifresiz bağlanır. Kartı kaydırın veya dokunun; misafir tabelası önizlemesine döner."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29231,6 +30461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การ์ด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kart"
           }
         },
         "vi" : {
@@ -29375,6 +30611,12 @@
             "value" : "สแกน QR ด้วยกล้องเพื่อเชื่อมต่ออัตโนมัติ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlanmak için QR kodunu kamerayla tarayın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29515,6 +30757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สแกนด้วยกล้องเพื่อเชื่อมต่อได้ทันที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hemen bağlanmak için kamerayı tutun"
           }
         },
         "vi" : {
@@ -29659,6 +30907,12 @@
             "value" : "สแกนด้วยกล้องเพื่อเชื่อมต่อโดยไม่ต้องใช้รหัสผ่าน แตะสองครั้งเพื่อพลิกไปดูตัวอย่างป้าย"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şifresiz bağlanmak için kamerayı tutun. Tabela önizlemesine çevirmek için çift dokunun."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29799,6 +31053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดกล้องเพื่อถ่ายป้าย Wi-Fi แล้วอ่านชื่อเครือข่ายและรหัสผ่านให้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamerayı açar; bir Wi-Fi tabelasının fotoğrafını çekerseniz ağ adı ve şifre okunur."
           }
         },
         "vi" : {
@@ -29943,6 +31203,12 @@
             "value" : "คาเฟ่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafe"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30083,6 +31349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายป้าย Wi-Fi ที่ร้านกาแฟหรือที่พัก หรือเลือกจากอัลบั้ม\nแอปจะอ่านชื่อกับรหัสผ่านแล้วเชื่อมต่อ iPhone เครื่องนี้ให้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafede ya da konaklama yerinde bir Wi-Fi tabelasının fotoğrafını çekin veya kitaplıktan seçin.\nUygulama adı ve şifreyi okuyup bu iPhone’u bağlar."
           }
         },
         "vi" : {
@@ -30227,6 +31499,12 @@
             "value" : "ถ่ายป้าย Wi-Fi ที่ร้านกาแฟหรือที่พัก หรือเลือกจากอัลบั้ม แอปจะอ่าน ID และรหัสผ่านแล้วเชื่อมต่อให้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafede ya da konaklama yerinde bir Wi-Fi tabelasının fotoğrafını çekin veya kitaplıktan seçin; uygulama kullanıcı adını ve şifreyi okuyup bağlanır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30367,6 +31645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกภาพหน้าจอ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekran görüntüsü seç"
           }
         },
         "vi" : {
@@ -30511,6 +31795,12 @@
             "value" : "นำเข้าจากภาพหน้าจอ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekran görüntüsünden alındı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30651,6 +31941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หน้าจอสำหรับตัวอักษรขนาดใหญ่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük yazı için ekranlar"
           }
         },
         "vi" : {
@@ -30795,6 +32091,12 @@
             "value" : "แตะเพื่อใส่ลงในช่องว่าง กดค้างเพื่อเลือกช่อง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boş alana yerleştirmek için dokunun. Alanı seçmek için basılı tutun."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30935,6 +32237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้ได้ตามสบาย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rahatça kullanın"
           }
         },
         "vi" : {
@@ -31079,6 +32387,12 @@
             "value" : "หน้าจอ iPhone แบบพับได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone ekranı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31219,6 +32533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บน iPhone แบบพับได้ จอกว้างจะแบ่งเป็นสองส่วน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone’da geniş ekran iki bölmeye ayrılır."
           }
         },
         "vi" : {
@@ -31363,6 +32683,12 @@
             "value" : "ป่าไม้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orman"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31503,6 +32829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทำต่อจากที่ค้างไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaldığınız yerden devam edin"
           }
         },
         "vi" : {
@@ -31647,6 +32979,12 @@
             "value" : "iPhone เครื่องนี้เชื่อมต่อกับฮอตสปอตไม่ได้ ให้สร้าง QR แล้วโชว์ให้อีกฝ่ายสแกน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu iPhone bir kişisel erişim noktasına bağlanamaz. Bir QR kodu oluşturup karşıdaki kişiye gösterin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31787,6 +33125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะแถวเพื่อเปิด QR และรายละเอียด ปัดไปทางขวาเพื่อเชื่อมต่อ iPhone เครื่องนี้ ปัดไปทางซ้ายเพื่อแชร์ QR"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR kodu ve ayrıntıları açmak için bir satıra dokunun. Bu iPhone’u bağlamak için sağa, QR kodunu paylaşmak için sola kaydırın."
           }
         },
         "vi" : {
@@ -31931,6 +33275,12 @@
             "value" : "รูปแบบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biçim"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32071,6 +33421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver อ่านข้อมูล Wi-Fi และปุ่มทั้งหมดครบถ้วนตามลำดับที่ถูกต้อง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver, ağ bilgilerinin ve düğmelerin tamamını doğru sırayla okur."
           }
         },
         "vi" : {
@@ -32215,6 +33571,12 @@
             "value" : "ตกลง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32355,6 +33717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 ใกล้ที่นี่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Yakın"
           }
         },
         "vi" : {
@@ -32499,6 +33867,12 @@
             "value" : "📍 ที่นี่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Burada"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32641,6 +34015,12 @@
             "value" : "📍 เชื่อมต่ออยู่ตอนนี้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Şu an bağlı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32781,6 +34161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 ฮอตสปอต"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Erişim noktası"
           }
         },
         "vi" : {

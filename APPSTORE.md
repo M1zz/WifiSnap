@@ -1287,3 +1287,59 @@ https://m1zz.github.io/WifiSnap/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/WifiSnap/
+
+## tr
+
+### 이름
+
+MyFi: Wi-Fi QR
+
+### 부제
+
+Fotoğrafla bağlan, yazdır
+
+### 키워드
+
+şifre,paylaş,misafir,hotspot,kafe,pansiyon,otel,dükkân,modem,widget,kamera,tarama,poster,AirPrint
+
+### 프로모션 텍스트
+
+Wi-Fi tabelasının fotoğrafını çekin, hemen bağlanın; kendi ağınızı da tek bir QR koduyla paylaşın. Kafeniz için misafir tabelası hazırlayıp yazdırın.
+
+### 설명
+
+Şifre söylemek ya da elle yazmak artık yok. Tabelanın fotoğrafını çekin ve bağlanın ya da Wi-Fi’nizi tek bir QR koduyla paylaşın.
+Kafenizin, konaklama yerinizin veya dükkânınızın misafirleri için birkaç dokunuşla Wi-Fi tabelası hazırlayıp hemen yazdırın.
+
+Fotoğrafla bağlanın
+Duvardaki Wi-Fi tabelasının ya da fişin fotoğrafını çekin veya kitaplıktan bir fotoğraf seçin. Uygulama kullanıcı adını ve şifreyi okur, bu iPhone’u hemen bağlar.
+Okunan metin belirsizse fotoğraftan kesilen bir parçayı kullanıcı adı ya da şifre alanına sürükleyin.
+Bilgileri elle de yazabilir veya bağlanmadan yalnızca QR kodu oluşturabilirsiniz.
+
+Tek QR koduyla paylaşın
+Uygulama bağlı olduğunuz Wi-Fi ağını tanır ve bir arkadaşınız kamerayı tuttuğu anda onu bağlayan bir QR kodu oluşturur.
+QR görselini mesajla gönderin ya da kendi kişisel erişim noktanızı QR kodu olarak paylaşın.
+
+Misafir tabelaları oluşturun
+7 temadan birini seçin; mekân adı, logo ve çalışma saatleri gibi özel satırlar ekleyin.
+Kart ya da dikey A4 poster seçin, görsel olarak kaydedin veya AirPrint ile doğrudan yazdırın.
+Her mekân ya da masa için ayrı tabelalar saklayın ve istediğiniz zaman düzenleyin.
+
+Widget ve harita
+En sevdiğiniz Wi-Fi’nin QR kodunu Ana Ekran’a veya Kilit Ekranı’na koyun. Dokununca büyük QR kodu açılır.
+Bağlandığınız yerler haritada hatırlanır; geri geldiğinizde oranın ağı en üstte görünür.
+
+Gizlilik
+Kayıtlı Wi-Fi bilgileri yalnızca bu cihazda kalır ve hiçbir sunucuya gönderilmez.
+
+### 지원 URL
+
+https://m1zz.github.io/WifiSnap/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/WifiSnap/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/WifiSnap/

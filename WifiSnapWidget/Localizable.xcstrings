@@ -123,6 +123,12 @@
             "value" : "เชื่อมต่อในแอปสักครั้ง แล้ว QR จะแสดงที่นี่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamada bir kez bağlanın, QR kodu burada görünsün"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -260,6 +266,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -407,6 +419,12 @@
             "value" : "QR ของ Wi-Fi"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -547,6 +565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือก Wi-Fi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi seç"
           }
         },
         "vi" : {
@@ -691,6 +715,12 @@
             "value" : "เลือก Wi-Fi ที่จะปักหมุดไว้ที่วิดเจ็ต หากไม่เลือก จะแสดงอันที่เชื่อมต่อล่าสุด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget’a sabitlenecek Wi-Fi’yi seçin. Seçmezseniz en son bağlandığınız gösterilir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -831,6 +861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มี Wi-Fi ที่บันทึกไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayıtlı Wi-Fi yok"
           }
         },
         "vi" : {
@@ -975,6 +1011,12 @@
             "value" : "แสดง QR ของ Wi-Fi ที่เชื่อมต่ออยู่ กดค้างแล้วเลือก “แก้ไขวิดเจ็ต” เพื่อปักหมุด Wi-Fi ที่ต้องการ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlı olduğunuz Wi-Fi’nin QR kodunu gösterir. Belirli bir ağı sabitlemek için basılı tutup “Widget’ı Düzenle”yi seçin."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1115,6 +1157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เชื่อมต่ออยู่ตอนนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şu an bağlı"
           }
         },
         "vi" : {
@@ -1259,6 +1307,12 @@
             "value" : "สแกนด้วยกล้องเพื่อเชื่อมต่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlanmak için kamerayı tutun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1399,6 +1453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะเพื่อดู QR ขนาดใหญ่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük QR için dokunun"
           }
         },
         "vi" : {

@@ -123,6 +123,12 @@
             "value" : "MyFi"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -265,6 +271,12 @@
             "value" : "ใช้ถ่ายป้าย Wi-Fi เพื่ออ่านชื่อเครือข่ายและรหัสผ่าน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi tabelalarının fotoğrafını çekip ağ adı ve şifreyi tanımak için kullanılır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -405,6 +417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จำเป็นต่อการตรวจสอบชื่อ Wi-Fi ที่คุณเชื่อมต่ออยู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlı olduğunuz Wi-Fi ağının adını kontrol etmek için gerekir."
           }
         },
         "vi" : {

@@ -165,3 +165,10 @@ Bilder avläses mer exakt.
 Åtgärdade tillfälliga anslutningsfel.
 Skapa QR-kod utan att ansluta.
 Dela din hotspot med en QR-kod.
+
+### 앱스토어 (튀르키예어)
+
+Fotoğraftaki bilgiler daha doğru okunur.
+Bağlantı hataları giderildi.
+Bağlanmadan QR kodu oluşturun.
+Hotspot’unuzu tek QR koduyla paylaşın.

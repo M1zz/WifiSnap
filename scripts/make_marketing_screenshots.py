@@ -209,7 +209,17 @@ SHOTS["sv"] = [
     ("04-poster-a4.png", "flat-rotate", "A4-affisch<br>redo att skriva ut", "7 teman, skriv ut med AirPrint i ett steg"),
     ("05-saved.png", "dark", "Allt Wi-Fi du har använt<br>på ett ställe", "När du är i närheten kommer rätt nätverk överst"),
 ]
+STORE["tr"] = "tr"
+SHOTS["tr"] = [
+    ("01-scan.png", "hero-bleed", "Tabelanın fotoğrafını çekin,<br>hemen bağlanın", "Kullanıcı adı ve şifreyi fotoğraftan okur"),
+    ("02-qr.png", "left-text", "Şifre söylemek yerine<br>bir QR kodu", "Arkadaşlar sadece kamerayı tutar"),
+    ("03-poster-card.png", "text-bottom", "Misafirler için Wi-Fi tabelaları", "Mekân adı ve çalışma saatleriyle"),
+    ("04-poster-a4.png", "flat-rotate", "Yazdırmaya hazır<br>A4 poster", "7 tema, AirPrint ile tek adımda yazdırın"),
+    ("05-saved.png", "dark", "Kullandığınız tüm Wi-Fi’ler<br>tek yerde", "Yakına gelince doğru ağ en üstte çıkar"),
+]
 # i18n-end
+
+
 
 
 

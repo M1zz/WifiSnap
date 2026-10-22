@@ -134,7 +134,13 @@ STORE["sv"] = "sv"
 SCREEN["sv"] = "sv"
 SEARCH["sv"] = ("Wi-Fi-QR", "Gör Wi-Fi-skyltar<br>för gäster", "Anslut med QR-kod,<br>skriv ut i ett steg")
 HEADER["sv"] = ("Dela Wi-Fi", "Läs inte upp lösenordet:<br>visa en QR-kod")
+STORE["tr"] = "tr"
+SCREEN["tr"] = "tr"
+SEARCH["tr"] = ("Wi-Fi QR", "Misafirler için Wi-Fi<br>tabelaları oluşturun", "QR koduyla bağlanın,<br>tek adımda yazdırın")
+HEADER["tr"] = ("Wi-Fi’yi paylaşın", "Şifreyi söylemeyin:<br>QR kodunu gösterin")
 # i18n-end
+
+
 
 
 
