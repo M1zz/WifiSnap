@@ -9,6 +9,12 @@
             "value" : "MyFi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -103,6 +109,12 @@
             "value" : "Slouží k focení tabulek s Wi-Fi a rozpoznání názvu sítě a hesla."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruges til at fotografere Wi-Fi-opslag og genkende netværksnavn og adgangskode."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -195,6 +207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je potřeba k ověření názvu sítě Wi-Fi, ke které jste právě připojeni."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er nødvendig for at tjekke navnet på det Wi-Fi, du er forbundet til."
           }
         },
         "de" : {

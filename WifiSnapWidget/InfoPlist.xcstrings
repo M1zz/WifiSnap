@@ -9,6 +9,12 @@
             "value" : "QR kód Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

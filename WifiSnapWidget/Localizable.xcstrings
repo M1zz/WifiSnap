@@ -9,6 +9,12 @@
             "value" : "Jednou se připojte v aplikaci a QR kód se objeví tady"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret forbindelse én gang i appen, så vises QR-koden her"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -98,6 +104,12 @@
     "와이파이" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -197,6 +209,12 @@
             "value" : "QR kód Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat Wi-Fi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg Wi-Fi"
           }
         },
         "de" : {
@@ -385,6 +409,12 @@
             "value" : "Vyberte Wi-Fi, kterou chcete připnout k widgetu. Když nevyberete žádnou, zobrazí se ta, ke které jste se připojili naposledy."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg det Wi-Fi, der skal fastgøres til widgetten. Hvis du ikke vælger, vises det senest forbundne."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádná uložená Wi-Fi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intet gemt Wi-Fi"
           }
         },
         "de" : {
@@ -573,6 +609,12 @@
             "value" : "Zobrazí QR kód sítě Wi-Fi, ke které jste připojeni. Podržte a zvolte „Upravit widget“, pokud chcete připnout konkrétní síť."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viser QR-koden til det Wi-Fi, du er forbundet til. Hold nede, og vælg “Rediger widget” for at fastgøre et bestemt netværk."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -665,6 +707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Právě připojeno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbundet nu"
           }
         },
         "de" : {
@@ -761,6 +809,12 @@
             "value" : "Namiřte fotoaparát a připojte se"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peg kameraet på den for at forbinde"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -853,6 +907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepnutím zobrazíte velký QR kód"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk for stor QR-kode"
           }
         },
         "de" : {

@@ -9,6 +9,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -101,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobrazit QR kód Wi-Fi v ${applicationName}"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis Wi-Fi QR i ${applicationName}"
           }
         },
         "de" : {
@@ -197,6 +209,12 @@
             "value" : "${applicationName} vyfotit Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} fotografér Wi-Fi"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -291,6 +309,12 @@
             "value" : "Vyfotit tabulku s Wi-Fi v ${applicationName}"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografér Wi-Fi-opslag med ${applicationName}"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -383,6 +407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevřít QR kód Wi-Fi v ${applicationName}"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn Wi-Fi QR i ${applicationName}"
           }
         },
         "de" : {

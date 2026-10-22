@@ -109,3 +109,10 @@ Chia sẻ điểm phát sóng bằng một mã QR.
 Opravili jsme občasné chyby připojení.
 QR kód vytvoříte i bez připojení.
 Hotspot nasdílíte jedním QR kódem.
+
+### 앱스토어 (덴마크어)
+
+Billeder aflæses mere præcist.
+Rettet fejl, hvor forbindelsen svigtede.
+Lav QR-kode uden at forbinde.
+Del din hotspot med én QR-kode.

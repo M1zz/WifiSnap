@@ -102,7 +102,13 @@ STORE["cs"] = "cs"
 SCREEN["cs"] = "cs"
 SEARCH["cs"] = ("QR kód Wi-Fi", "Vytvořte Wi-Fi tabulky<br>pro hosty", "Připojení přes QR kód,<br>tisk jedním krokem")
 HEADER["cs"] = ("Sdílejte Wi-Fi", "Nediktujte heslo,<br>ukažte QR kód")
+STORE["da"] = "da"
+SCREEN["da"] = "da"
+SEARCH["da"] = ("Wi-Fi QR", "Lav Wi-Fi-opslag<br>til gæster", "Forbind med QR-kode,<br>udskriv i ét trin")
+HEADER["da"] = ("Del Wi-Fi", "Læs ikke adgangskoden op:<br>vis en QR-kode")
 # i18n-end
+
+
 
 
 

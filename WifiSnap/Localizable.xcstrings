@@ -9,6 +9,12 @@
             "value" : "Kopie: %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopi af %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -101,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Náhled tabulky pro hosty: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forhåndsvisning af gæsteopslag for %@"
           }
         },
         "de" : {
@@ -197,6 +209,12 @@
             "value" : "QR kód pro připojení k síti %@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-kode til at forbinde til %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR kód Wi-Fi: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR for %@"
           }
         },
         "de" : {
@@ -385,6 +409,12 @@
             "value" : "Úryvek „%@“"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udsnit “%@”"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Připojení k síti „%@“ je nastaveno.\nAbyste ověřili, že funguje, potřebuje aplikace přístup k poloze. (Nastavení > MyFi > Poloha)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbindelsen til “%@” er sat op.\nFor at se, om den er oprettet, skal appen have adgang til din lokation. (Indstillinger > MyFi > Lokalitet)"
           }
         },
         "de" : {
@@ -573,6 +609,12 @@
             "value" : "K síti „%@“ se nepodařilo připojit."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke oprette forbindelse til “%@”."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -665,6 +707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkouším znovu s názvem „%@“…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøver igen som “%@” …"
           }
         },
         "de" : {
@@ -761,6 +809,12 @@
             "value" : "Připojeno k síti „%@“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbundet til “%@”."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -853,6 +907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plakát A4"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4-plakat"
           }
         },
         "de" : {
@@ -949,6 +1009,12 @@
             "value" : "Zámek přes Face ID"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID-lås"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1041,6 +1107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamkněte aplikaci přes Face ID nebo Touch ID a chraňte uložená hesla."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID, så dine gemte adgangskoder er beskyttet."
           }
         },
         "de" : {
@@ -1137,6 +1209,12 @@
             "value" : "Vytvářím QR kód…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laver QR-kode …"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1229,6 +1307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořit QR kód"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lav QR-kode"
           }
         },
         "de" : {
@@ -1325,6 +1409,12 @@
             "value" : "QR kód se nepodařilo vytvořit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-koden kunne ikke laves"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1417,6 +1507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sdílet obrázek QR kódu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del QR-billede"
           }
         },
         "de" : {
@@ -1513,6 +1609,12 @@
             "value" : "Pokud vytvoříte jen QR kód, tento iPhone se nepřipojí, jen síť uloží. Při špatném heslu se nepřipojí ani QR kód, proto ho zkontrolujte."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du kun laver QR-koden, opretter denne iPhone ikke forbindelse, men gemmer blot netværket. Er adgangskoden forkert, virker QR-koden heller ikke, så tjek den."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1605,6 +1707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR kód se nepodařilo vytvořit."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-koden kunne ikke laves."
           }
         },
         "de" : {
@@ -1701,6 +1809,12 @@
             "value" : "SSID (název sítě Wi-Fi)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (Wi-Fi-navn)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1793,6 +1907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Předpona SSID není platná."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID-præfikset er ugyldigt."
           }
         },
         "de" : {
@@ -1889,6 +2009,12 @@
             "value" : "Pohodlnější s VoiceOverem"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nemmere med VoiceOver"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1981,6 +2107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Dotaz"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Spørgsmål"
           }
         },
         "de" : {
@@ -2077,6 +2209,12 @@
             "value" : "iOS aplikacím seznam uložených sítí Wi-Fi neposkytuje, takže snímek obrazovky je jediná cesta."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS giver ikke apps adgang til listen over gemte Wi-Fi-netværk, så et skærmbillede er den eneste vej."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2169,6 +2307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zahrnout do importu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medtag i importen"
           }
         },
         "de" : {
@@ -2265,6 +2409,12 @@
             "value" : "Importovaných názvů: %lld"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld navne importeret"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2357,6 +2507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přeskočit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spring over"
           }
         },
         "de" : {
@@ -2453,6 +2609,12 @@
             "value" : "Ukládá se hned po úpravě"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemmes med det samme"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2545,6 +2707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sdílet"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del"
           }
         },
         "de" : {
@@ -2641,6 +2809,12 @@
             "value" : "Sítě v okolí nejdřív"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netværk i nærheden først"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2733,6 +2907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obnovit texty"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nulstil tekst"
           }
         },
         "de" : {
@@ -2829,6 +3009,12 @@
             "value" : "Po zvětšení písma se obrazovky přeskládají, aby se nic neořezávalo."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du gør teksten større, ordnes skærmene om, så intet bliver skåret af."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2921,6 +3107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchronizace mezi zařízeními"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronisering mellem enheder"
           }
         },
         "de" : {
@@ -3017,6 +3209,12 @@
             "value" : "Uložené sítě a tabulky vám zůstanou i po výměně zařízení."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine gemte netværk og opslag følger med, når du skifter enhed."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3109,6 +3307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat všechna moje data"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle mine data"
           }
         },
         "de" : {
@@ -3205,6 +3409,12 @@
             "value" : "Moje tabulka"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit opslag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3297,6 +3507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moje tabulky (%lld)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mine opslag (%lld)"
           }
         },
         "de" : {
@@ -3393,6 +3609,12 @@
             "value" : "Můj hotspot"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Min hotspot"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3485,6 +3707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Síť"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netværk"
           }
         },
         "de" : {
@@ -3581,6 +3809,12 @@
             "value" : "Popisek sítě"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etiket for netværk"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3673,6 +3907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Název sítě (SSID) není platný."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netværksnavnet (SSID) er ugyldigt."
           }
         },
         "de" : {
@@ -3769,6 +4009,12 @@
             "value" : "Zkontrolujte údaje o síti."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tjek netværksoplysningerne."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3861,6 +4107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat jiný snímek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg et andet skærmbillede"
           }
         },
         "de" : {
@@ -3957,6 +4209,12 @@
             "value" : "Další"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4049,6 +4307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tmavý režim"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mørk tilstand"
           }
         },
         "de" : {
@@ -4145,6 +4409,12 @@
             "value" : "Zavřít"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4237,6 +4507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vše zůstává čitelné, i když zvýšíte kontrast nebo hůř rozlišujete barvy."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt kan stadig læses, også med øget kontrast, eller hvis du har svært ved at se forskel på farver."
           }
         },
         "de" : {
@@ -4333,6 +4609,12 @@
             "value" : "Používejte aplikaci ve více jazycích."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug appen på flere sprog."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4425,6 +4707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Více jazyků"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere sprog"
           }
         },
         "de" : {
@@ -4521,6 +4809,12 @@
             "value" : "Nápověda"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjælp"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4613,6 +4907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dvojitým klepnutím se vrátíte k QR kódu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk to gange for at gå tilbage til QR-koden."
           }
         },
         "de" : {
@@ -4709,6 +5009,12 @@
             "value" : "Vzhled"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4798,6 +5104,12 @@
     "마이파이" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -4897,6 +5209,12 @@
             "value" : "Nechte zapnuté jen správné názvy, špatná písmena opravte klepnutím a vpravo nahoře klepněte na „Přidat“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lad kun de rigtige være slået til, ret forkerte bogstaver ved at trykke på dem, og tryk på “Tilføj” øverst til højre."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4989,6 +5307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo podniku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stedets logo"
           }
         },
         "de" : {
@@ -5085,6 +5409,12 @@
             "value" : "Název podniku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stedets navn"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5177,6 +5507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořte tabulku s Wi-Fi pro svůj podnik nebo domov\na pak ji vytiskněte nebo sdílejte jako obrázek."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lav et Wi-Fi-opslag til dit sted eller dit hjem,\nog udskriv det eller del det som billede."
           }
         },
         "de" : {
@@ -5273,6 +5609,12 @@
             "value" : "Spodní řádek (skrytý, když je prázdný)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nederste linje (skjules, hvis tom)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5365,6 +5707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karta na hlavní obrazovce ukazuje naposledy upravenou tabulku. Přejetím doleva ji duplikujete nebo smažete."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortet på hovedskærmen viser det opslag, du sidst har rettet. Stryg til venstre for at duplikere eller slette."
           }
         },
         "de" : {
@@ -5461,6 +5809,12 @@
             "value" : "Napsat e-mail (%@)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send en mail (%@)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5550,6 +5904,12 @@
     "모노" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mono"
@@ -5649,6 +6009,12 @@
             "value" : "Rychlé akce v seznamu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hurtige handlinger på listen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5741,6 +6107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat síť ze seznamu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg Wi-Fi fra listen"
           }
         },
         "de" : {
@@ -5837,6 +6209,12 @@
             "value" : "Wi-Fi zdarma"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratis Wi-Fi"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5926,6 +6304,12 @@
     "문의" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt"
@@ -6025,6 +6409,12 @@
             "value" : "Půlnoc"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midnat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6117,6 +6507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Náhled"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forhåndsvisning"
           }
         },
         "de" : {
@@ -6213,6 +6609,12 @@
             "value" : "Máta"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mynte"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6305,6 +6707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Záloha a export"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup og eksport"
           }
         },
         "de" : {
@@ -6401,6 +6809,12 @@
             "value" : "Štítek (skrytý, když je prázdný)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mærke (skjules, hvis tomt)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6493,6 +6907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Změnit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skift"
           }
         },
         "de" : {
@@ -6589,6 +7009,12 @@
             "value" : "Příjemnější barvy a kontrast"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mere behagelige farver og kontrast"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6681,6 +7107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vývojář osobně čte každou zprávu, kterou pošlete."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udvikleren læser selv hver eneste besked, du sender."
           }
         },
         "de" : {
@@ -6777,6 +7209,12 @@
             "value" : "Než ho ukážete, zapněte v Nastavení > Osobní hotspot volbu „Povolit ostatním připojení“. Když je vypnutá, nenajde se síť ani po naskenování QR kódu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Før du viser den, skal du slå “Tillad andre at deltage” til under Indstillinger > Personligt hotspot. Hvis den er slået fra, kan netværket ikke findes, selv om man scanner QR-koden."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6869,6 +7307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stačí ukázat a jste připojeni"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis det, så er du forbundet"
           }
         },
         "de" : {
@@ -6965,6 +7409,12 @@
             "value" : "Duplikovat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dupliker"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7057,6 +7507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heslo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adgangskode"
           }
         },
         "de" : {
@@ -7153,6 +7609,12 @@
             "value" : "Popisek hesla"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etiket for adgangskode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7245,6 +7707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobrazit heslo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis adgangskode"
           }
         },
         "de" : {
@@ -7341,6 +7809,12 @@
             "value" : "Kopírovat heslo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér adgangskode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7433,6 +7907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heslo zkopírováno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adgangskode kopieret"
           }
         },
         "de" : {
@@ -7529,6 +8009,12 @@
             "value" : "Skrýt heslo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjul adgangskode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7621,6 +8107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat heslo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryd adgangskode"
           }
         },
         "de" : {
@@ -7717,6 +8209,12 @@
             "value" : "Zobrazit heslo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis adgangskode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7809,6 +8307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Formát hesla není platný. (WEP: 5 nebo 13 znaků)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adgangskodens format er ugyldigt. (WEP: 5 eller 13 tegn)"
           }
         },
         "de" : {
@@ -7905,6 +8409,12 @@
             "value" : "Formát hesla není platný. (WPA: 8 až 63 znaků)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adgangskodens format er ugyldigt. (WPA: 8 til 63 tegn)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7997,6 +8507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heslo má %lld znaků. Heslo k Wi-Fi musí mít alespoň 8 znaků (u starých klíčů WEP 5 nebo 13). Zkontrolujte, zda nechybí nějaký znak."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adgangskoden er på %lld tegn. Wi-Fi-adgangskoder skal være mindst 8 tegn (gamle WEP-nøgler: 5 eller 13). Tjek, om der mangler tegn."
           }
         },
         "de" : {
@@ -8093,6 +8609,12 @@
             "value" : "Vložit jako heslo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug som adgangskode"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8185,6 +8707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přečteno z QR kódu na fotce."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læst fra QR-koden på billedet."
           }
         },
         "de" : {
@@ -8281,6 +8809,12 @@
             "value" : "Připojení jedinou fotkou"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbind med ét billede"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8373,6 +8907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na fotce se nepodařilo najít jméno ani heslo. Zadejte je ručně, nebo vyfoťte blíž a ostřeji."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke finde id og adgangskode på billedet. Skriv dem selv, eller tag et nyt billede tættere på og mere skarpt."
           }
         },
         "de" : {
@@ -8469,6 +9009,12 @@
             "value" : "Názvy přečtené z fotky – vyberte ten správný"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navne læst fra billedet – vælg det rigtige"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8561,6 +9107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přečteno z fotky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læst fra billede"
           }
         },
         "de" : {
@@ -8657,6 +9209,12 @@
             "value" : "Vyplnit z fotky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udfyld ud fra et billede"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8749,6 +9307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet"
           }
         },
         "de" : {
@@ -8845,6 +9409,12 @@
             "value" : "Nová tabulka"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyt opslag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8937,6 +9507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Západ slunce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solnedgang"
           }
         },
         "de" : {
@@ -9033,6 +9609,12 @@
             "value" : "Vybrat"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9125,6 +9707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volitelné – zobrazí se nahoře"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valgfrit – vises øverst"
           }
         },
         "de" : {
@@ -9221,6 +9809,12 @@
             "value" : "Nevybráno"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke valgt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9313,6 +9907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybráno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valgt"
           }
         },
         "de" : {
@@ -9409,6 +10009,12 @@
             "value" : "Nastavení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9501,6 +10107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importovat seznam ze snímku Nastavení…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importér liste fra skærmbillede af Indstillinger …"
           }
         },
         "de" : {
@@ -9597,6 +10209,12 @@
             "value" : "Hmatová odezva"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisk feedback"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9689,6 +10307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořte tabulku pro hosty"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lav gæsteopslag"
           }
         },
         "de" : {
@@ -9785,6 +10409,12 @@
             "value" : "Vytisknout nebo sdílet tabulku pro hosty"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udskriv eller del gæsteopslag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9877,6 +10507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Naskenovaná Wi-Fi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scannet Wi-Fi"
           }
         },
         "de" : {
@@ -9973,6 +10609,12 @@
             "value" : "Tato síť je spravována nastavením systému a nelze ji změnit."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dette netværk styres af systemindstillingerne og kan ikke ændres."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10065,6 +10707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Začít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom i gang"
           }
         },
         "de" : {
@@ -10161,6 +10809,12 @@
             "value" : "Klepněte na úryvek níže, nebo zadejte ručně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på et udsnit nedenfor, eller skriv selv"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10253,6 +10907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepnutím na úryvek níže ho vložíte do prázdného pole. Podržením vyberete, jestli půjde do jména, nebo hesla. Můžete ho i přetáhnout."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på et udsnit nedenfor, så havner det i det tomme felt. Hold fingeren nede for at vælge mellem id og adgangskode, eller træk det på plads."
           }
         },
         "de" : {
@@ -10349,6 +11009,12 @@
             "value" : "Jméno"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Id"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10441,6 +11107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat jméno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryd id"
           }
         },
         "de" : {
@@ -10537,6 +11209,12 @@
             "value" : "Vložit jako jméno"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug som id"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10629,6 +11307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pořiďte snímek obrazovky „Nastavení > Wi-Fi“ na iPhonu a vyberte ho tady. Aplikace přečte názvy v seznamu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag et skærmbillede af “Indstillinger > Wi-Fi” på iPhone, og vælg det her. Så læser appen navnene på listen."
           }
         },
         "de" : {
@@ -10725,6 +11409,12 @@
             "value" : "Text vzkazu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10817,6 +11507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyfotit tabulku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografér opslag"
           }
         },
         "de" : {
@@ -10913,6 +11609,12 @@
             "value" : "Tabulka %lld"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opslag %lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11005,6 +11707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořit tabulku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lav opslag"
           }
         },
         "de" : {
@@ -11101,6 +11809,12 @@
             "value" : "Název tabulky (vidět jen v seznamu)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opslagets navn (vises kun på listen)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11193,6 +11907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sdílet nebo vytisknout obrázek tabulky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del eller udskriv billede af opslaget"
           }
         },
         "de" : {
@@ -11289,6 +12009,12 @@
             "value" : "Text vytištěný na tabulce"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst, der trykkes på opslaget"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11381,6 +12107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když se aplikace při návrhu tabulky zavře, rozdělaná práce zůstane."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis appen lukker, mens du laver et opslag, er dit arbejde stadig der."
           }
         },
         "de" : {
@@ -11477,6 +12209,12 @@
             "value" : "Došlo k neznámé chybě. Zkontrolujte, zda jste v dosahu sítě."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der opstod en ukendt fejl. Tjek, at du er inden for netværkets rækkevidde."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11569,6 +12307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Upozornění na Wi-Fi v okolí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besked om Wi-Fi i nærheden"
           }
         },
         "de" : {
@@ -11665,6 +12409,12 @@
             "value" : "Galerie"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billeder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11757,6 +12507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkuste to znovu, když je aplikace otevřená na obrazovce."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv igen, mens appen er åben på skærmen."
           }
         },
         "de" : {
@@ -11853,6 +12609,12 @@
             "value" : "Text i tlačítka zůstávají ostré i v tmavém režimu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst og knapper er stadig skarpe i mørk tilstand."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11945,6 +12707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Při prvním otevření po aktualizaci se dozvíte, co je nového."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
           }
         },
         "de" : {
@@ -12041,6 +12809,12 @@
             "value" : "Novinky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12133,6 +12907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné (otevřená síť)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen (åbent netværk)"
           }
         },
         "de" : {
@@ -12229,6 +13009,12 @@
             "value" : "Wi-Fi uložené tady"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi gemt her"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12321,6 +13107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Připojit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbind"
           }
         },
         "de" : {
@@ -12417,6 +13209,12 @@
             "value" : "Připojení se nezdařilo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbindelsen mislykkedes"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12509,6 +13307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořit QR kód bez připojení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lav QR-kode uden forbindelse"
           }
         },
         "de" : {
@@ -12605,6 +13409,12 @@
             "value" : "Připojování…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opretter forbindelse …"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12697,6 +13507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V potvrzovacím okně musíte klepnout na „Připojit“. Zkuste to znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du skal trykke på “Tilslut” i bekræftelsesvinduet. Prøv igen."
           }
         },
         "de" : {
@@ -12793,6 +13609,12 @@
             "value" : "QR kód pro připojení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR til forbindelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12885,6 +13707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpora angličtiny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Understøttelse af engelsk"
           }
         },
         "de" : {
@@ -12981,6 +13809,12 @@
             "value" : "Přidejte libovolný text po řádcích, třeba otevírací dobu, účet na Instagramu nebo pravidla podniku."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv den tekst, du vil have, linje for linje, f.eks. åbningstider, Instagram-konto eller husregler."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13073,6 +13907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Např. Pro pokladnu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "F.eks. Til kassen"
           }
         },
         "de" : {
@@ -13169,6 +14009,12 @@
             "value" : "Např. Lounge Café"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "F.eks. Lounge Café"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13261,6 +14107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Např. Otevřeno 9:00–22:00"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "F.eks. Åbent 9.00–22.00"
           }
         },
         "de" : {
@@ -13357,6 +14209,12 @@
             "value" : "Oceán"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hav"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13449,6 +14307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR kód Wi-Fi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
           }
         },
         "de" : {
@@ -13545,6 +14409,12 @@
             "value" : "Zobrazit QR kód Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis Wi-Fi QR"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13637,6 +14507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importovat seznam Wi-Fi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importér Wi-Fi-liste"
           }
         },
         "de" : {
@@ -13733,6 +14609,12 @@
             "value" : "Podrobnosti o Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-detaljer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13825,6 +14707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat Wi-Fi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg Wi-Fi"
           }
         },
         "de" : {
@@ -13921,6 +14809,12 @@
             "value" : "Vyfotit tabulku s Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografér Wi-Fi-opslag"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14013,6 +14907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Název sítě Wi-Fi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-navn"
           }
         },
         "de" : {
@@ -14109,6 +15009,12 @@
             "value" : "Název sítě Wi-Fi je příliš dlouhý. (maximálně 32 bajtů)"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-navnet er for langt. (højst 32 byte)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14201,6 +15107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Název sítě Wi-Fi je prázdný."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-navnet er tomt."
           }
         },
         "de" : {
@@ -14297,6 +15209,12 @@
             "value" : "Přidat Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj Wi-Fi"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14389,6 +15307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jemné zavibrování, když se připojíte nebo se rozpozná text."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En let vibration, når du opretter forbindelse, eller tekst er genkendt."
           }
         },
         "de" : {
@@ -14485,6 +15409,12 @@
             "value" : "Když se připojíte k síti nebo ji nasdílíte z „Tady“, místo se zaznamená na mapě."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du forbinder til et netværk eller deler det fra “Her”, bliver stedet registreret på kortet."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14577,6 +15507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hotovo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
           }
         },
         "de" : {
@@ -14673,6 +15609,12 @@
             "value" : "Aplikace i tabulky také v angličtině, aby je přečetli i zahraniční hosté."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appen og opslagene findes også på engelsk, så udenlandske gæster kan læse dem."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14765,6 +15707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omezit pohyb"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducer bevægelse"
           }
         },
         "de" : {
@@ -14861,6 +15809,12 @@
             "value" : "Když zapnete „Omezit pohyb“, budou efekty na obrazovce klidnější."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når “Reducer bevægelse” er slået til, bliver skærmeffekterne mere afdæmpede."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14953,6 +15907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Všechny uložené sítě a tabulky smažete přímo v aplikaci."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle gemte netværk og opslag direkte i appen."
           }
         },
         "de" : {
@@ -15049,6 +16009,12 @@
             "value" : "Zpětná vazba a recenze"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feedback og anmeldelser"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15141,6 +16107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tato síť nepodporuje jednorázové připojení."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dette netværk understøtter ikke engangsforbindelse."
           }
         },
         "de" : {
@@ -15237,6 +16209,12 @@
             "value" : "Smazat tento řádek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet denne linje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15329,6 +16307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ukažte tuto kartu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis dette kort"
           }
         },
         "de" : {
@@ -15425,6 +16409,12 @@
             "value" : "Připojit tento iPhone"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbind denne iPhone"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15517,6 +16507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastaveno v tomto iPhonu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opsat på denne iPhone"
           }
         },
         "de" : {
@@ -15613,6 +16609,12 @@
             "value" : "Připojte tento iPhone, nebo jen vytvořte QR kód bez připojení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbind denne iPhone, eller lav bare QR-koden uden at oprette forbindelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15705,6 +16707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sítě Wi-Fi, které tento iPhone zná"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi, som denne iPhone kender"
           }
         },
         "de" : {
@@ -15801,6 +16809,12 @@
             "value" : "Názvy, které tento iPhone zná"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navne, som denne iPhone kender"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15893,6 +16907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Možná se píše takto:"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måske staves det sådan her:"
           }
         },
         "de" : {
@@ -15989,6 +17009,12 @@
             "value" : "Čtu názvy…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læser navne …"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16081,6 +17107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkontrolujte, zda jsou název a heslo přesně správně včetně velkých a malých písmen a zda jste v dosahu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tjek, at navn og adgangskode er helt nøjagtige, også med store og små bogstaver, og at du er inden for rækkevidde."
           }
         },
         "de" : {
@@ -16177,6 +17209,12 @@
             "value" : "Nenašly se žádné názvy. Pořiďte nový snímek, na kterém je seznam dobře vidět, nebo je zadejte níže ručně."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der blev ikke fundet nogen navne. Tag et nyt skærmbillede, hvor listen er tydelig, eller skriv dem nedenfor."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16269,6 +17307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Už jste připojeni."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er allerede forbundet."
           }
         },
         "de" : {
@@ -16365,6 +17409,12 @@
             "value" : "Předchozí požadavek na připojení se ještě zpracovává. Zkuste to za chvíli znovu."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En tidligere forbindelsesanmodning behandles stadig. Prøv igen om lidt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16457,6 +17507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zpráva na Instagramu (@lee25_ios)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-DM (@lee25_ios)"
           }
         },
         "de" : {
@@ -16553,6 +17609,12 @@
             "value" : "Rozpoznávám…"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genkender …"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16645,6 +17707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přečtených názvů: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld navne læst"
           }
         },
         "de" : {
@@ -16741,6 +17809,12 @@
             "value" : "Uložené sítě"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemte netværk"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16833,6 +17907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné uložené sítě"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen gemte netværk"
           }
         },
         "de" : {
@@ -16929,6 +18009,12 @@
             "value" : "Mapa uložených sítí Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort over gemt Wi-Fi"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17021,6 +18107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Upozorníme vás, když dorazíte na místo s uloženou sítí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en besked, når du kommer til et sted med et gemt netværk."
           }
         },
         "de" : {
@@ -17117,6 +18209,12 @@
             "value" : "Uložené sítě si pamatují i místo. Když se tam vrátíte, přesunou se na začátek seznamu a dostanou štítek „📍 V okolí“."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemte netværk huskes sammen med stedet. Når du kommer tilbage, rykker de øverst på listen med mærket “📍 Tæt på”."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17209,6 +18307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uložte sítě a tabulky do souboru a později je načtěte zpět."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem dine netværk og opslag i en fil, og hent dem igen senere."
           }
         },
         "de" : {
@@ -17305,6 +18409,12 @@
             "value" : "Použito"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brugt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17397,6 +18507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odebrat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern"
           }
         },
         "de" : {
@@ -17493,6 +18609,12 @@
             "value" : "Nadpis"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overskrift"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17585,6 +18707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepejte na úryvky a vyplňujte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på udsnittene for at udfylde"
           }
         },
         "de" : {
@@ -17681,6 +18809,12 @@
             "value" : "Přidat řádek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj linje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17773,6 +18907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ukažte QR kód sítě Wi-Fi, ke které jste připojeni.\nKdyž kamarád namíří fotoaparát, připojí se, aniž by znal heslo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis QR-koden til det Wi-Fi, du er forbundet til.\nNår en ven peger kameraet på den, får vedkommende forbindelse uden at kende adgangskoden."
           }
         },
         "de" : {
@@ -17869,6 +19009,12 @@
             "value" : "Otevře QR kód sítě Wi-Fi, ke které jste připojeni. Pokud není uložená, otevře naposledy uloženou."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbner QR-koden til det Wi-Fi, du er forbundet til. Hvis det ikke er gemt, åbnes det senest gemte."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17961,6 +19107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Právě připojeno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbundet nu"
           }
         },
         "de" : {
@@ -18057,6 +19209,12 @@
             "value" : "Mapa"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18149,6 +19307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na mapě není co zobrazit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen steder at vise på kortet"
           }
         },
         "de" : {
@@ -18245,6 +19409,12 @@
             "value" : "Vlastní řádky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Egne linjer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18337,6 +19507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vlastních řádků: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld egne linjer"
           }
         },
         "de" : {
@@ -18433,6 +19609,12 @@
             "value" : "Zadat ručně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv selv"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18525,6 +19707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zadat ručně…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv selv …"
           }
         },
         "de" : {
@@ -18621,6 +19809,12 @@
             "value" : "Ručně zadaná Wi-Fi"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi skrevet ind"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18713,6 +19907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat ručně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj selv"
           }
         },
         "de" : {
@@ -18809,6 +20009,12 @@
             "value" : "Znovu zobrazit úvod"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se introduktionen igen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18901,6 +20107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotoaparát"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera"
           }
         },
         "de" : {
@@ -18997,6 +20209,12 @@
             "value" : "Fotka, galerie nebo ruční zadání"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera, billeder eller skriv selv"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19089,6 +20307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj"
           }
         },
         "de" : {
@@ -19185,6 +20409,12 @@
             "value" : "Když kamarád namíří fotoaparát na QR kód, připojí se bez hesla. Přejetím nebo klepnutím na kartu ji otočíte na náhled tabulky pro hosty."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når en ven peger kameraet på QR-koden, får vedkommende forbindelse uden adgangskode. Stryg eller tryk på kortet for at vende det til en forhåndsvisning af gæsteopslaget."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19277,6 +20507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karta"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort"
           }
         },
         "de" : {
@@ -19373,6 +20609,12 @@
             "value" : "Nasměrujte fotoaparát na QR kód a připojte se"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan QR-koden med kameraet for at oprette forbindelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19465,6 +20707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Namiřte fotoaparát a připojte se hned"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peg kameraet på den for at få forbindelse med det samme"
           }
         },
         "de" : {
@@ -19561,6 +20809,12 @@
             "value" : "Namiřte fotoaparát a připojte se bez hesla. Dvojitým klepnutím otočíte na náhled tabulky."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peg kameraet på den for at få forbindelse uden adgangskode. Tryk to gange for at vende til forhåndsvisning af opslaget."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19653,6 +20907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otevře fotoaparát: vyfoťte tabulku s Wi-Fi a aplikace přečte název sítě a heslo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbner kameraet, så du kan fotografere et Wi-Fi-opslag og få læst netværksnavn og adgangskode."
           }
         },
         "de" : {
@@ -19749,6 +21009,12 @@
             "value" : "Kavárna"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19841,6 +21107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyfoťte tabulku s Wi-Fi v kavárně nebo ubytování, nebo vyberte fotku z galerie.\nAplikace přečte jméno a heslo a připojí tento iPhone."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografér et Wi-Fi-opslag på en café eller et overnatningssted, eller vælg et billede fra biblioteket.\nAppen læser navn og adgangskode og forbinder denne iPhone."
           }
         },
         "de" : {
@@ -19937,6 +21209,12 @@
             "value" : "Vyfoťte tabulku s Wi-Fi v kavárně nebo ubytování, nebo vyberte fotku z galerie. Aplikace přečte jméno a heslo a připojí se."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografér et Wi-Fi-opslag på en café eller et overnatningssted, eller vælg et billede fra biblioteket. Så læser appen id og adgangskode og opretter forbindelse."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20031,6 +21309,12 @@
             "value" : "Vybrat snímek"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg skærmbillede"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20122,7 +21406,13 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Z snímku obrazovky"
+            "value" : "Ze snímku obrazovky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hentet fra skærmbillede"
           }
         },
         "de" : {
@@ -20219,6 +21509,12 @@
             "value" : "Obrazovky pro velké písmo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærme til stor tekst"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20311,6 +21607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepnutím ho vložíte do prázdného pole. Podržením vyberete pole."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk for at lægge det i et tomt felt. Hold nede for at vælge felt."
           }
         },
         "de" : {
@@ -20407,6 +21709,12 @@
             "value" : "Připojte se bez starostí"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug det endelig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20499,6 +21807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obrazovka skládacího iPhonu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærm til foldbar iPhone"
           }
         },
         "de" : {
@@ -20595,6 +21909,12 @@
             "value" : "Na skládacím iPhonu se široký displej rozdělí na dva panely."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På en foldbar iPhone deles den brede skærm i to ruder."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20687,6 +22007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skov"
           }
         },
         "de" : {
@@ -20783,6 +22109,12 @@
             "value" : "Pokračovat tam, kde jste skončili"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt, hvor du slap"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20875,6 +22207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "K hotspotu se z tohoto iPhonu nelze připojit. Vytvořte QR kód a ukažte ho druhému."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne iPhone kan ikke oprette forbindelse til en hotspot. Lav en QR-kode, og vis den til den anden."
           }
         },
         "de" : {
@@ -20971,6 +22309,12 @@
             "value" : "Klepnutím na řádek otevřete QR kód a podrobnosti. Přejetím doprava připojíte tento iPhone, doleva sdílíte QR kód."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på en række for at åbne QR-koden og detaljerne. Stryg til højre for at forbinde denne iPhone, til venstre for at dele QR-koden."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21063,6 +22407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podoba"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format"
           }
         },
         "de" : {
@@ -21159,6 +22509,12 @@
             "value" : "VoiceOver přečte všechny údaje o síti i tlačítka, ve správném pořadí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver læser alle oplysninger om netværket og alle knapper op i den rigtige rækkefølge."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21248,6 +22604,12 @@
     "확인" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -21347,6 +22709,12 @@
             "value" : "📍 V okolí"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Tæt på"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21439,6 +22807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Tady"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Her"
           }
         },
         "de" : {
@@ -21535,6 +22909,12 @@
             "value" : "📍 Právě připojeno"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Forbundet nu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21624,6 +23004,12 @@
     "📶 핫스팟" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Hotspot"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Hotspot"
