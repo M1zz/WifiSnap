@@ -1,0 +1,86 @@
+{
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "${applicationName} QR" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        }
+      }
+    },
+    "${applicationName} 와이파이 QR 보여줘" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} show Wi-Fi QR"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} 와이파이 QR 보여줘"
+          }
+        }
+      }
+    },
+    "${applicationName} 와이파이 촬영" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} scan Wi-Fi sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} 와이파이 촬영"
+          }
+        }
+      }
+    },
+    "${applicationName}로 와이파이 안내문 찍어줘" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan a Wi-Fi sign with ${applicationName}"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName}로 와이파이 안내문 찍어줘"
+          }
+        }
+      }
+    },
+    "${applicationName}에서 와이파이 QR 열어줘" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Wi-Fi QR in ${applicationName}"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName}에서 와이파이 QR 열어줘"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

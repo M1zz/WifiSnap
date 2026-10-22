@@ -1,8 +1,167 @@
 {
   "sourceLanguage" : "ko",
   "strings" : {
+    "%@ 사본" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ copy"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 사본"
+          }
+        }
+      }
+    },
+    "%@ 손님용 안내판 미리보기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guest sign preview for %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 손님용 안내판 미리보기"
+          }
+        }
+      }
+    },
+    "%@ 연결용 QR 코드" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR code to connect to %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 연결용 QR 코드"
+          }
+        }
+      }
+    },
+    "%@ 와이파이 QR" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Wi-Fi QR"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 와이파이 QR"
+          }
+        }
+      }
+    },
+    "%@ 조각" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ piece"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 조각"
+          }
+        }
+      }
+    },
+    "'%@' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up the connection to “%@”.\nTo confirm it connected, the app needs location access. (Settings > MyFi > Location)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'%@' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)"
+          }
+        }
+      }
+    },
+    "'%@' 와이파이에 붙지 못했어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t join “%@”."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'%@' 와이파이에 붙지 못했어요."
+          }
+        }
+      }
+    },
+    "'%@' 표기로 다시 시도 중…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trying again as “%@”…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'%@' 표기로 다시 시도 중…"
+          }
+        }
+      }
+    },
+    "'%@'에 연결했어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connected to “%@”."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'%@'에 연결했어요."
+          }
+        }
+      }
+    },
+    "A4 포스터" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4 poster"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4 포스터"
+          }
+        }
+      }
+    },
     "Face ID 잠금" : {
-      "comment" : "Roadmap item: lock.faceid",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -19,7 +178,6 @@
       }
     },
     "Face ID나 Touch ID로 앱을 잠가 저장한 비밀번호를 지켜요." : {
-      "comment" : "Roadmap item detail: lock.faceid",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -35,8 +193,135 @@
         }
       }
     },
+    "QR 만드는 중…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Making QR code…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR 만드는 중…"
+          }
+        }
+      }
+    },
+    "QR 만들기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Make QR code"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR 만들기"
+          }
+        }
+      }
+    },
+    "QR 생성 실패" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t make the QR code"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR 생성 실패"
+          }
+        }
+      }
+    },
+    "QR 이미지 공유" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share QR image"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR 이미지 공유"
+          }
+        }
+      }
+    },
+    "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Making only a QR code saves the network without connecting this phone. If the password is wrong, the QR code won’t connect either, so double-check it."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요."
+          }
+        }
+      }
+    },
+    "QR을 만들지 못했어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t make the QR code."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR을 만들지 못했어요."
+          }
+        }
+      }
+    },
+    "SSID (와이파이 이름)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (Wi-Fi name)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (와이파이 이름)"
+          }
+        }
+      }
+    },
+    "SSID 접두사가 올바르지 않아요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The SSID prefix isn’t valid."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID 접두사가 올바르지 않아요."
+          }
+        }
+      }
+    },
     "VoiceOver로 더 편하게" : {
-      "comment" : "Roadmap item: a11y.voiceover",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -52,8 +337,151 @@
         }
       }
     },
+    "[마이파이 %@] 문의" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Question"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[마이파이 %@] 문의"
+          }
+        }
+      }
+    },
+    "iOS는 저장된 와이파이 목록을 앱에 알려주지 않아서, 캡처가 유일한 방법이에요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS doesn’t share your saved Wi-Fi list with apps, so a screenshot is the only way."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS는 저장된 와이파이 목록을 앱에 알려주지 않아서, 캡처가 유일한 방법이에요."
+          }
+        }
+      }
+    },
+    "가져오기에 포함" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Include in import"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가져오기에 포함"
+          }
+        }
+      }
+    },
+    "가져온 이름 %lld개" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld names imported"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가져온 이름 %lld개"
+          }
+        }
+      }
+    },
+    "건너뛰기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "건너뛰기"
+          }
+        }
+      }
+    },
+    "고치는 즉시 저장돼요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved as you type"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "고치는 즉시 저장돼요"
+          }
+        }
+      }
+    },
+    "공유" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유"
+          }
+        }
+      }
+    },
+    "근처 와이파이 먼저" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nearby networks first"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "근처 와이파이 먼저"
+          }
+        }
+      }
+    },
+    "글자 되돌리기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset text"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "글자 되돌리기"
+          }
+        }
+      }
+    },
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
-      "comment" : "Roadmap item detail: a11y.largetext",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -70,7 +498,6 @@
       }
     },
     "기기 간 동기화" : {
-      "comment" : "Roadmap item: sync.icloud",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -87,7 +514,6 @@
       }
     },
     "기기를 바꿔도 저장한 와이파이와 안내판이 그대로 이어져요." : {
-      "comment" : "Roadmap item detail: sync.icloud",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -104,7 +530,6 @@
       }
     },
     "내 데이터 한 번에 지우기" : {
-      "comment" : "Roadmap item: data.delete",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -120,8 +545,151 @@
         }
       }
     },
+    "내 안내판" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내 안내판"
+          }
+        }
+      }
+    },
+    "내 안내판 (%lld)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My signs (%lld)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내 안내판 (%lld)"
+          }
+        }
+      }
+    },
+    "내 핫스팟" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My hotspot"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내 핫스팟"
+          }
+        }
+      }
+    },
+    "네트워크" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "네트워크"
+          }
+        }
+      }
+    },
+    "네트워크 라벨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network label"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "네트워크 라벨"
+          }
+        }
+      }
+    },
+    "네트워크 이름(SSID)이 올바르지 않아요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The network name (SSID) isn’t valid."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "네트워크 이름(SSID)이 올바르지 않아요."
+          }
+        }
+      }
+    },
+    "네트워크 정보를 확인해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please check the network details."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "네트워크 정보를 확인해 주세요."
+          }
+        }
+      }
+    },
+    "다른 캡처 고르기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick another screenshot"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다른 캡처 고르기"
+          }
+        }
+      }
+    },
+    "다음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다음"
+          }
+        }
+      }
+    },
     "다크 모드" : {
-      "comment" : "Roadmap item: display.dark",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -137,8 +705,23 @@
         }
       }
     },
+    "닫기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
+          }
+        }
+      }
+    },
     "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요." : {
-      "comment" : "Roadmap item detail: a11y.contrast",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -155,7 +738,6 @@
       }
     },
     "더 많은 나라 말로 앱을 쓸 수 있게 해요." : {
-      "comment" : "Roadmap item detail: lang.more",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -172,7 +754,6 @@
       }
     },
     "더 많은 언어" : {
-      "comment" : "Roadmap item: lang.more",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -188,8 +769,311 @@
         }
       }
     },
+    "도움말" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Help"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도움말"
+          }
+        }
+      }
+    },
+    "두 번 탭하면 QR 코드로 돌아갑니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double-tap to go back to the QR code."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "두 번 탭하면 QR 코드로 돌아갑니다."
+          }
+        }
+      }
+    },
+    "디자인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "디자인"
+          }
+        }
+      }
+    },
+    "마이파이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "마이파이"
+          }
+        }
+      }
+    },
+    "맞는 것만 켜 두고, 틀린 글자는 눌러서 고친 뒤 오른쪽 위 '추가'를 누르세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep on only the correct ones, tap a name to fix any wrong letters, then tap Add at the top right."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "맞는 것만 켜 두고, 틀린 글자는 눌러서 고친 뒤 오른쪽 위 '추가'를 누르세요."
+          }
+        }
+      }
+    },
+    "매장 로고" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shop logo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매장 로고"
+          }
+        }
+      }
+    },
+    "매장 이름" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shop name"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매장 이름"
+          }
+        }
+      }
+    },
+    "매장이나 집에 둘 와이파이 안내판을 만들어\n인쇄하거나 이미지로 공유할 수 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design a Wi-Fi sign for your shop or home,\nthen print it or share it as an image."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매장이나 집에 둘 와이파이 안내판을 만들어\n인쇄하거나 이미지로 공유할 수 있어요."
+          }
+        }
+      }
+    },
+    "맨 아래 문구 (비우면 숨김)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bottom line (hidden if empty)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "맨 아래 문구 (비우면 숨김)"
+          }
+        }
+      }
+    },
+    "메인 화면 카드에는 가장 최근에 고친 안내판이 보여요. 왼쪽으로 밀면 복제·삭제할 수 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The main screen card shows the sign you edited most recently. Swipe left to duplicate or delete."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메인 화면 카드에는 가장 최근에 고친 안내판이 보여요. 왼쪽으로 밀면 복제·삭제할 수 있어요."
+          }
+        }
+      }
+    },
+    "메일로 문의 (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email us (%@)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메일로 문의 (%@)"
+          }
+        }
+      }
+    },
+    "모노" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모노"
+          }
+        }
+      }
+    },
+    "목록에서 바로 쓰기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick actions in the list"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "목록에서 바로 쓰기"
+          }
+        }
+      }
+    },
+    "목록에서 와이파이 고르기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose from list"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "목록에서 와이파이 고르기"
+          }
+        }
+      }
+    },
+    "무료 와이파이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Free Wi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "무료 와이파이"
+          }
+        }
+      }
+    },
+    "문의" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문의"
+          }
+        }
+      }
+    },
+    "미드나잇" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midnight"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미드나잇"
+          }
+        }
+      }
+    },
+    "미리보기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preview"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미리보기"
+          }
+        }
+      }
+    },
+    "민트" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mint"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "민트"
+          }
+        }
+      }
+    },
     "백업과 내보내기" : {
-      "comment" : "Roadmap item: backup",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -205,8 +1089,39 @@
         }
       }
     },
+    "뱃지 (비우면 숨김)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badge (hidden if empty)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "뱃지 (비우면 숨김)"
+          }
+        }
+      }
+    },
+    "변경" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "변경"
+          }
+        }
+      }
+    },
     "보기 편한 색과 대비" : {
-      "comment" : "Roadmap item: a11y.contrast",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -222,8 +1137,503 @@
         }
       }
     },
+    "보내 주신 의견은 개발자가 하나하나 직접 읽어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The developer reads every message you send."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보내 주신 의견은 개발자가 하나하나 직접 읽어요."
+          }
+        }
+      }
+    },
+    "보여주기 전에 설정 > 개인용 핫스팟에서 ‘다른 사람의 연결 허용’을 켜 주세요. 꺼져 있으면 QR을 찍어도 네트워크를 찾지 못해요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Before showing this, turn on “Allow Others to Join” in Settings > Personal Hotspot. If it’s off, people who scan the QR code won’t find the network."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보여주기 전에 설정 > 개인용 핫스팟에서 ‘다른 사람의 연결 허용’을 켜 주세요. 꺼져 있으면 QR을 찍어도 네트워크를 찾지 못해요."
+          }
+        }
+      }
+    },
+    "보여주기만 하면 연결" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just show it to connect"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보여주기만 하면 연결"
+          }
+        }
+      }
+    },
+    "복제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplicate"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복제"
+          }
+        }
+      }
+    },
+    "비밀번호" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호"
+          }
+        }
+      }
+    },
+    "비밀번호 라벨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password label"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 라벨"
+          }
+        }
+      }
+    },
+    "비밀번호 보기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show password"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 보기"
+          }
+        }
+      }
+    },
+    "비밀번호 복사" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy password"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 복사"
+          }
+        }
+      }
+    },
+    "비밀번호 복사됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password copied"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 복사됨"
+          }
+        }
+      }
+    },
+    "비밀번호 숨기기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide password"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 숨기기"
+          }
+        }
+      }
+    },
+    "비밀번호 지우기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear password"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 지우기"
+          }
+        }
+      }
+    },
+    "비밀번호 표시" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show password"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 표시"
+          }
+        }
+      }
+    },
+    "비밀번호 형식이 올바르지 않아요. (WEP은 5자 또는 13자)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The password isn’t valid. (WEP needs 5 or 13 characters)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 형식이 올바르지 않아요. (WEP은 5자 또는 13자)"
+          }
+        }
+      }
+    },
+    "비밀번호 형식이 올바르지 않아요. (WPA는 8~63자)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The password isn’t valid. (WPA needs 8–63 characters)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 형식이 올바르지 않아요. (WPA는 8~63자)"
+          }
+        }
+      }
+    },
+    "비밀번호가 %lld자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The password is %lld characters long. Wi-Fi passwords must be at least 8 characters (older WEP keys are 5 or 13). Check that no characters are missing."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호가 %lld자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요."
+          }
+        }
+      }
+    },
+    "비밀번호로 넣기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use as password"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호로 넣기"
+          }
+        }
+      }
+    },
+    "사진 속 QR에서 읽었어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read from the QR code in the photo."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진 속 QR에서 읽었어요."
+          }
+        }
+      }
+    },
+    "사진 한 장으로 연결" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect from a single photo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진 한 장으로 연결"
+          }
+        }
+      }
+    },
+    "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t find an ID or password in the photo. Type them in, or try again closer and in sharper focus."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요."
+          }
+        }
+      }
+    },
+    "사진에서 읽은 이름 — 맞는 걸 골라주세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Names read from the photo — pick the right one"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진에서 읽은 이름 — 맞는 걸 골라주세요"
+          }
+        }
+      }
+    },
+    "사진에서 읽음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read from photo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진에서 읽음"
+          }
+        }
+      }
+    },
+    "사진으로 자동 입력" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fill in from a photo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진으로 자동 입력"
+          }
+        }
+      }
+    },
+    "삭제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "삭제"
+          }
+        }
+      }
+    },
+    "새 안내판" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 안내판"
+          }
+        }
+      }
+    },
+    "선셋" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sunset"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선셋"
+          }
+        }
+      }
+    },
+    "선택" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택"
+          }
+        }
+      }
+    },
+    "선택 사항 — 상단에 표시" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optional — shown at the top"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택 사항 — 상단에 표시"
+          }
+        }
+      }
+    },
+    "선택 안 됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not selected"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택 안 됨"
+          }
+        }
+      }
+    },
+    "선택됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selected"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택됨"
+          }
+        }
+      }
+    },
+    "설정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정"
+          }
+        }
+      }
+    },
+    "설정 캡처에서 목록 가져오기…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import list from a Settings screenshot…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정 캡처에서 목록 가져오기…"
+          }
+        }
+      }
+    },
     "손끝으로 느끼는 반응" : {
-      "comment" : "Roadmap item: haptics",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -239,8 +1649,295 @@
         }
       }
     },
+    "손님용 안내판 만들기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Make a guest Wi-Fi sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "손님용 안내판 만들기"
+          }
+        }
+      }
+    },
+    "손님용 안내판 인쇄·공유" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Print or share a guest sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "손님용 안내판 인쇄·공유"
+          }
+        }
+      }
+    },
+    "스캔한 와이파이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scanned Wi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스캔한 와이파이"
+          }
+        }
+      }
+    },
+    "시스템 설정으로 관리되는 네트워크라 변경할 수 없어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This network is managed by system settings and can’t be changed."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템 설정으로 관리되는 네트워크라 변경할 수 없어요."
+          }
+        }
+      }
+    },
+    "시작하기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Started"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시작하기"
+          }
+        }
+      }
+    },
+    "아래 조각을 탭하거나 직접 입력" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap a piece below, or type it in"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아래 조각을 탭하거나 직접 입력"
+          }
+        }
+      }
+    },
+    "아래 조각을 탭하면 빈 칸에 들어가요. 길게 누르면 아이디·비밀번호 중 어디에 넣을지 고를 수 있고, 끌어다 놓아도 돼요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap a piece below to drop it into an empty field. Press and hold to choose between ID and password, or drag it into place."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아래 조각을 탭하면 빈 칸에 들어가요. 길게 누르면 아이디·비밀번호 중 어디에 넣을지 고를 수 있고, 끌어다 놓아도 돼요."
+          }
+        }
+      }
+    },
+    "아이디" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ID"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아이디"
+          }
+        }
+      }
+    },
+    "아이디 지우기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear ID"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아이디 지우기"
+          }
+        }
+      }
+    },
+    "아이디로 넣기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use as ID"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아이디로 넣기"
+          }
+        }
+      }
+    },
+    "아이폰 '설정 > Wi-Fi' 화면을 캡처한 뒤 그 사진을 고르면, 목록에 있는 이름을 읽어옵니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take a screenshot of the Wi-Fi screen in Settings, then pick it here and the app reads the network names in the list."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아이폰 '설정 > Wi-Fi' 화면을 캡처한 뒤 그 사진을 고르면, 목록에 있는 이름을 읽어옵니다."
+          }
+        }
+      }
+    },
+    "안내 문구" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "안내 문구"
+          }
+        }
+      }
+    },
+    "안내문 촬영" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "안내문 촬영"
+          }
+        }
+      }
+    },
+    "안내판 %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign %lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "안내판 %lld"
+          }
+        }
+      }
+    },
+    "안내판 만들기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Make a sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "안내판 만들기"
+          }
+        }
+      }
+    },
+    "안내판 이름 (목록에서만 보임)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign name (shown only in the list)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "안내판 이름 (목록에서만 보임)"
+          }
+        }
+      }
+    },
+    "안내판 이미지 공유·인쇄" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share or print sign image"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "안내판 이미지 공유·인쇄"
+          }
+        }
+      }
+    },
+    "안내판에 인쇄되는 글자" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text printed on the sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "안내판에 인쇄되는 글자"
+          }
+        }
+      }
+    },
     "안내판을 꾸미다 앱이 꺼져도 하던 내용이 남아 있어요." : {
-      "comment" : "Roadmap item detail: autosave",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -256,8 +1953,23 @@
         }
       }
     },
+    "알 수 없는 오류가 발생했어요. 신호 범위 안에 있는지 확인해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An unknown error occurred. Make sure you’re within range of the network."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알 수 없는 오류가 발생했어요. 신호 범위 안에 있는지 확인해 주세요."
+          }
+        }
+      }
+    },
     "알림" : {
-      "comment" : "Roadmap item: notifications",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -273,8 +1985,39 @@
         }
       }
     },
+    "앨범" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앨범"
+          }
+        }
+      }
+    },
+    "앱이 화면에 떠 있는 상태에서 시도해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please try again while the app is open on screen."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱이 화면에 떠 있는 상태에서 시도해 주세요."
+          }
+        }
+      }
+    },
     "어두운 화면에서도 글자와 단추가 또렷하게 보여요." : {
-      "comment" : "Roadmap item detail: display.dark",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -291,7 +2034,6 @@
       }
     },
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
-      "comment" : "Roadmap item detail: whatsnew",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -308,7 +2050,6 @@
       }
     },
     "업데이트 소식" : {
-      "comment" : "Roadmap item: whatsnew",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -324,8 +2065,135 @@
         }
       }
     },
+    "없음 (개방)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None (open network)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "없음 (개방)"
+          }
+        }
+      }
+    },
+    "여기서 저장한 와이파이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi saved here"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여기서 저장한 와이파이"
+          }
+        }
+      }
+    },
+    "연결" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결"
+          }
+        }
+      }
+    },
+    "연결 실패" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t Connect"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 실패"
+          }
+        }
+      }
+    },
+    "연결 없이 QR 만들기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Make QR code without connecting"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 없이 QR 만들기"
+          }
+        }
+      }
+    },
+    "연결 중…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 중…"
+          }
+        }
+      }
+    },
+    "연결 확인 창에서 '연결'을 눌러야 연결됩니다. 다시 시도해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You need to tap Join in the confirmation prompt. Please try again."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 확인 창에서 '연결'을 눌러야 연결됩니다. 다시 시도해 주세요."
+          }
+        }
+      }
+    },
+    "연결용 QR" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR to connect"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결용 QR"
+          }
+        }
+      }
+    },
     "영어 지원" : {
-      "comment" : "Roadmap item: lang.english",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -341,8 +2209,247 @@
         }
       }
     },
+    "영업시간, 인스타 계정, 매장 안내처럼 원하는 문구를 줄 단위로 넣으세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add any text you like, one line at a time, such as opening hours, an Instagram handle, or house rules."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "영업시간, 인스타 계정, 매장 안내처럼 원하는 문구를 줄 단위로 넣으세요."
+          }
+        }
+      }
+    },
+    "예) 계산대용" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. For the register"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "예) 계산대용"
+          }
+        }
+      }
+    },
+    "예) 라운지 카페" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Lounge Café"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "예) 라운지 카페"
+          }
+        }
+      }
+    },
+    "예) 영업시간 09:00–22:00" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Open 9:00 AM–10:00 PM"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "예) 영업시간 09:00–22:00"
+          }
+        }
+      }
+    },
+    "오션" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocean"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오션"
+          }
+        }
+      }
+    },
+    "와이파이 QR" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 QR"
+          }
+        }
+      }
+    },
+    "와이파이 QR 보여주기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Wi-Fi QR"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 QR 보여주기"
+          }
+        }
+      }
+    },
+    "와이파이 목록 가져오기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import Wi-Fi list"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 목록 가져오기"
+          }
+        }
+      }
+    },
+    "와이파이 상세" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi details"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 상세"
+          }
+        }
+      }
+    },
+    "와이파이 선택" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose Wi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 선택"
+          }
+        }
+      }
+    },
+    "와이파이 안내문 촬영" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan Wi-Fi sign"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 안내문 촬영"
+          }
+        }
+      }
+    },
+    "와이파이 이름" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi name"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 이름"
+          }
+        }
+      }
+    },
+    "와이파이 이름이 너무 길어요. (최대 32바이트)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Wi-Fi name is too long. (32 bytes max)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 이름이 너무 길어요. (최대 32바이트)"
+          }
+        }
+      }
+    },
+    "와이파이 이름이 비어 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Wi-Fi name is empty."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 이름이 비어 있어요."
+          }
+        }
+      }
+    },
+    "와이파이 추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Wi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 추가"
+          }
+        }
+      }
+    },
     "와이파이에 연결되거나 글자를 읽어 내면 가볍게 떨려서 알려 줘요." : {
-      "comment" : "Roadmap item detail: haptics",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -358,8 +2465,39 @@
         }
       }
     },
+    "와이파이에 연결하거나 '여기'에서 공유하면 그 위치가 지도에 기록돼요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you connect to a network or share from “Here”, its location is recorded on the map."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이에 연결하거나 '여기'에서 공유하면 그 위치가 지도에 기록돼요."
+          }
+        }
+      }
+    },
+    "완료" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완료"
+          }
+        }
+      }
+    },
     "외국인 손님도 읽을 수 있게 앱과 안내판을 영어로도 써요." : {
-      "comment" : "Roadmap item detail: lang.english",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -376,7 +2514,6 @@
       }
     },
     "움직임 줄이기" : {
-      "comment" : "Roadmap item: a11y.motion",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -393,7 +2530,6 @@
       }
     },
     "움직임 줄이기를 켜면 화면 효과가 차분해져요." : {
-      "comment" : "Roadmap item detail: a11y.motion",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -410,7 +2546,6 @@
       }
     },
     "원하면 앱 안에서 저장한 와이파이와 안내판을 모두 지울 수 있어요." : {
-      "comment" : "Roadmap item detail: data.delete",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -426,8 +2561,343 @@
         }
       }
     },
+    "의견 · 리뷰" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feedback & reviews"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "의견 · 리뷰"
+          }
+        }
+      }
+    },
+    "이 네트워크는 일회성 연결을 지원하지 않아요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This network doesn’t support one-time connections."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 네트워크는 일회성 연결을 지원하지 않아요."
+          }
+        }
+      }
+    },
+    "이 줄 삭제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this line"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 줄 삭제"
+          }
+        }
+      }
+    },
+    "이 카드를 보여주세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show this card"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 카드를 보여주세요"
+          }
+        }
+      }
+    },
+    "이 폰 연결" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect this phone"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 폰 연결"
+          }
+        }
+      }
+    },
+    "이 폰에 설정됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up on this phone"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 폰에 설정됨"
+          }
+        }
+      }
+    },
+    "이 폰을 연결하거나, 연결 없이 QR만 만들어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect this phone, or just make a QR code without connecting"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 폰을 연결하거나, 연결 없이 QR만 만들어요"
+          }
+        }
+      }
+    },
+    "이 폰이 아는 와이파이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi networks this phone knows"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 폰이 아는 와이파이"
+          }
+        }
+      }
+    },
+    "이 폰이 아는 이름" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Names this phone knows"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 폰이 아는 이름"
+          }
+        }
+      }
+    },
+    "이런 표기일 수도 있어요:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It might be spelled like this:"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이런 표기일 수도 있어요:"
+          }
+        }
+      }
+    },
+    "이름 읽는 중…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading names…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름 읽는 중…"
+          }
+        }
+      }
+    },
+    "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check that the name and password are exactly right, including capitalization, and that you’re within range."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요."
+          }
+        }
+      }
+    },
+    "이름을 찾지 못했어요. 목록이 잘 보이게 다시 캡처하거나, 아래에서 직접 적어 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t find any names. Take a clearer screenshot of the list, or type them in below."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름을 찾지 못했어요. 목록이 잘 보이게 다시 캡처하거나, 아래에서 직접 적어 주세요."
+          }
+        }
+      }
+    },
+    "이미 연결되어 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Already connected."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이미 연결되어 있어요."
+          }
+        }
+      }
+    },
+    "이전 연결 요청을 처리 중이에요. 잠시 후 다시 시도해 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A previous connection request is still in progress. Please try again in a moment."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 연결 요청을 처리 중이에요. 잠시 후 다시 시도해 주세요."
+          }
+        }
+      }
+    },
+    "인스타그램 DM (@lee25_ios)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        }
+      }
+    },
+    "인식 중…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인식 중…"
+          }
+        }
+      }
+    },
+    "읽어낸 이름 %lld개" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld names found"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "읽어낸 이름 %lld개"
+          }
+        }
+      }
+    },
+    "저장된 네트워크" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved networks"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장된 네트워크"
+          }
+        }
+      }
+    },
+    "저장된 네트워크 없음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No saved networks"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장된 네트워크 없음"
+          }
+        }
+      }
+    },
+    "저장한 와이파이 지도" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Map of saved Wi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장한 와이파이 지도"
+          }
+        }
+      }
+    },
     "저장한 와이파이가 있는 곳에 오면 알림으로 알려 줘요." : {
-      "comment" : "Roadmap item detail: notifications",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -443,8 +2913,23 @@
         }
       }
     },
+    "저장한 와이파이는 위치와 함께 기억돼요. 그 장소에 다시 오면 목록 맨 위로 올라오고 '📍 근처' 뱃지가 붙어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved networks are remembered with their location. When you’re back there, they move to the top with a “📍 Nearby” badge."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장한 와이파이는 위치와 함께 기억돼요. 그 장소에 다시 오면 목록 맨 위로 올라오고 '📍 근처' 뱃지가 붙어요."
+          }
+        }
+      }
+    },
     "저장한 와이파이와 안내판을 파일로 저장하고 다시 불러올 수 있어요." : {
-      "comment" : "Roadmap item detail: backup",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -460,8 +2945,503 @@
         }
       }
     },
+    "적용됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applied"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "적용됨"
+          }
+        }
+      }
+    },
+    "제거" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제거"
+          }
+        }
+      }
+    },
+    "제목" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heading"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목"
+          }
+        }
+      }
+    },
+    "조각을 탭해서 채우기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap pieces to fill in"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "조각을 탭해서 채우기"
+          }
+        }
+      }
+    },
+    "줄 추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add line"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄 추가"
+          }
+        }
+      }
+    },
+    "지금 연결된 와이파이를 QR로 보여 주세요.\n친구가 카메라로 비추면 비밀번호를 몰라도 바로 연결돼요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show the QR code for the Wi-Fi you’re on.\nWhen a friend points their camera at it, they join without knowing the password."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 연결된 와이파이를 QR로 보여 주세요.\n친구가 카메라로 비추면 비밀번호를 몰라도 바로 연결돼요."
+          }
+        }
+      }
+    },
+    "지금 연결된 와이파이의 QR을 엽니다. 연결된 와이파이가 저장돼 있지 않으면 가장 최근에 저장한 와이파이를 엽니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens the QR code for the Wi-Fi you’re connected to. If that network isn’t saved, opens the one you saved most recently."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 연결된 와이파이의 QR을 엽니다. 연결된 와이파이가 저장돼 있지 않으면 가장 최근에 저장한 와이파이를 엽니다."
+          }
+        }
+      }
+    },
+    "지금 연결됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connected now"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 연결됨"
+          }
+        }
+      }
+    },
+    "지도" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Map"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지도"
+          }
+        }
+      }
+    },
+    "지도에 표시할 위치가 없어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No locations to show on the map"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지도에 표시할 위치가 없어요"
+          }
+        }
+      }
+    },
+    "직접 쓰는 줄" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom lines"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "직접 쓰는 줄"
+          }
+        }
+      }
+    },
+    "직접 쓴 줄 %lld개" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld custom lines"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "직접 쓴 줄 %lld개"
+          }
+        }
+      }
+    },
+    "직접 입력" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type it in"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "직접 입력"
+          }
+        }
+      }
+    },
+    "직접 입력…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter manually…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "직접 입력…"
+          }
+        }
+      }
+    },
+    "직접 입력한 와이파이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi you entered"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "직접 입력한 와이파이"
+          }
+        }
+      }
+    },
+    "직접 적어 넣기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type one in"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "직접 적어 넣기"
+          }
+        }
+      }
+    },
+    "처음 안내 다시 보기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Replay the intro"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "처음 안내 다시 보기"
+          }
+        }
+      }
+    },
+    "촬영" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "촬영"
+          }
+        }
+      }
+    },
+    "촬영·앨범·직접 입력" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera, photos, or type it in"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "촬영·앨범·직접 입력"
+          }
+        }
+      }
+    },
+    "추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가"
+          }
+        }
+      }
+    },
+    "친구가 QR을 카메라로 비추면 비밀번호 없이 바로 연결돼요. 카드를 밀거나 탭하면 손님용 안내판 미리보기로 뒤집혀요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When a friend points their camera at the QR code, they join without a password. Swipe or tap the card to flip it to a preview of your guest sign."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "친구가 QR을 카메라로 비추면 비밀번호 없이 바로 연결돼요. 카드를 밀거나 탭하면 손님용 안내판 미리보기로 뒤집혀요."
+          }
+        }
+      }
+    },
+    "카드" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Card"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카드"
+          }
+        }
+      }
+    },
+    "카메라로 QR을 비추면 자동 연결" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Point your camera at the QR code to connect"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카메라로 QR을 비추면 자동 연결"
+          }
+        }
+      }
+    },
+    "카메라로 비추면 바로 연결돼요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Point a camera at it to connect right away"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카메라로 비추면 바로 연결돼요"
+          }
+        }
+      }
+    },
+    "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Point a camera at it to connect without a password. Double-tap to flip to the guest sign preview."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다."
+          }
+        }
+      }
+    },
+    "카메라를 열어 와이파이 안내문을 찍으면 이름과 비밀번호를 읽어 줍니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens the camera so you can photograph a Wi-Fi sign and read its network name and password."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카메라를 열어 와이파이 안내문을 찍으면 이름과 비밀번호를 읽어 줍니다."
+          }
+        }
+      }
+    },
+    "카페" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카페"
+          }
+        }
+      }
+    },
+    "카페·숙소의 와이파이 안내문을 찍거나 앨범에서 고르세요.\n이름과 비밀번호를 읽어 이 폰을 연결해 줘요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photograph a Wi-Fi sign at a café or rental, or pick one from your photos.\nThe app reads the name and password and connects this phone."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카페·숙소의 와이파이 안내문을 찍거나 앨범에서 고르세요.\n이름과 비밀번호를 읽어 이 폰을 연결해 줘요."
+          }
+        }
+      }
+    },
+    "카페·숙소의 와이파이 안내문을 촬영하거나 앨범에서 고르면, ID와 비밀번호를 알아서 읽어 연결해요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photograph a Wi-Fi sign at a café or rental, or pick one from your photos, and the app reads the ID and password and connects."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카페·숙소의 와이파이 안내문을 촬영하거나 앨범에서 고르면, ID와 비밀번호를 알아서 읽어 연결해요."
+          }
+        }
+      }
+    },
+    "캡처 고르기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a screenshot"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "캡처 고르기"
+          }
+        }
+      }
+    },
+    "캡처에서 가져옴" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imported from screenshot"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "캡처에서 가져옴"
+          }
+        }
+      }
+    },
     "큰 글씨에 맞춘 화면" : {
-      "comment" : "Roadmap item: a11y.largetext",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -477,8 +3457,39 @@
         }
       }
     },
+    "탭하면 빈 칸에 넣습니다. 길게 누르면 넣을 칸을 고릅니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to drop it into an empty field. Press and hold to choose which field."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "탭하면 빈 칸에 넣습니다. 길게 누르면 넣을 칸을 고릅니다."
+          }
+        }
+      }
+    },
+    "편하게 이용하세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enjoy your stay"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "편하게 이용하세요"
+          }
+        }
+      }
+    },
     "펼치는 아이폰 화면" : {
-      "comment" : "Roadmap item: fold",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -495,7 +3506,6 @@
       }
     },
     "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요." : {
-      "comment" : "Roadmap item detail: fold",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -511,8 +3521,23 @@
         }
       }
     },
+    "포레스트" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forest"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "포레스트"
+          }
+        }
+      }
+    },
     "하던 일 이어서 하기" : {
-      "comment" : "Roadmap item: autosave",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -528,8 +3553,55 @@
         }
       }
     },
+    "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A hotspot can’t be joined from this phone. Make a QR code and show it to the other person."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요."
+          }
+        }
+      }
+    },
+    "행을 탭하면 QR·상세가 열려요. 오른쪽으로 밀면 이 폰 연결, 왼쪽으로 밀면 QR 공유예요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap a row to open its QR code and details. Swipe right to join on this phone, or swipe left to share the QR code."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "행을 탭하면 QR·상세가 열려요. 오른쪽으로 밀면 이 폰 연결, 왼쪽으로 밀면 QR 공유예요."
+          }
+        }
+      }
+    },
+    "형태" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "형태"
+          }
+        }
+      }
+    },
     "화면 읽기 기능이 와이파이 정보와 단추를 빠짐없이, 알맞은 순서로 읽어 줘요." : {
-      "comment" : "Roadmap item detail: a11y.voiceover",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -541,6 +3613,86 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "화면 읽기 기능이 와이파이 정보와 단추를 빠짐없이, 알맞은 순서로 읽어 줘요."
+          }
+        }
+      }
+    },
+    "확인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "확인"
+          }
+        }
+      }
+    },
+    "📍 근처" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Nearby"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 근처"
+          }
+        }
+      }
+    },
+    "📍 여기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Here"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 여기"
+          }
+        }
+      }
+    },
+    "📍 지금 연결됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Connected now"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 지금 연결됨"
+          }
+        }
+      }
+    },
+    "📶 핫스팟" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Hotspot"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 핫스팟"
           }
         }
       }

@@ -55,3 +55,59 @@ https://m1zz.github.io/WifiSnap/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/WifiSnap/
+
+## en
+
+### 이름
+
+MyFi: Wi-Fi QR
+
+### 부제
+
+Snap to join, print signs
+
+### 키워드
+
+wireless,password,share,guest,poster,hotspot,cafe,rental,hostel,router,widget,camera,scan,airprint
+
+### 프로모션 텍스트
+
+Snap a Wi-Fi sign and connect right away, or share your own network with a single QR code. Design a guest sign for your café or rental and print it in minutes.
+
+### 설명
+
+Stop reading out passwords or copying them by hand. Snap a sign and connect, or share your Wi-Fi with one QR code.
+Make a guest Wi-Fi sign for your café, rental, or shop in a few taps and print it right away.
+
+Snap to connect
+Photograph a Wi-Fi sign or receipt on the wall, or pick a photo from your library, and the app reads the network name and password and connects this iPhone.
+If the text is unclear, drag a piece picked out of the photo into the name or password field.
+You can also type the details in, or just make a QR code without connecting.
+
+Share with one QR code
+The app recognizes the Wi-Fi you are on and makes a QR code that connects a friend as soon as they point their camera at it.
+Send the QR image in a message, or share your own hotspot as a QR code.
+
+Make a guest sign
+Pick from 7 themes and add your shop name, logo, and extra lines such as opening hours.
+Choose a card or an A4 portrait poster, save it as an image, or print it straight away with AirPrint.
+Keep several signs, one for each shop or table, and edit them any time.
+
+Widget and map
+Put the QR code of your favorite Wi-Fi on your Home Screen or Lock Screen. Tap it to open a large QR code.
+Places you have connected are remembered on a map, and nearby networks are shown first when you return.
+
+Privacy
+Saved Wi-Fi details stay on this device and are not sent to a server.
+
+### 지원 URL
+
+https://m1zz.github.io/WifiSnap/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/WifiSnap/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/WifiSnap/

@@ -1,0 +1,166 @@
+{
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "앱에서 한 번 연결하면 여기에 QR이 떠요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect once in the app and the QR code shows up here"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱에서 한 번 연결하면 여기에 QR이 떠요"
+          }
+        }
+      }
+    },
+    "와이파이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이"
+          }
+        }
+      }
+    },
+    "와이파이 QR" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 QR"
+          }
+        }
+      }
+    },
+    "와이파이 선택" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose Wi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 선택"
+          }
+        }
+      }
+    },
+    "위젯에 고정할 와이파이를 고릅니다. 고르지 않으면 가장 최근에 연결한 와이파이를 보여줍니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose the Wi-Fi to pin to the widget. If you don’t choose, it shows the one you connected to most recently."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "위젯에 고정할 와이파이를 고릅니다. 고르지 않으면 가장 최근에 연결한 와이파이를 보여줍니다."
+          }
+        }
+      }
+    },
+    "저장된 와이파이 없음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No saved Wi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장된 와이파이 없음"
+          }
+        }
+      }
+    },
+    "지금 연결된 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 특정 와이파이로 고정할 수도 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shows the QR code for the Wi-Fi you’re connected to. Touch and hold, then choose Edit Widget to pin a specific network."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 연결된 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 특정 와이파이로 고정할 수도 있어요."
+          }
+        }
+      }
+    },
+    "지금 연결됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connected now"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 연결됨"
+          }
+        }
+      }
+    },
+    "카메라로 비추면 바로 연결" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Point a camera at it to connect"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카메라로 비추면 바로 연결"
+          }
+        }
+      }
+    },
+    "탭하면 큰 QR" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap for a big QR code"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "탭하면 큰 QR"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
