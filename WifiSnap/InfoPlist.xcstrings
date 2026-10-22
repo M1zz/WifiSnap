@@ -21,6 +21,12 @@
             "value" : "MyFi"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -121,6 +127,12 @@
             "value" : "Wird verwendet, um WLAN-Aushänge zu fotografieren und Netzwerkname und Passwort zu erkennen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιείται για τη φωτογράφιση πινακίδων Wi-Fi και την αναγνώριση του ονόματος δικτύου και του κωδικού."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -219,6 +231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wird benötigt, um den Namen des aktuell verbundenen WLANs zu prüfen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απαιτείται για τον έλεγχο του ονόματος του Wi-Fi στο οποίο είστε συνδεδεμένοι."
           }
         },
         "en" : {

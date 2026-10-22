@@ -21,6 +21,12 @@
             "value" : "%@ – Kopie"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντίγραφο του «%@»"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorschau des Gäste-Aushangs für %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προεπισκόπηση πινακίδας επισκεπτών για το «%@»"
           }
         },
         "en" : {
@@ -221,6 +233,12 @@
             "value" : "QR-Code zum Verbinden mit %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κωδικός QR για σύνδεση στο «%@»"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -319,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN-QR-Code für %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi για το «%@»"
           }
         },
         "en" : {
@@ -421,6 +445,12 @@
             "value" : "Schnipsel „%@“"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απόσπασμα «%@»"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -519,6 +549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Die Verbindung mit „%@“ wurde eingerichtet.\nZur Prüfung, ob sie steht, braucht die App Zugriff auf den Standort. (Einstellungen > MyFi > Standort)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η σύνδεση με το «%@» ρυθμίστηκε.\nΓια να επιβεβαιωθεί ότι συνδέθηκε, η εφαρμογή χρειάζεται πρόσβαση στην τοποθεσία. (Ρυθμίσεις > MyFi > Τοποθεσία)"
           }
         },
         "en" : {
@@ -621,6 +657,12 @@
             "value" : "Verbindung mit „%@“ nicht möglich."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ήταν δυνατή η σύνδεση με το «%@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -719,6 +761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neuer Versuch mit „%@“ …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νέα προσπάθεια ως «%@»…"
           }
         },
         "en" : {
@@ -821,6 +869,12 @@
             "value" : "Mit „%@“ verbunden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδεθήκατε στο «%@»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -919,6 +973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A4-Poster"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφίσα A4"
           }
         },
         "en" : {
@@ -1021,6 +1081,12 @@
             "value" : "Face-ID-Sperre"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωμα με Face ID"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1119,6 +1185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sperre die App mit Face ID oder Touch ID und schütze deine gespeicherten Passwörter."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλειδώστε την εφαρμογή με Face ID ή Touch ID για να προστατεύετε τους αποθηκευμένους κωδικούς."
           }
         },
         "en" : {
@@ -1221,6 +1293,12 @@
             "value" : "QR-Code wird erstellt …"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιουργία κωδικού QR…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1319,6 +1397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR-Code erstellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιουργία κωδικού QR"
           }
         },
         "en" : {
@@ -1421,6 +1505,12 @@
             "value" : "QR-Code konnte nicht erstellt werden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποτυχία δημιουργίας κωδικού QR"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1519,6 +1609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR-Bild teilen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοινοποίηση εικόνας QR"
           }
         },
         "en" : {
@@ -1621,6 +1717,12 @@
             "value" : "Wenn du nur den QR-Code erstellst, verbindet sich dieses iPhone nicht, sondern speichert das Netzwerk nur. Bei falschem Passwort verbindet auch der QR-Code nicht – prüfe es also."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν δημιουργήσετε μόνο τον κωδικό QR, αυτό το iPhone δεν συνδέεται, απλώς αποθηκεύει το δίκτυο. Αν ο κωδικός είναι λάθος, δεν θα συνδέσει ούτε ο κωδικός QR, γι’ αυτό ελέγξτε τον."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1719,6 +1821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der QR-Code konnte nicht erstellt werden."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν ήταν δυνατή η δημιουργία του κωδικού QR."
           }
         },
         "en" : {
@@ -1821,6 +1929,12 @@
             "value" : "SSID (WLAN-Name)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (όνομα Wi-Fi)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1919,6 +2033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das SSID-Präfix ist ungültig."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το πρόθεμα SSID δεν είναι έγκυρο."
           }
         },
         "en" : {
@@ -2021,6 +2141,12 @@
             "value" : "Besser mit VoiceOver"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο εύκολη χρήση με VoiceOver"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2119,6 +2245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Anfrage"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Ερώτηση"
           }
         },
         "en" : {
@@ -2221,6 +2353,12 @@
             "value" : "iOS gibt die gespeicherte WLAN-Liste nicht an Apps weiter – ein Bildschirmfoto ist daher der einzige Weg."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το iOS δεν δίνει στις εφαρμογές τη λίστα των αποθηκευμένων Wi-Fi, οπότε το στιγμιότυπο είναι ο μόνος τρόπος."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2319,6 +2457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In den Import aufnehmen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συμπερίληψη στην εισαγωγή"
           }
         },
         "en" : {
@@ -2421,6 +2565,12 @@
             "value" : "%lld Namen importiert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ονόματα εισήχθησαν"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2519,6 +2669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Überspringen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παράλειψη"
           }
         },
         "en" : {
@@ -2621,6 +2777,12 @@
             "value" : "Änderungen werden sofort gespeichert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθηκεύεται αμέσως μόλις αλλάξετε κάτι"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2719,6 +2881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teilen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοινοποίηση"
           }
         },
         "en" : {
@@ -2821,6 +2989,12 @@
             "value" : "WLANs in der Nähe zuerst"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα τα κοντινά δίκτυα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2919,6 +3093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text zurücksetzen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επαναφορά κειμένων"
           }
         },
         "en" : {
@@ -3021,6 +3201,12 @@
             "value" : "Bei größerer Schrift ordnen sich die Bildschirme neu an, statt abgeschnitten zu werden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν μεγαλώνετε τα γράμματα, οι οθόνες αναδιατάσσονται χωρίς να κόβεται τίποτα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3119,6 +3305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abgleich zwischen Geräten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συγχρονισμός μεταξύ συσκευών"
           }
         },
         "en" : {
@@ -3221,6 +3413,12 @@
             "value" : "Gespeicherte WLANs und Aushänge bleiben beim Gerätewechsel erhalten."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα αποθηκευμένα δίκτυα και οι πινακίδες σας μένουν όταν αλλάζετε συσκευή."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3319,6 +3517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle meine Daten löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των δεδομένων μου"
           }
         },
         "en" : {
@@ -3421,6 +3625,12 @@
             "value" : "Mein Aushang"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η πινακίδα μου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3519,6 +3729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meine Aushänge (%lld)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι πινακίδες μου (%lld)"
           }
         },
         "en" : {
@@ -3621,6 +3837,12 @@
             "value" : "Mein Hotspot"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το hotspot μου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3719,6 +3941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Netzwerk"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δίκτυο"
           }
         },
         "en" : {
@@ -3821,6 +4049,12 @@
             "value" : "Bezeichnung für Netzwerk"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ετικέτα δικτύου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3919,6 +4153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Netzwerkname (SSID) ist ungültig."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το όνομα δικτύου (SSID) δεν είναι έγκυρο."
           }
         },
         "en" : {
@@ -4021,6 +4261,12 @@
             "value" : "Bitte prüfe die Netzwerkangaben."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ελέγξτε τα στοιχεία του δικτύου."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4119,6 +4365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anderes Bildschirmfoto wählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή άλλου στιγμιοτύπου"
           }
         },
         "en" : {
@@ -4221,6 +4473,12 @@
             "value" : "Weiter"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επόμενο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4319,6 +4577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dunkelmodus"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκούρος τρόπος λειτουργίας"
           }
         },
         "en" : {
@@ -4421,6 +4685,12 @@
             "value" : "Schließen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείσιμο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4519,6 +4789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles bleibt gut lesbar – auch mit erhöhtem Kontrast oder bei Farbschwäche."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα παραμένουν ευανάγνωστα, ακόμα και με αυξημένη αντίθεση ή αν δυσκολεύεστε να ξεχωρίσετε χρώματα."
           }
         },
         "en" : {
@@ -4621,6 +4897,12 @@
             "value" : "Die App in noch mehr Sprachen nutzen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιήστε την εφαρμογή σε περισσότερες γλώσσες."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4719,6 +5001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mehr Sprachen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περισσότερες γλώσσες"
           }
         },
         "en" : {
@@ -4821,6 +5109,12 @@
             "value" : "Hilfe"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βοήθεια"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4919,6 +5213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doppeltippen, um zum QR-Code zurückzukehren."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε δύο φορές για επιστροφή στον κωδικό QR."
           }
         },
         "en" : {
@@ -5021,6 +5321,12 @@
             "value" : "Design"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σχεδίαση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5116,6 +5422,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -5221,6 +5533,12 @@
             "value" : "Lass nur die richtigen aktiviert, tippe falsche Buchstaben zum Korrigieren an und tippe oben rechts auf „Hinzufügen“."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήστε ενεργά μόνο τα σωστά, πατήστε για να διορθώσετε λάθος γράμματα και πατήστε «Προσθήκη» πάνω δεξιά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5319,6 +5637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Logo des Lokals"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λογότυπο καταστήματος"
           }
         },
         "en" : {
@@ -5421,6 +5745,12 @@
             "value" : "Name des Lokals"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όνομα καταστήματος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5519,6 +5849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erstelle einen WLAN-Aushang für dein Lokal oder dein Zuhause\nund drucke ihn aus oder teile ihn als Bild."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φτιάξτε μια πινακίδα Wi-Fi για το κατάστημα ή το σπίτι σας\nκαι εκτυπώστε την ή κοινοποιήστε την ως εικόνα."
           }
         },
         "en" : {
@@ -5621,6 +5957,12 @@
             "value" : "Letzte Zeile (bei leerem Feld ausgeblendet)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τελευταία γραμμή (κρύβεται αν είναι κενή)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5719,6 +6061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auf der Karte im Hauptbildschirm erscheint der zuletzt bearbeitete Aushang. Nach links wischen zum Duplizieren oder Löschen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η κάρτα στην κεντρική οθόνη δείχνει την πινακίδα που επεξεργαστήκατε τελευταία. Σύρετε αριστερά για διπλασιασμό ή διαγραφή."
           }
         },
         "en" : {
@@ -5821,6 +6169,12 @@
             "value" : "Per E-Mail kontaktieren (%@)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποστολή email (%@)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5919,6 +6273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mono"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μονόχρωμο"
           }
         },
         "en" : {
@@ -6021,6 +6381,12 @@
             "value" : "Schnell loslegen in der Liste"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γρήγορες ενέργειες στη λίστα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6119,6 +6485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN aus Liste wählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή Wi-Fi από τη λίστα"
           }
         },
         "en" : {
@@ -6221,6 +6593,12 @@
             "value" : "Kostenloses WLAN"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δωρεάν Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6319,6 +6697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontakt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικοινωνία"
           }
         },
         "en" : {
@@ -6421,6 +6805,12 @@
             "value" : "Mitternacht"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μεσάνυχτα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6519,6 +6909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorschau"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προεπισκόπηση"
           }
         },
         "en" : {
@@ -6621,6 +7017,12 @@
             "value" : "Minze"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μέντα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6719,6 +7121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sicherung und Export"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντίγραφα ασφαλείας και εξαγωγή"
           }
         },
         "en" : {
@@ -6821,6 +7229,12 @@
             "value" : "Abzeichen (bei leerem Feld ausgeblendet)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σήμα (κρύβεται αν είναι κενό)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6919,6 +7333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ändern"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αλλαγή"
           }
         },
         "en" : {
@@ -7021,6 +7441,12 @@
             "value" : "Angenehmere Farben und Kontraste"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο άνετα χρώματα και αντίθεση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7119,6 +7545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dein Feedback wird vom Entwickler persönlich gelesen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ο προγραμματιστής διαβάζει προσωπικά κάθε μήνυμα που στέλνετε."
           }
         },
         "en" : {
@@ -7221,6 +7653,12 @@
             "value" : "Aktiviere vor dem Zeigen in Einstellungen > Persönlicher Hotspot die Option „Anderen erlauben, sich zu verbinden“. Ist sie aus, findet man das Netzwerk auch mit dem QR-Code nicht."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πριν το δείξετε, ενεργοποιήστε το «Να επιτρέπεται σε άλλους η συμμετοχή» στις Ρυθμίσεις > Προσωπικό Hotspot. Αν είναι ανενεργό, το δίκτυο δεν θα βρεθεί ούτε με σάρωση του κωδικού QR."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7319,6 +7757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einfach zeigen und verbinden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αρκεί να το δείξετε για να συνδεθείτε"
           }
         },
         "en" : {
@@ -7421,6 +7865,12 @@
             "value" : "Duplizieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διπλασιασμός"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7519,6 +7969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passwort"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κωδικός πρόσβασης"
           }
         },
         "en" : {
@@ -7621,6 +8077,12 @@
             "value" : "Bezeichnung für Passwort"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ετικέτα κωδικού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7719,6 +8181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passwort anzeigen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εμφάνιση κωδικού"
           }
         },
         "en" : {
@@ -7821,6 +8289,12 @@
             "value" : "Passwort kopieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή κωδικού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7919,6 +8393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passwort kopiert"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ο κωδικός αντιγράφηκε"
           }
         },
         "en" : {
@@ -8021,6 +8501,12 @@
             "value" : "Passwort ausblenden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απόκρυψη κωδικού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8119,6 +8605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passwort löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκκαθάριση κωδικού"
           }
         },
         "en" : {
@@ -8221,6 +8713,12 @@
             "value" : "Passwort anzeigen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εμφάνιση κωδικού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8319,6 +8817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das Passwort hat ein ungültiges Format. (WEP: 5 oder 13 Zeichen)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η μορφή του κωδικού δεν είναι έγκυρη. (WEP: 5 ή 13 χαρακτήρες)"
           }
         },
         "en" : {
@@ -8421,6 +8925,12 @@
             "value" : "Das Passwort hat ein ungültiges Format. (WPA: 8 bis 63 Zeichen)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η μορφή του κωδικού δεν είναι έγκυρη. (WPA: 8 έως 63 χαρακτήρες)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8519,6 +9029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das Passwort hat %lld Zeichen. WLAN-Passwörter müssen mindestens 8 Zeichen haben (alte WEP-Schlüssel: 5 oder 13). Prüfe, ob Zeichen fehlen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ο κωδικός έχει %lld χαρακτήρες. Οι κωδικοί Wi-Fi πρέπει να έχουν τουλάχιστον 8 χαρακτήρες (τα παλιά κλειδιά WEP, 5 ή 13). Ελέγξτε μήπως λείπει κάποιος χαρακτήρας."
           }
         },
         "en" : {
@@ -8621,6 +9137,12 @@
             "value" : "Als Passwort einsetzen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εισαγωγή ως κωδικό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8719,6 +9241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aus dem QR-Code im Foto gelesen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαβάστηκε από τον κωδικό QR της φωτογραφίας."
           }
         },
         "en" : {
@@ -8821,6 +9349,12 @@
             "value" : "Mit einem Foto verbinden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνδεση με μία φωτογραφία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8919,6 +9453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Im Foto wurden weder Kennung noch Passwort gefunden. Gib sie manuell ein oder fotografiere näher und schärfer."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν βρέθηκαν αναγνωριστικό και κωδικός στη φωτογραφία. Πληκτρολογήστε τα ή τραβήξτε νέα φωτογραφία, πιο κοντά και πιο καθαρά."
           }
         },
         "en" : {
@@ -9021,6 +9561,12 @@
             "value" : "Aus dem Foto gelesene Namen – wähle den richtigen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ονόματα που διαβάστηκαν από τη φωτογραφία — διαλέξτε το σωστό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9119,6 +9665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aus Foto gelesen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαβάστηκε από φωτογραφία"
           }
         },
         "en" : {
@@ -9221,6 +9773,12 @@
             "value" : "Per Foto ausfüllen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συμπλήρωση από φωτογραφία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9319,6 +9877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή"
           }
         },
         "en" : {
@@ -9421,6 +9985,12 @@
             "value" : "Neuer Aushang"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νέα πινακίδα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9519,6 +10089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sonnenuntergang"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ηλιοβασίλεμα"
           }
         },
         "en" : {
@@ -9621,6 +10197,12 @@
             "value" : "Auswählen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9719,6 +10301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Optional – oben angezeigt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προαιρετικό — εμφανίζεται πάνω"
           }
         },
         "en" : {
@@ -9821,6 +10409,12 @@
             "value" : "Nicht ausgewählt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν επιλέχθηκε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9919,6 +10513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ausgewählt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλέχθηκε"
           }
         },
         "en" : {
@@ -10021,6 +10621,12 @@
             "value" : "Einstellungen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10119,6 +10725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liste aus Einstellungen-Bildschirmfoto importieren …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εισαγωγή λίστας από στιγμιότυπο των Ρυθμίσεων…"
           }
         },
         "en" : {
@@ -10221,6 +10833,12 @@
             "value" : "Haptisches Feedback"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απτική ανάδραση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10319,6 +10937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gäste-Aushang erstellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φτιάξτε πινακίδες για επισκέπτες"
           }
         },
         "en" : {
@@ -10421,6 +11045,12 @@
             "value" : "Gäste-Aushang drucken oder teilen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκτύπωση ή κοινοποίηση πινακίδας επισκεπτών"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10519,6 +11149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gescanntes WLAN"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi που σαρώθηκε"
           }
         },
         "en" : {
@@ -10621,6 +11257,12 @@
             "value" : "Dieses Netzwerk wird über die Systemeinstellungen verwaltet und kann nicht geändert werden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτό το δίκτυο διαχειρίζεται από τις ρυθμίσεις συστήματος και δεν μπορεί να αλλάξει."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10719,6 +11361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Los geht’s"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έναρξη"
           }
         },
         "en" : {
@@ -10821,6 +11469,12 @@
             "value" : "Unten einen Schnipsel antippen oder manuell eingeben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε ένα απόσπασμα παρακάτω ή πληκτρολογήστε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10919,6 +11573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippe unten auf einen Schnipsel, damit er ins leere Feld wandert. Halte ihn gedrückt, um Kennung oder Passwort zu wählen, oder ziehe ihn ins Feld."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε ένα απόσπασμα παρακάτω και θα μπει στο κενό πεδίο. Κρατήστε πατημένο για να διαλέξετε αναγνωριστικό ή κωδικό, ή σύρετέ το στη θέση του."
           }
         },
         "en" : {
@@ -11021,6 +11681,12 @@
             "value" : "Kennung"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αναγνωριστικό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11119,6 +11785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kennung löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκκαθάριση αναγνωριστικού"
           }
         },
         "en" : {
@@ -11221,6 +11893,12 @@
             "value" : "Als Kennung einsetzen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εισαγωγή ως αναγνωριστικό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11319,6 +11997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mache ein Bildschirmfoto der Ansicht „Einstellungen > WLAN“ auf dem iPhone und wähle es hier aus. Die App liest die Namen aus der Liste."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τραβήξτε στιγμιότυπο της οθόνης «Ρυθμίσεις > Wi-Fi» του iPhone και επιλέξτε το εδώ· η εφαρμογή διαβάζει τα ονόματα της λίστας."
           }
         },
         "en" : {
@@ -11421,6 +12105,12 @@
             "value" : "Hinweistext"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μήνυμα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11519,6 +12209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aushang fotografieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογράφιση πινακίδας"
           }
         },
         "en" : {
@@ -11621,6 +12317,12 @@
             "value" : "Aushang %lld"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πινακίδα %lld"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11719,6 +12421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aushang erstellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιουργία πινακίδας"
           }
         },
         "en" : {
@@ -11821,6 +12529,12 @@
             "value" : "Name des Aushangs (nur in der Liste sichtbar)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όνομα πινακίδας (φαίνεται μόνο στη λίστα)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11919,6 +12633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aushang-Bild teilen oder drucken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοινοποίηση ή εκτύπωση εικόνας πινακίδας"
           }
         },
         "en" : {
@@ -12021,6 +12741,12 @@
             "value" : "Auf den Aushang gedruckter Text"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κείμενο που τυπώνεται στην πινακίδα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12119,6 +12845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schließt sich die App beim Gestalten eines Aushangs, bleibt dein Stand erhalten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν η εφαρμογή κλείσει ενώ φτιάχνετε μια πινακίδα, η δουλειά σας μένει όπως ήταν."
           }
         },
         "en" : {
@@ -12221,6 +12953,12 @@
             "value" : "Es ist ein unbekannter Fehler aufgetreten. Prüfe, ob du in Reichweite des Netzwerks bist."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παρουσιάστηκε άγνωστο σφάλμα. Ελέγξτε ότι βρίσκεστε εντός εμβέλειας του δικτύου."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12319,6 +13057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hinweise zu WLANs in der Nähe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ειδοποιήσεις για κοντινά Wi-Fi"
           }
         },
         "en" : {
@@ -12421,6 +13165,12 @@
             "value" : "Mediathek"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογραφίες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12519,6 +13269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Versuche es erneut, solange die App auf dem Bildschirm geöffnet ist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δοκιμάστε ξανά με την εφαρμογή ανοιχτή στην οθόνη."
           }
         },
         "en" : {
@@ -12621,6 +13377,12 @@
             "value" : "Text und Tasten bleiben auch im Dunkelmodus gestochen scharf."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το κείμενο και τα κουμπιά παραμένουν καθαρά και στον σκούρο τρόπο λειτουργίας."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12719,6 +13481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beim ersten Öffnen nach einem Update siehst du, was neu ist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την πρώτη φορά που ανοίγετε την εφαρμογή μετά από μια ενημέρωση, δείτε τι νέο υπάρχει."
           }
         },
         "en" : {
@@ -12821,6 +13589,12 @@
             "value" : "Neuigkeiten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι νέο υπάρχει"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12919,6 +13693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keins (offen)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένας (ανοιχτό δίκτυο)"
           }
         },
         "en" : {
@@ -13021,6 +13801,12 @@
             "value" : "Hier gespeicherte WLANs"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi που αποθηκεύτηκαν εδώ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13119,6 +13905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verbinden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνδεση"
           }
         },
         "en" : {
@@ -13221,6 +14013,12 @@
             "value" : "Verbindung fehlgeschlagen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποτυχία σύνδεσης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13319,6 +14117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR-Code ohne Verbindung erstellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιουργία κωδικού QR χωρίς σύνδεση"
           }
         },
         "en" : {
@@ -13421,6 +14225,12 @@
             "value" : "Verbindung wird hergestellt …"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνδεση…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13519,6 +14329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippe im Bestätigungsdialog auf „Verbinden“, damit die Verbindung klappt. Versuche es erneut."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρέπει να πατήσετε «Σύνδεση» στο παράθυρο επιβεβαίωσης. Δοκιμάστε ξανά."
           }
         },
         "en" : {
@@ -13621,6 +14437,12 @@
             "value" : "QR-Code zum Verbinden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR σύνδεσης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13719,6 +14541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unterstützung für Englisch"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη αγγλικών"
           }
         },
         "en" : {
@@ -13821,6 +14649,12 @@
             "value" : "Füge beliebigen Text Zeile für Zeile hinzu, etwa Öffnungszeiten, Instagram-Konto oder Hausregeln."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθέστε όποιο κείμενο θέλετε, γραμμή προς γραμμή, όπως ωράριο, λογαριασμό Instagram ή κανόνες του χώρου."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13919,6 +14753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "z. B. Für die Kasse"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Π.χ. Για το ταμείο"
           }
         },
         "en" : {
@@ -14021,6 +14861,12 @@
             "value" : "z. B. Lounge Café"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Π.χ. Lounge Café"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14119,6 +14965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "z. B. Geöffnet 9:00–22:00 Uhr"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Π.χ. Ανοιχτά 9:00–22:00"
           }
         },
         "en" : {
@@ -14221,6 +15073,12 @@
             "value" : "Ozean"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ωκεανός"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14319,6 +15177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN-QR-Code"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi"
           }
         },
         "en" : {
@@ -14421,6 +15285,12 @@
             "value" : "WLAN-QR-Code anzeigen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εμφάνιση QR Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14519,6 +15389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN-Liste importieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εισαγωγή λίστας Wi-Fi"
           }
         },
         "en" : {
@@ -14621,6 +15497,12 @@
             "value" : "WLAN-Details"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λεπτομέρειες Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14719,6 +15601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN wählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή Wi-Fi"
           }
         },
         "en" : {
@@ -14821,6 +15709,12 @@
             "value" : "WLAN-Aushang fotografieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογράφιση πινακίδας Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14919,6 +15813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN-Name"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όνομα Wi-Fi"
           }
         },
         "en" : {
@@ -15021,6 +15921,12 @@
             "value" : "Der WLAN-Name ist zu lang. (höchstens 32 Byte)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το όνομα του Wi-Fi είναι πολύ μεγάλο. (έως 32 byte)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15119,6 +16025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der WLAN-Name ist leer."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το όνομα του Wi-Fi είναι κενό."
           }
         },
         "en" : {
@@ -15221,6 +16133,12 @@
             "value" : "WLAN hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15319,6 +16237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ein sanftes Vibrieren, wenn du dich verbindest oder Text erkannt wurde."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ένας ήπιος κραδασμός όταν συνδέεστε ή όταν αναγνωρίζεται κείμενο."
           }
         },
         "en" : {
@@ -15421,6 +16345,12 @@
             "value" : "Wenn du dich mit einem WLAN verbindest oder es von „Hier“ aus teilst, wird der Ort auf der Karte festgehalten."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν συνδέεστε σε δίκτυο ή το κοινοποιείτε από το «Εδώ», η τοποθεσία καταγράφεται στον χάρτη."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15519,6 +16449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fertig"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τέλος"
           }
         },
         "en" : {
@@ -15621,6 +16557,12 @@
             "value" : "App und Aushänge auch auf Englisch, damit Gäste aus dem Ausland sie lesen können."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η εφαρμογή και οι πινακίδες και στα αγγλικά, για να τις διαβάζουν και οι ξένοι επισκέπτες."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15719,6 +16661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bewegung reduzieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μείωση κίνησης"
           }
         },
         "en" : {
@@ -15821,6 +16769,12 @@
             "value" : "Mit „Bewegung reduzieren“ werden Bildschirmeffekte dezenter."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με ενεργή τη «Μείωση κίνησης», τα εφέ στην οθόνη γίνονται πιο διακριτικά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15919,6 +16873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle gespeicherten WLANs und Aushänge direkt in der App löschen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγράψτε από την εφαρμογή όλα τα αποθηκευμένα δίκτυα και τις πινακίδες."
           }
         },
         "en" : {
@@ -16021,6 +16981,12 @@
             "value" : "Feedback und Bewertungen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σχόλια και αξιολογήσεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16119,6 +17085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dieses Netzwerk unterstützt keine einmalige Verbindung."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτό το δίκτυο δεν υποστηρίζει εφάπαξ σύνδεση."
           }
         },
         "en" : {
@@ -16221,6 +17193,12 @@
             "value" : "Diese Zeile löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή αυτής της γραμμής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16319,6 +17297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeige diese Karte"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δείξτε αυτήν την κάρτα"
           }
         },
         "en" : {
@@ -16421,6 +17405,12 @@
             "value" : "Dieses iPhone verbinden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνδεση αυτού του iPhone"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16519,6 +17509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auf diesem iPhone eingerichtet"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμισμένο σε αυτό το iPhone"
           }
         },
         "en" : {
@@ -16621,6 +17617,12 @@
             "value" : "Dieses iPhone verbinden oder nur einen QR-Code erstellen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδέστε αυτό το iPhone ή δημιουργήστε μόνο τον κωδικό QR χωρίς σύνδεση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16719,6 +17721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLANs, die dieses iPhone kennt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi που γνωρίζει αυτό το iPhone"
           }
         },
         "en" : {
@@ -16821,6 +17829,12 @@
             "value" : "Namen, die dieses iPhone kennt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ονόματα που γνωρίζει αυτό το iPhone"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16919,6 +17933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vielleicht wird es so geschrieben:"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ίσως γράφεται έτσι:"
           }
         },
         "en" : {
@@ -17021,6 +18041,12 @@
             "value" : "Namen werden gelesen …"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανάγνωση ονομάτων…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17119,6 +18145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prüfe, ob Name und Passwort samt Groß- und Kleinschreibung stimmen und ob du in Reichweite bist."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ελέγξτε ότι το όνομα και ο κωδικός είναι ακριβώς σωστά, με κεφαλαία και πεζά, και ότι βρίσκεστε εντός εμβέλειας."
           }
         },
         "en" : {
@@ -17221,6 +18253,12 @@
             "value" : "Es wurden keine Namen gefunden. Mache ein neues Bildschirmfoto, auf dem die Liste gut zu sehen ist, oder trage sie unten von Hand ein."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν βρέθηκαν ονόματα. Τραβήξτε νέο στιγμιότυπο όπου φαίνεται καθαρά η λίστα ή πληκτρολογήστε τα παρακάτω."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17319,6 +18357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bereits verbunden."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Είστε ήδη συνδεδεμένοι."
           }
         },
         "en" : {
@@ -17421,6 +18465,12 @@
             "value" : "Eine frühere Verbindungsanfrage wird noch bearbeitet. Versuche es gleich noch einmal."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ένα προηγούμενο αίτημα σύνδεσης είναι ακόμα σε εξέλιξη. Δοκιμάστε ξανά σε λίγο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17519,6 +18569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram-DM (@lee25_ios)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μήνυμα στο Instagram (@lee25_ios)"
           }
         },
         "en" : {
@@ -17621,6 +18677,12 @@
             "value" : "Wird erkannt …"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αναγνώριση…"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17719,6 +18781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Namen gelesen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ονόματα διαβάστηκαν"
           }
         },
         "en" : {
@@ -17821,6 +18889,12 @@
             "value" : "Gespeicherte Netzwerke"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθηκευμένα δίκτυα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17919,6 +18993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keine gespeicherten Netzwerke"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα αποθηκευμένο δίκτυο"
           }
         },
         "en" : {
@@ -18021,6 +19101,12 @@
             "value" : "Karte der gespeicherten WLANs"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χάρτης αποθηκευμένων Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18119,6 +19205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du wirst benachrichtigt, wenn du an einem Ort mit gespeichertem WLAN ankommst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λάβετε ειδοποίηση όταν φτάνετε σε μέρος με αποθηκευμένο δίκτυο."
           }
         },
         "en" : {
@@ -18221,6 +19313,12 @@
             "value" : "Gespeicherte WLANs werden samt Ort gemerkt. Kommst du wieder dorthin, rücken sie an den Listenanfang und erhalten das Abzeichen „📍 In der Nähe“."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα αποθηκευμένα δίκτυα θυμούνται και την τοποθεσία. Όταν επιστρέψετε εκεί, ανεβαίνουν στην κορυφή της λίστας με το σήμα «📍 Κοντά»."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18319,6 +19417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gespeicherte WLANs und Aushänge als Datei sichern und später wieder laden."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθηκεύστε δίκτυα και πινακίδες σε αρχείο και φορτώστε τα ξανά αργότερα."
           }
         },
         "en" : {
@@ -18421,6 +19525,12 @@
             "value" : "Angewendet"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εφαρμόστηκε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18519,6 +19629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entfernen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφαίρεση"
           }
         },
         "en" : {
@@ -18621,6 +19737,12 @@
             "value" : "Überschrift"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τίτλος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18719,6 +19841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schnipsel antippen und ausfüllen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε τα αποσπάσματα για συμπλήρωση"
           }
         },
         "en" : {
@@ -18821,6 +19949,12 @@
             "value" : "Zeile hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη γραμμής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18919,6 +20053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeige den QR-Code des WLANs, mit dem du verbunden bist.\nRichtet ein Freund die Kamera darauf, verbindet er sich, ohne das Passwort zu kennen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δείξτε τον κωδικό QR του Wi-Fi στο οποίο είστε συνδεδεμένοι.\nΌταν ένας φίλος στρέψει την κάμερα, συνδέεται χωρίς να ξέρει τον κωδικό."
           }
         },
         "en" : {
@@ -19021,6 +20161,12 @@
             "value" : "Öffnet den QR-Code des WLANs, mit dem du verbunden bist. Ist es nicht gespeichert, wird das zuletzt gespeicherte WLAN geöffnet."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανοίγει τον κωδικό QR του Wi-Fi στο οποίο είστε συνδεδεμένοι. Αν δεν είναι αποθηκευμένο, ανοίγει το πιο πρόσφατο που αποθηκεύσατε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19119,6 +20265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gerade verbunden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδεδεμένο τώρα"
           }
         },
         "en" : {
@@ -19221,6 +20373,12 @@
             "value" : "Karte"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χάρτης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19319,6 +20477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keine Orte für die Karte vorhanden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν τοποθεσίες για εμφάνιση στον χάρτη"
           }
         },
         "en" : {
@@ -19421,6 +20585,12 @@
             "value" : "Eigene Zeilen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δικές σας γραμμές"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19519,6 +20689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld eigene Zeilen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld δικές σας γραμμές"
           }
         },
         "en" : {
@@ -19621,6 +20797,12 @@
             "value" : "Manuell eingeben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χειροκίνητη εισαγωγή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19719,6 +20901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manuell eingeben …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χειροκίνητη εισαγωγή…"
           }
         },
         "en" : {
@@ -19821,6 +21009,12 @@
             "value" : "Manuell eingegebenes WLAN"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi που εισήχθη χειροκίνητα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19919,6 +21113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Von Hand hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χειροκίνητη προσθήκη"
           }
         },
         "en" : {
@@ -20021,6 +21221,12 @@
             "value" : "Einführung noch einmal ansehen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επανάληψη της εισαγωγής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20119,6 +21325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamera"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάμερα"
           }
         },
         "en" : {
@@ -20221,6 +21433,12 @@
             "value" : "Foto, Mediathek oder manuell eingeben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάμερα, φωτογραφίες ή χειροκίνητη εισαγωγή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20319,6 +21537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη"
           }
         },
         "en" : {
@@ -20421,6 +21645,12 @@
             "value" : "Richtet ein Freund die Kamera auf den QR-Code, verbindet er sich ohne Passwort. Wische oder tippe auf die Karte, um die Vorschau des Gäste-Aushangs zu sehen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν ένας φίλος στρέψει την κάμερα στον κωδικό QR, συνδέεται χωρίς κωδικό. Σύρετε ή πατήστε την κάρτα για να δείτε την προεπισκόπηση της πινακίδας για επισκέπτες."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20519,6 +21749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karte"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάρτα"
           }
         },
         "en" : {
@@ -20621,6 +21857,12 @@
             "value" : "QR-Code mit der Kamera scannen und automatisch verbinden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σαρώστε τον κωδικό QR με την κάμερα για αυτόματη σύνδεση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20719,6 +21961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamera darauf richten und sofort verbinden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στρέψτε την κάμερα για άμεση σύνδεση"
           }
         },
         "en" : {
@@ -20821,6 +22069,12 @@
             "value" : "Kamera darauf richten, um sich ohne Passwort zu verbinden. Doppeltippen, um zur Aushang-Vorschau umzudrehen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στρέψτε την κάμερα για σύνδεση χωρίς κωδικό. Πατήστε δύο φορές για να γυρίσετε στην προεπισκόπηση της πινακίδας."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20919,6 +22173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öffnet die Kamera. Fotografierst du einen WLAN-Aushang, werden Netzwerkname und Passwort gelesen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανοίγει την κάμερα· φωτογραφίστε μια πινακίδα Wi-Fi για να διαβαστούν το όνομα δικτύου και ο κωδικός."
           }
         },
         "en" : {
@@ -21021,6 +22281,12 @@
             "value" : "Café"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καφέ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21119,6 +22385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotografiere einen WLAN-Aushang im Café oder in der Unterkunft oder wähle ein Foto aus.\nDie App liest Name und Passwort und verbindet dieses iPhone."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογραφίστε μια πινακίδα Wi-Fi σε καφέ ή κατάλυμα ή διαλέξτε μια φωτογραφία από τη βιβλιοθήκη.\nΗ εφαρμογή διαβάζει το όνομα και τον κωδικό και συνδέει αυτό το iPhone."
           }
         },
         "en" : {
@@ -21221,6 +22493,12 @@
             "value" : "Fotografiere einen WLAN-Aushang im Café oder in der Unterkunft oder wähle ein Foto aus. Die App liest Kennung und Passwort aus und verbindet sich."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογραφίστε μια πινακίδα Wi-Fi σε καφέ ή κατάλυμα ή διαλέξτε μια φωτογραφία από τη βιβλιοθήκη, και η εφαρμογή θα διαβάσει το αναγνωριστικό και τον κωδικό και θα συνδεθεί."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21319,6 +22597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bildschirmfoto wählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή στιγμιοτύπου"
           }
         },
         "en" : {
@@ -21421,6 +22705,12 @@
             "value" : "Aus Bildschirmfoto übernommen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Από στιγμιότυπο οθόνης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21519,6 +22809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bildschirme für große Schrift"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οθόνες για μεγάλα γράμματα"
           }
         },
         "en" : {
@@ -21621,6 +22917,12 @@
             "value" : "Tippen, um ihn ins leere Feld zu setzen. Gedrückt halten, um das Feld zu wählen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε για να μπει σε κενό πεδίο. Κρατήστε πατημένο για να διαλέξετε πεδίο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21719,6 +23021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viel Spaß beim Surfen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καλή σύνδεση"
           }
         },
         "en" : {
@@ -21821,6 +23129,12 @@
             "value" : "Ansicht für faltbares iPhone"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οθόνη αναδιπλούμενου iPhone"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21919,6 +23233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auf einem faltbaren iPhone wird der breite Bildschirm in zwei Bereiche geteilt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σε αναδιπλούμενο iPhone, η πλατιά οθόνη χωρίζεται σε δύο τμήματα."
           }
         },
         "en" : {
@@ -22021,6 +23341,12 @@
             "value" : "Wald"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δάσος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22119,6 +23445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dort weitermachen, wo du aufgehört hast"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια από εκεί που μείνατε"
           }
         },
         "en" : {
@@ -22221,6 +23553,12 @@
             "value" : "Mit einem Hotspot kann sich dieses iPhone nicht verbinden. Erstelle einen QR-Code und zeige ihn dem anderen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτό το iPhone δεν μπορεί να συνδεθεί σε hotspot. Δημιουργήστε έναν κωδικό QR και δείξτε τον στον άλλον."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22319,6 +23657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippe auf eine Zeile, um QR-Code und Details zu öffnen. Nach rechts wischen verbindet dieses iPhone, nach links wischen teilt den QR-Code."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε μια γραμμή για να ανοίξετε τον κωδικό QR και τις λεπτομέρειες. Σύρετε δεξιά για σύνδεση αυτού του iPhone, αριστερά για κοινοποίηση του κωδικού QR."
           }
         },
         "en" : {
@@ -22421,6 +23765,12 @@
             "value" : "Format"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μορφή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22521,6 +23871,12 @@
             "value" : "VoiceOver liest alle WLAN-Angaben und Tasten vollständig und in der richtigen Reihenfolge vor."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το VoiceOver διαβάζει όλες τις πληροφορίες του δικτύου και όλα τα κουμπιά, με τη σωστή σειρά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22616,6 +23972,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -22721,6 +24083,12 @@
             "value" : "📍 In der Nähe"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Κοντά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22819,6 +24187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Hier"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Εδώ"
           }
         },
         "en" : {
@@ -22921,6 +24295,12 @@
             "value" : "📍 Gerade verbunden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Συνδεδεμένο τώρα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23016,6 +24396,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Hotspot"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Hotspot"

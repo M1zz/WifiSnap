@@ -21,6 +21,12 @@
             "value" : "Verbinde dich einmal in der App, dann erscheint hier der QR-Code"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδεθείτε μία φορά στην εφαρμογή και ο κωδικός QR θα εμφανιστεί εδώ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
           }
         },
         "en" : {
@@ -221,6 +233,12 @@
             "value" : "WLAN-QR-Code"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -319,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN wählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή Wi-Fi"
           }
         },
         "en" : {
@@ -421,6 +445,12 @@
             "value" : "Wähle das WLAN, das am Widget angeheftet werden soll. Ohne Auswahl zeigt es das zuletzt verbundene WLAN."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλέξτε το Wi-Fi που θα καρφιτσωθεί στο γραφικό στοιχείο. Αν δεν επιλέξετε, εμφανίζεται το πιο πρόσφατο στο οποίο συνδεθήκατε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -519,6 +549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kein gespeichertes WLAN"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα αποθηκευμένο Wi-Fi"
           }
         },
         "en" : {
@@ -621,6 +657,12 @@
             "value" : "Zeigt den QR-Code des WLANs, mit dem du verbunden bist. Gedrückt halten und „Widget bearbeiten“ wählen, um ein bestimmtes WLAN anzuheften."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δείχνει τον κωδικό QR του Wi-Fi στο οποίο είστε συνδεδεμένοι. Κρατήστε πατημένο και επιλέξτε «Επεξεργασία γραφικού στοιχείου» για να καρφιτσώσετε συγκεκριμένο δίκτυο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -719,6 +761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gerade verbunden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδεδεμένο τώρα"
           }
         },
         "en" : {
@@ -821,6 +869,12 @@
             "value" : "Kamera darauf richten und verbinden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στρέψτε την κάμερα για σύνδεση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -919,6 +973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippen für großen QR-Code"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε για μεγάλο QR"
           }
         },
         "en" : {

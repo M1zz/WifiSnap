@@ -21,6 +21,12 @@
             "value" : "WLAN-QR-Code"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

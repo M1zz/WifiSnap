@@ -116,3 +116,10 @@ Billeder aflæses mere præcist.
 Rettet fejl, hvor forbindelsen svigtede.
 Lav QR-kode uden at forbinde.
 Del din hotspot med én QR-kode.
+
+### 앱스토어 (그리스어)
+
+Πιο ακριβής ανάγνωση φωτογραφιών.
+Διορθώθηκαν σπάνιες αποτυχίες σύνδεσης.
+Δημιουργήστε QR χωρίς σύνδεση.
+Κοινοποιήστε το hotspot σας με έναν QR.

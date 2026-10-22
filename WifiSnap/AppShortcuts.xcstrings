@@ -21,6 +21,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName} WLAN-QR-Code anzeigen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εμφάνιση QR Wi-Fi στο ${applicationName}"
           }
         },
         "en" : {
@@ -221,6 +233,12 @@
             "value" : "${applicationName} WLAN fotografieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} φωτογράφιση Wi-Fi"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -321,6 +339,12 @@
             "value" : "WLAN-Aushang mit ${applicationName} fotografieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογράφιση πινακίδας Wi-Fi με το ${applicationName}"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -419,6 +443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WLAN-QR-Code in ${applicationName} öffnen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άνοιγμα QR Wi-Fi στο ${applicationName}"
           }
         },
         "en" : {
