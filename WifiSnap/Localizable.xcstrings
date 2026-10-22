@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "%@ 사본"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 副本"
+          }
         }
       }
     },
@@ -53,6 +59,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 손님용 안내판 미리보기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 访客提示牌预览"
           }
         }
       }
@@ -82,6 +94,12 @@
             "state" : "translated",
             "value" : "%@ 연결용 QR 코드"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接 %@ 的二维码"
+          }
         }
       }
     },
@@ -109,6 +127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 와이파이 QR"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 的 Wi-Fi 二维码"
           }
         }
       }
@@ -138,6 +162,12 @@
             "state" : "translated",
             "value" : "%@ 조각"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "片段“%@”"
+          }
         }
       }
     },
@@ -165,6 +195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已设置“%@”的连接。\n要确认是否连接成功，需要定位权限。（设置 > MyFi > 位置）"
           }
         }
       }
@@ -194,6 +230,12 @@
             "state" : "translated",
             "value" : "'%@' 와이파이에 붙지 못했어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法连接到“%@”。"
+          }
         }
       }
     },
@@ -221,6 +263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 표기로 다시 시도 중…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在尝试以“%@”重新连接…"
           }
         }
       }
@@ -250,6 +298,12 @@
             "state" : "translated",
             "value" : "'%@'에 연결했어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已连接到“%@”。"
+          }
         }
       }
     },
@@ -277,6 +331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A4 포스터"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4 海报"
           }
         }
       }
@@ -306,6 +366,12 @@
             "state" : "translated",
             "value" : "Face ID 잠금"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID 锁定"
+          }
         }
       }
     },
@@ -333,6 +399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 저장한 비밀번호를 지켜요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用 Face ID 或 Touch ID 锁定 App，保护已保存的密码。"
           }
         }
       }
@@ -362,6 +434,12 @@
             "state" : "translated",
             "value" : "QR 만드는 중…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在生成二维码…"
+          }
         }
       }
     },
@@ -389,6 +467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR 만들기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生成二维码"
           }
         }
       }
@@ -418,6 +502,12 @@
             "state" : "translated",
             "value" : "QR 생성 실패"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "二维码生成失败"
+          }
         }
       }
     },
@@ -445,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR 이미지 공유"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享二维码图片"
           }
         }
       }
@@ -474,6 +570,12 @@
             "state" : "translated",
             "value" : "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只生成二维码时，此 iPhone 不会连接，只会保存。密码有误的话，二维码也无法连接，请核对。"
+          }
         }
       }
     },
@@ -501,6 +603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR을 만들지 못했어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法生成二维码。"
           }
         }
       }
@@ -530,6 +638,12 @@
             "state" : "translated",
             "value" : "SSID (와이파이 이름)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID（Wi-Fi 名称）"
+          }
         }
       }
     },
@@ -557,6 +671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SSID 접두사가 올바르지 않아요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID 前缀不正确。"
           }
         }
       }
@@ -586,6 +706,12 @@
             "state" : "translated",
             "value" : "VoiceOver로 더 편하게"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更好用的旁白（VoiceOver）"
+          }
         }
       }
     },
@@ -613,6 +739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[마이파이 %@] 문의"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] 咨询"
           }
         }
       }
@@ -642,6 +774,12 @@
             "state" : "translated",
             "value" : "iOS는 저장된 와이파이 목록을 앱에 알려주지 않아서, 캡처가 유일한 방법이에요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS 不会把已保存的 Wi-Fi 列表提供给 App，所以截图是唯一的办法。"
+          }
         }
       }
     },
@@ -669,6 +807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "가져오기에 포함"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "包含在导入中"
           }
         }
       }
@@ -698,6 +842,12 @@
             "state" : "translated",
             "value" : "가져온 이름 %lld개"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已导入 %lld 个名称"
+          }
         }
       }
     },
@@ -725,6 +875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "건너뛰기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳过"
           }
         }
       }
@@ -754,6 +910,12 @@
             "state" : "translated",
             "value" : "고치는 즉시 저장돼요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "修改后立即保存"
+          }
         }
       }
     },
@@ -781,6 +943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "공유"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享"
           }
         }
       }
@@ -810,6 +978,12 @@
             "state" : "translated",
             "value" : "근처 와이파이 먼저"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "附近的 Wi-Fi 优先"
+          }
         }
       }
     },
@@ -837,6 +1011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "글자 되돌리기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复默认文字"
           }
         }
       }
@@ -866,6 +1046,12 @@
             "state" : "translated",
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放大字体后，界面会重新排版，内容不会被截断。"
+          }
         }
       }
     },
@@ -893,6 +1079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기기 간 동기화"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跨设备同步"
           }
         }
       }
@@ -922,6 +1114,12 @@
             "state" : "translated",
             "value" : "기기를 바꿔도 저장한 와이파이와 안내판이 그대로 이어져요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "换新设备后，已保存的 Wi-Fi 和提示牌会原样保留。"
+          }
         }
       }
     },
@@ -949,6 +1147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 데이터 한 번에 지우기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一键清除我的数据"
           }
         }
       }
@@ -978,6 +1182,12 @@
             "state" : "translated",
             "value" : "내 안내판"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的提示牌"
+          }
         }
       }
     },
@@ -1005,6 +1215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 안내판 (%lld)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的提示牌（%lld）"
           }
         }
       }
@@ -1034,6 +1250,12 @@
             "state" : "translated",
             "value" : "내 핫스팟"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的热点"
+          }
         }
       }
     },
@@ -1061,6 +1283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네트워크"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络"
           }
         }
       }
@@ -1090,6 +1318,12 @@
             "state" : "translated",
             "value" : "네트워크 라벨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络标签"
+          }
         }
       }
     },
@@ -1117,6 +1351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네트워크 이름(SSID)이 올바르지 않아요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络名称（SSID）不正确。"
           }
         }
       }
@@ -1146,6 +1386,12 @@
             "state" : "translated",
             "value" : "네트워크 정보를 확인해 주세요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请检查网络信息。"
+          }
         }
       }
     },
@@ -1173,6 +1419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다른 캡처 고르기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择其他截图"
           }
         }
       }
@@ -1202,6 +1454,12 @@
             "state" : "translated",
             "value" : "다음"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
+          }
         }
       }
     },
@@ -1229,6 +1487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다크 모드"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深色模式"
           }
         }
       }
@@ -1258,6 +1522,12 @@
             "state" : "translated",
             "value" : "닫기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
+          }
         }
       }
     },
@@ -1285,6 +1555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启“增强对比度”或不易分辨颜色时，内容依然清晰可辨。"
           }
         }
       }
@@ -1314,6 +1590,12 @@
             "state" : "translated",
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让你用更多语言使用这款 App。"
+          }
         }
       }
     },
@@ -1341,6 +1623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 언어"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多语言"
           }
         }
       }
@@ -1370,6 +1658,12 @@
             "state" : "translated",
             "value" : "도움말"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帮助"
+          }
         }
       }
     },
@@ -1397,6 +1691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "두 번 탭하면 QR 코드로 돌아갑니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "双击可返回二维码。"
           }
         }
       }
@@ -1426,6 +1726,12 @@
             "state" : "translated",
             "value" : "디자인"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设计"
+          }
         }
       }
     },
@@ -1453,6 +1759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마이파이"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
           }
         }
       }
@@ -1482,6 +1794,12 @@
             "state" : "translated",
             "value" : "맞는 것만 켜 두고, 틀린 글자는 눌러서 고친 뒤 오른쪽 위 '추가'를 누르세요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只保留正确的名称，点按可修改错误的字，然后点按右上角的“添加”。"
+          }
         }
       }
     },
@@ -1509,6 +1827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "매장 로고"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "店铺标志"
           }
         }
       }
@@ -1538,6 +1862,12 @@
             "state" : "translated",
             "value" : "매장 이름"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "店名"
+          }
         }
       }
     },
@@ -1565,6 +1895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "매장이나 집에 둘 와이파이 안내판을 만들어\n인쇄하거나 이미지로 공유할 수 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "为店铺或家里制作 Wi-Fi 提示牌，\n可以打印，也可以作为图片分享。"
           }
         }
       }
@@ -1594,6 +1930,12 @@
             "state" : "translated",
             "value" : "맨 아래 문구 (비우면 숨김)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "底部文字（留空则隐藏）"
+          }
         }
       }
     },
@@ -1621,6 +1963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "메인 화면 카드에는 가장 최근에 고친 안내판이 보여요. 왼쪽으로 밀면 복제·삭제할 수 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主屏幕上的卡片显示最近编辑的提示牌。向左滑动可复制或删除。"
           }
         }
       }
@@ -1650,6 +1998,12 @@
             "state" : "translated",
             "value" : "메일로 문의 (%@)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发邮件咨询（%@）"
+          }
         }
       }
     },
@@ -1677,6 +2031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "모노"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黑白"
           }
         }
       }
@@ -1706,6 +2066,12 @@
             "state" : "translated",
             "value" : "목록에서 바로 쓰기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在列表里直接操作"
+          }
         }
       }
     },
@@ -1733,6 +2099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "목록에서 와이파이 고르기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从列表中选择 Wi-Fi"
           }
         }
       }
@@ -1762,6 +2134,12 @@
             "state" : "translated",
             "value" : "무료 와이파이"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "免费 Wi-Fi"
+          }
         }
       }
     },
@@ -1789,6 +2167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "문의"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "联系我们"
           }
         }
       }
@@ -1818,6 +2202,12 @@
             "state" : "translated",
             "value" : "미드나잇"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "午夜"
+          }
         }
       }
     },
@@ -1845,6 +2235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "미리보기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预览"
           }
         }
       }
@@ -1874,6 +2270,12 @@
             "state" : "translated",
             "value" : "민트"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "薄荷"
+          }
         }
       }
     },
@@ -1901,6 +2303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "백업과 내보내기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备份与导出"
           }
         }
       }
@@ -1930,6 +2338,12 @@
             "state" : "translated",
             "value" : "뱃지 (비우면 숨김)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "徽标文字（留空则隐藏）"
+          }
         }
       }
     },
@@ -1957,6 +2371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "변경"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更换"
           }
         }
       }
@@ -1986,6 +2406,12 @@
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更易读的颜色与对比度"
+          }
         }
       }
     },
@@ -2013,6 +2439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보내 주신 의견은 개발자가 하나하나 직접 읽어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开发者会逐条亲自阅读你发来的意见。"
           }
         }
       }
@@ -2042,6 +2474,12 @@
             "state" : "translated",
             "value" : "보여주기 전에 설정 > 개인용 핫스팟에서 ‘다른 사람의 연결 허용’을 켜 주세요. 꺼져 있으면 QR을 찍어도 네트워크를 찾지 못해요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "展示之前，请先在“设置 > 个人热点”中打开“允许其他人加入”。如果关闭，即使扫描二维码也找不到该网络。"
+          }
         }
       }
     },
@@ -2069,6 +2507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보여주기만 하면 연결"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "亮出来就能连上"
           }
         }
       }
@@ -2098,6 +2542,12 @@
             "state" : "translated",
             "value" : "복제"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制"
+          }
         }
       }
     },
@@ -2125,6 +2575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码"
           }
         }
       }
@@ -2154,6 +2610,12 @@
             "state" : "translated",
             "value" : "비밀번호 라벨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码标签"
+          }
         }
       }
     },
@@ -2181,6 +2643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 보기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示密码"
           }
         }
       }
@@ -2210,6 +2678,12 @@
             "state" : "translated",
             "value" : "비밀번호 복사"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷贝密码"
+          }
         }
       }
     },
@@ -2237,6 +2711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 복사됨"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码已拷贝"
           }
         }
       }
@@ -2266,6 +2746,12 @@
             "state" : "translated",
             "value" : "비밀번호 숨기기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏密码"
+          }
         }
       }
     },
@@ -2293,6 +2779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 지우기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除密码"
           }
         }
       }
@@ -2322,6 +2814,12 @@
             "state" : "translated",
             "value" : "비밀번호 표시"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示密码"
+          }
         }
       }
     },
@@ -2349,6 +2847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 형식이 올바르지 않아요. (WEP은 5자 또는 13자)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码格式不正确。（WEP 需要 5 或 13 个字符）"
           }
         }
       }
@@ -2378,6 +2882,12 @@
             "state" : "translated",
             "value" : "비밀번호 형식이 올바르지 않아요. (WPA는 8~63자)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码格式不正确。（WPA 需要 8–63 个字符）"
+          }
         }
       }
     },
@@ -2405,6 +2915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호가 %lld자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码只有 %lld 个字符。Wi-Fi 密码至少需要 8 个字符（旧式 WEP 为 5 或 13 个字符）。请检查是否漏掉了字符。"
           }
         }
       }
@@ -2434,6 +2950,12 @@
             "state" : "translated",
             "value" : "비밀번호로 넣기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "填入密码"
+          }
         }
       }
     },
@@ -2461,6 +2983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진 속 QR에서 읽었어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已从照片中的二维码读取。"
           }
         }
       }
@@ -2490,6 +3018,12 @@
             "state" : "translated",
             "value" : "사진 한 장으로 연결"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一张照片就能连上"
+          }
         }
       }
     },
@@ -2517,6 +3051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没能在照片中找到账号和密码。请手动输入，或靠近一些拍得更清晰。"
           }
         }
       }
@@ -2546,6 +3086,12 @@
             "state" : "translated",
             "value" : "사진에서 읽은 이름 — 맞는 걸 골라주세요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从照片中识别出的名称 — 请选择正确的一个"
+          }
         }
       }
     },
@@ -2573,6 +3119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진에서 읽음"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从照片中识别"
           }
         }
       }
@@ -2602,6 +3154,12 @@
             "state" : "translated",
             "value" : "사진으로 자동 입력"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用照片自动填写"
+          }
         }
       }
     },
@@ -2629,6 +3187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "삭제"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除"
           }
         }
       }
@@ -2658,6 +3222,12 @@
             "state" : "translated",
             "value" : "새 안내판"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新提示牌"
+          }
         }
       }
     },
@@ -2685,6 +3255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선셋"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日落"
           }
         }
       }
@@ -2714,6 +3290,12 @@
             "state" : "translated",
             "value" : "선택"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选取"
+          }
         }
       }
     },
@@ -2741,6 +3323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택 사항 — 상단에 표시"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可选 — 显示在顶部"
           }
         }
       }
@@ -2770,6 +3358,12 @@
             "state" : "translated",
             "value" : "선택 안 됨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未选中"
+          }
         }
       }
     },
@@ -2797,6 +3391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택됨"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已选中"
           }
         }
       }
@@ -2826,6 +3426,12 @@
             "state" : "translated",
             "value" : "설정"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
         }
       }
     },
@@ -2853,6 +3459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정 캡처에서 목록 가져오기…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从“设置”截图导入列表…"
           }
         }
       }
@@ -2882,6 +3494,12 @@
             "state" : "translated",
             "value" : "손끝으로 느끼는 반응"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指尖的触感反馈"
+          }
         }
       }
     },
@@ -2909,6 +3527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "손님용 안내판 만들기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "制作访客提示牌"
           }
         }
       }
@@ -2938,6 +3562,12 @@
             "state" : "translated",
             "value" : "손님용 안내판 인쇄·공유"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打印或分享访客提示牌"
+          }
         }
       }
     },
@@ -2965,6 +3595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "스캔한 와이파이"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "扫描到的 Wi-Fi"
           }
         }
       }
@@ -2994,6 +3630,12 @@
             "state" : "translated",
             "value" : "시스템 설정으로 관리되는 네트워크라 변경할 수 없어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这是由系统设置管理的网络，无法更改。"
+          }
         }
       }
     },
@@ -3021,6 +3663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작하기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始使用"
           }
         }
       }
@@ -3050,6 +3698,12 @@
             "state" : "translated",
             "value" : "아래 조각을 탭하거나 직접 입력"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按下方片段，或直接输入"
+          }
         }
       }
     },
@@ -3077,6 +3731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아래 조각을 탭하면 빈 칸에 들어가요. 길게 누르면 아이디·비밀번호 중 어디에 넣을지 고를 수 있고, 끌어다 놓아도 돼요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按下方的片段，就会填入空白栏。长按可选择填入账号还是密码，也可以直接拖过去。"
           }
         }
       }
@@ -3106,6 +3766,12 @@
             "state" : "translated",
             "value" : "아이디"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账号"
+          }
         }
       }
     },
@@ -3133,6 +3799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이디 지우기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除账号"
           }
         }
       }
@@ -3162,6 +3834,12 @@
             "state" : "translated",
             "value" : "아이디로 넣기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "填入账号"
+          }
         }
       }
     },
@@ -3189,6 +3867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이폰 '설정 > Wi-Fi' 화면을 캡처한 뒤 그 사진을 고르면, 목록에 있는 이름을 읽어옵니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "对 iPhone 的“设置 > 无线局域网”页面截图，然后选取该截图，即可读取列表中的名称。"
           }
         }
       }
@@ -3218,6 +3902,12 @@
             "state" : "translated",
             "value" : "안내 문구"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示语"
+          }
         }
       }
     },
@@ -3245,6 +3935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내문 촬영"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍摄提示牌"
           }
         }
       }
@@ -3274,6 +3970,12 @@
             "state" : "translated",
             "value" : "안내판 %lld"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示牌 %lld"
+          }
         }
       }
     },
@@ -3301,6 +4003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판 만들기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "制作提示牌"
           }
         }
       }
@@ -3330,6 +4038,12 @@
             "state" : "translated",
             "value" : "안내판 이름 (목록에서만 보임)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示牌名称（仅在列表中显示）"
+          }
         }
       }
     },
@@ -3357,6 +4071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판 이미지 공유·인쇄"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享或打印提示牌图片"
           }
         }
       }
@@ -3386,6 +4106,12 @@
             "state" : "translated",
             "value" : "안내판에 인쇄되는 글자"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示牌上印出的文字"
+          }
         }
       }
     },
@@ -3413,6 +4139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판을 꾸미다 앱이 꺼져도 하던 내용이 남아 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "制作提示牌时即使 App 被关闭，已编辑的内容也会保留。"
           }
         }
       }
@@ -3442,6 +4174,12 @@
             "state" : "translated",
             "value" : "알 수 없는 오류가 발생했어요. 신호 범위 안에 있는지 확인해 주세요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发生未知错误。请确认是否在信号范围内。"
+          }
         }
       }
     },
@@ -3469,6 +4207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "알림"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "附近 Wi-Fi 提醒"
           }
         }
       }
@@ -3498,6 +4242,12 @@
             "state" : "translated",
             "value" : "앨범"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相册"
+          }
         }
       }
     },
@@ -3525,6 +4275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱이 화면에 떠 있는 상태에서 시도해 주세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在 App 显示在屏幕上时重试。"
           }
         }
       }
@@ -3554,6 +4310,12 @@
             "state" : "translated",
             "value" : "어두운 화면에서도 글자와 단추가 또렷하게 보여요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在深色背景下，文字和按钮同样清晰醒目。"
+          }
         }
       }
     },
@@ -3581,6 +4343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新后首次打开时，告诉你有哪些新内容。"
           }
         }
       }
@@ -3610,6 +4378,12 @@
             "state" : "translated",
             "value" : "업데이트 소식"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新内容"
+          }
         }
       }
     },
@@ -3637,6 +4411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "없음 (개방)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无（开放网络）"
           }
         }
       }
@@ -3666,6 +4446,12 @@
             "state" : "translated",
             "value" : "여기서 저장한 와이파이"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在这里保存的 Wi-Fi"
+          }
         }
       }
     },
@@ -3693,6 +4479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接"
           }
         }
       }
@@ -3722,6 +4514,12 @@
             "state" : "translated",
             "value" : "연결 실패"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接失败"
+          }
         }
       }
     },
@@ -3749,6 +4547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결 없이 QR 만들기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不连接，只生成二维码"
           }
         }
       }
@@ -3778,6 +4582,12 @@
             "state" : "translated",
             "value" : "연결 중…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在连接…"
+          }
         }
       }
     },
@@ -3805,6 +4615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결 확인 창에서 '연결'을 눌러야 연결됩니다. 다시 시도해 주세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要在确认窗口中点按“连接”才能连上。请重试。"
           }
         }
       }
@@ -3834,6 +4650,12 @@
             "state" : "translated",
             "value" : "연결용 QR"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接用二维码"
+          }
         }
       }
     },
@@ -3861,6 +4683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 지원"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持英语"
           }
         }
       }
@@ -3890,6 +4718,12 @@
             "state" : "translated",
             "value" : "영업시간, 인스타 계정, 매장 안내처럼 원하는 문구를 줄 단위로 넣으세요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以逐行加入营业时间、Instagram 账号、店内须知等任何你想写的内容。"
+          }
         }
       }
     },
@@ -3917,6 +4751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예) 계산대용"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例如：收银台用"
           }
         }
       }
@@ -3946,6 +4786,12 @@
             "state" : "translated",
             "value" : "예) 라운지 카페"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例如：Lounge Café"
+          }
         }
       }
     },
@@ -3973,6 +4819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예) 영업시간 09:00–22:00"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例如：营业时间 09:00–22:00"
           }
         }
       }
@@ -4002,6 +4854,12 @@
             "state" : "translated",
             "value" : "오션"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海洋"
+          }
         }
       }
     },
@@ -4029,6 +4887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 QR"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi 二维码"
           }
         }
       }
@@ -4058,6 +4922,12 @@
             "state" : "translated",
             "value" : "와이파이 QR 보여주기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示 Wi-Fi 二维码"
+          }
         }
       }
     },
@@ -4085,6 +4955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 목록 가져오기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入 Wi-Fi 列表"
           }
         }
       }
@@ -4114,6 +4990,12 @@
             "state" : "translated",
             "value" : "와이파이 상세"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi 详情"
+          }
         }
       }
     },
@@ -4141,6 +5023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 선택"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择 Wi-Fi"
           }
         }
       }
@@ -4170,6 +5058,12 @@
             "state" : "translated",
             "value" : "와이파이 안내문 촬영"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍摄 Wi-Fi 提示"
+          }
         }
       }
     },
@@ -4197,6 +5091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 이름"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi 名称"
           }
         }
       }
@@ -4226,6 +5126,12 @@
             "state" : "translated",
             "value" : "와이파이 이름이 너무 길어요. (최대 32바이트)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi 名称太长。（最多 32 字节）"
+          }
         }
       }
     },
@@ -4253,6 +5159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 이름이 비어 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi 名称为空。"
           }
         }
       }
@@ -4282,6 +5194,12 @@
             "state" : "translated",
             "value" : "와이파이 추가"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加 Wi-Fi"
+          }
         }
       }
     },
@@ -4309,6 +5227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이에 연결되거나 글자를 읽어 내면 가볍게 떨려서 알려 줘요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连上 Wi-Fi 或识别出文字时，会轻轻震动提醒你。"
           }
         }
       }
@@ -4338,6 +5262,12 @@
             "state" : "translated",
             "value" : "와이파이에 연결하거나 '여기'에서 공유하면 그 위치가 지도에 기록돼요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接 Wi-Fi，或在“此处”分享后，该位置就会记录到地图上。"
+          }
         }
       }
     },
@@ -4365,6 +5295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "완료"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
           }
         }
       }
@@ -4394,6 +5330,12 @@
             "state" : "translated",
             "value" : "외국인 손님도 읽을 수 있게 앱과 안내판을 영어로도 써요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App 和提示牌都能使用英语，方便外国客人阅读。"
+          }
         }
       }
     },
@@ -4421,6 +5363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "减少动态效果"
           }
         }
       }
@@ -4450,6 +5398,12 @@
             "state" : "translated",
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启“减少动态效果”后，屏幕动画会更柔和。"
+          }
         }
       }
     },
@@ -4477,6 +5431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "원하면 앱 안에서 저장한 와이파이와 안내판을 모두 지울 수 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可在 App 内一键删除所有已保存的 Wi-Fi 和提示牌。"
           }
         }
       }
@@ -4506,6 +5466,12 @@
             "state" : "translated",
             "value" : "의견 · 리뷰"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反馈与评价"
+          }
         }
       }
     },
@@ -4533,6 +5499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 네트워크는 일회성 연결을 지원하지 않아요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此网络不支持一次性连接。"
           }
         }
       }
@@ -4562,6 +5534,12 @@
             "state" : "translated",
             "value" : "이 줄 삭제"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除此行"
+          }
         }
       }
     },
@@ -4589,6 +5567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 카드를 보여주세요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把这张卡片给朋友看"
           }
         }
       }
@@ -4618,6 +5602,12 @@
             "state" : "translated",
             "value" : "이 폰 연결"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接此 iPhone"
+          }
         }
       }
     },
@@ -4645,6 +5635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 폰에 설정됨"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已在此 iPhone 上设置"
           }
         }
       }
@@ -4674,6 +5670,12 @@
             "state" : "translated",
             "value" : "이 폰을 연결하거나, 연결 없이 QR만 만들어요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接此 iPhone，或只生成二维码而不连接"
+          }
         }
       }
     },
@@ -4701,6 +5703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 폰이 아는 와이파이"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 iPhone 已知的 Wi-Fi"
           }
         }
       }
@@ -4730,6 +5738,12 @@
             "state" : "translated",
             "value" : "이 폰이 아는 이름"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 iPhone 已知的名称"
+          }
         }
       }
     },
@@ -4757,6 +5771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이런 표기일 수도 있어요:"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "也许是这样的写法："
           }
         }
       }
@@ -4786,6 +5806,12 @@
             "state" : "translated",
             "value" : "이름 읽는 중…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在读取名称…"
+          }
         }
       }
     },
@@ -4813,6 +5839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请确认名称和密码（包括大小写）完全正确，并且在信号范围内。"
           }
         }
       }
@@ -4842,6 +5874,12 @@
             "state" : "translated",
             "value" : "이름을 찾지 못했어요. 목록이 잘 보이게 다시 캡처하거나, 아래에서 직접 적어 주세요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有找到名称。请重新截图并确保列表清晰可见，或在下方手动输入。"
+          }
         }
       }
     },
@@ -4869,6 +5907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이미 연결되어 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已经连接。"
           }
         }
       }
@@ -4898,6 +5942,12 @@
             "state" : "translated",
             "value" : "이전 연결 요청을 처리 중이에요. 잠시 후 다시 시도해 주세요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在处理上一个连接请求。请稍后重试。"
+          }
         }
       }
     },
@@ -4925,6 +5975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram 私信（@lee25_ios）"
           }
         }
       }
@@ -4954,6 +6010,12 @@
             "state" : "translated",
             "value" : "인식 중…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在识别…"
+          }
         }
       }
     },
@@ -4981,6 +6043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "읽어낸 이름 %lld개"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "识别出 %lld 个名称"
           }
         }
       }
@@ -5010,6 +6078,12 @@
             "state" : "translated",
             "value" : "저장된 네트워크"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保存的网络"
+          }
         }
       }
     },
@@ -5037,6 +6111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장된 네트워크 없음"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有已保存的网络"
           }
         }
       }
@@ -5066,6 +6146,12 @@
             "state" : "translated",
             "value" : "저장한 와이파이 지도"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保存 Wi-Fi 的地图"
+          }
         }
       }
     },
@@ -5093,6 +6179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장한 와이파이가 있는 곳에 오면 알림으로 알려 줘요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来到有已保存 Wi-Fi 的地方时，用通知提醒你。"
           }
         }
       }
@@ -5122,6 +6214,12 @@
             "state" : "translated",
             "value" : "저장한 와이파이는 위치와 함께 기억돼요. 그 장소에 다시 오면 목록 맨 위로 올라오고 '📍 근처' 뱃지가 붙어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保存的 Wi-Fi 会连同位置一起记住。再次来到那里时，它会排到列表最前面，并带上“📍 附近”标记。"
+          }
         }
       }
     },
@@ -5149,6 +6247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장한 와이파이와 안내판을 파일로 저장하고 다시 불러올 수 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把已保存的 Wi-Fi 和提示牌导出为文件，之后可以再导入。"
           }
         }
       }
@@ -5178,6 +6282,12 @@
             "state" : "translated",
             "value" : "적용됨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已应用"
+          }
         }
       }
     },
@@ -5205,6 +6315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제거"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除"
           }
         }
       }
@@ -5234,6 +6350,12 @@
             "state" : "translated",
             "value" : "제목"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标题"
+          }
         }
       }
     },
@@ -5261,6 +6383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조각을 탭해서 채우기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按片段来填写"
           }
         }
       }
@@ -5290,6 +6418,12 @@
             "state" : "translated",
             "value" : "줄 추가"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加一行"
+          }
         }
       }
     },
@@ -5318,6 +6452,12 @@
             "state" : "translated",
             "value" : "지금 연결된 와이파이를 QR로 보여 주세요.\n친구가 카메라로 비추면 비밀번호를 몰라도 바로 연결돼요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把当前连接的 Wi-Fi 以二维码展示出来。\n朋友用相机一扫，不知道密码也能直接连上。"
+          }
         }
       }
     },
@@ -5338,13 +6478,19 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "接続中のWi-Fiの QRコードを開きます。保存されていない場合は、最後に保存したWi-Fiを開きます。"
+            "value" : "接続中のWi-FiのQRコードを開きます。保存されていない場合は、最後に保存したWi-Fiを開きます。"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 연결된 와이파이의 QR을 엽니다. 연결된 와이파이가 저장돼 있지 않으면 가장 최근에 저장한 와이파이를 엽니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开当前已连接 Wi-Fi 的二维码。如果该 Wi-Fi 尚未保存，则打开最近保存的那个。"
           }
         }
       }
@@ -5374,6 +6520,12 @@
             "state" : "translated",
             "value" : "지금 연결됨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前已连接"
+          }
         }
       }
     },
@@ -5401,6 +6553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지도"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地图"
           }
         }
       }
@@ -5430,6 +6588,12 @@
             "state" : "translated",
             "value" : "지도에 표시할 위치가 없어요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有可在地图上显示的位置"
+          }
         }
       }
     },
@@ -5457,6 +6621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 쓰는 줄"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自定义行"
           }
         }
       }
@@ -5486,6 +6656,12 @@
             "state" : "translated",
             "value" : "직접 쓴 줄 %lld개"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自定义行 %lld 行"
+          }
         }
       }
     },
@@ -5513,6 +6689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 입력"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手动输入"
           }
         }
       }
@@ -5542,6 +6724,12 @@
             "state" : "translated",
             "value" : "직접 입력…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手动输入…"
+          }
         }
       }
     },
@@ -5569,6 +6757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 입력한 와이파이"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手动输入的 Wi-Fi"
           }
         }
       }
@@ -5598,6 +6792,12 @@
             "state" : "translated",
             "value" : "직접 적어 넣기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手动添加"
+          }
         }
       }
     },
@@ -5625,6 +6825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "처음 안내 다시 보기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新查看新手引导"
           }
         }
       }
@@ -5654,6 +6860,12 @@
             "state" : "translated",
             "value" : "촬영"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍照"
+          }
         }
       }
     },
@@ -5681,6 +6893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "촬영·앨범·직접 입력"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍照、相册或手动输入"
           }
         }
       }
@@ -5710,6 +6928,12 @@
             "state" : "translated",
             "value" : "추가"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加"
+          }
         }
       }
     },
@@ -5737,6 +6961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "친구가 QR을 카메라로 비추면 비밀번호 없이 바로 연결돼요. 카드를 밀거나 탭하면 손님용 안내판 미리보기로 뒤집혀요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "朋友用相机扫描二维码，无需密码就能直接连上。滑动或点按卡片，可翻到访客提示牌预览。"
           }
         }
       }
@@ -5766,6 +6996,12 @@
             "state" : "translated",
             "value" : "카드"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "卡片"
+          }
         }
       }
     },
@@ -5793,6 +7029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카메라로 QR을 비추면 자동 연결"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用相机扫描二维码即可自动连接"
           }
         }
       }
@@ -5822,6 +7064,12 @@
             "state" : "translated",
             "value" : "카메라로 비추면 바로 연결돼요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用相机扫描即可立即连接"
+          }
         }
       }
     },
@@ -5849,6 +7097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用相机扫描即可无需密码连接。双击可翻到提示牌预览。"
           }
         }
       }
@@ -5878,6 +7132,12 @@
             "state" : "translated",
             "value" : "카메라를 열어 와이파이 안내문을 찍으면 이름과 비밀번호를 읽어 줍니다."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开相机拍摄 Wi-Fi 提示牌，识别网络名称和密码。"
+          }
         }
       }
     },
@@ -5905,6 +7165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카페"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "咖啡馆"
           }
         }
       }
@@ -5934,6 +7200,12 @@
             "state" : "translated",
             "value" : "카페·숙소의 와이파이 안내문을 찍거나 앨범에서 고르세요.\n이름과 비밀번호를 읽어 이 폰을 연결해 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍摄咖啡馆或民宿的 Wi-Fi 提示，或从相册中选取。\n识别出名称和密码后，直接连接此 iPhone。"
+          }
         }
       }
     },
@@ -5961,6 +7233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카페·숙소의 와이파이 안내문을 촬영하거나 앨범에서 고르면, ID와 비밀번호를 알아서 읽어 연결해요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍摄咖啡馆或民宿的 Wi-Fi 提示，或从相册中选取，即可自动识别账号和密码并连接。"
           }
         }
       }
@@ -5990,6 +7268,12 @@
             "state" : "translated",
             "value" : "캡처 고르기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择截图"
+          }
         }
       }
     },
@@ -6017,6 +7301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "캡처에서 가져옴"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自截图"
           }
         }
       }
@@ -6046,6 +7336,12 @@
             "state" : "translated",
             "value" : "큰 글씨에 맞춘 화면"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配大字体的界面"
+          }
         }
       }
     },
@@ -6073,6 +7369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "탭하면 빈 칸에 넣습니다. 길게 누르면 넣을 칸을 고릅니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按可填入空白栏。长按可选择填入哪一栏。"
           }
         }
       }
@@ -6102,6 +7404,12 @@
             "state" : "translated",
             "value" : "편하게 이용하세요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎使用"
+          }
         }
       }
     },
@@ -6129,6 +7437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "펼치는 아이폰 화면"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折叠屏 iPhone 布局"
           }
         }
       }
@@ -6158,6 +7472,12 @@
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在折叠屏 iPhone 上，把宽大的屏幕分成左右两栏使用。"
+          }
         }
       }
     },
@@ -6185,6 +7505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "포레스트"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "森林"
           }
         }
       }
@@ -6214,6 +7540,12 @@
             "state" : "translated",
             "value" : "하던 일 이어서 하기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接着上次的进度继续"
+          }
         }
       }
     },
@@ -6241,6 +7573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 iPhone 无法连接热点。请生成二维码给对方扫描。"
           }
         }
       }
@@ -6270,6 +7608,12 @@
             "state" : "translated",
             "value" : "행을 탭하면 QR·상세가 열려요. 오른쪽으로 밀면 이 폰 연결, 왼쪽으로 밀면 QR 공유예요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按一行可打开二维码和详情。向右滑动用此 iPhone 连接，向左滑动分享二维码。"
+          }
         }
       }
     },
@@ -6297,6 +7641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "형태"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "形式"
           }
         }
       }
@@ -6326,6 +7676,12 @@
             "state" : "translated",
             "value" : "화면 읽기 기능이 와이파이 정보와 단추를 빠짐없이, 알맞은 순서로 읽어 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旁白会按合理的顺序，完整朗读 Wi-Fi 信息和按钮。"
+          }
         }
       }
     },
@@ -6353,6 +7709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "확인"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好"
           }
         }
       }
@@ -6382,6 +7744,12 @@
             "state" : "translated",
             "value" : "📍 근처"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 附近"
+          }
         }
       }
     },
@@ -6409,6 +7777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 여기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 此处"
           }
         }
       }
@@ -6438,6 +7812,12 @@
             "state" : "translated",
             "value" : "📍 지금 연결됨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 当前已连接"
+          }
         }
       }
     },
@@ -6465,6 +7845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 핫스팟"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 热点"
           }
         }
       }

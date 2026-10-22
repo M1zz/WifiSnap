@@ -49,6 +49,14 @@ SHOTS["en-GB"] = [
     ("04-poster-a4.png", "flat-rotate", "Print an A4<br>poster in one go", "7 themes, straight to AirPrint"),
     ("05-saved.png", "dark", "Every Wi-Fi you've<br>used, in one place", "Nearby networks show up first"),
 ]
+STORE["zh-Hans"] = "zh-Hans"
+SHOTS["zh-Hans"] = [
+    ("01-scan.png", "hero-bleed", "拍下提示牌<br>立刻连接", "从照片中识别账号和密码"),
+    ("02-qr.png", "left-text", "不用报密码<br>一张二维码搞定", "朋友只需用相机扫一扫"),
+    ("03-poster-card.png", "text-bottom", "访客 Wi-Fi 提示牌", "还能加上店名和营业时间"),
+    ("04-poster-a4.png", "flat-rotate", "A4 海报<br>直接打印", "7 种主题，AirPrint 一步完成"),
+    ("05-saved.png", "dark", "去过的 Wi-Fi<br>集中在一处", "走到附近，那里的 Wi-Fi 会排在最前"),
+]
 STORE["ja"] = "ja"
 SHOTS["ja"] = [
     ("01-scan.png", "hero-bleed", "案内を撮るだけで<br>すぐ接続", "IDとパスワードを写真から読み取ります"),
@@ -58,6 +66,8 @@ SHOTS["ja"] = [
     ("05-saved.png", "dark", "行った先のWi-Fiを<br>ひとつにまとめて", "近くに来るとそのWi-Fiが先頭に表示されます"),
 ]
 # i18n-end
+
+
 
 
 

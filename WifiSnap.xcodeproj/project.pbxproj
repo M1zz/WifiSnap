@@ -383,6 +383,7 @@
 				en,
 				ko,
 				"en-GB",
+				"zh-Hans",
 				ja,
 			);
 			mainGroup = 039CDF61D6A3C18AD2439CD3;

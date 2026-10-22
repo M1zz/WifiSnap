@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "앱에서 한 번 연결하면 여기에 QR이 떠요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 App 中连接一次，二维码就会显示在这里"
+          }
         }
       }
     },
@@ -53,6 +59,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
           }
         }
       }
@@ -82,6 +94,12 @@
             "state" : "translated",
             "value" : "와이파이 QR"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi 二维码"
+          }
         }
       }
     },
@@ -109,6 +127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 선택"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择 Wi-Fi"
           }
         }
       }
@@ -138,6 +162,12 @@
             "state" : "translated",
             "value" : "위젯에 고정할 와이파이를 고릅니다. 고르지 않으면 가장 최근에 연결한 와이파이를 보여줍니다."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择要固定在小组件上的 Wi-Fi。不选择时，会显示最近连接的 Wi-Fi。"
+          }
         }
       }
     },
@@ -165,6 +195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장된 와이파이 없음"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有已保存的 Wi-Fi"
           }
         }
       }
@@ -194,6 +230,12 @@
             "state" : "translated",
             "value" : "지금 연결된 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 특정 와이파이로 고정할 수도 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示当前已连接 Wi-Fi 的二维码。长按并选择“编辑小组件”，还可以固定为指定的 Wi-Fi。"
+          }
         }
       }
     },
@@ -221,6 +263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 연결됨"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前已连接"
           }
         }
       }
@@ -250,6 +298,12 @@
             "state" : "translated",
             "value" : "카메라로 비추면 바로 연결"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用相机扫描即可连接"
+          }
         }
       }
     },
@@ -277,6 +331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "탭하면 큰 QR"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按查看大二维码"
           }
         }
       }

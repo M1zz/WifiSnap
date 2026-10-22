@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "${applicationName} QR"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} 二维码"
+          }
         }
       }
     },
@@ -53,6 +59,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName} 와이파이 QR 보여줘"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用 ${applicationName} 显示 Wi-Fi 二维码"
           }
         }
       }
@@ -82,6 +94,12 @@
             "state" : "translated",
             "value" : "${applicationName} 와이파이 촬영"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} 拍摄 Wi-Fi"
+          }
         }
       }
     },
@@ -110,6 +128,12 @@
             "state" : "translated",
             "value" : "${applicationName}로 와이파이 안내문 찍어줘"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用 ${applicationName} 拍摄 Wi-Fi 提示"
+          }
         }
       }
     },
@@ -137,6 +161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName}에서 와이파이 QR 열어줘"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 ${applicationName} 中打开 Wi-Fi 二维码"
           }
         }
       }

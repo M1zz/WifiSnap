@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "마이파이"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
         }
       }
     },
@@ -54,6 +60,12 @@
             "state" : "translated",
             "value" : "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用于拍摄 Wi-Fi 提示牌，以识别网络名称和密码。"
+          }
         }
       }
     },
@@ -81,6 +93,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用于确认当前所连接的 Wi-Fi 名称。"
           }
         }
       }

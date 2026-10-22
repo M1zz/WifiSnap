@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "와이파이 QR"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi 二维码"
+          }
         }
       }
     }
