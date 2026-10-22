@@ -27,6 +27,12 @@
             "value" : "앱에서 한 번 연결하면 여기에 QR이 떠요"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключитесь один раз в приложении — и здесь появится QR-код"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65,6 +71,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -107,6 +119,12 @@
             "value" : "와이파이 QR"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-код Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -145,6 +163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 선택"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите сеть Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -187,6 +211,12 @@
             "value" : "위젯에 고정할 와이파이를 고릅니다. 고르지 않으면 가장 최근에 연결한 와이파이를 보여줍니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите сеть Wi-Fi, которую нужно закрепить на виджете. Если не выбирать, покажется последняя, к которой вы подключались."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -225,6 +255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장된 와이파이 없음"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет сохранённых сетей Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -267,6 +303,12 @@
             "value" : "지금 연결된 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 특정 와이파이로 고정할 수도 있어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывает QR-код сети Wi-Fi, к которой вы подключены. Нажмите и удерживайте, затем выберите «Изменить виджет», чтобы закрепить конкретную сеть."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -305,6 +347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 연결됨"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключено сейчас"
           }
         },
         "zh-Hans" : {
@@ -347,6 +395,12 @@
             "value" : "카메라로 비추면 바로 연결"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наведите камеру для подключения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -385,6 +439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "탭하면 큰 QR"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь — большой QR-код"
           }
         },
         "zh-Hans" : {

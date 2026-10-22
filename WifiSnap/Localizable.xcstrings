@@ -27,6 +27,12 @@
             "value" : "%@ 사본"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (копия)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65,6 +71,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 손님용 안내판 미리보기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предпросмотр гостевой таблички: %@"
           }
         },
         "zh-Hans" : {
@@ -107,6 +119,12 @@
             "value" : "%@ 연결용 QR 코드"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-код для подключения к %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -145,6 +163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 와이파이 QR"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-код Wi-Fi: %@"
           }
         },
         "zh-Hans" : {
@@ -187,6 +211,12 @@
             "value" : "%@ 조각"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фрагмент «%@»"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -225,6 +255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключение к «%@» настроено.\nЧтобы проверить, подключились ли вы, нужен доступ к геопозиции. (Настройки > MyFi > Геопозиция)"
           }
         },
         "zh-Hans" : {
@@ -267,6 +303,12 @@
             "value" : "'%@' 와이파이에 붙지 못했어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось подключиться к «%@»."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -305,6 +347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 표기로 다시 시도 중…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повторная попытка с названием «%@»…"
           }
         },
         "zh-Hans" : {
@@ -347,6 +395,12 @@
             "value" : "'%@'에 연결했어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключено к «%@»."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -385,6 +439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A4 포스터"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Плакат A4"
           }
         },
         "zh-Hans" : {
@@ -427,6 +487,12 @@
             "value" : "Face ID 잠금"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Блокировка по Face ID"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -465,6 +531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 저장한 비밀번호를 지켜요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрывайте приложение с помощью Face ID или Touch ID, чтобы защитить сохранённые пароли."
           }
         },
         "zh-Hans" : {
@@ -507,6 +579,12 @@
             "value" : "QR 만드는 중…"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создаём QR-код…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -545,6 +623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR 만들기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать QR-код"
           }
         },
         "zh-Hans" : {
@@ -587,6 +671,12 @@
             "value" : "QR 생성 실패"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось создать QR-код"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -625,6 +715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR 이미지 공유"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться QR-кодом"
           }
         },
         "zh-Hans" : {
@@ -667,6 +763,12 @@
             "value" : "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Если создать только QR-код, этот iPhone не подключится, а лишь сохранит сеть. При неверном пароле QR-код тоже не подключит, так что проверьте его."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -705,6 +807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR을 만들지 못했어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось создать QR-код."
           }
         },
         "zh-Hans" : {
@@ -747,6 +855,12 @@
             "value" : "SSID (와이파이 이름)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (название сети Wi-Fi)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -785,6 +899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SSID 접두사가 올바르지 않아요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неверный префикс SSID."
           }
         },
         "zh-Hans" : {
@@ -827,6 +947,12 @@
             "value" : "VoiceOver로 더 편하게"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удобнее с VoiceOver"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -865,6 +991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[마이파이 %@] 문의"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Вопрос"
           }
         },
         "zh-Hans" : {
@@ -907,6 +1039,12 @@
             "value" : "iOS는 저장된 와이파이 목록을 앱에 알려주지 않아서, 캡처가 유일한 방법이에요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS не передаёт приложениям список сохранённых сетей Wi-Fi, поэтому скриншот — единственный способ."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -945,6 +1083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "가져오기에 포함"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включить в импорт"
           }
         },
         "zh-Hans" : {
@@ -987,6 +1131,12 @@
             "value" : "가져온 이름 %lld개"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортировано названий: %lld"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1025,6 +1175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "건너뛰기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить"
           }
         },
         "zh-Hans" : {
@@ -1067,6 +1223,12 @@
             "value" : "고치는 즉시 저장돼요"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраняется сразу при изменении"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1105,6 +1267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "공유"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться"
           }
         },
         "zh-Hans" : {
@@ -1147,6 +1315,12 @@
             "value" : "근처 와이파이 먼저"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ближайшие сети — сверху"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1185,6 +1359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "글자 되돌리기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вернуть исходный текст"
           }
         },
         "zh-Hans" : {
@@ -1227,6 +1407,12 @@
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При увеличении размера текста экраны перестраиваются, и ничего не обрезается."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1265,6 +1451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기기 간 동기화"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Синхронизация между устройствами"
           }
         },
         "zh-Hans" : {
@@ -1307,6 +1499,12 @@
             "value" : "기기를 바꿔도 저장한 와이파이와 안내판이 그대로 이어져요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённые сети и таблички переедут на новое устройство без потерь."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1345,6 +1543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 데이터 한 번에 지우기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удаление всех моих данных"
           }
         },
         "zh-Hans" : {
@@ -1387,6 +1591,12 @@
             "value" : "내 안내판"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Моя табличка"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1425,6 +1635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 안내판 (%lld)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мои таблички (%lld)"
           }
         },
         "zh-Hans" : {
@@ -1467,6 +1683,12 @@
             "value" : "내 핫스팟"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Моя точка доступа"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1505,6 +1727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네트워크"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сеть"
           }
         },
         "zh-Hans" : {
@@ -1547,6 +1775,12 @@
             "value" : "네트워크 라벨"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подпись к сети"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1585,6 +1819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "네트워크 이름(SSID)이 올바르지 않아요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название сети (SSID) указано неверно."
           }
         },
         "zh-Hans" : {
@@ -1627,6 +1867,12 @@
             "value" : "네트워크 정보를 확인해 주세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверьте данные сети."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1665,6 +1911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다른 캡처 고르기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать другой скриншот"
           }
         },
         "zh-Hans" : {
@@ -1707,6 +1959,12 @@
             "value" : "다음"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далее"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1745,6 +2003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다크 모드"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тёмная тема"
           }
         },
         "zh-Hans" : {
@@ -1787,6 +2051,12 @@
             "value" : "닫기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1825,6 +2095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всё остаётся читаемым при повышенной контрастности и когда трудно различать цвета."
           }
         },
         "zh-Hans" : {
@@ -1867,6 +2143,12 @@
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение станет доступно на большем числе языков."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1905,6 +2187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 언어"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Больше языков"
           }
         },
         "zh-Hans" : {
@@ -1947,6 +2235,12 @@
             "value" : "도움말"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Справка"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1985,6 +2279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "두 번 탭하면 QR 코드로 돌아갑니다."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дважды коснитесь, чтобы вернуться к QR-коду."
           }
         },
         "zh-Hans" : {
@@ -2027,6 +2327,12 @@
             "value" : "디자인"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оформление"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2065,6 +2371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "마이파이"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
           }
         },
         "zh-Hans" : {
@@ -2107,6 +2419,12 @@
             "value" : "맞는 것만 켜 두고, 틀린 글자는 눌러서 고친 뒤 오른쪽 위 '추가'를 누르세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оставьте включёнными только верные, исправьте ошибочные буквы касанием и нажмите «Добавить» вверху справа."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2145,6 +2463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "매장 로고"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Логотип заведения"
           }
         },
         "zh-Hans" : {
@@ -2187,6 +2511,12 @@
             "value" : "매장 이름"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название заведения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2225,6 +2555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "매장이나 집에 둘 와이파이 안내판을 만들어\n인쇄하거나 이미지로 공유할 수 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создайте табличку с Wi-Fi для заведения или дома,\nраспечатайте её или отправьте картинкой."
           }
         },
         "zh-Hans" : {
@@ -2267,6 +2603,12 @@
             "value" : "맨 아래 문구 (비우면 숨김)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нижняя строка (скрыта, если пусто)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2305,6 +2647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "메인 화면 카드에는 가장 최근에 고친 안내판이 보여요. 왼쪽으로 밀면 복제·삭제할 수 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На карточке главного экрана показана табличка, которую вы правили последней. Смахните влево, чтобы дублировать или удалить."
           }
         },
         "zh-Hans" : {
@@ -2347,6 +2695,12 @@
             "value" : "메일로 문의 (%@)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Написать письмо (%@)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2385,6 +2739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "모노"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Моно"
           }
         },
         "zh-Hans" : {
@@ -2427,6 +2787,12 @@
             "value" : "목록에서 바로 쓰기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Быстрые действия в списке"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2465,6 +2831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "목록에서 와이파이 고르기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать сеть из списка"
           }
         },
         "zh-Hans" : {
@@ -2507,6 +2879,12 @@
             "value" : "무료 와이파이"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бесплатный Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2545,6 +2923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "문의"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Связаться с нами"
           }
         },
         "zh-Hans" : {
@@ -2587,6 +2971,12 @@
             "value" : "미드나잇"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полночь"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2625,6 +3015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "미리보기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предпросмотр"
           }
         },
         "zh-Hans" : {
@@ -2667,6 +3063,12 @@
             "value" : "민트"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мята"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2705,6 +3107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "백업과 내보내기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резервная копия и экспорт"
           }
         },
         "zh-Hans" : {
@@ -2747,6 +3155,12 @@
             "value" : "뱃지 (비우면 숨김)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Значок (скрыт, если пусто)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2785,6 +3199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "변경"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заменить"
           }
         },
         "zh-Hans" : {
@@ -2827,6 +3247,12 @@
             "value" : "보기 편한 색과 대비"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удобные цвета и контраст"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2865,6 +3291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보내 주신 의견은 개발자가 하나하나 직접 읽어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разработчик лично читает каждое ваше сообщение."
           }
         },
         "zh-Hans" : {
@@ -2907,6 +3339,12 @@
             "value" : "보여주기 전에 설정 > 개인용 핫스팟에서 ‘다른 사람의 연결 허용’을 켜 주세요. 꺼져 있으면 QR을 찍어도 네트워크를 찾지 못해요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прежде чем показывать, включите «Разрешать другим» в Настройки > Режим модема. Если он выключен, при сканировании QR-кода сеть не найдётся."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2945,6 +3383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보여주기만 하면 연결"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Достаточно показать — и подключение готово"
           }
         },
         "zh-Hans" : {
@@ -2987,6 +3431,12 @@
             "value" : "복제"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дублировать"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3025,6 +3475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пароль"
           }
         },
         "zh-Hans" : {
@@ -3067,6 +3523,12 @@
             "value" : "비밀번호 라벨"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подпись к паролю"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3105,6 +3567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 보기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать пароль"
           }
         },
         "zh-Hans" : {
@@ -3147,6 +3615,12 @@
             "value" : "비밀번호 복사"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скопировать пароль"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3185,6 +3659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 복사됨"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пароль скопирован"
           }
         },
         "zh-Hans" : {
@@ -3227,6 +3707,12 @@
             "value" : "비밀번호 숨기기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скрыть пароль"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3265,6 +3751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 지우기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить пароль"
           }
         },
         "zh-Hans" : {
@@ -3307,6 +3799,12 @@
             "value" : "비밀번호 표시"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать пароль"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3345,6 +3843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호 형식이 올바르지 않아요. (WEP은 5자 또는 13자)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неверный формат пароля. (для WEP — 5 или 13 символов)"
           }
         },
         "zh-Hans" : {
@@ -3387,6 +3891,12 @@
             "value" : "비밀번호 형식이 올바르지 않아요. (WPA는 8~63자)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неверный формат пароля. (для WPA — от 8 до 63 символов)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3425,6 +3935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "비밀번호가 %lld자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Длина пароля — %lld. Пароль Wi-Fi должен содержать не менее 8 символов (у старого WEP — 5 или 13). Проверьте, не пропущены ли символы."
           }
         },
         "zh-Hans" : {
@@ -3467,6 +3983,12 @@
             "value" : "비밀번호로 넣기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вставить как пароль"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3505,6 +4027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진 속 QR에서 읽었어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прочитано из QR-кода на фото."
           }
         },
         "zh-Hans" : {
@@ -3547,6 +4075,12 @@
             "value" : "사진 한 장으로 연결"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключение по одной фотографии"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3585,6 +4119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось найти логин и пароль на фото. Введите их вручную или снимите ближе и чётче."
           }
         },
         "zh-Hans" : {
@@ -3627,6 +4167,12 @@
             "value" : "사진에서 읽은 이름 — 맞는 걸 골라주세요"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Названия, прочитанные с фото, — выберите нужное"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3665,6 +4211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진에서 읽음"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прочитано с фото"
           }
         },
         "zh-Hans" : {
@@ -3707,6 +4259,12 @@
             "value" : "사진으로 자동 입력"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автозаполнение по фото"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3745,6 +4303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "삭제"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
           }
         },
         "zh-Hans" : {
@@ -3787,6 +4351,12 @@
             "value" : "새 안내판"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новая табличка"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3825,6 +4395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선셋"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закат"
           }
         },
         "zh-Hans" : {
@@ -3867,6 +4443,12 @@
             "value" : "선택"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3905,6 +4487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택 사항 — 상단에 표시"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По желанию — вверху таблички"
           }
         },
         "zh-Hans" : {
@@ -3947,6 +4535,12 @@
             "value" : "선택 안 됨"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не выбрано"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3985,6 +4579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택됨"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрано"
           }
         },
         "zh-Hans" : {
@@ -4027,6 +4627,12 @@
             "value" : "설정"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4065,6 +4671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정 캡처에서 목록 가져오기…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортировать список из скриншота настроек…"
           }
         },
         "zh-Hans" : {
@@ -4107,6 +4719,12 @@
             "value" : "손끝으로 느끼는 반응"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тактильный отклик"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4145,6 +4763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "손님용 안내판 만들기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гостевые таблички для Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -4187,6 +4811,12 @@
             "value" : "손님용 안내판 인쇄·공유"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Печать и отправка гостевой таблички"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4225,6 +4855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "스캔한 와이파이"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отсканированная сеть"
           }
         },
         "zh-Hans" : {
@@ -4267,6 +4903,12 @@
             "value" : "시스템 설정으로 관리되는 네트워크라 변경할 수 없어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта сеть управляется настройками системы, изменить её нельзя."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4305,6 +4947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작하기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать"
           }
         },
         "zh-Hans" : {
@@ -4347,6 +4995,12 @@
             "value" : "아래 조각을 탭하거나 직접 입력"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь фрагмента внизу или введите вручную"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4385,6 +5039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아래 조각을 탭하면 빈 칸에 들어가요. 길게 누르면 아이디·비밀번호 중 어디에 넣을지 고를 수 있고, 끌어다 놓아도 돼요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь фрагмента внизу — он встанет в пустое поле. Удерживайте, чтобы выбрать, куда его поместить: в логин или в пароль. Можно и перетащить."
           }
         },
         "zh-Hans" : {
@@ -4427,6 +5087,12 @@
             "value" : "아이디"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Логин"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4465,6 +5131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이디 지우기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить логин"
           }
         },
         "zh-Hans" : {
@@ -4507,6 +5179,12 @@
             "value" : "아이디로 넣기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вставить как логин"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4545,6 +5223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이폰 '설정 > Wi-Fi' 화면을 캡처한 뒤 그 사진을 고르면, 목록에 있는 이름을 읽어옵니다."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сделайте скриншот экрана «Настройки > Wi-Fi» на iPhone и выберите его здесь — приложение прочитает названия из списка."
           }
         },
         "zh-Hans" : {
@@ -4587,6 +5271,12 @@
             "value" : "안내 문구"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подпись"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4625,6 +5315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내문 촬영"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снять табличку"
           }
         },
         "zh-Hans" : {
@@ -4667,6 +5363,12 @@
             "value" : "안내판 %lld"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Табличка %lld"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4705,6 +5407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판 만들기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать табличку"
           }
         },
         "zh-Hans" : {
@@ -4747,6 +5455,12 @@
             "value" : "안내판 이름 (목록에서만 보임)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название таблички (видно только в списке)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4785,6 +5499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판 이미지 공유·인쇄"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться изображением таблички или распечатать"
           }
         },
         "zh-Hans" : {
@@ -4827,6 +5547,12 @@
             "value" : "안내판에 인쇄되는 글자"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст на табличке"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4865,6 +5591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "안내판을 꾸미다 앱이 꺼져도 하던 내용이 남아 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Если приложение закроется во время создания таблички, ваши правки сохранятся."
           }
         },
         "zh-Hans" : {
@@ -4907,6 +5639,12 @@
             "value" : "알 수 없는 오류가 발생했어요. 신호 범위 안에 있는지 확인해 주세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Произошла неизвестная ошибка. Проверьте, что вы в зоне действия сети."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4945,6 +5683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "알림"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уведомления о Wi-Fi поблизости"
           }
         },
         "zh-Hans" : {
@@ -4987,6 +5731,12 @@
             "value" : "앨범"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Галерея"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5025,6 +5775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱이 화면에 떠 있는 상태에서 시도해 주세요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повторите попытку, когда приложение открыто на экране."
           }
         },
         "zh-Hans" : {
@@ -5067,6 +5823,12 @@
             "value" : "어두운 화면에서도 글자와 단추가 또렷하게 보여요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Текст и кнопки остаются чёткими и в тёмной теме."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5105,6 +5867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При первом запуске после обновления вы узнаете, что нового."
           }
         },
         "zh-Hans" : {
@@ -5147,6 +5915,12 @@
             "value" : "업데이트 소식"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что нового"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5185,6 +5959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "없음 (개방)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет (открытая сеть)"
           }
         },
         "zh-Hans" : {
@@ -5227,6 +6007,12 @@
             "value" : "여기서 저장한 와이파이"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сети, сохранённые здесь"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5265,6 +6051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключить"
           }
         },
         "zh-Hans" : {
@@ -5307,6 +6099,12 @@
             "value" : "연결 실패"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось подключиться"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5345,6 +6143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결 없이 QR 만들기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать QR-код без подключения"
           }
         },
         "zh-Hans" : {
@@ -5387,6 +6191,12 @@
             "value" : "연결 중…"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключение…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5425,6 +6235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "연결 확인 창에서 '연결'을 눌러야 연결됩니다. 다시 시도해 주세요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужно нажать «Подключить» в окне подтверждения. Попробуйте ещё раз."
           }
         },
         "zh-Hans" : {
@@ -5467,6 +6283,12 @@
             "value" : "연결용 QR"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-код для подключения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5505,6 +6327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 지원"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддержка английского"
           }
         },
         "zh-Hans" : {
@@ -5547,6 +6375,12 @@
             "value" : "영업시간, 인스타 계정, 매장 안내처럼 원하는 문구를 줄 단위로 넣으세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавляйте любой текст по строкам: часы работы, аккаунт в Instagram, правила заведения."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5585,6 +6419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예) 계산대용"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напр.: для кассы"
           }
         },
         "zh-Hans" : {
@@ -5627,6 +6467,12 @@
             "value" : "예) 라운지 카페"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напр.: Lounge Café"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5665,6 +6511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예) 영업시간 09:00–22:00"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напр.: Работаем с 9:00 до 22:00"
           }
         },
         "zh-Hans" : {
@@ -5707,6 +6559,12 @@
             "value" : "오션"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Океан"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5745,6 +6603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 QR"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-код Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -5787,6 +6651,12 @@
             "value" : "와이파이 QR 보여주기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать QR-код Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5825,6 +6695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 목록 가져오기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импорт списка Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -5867,6 +6743,12 @@
             "value" : "와이파이 상세"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сведения о сети Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5905,6 +6787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 선택"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите сеть Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -5947,6 +6835,12 @@
             "value" : "와이파이 안내문 촬영"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сфотографировать табличку Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5985,6 +6879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 이름"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название сети Wi-Fi"
           }
         },
         "zh-Hans" : {
@@ -6027,6 +6927,12 @@
             "value" : "와이파이 이름이 너무 길어요. (최대 32바이트)"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название сети слишком длинное. (максимум 32 байта)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6065,6 +6971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이 이름이 비어 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не указано название сети Wi-Fi."
           }
         },
         "zh-Hans" : {
@@ -6107,6 +7019,12 @@
             "value" : "와이파이 추가"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить сеть Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6145,6 +7063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "와이파이에 연결되거나 글자를 읽어 내면 가볍게 떨려서 알려 줘요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лёгкая вибрация, когда вы подключились к сети или текст распознан."
           }
         },
         "zh-Hans" : {
@@ -6187,6 +7111,12 @@
             "value" : "와이파이에 연결하거나 '여기'에서 공유하면 그 위치가 지도에 기록돼요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда вы подключитесь к сети или поделитесь ею «Здесь», место появится на карте."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6225,6 +7155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "완료"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         },
         "zh-Hans" : {
@@ -6267,6 +7203,12 @@
             "value" : "외국인 손님도 읽을 수 있게 앱과 안내판을 영어로도 써요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение и таблички будут и на английском — чтобы их могли прочитать иностранные гости."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6305,6 +7247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уменьшение движения"
           }
         },
         "zh-Hans" : {
@@ -6347,6 +7295,12 @@
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При включённом «Уменьшении движения» экранные эффекты станут спокойнее."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6385,6 +7339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "원하면 앱 안에서 저장한 와이파이와 안내판을 모두 지울 수 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все сохранённые сети и таблички можно удалить прямо в приложении."
           }
         },
         "zh-Hans" : {
@@ -6427,6 +7387,12 @@
             "value" : "의견 · 리뷰"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отзывы и пожелания"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6465,6 +7431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 네트워크는 일회성 연결을 지원하지 않아요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта сеть не поддерживает разовое подключение."
           }
         },
         "zh-Hans" : {
@@ -6507,6 +7479,12 @@
             "value" : "이 줄 삭제"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить эту строку"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6545,6 +7523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 카드를 보여주세요"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покажите эту карточку"
           }
         },
         "zh-Hans" : {
@@ -6587,6 +7571,12 @@
             "value" : "이 폰 연결"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключить этот iPhone"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6625,6 +7615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 폰에 설정됨"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настроено на этом iPhone"
           }
         },
         "zh-Hans" : {
@@ -6667,6 +7663,12 @@
             "value" : "이 폰을 연결하거나, 연결 없이 QR만 만들어요"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключите этот iPhone или просто создайте QR-код без подключения"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6705,6 +7707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 폰이 아는 와이파이"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сети, известные этому iPhone"
           }
         },
         "zh-Hans" : {
@@ -6747,6 +7755,12 @@
             "value" : "이 폰이 아는 이름"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Названия, известные этому iPhone"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6785,6 +7799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이런 표기일 수도 있어요:"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможно, название пишется так:"
           }
         },
         "zh-Hans" : {
@@ -6827,6 +7847,12 @@
             "value" : "이름 읽는 중…"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Читаем названия…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6865,6 +7891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверьте, что название и пароль введены точно, с учётом регистра, и что вы в зоне действия сети."
           }
         },
         "zh-Hans" : {
@@ -6907,6 +7939,12 @@
             "value" : "이름을 찾지 못했어요. 목록이 잘 보이게 다시 캡처하거나, 아래에서 직접 적어 주세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Названия не найдены. Сделайте скриншот, где список виден чётко, или введите их ниже вручную."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6945,6 +7983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이미 연결되어 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уже подключено."
           }
         },
         "zh-Hans" : {
@@ -6987,6 +8031,12 @@
             "value" : "이전 연결 요청을 처리 중이에요. 잠시 후 다시 시도해 주세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предыдущий запрос на подключение ещё обрабатывается. Повторите попытку чуть позже."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7025,6 +8075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Директ в Instagram (@lee25_ios)"
           }
         },
         "zh-Hans" : {
@@ -7067,6 +8123,12 @@
             "value" : "인식 중…"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Распознаём…"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7105,6 +8167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "읽어낸 이름 %lld개"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найдено названий: %lld"
           }
         },
         "zh-Hans" : {
@@ -7147,6 +8215,12 @@
             "value" : "저장된 네트워크"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённые сети"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7185,6 +8259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장된 네트워크 없음"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет сохранённых сетей"
           }
         },
         "zh-Hans" : {
@@ -7227,6 +8307,12 @@
             "value" : "저장한 와이파이 지도"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карта сохранённых сетей Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7265,6 +8351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장한 와이파이가 있는 곳에 오면 알림으로 알려 줘요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уведомим, когда вы окажетесь там, где есть сохранённая сеть Wi-Fi."
           }
         },
         "zh-Hans" : {
@@ -7307,6 +8399,12 @@
             "value" : "저장한 와이파이는 위치와 함께 기억돼요. 그 장소에 다시 오면 목록 맨 위로 올라오고 '📍 근처' 뱃지가 붙어요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённые сети запоминаются вместе с местом. Когда вы вернётесь туда, сеть поднимется наверх списка и получит значок «📍 Рядом»."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7345,6 +8443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장한 와이파이와 안내판을 파일로 저장하고 다시 불러올 수 있어요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраняйте сети и таблички в файл и загружайте их обратно."
           }
         },
         "zh-Hans" : {
@@ -7387,6 +8491,12 @@
             "value" : "적용됨"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Применён"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7425,6 +8535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제거"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Убрать"
           }
         },
         "zh-Hans" : {
@@ -7467,6 +8583,12 @@
             "value" : "제목"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заголовок"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7505,6 +8627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조각을 탭해서 채우기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заполняйте касанием фрагментов"
           }
         },
         "zh-Hans" : {
@@ -7547,6 +8675,12 @@
             "value" : "줄 추가"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить строку"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7585,6 +8719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 연결된 와이파이를 QR로 보여 주세요.\n친구가 카메라로 비추면 비밀번호를 몰라도 바로 연결돼요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покажите QR-код сети, к которой вы подключены.\nКогда друг наведёт камеру, он подключится, даже не зная пароля."
           }
         },
         "zh-Hans" : {
@@ -7627,6 +8767,12 @@
             "value" : "지금 연결된 와이파이의 QR을 엽니다. 연결된 와이파이가 저장돼 있지 않으면 가장 최근에 저장한 와이파이를 엽니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открывает QR-код сети Wi-Fi, к которой вы подключены. Если её нет в сохранённых, откроется последняя сохранённая сеть."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7665,6 +8811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 연결됨"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подключено сейчас"
           }
         },
         "zh-Hans" : {
@@ -7707,6 +8859,12 @@
             "value" : "지도"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карта"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7745,6 +8903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지도에 표시할 위치가 없어요"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет мест для отображения на карте"
           }
         },
         "zh-Hans" : {
@@ -7787,6 +8951,12 @@
             "value" : "직접 쓰는 줄"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Свои строки"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7825,6 +8995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 쓴 줄 %lld개"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Своих строк: %lld"
           }
         },
         "zh-Hans" : {
@@ -7867,6 +9043,12 @@
             "value" : "직접 입력"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввести вручную"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7905,6 +9087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 입력…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ввести вручную…"
           }
         },
         "zh-Hans" : {
@@ -7947,6 +9135,12 @@
             "value" : "직접 입력한 와이파이"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сеть, введённая вручную"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7985,6 +9179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "직접 적어 넣기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить вручную"
           }
         },
         "zh-Hans" : {
@@ -8027,6 +9227,12 @@
             "value" : "처음 안내 다시 보기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать приветствие ещё раз"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8065,6 +9271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "촬영"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снять"
           }
         },
         "zh-Hans" : {
@@ -8107,6 +9319,12 @@
             "value" : "촬영·앨범·직접 입력"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снимок, галерея или ввод вручную"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8145,6 +9363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "추가"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить"
           }
         },
         "zh-Hans" : {
@@ -8187,6 +9411,12 @@
             "value" : "친구가 QR을 카메라로 비추면 비밀번호 없이 바로 연결돼요. 카드를 밀거나 탭하면 손님용 안내판 미리보기로 뒤집혀요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда друг наведёт камеру на QR-код, он подключится без пароля. Смахните карточку или коснитесь её, чтобы увидеть предпросмотр гостевой таблички."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8225,6 +9455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카드"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карточка"
           }
         },
         "zh-Hans" : {
@@ -8267,6 +9503,12 @@
             "value" : "카메라로 QR을 비추면 자동 연결"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наведите камеру на QR-код — подключение автоматически"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8305,6 +9547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카메라로 비추면 바로 연결돼요"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наведите камеру — и сразу подключитесь"
           }
         },
         "zh-Hans" : {
@@ -8347,6 +9595,12 @@
             "value" : "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наведите камеру — и подключитесь без пароля. Дважды коснитесь, чтобы перевернуть на предпросмотр таблички."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8385,6 +9639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카메라를 열어 와이파이 안내문을 찍으면 이름과 비밀번호를 읽어 줍니다."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открывает камеру: сфотографируйте табличку с Wi-Fi, и приложение прочитает название сети и пароль."
           }
         },
         "zh-Hans" : {
@@ -8427,6 +9687,12 @@
             "value" : "카페"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кафе"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8465,6 +9731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카페·숙소의 와이파이 안내문을 찍거나 앨범에서 고르세요.\n이름과 비밀번호를 읽어 이 폰을 연결해 줘요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сфотографируйте табличку с Wi-Fi в кафе или отеле либо выберите снимок из галереи.\nПриложение прочитает название и пароль и подключит этот iPhone."
           }
         },
         "zh-Hans" : {
@@ -8507,6 +9779,12 @@
             "value" : "카페·숙소의 와이파이 안내문을 촬영하거나 앨범에서 고르면, ID와 비밀번호를 알아서 읽어 연결해요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сфотографируйте табличку с Wi-Fi в кафе или отеле либо выберите снимок из галереи — приложение само прочитает логин и пароль и подключится."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8545,6 +9823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "캡처 고르기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать скриншот"
           }
         },
         "zh-Hans" : {
@@ -8587,6 +9871,12 @@
             "value" : "캡처에서 가져옴"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Из скриншота"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8625,6 +9915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "큰 글씨에 맞춘 화면"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экраны для крупного шрифта"
           }
         },
         "zh-Hans" : {
@@ -8667,6 +9963,12 @@
             "value" : "탭하면 빈 칸에 넣습니다. 길게 누르면 넣을 칸을 고릅니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь, чтобы поместить в пустое поле. Удерживайте, чтобы выбрать поле."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8705,6 +10007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "편하게 이용하세요"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пользуйтесь на здоровье"
           }
         },
         "zh-Hans" : {
@@ -8747,6 +10055,12 @@
             "value" : "펼치는 아이폰 화면"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экран складного iPhone"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8785,6 +10099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На складном iPhone широкий экран делится на две части."
           }
         },
         "zh-Hans" : {
@@ -8827,6 +10147,12 @@
             "value" : "포레스트"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лес"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8865,6 +10191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "하던 일 이어서 하기"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить с того же места"
           }
         },
         "zh-Hans" : {
@@ -8907,6 +10239,12 @@
             "value" : "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "К точке доступа нельзя подключиться с этого iPhone. Создайте QR-код и покажите его собеседнику."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8945,6 +10283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "행을 탭하면 QR·상세가 열려요. 오른쪽으로 밀면 이 폰 연결, 왼쪽으로 밀면 QR 공유예요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь строки, чтобы открыть QR-код и подробности. Смахните вправо — подключить этот iPhone, влево — поделиться QR-кодом."
           }
         },
         "zh-Hans" : {
@@ -8987,6 +10331,12 @@
             "value" : "형태"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Формат"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9025,6 +10375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "화면 읽기 기능이 와이파이 정보와 단추를 빠짐없이, 알맞은 순서로 읽어 줘요."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver зачитывает все сведения о сети и кнопки полностью и в правильном порядке."
           }
         },
         "zh-Hans" : {
@@ -9067,6 +10423,12 @@
             "value" : "확인"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9105,6 +10467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 근처"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Рядом"
           }
         },
         "zh-Hans" : {
@@ -9147,6 +10515,12 @@
             "value" : "📍 여기"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Здесь"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9187,6 +10561,12 @@
             "value" : "📍 지금 연결됨"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Подключено сейчас"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9225,6 +10605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 핫스팟"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Точка доступа"
           }
         },
         "zh-Hans" : {

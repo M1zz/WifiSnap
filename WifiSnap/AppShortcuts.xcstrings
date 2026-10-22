@@ -27,6 +27,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -65,6 +71,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName} 와이파이 QR 보여줘"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покажи QR-код Wi-Fi в ${applicationName}"
           }
         },
         "zh-Hans" : {
@@ -107,6 +119,12 @@
             "value" : "${applicationName} 와이파이 촬영"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} снять Wi-Fi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -147,6 +165,12 @@
             "value" : "${applicationName}로 와이파이 안내문 찍어줘"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сфотографируй табличку Wi-Fi в ${applicationName}"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -185,6 +209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName}에서 와이파이 QR 열어줘"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открой QR-код Wi-Fi в ${applicationName}"
           }
         },
         "zh-Hans" : {

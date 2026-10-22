@@ -27,6 +27,12 @@
             "value" : "마이파이"
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -67,6 +73,12 @@
             "value" : "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다."
           }
         },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужна, чтобы сфотографировать табличку Wi-Fi и распознать название сети и пароль."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -105,6 +117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужна, чтобы определить название сети Wi-Fi, к которой вы сейчас подключены."
           }
         },
         "zh-Hans" : {

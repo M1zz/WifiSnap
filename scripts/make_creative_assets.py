@@ -66,7 +66,12 @@ STORE["ja"] = "ja"
 SCREEN["ja"] = "ja"
 SEARCH["ja"] = ("Wi-Fi QR", "お客様用Wi-Fi<br>案内ボードを作成", "QRコードですぐ接続<br>印刷までワンステップ")
 HEADER["ja"] = ("Wi-Fiを共有", "パスワードを伝える代わりに<br>QRコードを見せるだけ")
+STORE["ru"] = "ru"
+SCREEN["ru"] = "ru"
+SEARCH["ru"] = ("QR-код Wi-Fi", "Гостевые таблички<br>для Wi-Fi", "Подключение по QR-коду,<br>печать в пару касаний")
+HEADER["ru"] = ("Делитесь Wi-Fi", "Не диктуйте пароль —<br>покажите QR-код")
 # i18n-end
+
 
 
 
