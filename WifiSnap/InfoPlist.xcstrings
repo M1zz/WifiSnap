@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "MyFi"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
         }
       }
     },
@@ -66,6 +72,12 @@
             "state" : "translated",
             "value" : "用于拍摄 Wi-Fi 提示牌，以识别网络名称和密码。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用於拍攝 Wi-Fi 告示牌，以辨識網路名稱和密碼。"
+          }
         }
       }
     },
@@ -99,6 +111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用于确认当前所连接的 Wi-Fi 名称。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用於確認目前所連線的 Wi-Fi 名稱。"
           }
         }
       }

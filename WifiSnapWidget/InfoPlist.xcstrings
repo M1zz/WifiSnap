@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "Wi-Fi 二维码"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR Code"
+          }
         }
       }
     }

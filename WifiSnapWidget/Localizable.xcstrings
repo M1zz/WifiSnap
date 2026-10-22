@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "在 App 中连接一次，二维码就会显示在这里"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 App 中連線一次，QR Code 就會顯示在這裡"
+          }
         }
       }
     },
@@ -62,6 +68,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -100,6 +112,12 @@
             "state" : "translated",
             "value" : "Wi-Fi 二维码"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR Code"
+          }
         }
       }
     },
@@ -133,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "选择 Wi-Fi"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇 Wi-Fi"
           }
         }
       }
@@ -168,6 +192,12 @@
             "state" : "translated",
             "value" : "选择要固定在小组件上的 Wi-Fi。不选择时，会显示最近连接的 Wi-Fi。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選擇要固定在小工具上的 Wi-Fi。不選擇時，會顯示最近連線的 Wi-Fi。"
+          }
         }
       }
     },
@@ -201,6 +231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没有已保存的 Wi-Fi"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有已儲存的 Wi-Fi"
           }
         }
       }
@@ -236,6 +272,12 @@
             "state" : "translated",
             "value" : "显示当前已连接 Wi-Fi 的二维码。长按并选择“编辑小组件”，还可以固定为指定的 Wi-Fi。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示目前已連線 Wi-Fi 的 QR Code。長按並選擇「編輯小工具」，還可以固定為指定的 Wi-Fi。"
+          }
         }
       }
     },
@@ -269,6 +311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当前已连接"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目前已連線"
           }
         }
       }
@@ -304,6 +352,12 @@
             "state" : "translated",
             "value" : "用相机扫描即可连接"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用相機掃描即可連線"
+          }
         }
       }
     },
@@ -337,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "点按查看大二维码"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "點一下查看大 QR Code"
           }
         }
       }
