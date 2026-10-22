@@ -54,7 +54,12 @@ STORE["en-GB"] = "en-GB"
 SCREEN["en-GB"] = "en-GB"
 SEARCH["en-GB"] = ("Wi-Fi QR", "Make guest<br>Wi-Fi signs", "Connect with a QR code,<br>print in one go")
 HEADER["en-GB"] = ("Share Wi-Fi", "Skip reading out passwords.<br>Show a QR code.")
+STORE["ja"] = "ja"
+SCREEN["ja"] = "ja"
+SEARCH["ja"] = ("Wi-Fi QR", "お客様用Wi-Fi<br>案内ボードを作成", "QRコードですぐ接続<br>印刷までワンステップ")
+HEADER["ja"] = ("Wi-Fiを共有", "パスワードを伝える代わりに<br>QRコードを見せるだけ")
 # i18n-end
+
 
 
 

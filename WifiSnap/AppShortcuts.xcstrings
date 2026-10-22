@@ -15,6 +15,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +41,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "${applicationName} show Wi-Fi QR"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName}でWi-Fi QRを表示"
           }
         },
         "ko" : {
@@ -59,6 +71,12 @@
             "value" : "${applicationName} scan Wi-Fi sign"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName}でWi-Fiを撮影"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -81,6 +99,12 @@
             "value" : "Scan a Wi-Fi sign with ${applicationName}"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName}でWi-Fiの案内を撮影"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -101,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Wi-Fi QR in ${applicationName}"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName}でWi-Fi QRを開いて"
           }
         },
         "ko" : {

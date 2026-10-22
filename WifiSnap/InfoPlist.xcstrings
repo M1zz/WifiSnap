@@ -15,6 +15,12 @@
             "value" : "MyFi"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37,6 +43,12 @@
             "value" : "MyFi uses the camera to read the network name and password from a Wi-Fi sign you photograph."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fiの案内を撮影して、ネットワーク名とパスワードを認識するために使用します。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -57,6 +69,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Needed to check the name of the Wi-Fi network you’re currently connected to."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在接続しているWi-Fiの名前を確認するために必要です。"
           }
         },
         "ko" : {

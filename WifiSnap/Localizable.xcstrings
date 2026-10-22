@@ -15,6 +15,12 @@
             "value" : "%@ copy"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のコピー"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35,6 +41,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guest sign preview for %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のお客様用案内ボードのプレビュー"
           }
         },
         "ko" : {
@@ -59,6 +71,12 @@
             "value" : "QR code to connect to %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@に接続するためのQRコード"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -79,6 +97,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Wi-Fi QR"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のWi-Fi QR"
           }
         },
         "ko" : {
@@ -103,6 +127,12 @@
             "value" : "%@ piece"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パーツ「%@」"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set up the connection to “%@”.\nTo confirm it connected, the app needs location access. (Settings > MyFi > Location)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」の接続を設定しました。\n接続されたか確認するには、位置情報の許可が必要です。(設定 > MyFi > 位置情報)"
           }
         },
         "ko" : {
@@ -147,6 +183,12 @@
             "value" : "Couldn’t join “%@”."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」に接続できませんでした。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trying again as “%@”…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」の表記で再試行中…"
           }
         },
         "ko" : {
@@ -191,6 +239,12 @@
             "value" : "Connected to “%@”."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」に接続しました。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A4 poster"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4ポスター"
           }
         },
         "ko" : {
@@ -235,6 +295,12 @@
             "value" : "Face ID lock"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face IDロック"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -255,6 +321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock the app with Face ID or Touch ID to keep your saved passwords safe."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face IDやTouch IDでアプリをロックして、保存したパスワードを守ります。"
           }
         },
         "ko" : {
@@ -279,6 +351,12 @@
             "value" : "Making QR code…"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QRコードを作成中…"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -299,6 +377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Make QR code"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QRコードを作成"
           }
         },
         "ko" : {
@@ -323,6 +407,12 @@
             "value" : "Couldn’t make the QR code"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QRコードを作成できませんでした"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -343,6 +433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share QR image"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR画像を共有"
           }
         },
         "ko" : {
@@ -367,6 +463,12 @@
             "value" : "Making only a QR code saves the network without connecting this phone. If the password is wrong, the QR code won’t connect either, so double-check it."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QRコードだけ作成した場合、このiPhoneは接続せず保存のみ行います。パスワードが違うとQRコードでも接続できないので、確認してください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -387,6 +489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn’t make the QR code."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QRコードを作成できませんでした。"
           }
         },
         "ko" : {
@@ -411,6 +519,12 @@
             "value" : "SSID (Wi-Fi name)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID(Wi-Fi名)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -431,6 +545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The SSID prefix isn’t valid."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSIDのプレフィックスが正しくありません。"
           }
         },
         "ko" : {
@@ -455,6 +575,12 @@
             "value" : "Better VoiceOver support"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverでもっと快適に"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -475,6 +601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Question"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] お問い合わせ"
           }
         },
         "ko" : {
@@ -499,6 +631,12 @@
             "value" : "iOS doesn’t share your saved Wi-Fi list with apps, so a screenshot is the only way."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOSは保存済みのWi-Fiリストをアプリに教えないため、スクリーンショットが唯一の方法です。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -519,6 +657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Include in import"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取り込みに含める"
           }
         },
         "ko" : {
@@ -543,6 +687,12 @@
             "value" : "%lld names imported"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取り込んだ名前 %lld件"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -563,6 +713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skip"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキップ"
           }
         },
         "ko" : {
@@ -587,6 +743,12 @@
             "value" : "Saved as you type"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編集すると自動で保存されます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -607,6 +769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有"
           }
         },
         "ko" : {
@@ -631,6 +799,12 @@
             "value" : "Nearby networks first"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くのWi-Fiを先頭に"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -651,6 +825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset text"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字を元に戻す"
           }
         },
         "ko" : {
@@ -675,6 +855,12 @@
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字サイズを大きくしても、切れずに見やすく配置し直されます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -695,6 +881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sync across devices"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デバイス間の同期"
           }
         },
         "ko" : {
@@ -719,6 +911,12 @@
             "value" : "Your saved networks and signs carry over when you switch devices."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機種を変えても、保存したWi-Fiと案内ボードがそのまま引き継がれます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -739,6 +937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erase all my data"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データをまとめて削除"
           }
         },
         "ko" : {
@@ -763,6 +967,12 @@
             "value" : "My sign"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイ案内ボード"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -783,6 +993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "My signs (%lld)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイ案内ボード(%lld)"
           }
         },
         "ko" : {
@@ -807,6 +1023,12 @@
             "value" : "My hotspot"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイホットスポット"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -827,6 +1049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Network"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネットワーク"
           }
         },
         "ko" : {
@@ -851,6 +1079,12 @@
             "value" : "Network label"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネットワークのラベル"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -871,6 +1105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The network name (SSID) isn’t valid."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネットワーク名(SSID)が正しくありません。"
           }
         },
         "ko" : {
@@ -895,6 +1135,12 @@
             "value" : "Please check the network details."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネットワーク情報を確認してください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -915,6 +1161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick another screenshot"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "別のスクリーンショットを選ぶ"
           }
         },
         "ko" : {
@@ -939,6 +1191,12 @@
             "value" : "Next"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -959,6 +1217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dark Mode"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダークモード"
           }
         },
         "ko" : {
@@ -983,6 +1247,12 @@
             "value" : "Close"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1003,6 +1273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everything stays easy to read, even with Increase Contrast on or if colours are hard to tell apart."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コントラストを上げたり、色の区別がつきにくくても、内容を見分けられます。"
           }
         },
         "ko" : {
@@ -1027,6 +1303,12 @@
             "value" : "Use the app in more languages."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もっと多くの言語でアプリを使えるようにします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1047,6 +1329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More languages"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "対応言語の追加"
           }
         },
         "ko" : {
@@ -1071,6 +1359,12 @@
             "value" : "Help"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルプ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1091,6 +1385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Double-tap to go back to the QR code."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダブルタップするとQRコードに戻ります。"
           }
         },
         "ko" : {
@@ -1115,6 +1415,12 @@
             "value" : "Design"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デザイン"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1132,6 +1438,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -1159,6 +1471,12 @@
             "value" : "Keep on only the correct ones, tap a name to fix any wrong letters, then tap Add at the top right."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "合っているものだけオンにして、違う文字はタップして直し、右上の「追加」をタップしてください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1179,6 +1497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Shop logo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "店のロゴ"
           }
         },
         "ko" : {
@@ -1203,6 +1527,12 @@
             "value" : "Shop name"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "店名"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1223,6 +1553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Design a Wi-Fi sign for your shop or home,\nthen print it or share it as an image."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お店や家に置くWi-Fi案内ボードを作って、\n印刷したり画像で共有したりできます。"
           }
         },
         "ko" : {
@@ -1247,6 +1583,12 @@
             "value" : "Bottom line (hidden if empty)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一番下の文(空欄で非表示)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1267,6 +1609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The main screen card shows the sign you edited most recently. Swipe left to duplicate or delete."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メイン画面のカードには、最後に編集した案内ボードが表示されます。左にスワイプすると複製・削除できます。"
           }
         },
         "ko" : {
@@ -1291,6 +1639,12 @@
             "value" : "Email us (%@)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールで問い合わせる(%@)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1311,6 +1665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mono"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モノ"
           }
         },
         "ko" : {
@@ -1335,6 +1695,12 @@
             "value" : "Quick actions in the list"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リストからすぐ使える"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1355,6 +1721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose from list"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リストからWi-Fiを選ぶ"
           }
         },
         "ko" : {
@@ -1379,6 +1751,12 @@
             "value" : "Free Wi-Fi"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無料Wi-Fi"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1399,6 +1777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お問い合わせ"
           }
         },
         "ko" : {
@@ -1423,6 +1807,12 @@
             "value" : "Midnight"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミッドナイト"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1443,6 +1833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Preview"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレビュー"
           }
         },
         "ko" : {
@@ -1467,6 +1863,12 @@
             "value" : "Mint"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミント"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1487,6 +1889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Backup and export"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バックアップと書き出し"
           }
         },
         "ko" : {
@@ -1511,6 +1919,12 @@
             "value" : "Badge (hidden if empty)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッジ(空欄で非表示)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1531,6 +1945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Change"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更"
           }
         },
         "ko" : {
@@ -1555,6 +1975,12 @@
             "value" : "Easier colours and contrast"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見やすい色とコントラスト"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1575,6 +2001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The developer reads every message you send."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いただいたご意見は、開発者がひとつひとつ直接読んでいます。"
           }
         },
         "ko" : {
@@ -1599,6 +2031,12 @@
             "value" : "Before showing this, turn on “Allow Others to Join” in Settings > Personal Hotspot. If it’s off, people who scan the QR code won’t find the network."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表示する前に、設定 > インターネット共有で「ほかの人の接続を許可」をオンにしてください。オフのままだと、QRコードを読み取ってもネットワークが見つかりません。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1619,6 +2057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Just show it to connect"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見せるだけでつながる"
           }
         },
         "ko" : {
@@ -1643,6 +2087,12 @@
             "value" : "Duplicate"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "複製"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1663,6 +2113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワード"
           }
         },
         "ko" : {
@@ -1687,6 +2143,12 @@
             "value" : "Password label"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードのラベル"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1707,6 +2169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードを表示"
           }
         },
         "ko" : {
@@ -1731,6 +2199,12 @@
             "value" : "Copy password"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードをコピー"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1751,6 +2225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Password copied"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードをコピーしました"
           }
         },
         "ko" : {
@@ -1775,6 +2255,12 @@
             "value" : "Hide password"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードを隠す"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1795,6 +2281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clear password"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードを消去"
           }
         },
         "ko" : {
@@ -1819,6 +2311,12 @@
             "value" : "Show password"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードを表示"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1839,6 +2337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The password isn’t valid. (WEP needs 5 or 13 characters)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードの形式が正しくありません。(WEPは5文字または13文字)"
           }
         },
         "ko" : {
@@ -1863,6 +2367,12 @@
             "value" : "The password isn’t valid. (WPA needs 8–63 characters)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードの形式が正しくありません。(WPAは8~63文字)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1883,6 +2393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The password is %lld characters long. Wi-Fi passwords must be at least 8 characters (older WEP keys are 5 or 13). Check that no characters are missing."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードが%lld文字です。Wi-Fiのパスワードは8文字以上にしてください(旧式のWEPは5文字または13文字)。抜けている文字がないか確認してください。"
           }
         },
         "ko" : {
@@ -1907,6 +2423,12 @@
             "value" : "Use as password"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスワードに入れる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1927,6 +2449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Read from the QR code in the photo."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真のQRコードから読み取りました。"
           }
         },
         "ko" : {
@@ -1951,6 +2479,12 @@
             "value" : "Connect from a single photo"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真1枚でつながる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1971,6 +2505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn’t find an ID or password in the photo. Type them in, or try again closer and in sharper focus."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真からIDとパスワードを見つけられませんでした。手入力するか、もう少し近づいてはっきり撮影してください。"
           }
         },
         "ko" : {
@@ -1995,6 +2535,12 @@
             "value" : "Names read from the photo — pick the right one"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真から読み取った名前 — 正しいものを選んでください"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2015,6 +2561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Read from photo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真から読み取り"
           }
         },
         "ko" : {
@@ -2039,6 +2591,12 @@
             "value" : "Fill in from a photo"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真から自動入力"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2059,6 +2617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
           }
         },
         "ko" : {
@@ -2083,6 +2647,12 @@
             "value" : "New sign"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい案内ボード"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2103,6 +2673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sunset"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サンセット"
           }
         },
         "ko" : {
@@ -2127,6 +2703,12 @@
             "value" : "Choose"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2147,6 +2729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Optional — shown at the top"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任意 — 上部に表示"
           }
         },
         "ko" : {
@@ -2171,6 +2759,12 @@
             "value" : "Not selected"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未選択"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2191,6 +2785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selected"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択中"
           }
         },
         "ko" : {
@@ -2215,6 +2815,12 @@
             "value" : "Settings"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2235,6 +2841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Import list from a Settings screenshot…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定のスクリーンショットからリストを取り込む…"
           }
         },
         "ko" : {
@@ -2259,6 +2871,12 @@
             "value" : "Haptic feedback"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指先に伝わる反応"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2279,6 +2897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Make a guest Wi-Fi sign"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お客様用案内ボードを作る"
           }
         },
         "ko" : {
@@ -2303,6 +2927,12 @@
             "value" : "Print or share a guest sign"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お客様用案内ボードを印刷・共有"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2323,6 +2953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Scanned Wi-Fi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキャンしたWi-Fi"
           }
         },
         "ko" : {
@@ -2347,6 +2983,12 @@
             "value" : "This network is managed by system settings and can’t be changed."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム設定で管理されているネットワークのため、変更できません。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2367,6 +3009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get Started"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめる"
           }
         },
         "ko" : {
@@ -2391,6 +3039,12 @@
             "value" : "Tap a piece below, or type it in"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下のパーツをタップするか、手入力"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2413,6 +3067,12 @@
             "value" : "Tap a piece below to drop it into an empty field. Press and hold to choose between ID and password, or drag it into place."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下のパーツをタップすると空欄に入ります。長押しするとIDかパスワードかを選べ、ドラッグして入れることもできます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2430,6 +3090,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ID"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ID"
@@ -2457,6 +3123,12 @@
             "value" : "Clear ID"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IDを消去"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2477,6 +3149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use as ID"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IDに入れる"
           }
         },
         "ko" : {
@@ -2501,6 +3179,12 @@
             "value" : "Take a screenshot of the Wi-Fi screen in Settings, then pick it here and the app reads the network names in the list."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhoneの「設定 > Wi-Fi」画面をスクリーンショットで撮ってから、その写真を選ぶと、リストにある名前を読み取ります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2521,6 +3205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Message"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "案内文"
           }
         },
         "ko" : {
@@ -2545,6 +3235,12 @@
             "value" : "Scan sign"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "案内を撮影"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2565,6 +3261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "案内ボード %lld"
           }
         },
         "ko" : {
@@ -2589,6 +3291,12 @@
             "value" : "Make a sign"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "案内ボードを作成"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2609,6 +3317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sign name (shown only in the list)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "案内ボード名(リストにのみ表示)"
           }
         },
         "ko" : {
@@ -2633,6 +3347,12 @@
             "value" : "Share or print sign image"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "案内ボード画像を共有・印刷"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2653,6 +3373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text printed on the sign"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "案内ボードに印刷される文字"
           }
         },
         "ko" : {
@@ -2677,6 +3403,12 @@
             "value" : "Your sign stays as it was, even if the app closes while you’re designing it."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "案内ボードの作成中にアプリが終了しても、作業内容が残ります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2697,6 +3429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "An unknown error occurred. Make sure you’re within range of the network."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不明なエラーが発生しました。電波が届く範囲にいるか確認してください。"
           }
         },
         "ko" : {
@@ -2721,6 +3459,12 @@
             "value" : "Nearby Wi-Fi alerts"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くのWi-Fi通知"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2741,6 +3485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真"
           }
         },
         "ko" : {
@@ -2765,6 +3515,12 @@
             "value" : "Please try again while the app is open on screen."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを画面に表示した状態でお試しください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2785,6 +3541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text and buttons stay crisp and clear in Dark Mode."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗い画面でも、文字とボタンがくっきり見えます。"
           }
         },
         "ko" : {
@@ -2809,6 +3571,12 @@
             "value" : "The first time you open the app after an update, see what’s new."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート後の初回起動時に、新しくなった点をお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2829,6 +3597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What’s new"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報"
           }
         },
         "ko" : {
@@ -2853,6 +3627,12 @@
             "value" : "None (open network)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なし(オープン)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2873,6 +3653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi saved here"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここで保存したWi-Fi"
           }
         },
         "ko" : {
@@ -2897,6 +3683,12 @@
             "value" : "Connect"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2917,6 +3709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn’t Connect"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続できませんでした"
           }
         },
         "ko" : {
@@ -2941,6 +3739,12 @@
             "value" : "Make QR code without connecting"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続せずにQRコードを作成"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2961,6 +3765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecting…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続中…"
           }
         },
         "ko" : {
@@ -2985,6 +3795,12 @@
             "value" : "You need to tap Join in the confirmation prompt. Please try again."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認画面で「接続」をタップすると接続されます。もう一度お試しください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3005,6 +3821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR to connect"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続用QR"
           }
         },
         "ko" : {
@@ -3029,6 +3851,12 @@
             "value" : "Full English support"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語に対応"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3049,6 +3877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add any text you like, one line at a time, such as opening hours, an Instagram handle, or house rules."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "営業時間やInstagramのアカウント、店内のご案内など、好きな文を1行ずつ入れられます。"
           }
         },
         "ko" : {
@@ -3073,6 +3907,12 @@
             "value" : "e.g. For the till"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例) レジ用"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3093,6 +3933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "e.g. Lounge Café"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例) ラウンジカフェ"
           }
         },
         "ko" : {
@@ -3117,6 +3963,12 @@
             "value" : "e.g. Open 09:00–22:00"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例) 営業時間 9:00〜22:00"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3139,6 +3991,12 @@
             "value" : "Ocean"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オーシャン"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3156,6 +4014,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi QR"
@@ -3183,6 +4047,12 @@
             "value" : "Show Wi-Fi QR"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QRを表示"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3203,6 +4073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Import Wi-Fi list"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fiリストを取り込む"
           }
         },
         "ko" : {
@@ -3227,6 +4103,12 @@
             "value" : "Wi-Fi details"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fiの詳細"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3247,6 +4129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose Wi-Fi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fiを選択"
           }
         },
         "ko" : {
@@ -3271,6 +4159,12 @@
             "value" : "Scan Wi-Fi sign"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi案内を撮影"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3291,6 +4185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi name"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi名"
           }
         },
         "ko" : {
@@ -3315,6 +4215,12 @@
             "value" : "The Wi-Fi name is too long. (32 bytes max)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi名が長すぎます。(最大32バイト)"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3335,6 +4241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The Wi-Fi name is empty."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi名が入力されていません。"
           }
         },
         "ko" : {
@@ -3359,6 +4271,12 @@
             "value" : "Add Wi-Fi"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fiを追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3379,6 +4297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A gentle tap when you join a network or the text is recognised."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fiに接続したときや文字を読み取ったときに、軽い振動でお知らせします。"
           }
         },
         "ko" : {
@@ -3403,6 +4327,12 @@
             "value" : "When you connect to a network or share from “Here”, its location is recorded on the map."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fiに接続するか「ここ」から共有すると、その場所がマップに記録されます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3423,6 +4353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
           }
         },
         "ko" : {
@@ -3447,6 +4383,12 @@
             "value" : "Use the app and make Wi-Fi signs in English, so visitors from abroad can read them too."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海外からのお客様にも読んでもらえるよう、アプリと案内ボードを英語でも使えます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3467,6 +4409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduce Motion"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らす"
           }
         },
         "ko" : {
@@ -3491,6 +4439,12 @@
             "value" : "With Reduce Motion on, screen effects calm down."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「視差効果を減らす」をオンにすると、画面の動きが控えめになります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3511,6 +4465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete all your saved networks and signs, right from the app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存したWi-Fiと案内ボードを、アプリ内からすべて削除できます。"
           }
         },
         "ko" : {
@@ -3535,6 +4495,12 @@
             "value" : "Feedback & reviews"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ご意見・レビュー"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3555,6 +4521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This network doesn’t support one-time connections."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このネットワークは一時的な接続に対応していません。"
           }
         },
         "ko" : {
@@ -3579,6 +4551,12 @@
             "value" : "Delete this line"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この行を削除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3599,6 +4577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show this card"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このカードを見せましょう"
           }
         },
         "ko" : {
@@ -3623,6 +4607,12 @@
             "value" : "Connect this phone"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このiPhoneを接続"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3643,6 +4633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set up on this phone"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このiPhoneに設定済み"
           }
         },
         "ko" : {
@@ -3667,6 +4663,12 @@
             "value" : "Connect this phone, or just make a QR code without connecting"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このiPhoneを接続するか、接続せずにQRコードだけ作成できます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3687,6 +4689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi networks this phone knows"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このiPhoneが知っているWi-Fi"
           }
         },
         "ko" : {
@@ -3711,6 +4719,12 @@
             "value" : "Names this phone knows"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このiPhoneが知っている名前"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3731,6 +4745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "It might be spelled like this:"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次のような表記かもしれません:"
           }
         },
         "ko" : {
@@ -3755,6 +4775,12 @@
             "value" : "Reading names…"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前を読み取り中…"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3775,6 +4801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Check that the name and password are exactly right, including capitalisation, and that you’re within range."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前とパスワードが大文字・小文字まで正確か、電波が届く範囲にいるか確認してください。"
           }
         },
         "ko" : {
@@ -3799,6 +4831,12 @@
             "value" : "Couldn’t find any names. Take a clearer screenshot of the list, or type them in below."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前が見つかりませんでした。リストがはっきり見えるように撮り直すか、下に直接入力してください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3819,6 +4857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Already connected."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すでに接続されています。"
           }
         },
         "ko" : {
@@ -3843,6 +4887,12 @@
             "value" : "A previous connection request is still in progress. Please try again in a moment."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前の接続リクエストを処理中です。しばらくしてからもう一度お試しください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3863,6 +4913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM(@lee25_ios)"
           }
         },
         "ko" : {
@@ -3887,6 +4943,12 @@
             "value" : "Reading…"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "認識中…"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3907,6 +4969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld names found"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み取った名前 %lld件"
           }
         },
         "ko" : {
@@ -3931,6 +4999,12 @@
             "value" : "Saved networks"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存済みネットワーク"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3951,6 +5025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No saved networks"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存済みネットワークはありません"
           }
         },
         "ko" : {
@@ -3975,6 +5055,12 @@
             "value" : "Map of saved Wi-Fi"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存したWi-Fiのマップ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3995,6 +5081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get a notification when you arrive somewhere with a saved network."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存したWi-Fiのある場所に来ると、通知でお知らせします。"
           }
         },
         "ko" : {
@@ -4019,6 +5111,12 @@
             "value" : "Saved networks are remembered with their location. When you’re back there, they move to the top with a “📍 Nearby” badge."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存したWi-Fiは場所と一緒に記憶されます。その場所に戻ると、リストの一番上に移動して「📍 近く」バッジが付きます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4039,6 +5137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save your networks and signs to a file and bring them back later."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存したWi-Fiと案内ボードをファイルに書き出し、あとで読み込めます。"
           }
         },
         "ko" : {
@@ -4063,6 +5167,12 @@
             "value" : "Applied"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "適用済み"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4083,6 +5193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
           }
         },
         "ko" : {
@@ -4107,6 +5223,12 @@
             "value" : "Heading"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見出し"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4127,6 +5249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap pieces to fill in"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パーツをタップして入力"
           }
         },
         "ko" : {
@@ -4151,6 +5279,12 @@
             "value" : "Add line"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行を追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4171,6 +5305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show the QR code for the Wi-Fi you’re on.\nWhen a friend points their camera at it, they join without knowing the password."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続中のWi-FiをQRコードで見せましょう。\n友だちがカメラで読み取れば、パスワードを知らなくてもすぐにつながります。"
           }
         },
         "ko" : {
@@ -4195,6 +5335,12 @@
             "value" : "Opens the QR code for the Wi-Fi you’re connected to. If that network isn’t saved, opens the one you saved most recently."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続中のWi-Fiの QRコードを開きます。保存されていない場合は、最後に保存したWi-Fiを開きます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4215,6 +5361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connected now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在接続中"
           }
         },
         "ko" : {
@@ -4239,6 +5391,12 @@
             "value" : "Map"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マップ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4259,6 +5417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No locations to show on the map"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マップに表示する場所がありません"
           }
         },
         "ko" : {
@@ -4283,6 +5447,12 @@
             "value" : "Custom lines"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自由入力の行"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4303,6 +5473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld custom lines"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自由入力の行 %lld件"
           }
         },
         "ko" : {
@@ -4327,6 +5503,12 @@
             "value" : "Type it in"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手入力"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4347,6 +5529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter manually…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手動で入力…"
           }
         },
         "ko" : {
@@ -4371,6 +5559,12 @@
             "value" : "Wi-Fi you entered"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手入力したWi-Fi"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4391,6 +5585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Type one in"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直接入力して追加"
           }
         },
         "ko" : {
@@ -4415,6 +5615,12 @@
             "value" : "Replay the intro"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめのガイドをもう一度見る"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4435,6 +5641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Camera"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "撮影"
           }
         },
         "ko" : {
@@ -4459,6 +5671,12 @@
             "value" : "Camera, photos, or type it in"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "撮影・写真・手入力"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4479,6 +5697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
           }
         },
         "ko" : {
@@ -4503,6 +5727,12 @@
             "value" : "When a friend points their camera at the QR code, they join without a password. Swipe or tap the card to flip it to a preview of your guest sign."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "友だちがQRコードをカメラで読み取れば、パスワードなしですぐに接続できます。カードをスワイプまたはタップすると、お客様用案内ボードのプレビューに切り替わります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4523,6 +5753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Card"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カード"
           }
         },
         "ko" : {
@@ -4547,6 +5783,12 @@
             "value" : "Point your camera at the QR code to connect"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラでQRコードを読み取ると自動で接続"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4567,6 +5809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Point a camera at it to connect right away"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラで読み取るとすぐに接続できます"
           }
         },
         "ko" : {
@@ -4591,6 +5839,12 @@
             "value" : "Point a camera at it to connect without a password. Double-tap to flip to the guest sign preview."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラで読み取ると、パスワードなしで接続できます。ダブルタップすると案内ボードのプレビューに切り替わります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4611,6 +5865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opens the camera so you can photograph a Wi-Fi sign and read its network name and password."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラを起動してWi-Fiの案内を撮影すると、ネットワーク名とパスワードを読み取ります。"
           }
         },
         "ko" : {
@@ -4635,6 +5895,12 @@
             "value" : "Café"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カフェ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4655,6 +5921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photograph a Wi-Fi sign at a café or holiday let, or pick one from your photos.\nThe app reads the name and password and connects this phone."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カフェや宿泊施設のWi-Fi案内を撮影するか、写真から選びましょう。\n名前とパスワードを読み取って、このiPhoneを接続します。"
           }
         },
         "ko" : {
@@ -4679,6 +5951,12 @@
             "value" : "Photograph a Wi-Fi sign at a café or holiday let, or pick one from your photos, and the app reads the ID and password and connects."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カフェや宿泊施設のWi-Fi案内を撮影するか、写真から選ぶと、IDとパスワードを自動で読み取って接続します。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4699,6 +5977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick a screenshot"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スクリーンショットを選ぶ"
           }
         },
         "ko" : {
@@ -4723,6 +6007,12 @@
             "value" : "Imported from screenshot"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スクリーンショットから取得"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4743,6 +6033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Layouts for larger text"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな文字に合わせた画面"
           }
         },
         "ko" : {
@@ -4767,6 +6063,12 @@
             "value" : "Tap to drop it into an empty field. Press and hold to choose which field."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップすると空欄に入ります。長押しすると入れる欄を選べます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4787,6 +6089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enjoy your stay"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ご自由にご利用ください"
           }
         },
         "ko" : {
@@ -4811,6 +6119,12 @@
             "value" : "Foldable iPhone layout"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhoneの画面"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4831,6 +6145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhoneの広い画面を、2つに分けて使えます。"
           }
         },
         "ko" : {
@@ -4855,6 +6175,12 @@
             "value" : "Forest"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フォレスト"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4875,6 +6201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick up where you left off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作業の続きから再開"
           }
         },
         "ko" : {
@@ -4899,6 +6231,12 @@
             "value" : "A hotspot can’t be joined from this phone. Make a QR code and show it to the other person."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホットスポットはこのiPhoneから接続できません。QRコードを作って相手に見せてください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4919,6 +6257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap a row to open its QR code and details. Swipe right to join on this phone, or swipe left to share the QR code."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行をタップするとQRコードと詳細が開きます。右にスワイプするとこのiPhoneで接続、左にスワイプするとQRコードを共有します。"
           }
         },
         "ko" : {
@@ -4943,6 +6287,12 @@
             "value" : "Format"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "形式"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4965,6 +6315,12 @@
             "value" : "VoiceOver reads every Wi-Fi detail and button, in the right order."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面読み上げ機能が、Wi-Fi情報とボタンを順番どおりにもれなく読み上げます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4982,6 +6338,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -5009,6 +6371,12 @@
             "value" : "📍 Nearby"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 近く"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5029,6 +6397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Here"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 ここ"
           }
         },
         "ko" : {
@@ -5053,6 +6427,12 @@
             "value" : "📍 Connected now"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 現在接続中"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5073,6 +6453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Hotspot"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 ホットスポット"
           }
         },
         "ko" : {

@@ -15,6 +15,12 @@
             "value" : "Connect once in the app and the QR code shows up here"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリで一度接続すると、ここにQRコードが表示されます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32,6 +38,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -59,6 +71,12 @@
             "value" : "Wi-Fi QR"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QR"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -79,6 +97,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose Wi-Fi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fiを選択"
           }
         },
         "ko" : {
@@ -103,6 +127,12 @@
             "value" : "Choose the Wi-Fi to pin to the widget. If you don’t choose, it shows the one you connected to most recently."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ウィジェットに固定するWi-Fiを選びます。選ばない場合は、最後に接続したWi-Fiが表示されます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -123,6 +153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No saved Wi-Fi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存済みのWi-Fiなし"
           }
         },
         "ko" : {
@@ -147,6 +183,12 @@
             "value" : "Shows the QR code for the Wi-Fi you’re connected to. Touch and hold, then choose Edit Widget to pin a specific network."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続中のWi-FiのQRコードを表示します。長押しして「ウィジェットを編集」から、特定のWi-Fiに固定することもできます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connected now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在接続中"
           }
         },
         "ko" : {
@@ -191,6 +239,12 @@
             "value" : "Point a camera at it to connect"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラで読み取るとすぐに接続"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap for a big QR code"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップで大きなQRコード"
           }
         },
         "ko" : {

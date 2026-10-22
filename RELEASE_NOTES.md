@@ -25,3 +25,10 @@ Photos are read more accurately.
 Fixed occasional connection failures.
 Make a QR code without connecting.
 Share your hotspot with one QR code.
+
+### 앱스토어 (일본어)
+
+写真のWi-Fi情報をより正確に読み取ります。
+Wi-Fiの接続が失敗することがある問題を修正しました。
+接続しなくても、名前とパスワードでQRを作れます。
+自分のホットスポットもQR1枚で共有できます。
