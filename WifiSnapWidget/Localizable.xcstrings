@@ -111,6 +111,12 @@
             "value" : "Подключитесь один раз в приложении — и здесь появится QR-код"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslut en gång i appen, så visas QR-koden här"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -242,6 +248,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi"
@@ -383,6 +395,12 @@
             "value" : "QR-код Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-QR"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -517,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите сеть Wi-Fi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj Wi-Fi"
           }
         },
         "th" : {
@@ -655,6 +679,12 @@
             "value" : "Выберите сеть Wi-Fi, которую нужно закрепить на виджете. Если не выбирать, покажется последняя, к которой вы подключались."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj det Wi-Fi som ska fästas på widgeten. Väljer du inget visas det senast anslutna."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -789,6 +819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет сохранённых сетей Wi-Fi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inget sparat Wi-Fi"
           }
         },
         "th" : {
@@ -927,6 +963,12 @@
             "value" : "Показывает QR-код сети Wi-Fi, к которой вы подключены. Нажмите и удерживайте, затем выберите «Изменить виджет», чтобы закрепить конкретную сеть."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visar QR-koden för det Wi-Fi du är ansluten till. Håll nedtryckt och välj ”Redigera widget” för att fästa ett visst nätverk."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1061,6 +1103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подключено сейчас"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansluten nu"
           }
         },
         "th" : {
@@ -1199,6 +1247,12 @@
             "value" : "Наведите камеру для подключения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rikta kameran mot den för att ansluta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1333,6 +1387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коснитесь — большой QR-код"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck för stor QR-kod"
           }
         },
         "th" : {

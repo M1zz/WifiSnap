@@ -111,6 +111,12 @@
             "value" : "${applicationName} QR"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} QR"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -245,6 +251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Покажи QR-код Wi-Fi в ${applicationName}"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa Wi-Fi-QR i ${applicationName}"
           }
         },
         "th" : {
@@ -383,6 +395,12 @@
             "value" : "${applicationName} снять Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${applicationName} fotografera Wi-Fi"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -519,6 +537,12 @@
             "value" : "Сфотографируй табличку Wi-Fi в ${applicationName}"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografera Wi-Fi-skylt med ${applicationName}"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -653,6 +677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открой QR-код Wi-Fi в ${applicationName}"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppna Wi-Fi-QR i ${applicationName}"
           }
         },
         "th" : {

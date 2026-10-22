@@ -111,6 +111,12 @@
             "value" : "QR-код Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-QR"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",

@@ -111,6 +111,12 @@
             "value" : "%@ (копия)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopia av %@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -245,6 +251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Предпросмотр гостевой таблички: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förhandsvisning av gästskylt för %@"
           }
         },
         "th" : {
@@ -383,6 +395,12 @@
             "value" : "QR-код для подключения к %@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-kod för att ansluta till %@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -517,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR-код Wi-Fi: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-QR för %@"
           }
         },
         "th" : {
@@ -655,6 +679,12 @@
             "value" : "Фрагмент «%@»"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Textbit ”%@”"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -789,6 +819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подключение к «%@» настроено.\nЧтобы проверить, подключились ли вы, нужен доступ к геопозиции. (Настройки > MyFi > Геопозиция)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslutningen till ”%@” är inställd.\nFör att kunna kontrollera att den lyckades behöver appen tillgång till din plats. (Inställningar > MyFi > Plats)"
           }
         },
         "th" : {
@@ -927,6 +963,12 @@
             "value" : "Не удалось подключиться к «%@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att ansluta till ”%@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1061,6 +1103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Повторная попытка с названием «%@»…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Försöker igen som ”%@” …"
           }
         },
         "th" : {
@@ -1199,6 +1247,12 @@
             "value" : "Подключено к «%@»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansluten till ”%@”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1333,6 +1387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Плакат A4"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A4-affisch"
           }
         },
         "th" : {
@@ -1471,6 +1531,12 @@
             "value" : "Блокировка по Face ID"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID-lås"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1605,6 +1671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрывайте приложение с помощью Face ID или Touch ID, чтобы защитить сохранённые пароли."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID och skydda dina sparade lösenord."
           }
         },
         "th" : {
@@ -1743,6 +1815,12 @@
             "value" : "Создаём QR-код…"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapar QR-kod …"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1877,6 +1955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Создать QR-код"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa QR-kod"
           }
         },
         "th" : {
@@ -2015,6 +2099,12 @@
             "value" : "Не удалось создать QR-код"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-koden kunde inte skapas"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2149,6 +2239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поделиться QR-кодом"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela QR-bild"
           }
         },
         "th" : {
@@ -2287,6 +2383,12 @@
             "value" : "Если создать только QR-код, этот iPhone не подключится, а лишь сохранит сеть. При неверном пароле QR-код тоже не подключит, так что проверьте его."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om du bara skapar QR-koden ansluter inte den här iPhonen, utan sparar bara nätverket. Är lösenordet fel fungerar inte heller QR-koden, så kontrollera det."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2421,6 +2523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось создать QR-код."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR-koden kunde inte skapas."
           }
         },
         "th" : {
@@ -2559,6 +2667,12 @@
             "value" : "SSID (название сети Wi-Fi)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (Wi-Fi-namn)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2693,6 +2807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Неверный префикс SSID."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID-prefixet är ogiltigt."
           }
         },
         "th" : {
@@ -2831,6 +2951,12 @@
             "value" : "Удобнее с VoiceOver"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smidigare med VoiceOver"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2965,6 +3091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[MyFi %@] Вопрос"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[MyFi %@] Fråga"
           }
         },
         "th" : {
@@ -3103,6 +3235,12 @@
             "value" : "iOS не передаёт приложениям список сохранённых сетей Wi-Fi, поэтому скриншот — единственный способ."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS lämnar inte ut listan över sparade Wi-Fi till appar, så en skärmavbild är det enda sättet."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3237,6 +3375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Включить в импорт"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta med i importen"
           }
         },
         "th" : {
@@ -3375,6 +3519,12 @@
             "value" : "Импортировано названий: %lld"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld namn importerade"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3509,6 +3659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пропустить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoppa över"
           }
         },
         "th" : {
@@ -3647,6 +3803,12 @@
             "value" : "Сохраняется сразу при изменении"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sparas direkt när du ändrar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3781,6 +3943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поделиться"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela"
           }
         },
         "th" : {
@@ -3919,6 +4087,12 @@
             "value" : "Ближайшие сети — сверху"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nätverk i närheten först"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4053,6 +4227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вернуть исходный текст"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ text"
           }
         },
         "th" : {
@@ -4191,6 +4371,12 @@
             "value" : "При увеличении размера текста экраны перестраиваются, и ничего не обрезается."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du gör texten större ordnas skärmarna om så att inget klipps bort."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4325,6 +4511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Синхронизация между устройствами"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronisering mellan enheter"
           }
         },
         "th" : {
@@ -4463,6 +4655,12 @@
             "value" : "Сохранённые сети и таблички переедут на новое устройство без потерь."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dina sparade nätverk och skyltar följer med när du byter enhet."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4597,6 +4795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удаление всех моих данных"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera all min data"
           }
         },
         "th" : {
@@ -4735,6 +4939,12 @@
             "value" : "Моя табличка"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Min skylt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4869,6 +5079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мои таблички (%lld)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mina skyltar (%lld)"
           }
         },
         "th" : {
@@ -5007,6 +5223,12 @@
             "value" : "Моя точка доступа"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Min hotspot"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5141,6 +5363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сеть"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nätverk"
           }
         },
         "th" : {
@@ -5279,6 +5507,12 @@
             "value" : "Подпись к сети"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etikett för nätverk"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5413,6 +5647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Название сети (SSID) указано неверно."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nätverksnamnet (SSID) är ogiltigt."
           }
         },
         "th" : {
@@ -5551,6 +5791,12 @@
             "value" : "Проверьте данные сети."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrollera nätverksuppgifterna."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5685,6 +5931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать другой скриншот"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en annan skärmavbild"
           }
         },
         "th" : {
@@ -5823,6 +6075,12 @@
             "value" : "Далее"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5957,6 +6215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Тёмная тема"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mörkt läge"
           }
         },
         "th" : {
@@ -6095,6 +6359,12 @@
             "value" : "Закрыть"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6229,6 +6499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Всё остаётся читаемым при повышенной контрастности и когда трудно различать цвета."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allt förblir läsbart, även med ökad kontrast eller om det är svårt att skilja på färger."
           }
         },
         "th" : {
@@ -6367,6 +6643,12 @@
             "value" : "Приложение станет доступно на большем числе языков."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd appen på fler språk."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6501,6 +6783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Больше языков"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fler språk"
           }
         },
         "th" : {
@@ -6639,6 +6927,12 @@
             "value" : "Справка"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjälp"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6773,6 +7067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дважды коснитесь, чтобы вернуться к QR-коду."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck två gånger för att gå tillbaka till QR-koden."
           }
         },
         "th" : {
@@ -6911,6 +7211,12 @@
             "value" : "Оформление"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7042,6 +7348,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyFi"
@@ -7183,6 +7495,12 @@
             "value" : "Оставьте включёнными только верные, исправьте ошибочные буквы касанием и нажмите «Добавить» вверху справа."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låt bara de rätta vara på, tryck för att rätta fel bokstäver och tryck på ”Lägg till” uppe till höger."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7317,6 +7635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Логотип заведения"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Platsens logotyp"
           }
         },
         "th" : {
@@ -7455,6 +7779,12 @@
             "value" : "Название заведения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Platsens namn"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7589,6 +7919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Создайте табличку с Wi-Fi для заведения или дома,\nраспечатайте её или отправьте картинкой."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gör en Wi-Fi-skylt till din lokal eller ditt hem\noch skriv ut den eller dela den som bild."
           }
         },
         "th" : {
@@ -7727,6 +8063,12 @@
             "value" : "Нижняя строка (скрыта, если пусто)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedersta raden (döljs om tom)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7861,6 +8203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На карточке главного экрана показана табличка, которую вы правили последней. Смахните влево, чтобы дублировать или удалить."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortet på huvudskärmen visar den skylt du senast ändrade. Svep åt vänster för att duplicera eller radera."
           }
         },
         "th" : {
@@ -7999,6 +8347,12 @@
             "value" : "Написать письмо (%@)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skicka e-post (%@)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8133,6 +8487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Моно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mono"
           }
         },
         "th" : {
@@ -8271,6 +8631,12 @@
             "value" : "Быстрые действия в списке"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snabbåtgärder i listan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8405,6 +8771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать сеть из списка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj Wi-Fi i listan"
           }
         },
         "th" : {
@@ -8543,6 +8915,12 @@
             "value" : "Бесплатный Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratis Wi-Fi"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8677,6 +9055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Связаться с нами"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
           }
         },
         "th" : {
@@ -8815,6 +9199,12 @@
             "value" : "Полночь"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midnatt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8949,6 +9339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Предпросмотр"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förhandsvisning"
           }
         },
         "th" : {
@@ -9087,6 +9483,12 @@
             "value" : "Мята"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mynta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9221,6 +9623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Резервная копия и экспорт"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säkerhetskopiering och export"
           }
         },
         "th" : {
@@ -9359,6 +9767,12 @@
             "value" : "Значок (скрыт, если пусто)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Märke (döljs om tomt)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9493,6 +9907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заменить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt"
           }
         },
         "th" : {
@@ -9631,6 +10051,12 @@
             "value" : "Удобные цвета и контраст"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagligare färger och kontrast"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9765,6 +10191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Разработчик лично читает каждое ваше сообщение."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utvecklaren läser själv varje meddelande du skickar."
           }
         },
         "th" : {
@@ -9903,6 +10335,12 @@
             "value" : "Прежде чем показывать, включите «Разрешать другим» в Настройки > Режим модема. Если он выключен, при сканировании QR-кода сеть не найдётся."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innan du visar den, slå på ”Tillåt andra att ansluta” i Inställningar > Internetdelning. Om den är av hittas nätverket inte ens när QR-koden skannas."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10037,6 +10475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Достаточно показать — и подключение готово"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa bara, så är du ansluten"
           }
         },
         "th" : {
@@ -10175,6 +10619,12 @@
             "value" : "Дублировать"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplicera"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10309,6 +10759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пароль"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösenord"
           }
         },
         "th" : {
@@ -10447,6 +10903,12 @@
             "value" : "Подпись к паролю"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etikett för lösenord"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10581,6 +11043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Показать пароль"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa lösenord"
           }
         },
         "th" : {
@@ -10719,6 +11187,12 @@
             "value" : "Скопировать пароль"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiera lösenord"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10853,6 +11327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пароль скопирован"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösenordet kopierades"
           }
         },
         "th" : {
@@ -10991,6 +11471,12 @@
             "value" : "Скрыть пароль"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dölj lösenord"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11125,6 +11611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Очистить пароль"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rensa lösenord"
           }
         },
         "th" : {
@@ -11263,6 +11755,12 @@
             "value" : "Показывать пароль"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa lösenord"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11397,6 +11895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Неверный формат пароля. (для WEP — 5 или 13 символов)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösenordets format är ogiltigt. (WEP: 5 eller 13 tecken)"
           }
         },
         "th" : {
@@ -11535,6 +12039,12 @@
             "value" : "Неверный формат пароля. (для WPA — от 8 до 63 символов)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösenordets format är ogiltigt. (WPA: 8 till 63 tecken)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11669,6 +12179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Длина пароля — %lld. Пароль Wi-Fi должен содержать не менее 8 символов (у старого WEP — 5 или 13). Проверьте, не пропущены ли символы."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösenordet är %lld tecken. Wi-Fi-lösenord måste vara minst 8 tecken (gamla WEP-nycklar: 5 eller 13). Kontrollera om något tecken saknas."
           }
         },
         "th" : {
@@ -11807,6 +12323,12 @@
             "value" : "Вставить как пароль"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd som lösenord"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11941,6 +12463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прочитано из QR-кода на фото."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avläst från QR-koden i bilden."
           }
         },
         "th" : {
@@ -12079,6 +12607,12 @@
             "value" : "Подключение по одной фотографии"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslut med en enda bild"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12213,6 +12747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не удалось найти логин и пароль на фото. Введите их вручную или снимите ближе и чётче."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varken id eller lösenord hittades i bilden. Skriv in dem själv eller ta en ny bild närmare och skarpare."
           }
         },
         "th" : {
@@ -12351,6 +12891,12 @@
             "value" : "Названия, прочитанные с фото, — выберите нужное"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namn avlästa från bilden – välj rätt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12485,6 +13031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прочитано с фото"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avläst från bild"
           }
         },
         "th" : {
@@ -12623,6 +13175,12 @@
             "value" : "Автозаполнение по фото"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fyll i från en bild"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12757,6 +13315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera"
           }
         },
         "th" : {
@@ -12895,6 +13459,12 @@
             "value" : "Новая табличка"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny skylt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13029,6 +13599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закат"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solnedgång"
           }
         },
         "th" : {
@@ -13167,6 +13743,12 @@
             "value" : "Выбрать"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13301,6 +13883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "По желанию — вверху таблички"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valfritt – visas högst upp"
           }
         },
         "th" : {
@@ -13439,6 +14027,12 @@
             "value" : "Не выбрано"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inte vald"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13573,6 +14167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрано"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vald"
           }
         },
         "th" : {
@@ -13711,6 +14311,12 @@
             "value" : "Настройки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13845,6 +14451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Импортировать список из скриншота настроек…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importera lista från skärmavbild av Inställningar …"
           }
         },
         "th" : {
@@ -13983,6 +14595,12 @@
             "value" : "Тактильный отклик"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisk återkoppling"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14117,6 +14735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Гостевые таблички для Wi-Fi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gör gästskyltar"
           }
         },
         "th" : {
@@ -14255,6 +14879,12 @@
             "value" : "Печать и отправка гостевой таблички"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ut eller dela gästskylt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14389,6 +15019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отсканированная сеть"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skannat Wi-Fi"
           }
         },
         "th" : {
@@ -14527,6 +15163,12 @@
             "value" : "Эта сеть управляется настройками системы, изменить её нельзя."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det här nätverket styrs av systeminställningarna och kan inte ändras."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14661,6 +15303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Начать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom igång"
           }
         },
         "th" : {
@@ -14799,6 +15447,12 @@
             "value" : "Коснитесь фрагмента внизу или введите вручную"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på en textbit nedan eller skriv in själv"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14933,6 +15587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коснитесь фрагмента внизу — он встанет в пустое поле. Удерживайте, чтобы выбрать, куда его поместить: в логин или в пароль. Можно и перетащить."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på en textbit nedan så hamnar den i det tomma fältet. Håll nedtryckt för att välja id eller lösenord, eller dra den på plats."
           }
         },
         "th" : {
@@ -15071,6 +15731,12 @@
             "value" : "Логин"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Id"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15205,6 +15871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Очистить логин"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rensa id"
           }
         },
         "th" : {
@@ -15343,6 +16015,12 @@
             "value" : "Вставить как логин"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd som id"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15477,6 +16155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сделайте скриншот экрана «Настройки > Wi-Fi» на iPhone и выберите его здесь — приложение прочитает названия из списка."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta en skärmavbild av ”Inställningar > Wi-Fi” på iPhone och välj den här. Appen läser av namnen i listan."
           }
         },
         "th" : {
@@ -15615,6 +16299,12 @@
             "value" : "Подпись"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15749,6 +16439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Снять табличку"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografera skylt"
           }
         },
         "th" : {
@@ -15887,6 +16583,12 @@
             "value" : "Табличка %lld"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skylt %lld"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16021,6 +16723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Создать табличку"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa skylt"
           }
         },
         "th" : {
@@ -16159,6 +16867,12 @@
             "value" : "Название таблички (видно только в списке)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skyltens namn (visas bara i listan)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16293,6 +17007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поделиться изображением таблички или распечатать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela eller skriv ut bild av skylten"
           }
         },
         "th" : {
@@ -16431,6 +17151,12 @@
             "value" : "Текст на табличке"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text som skrivs ut på skylten"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16565,6 +17291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если приложение закроется во время создания таблички, ваши правки сохранятся."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om appen stängs medan du gör en skylt finns ditt arbete kvar."
           }
         },
         "th" : {
@@ -16703,6 +17435,12 @@
             "value" : "Произошла неизвестная ошибка. Проверьте, что вы в зоне действия сети."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett okänt fel uppstod. Kontrollera att du är inom nätverkets räckvidd."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16837,6 +17575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уведомления о Wi-Fi поблизости"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aviseringar om Wi-Fi i närheten"
           }
         },
         "th" : {
@@ -16975,6 +17719,12 @@
             "value" : "Галерея"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17109,6 +17859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Повторите попытку, когда приложение открыто на экране."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Försök igen medan appen är öppen på skärmen."
           }
         },
         "th" : {
@@ -17247,6 +18003,12 @@
             "value" : "Текст и кнопки остаются чёткими и в тёмной теме."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text och knappar förblir skarpa även i mörkt läge."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17381,6 +18143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "При первом запуске после обновления вы узнаете, что нового."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
           }
         },
         "th" : {
@@ -17519,6 +18287,12 @@
             "value" : "Что нового"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheter"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17653,6 +18427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет (открытая сеть)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inget (öppet nätverk)"
           }
         },
         "th" : {
@@ -17791,6 +18571,12 @@
             "value" : "Сети, сохранённые здесь"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi sparade här"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17925,6 +18711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подключить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslut"
           }
         },
         "th" : {
@@ -18063,6 +18855,12 @@
             "value" : "Не удалось подключиться"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslutningen misslyckades"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18197,6 +18995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Создать QR-код без подключения"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa QR-kod utan att ansluta"
           }
         },
         "th" : {
@@ -18335,6 +19139,12 @@
             "value" : "Подключение…"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansluter …"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18469,6 +19279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нужно нажать «Подключить» в окне подтверждения. Попробуйте ещё раз."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du måste trycka på ”Anslut” i bekräftelsefönstret. Försök igen."
           }
         },
         "th" : {
@@ -18607,6 +19423,12 @@
             "value" : "QR-код для подключения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR för anslutning"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18741,6 +19563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поддержка английского"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stöd för engelska"
           }
         },
         "th" : {
@@ -18879,6 +19707,12 @@
             "value" : "Добавляйте любой текст по строкам: часы работы, аккаунт в Instagram, правила заведения."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till valfri text, rad för rad, till exempel öppettider, Instagram-konto eller ordningsregler."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19013,6 +19847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Напр.: для кассы"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "T.ex. Till kassan"
           }
         },
         "th" : {
@@ -19151,6 +19991,12 @@
             "value" : "Напр.: Lounge Café"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "T.ex. Lounge Café"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19285,6 +20131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Напр.: Работаем с 9:00 до 22:00"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "T.ex. Öppet 9–22"
           }
         },
         "th" : {
@@ -19423,6 +20275,12 @@
             "value" : "Океан"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hav"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19557,6 +20415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "QR-код Wi-Fi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-QR"
           }
         },
         "th" : {
@@ -19695,6 +20559,12 @@
             "value" : "Показать QR-код Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa Wi-Fi-QR"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19829,6 +20699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Импорт списка Wi-Fi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importera Wi-Fi-lista"
           }
         },
         "th" : {
@@ -19967,6 +20843,12 @@
             "value" : "Сведения о сети Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-uppgifter"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20101,6 +20983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите сеть Wi-Fi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj Wi-Fi"
           }
         },
         "th" : {
@@ -20239,6 +21127,12 @@
             "value" : "Сфотографировать табличку Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografera Wi-Fi-skylt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20373,6 +21267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Название сети Wi-Fi"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-namn"
           }
         },
         "th" : {
@@ -20511,6 +21411,12 @@
             "value" : "Название сети слишком длинное. (максимум 32 байта)"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-namnet är för långt. (högst 32 byte)"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20645,6 +21551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не указано название сети Wi-Fi."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi-namnet är tomt."
           }
         },
         "th" : {
@@ -20783,6 +21695,12 @@
             "value" : "Добавить сеть Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till Wi-Fi"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20917,6 +21835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Лёгкая вибрация, когда вы подключились к сети или текст распознан."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En lätt vibration när du ansluter eller texten har känts igen."
           }
         },
         "th" : {
@@ -21055,6 +21979,12 @@
             "value" : "Когда вы подключитесь к сети или поделитесь ею «Здесь», место появится на карте."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du ansluter till ett nätverk eller delar det från ”Här” sparas platsen på kartan."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21189,6 +22119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готово"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klart"
           }
         },
         "th" : {
@@ -21327,6 +22263,12 @@
             "value" : "Приложение и таблички будут и на английском — чтобы их могли прочитать иностранные гости."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appen och skyltarna finns också på engelska, så att utländska gäster kan läsa dem."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21461,6 +22403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уменьшение движения"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minska rörelser"
           }
         },
         "th" : {
@@ -21599,6 +22547,12 @@
             "value" : "При включённом «Уменьшении движения» экранные эффекты станут спокойнее."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När ”Minska rörelser” är på blir skärmeffekterna lugnare."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21733,6 +22687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Все сохранённые сети и таблички можно удалить прямо в приложении."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera alla sparade nätverk och skyltar direkt i appen."
           }
         },
         "th" : {
@@ -21871,6 +22831,12 @@
             "value" : "Отзывы и пожелания"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feedback och recensioner"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22005,6 +22971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Эта сеть не поддерживает разовое подключение."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det här nätverket stöder inte engångsanslutning."
           }
         },
         "th" : {
@@ -22143,6 +23115,12 @@
             "value" : "Удалить эту строку"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera den här raden"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22277,6 +23255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Покажите эту карточку"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa det här kortet"
           }
         },
         "th" : {
@@ -22415,6 +23399,12 @@
             "value" : "Подключить этот iPhone"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslut den här iPhonen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22549,6 +23539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настроено на этом iPhone"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställt på den här iPhonen"
           }
         },
         "th" : {
@@ -22687,6 +23683,12 @@
             "value" : "Подключите этот iPhone или просто создайте QR-код без подключения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslut den här iPhonen, eller skapa bara QR-koden utan att ansluta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22821,6 +23823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сети, известные этому iPhone"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi som den här iPhonen känner till"
           }
         },
         "th" : {
@@ -22959,6 +23967,12 @@
             "value" : "Названия, известные этому iPhone"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namn som den här iPhonen känner till"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23093,6 +24107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Возможно, название пишется так:"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kanske skrivs så här:"
           }
         },
         "th" : {
@@ -23231,6 +24251,12 @@
             "value" : "Читаем названия…"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läser av namn …"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23365,6 +24391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Проверьте, что название и пароль введены точно, с учётом регистра, и что вы в зоне действия сети."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrollera att namn och lösenord är helt rätt, även stora och små bokstäver, och att du är inom räckvidd."
           }
         },
         "th" : {
@@ -23503,6 +24535,12 @@
             "value" : "Названия не найдены. Сделайте скриншот, где список виден чётко, или введите их ниже вручную."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga namn hittades. Ta en ny skärmavbild där listan syns tydligt, eller skriv in dem nedan."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23637,6 +24675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уже подключено."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är redan ansluten."
           }
         },
         "th" : {
@@ -23775,6 +24819,12 @@
             "value" : "Предыдущий запрос на подключение ещё обрабатывается. Повторите попытку чуть позже."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En tidigare anslutningsbegäran behandlas fortfarande. Försök igen om en stund."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23909,6 +24959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Директ в Instagram (@lee25_ios)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-DM (@lee25_ios)"
           }
         },
         "th" : {
@@ -24047,6 +25103,12 @@
             "value" : "Распознаём…"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Känner igen …"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24181,6 +25243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Найдено названий: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld namn avlästa"
           }
         },
         "th" : {
@@ -24319,6 +25387,12 @@
             "value" : "Сохранённые сети"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sparade nätverk"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24453,6 +25527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет сохранённых сетей"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga sparade nätverk"
           }
         },
         "th" : {
@@ -24591,6 +25671,12 @@
             "value" : "Карта сохранённых сетей Wi-Fi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karta över sparade Wi-Fi"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24725,6 +25811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уведомим, когда вы окажетесь там, где есть сохранённая сеть Wi-Fi."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en avisering när du kommer till en plats med ett sparat nätverk."
           }
         },
         "th" : {
@@ -24863,6 +25955,12 @@
             "value" : "Сохранённые сети запоминаются вместе с местом. Когда вы вернётесь туда, сеть поднимется наверх списка и получит значок «📍 Рядом»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sparade nätverk kommer ihåg platsen. När du kommer tillbaka flyttas de överst i listan med märket ”📍 Nära”."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24997,6 +26095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сохраняйте сети и таблички в файл и загружайте их обратно."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara nätverk och skyltar i en fil och hämta tillbaka dem senare."
           }
         },
         "th" : {
@@ -25135,6 +26239,12 @@
             "value" : "Применён"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillämpad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25269,6 +26379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Убрать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort"
           }
         },
         "th" : {
@@ -25407,6 +26523,12 @@
             "value" : "Заголовок"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rubrik"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25541,6 +26663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заполняйте касанием фрагментов"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på textbitarna för att fylla i"
           }
         },
         "th" : {
@@ -25679,6 +26807,12 @@
             "value" : "Добавить строку"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till rad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25813,6 +26947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Покажите QR-код сети, к которой вы подключены.\nКогда друг наведёт камеру, он подключится, даже не зная пароля."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa QR-koden för det Wi-Fi du är ansluten till.\nNär en vän riktar kameran mot den ansluter hen utan att kunna lösenordet."
           }
         },
         "th" : {
@@ -25951,6 +27091,12 @@
             "value" : "Открывает QR-код сети Wi-Fi, к которой вы подключены. Если её нет в сохранённых, откроется последняя сохранённая сеть."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppnar QR-koden för det Wi-Fi du är ansluten till. Om det inte är sparat öppnas det senast sparade."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26085,6 +27231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подключено сейчас"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansluten nu"
           }
         },
         "th" : {
@@ -26223,6 +27375,12 @@
             "value" : "Карта"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26357,6 +27515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет мест для отображения на карте"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga platser att visa på kartan"
           }
         },
         "th" : {
@@ -26495,6 +27659,12 @@
             "value" : "Свои строки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Egna rader"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26629,6 +27799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Своих строк: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld egna rader"
           }
         },
         "th" : {
@@ -26767,6 +27943,12 @@
             "value" : "Ввести вручную"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv in själv"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26901,6 +28083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ввести вручную…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv in själv …"
           }
         },
         "th" : {
@@ -27039,6 +28227,12 @@
             "value" : "Сеть, введённая вручную"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inskrivet Wi-Fi"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27173,6 +28367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить вручную"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till själv"
           }
         },
         "th" : {
@@ -27311,6 +28511,12 @@
             "value" : "Показать приветствие ещё раз"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visa introduktionen igen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27445,6 +28651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Снять"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera"
           }
         },
         "th" : {
@@ -27583,6 +28795,12 @@
             "value" : "Снимок, галерея или ввод вручную"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera, bilder eller skriv in själv"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27717,6 +28935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till"
           }
         },
         "th" : {
@@ -27855,6 +29079,12 @@
             "value" : "Когда друг наведёт камеру на QR-код, он подключится без пароля. Смахните карточку или коснитесь её, чтобы увидеть предпросмотр гостевой таблички."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När en vän riktar kameran mot QR-koden ansluter hen utan lösenord. Svep eller tryck på kortet för att vända det till en förhandsvisning av gästskylten."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27989,6 +29219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Карточка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort"
           }
         },
         "th" : {
@@ -28127,6 +29363,12 @@
             "value" : "Наведите камеру на QR-код — подключение автоматически"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skanna QR-koden med kameran för att ansluta"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28261,6 +29503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Наведите камеру — и сразу подключитесь"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rikta kameran mot den för att ansluta direkt"
           }
         },
         "th" : {
@@ -28399,6 +29647,12 @@
             "value" : "Наведите камеру — и подключитесь без пароля. Дважды коснитесь, чтобы перевернуть на предпросмотр таблички."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rikta kameran mot den för att ansluta utan lösenord. Tryck två gånger för att vända till förhandsvisningen av skylten."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28533,6 +29787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открывает камеру: сфотографируйте табличку с Wi-Fi, и приложение прочитает название сети и пароль."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppnar kameran så att du kan fotografera en Wi-Fi-skylt och få nätverksnamn och lösenord uppläst."
           }
         },
         "th" : {
@@ -28671,6 +29931,12 @@
             "value" : "Кафе"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafé"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28805,6 +30071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сфотографируйте табличку с Wi-Fi в кафе или отеле либо выберите снимок из галереи.\nПриложение прочитает название и пароль и подключит этот iPhone."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografera en Wi-Fi-skylt på ett kafé eller ett boende, eller välj en bild i biblioteket.\nAppen läser av namn och lösenord och ansluter den här iPhonen."
           }
         },
         "th" : {
@@ -28943,6 +30215,12 @@
             "value" : "Сфотографируйте табличку с Wi-Fi в кафе или отеле либо выберите снимок из галереи — приложение само прочитает логин и пароль и подключится."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografera en Wi-Fi-skylt på ett kafé eller ett boende, eller välj en bild i biblioteket. Appen läser av id och lösenord och ansluter."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29077,6 +30355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать скриншот"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj skärmavbild"
           }
         },
         "th" : {
@@ -29215,6 +30499,12 @@
             "value" : "Из скриншота"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hämtat från skärmavbild"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29349,6 +30639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Экраны для крупного шрифта"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyer för stor text"
           }
         },
         "th" : {
@@ -29487,6 +30783,12 @@
             "value" : "Коснитесь, чтобы поместить в пустое поле. Удерживайте, чтобы выбрать поле."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck för att lägga den i ett tomt fält. Håll nedtryckt för att välja fält."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29621,6 +30923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пользуйтесь на здоровье"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varsågod och surfa"
           }
         },
         "th" : {
@@ -29759,6 +31067,12 @@
             "value" : "Экран складного iPhone"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vy för vikbar iPhone"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29893,6 +31207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На складном iPhone широкий экран делится на две части."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På en vikbar iPhone delas den breda skärmen i två rutor."
           }
         },
         "th" : {
@@ -30031,6 +31351,12 @@
             "value" : "Лес"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skog"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30165,6 +31491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продолжить с того же места"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt där du slutade"
           }
         },
         "th" : {
@@ -30303,6 +31635,12 @@
             "value" : "К точке доступа нельзя подключиться с этого iPhone. Создайте QR-код и покажите его собеседнику."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här iPhonen kan inte ansluta till en hotspot. Skapa en QR-kod och visa den för den andra."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30437,6 +31775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коснитесь строки, чтобы открыть QR-код и подробности. Смахните вправо — подключить этот iPhone, влево — поделиться QR-кодом."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på en rad för att öppna QR-koden och detaljerna. Svep åt höger för att ansluta den här iPhonen, åt vänster för att dela QR-koden."
           }
         },
         "th" : {
@@ -30575,6 +31919,12 @@
             "value" : "Формат"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30711,6 +32061,12 @@
             "value" : "VoiceOver зачитывает все сведения о сети и кнопки полностью и в правильном порядке."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver läser upp all nätverksinformation och alla knappar i rätt ordning."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30842,6 +32198,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -30983,6 +32345,12 @@
             "value" : "📍 Рядом"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Nära"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31117,6 +32485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📍 Здесь"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Här"
           }
         },
         "th" : {
@@ -31255,6 +32629,12 @@
             "value" : "📍 Подключено сейчас"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 Ansluten nu"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31389,6 +32769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "📶 Точка доступа"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 Hotspot"
           }
         },
         "th" : {

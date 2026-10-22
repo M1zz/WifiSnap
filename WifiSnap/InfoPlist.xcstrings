@@ -111,6 +111,12 @@
             "value" : "MyFi"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -247,6 +253,12 @@
             "value" : "Нужна, чтобы сфотографировать табличку Wi-Fi и распознать название сети и пароль."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Används för att fotografera Wi-Fi-skyltar och känna igen nätverksnamn och lösenord."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -381,6 +393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нужна, чтобы определить название сети Wi-Fi, к которой вы сейчас подключены."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behövs för att kontrollera namnet på det Wi-Fi du är ansluten till."
           }
         },
         "th" : {

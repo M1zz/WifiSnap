@@ -158,3 +158,10 @@ Dokładniej odczytujemy dane ze zdjęć.
 Naprawiono sporadyczne błędy połączenia.
 Utwórz kod QR bez łączenia.
 Udostępnij hotspot jednym kodem QR.
+
+### 앱스토어 (스웨덴어)
+
+Bilder avläses mer exakt.
+Åtgärdade tillfälliga anslutningsfel.
+Skapa QR-kod utan att ansluta.
+Dela din hotspot med en QR-kod.
