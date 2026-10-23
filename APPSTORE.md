@@ -102,15 +102,15 @@ Saved Wi-Fi details stay on this device and are not sent to a server.
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/en/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/en/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/en/
 
 ## en-GB
 
@@ -158,15 +158,15 @@ Saved Wi-Fi details stay on this device and are not sent to a server.
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/en-GB/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/en-GB/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/en-GB/
 
 ## ja
 
@@ -214,15 +214,15 @@ QRコード画像をメッセージで送ったり、自分のホットスポッ
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/ja/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/ja/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/ja/
 
 ## zh-Hans
 
@@ -270,15 +270,15 @@ MyFi：Wi-Fi 二维码
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/zh-Hans/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/zh-Hans/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/zh-Hans/
 
 ## zh-Hant
 
@@ -326,15 +326,15 @@ MyFi：Wi-Fi QR Code
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/zh-Hant/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/zh-Hant/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/zh-Hant/
 
 ## ru
 
@@ -382,15 +382,15 @@ MyFi: Wi-Fi QR
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/ru/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/ru/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/ru/
 
 ## es
 
@@ -438,15 +438,15 @@ Los datos de Wi-Fi guardados se quedan en este dispositivo y no se envían a nin
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/es/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/es/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/es/
 
 ## de
 
@@ -494,15 +494,15 @@ Gespeicherte WLAN-Angaben bleiben auf diesem Gerät und werden nicht an einen Se
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/de/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/de/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/de/
 
 ## fr
 
@@ -550,15 +550,15 @@ Les informations Wi-Fi enregistrées restent sur cet appareil et ne sont envoyé
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/fr/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/fr/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/fr/
 
 ## it
 
@@ -606,15 +606,15 @@ I dati Wi-Fi salvati restano su questo dispositivo e non vengono inviati a nessu
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/it/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/it/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/it/
 
 ## pt-BR
 
@@ -662,15 +662,15 @@ Os dados de Wi-Fi salvos ficam neste dispositivo e não são enviados a nenhum s
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/pt-BR/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/pt-BR/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/pt-BR/
 
 ## th
 
@@ -718,15 +718,15 @@ MyFi: Wi-Fi QR
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/th/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/th/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/th/
 
 ## vi
 
@@ -774,15 +774,15 @@ Thông tin Wi-Fi đã lưu chỉ nằm trên thiết bị này và không đư�
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/vi/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/vi/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/vi/
 
 ## cs
 
@@ -830,15 +830,15 @@ Uložené údaje o Wi-Fi zůstávají jen v tomto zařízení a neodesílají se
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/cs/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/cs/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/cs/
 
 ## da
 
@@ -886,15 +886,15 @@ Gemte Wi-Fi-oplysninger bliver på denne enhed og sendes ikke til nogen server.
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/da/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/da/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/da/
 
 ## el
 
@@ -942,15 +942,15 @@ MyFi: QR Wi-Fi
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/el/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/el/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/el/
 
 ## fi
 
@@ -998,15 +998,15 @@ Tallennetut Wi-Fi-tiedot pysyvät tässä laitteessa, eikä niitä lähetetä mi
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/fi/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/fi/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/fi/
 
 ## id
 
@@ -1054,15 +1054,15 @@ Informasi Wi-Fi yang tersimpan hanya ada di perangkat ini dan tidak dikirim ke s
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/id/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/id/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/id/
 
 ## nb
 
@@ -1110,15 +1110,15 @@ Lagret Wi-Fi-informasjon blir værende på denne enheten og sendes ikke til noen
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/nb/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/nb/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/nb/
 
 ## nl
 
@@ -1166,15 +1166,15 @@ Opgeslagen wifi-gegevens blijven op dit apparaat en worden niet naar een server 
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/nl/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/nl/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/nl/
 
 ## pl
 
@@ -1222,15 +1222,15 @@ Zapisane dane Wi-Fi zostają na tym urządzeniu i nie są wysyłane na żaden se
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/pl/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/pl/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/pl/
 
 ## sv
 
@@ -1278,15 +1278,15 @@ Sparad Wi-Fi-information stannar på den här enheten och skickas inte till någ
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/sv/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/sv/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/sv/
 
 ## tr
 
@@ -1334,12 +1334,12 @@ Kayıtlı Wi-Fi bilgileri yalnızca bu cihazda kalır ve hiçbir sunucuya gönde
 
 ### 지원 URL
 
-https://m1zz.github.io/WifiSnap/support.html
+https://m1zz.github.io/WifiSnap/tr/support.html
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/WifiSnap/privacy.html
+https://m1zz.github.io/WifiSnap/tr/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/WifiSnap/
+https://m1zz.github.io/WifiSnap/tr/

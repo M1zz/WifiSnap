@@ -91,6 +91,9 @@ struct ContentView: View {
             .onAppear {
                 currentNetwork.refresh()
                 scanExpanded = (connectedSaved == nil)
+                #if DEBUG
+                applyScreenshotScene()
+                #endif
                 // 이전 버전에서 저장한 네트워크만 있어도 목록 팁이 뜨도록 여기서도 도네이션.
                 // (연결 시점에만 도네이션하면 이미 목록이 있는 사용자에게는 팁이 영영 안 뜬다)
                 if !store.networks.isEmpty {
@@ -134,6 +137,29 @@ struct ContentView: View {
                 handleRoute(route)
             }
     }
+
+    #if DEBUG
+    /// App Store 스크린샷 장면을 연다 (→ Shared/ScreenshotMode.swift)
+    private func applyScreenshotScene() {
+        guard let scene = ScreenshotMode.scene else { return }
+        savedExpanded = true
+        scanExpanded = true
+        let lounge = store.network(for: ScreenshotMode.loungeSSID)
+        switch scene {
+        case "scan":
+            credentials = WifiCredentials(ssid: ScreenshotMode.scanSSID, password: ScreenshotMode.scanPassword)
+            ssidCandidates = [ScreenshotMode.scanSSID]
+            scanTokens = ["FREE WiFi", ScreenshotMode.scanSSID, ScreenshotMode.scanPassword, ScreenshotMode.demo.bakery]
+            showScanResult = true
+        case "qr":
+            if let lounge { DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { activeSheet = .detail(lounge) } }
+        case "poster-card", "poster-a4":
+            if let lounge { DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { activeSheet = .poster(lounge) } }
+        default:
+            break
+        }
+    }
+    #endif
 
     /// 단축어·Siri 요청 처리
     private func handleRoute(_ route: AppRouter.Route) {

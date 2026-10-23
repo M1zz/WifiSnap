@@ -7,8 +7,8 @@
   docs/screenshots/creative/<스토어 로케일>/header.png   3840x1646  제품 페이지 맨 위
   docs/screenshots/creative/<스토어 로케일>/search.png   3840x2560  검색 결과 (없으면 스크린샷이 대신 보인다)
 
-기기 화면은 docs/screenshots/raw/creative/ko/ 의 시뮬레이터 캡처다(예시 와이파이를 넣고 띄운 QR 상세 ·
-손님용 안내판 화면). 스토어 언어는 한국어 하나다.
+기기 화면은 docs/screenshots/raw/<언어>/ 의 시뮬레이터 캡처다(scripts/capture_screenshots.sh — 예시 와이파이를
+넣고 띄운 QR 상세 · 손님용 안내판 화면). 마케팅 스크린샷과 같은 원본을 쓴다.
 
 ⚠️ 안전 영역 밖은 기기에 따라 잘린다. 글은 **반드시** 안전 영역 안에 둔다(배경 · 기기 그림은 넘쳐도 된다).
    수치는 Apple 공식 PSD 템플릿에서 잰 값이다(https://developer.apple.com/app-store/asset-best-practices/).
@@ -19,7 +19,7 @@
 import shutil, subprocess, sys, pathlib, tempfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-RAW = ROOT / "docs" / "screenshots" / "raw" / "creative"
+RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
@@ -68,27 +68,27 @@ SEARCH["ja"] = ("Wi-Fi QR", "お客様用Wi-Fi<br>案内ボードを作成", "QR
 HEADER["ja"] = ("Wi-Fiを共有", "パスワードを伝える代わりに<br>QRコードを見せるだけ")
 STORE["ru"] = "ru"
 SCREEN["ru"] = "ru"
-SEARCH["ru"] = ("QR-код Wi-Fi", "Гостевые таблички<br>для Wi-Fi", "Подключение по QR-коду,<br>печать в пару касаний")
+SEARCH["ru"] = ("QR-код Wi-Fi", "Таблички Wi-Fi<br>для гостей", "Подключение по QR-коду,<br>печать в пару касаний")
 HEADER["ru"] = ("Делитесь Wi-Fi", "Не диктуйте пароль —<br>покажите QR-код")
 STORE["es"] = "es"
 SCREEN["es"] = "es"
-SEARCH["es"] = ("QR de Wi-Fi", "Crea carteles de<br>Wi-Fi para invitados", "Conecta con un QR<br>e imprime de una vez")
+SEARCH["es"] = ("QR de Wi-Fi", "Carteles de Wi-Fi<br>para invitados", "Conecta con un QR<br>e imprime de una vez")
 HEADER["es"] = ("Comparte tu Wi-Fi", "Sin dictar contraseñas:<br>enseña un QR")
 STORE["de"] = "de"
 SCREEN["de"] = "de"
-SEARCH["de"] = ("WLAN-QR-Code", "WLAN-Aushänge<br>für Gäste erstellen", "Per QR-Code verbinden,<br>in einem Rutsch drucken")
+SEARCH["de"] = ("WLAN-QR-Code", "WLAN-Schilder<br>für Gäste", "Per QR-Code verbinden,<br>in einem Rutsch drucken")
 HEADER["de"] = ("WLAN teilen", "Passwort nicht ansagen –<br>einfach QR-Code zeigen")
 STORE["fr"] = "fr"
 SCREEN["fr"] = "fr"
-SEARCH["fr"] = ("QR Wi-Fi", "Créez des affichettes<br>Wi-Fi pour invités", "Connexion par QR code,<br>impression en un geste")
+SEARCH["fr"] = ("QR Wi-Fi", "Affichettes Wi-Fi<br>pour vos invités", "Connexion par QR code,<br>impression en un geste")
 HEADER["fr"] = ("Partagez votre Wi-Fi", "Ne dictez plus le mot de passe :<br>montrez un QR code")
 STORE["it"] = "it"
 SCREEN["it"] = "it"
-SEARCH["it"] = ("QR Wi-Fi", "Crea cartelli Wi-Fi<br>per gli ospiti", "Connessione con un QR,<br>stampa in un attimo")
+SEARCH["it"] = ("QR Wi-Fi", "Cartelli Wi-Fi<br>per gli ospiti", "Connessione con un QR,<br>stampa in un attimo")
 HEADER["it"] = ("Condividi il Wi-Fi", "Non dettare la password:<br>mostra un QR")
 STORE["pt-BR"] = "pt-BR"
 SCREEN["pt-BR"] = "pt-BR"
-SEARCH["pt-BR"] = ("QR do Wi-Fi", "Crie placas de Wi-Fi<br>para visitantes", "Conecte com um QR,<br>imprima de uma vez")
+SEARCH["pt-BR"] = ("QR do Wi-Fi", "Placas de Wi-Fi<br>para visitantes", "Conecte com um QR,<br>imprima de uma vez")
 HEADER["pt-BR"] = ("Compartilhe o Wi-Fi", "Chega de ditar a senha:<br>mostre um QR")
 STORE["th"] = "th"
 SCREEN["th"] = "th"
@@ -100,7 +100,7 @@ SEARCH["vi"] = ("Mã QR Wi-Fi", "Tạo bảng Wi-Fi<br>cho khách", "Kết nối
 HEADER["vi"] = ("Chia sẻ Wi-Fi", "Đừng đọc mật khẩu nữa:<br>hãy đưa mã QR")
 STORE["cs"] = "cs"
 SCREEN["cs"] = "cs"
-SEARCH["cs"] = ("QR kód Wi-Fi", "Vytvořte Wi-Fi tabulky<br>pro hosty", "Připojení přes QR kód,<br>tisk jedním krokem")
+SEARCH["cs"] = ("QR kód Wi-Fi", "Cedulky s Wi-Fi<br>pro hosty", "Připojení přes QR kód,<br>tisk jedním krokem")
 HEADER["cs"] = ("Sdílejte Wi-Fi", "Nediktujte heslo,<br>ukažte QR kód")
 STORE["da"] = "da"
 SCREEN["da"] = "da"
@@ -108,7 +108,7 @@ SEARCH["da"] = ("Wi-Fi QR", "Lav Wi-Fi-opslag<br>til gæster", "Forbind med QR-k
 HEADER["da"] = ("Del Wi-Fi", "Læs ikke adgangskoden op:<br>vis en QR-kode")
 STORE["el"] = "el"
 SCREEN["el"] = "el"
-SEARCH["el"] = ("QR Wi-Fi", "Φτιάξτε πινακίδες<br>Wi-Fi για επισκέπτες", "Σύνδεση με QR,<br>εκτύπωση με ένα βήμα")
+SEARCH["el"] = ("QR Wi-Fi", "Πινακίδες Wi-Fi<br>για επισκέπτες", "Σύνδεση με QR,<br>εκτύπωση με ένα βήμα")
 HEADER["el"] = ("Κοινοποιήστε το Wi-Fi", "Μην υπαγορεύετε τον κωδικό:<br>δείξτε έναν κωδικό QR")
 STORE["fi"] = "fi"
 SCREEN["fi"] = "fi"
@@ -128,7 +128,7 @@ SEARCH["nl"] = ("Wifi-QR", "Maak wifi-bordjes<br>voor gasten", "Verbind met een 
 HEADER["nl"] = ("Deel wifi", "Lees het wachtwoord niet voor:<br>laat een QR-code zien")
 STORE["pl"] = "pl"
 SCREEN["pl"] = "pl"
-SEARCH["pl"] = ("Kod QR Wi-Fi", "Twórz tabliczki Wi-Fi<br>dla gości", "Połączenie kodem QR,<br>druk jednym krokiem")
+SEARCH["pl"] = ("Kod QR Wi-Fi", "Tabliczki Wi-Fi<br>dla gości", "Połączenie kodem QR,<br>druk jednym krokiem")
 HEADER["pl"] = ("Udostępnij Wi-Fi", "Nie dyktuj hasła:<br>pokaż kod QR")
 STORE["sv"] = "sv"
 SCREEN["sv"] = "sv"
@@ -136,7 +136,7 @@ SEARCH["sv"] = ("Wi-Fi-QR", "Gör Wi-Fi-skyltar<br>för gäster", "Anslut med QR
 HEADER["sv"] = ("Dela Wi-Fi", "Läs inte upp lösenordet:<br>visa en QR-kod")
 STORE["tr"] = "tr"
 SCREEN["tr"] = "tr"
-SEARCH["tr"] = ("Wi-Fi QR", "Misafirler için Wi-Fi<br>tabelaları oluşturun", "QR koduyla bağlanın,<br>tek adımda yazdırın")
+SEARCH["tr"] = ("Wi-Fi QR", "Misafirler için<br>Wi-Fi tabelası", "QR koduyla bağlanın,<br>tek adımda yazdırın")
 HEADER["tr"] = ("Wi-Fi’yi paylaşın", "Şifreyi söylemeyin:<br>QR kodunu gösterin")
 # i18n-end
 
@@ -193,7 +193,7 @@ BASE_CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
 html,body { width:%(W)dpx; height:%(H)dpx; overflow:hidden; }
 body { background:#F2F2F7; position:relative;
-  font-family:-apple-system, "SF Pro Display", "Apple SD Gothic Neo", sans-serif; }
+  font-family:-apple-system, "SF Pro Display", "Apple SD Gothic Neo", "Hiragino Sans", "PingFang SC", sans-serif; }
 .glow { position:absolute; border-radius:50%%; filter:blur(160px); pointer-events:none; }
 .text { position:absolute; display:flex; flex-direction:column; justify-content:center; }
 .eyebrow { font-weight:700; color:#0A7CFF; letter-spacing:-0.01em; line-height:1.15; }
@@ -253,8 +253,12 @@ def stars(W, H, seed, n):
     return "".join(out)
 
 
+# 기기 화면 = 마케팅 스크린샷과 같은 원본 캡처 (scripts/capture_screenshots.sh 가 언어마다 찍는다)
+SHOT_FILE = {"01-qr.png": "02-qr.png", "02-poster.png": "04-poster-a4.png", "03-poster-teal.png": "03-poster-card.png"}
+
+
 def shot(lang, name):
-    return (RAW / SCREEN[lang] / name).as_uri()
+    return (RAW / SCREEN.get(lang, lang) / SHOT_FILE[name]).as_uri()
 
 
 def search_html(lang):

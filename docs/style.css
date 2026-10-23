@@ -117,3 +117,8 @@ code {
   background: var(--line); padding: 2px 6px; border-radius: 6px;
   font-size: 90%;
 }
+nav.langs {
+  margin-top: 40px; text-align: center;
+  font-size: 13px; line-height: 2; color: var(--muted);
+}
+nav.langs strong { color: var(--text); }

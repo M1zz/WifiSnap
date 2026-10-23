@@ -17,10 +17,15 @@ SCHEME="WifiSnap"
 PROJECT_FLAG="-project"
 PROJECT="WifiSnap.xcodeproj"
 
+# DeployBar 배포 셸에는 로그인 PATH 가 없다 — Homebrew 도구를 찾을 수 있게 한다
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
 # 시뮬레이터는 **가장 최신 iOS 런타임의 iPhone** 으로 고른다.
+# PREDEPLOY_SIM_UDID 를 주면 그 기기를 쓴다 (다른 작업이 쓰는 시뮬레이터를 피할 때).
 # `grep iPhone | head -1` 로 고르면 구버전 런타임 기기가 먼저 잡혀
 # "Unable to find a destination matching..." (exit 70) 로 죽는다.
-DEST_ID="$(xcrun simctl list devices available --json | python3 -c '
+DEST_ID="${PREDEPLOY_SIM_UDID:-}"
+[ -n "$DEST_ID" ] || DEST_ID="$(xcrun simctl list devices available --json | python3 -c '
 import json, re, sys
 best = None
 for runtime, devices in json.load(sys.stdin)["devices"].items():

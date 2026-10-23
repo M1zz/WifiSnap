@@ -40,6 +40,10 @@ targets:
         # 홈 화면·설정에 보이는 이름. 타깃/번들 ID(com.leeo.wifisnap)는 기술 식별자라
         # 그대로 두고, 사용자에게 보이는 이름만 여기서 바꾼다.
         CFBundleDisplayName: 마이파이
+        # 버전은 빌드 설정(MARKETING_VERSION / CURRENT_PROJECT_VERSION)을 따른다 — 여기 숫자를 박으면
+        # xcodegen 이 1.0 / 1 로 써 버려 DeployBar 가 올린 번호가 무시된다
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         UILaunchScreen: {}
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
@@ -104,6 +108,8 @@ targets:
       properties:
         # GENERATE_INFOPLIST_FILE=NO이므로 INFOPLIST_KEY_* 는 무시된다 — 여기에 직접 적는다
         CFBundleDisplayName: 와이파이 QR
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
     settings:

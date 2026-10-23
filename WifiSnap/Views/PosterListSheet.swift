@@ -51,6 +51,14 @@ struct PosterListSheet: View {
                     }
                 }
             }
+            #if DEBUG
+            // 스크린샷 장면에서는 안내판 편집 화면까지 바로 연다
+            .onAppear {
+                if ScreenshotMode.scene?.hasPrefix("poster") == true, editing == nil {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { editing = store.designs.first }
+                }
+            }
+            #endif
             .sheet(item: $editing) { design in
                 WifiPosterSheet(ssid: ssid, password: password, store: store, design: design)
             }

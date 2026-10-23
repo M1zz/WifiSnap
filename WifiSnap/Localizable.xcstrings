@@ -10758,7 +10758,7 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Antes de mostrar, ative «Permitir que Outros Entrem» em Ajustes > Hotspot Pessoal. Se estiver desativado, quem ler o QR não encontrará a rede."
+            "value" : "Antes de mostrar, ative “Permitir Outras Conexões” em Ajustes > Acesso Pessoal. Se estiver desativado, quem ler o QR não encontrará a rede."
           }
         },
         "ru" : {
