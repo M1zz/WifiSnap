@@ -203,8 +203,11 @@ struct ContentView: View {
                 }
                 scanCard
                 // 와이파이를 모아 둔 수가 문턱을 넘은 직후 — 목록 바로 위에 응원 부탁 한 장 (모달 아님)
-                LeeoTipAskSlot<WifiSnapSpec>(tipJar: WifiSnapSpec.tipJar,
-                                             reached: WifiSnapTipMoments.reached(savedCount: store.networks.count))
+                // 저장하면 상세 시트가 바로 덮으므로, 시트가 닫혀 보이는 때에만 세운다 (안 보일 때 '물었음'으로 남지 않게)
+                if activeSheet == nil {
+                    LeeoTipAskSlot<WifiSnapSpec>(tipJar: WifiSnapSpec.tipJar,
+                                                 reached: WifiSnapTipMoments.reached(savedCount: store.networks.count))
+                }
                 savedCard
             }
             .padding(16)
