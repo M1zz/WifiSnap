@@ -3,6 +3,176 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.2
+
+### 앱스토어 (한국어)
+
+설정에서 친구에게 앱을 소개할 수 있어요.
+고마울 때 개발자에게 작은 팁을 보낼 수 있어요.
+VoiceOver와 음성 제어로 더 쉽게 쓸 수 있어요.
+큰 글씨에서도 화면이 깔끔하게 보여요.
+
+### 앱스토어 (영어)
+
+Share the app with friends from Settings.
+Send the developer a small tip of thanks.
+Improved VoiceOver and Voice Control.
+Looks tidy even with larger text sizes.
+
+### App Store (en-GB)
+
+Share the app with friends from Settings.
+Send the developer a small tip of thanks.
+Improved VoiceOver and Voice Control.
+Looks tidy even with larger text sizes.
+
+### 앱스토어 (일본어)
+
+設定から友だちにアプリを紹介できます。
+開発者にちょっとしたチップを送れるようになりました。
+VoiceOverや音声コントロールで使いやすくなりました。
+大きな文字でも画面がすっきり見やすくなりました。
+
+### 앱스토어 (중국어(간체))
+
+可在设置中把应用推荐给朋友。
+现在可以给开发者送上一点小费表达感谢。
+VoiceOver 和语音控制更好用了。
+使用大字体时界面也清晰整齐。
+
+### 앱스토어 (중국어(번체))
+
+可在設定中把 App 推薦給朋友。
+現在可以給開發者一點小費表達感謝。
+VoiceOver 與語音控制更好用了。
+使用大字體時畫面也清楚整齊。
+
+### 앱스토어 (러시아어)
+
+Поделитесь приложением из настроек.
+Можно отправить разработчику чаевые.
+Лучше с VoiceOver и управлением голосом.
+Аккуратный вид даже с крупным шрифтом.
+
+### 앱스토어 (스페인어)
+
+Comparte la app con amigos desde Ajustes.
+Puedes dar propina al desarrollador.
+Mejor con VoiceOver y Control por voz.
+Se ve bien incluso con texto grande.
+
+### 앱스토어 (독일어)
+
+App in den Einstellungen weiterempfehlen.
+Du kannst dem Entwickler Trinkgeld geben.
+Besser mit VoiceOver und Sprachsteuerung.
+Auch mit großer Schrift übersichtlich.
+
+### 앱스토어 (프랑스어)
+
+Recommandez l'app depuis les Réglages.
+Offrez un petit pourboire au développeur.
+VoiceOver et Commande vocale améliorés.
+Bien lisible avec un texte agrandi.
+
+### 앱스토어 (이탈리아어)
+
+Consiglia l'app dalle Impostazioni.
+Puoi dare una mancia allo sviluppatore.
+Meglio con VoiceOver e Controllo vocale.
+Ordinata anche con testo più grande.
+
+### 앱스토어 (포르투갈어(브라질))
+
+Indique o app aos amigos nos Ajustes.
+Dê uma gorjetinha ao desenvolvedor.
+Melhor com VoiceOver e Controle por Voz.
+Fica bem organizado com texto grande.
+
+### 앱스토어 (태국어)
+
+แนะนำแอปให้เพื่อนได้จากการตั้งค่า
+ส่งทิปเล็กๆ ให้นักพัฒนาได้แล้ว
+ใช้ VoiceOver และสั่งงานด้วยเสียงได้ดีขึ้น
+ตัวอักษรใหญ่ก็ยังดูเป็นระเบียบ
+
+### 앱스토어 (베트남어)
+
+Giới thiệu app cho bạn bè trong Cài đặt.
+Gửi chút tiền tip cho nhà phát triển.
+Dùng tốt hơn với VoiceOver và Khẩu lệnh.
+Gọn gàng ngay cả khi dùng chữ lớn.
+
+### 앱스토어 (체코어)
+
+Doporučte aplikaci přátelům v Nastavení.
+Můžete poslat vývojáři malé spropitné.
+Lepší s VoiceOverem a Ovládáním hlasem.
+Přehledné i s větším písmem.
+
+### 앱스토어 (덴마크어)
+
+Del appen med venner fra Indstillinger.
+Du kan give udvikleren lidt drikkepenge.
+Bedre med VoiceOver og Stemmestyring.
+Overskuelig selv med stor tekst.
+
+### 앱스토어 (그리스어)
+
+Στείλτε την εφαρμογή σε φίλους.
+Δώστε ένα φιλοδώρημα στον δημιουργό.
+Καλύτερο VoiceOver και Φωνητικός έλεγχος.
+Καθαρή εμφάνιση και με μεγάλο κείμενο.
+
+### 앱스토어 (핀란드어)
+
+Jaa sovellus ystäville asetuksista.
+Voit nyt antaa kehittäjälle pienen tipin.
+Parempi VoiceOverilla ja puheohjauksella.
+Selkeä myös suurella tekstillä.
+
+### 앱스토어 (인도네시아어)
+
+Bagikan app ke teman dari Pengaturan.
+Kini bisa kirim tip untuk pengembang.
+VoiceOver dan Kontrol Suara makin nyaman.
+Tetap rapi meski memakai teks besar.
+
+### 앱스토어 (노르웨이어(보크말))
+
+Del appen med venner fra Innstillinger.
+Du kan gi utvikleren litt tips.
+Bedre med VoiceOver og Stemmekontroll.
+Ryddig også med stor tekst.
+
+### 앱스토어 (네덜란드어)
+
+Deel de app met vrienden in Instellingen.
+Geef de ontwikkelaar een kleine fooi.
+Beter met VoiceOver en Stembediening.
+Ook met grote tekst overzichtelijk.
+
+### 앱스토어 (폴란드어)
+
+Poleć aplikację znajomym w Ustawieniach.
+Możesz dać twórcy aplikacji napiwek.
+Lepiej z VoiceOver i Sterowaniem głosem.
+Przejrzyście nawet z dużym tekstem.
+
+### 앱스토어 (스웨덴어)
+
+Tipsa vänner om appen i Inställningar.
+Du kan ge utvecklaren lite dricks.
+Bättre med VoiceOver och Röststyrning.
+Tydligt även med stor text.
+
+### 앱스토어 (튀르키예어)
+
+Uygulamayı Ayarlar'dan paylaşabilirsiniz.
+Geliştiriciye bahşiş gönderebilirsiniz.
+VoiceOver ve Sesle Denetim ile daha iyi.
+Büyük metinde de düzenli görünüm.
+
 ## 1.0.1
 
 ### 앱스토어 (한국어)
