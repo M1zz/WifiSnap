@@ -36,6 +36,8 @@ struct SettingsSheet: View {
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                     // 친구에게 소개하기 — App Store ID 가 없으면 그리지 않는다
                     LeeoShareAppLink<WifiSnapSpec>()
+                    // 개발자 응원하기(팁) — 판매 중인 팁이 없으면 그리지 않는다
+                    LeeoTipJarLink<WifiSnapSpec>(tipJar: WifiSnapSpec.tipJar)
                 } header: {
                     Text("의견 · 리뷰")
                 } footer: {
