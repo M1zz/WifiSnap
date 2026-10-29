@@ -32,6 +32,7 @@ struct QRCodeSheet: View {
                         .background(Color.white)
                         .clipShape(RoundedRectangle(cornerRadius: 16))
                         .shadow(radius: 4)
+                        .accessibilityLabel(String(localized: "\(ssid) 연결용 QR 코드"))
 
                     VStack(spacing: 4) {
                         Text(ssid).font(.headline)

@@ -385,6 +385,7 @@ struct WifiPosterSheet: View {
                             }
                         }
                         .buttonStyle(.plain)
+                        .accessibilityAddTraits(isSelected ? .isSelected : [])
                     }
                 }
                 .padding(.horizontal, 2)

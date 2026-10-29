@@ -50,6 +50,7 @@ struct CredentialPuzzleView: View {
                 .font(.footnote.weight(.bold))
                 .foregroundStyle(isTargeted ? Color.orange : .secondary)
                 .frame(width: 20)
+                .accessibilityHidden(true)
 
             VStack(alignment: .leading, spacing: 2) {
                 Text(slot == .ssid ? String(localized: "아이디") : String(localized: "비밀번호"))
@@ -120,6 +121,7 @@ struct CredentialPuzzleView: View {
             Label(group.title, systemImage: group.icon)
                 .font(.caption2.weight(.semibold))
                 .foregroundStyle(.secondary)
+                .accessibilityAddTraits(.isHeader)
 
             FlowLayout(spacing: 6) {
                 ForEach(group.tokens, id: \.self) { token in
@@ -139,16 +141,19 @@ struct CredentialPuzzleView: View {
         return Button {
             fill(token)
         } label: {
-            Text(token)
-                .font(.caption.weight(.medium))
-                .lineLimit(1)
-                .padding(.horizontal, 10)
-                .padding(.vertical, 7)
-                .background(isUsed ? Color.orange.opacity(0.2) : Color(.tertiarySystemFill), in: Capsule())
-                .foregroundStyle(isUsed ? Color.orange : .primary)
-                .overlay {
-                    Capsule().strokeBorder(isUsed ? Color.orange.opacity(0.5) : .clear, lineWidth: 1)
-                }
+            // 넣은 조각은 색만이 아니라 체크 표시로도 구별한다 (색맹·흑백 화면)
+            HStack(spacing: 4) {
+                if isUsed { Image(systemName: "checkmark").accessibilityHidden(true) }
+                Text(token).lineLimit(1)
+            }
+            .font(.caption.weight(.medium))
+            .padding(.horizontal, 10)
+            .padding(.vertical, 7)
+            .background(isUsed ? Color.orange.opacity(0.2) : Color(.tertiarySystemFill), in: Capsule())
+            .foregroundStyle(isUsed ? Color.orange : .primary)
+            .overlay {
+                Capsule().strokeBorder(isUsed ? Color.orange.opacity(0.5) : .clear, lineWidth: 1)
+            }
         }
         .buttonStyle(.plain)
         .contextMenu {
@@ -166,6 +171,10 @@ struct CredentialPuzzleView: View {
         .draggable(token)
         .accessibilityLabel(Text("\(token) 조각"))
         .accessibilityHint(Text("탭하면 빈 칸에 넣습니다. 길게 누르면 넣을 칸을 고릅니다."))
+        .accessibilityAddTraits(isUsed ? .isSelected : [])
+        // 끌어다 놓기·길게 누르기 대신 VoiceOver 동작으로 칸을 고른다
+        .accessibilityAction(named: Text("아이디로 넣기")) { drop(token, into: .ssid) }
+        .accessibilityAction(named: Text("비밀번호로 넣기")) { drop(token, into: .password) }
     }
 
     /// 탭했을 때 조각이 갈 자리 — 빈 칸을 아이디부터 채우고, 둘 다 차 있으면 아이디를 바꾼다.

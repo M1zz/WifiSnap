@@ -56,6 +56,8 @@ struct ContentView: View {
 
     // 앱으로 돌아올 때 SSID를 다시 확인 — 위젯이 참조하는 '지금 연결됨'을 최신으로 유지한다
     @Environment(\.scenePhase) private var scenePhase
+    /// 글자 크기 배율 — 저장 목록 높이를 큰 글자에 맞춰 키운다
+    @ScaledMetric(relativeTo: .body) private var textScale: CGFloat = 1
 
     enum ActiveSheet: Identifiable {
         case picker(ImagePicker.Source)
@@ -423,16 +425,20 @@ struct ContentView: View {
                         Button {
                             selectSSID(candidate)
                         } label: {
-                            Text(candidate)
-                                .font(.caption.weight(.medium))
-                                .lineLimit(1)
-                                .padding(.horizontal, 10)
-                                .padding(.vertical, 6)
-                                .background(isSelected ? Color.orange.opacity(0.2) : Color(.tertiarySystemFill),
-                                            in: Capsule())
-                                .foregroundStyle(isSelected ? .orange : .primary)
+                            // 고른 이름은 색만이 아니라 체크 표시로도 구별한다
+                            HStack(spacing: 4) {
+                                if isSelected { Image(systemName: "checkmark").accessibilityHidden(true) }
+                                Text(candidate).lineLimit(1)
+                            }
+                            .font(.caption.weight(.medium))
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 6)
+                            .background(isSelected ? Color.orange.opacity(0.2) : Color(.tertiarySystemFill),
+                                        in: Capsule())
+                            .foregroundStyle(isSelected ? .orange : .primary)
                         }
                         .buttonStyle(.plain)
+                        .accessibilityAddTraits(isSelected ? .isSelected : [])
                     }
                 }
                 .padding(.horizontal, 1)   // 캡슐 테두리가 잘리지 않게
@@ -475,6 +481,7 @@ struct ContentView: View {
                         .foregroundStyle(.white)
                         .frame(width: 44, height: 44)
                         .background(.green, in: RoundedRectangle(cornerRadius: 12))
+                        .accessibilityHidden(true)
                     VStack(alignment: .leading, spacing: 2) {
                         Text("📍 지금 연결됨")
                             .font(.caption.weight(.semibold))
@@ -522,6 +529,7 @@ struct ContentView: View {
                         .foregroundStyle(.white)
                         .frame(width: 34, height: 34)
                         .background(.blue, in: RoundedRectangle(cornerRadius: 9))
+                        .accessibilityHidden(true)
                     VStack(alignment: .leading, spacing: 1) {
                         Text("와이파이 추가").font(.subheadline.weight(.bold))
                         Text("촬영·앨범·직접 입력").font(.caption).foregroundStyle(.secondary)
@@ -531,10 +539,12 @@ struct ContentView: View {
                         .font(.caption.weight(.semibold))
                         .foregroundStyle(.secondary)
                         .rotationEffect(.degrees(scanExpanded ? 0 : -90))
+                        .accessibilityHidden(true)
                 }
                 .contentShape(Rectangle())
             }
             .buttonStyle(.plain)
+            .accessibilityValue(scanExpanded ? String(localized: "펼쳐짐") : String(localized: "접힘"))
 
             if scanExpanded {
                 HStack(spacing: 10) {
@@ -708,10 +718,13 @@ struct ContentView: View {
                             .font(.caption.weight(.semibold))
                             .foregroundStyle(.secondary)
                             .rotationEffect(.degrees(savedExpanded ? 0 : -90))
+                            .accessibilityHidden(true)
                     }
                     .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
+                .accessibilityAddTraits(.isHeader)
+                .accessibilityValue(savedExpanded ? String(localized: "펼쳐짐") : String(localized: "접힘"))
 
                 Spacer()
 
@@ -790,6 +803,7 @@ struct ContentView: View {
                 Image(systemName: "wifi")
                     .font(.footnote.weight(.semibold))
                     .foregroundStyle(.blue)
+                    .accessibilityHidden(true)
 
                 // 이름은 어떤 길이여도 잘리지 않는다 — 모자라면 여러 줄로 감싼다
                 Text(network.ssid)
@@ -818,6 +832,7 @@ struct ContentView: View {
                 Image(systemName: "chevron.right")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.tertiary)
+                    .accessibilityHidden(true)
             }
             .contentShape(Rectangle())
         }
@@ -845,11 +860,11 @@ struct ContentView: View {
         let nameWidth: CGFloat = 250   // 아이콘·뱃지·화살표를 뺀 이름 영역의 대략적인 폭(pt)
         let total = sortedNetworks.reduce(CGFloat(8)) { sum, network in
             // 한글·CJK 한 글자는 라틴 문자의 약 두 배 폭을 차지한다
-            let width = network.ssid.reduce(CGFloat(0)) { $0 + ($1.isASCII ? 9.5 : 17) }
+            let width = network.ssid.reduce(CGFloat(0)) { $0 + ($1.isASCII ? 9.5 : 17) } * textScale
             let lines = max(1, Int((width / nameWidth).rounded(.up)))
-            return sum + 32 + CGFloat(lines) * 21   // 32 = 상하 여백(24) + 행 간격(8)
+            return sum + 32 + CGFloat(lines) * 21 * textScale   // 32 = 상하 여백(24) + 행 간격(8)
         }
-        return min(total, 360)
+        return min(total, 360 * textScale)
     }
 
     /// 스와이프 공유 — 스와이프 액션 안에서는 ShareLink가 제대로 동작하지 않아
@@ -945,8 +960,10 @@ struct ContentView: View {
                 .foregroundStyle(.white)
                 .frame(width: 34, height: 34)
                 .background(color, in: RoundedRectangle(cornerRadius: 9))
+                .accessibilityHidden(true)
             VStack(alignment: .leading, spacing: 1) {
                 Text(title).font(.subheadline.weight(.bold))
+                    .accessibilityAddTraits(.isHeader)
                 Text(subtitle).font(.caption).foregroundStyle(.secondary)
             }
             Spacer()
@@ -1105,6 +1122,7 @@ private struct ConnectedFlipCard: View {
     @State private var qrImage: UIImage?
     @State private var posterImage: UIImage?
     @State private var flipped = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     /// 카드 실제 폭 — 뒷면 안내판을 축소 없이 보여주려면 필요하다
     @State private var cardWidth: CGFloat = 330
 
@@ -1128,7 +1146,7 @@ private struct ConnectedFlipCard: View {
             front.opacity(flipped ? 0 : 1)
             back
                 .opacity(flipped ? 1 : 0)
-                .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                .rotation3DEffect(.degrees(reduceMotion ? 0 : 180), axis: (x: 0, y: 1, z: 0))
         }
         .frame(maxWidth: .infinity)
         .frame(height: flipped ? backHeight : frontHeight)
@@ -1139,8 +1157,9 @@ private struct ConnectedFlipCard: View {
                     .onChange(of: proxy.size.width) { _, width in cardWidth = width }
             }
         }
-        .rotation3DEffect(.degrees(flipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
-        .animation(.spring(response: 0.5, dampingFraction: 0.85), value: flipped)
+        // 동작 줄이기: 뒤집는 회전 없이 겹쳐 바뀐다
+        .rotation3DEffect(.degrees(flipped && !reduceMotion ? 180 : 0), axis: (x: 0, y: 1, z: 0))
+        .animation(reduceMotion ? .easeInOut(duration: 0.2) : .spring(response: 0.5, dampingFraction: 0.85), value: flipped)
         .contentShape(Rectangle())
         .onTapGesture { flip() }
         // ScrollView 세로 스크롤을 막지 않도록 simultaneous, 가로가 우세할 때만 뒤집기
@@ -1159,7 +1178,7 @@ private struct ConnectedFlipCard: View {
                 .padding(8)
                 .background(.ultraThinMaterial, in: Circle())
                 .padding(6)
-                .rotation3DEffect(.degrees(flipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
+                .rotation3DEffect(.degrees(flipped && !reduceMotion ? 180 : 0), axis: (x: 0, y: 1, z: 0))
                 .accessibilityHidden(true)
         }
         // VoiceOver: 카드 한 장으로 읽고, 두 번 탭하면 뒤집는다 (밀기 제스처는 VoiceOver 로 할 수 없다)

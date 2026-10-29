@@ -16,22 +16,23 @@ import LeeoKit
 
 extension WifiSnapSpec {
     static var roadmap: [LeeoRoadmapItem] {[
-        // MARK: 다음에 만들어요
-        .init(id: "a11y.voiceover", status: .planned,
+        // MARK: 만들고 있어요
+        .init(id: "a11y.voiceover", status: .building,
               title: NSLocalizedString("VoiceOver로 더 편하게", comment: "Roadmap item: a11y.voiceover"),
               detail: NSLocalizedString("화면 읽기 기능이 와이파이 정보와 단추를 빠짐없이, 알맞은 순서로 읽어 줘요.", comment: "Roadmap item detail: a11y.voiceover")),
-        .init(id: "a11y.largetext", status: .planned,
+        .init(id: "a11y.largetext", status: .building,
               title: NSLocalizedString("큰 글씨에 맞춘 화면", comment: "Roadmap item: a11y.largetext"),
               detail: NSLocalizedString("글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요.", comment: "Roadmap item detail: a11y.largetext")),
-        .init(id: "display.dark", status: .planned,
+        .init(id: "display.dark", status: .building,
               title: NSLocalizedString("다크 모드", comment: "Roadmap item: display.dark"),
               detail: NSLocalizedString("어두운 화면에서도 글자와 단추가 또렷하게 보여요.", comment: "Roadmap item detail: display.dark")),
-        .init(id: "a11y.contrast", status: .planned,
+        .init(id: "a11y.contrast", status: .building,
               title: NSLocalizedString("보기 편한 색과 대비", comment: "Roadmap item: a11y.contrast"),
               detail: NSLocalizedString("대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요.", comment: "Roadmap item detail: a11y.contrast")),
-        .init(id: "a11y.motion", status: .planned,
+        .init(id: "a11y.motion", status: .building,
               title: NSLocalizedString("움직임 줄이기", comment: "Roadmap item: a11y.motion"),
               detail: NSLocalizedString("움직임 줄이기를 켜면 화면 효과가 차분해져요.", comment: "Roadmap item detail: a11y.motion")),
+        // MARK: 다음에 만들어요
         .init(id: "lang.english", status: .planned,
               title: NSLocalizedString("영어 지원", comment: "Roadmap item: lang.english"),
               detail: NSLocalizedString("외국인 손님도 읽을 수 있게 앱과 안내판을 영어로도 써요.", comment: "Roadmap item detail: lang.english")),

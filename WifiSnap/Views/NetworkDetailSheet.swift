@@ -92,6 +92,7 @@ struct NetworkDetailSheet: View {
                     .padding(14)
                     .background(.white, in: RoundedRectangle(cornerRadius: 16))
                     .shadow(color: .black.opacity(0.12), radius: 6, y: 3)
+                    .accessibilityLabel(String(localized: "\(network.ssid) 연결용 QR 코드"))
 
                 Text("카메라로 비추면 바로 연결돼요")
                     .font(.footnote)
@@ -111,10 +112,13 @@ struct NetworkDetailSheet: View {
                 Image(systemName: "key.fill")
                     .font(.footnote)
                     .foregroundStyle(.secondary)
+                    .accessibilityHidden(true)
                 Text(revealPassword ? network.password : String(repeating: "•", count: min(network.password.count, 12)))
                     .font(.body.monospaced())
                     .lineLimit(1)
                     .truncationMode(.middle)
+                    // 가려 둔 점을 하나씩 읽지 않게 한다
+                    .accessibilityLabel(revealPassword ? network.password : String(localized: "비밀번호"))
                 Spacer(minLength: 4)
 
                 Button {
