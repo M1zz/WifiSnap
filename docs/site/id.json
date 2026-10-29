@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: foto papan Wi-Fi lalu tersambung, bagikan Wi-Fi lewat kode QR",
+  "description": "Foto papan Wi-Fi dan iPhone langsung tersambung. Bagikan Wi-Fi Anda dengan satu kode QR dan cetak papan untuk tamu. Semuanya gratis.",
+  "hero": {
+    "headline": "Tak perlu lagi mendikte kata sandi.\nTunjukkan kode QR.",
+    "lead": "Teman cukup mengarahkan kamera, langsung tersambung. Papan di dinding kafe? Satu foto, iPhone ini tersambung. Tak ada lagi salah ketik saat menyalin.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Semua fitur gratis. iPhone dengan iOS 17 atau lebih baru."
+  },
+  "demo": {
+    "title": "Buat kode QR Wi-Fi Anda",
+    "lead": "Ubah nama atau kata sandi, papannya langsung ikut berubah. Arahkan kamera ponsel dan tawaran untuk bergabung ke jaringan benar-benar muncul.",
+    "ssidLabel": "Nama jaringan",
+    "pwLabel": "Kata sandi (kosongkan untuk jaringan terbuka)",
+    "themeLabel": "Desain",
+    "scan": "Arahkan kamera ponsel ke kode QR di sebelah kiri.",
+    "note": "Yang Anda ketik hanya dipakai di browser ini dan tidak dikirim ke mana pun. Di app, Anda bisa menambahkan nama, logo, dan jam buka tempat Anda lalu mencetaknya sebagai poster A4.",
+    "heading": "Wi-Fi gratis",
+    "subtitle": "Silakan digunakan",
+    "network": "Jaringan",
+    "password": "Kata sandi",
+    "footer": "Pindai kode QR dengan kamera untuk tersambung",
+    "open": "Tidak ada (jaringan terbuka)",
+    "themes": [
+      "Tengah Malam",
+      "Senja",
+      "Mint",
+      "Samudra",
+      "Hutan",
+      "Kafe",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "\"Kata sandi Wi-Fi-nya apa ya?\" Sudah berapa kali hari ini?",
+    "text": "Anda mengejanya dan salah huruf besar kecil. Anda menyalin papan di dinding dan tertukar antara 0 dan O. Lalu menjelaskan semuanya lagi. MyFi meringkasnya jadi satu foto dan satu kode QR."
+  },
+  "features": [
+    {
+      "title": "Foto, lalu tersambung",
+      "text": "Foto papan Wi-Fi atau struk, atau pilih gambar dari galeri. MyFi membaca nama jaringan dan kata sandi lalu menyambungkan iPhone ini. Jika papan juga punya kode QR, kode itu dibaca lebih dulu supaya datanya tepat.\nJika tulisannya kurang jelas, seret potongan teks dari foto ke kolom nama atau kata sandi.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Buat dan cetak papan untuk tamu",
+      "text": "Pilih salah satu dari 7 tema, tambahkan nama, logo, dan baris seperti jam buka. Pilih kartu atau poster A4 tegak, simpan sebagai gambar, atau langsung cetak dengan AirPrint.\nSimpan beberapa papan, satu untuk tiap tempat atau meja, dan ubah kapan saja.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Tempat yang Anda datangi lagi tampil paling atas",
+      "text": "Jaringan yang Anda sambungkan atau bagikan disimpan bersama lokasinya. Saat kembali, jaringan itu ada di urutan teratas, dan semua tempat tersimpan bisa dilihat di peta.\nTaruh kode QR Wi-Fi yang paling sering Anda bagikan sebagai widget di Layar Utama atau Layar Terkunci. Saat tamu bertanya, cukup tunjukkan layar.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Buka app",
+        "text": "App meminta izin lokasi sekali, karena iOS hanya memberi tahu nama Wi-Fi yang sedang dipakai kepada app yang punya izin itu."
+      },
+      {
+        "title": "Foto atau ketik",
+        "text": "Foto sebuah papan, atau ketik kata sandi Wi-Fi Anda sekali saja."
+      },
+      {
+        "title": "Sambungkan atau tunjukkan",
+        "text": "Sambungkan iPhone ini, atau tunjukkan kode QR ke kamera orang lain."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Di mana letaknya",
+    "rows": [
+      [
+        "Tersambung dari foto papan",
+        "`Tambah Wi-Fi`, lalu `Kamera` atau `Galeri`, lalu `Sambungkan iPhone ini`"
+      ],
+      [
+        "Mengetik data sendiri",
+        "`Tambah Wi-Fi`, lalu `Ketik manual`"
+      ],
+      [
+        "Hanya membuat kode QR",
+        "`Buat kode QR tanpa tersambung`"
+      ],
+      [
+        "Mengirim kode QR lewat pesan",
+        "Ketuk jaringan tersimpan, lalu `Bagikan gambar QR`"
+      ],
+      [
+        "Papan untuk tamu",
+        "Ketuk jaringan tersimpan, lalu `Cetak atau bagikan papan untuk tamu`"
+      ],
+      [
+        "Hotspot Anda sebagai kode QR",
+        "Ketuk jaringan tersimpan dan nyalakan `Hotspot saya`"
+      ],
+      [
+        "Sambungkan atau bagikan sekali usap",
+        "Di daftar, usap ke kanan untuk menyambung, ke kiri untuk membagikan"
+      ],
+      [
+        "Melihat tempat tersimpan",
+        "`Peta`, di samping `Jaringan tersimpan`"
+      ],
+      [
+        "Kode QR di Layar Utama",
+        "Sentuh dan tahan Layar Utama, lalu tambahkan widget `QR Wi-Fi` dari MyFi"
+      ]
+    ],
+    "note": "Kode QR juga bisa langsung dibuka lewat Siri atau app Pintasan."
+  },
+  "pricing": {
+    "title": "Semua fitur gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Tersambung ke Wi-Fi dari foto",
+        "Membuat kode QR dan membagikannya sebagai gambar",
+        "Papan tamu dengan 7 tema, kartu atau poster A4, cetak lewat AirPrint",
+        "Widget Layar Utama dan Layar Terkunci",
+        "Peta Wi-Fi tersimpan",
+        "Tanpa iklan, tanpa daftar akun"
+      ]
+    },
+    "pro": {
+      "name": "Tip (opsional)",
+      "items": [
+        "Kalau suka, Anda bisa mendukung pengembangan dengan memberi tip",
+        "Tip tidak membuka apa pun. Tanpa tip pun semua fitur tetap bisa dipakai"
+      ],
+      "note": "Tip adalah pembayaran kecil sekali bayar."
+    },
+    "note": "Tanpa langganan dan tanpa fitur berbayar."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Kenapa saya harus mengetik kata sandi sendiri?",
+        "a": "iOS tidak mengizinkan app mana pun membaca kata sandi Wi-Fi yang tersimpan di perangkat. Jadi MyFi mengenali nama jaringannya, dan kata sandi cukup Anda ketik sekali. Setelah itu app memakai yang tersimpan."
+      },
+      {
+        "q": "Nama Wi-Fi yang sedang tersambung tidak muncul.",
+        "a": "iOS hanya memberi nama Wi-Fi kepada app yang punya izin lokasi. Izinkan MyFi di Pengaturan › Privasi & Keamanan › Layanan Lokasi. Lokasi hanya dipakai untuk membaca nama jaringan dan mengenali tempat yang Anda datangi lagi."
+      },
+      {
+        "q": "Nama atau kata sandi terbaca salah.",
+        "a": "Dekatkan dan foto dengan lurus. Kalau masih salah, seret potongan yang benar dari foto ke kolomnya atau perbaiki sendiri. Jika papan punya kode QR Wi-Fi, MyFi membacanya dan mengisi data yang tepat."
+      },
+      {
+        "q": "Papan seperti apa yang bisa dibaca?",
+        "a": "Paling baik untuk papan berbahasa Inggris atau Korea dengan label seperti ID, PW, SSID, Network, atau Password. Tanpa label pun, app menemukan baris yang tampak seperti kata sandi. Kode QR Wi-Fi di papan terbaca tepat dalam bahasa apa pun."
+      },
+      {
+        "q": "Bagaimana orang lain tersambung dengan kode QR saya?",
+        "a": "Di iPhone maupun Android, cukup arahkan kamera bawaan ke kode lalu ketuk tawaran untuk bergabung. Tidak perlu app apa pun."
+      },
+      {
+        "q": "Apakah orang lain bisa melihat kata sandi saya?",
+        "a": "Kode QR berisi data login Wi-Fi standar. Anda selalu memilih sendiri mau membagikannya atau tidak, dan kata sandi bisa disembunyikan di papan untuk tamu."
+      },
+      {
+        "q": "Kenapa tidak bisa menyambung ke hotspot sendiri?",
+        "a": "Hotspot Pribadi iPhone Anda adalah ponsel itu sendiri, jadi tidak bisa menyambung ke dirinya sendiri. Nyalakan `Hotspot saya`, maka MyFi memperlakukannya sebagai kode QR untuk dibagikan."
+      },
+      {
+        "q": "Ke mana data Wi-Fi saya dikirim?",
+        "a": "MyFi tidak punya server. Nama jaringan, kata sandi, hasil baca foto, dan lokasi hanya diproses dan disimpan di perangkat Anda. Tanpa iklan atau pelacakan. App hanya mengirim statistik penggunaan anonim dan laporan galat ke Apple iCloud untuk perbaikan."
+      },
+      {
+        "q": "Bisa dipakai di perangkat apa?",
+        "a": "iPhone dengan iOS 17 atau lebih baru. App tersedia dalam 24 bahasa."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Saat tamu berikutnya bertanya,\ntunjukkan kode QR",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada pertanyaan atau masukan? Kirim ke {email}. Biasanya saya membalas dalam 2 sampai 3 hari."
+  }
+}

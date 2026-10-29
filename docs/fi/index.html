@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: kuvaa kyltti ja yhdistä, jaa Wi-Fi QR-koodilla</title>
+  <meta name="description" content="Kuvaa Wi-Fi-kyltti, niin iPhone yhdistää. Jaa oma verkkosi yhdellä QR-koodilla ja tulosta vieraskyltti. Kaikki on ilmaista.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/fi/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi – Wi-Fi jakoon ja käyttöön helposti</title>
-  <meta name="description" content="Jaa Wi-Fi QR-koodina, liity verkkoon ottamalla kuva sen kyltistä ja tee liikkeellesi vieras-Wi-Fin kylttejä. Sovellus iPhonelle.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Wi-Fi jakoon ja käyttöön helposti.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: kuvaa kyltti ja yhdistä, jaa Wi-Fi QR-koodilla">
+  <meta property="og:description" content="Kuvaa Wi-Fi-kyltti, niin iPhone yhdistää. Jaa oma verkkosi yhdellä QR-koodilla ja tulosta vieraskyltti. Kaikki on ilmaista.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/fi/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/fi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Wi-Fi jakoon ja käyttöön helposti</p>
-      <p class="tagline">Ei enää salasanojen tavaamista. Yksi QR-koodi hoitaa sen.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Katso ominaisuudet</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 tai uudempi · iPhone</p>
-    </header>
+  <a class="skip" href="#main">Siirry sisältöön</a>
+  <header class="bar">
+    <a class="brand" href="../fi/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Kieli</a>
+  </header>
 
-    <div class="card">
-      <h2>Tehty juuri näihin hetkiin</h2>
-      <p>Luet Wi-Fi-salasanan vieraalle ääneen, ja hän näppäilee sen väärin. Kopioit salasanan kahvilan seinällä olevasta kyltistä, ja yksi kirjain menee pieleen.
-        Selität saman salasanan yhä uudelleen. MyFi korvaa kaiken tämän yhdellä QR-koodilla ja yhdellä kuvalla.</p>
-    </div>
-
-    <h2 id="features">Ominaisuudet</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Jaa Wi-Fi QR-koodina</h3>
-        <p>MyFi tunnistaa sen verkon nimen, jossa olet. Syötä salasana kerran, niin tavallinen Wi-Fi-QR-koodi
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>) on valmis. Muiden tarvitsee vain <strong>osoittaa sitä iPhonen tai Android-puhelimen omalla kameralla</strong> päästäkseen verkkoon.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Lopeta salasanan sanelu.<br>Näytä QR-koodi.</h1>
+        <p class="lead">Ystävät osoittavat vain kameralla, ja yhteys on päällä. Kahvilan seinän kyltti? Yksi kuva, ja tämä iPhone yhdistää. Ei enää näppäilyvirheitä kopioidessa.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">Lataa ilmaiseksi App Storesta</a><a class="try" href="#try">Tee Wi-Fi-verkollesi QR-koodi ↓</a></div>
+        <p class="muted small">Kaikki ominaisuudet ovat ilmaisia. iPhone, jossa iOS 17 tai uudempi.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Ota kuva ja yhdistä</h3>
-        <p>Kuvaa kahvilan tai vuokramökin Wi-Fi-kyltti tai valitse kuva kirjastostasi.
-          Laitteella tapahtuva tekstintunnistus täyttää verkon nimen ja salasanan. Napauta <strong>Yhdistä tämä iPhone</strong>, ja olet verkossa.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Tee vieras-Wi-Fin kyltti</h3>
-        <p>Suunnittele liikkeellesi Wi-Fi-kyltti <strong>7 teemalla</strong>. Lisää liikkeen nimi ja logo ja valitse
-          <strong>kortti</strong> näytöille ja someen tai pystysuuntainen <strong>A4-juliste</strong> tulostettavaksi.
-          Tallenna se kuvana, jaa se tai <strong>tulosta se heti AirPrintillä</strong>. Kylttejä voi tallentaa niin monta kuin haluat.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Koti-valikon widget</h3>
-        <p>Lisää usein käyttämäsi verkon QR-koodi Koti-valikon widgetiin.
-          Kun vieras kysyy, näytä vain näyttöä. Sovellusta ei tarvitse avata.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Tutut paikat ensin</h3>
-        <p>MyFi muistaa, missä liityit kuhunkin verkkoon tai jaoit sen. Kun palaat samaan paikkaan,
-          verkko nousee listan kärkeen. Voit nähdä tallentamasi paikat myös kartalla.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>QR-koodi myös yhteyspisteelle</h3>
-        <p>iPhonesi Oma yhteyspiste on puhelin itse, joten se ei voi liittyä siihen.
-          MyFi merkitsee yhteyspisteet erikseen ja tekee yhdistämisen sijaan <strong>QR-koodin jaettavaksi</strong>.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/fi/02-qr.jpg" alt="Lopeta salasanan sanelu. Näytä QR-koodi." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Tietosi pysyvät laitteellasi</h2>
-      <p>MyFillä ei ole palvelinta. Verkkojen nimet ja salasanat, kuvista luettu teksti ja sijainnit käsitellään ja tallennetaan
-        <strong>vain laitteellasi</strong>, eikä niitä lähetetä minnekään.
-        Ei mainoksia, ei kolmansien osapuolten analytiikkaa eikä seurantaa. Vain anonyymit käyttötilastot ja kaatumisraportit lähetetään Applen iCloudiin sovelluksen kehittämiseksi.</p>
-      <p><a href="privacy.html">Lue koko tietosuojakäytäntö →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Hyvä tietää</h2>
-      <ul>
-        <li>Tietoturvasyistä <strong>iOS ei anna minkään sovelluksen lukea laitteelle tallennettuja Wi-Fi-salasanoja.</strong>
-          Siksi jakaminen toimii periaatteella ”nimi tunnistetaan automaattisesti, salasana syötetään kerran”. Sen jälkeen MyFi käyttää tallennettua salasanaa.</li>
-        <li>Verkkoon liittyminen vaatii <strong>oikean iPhonen</strong>. iOS Simulator ei voi liittyä Wi-Fi-verkkoihin.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Tee Wi-Fi-verkollesi QR-koodi</h2>
+      <p class="muted">Muuta nimeä tai salasanaa, niin kyltti päivittyy heti. Osoita sitä puhelimen kameralla, niin saat oikean kehotteen liittyä verkkoon.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Tee Wi-Fi-verkollesi QR-koodi&quot;, &quot;lead&quot;: &quot;Muuta nimeä tai salasanaa, niin kyltti päivittyy heti. Osoita sitä puhelimen kameralla, niin saat oikean kehotteen liittyä verkkoon.&quot;, &quot;ssidLabel&quot;: &quot;Verkon nimi&quot;, &quot;pwLabel&quot;: &quot;Salasana (jätä tyhjäksi, jos verkko on avoin)&quot;, &quot;themeLabel&quot;: &quot;Ulkoasu&quot;, &quot;scan&quot;: &quot;Osoita puhelimesi kameralla vasemmalla olevaa QR-koodia.&quot;, &quot;note&quot;: &quot;Kirjoittamasi pysyy tässä selaimessa eikä lähde minnekään. Apissa voit lisätä paikan nimen, logon ja aukioloajat ja tulostaa A4-julisteen.&quot;, &quot;heading&quot;: &quot;Ilmainen Wi-Fi&quot;, &quot;subtitle&quot;: &quot;Ole hyvä ja käytä&quot;, &quot;network&quot;: &quot;Verkko&quot;, &quot;password&quot;: &quot;Salasana&quot;, &quot;footer&quot;: &quot;Skannaa QR-koodi kameralla ja yhdistä&quot;, &quot;open&quot;: &quot;Ei mitään (avoin verkko)&quot;, &quot;themes&quot;: [&quot;Keskiyö&quot;, &quot;Auringonlasku&quot;, &quot;Minttu&quot;, &quot;Valtameri&quot;, &quot;Metsä&quot;, &quot;Kahvila&quot;, &quot;Mono&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Tuki / Ohjeet</a>
-      <a class="btn secondary" href="privacy.html">Tietosuojakäytäntö</a>
-    </div>
+    <section class="problem reveal">
+      <h2>”Mikä se Wi-Fin salasana olikaan?” Monesko kerta tänään?</h2>
+      <p>Sanot sen ääneen ja isot kirjaimet menevät väärin. Kopioit seinän kyltistä ja sekoitat 0:n ja O:n. Sitten selität kaiken uudelleen. MyFi tekee siitä yhden kuvan ja yhden QR-koodin.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <strong>Suomi</strong> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Kuvaa, ja olet verkossa</h2>
+        <p>Kuvaa Wi-Fi-kyltti tai kuitti tai valitse kuva kirjastosta. MyFi lukee verkon nimen ja salasanan ja yhdistää tämän iPhonen. Jos kyltissä on myös QR-koodi, se luetaan ensin, jotta tiedot ovat täsmälleen oikein.<br>Jos teksti on epäselvä, vedä kuvasta poimittu pala nimen tai salasanan kenttään.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/01-scan.jpg" alt="Kuvaa, ja olet verkossa" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">Yhteystiedot</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tee ja tulosta vieraskyltti</h2>
+        <p>Valitse yksi 7 teemasta ja lisää nimi, logo ja rivejä kuten aukioloajat. Valitse kortti tai pysty A4-juliste, tallenna kuvaksi tai tulosta heti AirPrintillä.<br>Pidä useita kylttejä, yksi jokaiselle paikalle tai pöydälle, ja muokkaa niitä milloin vain.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/03-poster-card.jpg" alt="Tee ja tulosta vieraskyltti" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Paikat, joihin palaat, ovat ylimpänä</h2>
+        <p>Verkot, joihin yhdistät tai joita jaat, tallentuvat sijainnin kanssa. Kun palaat, se verkko on listan kärjessä, ja kaikki tallennetut paikat näkyvät kartalla.<br>Laita useimmin jakamasi Wi-Fin QR-koodi widgetiksi Koti-valikkoon tai lukitulle näytölle. Kun vieras kysyy, näytä vain näyttöä.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/05-saved.jpg" alt="Paikat, joihin palaat, ovat ylimpänä" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Alkuun kolmessa vaiheessa</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Avaa appi</h3><p>Se kysyy kerran sijaintilupaa, koska iOS kertoo nykyisen Wi-Fin nimen vain apeille, joilla lupa on.</p></li>
+<li class="card"><span class="n">2</span><h3>Kuvaa tai kirjoita</h3><p>Kuvaa kyltti tai kirjoita oman Wi-Fisi salasana kerran.</p></li>
+<li class="card"><span class="n">3</span><h3>Yhdistä tai näytä</h3><p>Yhdistä tämä iPhone tai näytä QR-koodi toisen kameralle.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Mistä löydät mitäkin</h2>
+      <div class="card table">
+        <dl><div><dt>Yhdistäminen kyltin kuvasta</dt><dd><code>Lisää Wi-Fi</code>, sitten <code>Kamera</code> tai <code>Kuvat</code>, sitten <code>Yhdistä tämä iPhone</code></dd></div><div><dt>Tietojen kirjoittaminen</dt><dd><code>Lisää Wi-Fi</code>, sitten <code>Kirjoita itse</code></dd></div><div><dt>Pelkkä QR-koodi</dt><dd><code>Tee QR-koodi yhdistämättä</code></dd></div><div><dt>QR-koodin lähettäminen viestissä</dt><dd>Napauta tallennettua verkkoa, sitten <code>Jaa QR-kuva</code></dd></div><div><dt>Vieraskyltti</dt><dd>Napauta tallennettua verkkoa, sitten <code>Tulosta tai jaa vieraskyltti</code></dd></div><div><dt>Oma hotspot QR-koodina</dt><dd>Napauta tallennettua verkkoa ja laita <code>Oma hotspotini</code> päälle</dd></div><div><dt>Yhdistä tai jaa yhdellä pyyhkäisyllä</dt><dd>Pyyhkäise listassa oikealle yhdistääksesi, vasemmalle jakaaksesi</dd></div><div><dt>Tallennetut paikat</dt><dd><code>Kartta</code>, kohdan <code>Tallennetut verkot</code> vieressä</dd></div><div><dt>QR-koodi Koti-valikkoon</dt><dd>Pidä sormea Koti-valikossa ja lisää MyFin <code>Wi-Fi-QR</code>-widget</dd></div></dl>
+      </div>
+      <p class="muted">QR-koodin voi avata suoraan myös Sirillä tai Pikakomennot-apilla.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Kaikki ominaisuudet ovat ilmaisia</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Ilmainen</h3>
+          <ul><li>Wi-Fi-yhteys kuvasta</li><li>QR-koodien teko ja jako kuvana</li><li>Vieraskyltit 7 teemalla, korttina tai A4-julisteena, tulostus AirPrintillä</li><li>Widgetit Koti-valikkoon ja lukitulle näytölle</li><li>Kartta tallennetuista Wi-Fi-verkoista</li><li>Ei mainoksia, ei rekisteröitymistä</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Tippi (vapaaehtoinen)</h3>
+          <ul><li>Jos pidät apista, voit tukea kehitystä tipillä</li><li>Tippi ei avaa mitään. Ilman sitäkin saat kaikki ominaisuudet</li></ul>
+          <p class="muted">Tippi on pieni kertamaksu.</p>
+        </div>
+      </div>
+      <p class="muted">Ei tilauksia eikä maksullisia ominaisuuksia.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Usein kysyttyä</h2>
+      <div class="faq"><details><summary>Miksi salasana pitää kirjoittaa itse?</summary><p>iOS ei anna minkään apin lukea laitteeseen tallennettuja Wi-Fi-salasanoja. Siksi MyFi tunnistaa verkon nimen, ja salasanan kirjoitat kerran. Sen jälkeen appi käyttää tallennettua.</p></details>
+<details><summary>En näe nykyisen Wi-Fin nimeä.</summary><p>iOS antaa Wi-Fin nimen vain apeille, joilla on sijaintilupa. Salli MyFi kohdassa Asetukset › Tietosuoja ja suojaus › Sijaintipalvelut. Sijaintia käytetään vain verkon nimen lukemiseen ja paikkojen tunnistamiseen, joihin palaat.</p></details>
+<details><summary>Nimi tai salasana luettiin väärin.</summary><p>Mene lähemmäs ja kuvaa suoraan. Jos se on yhä väärin, vedä oikea pala kuvasta kenttään tai korjaa käsin. Jos kyltissä on Wi-Fi-QR-koodi, MyFi lukee sen ja täyttää tarkat tiedot.</p></details>
+<details><summary>Millaisia kylttejä se osaa lukea?</summary><p>Parhaiten se lukee englannin- tai koreankielisiä kylttejä, joissa on merkintöjä kuten ID, PW, SSID, Network tai Password. Ilman merkintöjäkin se löytää rivin, joka näyttää salasanalta. Kyltin Wi-Fi-QR-koodi luetaan tarkasti kielestä riippumatta.</p></details>
+<details><summary>Miten joku yhdistää QR-koodillani?</summary><p>iPhonella ja Androidilla riittää osoittaa sisäänrakennetulla kameralla koodia ja napauttaa kehotetta. Mitään appia ei tarvita.</p></details>
+<details><summary>Näkevätkö muut salasanani?</summary><p>QR-koodissa on tavalliset Wi-Fi-kirjautumistiedot. Sinä päätät aina, jaatko sen, ja vieraskyltistä voit piilottaa salasanan.</p></details>
+<details><summary>Miksi en voi yhdistää omaan hotspotiini?</summary><p>iPhonen Oma yhteyspiste on tämä puhelin itse, eikä se voi yhdistää itseensä. Laita <code>Oma hotspotini</code> päälle, niin MyFi käsittelee sitä muille jaettavana QR-koodina.</p></details>
+<details><summary>Minne Wi-Fi-tietoni menevät?</summary><p>MyFillä ei ole palvelinta. Verkkojen nimet, salasanat, kuvista luetut tiedot ja sijainnit käsitellään ja tallennetaan vain laitteessasi. Ei mainoksia eikä seurantaa. Appi lähettää Apple iCloudiin vain nimettömiä käyttötilastoja ja virheraportteja korjaamista varten.</p></details>
+<details><summary>Millä laitteilla se toimii?</summary><p>iPhonella, jossa on iOS 17 tai uudempi. Appi on saatavilla 24 kielellä.</p></details></div>
+      <p class="contact">Kysyttävää tai palautetta? Kirjoita osoitteeseen <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Vastaan yleensä 2–3 päivässä.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Kun seuraava vieras kysyy,<br>näytä QR-koodi</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">Lataa ilmaiseksi App Storesta</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Kieli"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi" aria-current="page">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Tietosuoja</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

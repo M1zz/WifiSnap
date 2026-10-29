@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: fotografeer het bordje en verbind, deel je wifi met een QR-code",
+  "description": "Fotografeer het wifi-bordje en je iPhone maakt verbinding. Deel je eigen wifi met één QR-code en print een gastenbordje. Alles is gratis.",
+  "hero": {
+    "headline": "Geen wachtwoorden meer voorlezen.\nLaat een QR-code zien.",
+    "lead": "Vrienden richten hun camera erop en ze zijn online. Het bordje aan de muur van het café? Eén foto en deze iPhone maakt verbinding. Geen typefouten meer bij het overschrijven.",
+    "cta": "Gratis in de App Store",
+    "note": "Alle functies zijn gratis. iPhone met iOS 17 of nieuwer."
+  },
+  "demo": {
+    "title": "Maak de QR-code van je wifi",
+    "lead": "Pas de naam of het wachtwoord aan en het bordje verandert meteen mee. Richt de camera van een telefoon erop en je krijgt echt de vraag om verbinding te maken.",
+    "ssidLabel": "Netwerknaam",
+    "pwLabel": "Wachtwoord (leeg laten voor een open netwerk)",
+    "themeLabel": "Ontwerp",
+    "scan": "Richt de camera van je telefoon op de QR-code links.",
+    "note": "Wat je typt, blijft in deze browser en wordt nergens heen gestuurd. In de app voeg je de naam, het logo en de openingstijden van je zaak toe en print je het als A4-poster.",
+    "heading": "Gratis wifi",
+    "subtitle": "Veel plezier",
+    "network": "Netwerk",
+    "password": "Wachtwoord",
+    "footer": "Scan de QR-code met de camera om te verbinden",
+    "open": "Geen (open netwerk)",
+    "themes": [
+      "Middernacht",
+      "Zonsondergang",
+      "Munt",
+      "Oceaan",
+      "Bos",
+      "Café",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "‘Wat was het wifi-wachtwoord ook alweer?’ Hoe vaak al vandaag?",
+    "text": "Je leest het voor en verwisselt hoofdletters. Je schrijft het bordje aan de muur over en haalt 0 en O door elkaar. Daarna leg je alles opnieuw uit. MyFi maakt er één foto en één QR-code van."
+  },
+  "features": [
+    {
+      "title": "Foto maken en je bent online",
+      "text": "Fotografeer het wifi-bordje of de kassabon, of kies een foto uit je bibliotheek. MyFi leest de netwerknaam en het wachtwoord en verbindt deze iPhone. Staat er ook een QR-code op het bordje, dan leest hij die eerst, zodat de gegevens precies kloppen.\nIs de tekst onduidelijk, sleep dan een stukje uit de foto naar het veld voor naam of wachtwoord.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Maak en print een gastenbordje",
+      "text": "Kies een van de 7 thema’s en voeg naam, logo en regels zoals openingstijden toe. Kies een kaart of een staande A4-poster, bewaar het als afbeelding of print het meteen met AirPrint.\nHoud meerdere bordjes bij, één per zaak of tafel, en pas ze aan wanneer je wilt.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Plekken waar je terugkomt, staan bovenaan",
+      "text": "Netwerken waarmee je verbindt of die je deelt, worden met de plek bewaard. Kom je terug, dan staat dat netwerk bovenaan, en alle bewaarde plekken zie je op een kaart.\nZet de QR-code van je meest gedeelde wifi als widget op je beginscherm of toegangsscherm. Vraagt een gast erom, dan laat je gewoon je scherm zien.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "In drie stappen klaar",
+    "items": [
+      {
+        "title": "Open de app",
+        "text": "Hij vraagt één keer om je locatie, omdat iOS de naam van je huidige wifi alleen doorgeeft aan apps met die toestemming."
+      },
+      {
+        "title": "Fotografeer of typ",
+        "text": "Maak een foto van een bordje, of typ eenmalig het wachtwoord van je eigen wifi."
+      },
+      {
+        "title": "Verbind of laat zien",
+        "text": "Verbind deze iPhone, of houd de QR-code voor de camera van de ander."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Waar vind je wat",
+    "rows": [
+      [
+        "Verbinden met een foto van een bordje",
+        "`Wifi toevoegen`, dan `Camera` of `Foto’s`, dan `Deze iPhone verbinden`"
+      ],
+      [
+        "Gegevens zelf invoeren",
+        "`Wifi toevoegen`, dan `Zelf typen`"
+      ],
+      [
+        "Alleen een QR-code maken",
+        "`QR-code maken zonder te verbinden`"
+      ],
+      [
+        "QR-code in een bericht sturen",
+        "Tik op een opgeslagen netwerk, dan `QR-afbeelding delen`"
+      ],
+      [
+        "Gastenbordje",
+        "Tik op een opgeslagen netwerk, dan `Gastenbordje printen of delen`"
+      ],
+      [
+        "Je eigen hotspot als QR-code",
+        "Tik op een opgeslagen netwerk en zet `Mijn hotspot` aan"
+      ],
+      [
+        "Verbinden of delen met één veeg",
+        "Veeg in de lijst naar rechts om te verbinden, naar links om te delen"
+      ],
+      [
+        "Bewaarde plekken bekijken",
+        "`Kaart`, naast `Opgeslagen netwerken`"
+      ],
+      [
+        "QR-code op je beginscherm",
+        "Houd je beginscherm ingedrukt en voeg de MyFi-widget `Wifi-QR` toe"
+      ]
+    ],
+    "note": "Je kunt de QR-code ook direct openen met Siri of de Opdrachten-app."
+  },
+  "pricing": {
+    "title": "Alle functies zijn gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Verbinding met wifi via een foto",
+        "QR-codes maken en als afbeelding delen",
+        "Gastenbordjes in 7 thema’s, als kaart of A4-poster, printen met AirPrint",
+        "Widgets voor beginscherm en toegangsscherm",
+        "Kaart van je bewaarde wifi",
+        "Geen advertenties, geen account"
+      ]
+    },
+    "pro": {
+      "name": "Fooi (vrijwillig)",
+      "items": [
+        "Bevalt de app, dan kun je de ontwikkeling steunen met een fooi",
+        "Een fooi ontgrendelt niets. Zonder fooi heb je ook alle functies"
+      ],
+      "note": "Een fooi is een kleine eenmalige betaling."
+    },
+    "note": "Geen abonnement en geen betaalde functies."
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Waarom moet ik mijn wachtwoord zelf typen?",
+        "a": "iOS laat geen enkele app de wifi-wachtwoorden lezen die op je apparaat zijn bewaard. Daarom herkent MyFi de netwerknaam en typ jij het wachtwoord één keer. Daarna gebruikt de app het bewaarde."
+      },
+      {
+        "q": "Ik zie de naam van mijn huidige wifi niet.",
+        "a": "iOS geeft de wifi-naam alleen aan apps met locatietoegang. Sta MyFi toe in Instellingen › Privacy en beveiliging › Locatievoorzieningen. De locatie wordt alleen gebruikt om de netwerknaam te lezen en plekken te herkennen waar je terugkomt."
+      },
+      {
+        "q": "De naam of het wachtwoord is verkeerd gelezen.",
+        "a": "Ga dichterbij staan en fotografeer recht. Klopt het nog niet, sleep dan het juiste stukje uit de foto naar het veld of verbeter het zelf. Heeft het bordje een wifi-QR-code, dan leest MyFi die en vult de exacte gegevens in."
+      },
+      {
+        "q": "Welke bordjes kan hij lezen?",
+        "a": "Het best gaat het met bordjes in het Engels of Koreaans met labels zoals ID, PW, SSID, Network of Password. Ook zonder labels vindt hij de regel die op een wachtwoord lijkt. Een wifi-QR-code op het bordje wordt in elke taal exact gelezen."
+      },
+      {
+        "q": "Hoe maakt iemand verbinding met mijn QR-code?",
+        "a": "Op iPhone en Android richt je gewoon de ingebouwde camera op de code en tik je op de vraag om verbinding te maken. Een app is niet nodig."
+      },
+      {
+        "q": "Kunnen anderen mijn wachtwoord zien?",
+        "a": "De QR-code bevat de gewone wifi-inloggegevens. Of je hem deelt, bepaal jij altijd zelf, en op het gastenbordje kun je het wachtwoord verbergen."
+      },
+      {
+        "q": "Waarom kan ik niet verbinden met mijn eigen hotspot?",
+        "a": "De persoonlijke hotspot van je iPhone is de telefoon zelf, en die kan niet met zichzelf verbinden. Zet `Mijn hotspot` aan, dan behandelt MyFi hem als een QR-code om uit te delen."
+      },
+      {
+        "q": "Waar gaan mijn wifi-gegevens naartoe?",
+        "a": "MyFi heeft geen server. Netwerknamen, wachtwoorden, fotoresultaten en locaties worden alleen op je apparaat verwerkt en bewaard. Geen advertenties of tracking. De app stuurt alleen anonieme gebruiksstatistieken en foutmeldingen naar Apple iCloud, zodat hij verbeterd kan worden."
+      },
+      {
+        "q": "Op welke apparaten werkt het?",
+        "a": "Op iPhone met iOS 17 of nieuwer. De app is er in 24 talen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Vraagt de volgende gast erom,\nlaat dan de QR-code zien",
+    "cta": "Gratis in de App Store"
+  },
+  "ui": {
+    "skip": "Naar de inhoud",
+    "languages": "Taal",
+    "privacy": "Privacybeleid",
+    "contact": "Vragen of feedback? Mail naar {email}. Meestal antwoord ik binnen 2 à 3 dagen."
+  }
+}

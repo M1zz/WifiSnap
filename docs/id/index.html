@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: foto papan Wi-Fi lalu tersambung, bagikan Wi-Fi lewat kode QR</title>
+  <meta name="description" content="Foto papan Wi-Fi dan iPhone langsung tersambung. Bagikan Wi-Fi Anda dengan satu kode QR dan cetak papan untuk tamu. Semuanya gratis.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/id/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi — Berbagi dan terhubung ke Wi-Fi dengan mudah</title>
-  <meta name="description" content="Bagikan Wi-Fi Anda lewat kode QR, sambungkan ke jaringan cukup dengan memotret papan informasinya, dan buat papan Wi-Fi tamu untuk toko Anda. Aplikasi untuk iPhone.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Berbagi dan terhubung ke Wi-Fi dengan mudah.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: foto papan Wi-Fi lalu tersambung, bagikan Wi-Fi lewat kode QR">
+  <meta property="og:description" content="Foto papan Wi-Fi dan iPhone langsung tersambung. Bagikan Wi-Fi Anda dengan satu kode QR dan cetak papan untuk tamu. Semuanya gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/id/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/id/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Berbagi dan terhubung ke Wi-Fi dengan mudah</p>
-      <p class="tagline">Tak perlu lagi mengeja kata sandi. Cukup satu kode QR.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Lihat fiturnya</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 atau lebih baru · iPhone</p>
-    </header>
+  <a class="skip" href="#main">Langsung ke konten</a>
+  <header class="bar">
+    <a class="brand" href="../id/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Bahasa</a>
+  </header>
 
-    <div class="card">
-      <h2>Dibuat untuk momen seperti ini</h2>
-      <p>Anda membacakan kata sandi Wi-Fi kepada tamu, lalu mereka salah mengetiknya. Anda menyalin kata sandi dari papan di dinding kafe dan keliru satu huruf.
-        Anda menjelaskan kata sandi yang sama berulang kali. MyFi mengubah semua itu menjadi satu kode QR dan satu foto.</p>
-    </div>
-
-    <h2 id="features">Fitur</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Bagikan Wi-Fi lewat kode QR</h3>
-        <p>MyFi mengenali nama jaringan yang sedang Anda gunakan. Masukkan kata sandi sekali saja, dan kode QR Wi-Fi standar
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>) langsung siap. Orang lain cukup <strong>mengarahkan kamera bawaan</strong> iPhone atau ponsel Android mereka ke kode tersebut untuk tersambung.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Tak perlu lagi mendikte kata sandi.<br>Tunjukkan kode QR.</h1>
+        <p class="lead">Teman cukup mengarahkan kamera, langsung tersambung. Papan di dinding kafe? Satu foto, iPhone ini tersambung. Tak ada lagi salah ketik saat menyalin.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">Unduh gratis di App Store</a><a class="try" href="#try">Buat kode QR Wi-Fi Anda ↓</a></div>
+        <p class="muted small">Semua fitur gratis. iPhone dengan iOS 17 atau lebih baru.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Potret, lalu tersambung</h3>
-        <p>Potret papan Wi-Fi di kafe atau penginapan, atau pilih foto dari galeri Anda.
-          Pengenalan teks di perangkat akan mengisi nama jaringan dan kata sandi secara otomatis. Ketuk <strong>Sambungkan iPhone ini</strong> dan Anda pun langsung online.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Buat papan Wi-Fi untuk tamu</h3>
-        <p>Rancang papan Wi-Fi untuk toko Anda dengan <strong>7 tema</strong>. Tambahkan nama dan logo toko, pilih
-          <strong>kartu</strong> untuk layar dan media sosial atau <strong>poster A4</strong> tegak untuk dicetak,
-          lalu simpan sebagai gambar, bagikan, atau <strong>langsung cetak dengan AirPrint</strong>. Anda bisa menyimpan papan sebanyak yang Anda mau.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Widget Layar Utama</h3>
-        <p>Pasang kode QR jaringan Wi-Fi yang sering Anda gunakan di widget Layar Utama.
-          Saat tamu bertanya, cukup tunjukkan layar Anda. Tak perlu membuka aplikasi.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Tempat langganan tampil paling atas</h3>
-        <p>MyFi mengingat lokasi tempat Anda menyambung atau membagikan setiap jaringan. Saat Anda kembali ke tempat yang sama,
-          jaringan tersebut naik ke urutan teratas daftar. Anda juga dapat melihat tempat-tempat yang tersimpan di peta.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>Kode QR untuk hotspot juga</h3>
-        <p>Hotspot Pribadi iPhone Anda berasal dari ponsel itu sendiri, jadi ponsel tersebut tidak bisa menyambung ke sana.
-          MyFi menandai hotspot secara terpisah dan membuat <strong>kode QR untuk dibagikan</strong> alih-alih mencoba menyambung.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/id/02-qr.jpg" alt="Tak perlu lagi mendikte kata sandi. Tunjukkan kode QR." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Data Anda tetap di perangkat Anda</h2>
-      <p>MyFi tidak memiliki server. Nama dan kata sandi Wi-Fi, teks yang dibaca dari foto, serta lokasi diproses dan disimpan
-        <strong>hanya di perangkat Anda</strong> dan tidak pernah dikirim ke mana pun.
-        Tidak ada iklan, analitik pihak ketiga, maupun pelacakan. Hanya statistik penggunaan anonim dan laporan kerusakan yang dikirim ke Apple iCloud untuk membantu menyempurnakan aplikasi.</p>
-      <p><a href="privacy.html">Baca Kebijakan Privasi selengkapnya →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Perlu diketahui</h2>
-      <ul>
-        <li>Demi keamanan, <strong>iOS tidak mengizinkan aplikasi apa pun membaca kata sandi Wi-Fi yang tersimpan di perangkat Anda.</strong>
-          Karena itulah berbagi Wi-Fi bekerja dengan cara "nama terdeteksi otomatis, kata sandi dimasukkan sekali". Setelah itu, MyFi menggunakan kata sandi yang sudah tersimpan.</li>
-        <li>Untuk menyambung ke jaringan, Anda memerlukan <strong>iPhone sungguhan</strong>. iOS Simulator tidak dapat menyambung ke jaringan Wi-Fi.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Buat kode QR Wi-Fi Anda</h2>
+      <p class="muted">Ubah nama atau kata sandi, papannya langsung ikut berubah. Arahkan kamera ponsel dan tawaran untuk bergabung ke jaringan benar-benar muncul.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Buat kode QR Wi-Fi Anda&quot;, &quot;lead&quot;: &quot;Ubah nama atau kata sandi, papannya langsung ikut berubah. Arahkan kamera ponsel dan tawaran untuk bergabung ke jaringan benar-benar muncul.&quot;, &quot;ssidLabel&quot;: &quot;Nama jaringan&quot;, &quot;pwLabel&quot;: &quot;Kata sandi (kosongkan untuk jaringan terbuka)&quot;, &quot;themeLabel&quot;: &quot;Desain&quot;, &quot;scan&quot;: &quot;Arahkan kamera ponsel ke kode QR di sebelah kiri.&quot;, &quot;note&quot;: &quot;Yang Anda ketik hanya dipakai di browser ini dan tidak dikirim ke mana pun. Di app, Anda bisa menambahkan nama, logo, dan jam buka tempat Anda lalu mencetaknya sebagai poster A4.&quot;, &quot;heading&quot;: &quot;Wi-Fi gratis&quot;, &quot;subtitle&quot;: &quot;Silakan digunakan&quot;, &quot;network&quot;: &quot;Jaringan&quot;, &quot;password&quot;: &quot;Kata sandi&quot;, &quot;footer&quot;: &quot;Pindai kode QR dengan kamera untuk tersambung&quot;, &quot;open&quot;: &quot;Tidak ada (jaringan terbuka)&quot;, &quot;themes&quot;: [&quot;Tengah Malam&quot;, &quot;Senja&quot;, &quot;Mint&quot;, &quot;Samudra&quot;, &quot;Hutan&quot;, &quot;Kafe&quot;, &quot;Mono&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Dukungan / Bantuan</a>
-      <a class="btn secondary" href="privacy.html">Kebijakan Privasi</a>
-    </div>
+    <section class="problem reveal">
+      <h2>"Kata sandi Wi-Fi-nya apa ya?" Sudah berapa kali hari ini?</h2>
+      <p>Anda mengejanya dan salah huruf besar kecil. Anda menyalin papan di dinding dan tertukar antara 0 dan O. Lalu menjelaskan semuanya lagi. MyFi meringkasnya jadi satu foto dan satu kode QR.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <strong>Bahasa Indonesia</strong> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Foto, lalu tersambung</h2>
+        <p>Foto papan Wi-Fi atau struk, atau pilih gambar dari galeri. MyFi membaca nama jaringan dan kata sandi lalu menyambungkan iPhone ini. Jika papan juga punya kode QR, kode itu dibaca lebih dulu supaya datanya tepat.<br>Jika tulisannya kurang jelas, seret potongan teks dari foto ke kolom nama atau kata sandi.</p>
+      </div>
+      <div class="phone"><img src="../img/id/01-scan.jpg" alt="Foto, lalu tersambung" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">Kontak</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Buat dan cetak papan untuk tamu</h2>
+        <p>Pilih salah satu dari 7 tema, tambahkan nama, logo, dan baris seperti jam buka. Pilih kartu atau poster A4 tegak, simpan sebagai gambar, atau langsung cetak dengan AirPrint.<br>Simpan beberapa papan, satu untuk tiap tempat atau meja, dan ubah kapan saja.</p>
+      </div>
+      <div class="phone"><img src="../img/id/03-poster-card.jpg" alt="Buat dan cetak papan untuk tamu" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tempat yang Anda datangi lagi tampil paling atas</h2>
+        <p>Jaringan yang Anda sambungkan atau bagikan disimpan bersama lokasinya. Saat kembali, jaringan itu ada di urutan teratas, dan semua tempat tersimpan bisa dilihat di peta.<br>Taruh kode QR Wi-Fi yang paling sering Anda bagikan sebagai widget di Layar Utama atau Layar Terkunci. Saat tamu bertanya, cukup tunjukkan layar.</p>
+      </div>
+      <div class="phone"><img src="../img/id/05-saved.jpg" alt="Tempat yang Anda datangi lagi tampil paling atas" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Mulai dalam tiga langkah</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Buka app</h3><p>App meminta izin lokasi sekali, karena iOS hanya memberi tahu nama Wi-Fi yang sedang dipakai kepada app yang punya izin itu.</p></li>
+<li class="card"><span class="n">2</span><h3>Foto atau ketik</h3><p>Foto sebuah papan, atau ketik kata sandi Wi-Fi Anda sekali saja.</p></li>
+<li class="card"><span class="n">3</span><h3>Sambungkan atau tunjukkan</h3><p>Sambungkan iPhone ini, atau tunjukkan kode QR ke kamera orang lain.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Di mana letaknya</h2>
+      <div class="card table">
+        <dl><div><dt>Tersambung dari foto papan</dt><dd><code>Tambah Wi-Fi</code>, lalu <code>Kamera</code> atau <code>Galeri</code>, lalu <code>Sambungkan iPhone ini</code></dd></div><div><dt>Mengetik data sendiri</dt><dd><code>Tambah Wi-Fi</code>, lalu <code>Ketik manual</code></dd></div><div><dt>Hanya membuat kode QR</dt><dd><code>Buat kode QR tanpa tersambung</code></dd></div><div><dt>Mengirim kode QR lewat pesan</dt><dd>Ketuk jaringan tersimpan, lalu <code>Bagikan gambar QR</code></dd></div><div><dt>Papan untuk tamu</dt><dd>Ketuk jaringan tersimpan, lalu <code>Cetak atau bagikan papan untuk tamu</code></dd></div><div><dt>Hotspot Anda sebagai kode QR</dt><dd>Ketuk jaringan tersimpan dan nyalakan <code>Hotspot saya</code></dd></div><div><dt>Sambungkan atau bagikan sekali usap</dt><dd>Di daftar, usap ke kanan untuk menyambung, ke kiri untuk membagikan</dd></div><div><dt>Melihat tempat tersimpan</dt><dd><code>Peta</code>, di samping <code>Jaringan tersimpan</code></dd></div><div><dt>Kode QR di Layar Utama</dt><dd>Sentuh dan tahan Layar Utama, lalu tambahkan widget <code>QR Wi-Fi</code> dari MyFi</dd></div></dl>
+      </div>
+      <p class="muted">Kode QR juga bisa langsung dibuka lewat Siri atau app Pintasan.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Semua fitur gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Tersambung ke Wi-Fi dari foto</li><li>Membuat kode QR dan membagikannya sebagai gambar</li><li>Papan tamu dengan 7 tema, kartu atau poster A4, cetak lewat AirPrint</li><li>Widget Layar Utama dan Layar Terkunci</li><li>Peta Wi-Fi tersimpan</li><li>Tanpa iklan, tanpa daftar akun</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Tip (opsional)</h3>
+          <ul><li>Kalau suka, Anda bisa mendukung pengembangan dengan memberi tip</li><li>Tip tidak membuka apa pun. Tanpa tip pun semua fitur tetap bisa dipakai</li></ul>
+          <p class="muted">Tip adalah pembayaran kecil sekali bayar.</p>
+        </div>
+      </div>
+      <p class="muted">Tanpa langganan dan tanpa fitur berbayar.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Pertanyaan umum</h2>
+      <div class="faq"><details><summary>Kenapa saya harus mengetik kata sandi sendiri?</summary><p>iOS tidak mengizinkan app mana pun membaca kata sandi Wi-Fi yang tersimpan di perangkat. Jadi MyFi mengenali nama jaringannya, dan kata sandi cukup Anda ketik sekali. Setelah itu app memakai yang tersimpan.</p></details>
+<details><summary>Nama Wi-Fi yang sedang tersambung tidak muncul.</summary><p>iOS hanya memberi nama Wi-Fi kepada app yang punya izin lokasi. Izinkan MyFi di Pengaturan › Privasi &amp; Keamanan › Layanan Lokasi. Lokasi hanya dipakai untuk membaca nama jaringan dan mengenali tempat yang Anda datangi lagi.</p></details>
+<details><summary>Nama atau kata sandi terbaca salah.</summary><p>Dekatkan dan foto dengan lurus. Kalau masih salah, seret potongan yang benar dari foto ke kolomnya atau perbaiki sendiri. Jika papan punya kode QR Wi-Fi, MyFi membacanya dan mengisi data yang tepat.</p></details>
+<details><summary>Papan seperti apa yang bisa dibaca?</summary><p>Paling baik untuk papan berbahasa Inggris atau Korea dengan label seperti ID, PW, SSID, Network, atau Password. Tanpa label pun, app menemukan baris yang tampak seperti kata sandi. Kode QR Wi-Fi di papan terbaca tepat dalam bahasa apa pun.</p></details>
+<details><summary>Bagaimana orang lain tersambung dengan kode QR saya?</summary><p>Di iPhone maupun Android, cukup arahkan kamera bawaan ke kode lalu ketuk tawaran untuk bergabung. Tidak perlu app apa pun.</p></details>
+<details><summary>Apakah orang lain bisa melihat kata sandi saya?</summary><p>Kode QR berisi data login Wi-Fi standar. Anda selalu memilih sendiri mau membagikannya atau tidak, dan kata sandi bisa disembunyikan di papan untuk tamu.</p></details>
+<details><summary>Kenapa tidak bisa menyambung ke hotspot sendiri?</summary><p>Hotspot Pribadi iPhone Anda adalah ponsel itu sendiri, jadi tidak bisa menyambung ke dirinya sendiri. Nyalakan <code>Hotspot saya</code>, maka MyFi memperlakukannya sebagai kode QR untuk dibagikan.</p></details>
+<details><summary>Ke mana data Wi-Fi saya dikirim?</summary><p>MyFi tidak punya server. Nama jaringan, kata sandi, hasil baca foto, dan lokasi hanya diproses dan disimpan di perangkat Anda. Tanpa iklan atau pelacakan. App hanya mengirim statistik penggunaan anonim dan laporan galat ke Apple iCloud untuk perbaikan.</p></details>
+<details><summary>Bisa dipakai di perangkat apa?</summary><p>iPhone dengan iOS 17 atau lebih baru. App tersedia dalam 24 bahasa.</p></details></div>
+      <p class="contact">Ada pertanyaan atau masukan? Kirim ke <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Biasanya saya membalas dalam 2 sampai 3 hari.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Saat tamu berikutnya bertanya,<br>tunjukkan kode QR</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">Unduh gratis di App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Bahasa"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id" aria-current="page">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Kebijakan Privasi</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

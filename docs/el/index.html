@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="el">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: φωτογραφίστε την πινακίδα και συνδεθείτε, μοιραστείτε το Wi-Fi με QR</title>
+  <meta name="description" content="Φωτογραφίστε την πινακίδα Wi-Fi και το iPhone συνδέεται. Μοιραστείτε το δίκτυό σας με έναν κωδικό QR και τυπώστε πινακίδα επισκεπτών. Όλα δωρεάν.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/el/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi — Κοινή χρήση και σύνδεση σε Wi-Fi, απλά και εύκολα</title>
-  <meta name="description" content="Μοιραστείτε το Wi-Fi σας με έναν κωδικό QR, συνδεθείτε σε ένα δίκτυο φωτογραφίζοντας την πινακίδα του και δημιουργήστε πινακίδες Wi-Fi επισκεπτών για το κατάστημά σας. Μια εφαρμογή για iPhone.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Κοινή χρήση και σύνδεση σε Wi-Fi, απλά και εύκολα.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: φωτογραφίστε την πινακίδα και συνδεθείτε, μοιραστείτε το Wi-Fi με QR">
+  <meta property="og:description" content="Φωτογραφίστε την πινακίδα Wi-Fi και το iPhone συνδέεται. Μοιραστείτε το δίκτυό σας με έναν κωδικό QR και τυπώστε πινακίδα επισκεπτών. Όλα δωρεάν.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/el/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/el/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Κοινή χρήση και σύνδεση σε Wi-Fi, απλά και εύκολα</p>
-      <p class="tagline">Τέλος στο συλλάβισμα κωδικών. Ένας κωδικός QR αρκεί.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Δείτε τις δυνατότητες</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 ή νεότερο · iPhone</p>
-    </header>
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="bar">
+    <a class="brand" href="../el/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Γλώσσα</a>
+  </header>
 
-    <div class="card">
-      <h2>Φτιαγμένο για στιγμές σαν αυτές</h2>
-      <p>Λέτε φωναχτά τον κωδικό του Wi-Fi σε έναν επισκέπτη και εκείνος τον πληκτρολογεί λάθος. Αντιγράφετε τον κωδικό από την πινακίδα στον τοίχο της καφετέριας και σας ξεφεύγει ένα γράμμα.
-        Εξηγείτε τον ίδιο κωδικό ξανά και ξανά. Το MyFi τα μετατρέπει όλα αυτά σε έναν κωδικό QR και μία φωτογραφία.</p>
-    </div>
-
-    <h2 id="features">Δυνατότητες</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Μοιραστείτε το Wi-Fi σας με κωδικό QR</h3>
-        <p>Το MyFi αναγνωρίζει το όνομα του δικτύου στο οποίο είστε συνδεδεμένοι. Εισαγάγετε τον κωδικό πρόσβασης μία φορά και ένας τυπικός κωδικός QR για Wi-Fi
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>) είναι έτοιμος. Οι άλλοι απλώς <strong>στρέφουν την ενσωματωμένη κάμερα</strong> του iPhone ή του τηλεφώνου Android τους προς αυτόν για να συνδεθούν.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Μην υπαγορεύετε πια τον κωδικό.<br>Δείξτε έναν QR.</h1>
+        <p class="lead">Οι φίλοι στρέφουν απλώς την κάμερα και συνδέονται. Η πινακίδα στον τοίχο της καφετέριας; Μία φωτογραφία και το iPhone συνδέεται. Τέλος τα λάθη στην αντιγραφή.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">Δωρεάν στο App Store</a><a class="try" href="#try">Φτιάξτε τον κωδικό QR του Wi-Fi σας ↓</a></div>
+        <p class="muted small">Όλες οι λειτουργίες είναι δωρεάν. iPhone με iOS 17 ή νεότερο.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Φωτογραφίστε και συνδεθείτε</h3>
-        <p>Φωτογραφίστε την πινακίδα Wi-Fi σε μια καφετέρια ή σε ένα ενοικιαζόμενο κατάλυμα, ή επιλέξτε μια φωτογραφία από τη βιβλιοθήκη σας.
-          Η αναγνώριση κειμένου στη συσκευή συμπληρώνει το όνομα του δικτύου και τον κωδικό πρόσβασης. Αγγίξτε <strong>Σύνδεση αυτού του iPhone</strong> και είστε online.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Δημιουργήστε πινακίδα Wi-Fi για επισκέπτες</h3>
-        <p>Σχεδιάστε μια πινακίδα Wi-Fi για το κατάστημά σας με <strong>7 θέματα</strong>. Προσθέστε το όνομα και το λογότυπο του καταστήματος, επιλέξτε
-          <strong>κάρτα</strong> για οθόνες και μέσα κοινωνικής δικτύωσης ή κατακόρυφη <strong>αφίσα A4</strong> για εκτύπωση,
-          και αποθηκεύστε την ως εικόνα, μοιραστείτε την ή <strong>εκτυπώστε την αμέσως με AirPrint</strong>. Μπορείτε να κρατήσετε όσες πινακίδες θέλετε.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Widget στην Οθόνη Αφετηρίας</h3>
-        <p>Τοποθετήστε τον κωδικό QR ενός δικτύου Wi-Fi που χρησιμοποιείτε συχνά σε ένα widget της Οθόνης Αφετηρίας.
-          Όταν σας ρωτήσει κάποιος επισκέπτης, απλώς του δείχνετε την οθόνη. Δεν χρειάζεται να ανοίξετε την εφαρμογή.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Τα μέρη που επιστρέφετε έρχονται πρώτα</h3>
-        <p>Το MyFi θυμάται πού συνδεθήκατε ή πού μοιραστήκατε κάθε δίκτυο. Όταν επιστρέφετε στο ίδιο μέρος,
-          το δίκτυο αυτό ανεβαίνει στην κορυφή της λίστας. Μπορείτε επίσης να δείτε τα αποθηκευμένα μέρη σας σε χάρτη.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>Κωδικός QR και για το hotspot σας</h3>
-        <p>Το Προσωπικό hotspot του iPhone σας είναι το ίδιο το τηλέφωνό σας, γι’ αυτό δεν μπορεί να συνδεθεί σε αυτό.
-          Το MyFi επισημαίνει χωριστά τα hotspot και, αντί να προσπαθεί να συνδεθεί, δημιουργεί έναν <strong>κωδικό QR για να τον δώσετε σε άλλους</strong>.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/el/02-qr.jpg" alt="Μην υπαγορεύετε πια τον κωδικό. Δείξτε έναν QR." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Τα δεδομένα σας μένουν στη συσκευή σας</h2>
-      <p>Το MyFi δεν διαθέτει διακομιστή. Ονόματα και κωδικοί Wi-Fi, κείμενο που διαβάζεται από φωτογραφίες και τοποθεσίες επεξεργάζονται και αποθηκεύονται
-        <strong>μόνο στη συσκευή σας</strong> και δεν αποστέλλονται ποτέ πουθενά.
-        Δεν υπάρχουν διαφημίσεις, αναλύσεις τρίτων ή παρακολούθηση. Μόνο ανώνυμα στατιστικά χρήσης και αναφορές σφαλμάτων αποστέλλονται στο Apple iCloud για τη βελτίωση της εφαρμογής.</p>
-      <p><a href="privacy.html">Διαβάστε ολόκληρη την Πολιτική απορρήτου →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Καλό να γνωρίζετε</h2>
-      <ul>
-        <li>Για λόγους ασφάλειας, <strong>το iOS δεν επιτρέπει σε καμία εφαρμογή να διαβάζει τους κωδικούς Wi-Fi που είναι αποθηκευμένοι στη συσκευή σας.</strong>
-          Γι’ αυτό η κοινή χρήση λειτουργεί με τη λογική «το όνομα εντοπίζεται αυτόματα, ο κωδικός εισάγεται μία φορά». Από εκεί και πέρα, το MyFi χρησιμοποιεί τον αποθηκευμένο κωδικό.</li>
-        <li>Για τη σύνδεση σε δίκτυο απαιτείται <strong>πραγματικό iPhone</strong>. Ο iOS Simulator δεν μπορεί να συνδεθεί σε δίκτυα Wi-Fi.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Φτιάξτε τον κωδικό QR του Wi-Fi σας</h2>
+      <p class="muted">Αλλάξτε όνομα ή κωδικό και η πινακίδα αλλάζει αμέσως. Στρέψτε πάνω της την κάμερα ενός κινητού και θα εμφανιστεί πραγματικά η πρόταση σύνδεσης.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Φτιάξτε τον κωδικό QR του Wi-Fi σας&quot;, &quot;lead&quot;: &quot;Αλλάξτε όνομα ή κωδικό και η πινακίδα αλλάζει αμέσως. Στρέψτε πάνω της την κάμερα ενός κινητού και θα εμφανιστεί πραγματικά η πρόταση σύνδεσης.&quot;, &quot;ssidLabel&quot;: &quot;Όνομα δικτύου&quot;, &quot;pwLabel&quot;: &quot;Κωδικός (αφήστε κενό για ανοιχτό δίκτυο)&quot;, &quot;themeLabel&quot;: &quot;Σχέδιο&quot;, &quot;scan&quot;: &quot;Στρέψτε την κάμερα του κινητού σας στον κωδικό QR αριστερά.&quot;, &quot;note&quot;: &quot;Ό,τι πληκτρολογείτε μένει σε αυτό το πρόγραμμα περιήγησης και δεν στέλνεται πουθενά. Στην εφαρμογή προσθέτετε όνομα, λογότυπο και ωράριο του καταστήματος και το τυπώνετε ως αφίσα A4.&quot;, &quot;heading&quot;: &quot;Δωρεάν Wi-Fi&quot;, &quot;subtitle&quot;: &quot;Καλή σύνδεση&quot;, &quot;network&quot;: &quot;Δίκτυο&quot;, &quot;password&quot;: &quot;Κωδικός πρόσβασης&quot;, &quot;footer&quot;: &quot;Σαρώστε τον κωδικό QR με την κάμερα για αυτόματη σύνδεση&quot;, &quot;open&quot;: &quot;Κανένας (ανοιχτό δίκτυο)&quot;, &quot;themes&quot;: [&quot;Μεσάνυχτα&quot;, &quot;Ηλιοβασίλεμα&quot;, &quot;Μέντα&quot;, &quot;Ωκεανός&quot;, &quot;Δάσος&quot;, &quot;Καφέ&quot;, &quot;Μονόχρωμο&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Υποστήριξη / Βοήθεια</a>
-      <a class="btn secondary" href="privacy.html">Πολιτική απορρήτου</a>
-    </div>
+    <section class="problem reveal">
+      <h2>«Ποιος ήταν ο κωδικός του Wi-Fi;» Πόσες φορές σήμερα;</h2>
+      <p>Τον λέτε δυνατά και μπερδεύετε κεφαλαία με πεζά. Αντιγράφετε την πινακίδα από τον τοίχο και μπερδεύετε το 0 με το O. Και μετά τα εξηγείτε ξανά. Το MyFi τα κάνει όλα μία φωτογραφία και έναν κωδικό QR.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <strong>Ελληνικά</strong> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Μία φωτογραφία και συνδεθήκατε</h2>
+        <p>Φωτογραφίστε την πινακίδα Wi-Fi ή την απόδειξη, ή διαλέξτε μια εικόνα από τις Φωτογραφίες. Το MyFi διαβάζει όνομα δικτύου και κωδικό και συνδέει το iPhone. Αν η πινακίδα έχει και κωδικό QR, τον διαβάζει πρώτα, ώστε τα στοιχεία να είναι ακριβή.<br>Αν το κείμενο δεν είναι καθαρό, σύρετε ένα κομμάτι από τη φωτογραφία στο πεδίο του ονόματος ή του κωδικού.</p>
+      </div>
+      <div class="phone"><img src="../img/el/01-scan.jpg" alt="Μία φωτογραφία και συνδεθήκατε" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">Επικοινωνία</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Φτιάξτε και τυπώστε πινακίδα επισκεπτών</h2>
+        <p>Διαλέξτε ένα από τα 7 θέματα και προσθέστε όνομα, λογότυπο και γραμμές όπως το ωράριο. Επιλέξτε κάρτα ή κάθετη αφίσα A4, αποθηκεύστε την ως εικόνα ή τυπώστε την αμέσως με AirPrint.<br>Κρατήστε πολλές πινακίδες, μία για κάθε κατάστημα ή τραπέζι, και αλλάξτε τις όποτε θέλετε.</p>
+      </div>
+      <div class="phone"><img src="../img/el/03-poster-card.jpg" alt="Φτιάξτε και τυπώστε πινακίδα επισκεπτών" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Όπου επιστρέφετε, εμφανίζεται πρώτο</h2>
+        <p>Τα δίκτυα που συνδέεστε ή μοιράζεστε αποθηκεύονται μαζί με το μέρος. Όταν επιστρέφετε, εκείνο το δίκτυο είναι πρώτο στη λίστα, και όλα τα αποθηκευμένα μέρη φαίνονται σε χάρτη.<br>Βάλτε τον κωδικό QR του Wi-Fi που μοιράζεστε συχνότερα ως widget στην οθόνη Αφετηρίας ή στην οθόνη κλειδώματος. Όταν ρωτήσει ένας επισκέπτης, απλώς δείξτε την οθόνη.</p>
+      </div>
+      <div class="phone"><img src="../img/el/05-saved.jpg" alt="Όπου επιστρέφετε, εμφανίζεται πρώτο" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Ξεκινάτε σε τρία βήματα</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Ανοίξτε την εφαρμογή</h3><p>Ζητά μία φορά την τοποθεσία, γιατί το iOS δίνει το όνομα του τρέχοντος Wi-Fi μόνο σε εφαρμογές με αυτή την άδεια.</p></li>
+<li class="card"><span class="n">2</span><h3>Φωτογραφίστε ή πληκτρολογήστε</h3><p>Φωτογραφίστε μια πινακίδα ή γράψτε μία φορά τον κωδικό του δικού σας Wi-Fi.</p></li>
+<li class="card"><span class="n">3</span><h3>Συνδεθείτε ή δείξτε</h3><p>Συνδέστε αυτό το iPhone ή δείξτε τον κωδικό QR στην κάμερα του άλλου.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Πού θα το βρείτε</h2>
+      <div class="card table">
+        <dl><div><dt>Σύνδεση από φωτογραφία πινακίδας</dt><dd><code>Προσθήκη Wi-Fi</code>, μετά <code>Κάμερα</code> ή <code>Φωτογραφίες</code>, μετά <code>Σύνδεση αυτού του iPhone</code></dd></div><div><dt>Πληκτρολόγηση στοιχείων</dt><dd><code>Προσθήκη Wi-Fi</code>, μετά <code>Χειροκίνητη εισαγωγή</code></dd></div><div><dt>Μόνο δημιουργία κωδικού QR</dt><dd><code>Δημιουργία κωδικού QR χωρίς σύνδεση</code></dd></div><div><dt>Αποστολή του QR σε μήνυμα</dt><dd>Πατήστε ένα αποθηκευμένο δίκτυο, μετά <code>Κοινοποίηση εικόνας QR</code></dd></div><div><dt>Πινακίδα επισκεπτών</dt><dd>Πατήστε ένα αποθηκευμένο δίκτυο, μετά <code>Εκτύπωση ή κοινοποίηση πινακίδας επισκεπτών</code></dd></div><div><dt>Το hotspot σας ως QR</dt><dd>Πατήστε ένα αποθηκευμένο δίκτυο και ενεργοποιήστε το <code>Το hotspot μου</code></dd></div><div><dt>Σύνδεση ή κοινοποίηση με ένα σάρωμα</dt><dd>Στη λίστα σαρώστε δεξιά για σύνδεση, αριστερά για κοινοποίηση</dd></div><div><dt>Προβολή αποθηκευμένων μερών</dt><dd><code>Χάρτης</code>, δίπλα στα <code>Αποθηκευμένα δίκτυα</code></dd></div><div><dt>QR στην οθόνη Αφετηρίας</dt><dd>Αγγίξτε παρατεταμένα την οθόνη Αφετηρίας και προσθέστε το widget <code>QR Wi-Fi</code> του MyFi</dd></div></dl>
+      </div>
+      <p class="muted">Μπορείτε επίσης να ανοίξετε αμέσως τον κωδικό QR με το Siri ή την εφαρμογή Συντομεύσεις.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Όλες οι λειτουργίες είναι δωρεάν</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Δωρεάν</h3>
+          <ul><li>Σύνδεση σε Wi-Fi από φωτογραφία</li><li>Δημιουργία κωδικών QR και κοινοποίηση ως εικόνα</li><li>Πινακίδες επισκεπτών σε 7 θέματα, κάρτα ή αφίσα A4, εκτύπωση με AirPrint</li><li>Widget για οθόνη Αφετηρίας και οθόνη κλειδώματος</li><li>Χάρτης των αποθηκευμένων Wi-Fi</li><li>Χωρίς διαφημίσεις, χωρίς εγγραφή</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Φιλοδώρημα (προαιρετικό)</h3>
+          <ul><li>Αν σας αρέσει, μπορείτε να στηρίξετε την ανάπτυξη με ένα φιλοδώρημα</li><li>Το φιλοδώρημα δεν ξεκλειδώνει τίποτα. Και χωρίς αυτό έχετε όλες τις λειτουργίες</li></ul>
+          <p class="muted">Το φιλοδώρημα είναι μια μικρή εφάπαξ πληρωμή.</p>
+        </div>
+      </div>
+      <p class="muted">Χωρίς συνδρομές και χωρίς επί πληρωμή λειτουργίες.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Συχνές ερωτήσεις</h2>
+      <div class="faq"><details><summary>Γιατί πρέπει να γράψω μόνος τον κωδικό;</summary><p>Το iOS δεν επιτρέπει σε καμία εφαρμογή να διαβάσει τους κωδικούς Wi-Fi που είναι αποθηκευμένοι στη συσκευή. Γι’ αυτό το MyFi βρίσκει το όνομα του δικτύου και εσείς γράφετε τον κωδικό μία φορά. Μετά χρησιμοποιεί τον αποθηκευμένο.</p></details>
+<details><summary>Δεν βλέπω το όνομα του Wi-Fi όπου είμαι συνδεδεμένος.</summary><p>Το iOS δίνει το όνομα του Wi-Fi μόνο σε εφαρμογές με πρόσβαση στην τοποθεσία. Επιτρέψτε το MyFi στις Ρυθμίσεις › Απόρρητο και ασφάλεια › Υπηρεσίες τοποθεσίας. Η τοποθεσία χρησιμοποιείται μόνο για να διαβαστεί το όνομα του δικτύου και να αναγνωρίζονται τα μέρη όπου επιστρέφετε.</p></details>
+<details><summary>Το όνομα ή ο κωδικός διαβάστηκε λάθος.</summary><p>Πλησιάστε και φωτογραφίστε ίσια. Αν είναι ακόμα λάθος, σύρετε το σωστό κομμάτι από τη φωτογραφία στο πεδίο ή διορθώστε το με το χέρι. Αν η πινακίδα έχει κωδικό QR Wi-Fi, το MyFi τον διαβάζει και συμπληρώνει τα ακριβή στοιχεία.</p></details>
+<details><summary>Ποιες πινακίδες μπορεί να διαβάσει;</summary><p>Τα πάει καλύτερα με πινακίδες στα αγγλικά ή τα κορεατικά, με ετικέτες όπως ID, PW, SSID, Network ή Password. Ακόμα και χωρίς ετικέτες βρίσκει τη γραμμή που μοιάζει με κωδικό. Ο κωδικός QR Wi-Fi μιας πινακίδας διαβάζεται με ακρίβεια σε οποιαδήποτε γλώσσα.</p></details>
+<details><summary>Πώς συνδέεται κάποιος με τον κωδικό QR μου;</summary><p>Σε iPhone ή Android, αρκεί να στρέψει την ενσωματωμένη κάμερα στον κωδικό και να πατήσει την πρόταση σύνδεσης. Δεν χρειάζεται εφαρμογή.</p></details>
+<details><summary>Μπορούν άλλοι να δουν τον κωδικό μου;</summary><p>Ο κωδικός QR περιέχει τα συνηθισμένα στοιχεία σύνδεσης Wi-Fi. Εσείς αποφασίζετε πάντα αν θα τον μοιραστείτε, και στην πινακίδα επισκεπτών μπορείτε να κρύψετε τον κωδικό.</p></details>
+<details><summary>Γιατί δεν συνδέομαι στο δικό μου hotspot;</summary><p>Το Προσωπικό hotspot του iPhone είναι το ίδιο το κινητό, που δεν μπορεί να συνδεθεί στον εαυτό του. Ενεργοποιήστε το <code>Το hotspot μου</code> και το MyFi θα το χειρίζεται ως κωδικό QR για να τον δίνετε σε άλλους.</p></details>
+<details><summary>Πού πηγαίνουν τα στοιχεία του Wi-Fi μου;</summary><p>Το MyFi δεν έχει διακομιστή. Ονόματα δικτύων, κωδικοί, αποτελέσματα φωτογραφιών και τοποθεσίες επεξεργάζονται και αποθηκεύονται μόνο στη συσκευή σας. Χωρίς διαφημίσεις ή παρακολούθηση. Η εφαρμογή στέλνει στο Apple iCloud μόνο ανώνυμα στατιστικά χρήσης και αναφορές σφαλμάτων για να διορθώνεται.</p></details>
+<details><summary>Σε ποιες συσκευές λειτουργεί;</summary><p>Σε iPhone με iOS 17 ή νεότερο. Η εφαρμογή υπάρχει σε 24 γλώσσες.</p></details></div>
+      <p class="contact">Ερωτήσεις ή σχόλια; Γράψτε στο <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Συνήθως απαντώ μέσα σε 2 με 3 ημέρες.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Όταν ρωτήσει ο επόμενος επισκέπτης,<br>δείξτε του τον QR</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">Δωρεάν στο App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Γλώσσα"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el" aria-current="page">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Πολιτική απορρήτου</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

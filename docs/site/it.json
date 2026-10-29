@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: fotografa il cartello e ti connetti, condividi il Wi-Fi con un QR",
+  "description": "Fotografa il cartello del Wi-Fi e l’iPhone si connette. Condividi la tua rete con un codice QR e stampa un cartello per gli ospiti. Tutto gratis.",
+  "hero": {
+    "headline": "Basta dettare la password.\nMostra un codice QR.",
+    "lead": "Gli amici inquadrano con la fotocamera e sono connessi. Il cartello sul muro del bar? Una foto e questo iPhone si connette. Niente più errori a ricopiarla.",
+    "cta": "Scaricalo gratis dall’App Store",
+    "note": "Tutte le funzioni sono gratis. iPhone con iOS 17 o successivo."
+  },
+  "demo": {
+    "title": "Crea il codice QR del tuo Wi-Fi",
+    "lead": "Cambia nome o password e il cartello si aggiorna subito. Inquadralo con la fotocamera di un telefono e comparirà davvero la proposta di connessione.",
+    "ssidLabel": "Nome della rete",
+    "pwLabel": "Password (lascia vuoto per una rete aperta)",
+    "themeLabel": "Design",
+    "scan": "Inquadra il codice QR con la fotocamera del telefono.",
+    "note": "Quello che scrivi resta in questo browser e non viene inviato da nessuna parte. Nell’app aggiungi nome, logo e orari del locale e lo stampi come poster A4.",
+    "heading": "Wi-Fi gratuito",
+    "subtitle": "Buona connessione",
+    "network": "Rete",
+    "password": "Password",
+    "footer": "Inquadra il QR con la fotocamera per connetterti",
+    "open": "Nessuna (rete aperta)",
+    "themes": [
+      "Mezzanotte",
+      "Tramonto",
+      "Menta",
+      "Oceano",
+      "Foresta",
+      "Caffè",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "«Qual era la password del Wi-Fi?» Quante volte oggi?",
+    "text": "La detti e sbagli le maiuscole. Ricopi il cartello sul muro e confondi lo 0 con la O. Poi rispieghi tutto da capo. MyFi riduce tutto a una foto e a un codice QR."
+  },
+  "features": [
+    {
+      "title": "Una foto e sei connesso",
+      "text": "Fotografa il cartello del Wi-Fi o lo scontrino, oppure scegli un’immagine dalla libreria. MyFi legge nome della rete e password e connette questo iPhone. Se sul cartello c’è anche un codice QR, legge prima quello, così i dati sono esatti.\nSe il testo non è chiaro, trascina un pezzo estratto dalla foto nel campo del nome o della password.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Crea e stampa il cartello per gli ospiti",
+      "text": "Scegli uno dei 7 temi e aggiungi nome, logo e righe come gli orari di apertura. Scegli scheda o poster A4 verticale, salvalo come immagine o stampalo subito con AirPrint.\nTieni più cartelli, uno per locale o per tavolo, e modificali quando vuoi.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Dove torni, compare per primo",
+      "text": "Le reti a cui ti connetti o che condividi vengono salvate insieme al luogo. Quando torni, quella rete è in cima all’elenco, e tutti i luoghi salvati sono su una mappa.\nMetti il codice QR del Wi-Fi che condividi di più come widget nella schermata Home o nella schermata di blocco. Se un ospite chiede, basta mostrare lo schermo.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Si parte in tre passi",
+    "items": [
+      {
+        "title": "Apri l’app",
+        "text": "Chiede una volta l’accesso alla posizione, perché iOS rivela il nome del Wi-Fi attuale solo alle app che ce l’hanno."
+      },
+      {
+        "title": "Fotografa o scrivi",
+        "text": "Fai una foto al cartello o inserisci una sola volta la password del tuo Wi-Fi."
+      },
+      {
+        "title": "Connetti o mostra",
+        "text": "Connetti questo iPhone o mostra il codice QR alla fotocamera dell’altra persona."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Dove trovare cosa",
+    "rows": [
+      [
+        "Connettersi con la foto di un cartello",
+        "`Aggiungi Wi-Fi`, poi `Fotocamera` o `Libreria`, poi `Connetti questo iPhone`"
+      ],
+      [
+        "Inserire i dati a mano",
+        "`Aggiungi Wi-Fi`, poi `Inserisci a mano`"
+      ],
+      [
+        "Creare solo il codice QR",
+        "`Crea QR senza connettere`"
+      ],
+      [
+        "Mandare il codice QR in un messaggio",
+        "Tocca una rete salvata, poi `Condividi immagine del QR`"
+      ],
+      [
+        "Cartello per gli ospiti",
+        "Tocca una rete salvata, poi `Stampa o condividi il cartello per gli ospiti`"
+      ],
+      [
+        "Il tuo hotspot come QR",
+        "Tocca una rete salvata e attiva `Il mio hotspot`"
+      ],
+      [
+        "Connettere o condividere con un gesto",
+        "Nell’elenco scorri a destra per connetterti, a sinistra per condividere"
+      ],
+      [
+        "Vedere i luoghi salvati",
+        "`Mappa`, accanto a `Reti salvate`"
+      ],
+      [
+        "Il QR nella schermata Home",
+        "Tieni premuto sulla schermata Home e aggiungi il widget `QR Wi-Fi` di MyFi"
+      ]
+    ],
+    "note": "Puoi anche aprire subito il codice QR con Siri o con l’app Comandi Rapidi."
+  },
+  "pricing": {
+    "title": "Tutte le funzioni sono gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Connessione al Wi-Fi da una foto",
+        "Creazione di codici QR e condivisione come immagine",
+        "Cartelli per gli ospiti in 7 temi, scheda o poster A4, stampa con AirPrint",
+        "Widget per schermata Home e schermata di blocco",
+        "Mappa dei Wi-Fi salvati",
+        "Niente pubblicità, niente registrazione"
+      ]
+    },
+    "pro": {
+      "name": "Mancia (facoltativa)",
+      "items": [
+        "Se ti piace, puoi sostenere lo sviluppo con una mancia",
+        "La mancia non sblocca nulla. Anche senza hai tutte le funzioni"
+      ],
+      "note": "La mancia è un piccolo pagamento singolo."
+    },
+    "note": "Nessun abbonamento e nessuna funzione a pagamento."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Perché devo scrivere io la password?",
+        "a": "iOS non permette a nessuna app di leggere le password Wi-Fi salvate sul dispositivo. Per questo MyFi rileva il nome della rete e tu inserisci la password una sola volta. Poi usa quella salvata."
+      },
+      {
+        "q": "Non vedo il nome del Wi-Fi a cui sono connesso.",
+        "a": "iOS dà il nome del Wi-Fi solo alle app con accesso alla posizione. Consenti MyFi in Impostazioni › Privacy e sicurezza › Localizzazione. La posizione serve solo a leggere il nome della rete e a riconoscere i luoghi in cui torni."
+      },
+      {
+        "q": "Ha letto male il nome o la password.",
+        "a": "Avvicinati e scatta la foto dritta. Se ancora non va, trascina il pezzo giusto della foto nel campo o correggilo a mano. Se il cartello ha un codice QR del Wi-Fi, MyFi lo legge e compila i dati esatti."
+      },
+      {
+        "q": "Quali cartelli sa leggere?",
+        "a": "Va meglio con cartelli scritti in inglese o coreano, con etichette come ID, PW, SSID, Network o Password. Anche senza etichette trova la riga che sembra una password. Il codice QR del Wi-Fi su un cartello viene letto con esattezza in qualsiasi lingua."
+      },
+      {
+        "q": "Come si connette qualcuno con il mio codice QR?",
+        "a": "Su iPhone o Android basta inquadrare il codice con la fotocamera integrata e toccare la proposta di connessione. Non serve nessuna app."
+      },
+      {
+        "q": "Gli altri possono vedere la mia password?",
+        "a": "Il codice QR contiene i dati di accesso Wi-Fi standard. Decidi sempre tu se condividerlo, e sul cartello per gli ospiti puoi nascondere la password."
+      },
+      {
+        "q": "Perché non riesco a connettermi al mio hotspot?",
+        "a": "L’hotspot personale del tuo iPhone è il telefono stesso, che non può connettersi a sé. Attiva `Il mio hotspot` e MyFi lo tratta come un codice QR da dare agli altri."
+      },
+      {
+        "q": "Dove finiscono i miei dati Wi-Fi?",
+        "a": "MyFi non ha server. Nomi di rete, password, risultati delle foto e posizioni vengono elaborati e salvati solo sul tuo dispositivo. Niente pubblicità né tracciamento. L’app invia ad Apple iCloud solo statistiche d’uso anonime e segnalazioni di errore per poter essere migliorata."
+      },
+      {
+        "q": "Su quali dispositivi funziona?",
+        "a": "Su iPhone con iOS 17 o successivo. L’app è disponibile in 24 lingue."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Al prossimo ospite che chiede,\nmostra il codice QR",
+    "cta": "Scaricalo gratis dall’App Store"
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "languages": "Lingua",
+    "privacy": "Privacy",
+    "contact": "Domande o suggerimenti? Scrivi a {email}. Di solito rispondo entro 2 o 3 giorni."
+  }
+}

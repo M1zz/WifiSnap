@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: tabelayı çek ve bağlan, Wi-Fi’ını QR koduyla paylaş</title>
+  <meta name="description" content="Wi-Fi tabelasının fotoğrafını çek, iPhone hemen bağlansın. Kendi ağını tek bir QR koduyla paylaş, misafir tabelası bastır. Hepsi ücretsiz.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/tr/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi — Wi-Fi paylaşmanın ve bağlanmanın kolay yolu</title>
-  <meta name="description" content="Wi-Fi ağınızı QR kodla paylaşın, tabelasının fotoğrafını çekerek bir ağa bağlanın ve dükkânınız için misafir Wi-Fi tabelaları hazırlayın. Bir iPhone uygulaması.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Wi-Fi paylaşmanın ve bağlanmanın kolay yolu.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: tabelayı çek ve bağlan, Wi-Fi’ını QR koduyla paylaş">
+  <meta property="og:description" content="Wi-Fi tabelasının fotoğrafını çek, iPhone hemen bağlansın. Kendi ağını tek bir QR koduyla paylaş, misafir tabelası bastır. Hepsi ücretsiz.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/tr/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/tr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Wi-Fi paylaşmanın ve bağlanmanın kolay yolu</p>
-      <p class="tagline">Parolayı harf harf söylemeye son. Tek bir QR kod yeterli.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Özellikleri görün</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 veya üstü · iPhone</p>
-    </header>
+  <a class="skip" href="#main">İçeriğe geç</a>
+  <header class="bar">
+    <a class="brand" href="../tr/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Dil</a>
+  </header>
 
-    <div class="card">
-      <h2>Tam da bu anlar için</h2>
-      <p>Wi-Fi parolasını misafirinize okursunuz, o da yanlış yazar. Kafedeki duvarda asılı tabeladan parolayı kopyalarsınız, bir harfi yanlış çıkar.
-        Aynı parolayı tekrar tekrar anlatırsınız. MyFi bunların hepsini tek bir QR koda ve tek bir fotoğrafa dönüştürür.</p>
-    </div>
-
-    <h2 id="features">Özellikler</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Wi-Fi ağınızı QR kodla paylaşın</h3>
-        <p>MyFi bağlı olduğunuz ağın adını algılar. Parolayı bir kez girdiğinizde standart bir Wi-Fi QR kodu
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>) hazır olur. Başkalarının bağlanmak için tek yapması gereken, iPhone’larının veya Android telefonlarının <strong>yerleşik kamerasını koda tutmak</strong>.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Şifreyi tek tek okumaya son.<br>QR kodunu göster.</h1>
+        <p class="lead">Arkadaşların kamerayı tutması yeterli, hemen bağlanırlar. Kafenin duvarındaki tabela mı? Tek fotoğraf, bu iPhone bağlanır. Kopyalarken yazım hatası yok.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">App Store’dan ücretsiz indir</a><a class="try" href="#try">Wi-Fi’ın için QR kodu oluştur ↓</a></div>
+        <p class="muted small">Tüm özellikler ücretsiz. iOS 17 veya sonrası yüklü iPhone.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Çek ve bağlan</h3>
-        <p>Bir kafedeki ya da kiraladığınız evdeki Wi-Fi tabelasının fotoğrafını çekin veya arşivinizden bir fotoğraf seçin.
-          Aygıt üzerinde çalışan metin tanıma, ağ adını ve parolayı sizin yerinize doldurur. <strong>Bu iPhone’u bağla</strong> düğmesine dokunun, internete bağlandınız.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Misafir Wi-Fi tabelası hazırlayın</h3>
-        <p><strong>7 tema</strong> ile dükkânınıza özel bir Wi-Fi tabelası tasarlayın. Dükkânınızın adını ve logosunu ekleyin; ekranlar ve sosyal medya için
-          <strong>kart</strong> ya da baskı için dikey <strong>A4 poster</strong> seçin,
-          ardından görüntü olarak kaydedin, paylaşın veya <strong>AirPrint ile hemen yazdırın</strong>. İstediğiniz kadar tabela saklayabilirsiniz.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Ana Ekran widget’ı</h3>
-        <p>Sık kullandığınız Wi-Fi ağının QR kodunu Ana Ekran’daki bir widget’a yerleştirin.
-          Misafiriniz sorduğunda ekranı göstermeniz yeterli. Uygulamayı açmanıza gerek yok.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Sık gittiğiniz yerler önce gelir</h3>
-        <p>MyFi her ağa nerede bağlandığınızı veya onu nerede paylaştığınızı hatırlar. Aynı yere geri döndüğünüzde
-          o ağ listenin en üstüne çıkar. Kayıtlı yerlerinizi haritada da görebilirsiniz.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>Erişim noktanız için de QR kod</h3>
-        <p>iPhone’unuzun Kişisel Erişim Noktası telefonunuzun kendisidir; bu yüzden telefon kendi erişim noktasına bağlanamaz.
-          MyFi erişim noktalarını ayrıca işaretler ve bağlanmaya çalışmak yerine <strong>başkalarına vermek için bir QR kod</strong> oluşturur.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/tr/02-qr.jpg" alt="Şifreyi tek tek okumaya son. QR kodunu göster." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Verileriniz aygıtınızda kalır</h2>
-      <p>MyFi’ın bir sunucusu yoktur. Wi-Fi adları ve parolaları, fotoğraflardan okunan metinler ve konumlar
-        <strong>yalnızca aygıtınızda</strong> işlenip saklanır ve hiçbir yere gönderilmez.
-        Reklam, üçüncü taraf analiz ve izleme yoktur. Uygulamayı geliştirmeye yardımcı olması için Apple iCloud’a yalnızca anonim kullanım istatistikleri ve çökme raporları gönderilir.</p>
-      <p><a href="privacy.html">Gizlilik Politikası’nın tamamını okuyun →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Bilmeniz gerekenler</h2>
-      <ul>
-        <li>Güvenlik nedeniyle <strong>iOS, hiçbir uygulamanın aygıtınızda kayıtlı Wi-Fi parolalarını okumasına izin vermez.</strong>
-          Paylaşmanın “ad otomatik algılanır, parola bir kez girilir” şeklinde çalışmasının nedeni budur. Sonrasında MyFi kaydedilmiş parolayı kullanır.</li>
-        <li>Bir ağa bağlanmak için <strong>gerçek bir iPhone</strong> gerekir. iOS Simulator Wi-Fi ağlarına bağlanamaz.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Wi-Fi’ın için QR kodu oluştur</h2>
+      <p class="muted">Adı ya da şifreyi değiştir, tabela anında güncellensin. Bir telefonun kamerasını tut, gerçekten bağlanma önerisi çıkar.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Wi-Fi’ın için QR kodu oluştur&quot;, &quot;lead&quot;: &quot;Adı ya da şifreyi değiştir, tabela anında güncellensin. Bir telefonun kamerasını tut, gerçekten bağlanma önerisi çıkar.&quot;, &quot;ssidLabel&quot;: &quot;Ağ adı&quot;, &quot;pwLabel&quot;: &quot;Şifre (açık ağsa boş bırak)&quot;, &quot;themeLabel&quot;: &quot;Tasarım&quot;, &quot;scan&quot;: &quot;Telefonunun kamerasını soldaki QR koduna tut.&quot;, &quot;note&quot;: &quot;Yazdıkların bu tarayıcıda kalır, hiçbir yere gönderilmez. Uygulamada mekânının adını, logosunu ve çalışma saatlerini ekleyip A4 poster olarak yazdırabilirsin.&quot;, &quot;heading&quot;: &quot;Ücretsiz Wi-Fi&quot;, &quot;subtitle&quot;: &quot;Rahatça kullanın&quot;, &quot;network&quot;: &quot;Ağ&quot;, &quot;password&quot;: &quot;Şifre&quot;, &quot;footer&quot;: &quot;Bağlanmak için QR kodunu kamerayla tarayın&quot;, &quot;open&quot;: &quot;Yok (açık ağ)&quot;, &quot;themes&quot;: [&quot;Gece yarısı&quot;, &quot;Gün batımı&quot;, &quot;Nane&quot;, &quot;Okyanus&quot;, &quot;Orman&quot;, &quot;Kafe&quot;, &quot;Mono&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Destek / Yardım</a>
-      <a class="btn secondary" href="privacy.html">Gizlilik Politikası</a>
-    </div>
+    <section class="problem reveal">
+      <h2>“Wi-Fi şifresi neydi?” Bugün kaçıncı kez?</h2>
+      <p>Okurken büyük küçük harfi karıştırırsın. Duvardaki tabeladan kopyalarken 0 ile O’yu karıştırırsın. Sonra her şeyi yeniden anlatırsın. MyFi bunu tek fotoğraf ve tek QR koduna indirir.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <strong>Türkçe</strong></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Fotoğrafını çek, bağlan</h2>
+        <p>Wi-Fi tabelasının ya da fişin fotoğrafını çek veya fotoğraflardan seç. MyFi ağ adını ve şifreyi okuyup bu iPhone’u bağlar. Tabelada QR kodu da varsa önce onu okur, böylece bilgiler tam doğru olur.<br>Yazı net değilse fotoğraftan çıkarılan parçayı ad ya da şifre alanına sürüklemen yeterli.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/01-scan.jpg" alt="Fotoğrafını çek, bağlan" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">İletişim</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Misafir tabelası hazırla, yazdır</h2>
+        <p>7 temadan birini seç; mekân adını, logoyu ve çalışma saatleri gibi satırları ekle. Kart ya da dikey A4 poster seç, görsel olarak kaydet veya AirPrint ile hemen yazdır.<br>Her mekân ya da masa için ayrı tabelalar hazırla, istediğin zaman düzenle.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/03-poster-card.jpg" alt="Misafir tabelası hazırla, yazdır" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Döndüğün yerler en üstte</h2>
+        <p>Bağlandığın ya da paylaştığın ağlar o anki konumla birlikte kaydedilir. Aynı yere döndüğünde o ağ listenin en üstünde olur, kayıtlı tüm yerleri haritada da görürsün.<br>En çok paylaştığın Wi-Fi’ın QR kodunu Ana Ekran’a ya da Kilitli Ekran’a araç takımı olarak koy. Misafir sorunca ekranı göstermen yeter.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/05-saved.jpg" alt="Döndüğün yerler en üstte" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Üç adımda başla</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Uygulamayı aç</h3><p>Bir kez konum izni ister; çünkü iOS bağlı olduğun Wi-Fi’ın adını yalnızca bu izni olan uygulamalara söyler.</p></li>
+<li class="card"><span class="n">2</span><h3>Çek ya da yaz</h3><p>Bir tabelanın fotoğrafını çek ya da kendi Wi-Fi şifreni bir kez gir.</p></li>
+<li class="card"><span class="n">3</span><h3>Bağlan ya da göster</h3><p>Bu iPhone’u bağla ya da QR kodunu karşındakinin kamerasına göster.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Nerede ne var</h2>
+      <div class="card table">
+        <dl><div><dt>Tabela fotoğrafıyla bağlan</dt><dd><code>Wi-Fi ekle</code>, ardından <code>Kamera</code> veya <code>Fotoğraflar</code>, ardından <code>Bu iPhone’u bağla</code></dd></div><div><dt>Bilgileri kendin gir</dt><dd><code>Wi-Fi ekle</code>, ardından <code>Elle yaz</code></dd></div><div><dt>Yalnızca QR kodu oluştur</dt><dd><code>Bağlanmadan QR kodu oluştur</code></dd></div><div><dt>QR kodunu mesajla gönder</dt><dd>Kayıtlı bir ağa dokun, ardından <code>QR görselini paylaş</code></dd></div><div><dt>Misafir tabelası</dt><dd>Kayıtlı bir ağa dokun, ardından <code>Misafir tabelasını yazdır veya paylaş</code></dd></div><div><dt>Erişim noktanı QR koduna çevir</dt><dd>Kayıtlı bir ağa dokun ve <code>Kişisel erişim noktam</code> seçeneğini aç</dd></div><div><dt>Tek kaydırmayla bağlan ya da paylaş</dt><dd>Listede sağa kaydır bağlan, sola kaydır QR kodunu paylaş</dd></div><div><dt>Kayıtlı yerleri gör</dt><dd><code>Kayıtlı ağlar</code> yanındaki <code>Harita</code></dd></div><div><dt>QR kodu Ana Ekran’da</dt><dd>Ana Ekran’a basılı tut ve MyFi’ın <code>Wi-Fi QR</code> araç takımını ekle</dd></div></dl>
+      </div>
+      <p class="muted">QR kodunu Siri ya da Kestirmeler uygulamasıyla da hemen açabilirsin.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Tüm özellikler ücretsiz</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Ücretsiz</h3>
+          <ul><li>Fotoğraftan Wi-Fi’a bağlanma</li><li>QR kodu oluşturma ve görsel olarak paylaşma</li><li>7 temalı misafir tabelaları, kart ya da A4 poster, AirPrint ile yazdırma</li><li>Ana Ekran ve Kilitli Ekran araç takımları</li><li>Kayıtlı Wi-Fi haritası</li><li>Reklam yok, üyelik yok</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Bahşiş (isteğe bağlı)</h3>
+          <ul><li>Beğendiysen geliştirmeyi bahşişle destekleyebilirsin</li><li>Bahşiş hiçbir şeyin kilidini açmaz. Vermesen de tüm özellikleri kullanırsın</li></ul>
+          <p class="muted">Bahşiş, küçük ve tek seferlik bir ödemedir.</p>
+        </div>
+      </div>
+      <p class="muted">Abonelik yok, ücretli özellik yok.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Sık sorulan sorular</h2>
+      <div class="faq"><details><summary>Şifreyi neden kendim yazmam gerekiyor?</summary><p>iOS hiçbir uygulamanın cihazda kayıtlı Wi-Fi şifrelerini okumasına izin vermez. Bu yüzden MyFi ağ adını tanır, şifreyi ise bir kez yazarsın. Sonrasında kayıtlı olanı kullanır.</p></details>
+<details><summary>Bağlı olduğum Wi-Fi’ın adını göremiyorum.</summary><p>iOS, Wi-Fi adını yalnızca konum izni olan uygulamalara verir. Ayarlar › Gizlilik ve Güvenlik › Konum Servisleri’nden MyFi’a izin ver. Konum yalnızca ağ adını okumak ve döndüğün yerleri tanımak için kullanılır.</p></details>
+<details><summary>Ad ya da şifre yanlış okundu.</summary><p>Yaklaş ve düz çek. Hâlâ yanlışsa fotoğraftaki doğru parçayı alana sürükle ya da elle düzelt. Tabelada Wi-Fi QR kodu varsa MyFi onu okuyup bilgileri tam doğru doldurur.</p></details>
+<details><summary>Hangi tabelaları okuyabiliyor?</summary><p>En iyi; ID, PW, SSID, Network veya Password gibi etiketlerle İngilizce ya da Korece yazılmış tabelaları okur. Etiket olmasa bile şifreye benzeyen satırı bulur. Tabeladaki Wi-Fi QR kodu hangi dilde olursa olsun tam doğru okunur.</p></details>
+<details><summary>Biri QR kodumla nasıl bağlanır?</summary><p>iPhone’da da Android’de de yerleşik kamerayı koda tutup bağlanma önerisine dokunması yeterli. Hiçbir uygulamaya gerek yok.</p></details>
+<details><summary>Başkaları şifremi görebilir mi?</summary><p>QR kodu standart Wi-Fi giriş bilgilerini içerir. Paylaşıp paylaşmamaya her zaman sen karar verirsin; misafir tabelasında şifreyi gizleyebilirsin de.</p></details>
+<details><summary>Kendi erişim noktama neden bağlanamıyorum?</summary><p>iPhone’unun Kişisel Erişim Noktası telefonun kendisidir, kendine bağlanamaz. <code>Kişisel erişim noktam</code> seçeneğini açarsan MyFi onu başkalarına verilecek bir QR kodu olarak ele alır.</p></details>
+<details><summary>Wi-Fi bilgilerim nereye gidiyor?</summary><p>MyFi’ın sunucusu yok. Ağ adları, şifreler, fotoğraf okuma sonuçları ve konumlar yalnızca cihazında işlenir ve saklanır. Reklam ya da izleme yok. Uygulama Apple iCloud’a yalnızca anonim kullanım istatistikleri ve hata raporları gönderir, böylece düzeltilebilir.</p></details>
+<details><summary>Hangi aygıtlarda çalışır?</summary><p>iOS 17 veya sonrası yüklü iPhone’da. Uygulama 24 dilde kullanılabilir.</p></details></div>
+      <p class="contact">Soru ya da önerin mi var? <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> adresine yaz. Genellikle 2 ila 3 gün içinde yanıt veririm.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Sıradaki misafir sorduğunda<br>QR kodunu göster</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">App Store’dan ücretsiz indir</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Dil"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav>
+    <p><a href="privacy.html">Gizlilik Politikası</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

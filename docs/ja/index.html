@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi：撮るだけで接続、QRコードで共有できるWi-Fiアプリ</title>
+  <meta name="description" content="Wi-Fiの案内を撮影するとすぐ接続。自分のWi-FiはQRコード1枚で共有でき、お客様用の案内ボードも作って印刷できます。すべて無料です。">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/ja/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi — Wi-Fiをもっと手軽に共有・接続</title>
-  <meta name="description" content="Wi-FiをQRコードで共有したり、案内の貼り紙を撮影するだけで接続したり、お店用のゲストWi-Fi案内ボードを作ったりできるiPhoneアプリです。">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Wi-Fiをもっと手軽に共有・接続。">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi：撮るだけで接続、QRコードで共有できるWi-Fiアプリ">
+  <meta property="og:description" content="Wi-Fiの案内を撮影するとすぐ接続。自分のWi-FiはQRコード1枚で共有でき、お客様用の案内ボードも作って印刷できます。すべて無料です。">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/ja/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/ja/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Wi-Fiをもっと手軽に共有・接続</p>
-      <p class="tagline">パスワードを一文字ずつ伝える必要はもうありません。QRコードひとつで完了です。</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">機能を見る</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0以降 · iPhone</p>
-    </header>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="bar">
+    <a class="brand" href="../ja/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">言語</a>
+  </header>
 
-    <div class="card">
-      <h2>こんなとき、ありませんか</h2>
-      <p>来客にWi-Fiのパスワードを読み上げたのに、入力ミスでつながらない。カフェの壁に貼られたパスワードを書き写したら、一文字だけ間違えていた。
-        同じパスワードを何度も説明している。MyFiなら、そのすべてがQRコードひとつ、写真1枚で片付きます。</p>
-    </div>
-
-    <h2 id="features">主な機能</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Wi-FiをQRコードで共有</h3>
-        <p>接続中のネットワーク名をMyFiが自動で取得します。パスワードを一度入力するだけで、標準形式のWi-Fi QRコード
-          （<code>WIFI:S:…;T:WPA;P:…;;</code>）が完成。相手はiPhoneやAndroidの<strong>標準カメラをかざすだけ</strong>で接続できます。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>パスワードを読み上げるより、<br>QRコードを1枚</h1>
+        <p class="lead">相手はカメラをかざすだけで接続できます。カフェの壁の案内は写真を1枚撮ればこのiPhoneがつながります。書き写して打ち間違えることもなくなります。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">App Storeで無料ダウンロード</a><a class="try" href="#try">自分のWi-FiのQRコードを作ってみる ↓</a></div>
+        <p class="muted small">すべての機能が無料です。iOS 17以降のiPhoneに対応。</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>撮るだけで接続</h3>
-        <p>カフェや宿泊先に貼られたWi-Fi案内を撮影するか、写真ライブラリから画像を選びます。
-          デバイス上の文字認識がネットワーク名とパスワードを自動入力。<strong>このiPhoneを接続</strong>をタップすれば、すぐにインターネットにつながります。</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>ゲストWi-Fiの案内ボードを作成</h3>
-        <p><strong>7種類のテーマ</strong>から、お店用のWi-Fi案内ボードをデザインできます。店名やロゴを入れ、画面表示やSNS向けの
-          <strong>カード</strong>か、印刷向けの縦型<strong>A4ポスター</strong>を選択。
-          画像として保存・共有するほか、<strong>AirPrintでそのまま印刷</strong>することもできます。案内ボードはいくつでも保存できます。</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>ホーム画面ウィジェット</h3>
-        <p>よく使うWi-FiのQRコードをホーム画面のウィジェットに置いておけます。
-          来客に聞かれたら、画面を見せるだけ。アプリを開く必要もありません。</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>よく行く場所のWi-Fiを優先表示</h3>
-        <p>MyFiは、各ネットワークに接続・共有した場所を記憶します。同じ場所に戻ってくると、
-          そのネットワークがリストの一番上に表示されます。保存した場所は地図でも確認できます。</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>インターネット共有にもQRコード</h3>
-        <p>iPhoneのインターネット共有はそのiPhone自身が発信しているため、同じiPhoneから接続することはできません。
-          MyFiはインターネット共有を区別して表示し、接続を試みる代わりに<strong>相手に見せるためのQRコード</strong>を作成します。</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/ja/02-qr.jpg" alt="パスワードを読み上げるより、 QRコードを1枚" width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>データはお使いのデバイスの中だけに</h2>
-      <p>MyFiにはサーバがありません。Wi-Fiの名前やパスワード、写真から読み取った文字、位置情報は
-        <strong>すべてデバイス上でのみ</strong>処理・保存され、外部に送信されることはありません。
-        広告、第三者による解析、トラッキングも一切ありません。アプリの改善のため、匿名の利用統計とクラッシュレポートのみをApple iCloudに送信します。</p>
-      <p><a href="privacy.html">プライバシーポリシーの全文を読む →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>ご利用にあたって</h2>
-      <ul>
-        <li>セキュリティ上の理由から、<strong>iOSではどのアプリもデバイスに保存されたWi-Fiパスワードを読み取ることができません。</strong>
-          そのため共有は「ネットワーク名は自動取得、パスワードは最初に一度だけ入力」という流れになります。2回目以降は、保存したパスワードを使用します。</li>
-        <li>ネットワークへの接続には<strong>実機のiPhone</strong>が必要です。iOSシミュレータではWi-Fiに接続できません。</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>自分のWi-FiのQRコードを作ってみる</h2>
+      <p class="muted">名前やパスワードを変えると、案内ボードがその場で変わります。スマートフォンのカメラをかざすと、本当に接続の案内が表示されます。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;自分のWi-FiのQRコードを作ってみる&quot;, &quot;lead&quot;: &quot;名前やパスワードを変えると、案内ボードがその場で変わります。スマートフォンのカメラをかざすと、本当に接続の案内が表示されます。&quot;, &quot;ssidLabel&quot;: &quot;Wi-Fiの名前&quot;, &quot;pwLabel&quot;: &quot;パスワード（なければ空欄のまま）&quot;, &quot;themeLabel&quot;: &quot;デザイン&quot;, &quot;scan&quot;: &quot;スマートフォンのカメラで左のQRコードを読み取ってみてください。&quot;, &quot;note&quot;: &quot;入力した内容はこのブラウザの中だけで使い、どこにも送信しません。アプリでは店名やロゴ、営業時間などを加えて、A4ポスターとして印刷できます。&quot;, &quot;heading&quot;: &quot;無料Wi-Fi&quot;, &quot;subtitle&quot;: &quot;ご自由にご利用ください&quot;, &quot;network&quot;: &quot;ネットワーク&quot;, &quot;password&quot;: &quot;パスワード&quot;, &quot;footer&quot;: &quot;カメラでQRコードを読み取ると自動で接続&quot;, &quot;open&quot;: &quot;なし(オープン)&quot;, &quot;themes&quot;: [&quot;ミッドナイト&quot;, &quot;サンセット&quot;, &quot;ミント&quot;, &quot;オーシャン&quot;, &quot;フォレスト&quot;, &quot;カフェ&quot;, &quot;モノ&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">サポート / ヘルプ</a>
-      <a class="btn secondary" href="privacy.html">プライバシーポリシー</a>
-    </div>
+    <section class="problem reveal">
+      <h2>「Wi-Fiのパスワードは？」今日は何回目ですか？</h2>
+      <p>読み上げれば大文字と小文字を間違え、壁の案内を書き写せば0とOを取り違え、また同じ説明を繰り返す。MyFiなら、その手間が写真1枚とQRコード1枚で済みます。</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <strong>日本語</strong> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>撮るだけでつながる</h2>
+        <p>壁に貼られたWi-Fiの案内やレシートを撮影するか、写真から選ぶと、ネットワーク名とパスワードを読み取ってこのiPhoneを接続します。案内にQRコードがあれば文字より先にそれを読むので正確です。<br>読み取りが怪しいときは、写真から抜き出した文字を名前やパスワードの欄にドラッグするだけです。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/01-scan.jpg" alt="撮るだけでつながる" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">お問い合わせ</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>お客様用の案内ボードを作って印刷</h2>
+        <p>7つのテーマから選び、店名やロゴ、営業時間などを入れます。カード型とA4縦のポスターから選び、画像で保存するかAirPrintですぐに印刷できます。<br>お店ごと、席ごとに違う案内ボードを何枚でも作っておき、いつでも直せます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/03-poster-card.jpg" alt="お客様用の案内ボードを作って印刷" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>また来た場所はいちばん上に</h2>
+        <p>接続したり共有したりしたWi-Fiは、そのときの場所と一緒に保存されます。同じ場所に戻ると、そこのWi-Fiをいちばん上に表示し、保存した場所は地図でも見られます。<br>よく使うWi-FiはQRコードにしてホーム画面やロック画面のウィジェットに置いておけば、聞かれたら画面を見せるだけです。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/05-saved.jpg" alt="また来た場所はいちばん上に" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>使い始めは3ステップ</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>アプリを開く</h3><p>いま接続中のWi-Fi名を知るために、最初に一度だけ位置情報の許可を求めます。</p></li>
+<li class="card"><span class="n">2</span><h3>撮るか入力する</h3><p>案内を撮影するか、自分のWi-Fiのパスワードを一度だけ入力します。</p></li>
+<li class="card"><span class="n">3</span><h3>接続するか見せる</h3><p>このiPhoneを接続するか、QRコードを表示して相手のカメラに見せれば完了です。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>どこで操作するか</h2>
+      <div class="card table">
+        <dl><div><dt>案内の写真から接続</dt><dd><code>Wi-Fiを追加</code>で<code>撮影</code>か<code>写真</code>、続けて<code>このiPhoneを接続</code></dd></div><div><dt>手で入力して接続</dt><dd><code>Wi-Fiを追加</code>で<code>手入力</code></dd></div><div><dt>接続せずQRコードだけ作る</dt><dd><code>接続せずにQRコードを作成</code></dd></div><div><dt>QRコードをメッセージで送る</dt><dd>保存したWi-Fiをタップして<code>QR画像を共有</code></dd></div><div><dt>お客様用の案内ボード</dt><dd>保存したWi-Fiをタップして<code>お客様用案内ボードを印刷・共有</code></dd></div><div><dt>自分のホットスポットをQRコードに</dt><dd>保存したWi-Fiをタップして<code>マイホットスポット</code>をオン</dd></div><div><dt>すばやく接続・共有</dt><dd>一覧で右にスワイプすると接続、左にスワイプするとQRコードを共有</dd></div><div><dt>保存した場所を見る</dt><dd><code>保存済みネットワーク</code>の横の<code>マップ</code></dd></div><div><dt>ホーム画面にQRコードを置く</dt><dd>ホーム画面を長押しして、MyFiの<code>Wi-Fi QR</code>ウィジェットを追加</dd></div></dl>
+      </div>
+      <p class="muted">SiriやショートカットからもQRコードをすぐに開けます。</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>すべての機能が無料です</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>無料</h3>
+          <ul><li>写真からWi-Fiに接続</li><li>QRコードの作成と画像での共有</li><li>お客様用案内ボード：7つのテーマ、カード型とA4ポスター、AirPrintで印刷</li><li>ホーム画面とロック画面のウィジェット</li><li>保存したWi-Fiの地図</li><li>広告なし、会員登録なし</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>応援する（任意）</h3>
+          <ul><li>気に入ったら、チップで開発を応援できます</li><li>チップで機能が増えることはありません。払わなくてもすべての機能を使えます</li></ul>
+          <p class="muted">チップは1回ごとの少額の支払いです。</p>
+        </div>
+      </div>
+      <p class="muted">サブスクリプションも有料機能もありません。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>よくある質問</h2>
+      <div class="faq"><details><summary>なぜパスワードを自分で入力するのですか？</summary><p>iOSのセキュリティ上、どのアプリもデバイスに保存されたWi-Fiのパスワードを読むことはできません。そのため名前は自動で取得し、パスワードは最初に一度だけ入力します。次からは保存した値を使います。</p></details>
+<details><summary>接続中のWi-Fiの名前が表示されません。</summary><p>iOSは位置情報の許可があるアプリにだけWi-Fi名を渡します。設定 › プライバシーとセキュリティ › 位置情報サービスでMyFiを許可してください。位置情報はWi-Fi名の取得と、また来た場所を見分けることにしか使いません。</p></details>
+<details><summary>写真の名前やパスワードが正しく読み取れません。</summary><p>近づいてまっすぐ撮ると読み取りやすくなります。それでも違うときは、写真から抜き出した文字を正しい欄にドラッグするか、手で直してください。案内にWi-FiのQRコードがあれば、そのQRコードを読んで正確に入力します。</p></details>
+<details><summary>どんな案内を読み取れますか？</summary><p>ID、PW、SSID、Network、Passwordなど、英語か韓国語で書かれた案内がいちばん得意です。ラベルがなくても、パスワードらしい行を見つけ出します。案内にあるWi-FiのQRコードは、何語でも正確に読み取ります。</p></details>
+<details><summary>QRコードを受け取った人はどう接続しますか？</summary><p>iPhoneでもAndroidでも、標準のカメラでQRコードを読み取れば接続の案内が出ます。アプリを入れる必要はありません。</p></details>
+<details><summary>ほかの人にパスワードを見られますか？</summary><p>QRコードには標準のWi-Fi接続情報が入っています。共有するかどうかは毎回自分で選べ、案内ボードではパスワードを非表示にもできます。</p></details>
+<details><summary>自分のホットスポットに接続できないのはなぜ？</summary><p>iPhoneのインターネット共有は、そのiPhone自体がルーターなので自分にはつなげません。<code>マイホットスポット</code>をオンにすると、接続ではなく人に渡すQRコードとして扱います。</p></details>
+<details><summary>Wi-Fiの情報はどこへ送られますか？</summary><p>MyFiにはサーバーがありません。Wi-Fiの名前とパスワード、写真の読み取り結果、位置情報はすべてデバイスの中だけで処理・保存します。広告や追跡ツールは使わず、アプリの改善のための匿名の利用統計とエラー報告だけをApple iCloudに送ります。</p></details>
+<details><summary>どのデバイスで使えますか？</summary><p>iOS 17以降のiPhoneで使えます。アプリは24の言語に対応しています。</p></details></div>
+      <p class="contact">ご質問やご意見は<a href="mailto:leeo@kakao.com">leeo@kakao.com</a>までお送りください。通常2〜3日以内にお返事します。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>次にお客様に聞かれたら、<br>QRコードを見せましょう</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">App Storeで無料ダウンロード</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="言語"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

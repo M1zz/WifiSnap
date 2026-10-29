@@ -1,0 +1,188 @@
+{
+  "title": "MyFi : photographiez l’affichette pour vous connecter, partagez le Wi-Fi par QR code",
+  "description": "Photographiez l’affichette Wi-Fi et l’iPhone se connecte. Partagez votre réseau avec un QR code et imprimez une affichette invités. Tout est gratuit.",
+  "hero": {
+    "headline": "Ne dictez plus le mot de passe.\nMontrez un QR code.",
+    "lead": "Vos amis visent le code avec l’appareil photo et ils sont connectés. L’affichette au mur du café ? Une photo, et cet iPhone se connecte. Fini les fautes de frappe en recopiant.",
+    "cta": "Télécharger gratuitement sur l’App Store",
+    "note": "Toutes les fonctions sont gratuites. iPhone sous iOS 17 ou ultérieur."
+  },
+  "demo": {
+    "title": "Créez le QR code de votre Wi-Fi",
+    "lead": "Changez le nom ou le mot de passe, l’affichette se met à jour aussitôt. Visez-la avec l’appareil photo d’un téléphone : la proposition de connexion s’affiche pour de vrai.",
+    "ssidLabel": "Nom du réseau",
+    "pwLabel": "Mot de passe (laissez vide pour un réseau ouvert)",
+    "themeLabel": "Style",
+    "scan": "Visez le QR code avec l’appareil photo de votre téléphone.",
+    "note": "Ce que vous saisissez reste dans ce navigateur et n’est envoyé nulle part. Dans l’app, ajoutez le nom, le logo et les horaires de votre établissement, puis imprimez une affiche A4.",
+    "heading": "Wi-Fi gratuit",
+    "subtitle": "Bon séjour",
+    "network": "Réseau",
+    "password": "Mot de passe",
+    "footer": "Scannez le QR code avec l’appareil photo pour vous connecter",
+    "open": "Aucun (réseau ouvert)",
+    "themes": [
+      "Minuit",
+      "Coucher de soleil",
+      "Menthe",
+      "Océan",
+      "Forêt",
+      "Café",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "« C’est quoi le mot de passe du Wi-Fi ? » Combien de fois aujourd’hui ?",
+    "text": "Vous le dictez et vous vous trompez de majuscules. Vous recopiez l’affichette au mur et confondez 0 et O. Puis vous réexpliquez tout. MyFi remplace tout ça par une photo et un QR code."
+  },
+  "features": [
+    {
+      "title": "Une photo, et c’est connecté",
+      "text": "Photographiez l’affichette Wi-Fi ou le ticket de caisse, ou choisissez une image dans la photothèque. MyFi lit le nom du réseau et le mot de passe et connecte cet iPhone. Si l’affichette porte aussi un QR code, il le lit en premier pour des informations exactes.\nSi le texte est flou, faites glisser un morceau tiré de la photo dans le champ du nom ou du mot de passe.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Créez et imprimez l’affichette invités",
+      "text": "Choisissez l’un des 7 thèmes et ajoutez le nom, le logo et des lignes comme les horaires d’ouverture. Optez pour une carte ou une affiche A4 portrait, enregistrez-la en image ou imprimez-la directement avec AirPrint.\nGardez plusieurs affichettes, une par établissement ou par table, et modifiez-les quand vous voulez.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Les lieux où vous revenez passent en tête",
+      "text": "Les réseaux auxquels vous vous connectez ou que vous partagez sont enregistrés avec le lieu. Revenez-y et ce réseau apparaît en haut de la liste ; tous les lieux enregistrés sont aussi sur un plan.\nPlacez le QR code de votre Wi-Fi le plus partagé en widget sur l’écran d’accueil ou l’écran verrouillé. Quand un invité demande, montrez simplement l’écran.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Trois étapes pour commencer",
+    "items": [
+      {
+        "title": "Ouvrez l’app",
+        "text": "Elle demande une fois l’accès à la position, car iOS ne donne le nom du Wi-Fi actuel qu’aux apps qui l’ont."
+      },
+      {
+        "title": "Photographiez ou saisissez",
+        "text": "Prenez l’affichette en photo, ou saisissez une seule fois le mot de passe de votre Wi-Fi."
+      },
+      {
+        "title": "Connectez ou montrez",
+        "text": "Connectez cet iPhone, ou affichez le QR code devant l’appareil photo de l’autre personne."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Où trouver quoi",
+    "rows": [
+      [
+        "Se connecter avec la photo d’une affichette",
+        "`Ajouter un réseau Wi-Fi`, puis `Photo` ou `Photothèque`, puis `Connecter cet iPhone`"
+      ],
+      [
+        "Saisir les informations",
+        "`Ajouter un réseau Wi-Fi`, puis `Saisie manuelle`"
+      ],
+      [
+        "Créer seulement un QR code",
+        "`Créer le QR code sans connexion`"
+      ],
+      [
+        "Envoyer le QR code par message",
+        "Touchez un réseau enregistré, puis `Partager l’image du QR code`"
+      ],
+      [
+        "Affichette invités",
+        "Touchez un réseau enregistré, puis `Imprimer ou partager l’affichette invités`"
+      ],
+      [
+        "Partager son partage de connexion en QR code",
+        "Touchez un réseau enregistré et activez `Mon point d’accès`"
+      ],
+      [
+        "Se connecter ou partager d’un geste",
+        "Dans la liste, balayez vers la droite pour vous connecter, vers la gauche pour partager"
+      ],
+      [
+        "Voir les lieux enregistrés",
+        "`Plan`, à côté de `Réseaux enregistrés`"
+      ],
+      [
+        "QR code sur l’écran d’accueil",
+        "Maintenez le doigt sur l’écran d’accueil et ajoutez le widget `QR Wi-Fi` de MyFi"
+      ]
+    ],
+    "note": "Vous pouvez aussi ouvrir le QR code directement avec Siri ou l’app Raccourcis."
+  },
+  "pricing": {
+    "title": "Toutes les fonctions sont gratuites",
+    "free": {
+      "name": "Gratuit",
+      "items": [
+        "Connexion au Wi-Fi à partir d’une photo",
+        "Création de QR codes et partage en image",
+        "Affichettes invités en 7 thèmes, carte ou affiche A4, impression AirPrint",
+        "Widgets pour l’écran d’accueil et l’écran verrouillé",
+        "Plan de vos Wi-Fi enregistrés",
+        "Sans publicité, sans inscription"
+      ]
+    },
+    "pro": {
+      "name": "Pourboire (facultatif)",
+      "items": [
+        "Si l’app vous plaît, vous pouvez soutenir son développement avec un pourboire",
+        "Le pourboire ne débloque rien. Sans lui, vous avez toutes les fonctions"
+      ],
+      "note": "Un pourboire est un petit paiement unique."
+    },
+    "note": "Pas d’abonnement, aucune fonction payante."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Pourquoi dois-je saisir mon mot de passe ?",
+        "a": "iOS ne laisse aucune app lire les mots de passe Wi-Fi enregistrés sur l’appareil. MyFi détecte donc le nom du réseau et vous saisissez le mot de passe une seule fois. Ensuite, l’app utilise celui qui est enregistré."
+      },
+      {
+        "q": "Le nom du Wi-Fi actuel ne s’affiche pas.",
+        "a": "iOS ne donne le nom du Wi-Fi qu’aux apps ayant accès à la position. Autorisez MyFi dans Réglages › Confidentialité et sécurité › Service de localisation. La position sert uniquement à lire le nom du réseau et à reconnaître les lieux où vous revenez."
+      },
+      {
+        "q": "Le nom ou le mot de passe a été mal lu.",
+        "a": "Rapprochez-vous et prenez la photo bien droite. Si ce n’est toujours pas bon, faites glisser le bon morceau de la photo dans le champ ou corrigez-le à la main. Si l’affichette porte un QR code Wi-Fi, MyFi le lit et remplit les informations exactes."
+      },
+      {
+        "q": "Quelles affichettes sait-il lire ?",
+        "a": "Il lit le mieux les affichettes rédigées en anglais ou en coréen, avec des libellés comme ID, PW, SSID, Network ou Password. Même sans libellé, il repère la ligne qui ressemble à un mot de passe. Un QR code Wi-Fi sur l’affichette est lu exactement, quelle que soit la langue."
+      },
+      {
+        "q": "Comment quelqu’un se connecte-t-il avec mon QR code ?",
+        "a": "Sur iPhone comme sur Android, il suffit de viser le code avec l’appareil photo intégré et de toucher la proposition de connexion. Aucune app n’est nécessaire."
+      },
+      {
+        "q": "Les autres peuvent-ils voir mon mot de passe ?",
+        "a": "Le QR code contient les informations de connexion Wi-Fi standard. C’est toujours vous qui décidez de partager, et vous pouvez masquer le mot de passe sur l’affichette invités."
+      },
+      {
+        "q": "Pourquoi ne puis-je pas me connecter à mon propre partage de connexion ?",
+        "a": "Le partage de connexion de votre iPhone, c’est ce téléphone lui-même : il ne peut pas se connecter à lui-même. Activez `Mon point d’accès` et MyFi le traite comme un QR code à donner aux autres."
+      },
+      {
+        "q": "Où vont mes informations Wi-Fi ?",
+        "a": "MyFi n’a pas de serveur. Noms de réseau, mots de passe, résultats de lecture des photos et positions sont traités et stockés uniquement sur votre appareil. Ni publicité ni pistage. L’app envoie seulement des statistiques d’utilisation anonymes et des rapports d’erreur à Apple iCloud pour être corrigée."
+      },
+      {
+        "q": "Sur quels appareils fonctionne-t-il ?",
+        "a": "Sur iPhone sous iOS 17 ou ultérieur. L’app existe en 24 langues."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Au prochain invité qui demande,\nmontrez le QR code",
+    "cta": "Télécharger gratuitement sur l’App Store"
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "languages": "Langue",
+    "privacy": "Confidentialité",
+    "contact": "Une question, une remarque ? Écrivez à {email}. Je réponds en général sous 2 à 3 jours."
+  }
+}

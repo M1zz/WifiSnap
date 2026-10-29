@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: chụp bảng là kết nối, chia sẻ Wi-Fi bằng mã QR</title>
+  <meta name="description" content="Chụp bảng Wi-Fi là iPhone kết nối ngay. Chia sẻ Wi-Fi của bạn bằng một mã QR và in bảng dành cho khách. Mọi tính năng đều miễn phí.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/vi/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi — Chia sẻ và kết nối Wi-Fi thật dễ dàng</title>
-  <meta name="description" content="Chia sẻ Wi-Fi bằng mã QR, kết nối mạng chỉ bằng cách chụp ảnh bảng thông tin, và tạo bảng Wi-Fi cho khách đến cửa hàng của bạn. Ứng dụng dành cho iPhone.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Chia sẻ và kết nối Wi-Fi thật dễ dàng.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: chụp bảng là kết nối, chia sẻ Wi-Fi bằng mã QR">
+  <meta property="og:description" content="Chụp bảng Wi-Fi là iPhone kết nối ngay. Chia sẻ Wi-Fi của bạn bằng một mã QR và in bảng dành cho khách. Mọi tính năng đều miễn phí.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Chia sẻ và kết nối Wi-Fi thật dễ dàng</p>
-      <p class="tagline">Không cần đánh vần mật khẩu nữa. Một mã QR là xong.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Xem các tính năng</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 trở lên · iPhone</p>
-    </header>
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
+  </header>
 
-    <div class="card">
-      <h2>Dành cho những lúc như thế này</h2>
-      <p>Bạn đọc mật khẩu Wi-Fi cho khách nghe, rồi khách lại gõ sai. Bạn chép mật khẩu từ tấm bảng dán trên tường quán cà phê và sai mất một ký tự.
-        Bạn phải giải thích cùng một mật khẩu hết lần này đến lần khác. MyFi gói gọn tất cả vào một mã QR và một tấm ảnh.</p>
-    </div>
-
-    <h2 id="features">Tính năng</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Chia sẻ Wi-Fi bằng mã QR</h3>
-        <p>MyFi tự nhận biết tên mạng bạn đang kết nối. Chỉ cần nhập mật khẩu một lần là có ngay mã QR Wi-Fi chuẩn
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>). Người khác chỉ việc <strong>đưa camera có sẵn</strong> trên iPhone hoặc điện thoại Android vào mã là kết nối được.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Đừng đọc mật khẩu nữa.<br>Chỉ cần một mã QR.</h1>
+        <p class="lead">Bạn bè chỉ cần đưa camera vào là vào mạng. Bảng Wi-Fi trên tường quán cà phê? Chụp một tấm là iPhone này kết nối. Hết cảnh chép sai từng ký tự.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">Tải miễn phí trên App Store</a><a class="try" href="#try">Tạo mã QR cho Wi-Fi của bạn ↓</a></div>
+        <p class="muted small">Mọi tính năng đều miễn phí. iPhone chạy iOS 17 trở lên.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Chụp là kết nối</h3>
-        <p>Chụp bảng Wi-Fi ở quán cà phê hay chỗ ở thuê, hoặc chọn một ảnh có sẵn trong thư viện.
-          Tính năng nhận dạng văn bản ngay trên thiết bị sẽ điền sẵn tên mạng và mật khẩu. Chạm vào <strong>Kết nối iPhone này</strong> là bạn đã lên mạng.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Tạo bảng Wi-Fi cho khách</h3>
-        <p>Thiết kế bảng Wi-Fi cho cửa hàng của bạn với <strong>7 chủ đề</strong>. Thêm tên và logo cửa hàng, chọn kiểu
-          <strong>thẻ</strong> để hiển thị trên màn hình và mạng xã hội hoặc <strong>áp phích A4</strong> khổ dọc để in,
-          rồi lưu thành ảnh, chia sẻ, hoặc <strong>in ngay bằng AirPrint</strong>. Bạn có thể lưu bao nhiêu bảng tùy thích.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Tiện ích trên Màn hình chính</h3>
-        <p>Đặt mã QR của mạng Wi-Fi bạn hay dùng lên tiện ích trên Màn hình chính.
-          Khi khách hỏi, bạn chỉ cần đưa màn hình cho họ xem. Không cần mở ứng dụng.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Nơi quen thuộc được ưu tiên</h3>
-        <p>MyFi ghi nhớ nơi bạn đã kết nối hoặc chia sẻ từng mạng. Khi bạn quay lại đúng nơi đó,
-          mạng ấy sẽ được đưa lên đầu danh sách. Bạn cũng có thể xem các địa điểm đã lưu trên bản đồ.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>Có cả mã QR cho điểm truy cập</h3>
-        <p>Điểm truy cập cá nhân của iPhone chính là chiếc điện thoại của bạn, nên máy không thể tự kết nối vào đó.
-          MyFi đánh dấu riêng các điểm truy cập và tạo <strong>mã QR để gửi cho người khác</strong> thay vì cố kết nối.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/vi/02-qr.jpg" alt="Đừng đọc mật khẩu nữa. Chỉ cần một mã QR." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Dữ liệu của bạn ở lại trên thiết bị</h2>
-      <p>MyFi không có máy chủ. Tên và mật khẩu Wi-Fi, văn bản đọc được từ ảnh và vị trí đều được xử lý và lưu
-        <strong>chỉ trên thiết bị của bạn</strong> và không bao giờ được gửi đi đâu.
-        Không có quảng cáo, không có công cụ phân tích của bên thứ ba và không theo dõi. Chỉ có số liệu thống kê sử dụng ẩn danh và báo cáo sự cố được gửi đến Apple iCloud để giúp cải thiện ứng dụng.</p>
-      <p><a href="privacy.html">Đọc toàn bộ Chính sách quyền riêng tư →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Điều bạn nên biết</h2>
-      <ul>
-        <li>Vì lý do bảo mật, <strong>iOS không cho phép bất kỳ ứng dụng nào đọc mật khẩu Wi-Fi đã lưu trên thiết bị.</strong>
-          Đó là lý do việc chia sẻ hoạt động theo cách "tự nhận tên mạng, nhập mật khẩu một lần". Sau đó, MyFi sẽ dùng mật khẩu đã lưu.</li>
-        <li>Muốn kết nối mạng, bạn cần dùng <strong>iPhone thật</strong>. iOS Simulator không thể kết nối mạng Wi-Fi.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Tạo mã QR cho Wi-Fi của bạn</h2>
+      <p class="muted">Đổi tên hoặc mật khẩu là bảng đổi theo ngay. Đưa camera điện thoại vào, lời mời kết nối sẽ hiện ra thật.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Tạo mã QR cho Wi-Fi của bạn&quot;, &quot;lead&quot;: &quot;Đổi tên hoặc mật khẩu là bảng đổi theo ngay. Đưa camera điện thoại vào, lời mời kết nối sẽ hiện ra thật.&quot;, &quot;ssidLabel&quot;: &quot;Tên Wi-Fi&quot;, &quot;pwLabel&quot;: &quot;Mật khẩu (để trống nếu là mạng mở)&quot;, &quot;themeLabel&quot;: &quot;Kiểu dáng&quot;, &quot;scan&quot;: &quot;Dùng camera điện thoại quét mã QR bên trái.&quot;, &quot;note&quot;: &quot;Nội dung bạn nhập chỉ dùng trong trình duyệt này và không gửi đi đâu cả. Trong ứng dụng, bạn thêm tên quán, logo, giờ mở cửa và in thành áp phích A4.&quot;, &quot;heading&quot;: &quot;Wi-Fi miễn phí&quot;, &quot;subtitle&quot;: &quot;Cứ thoải mái sử dụng&quot;, &quot;network&quot;: &quot;Mạng&quot;, &quot;password&quot;: &quot;Mật khẩu&quot;, &quot;footer&quot;: &quot;Quét mã QR bằng camera để tự động kết nối&quot;, &quot;open&quot;: &quot;Không (mạng mở)&quot;, &quot;themes&quot;: [&quot;Nửa đêm&quot;, &quot;Hoàng hôn&quot;, &quot;Bạc hà&quot;, &quot;Đại dương&quot;, &quot;Rừng xanh&quot;, &quot;Cà phê&quot;, &quot;Đơn sắc&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Hỗ trợ / Trợ giúp</a>
-      <a class="btn secondary" href="privacy.html">Chính sách quyền riêng tư</a>
-    </div>
+    <section class="problem reveal">
+      <h2>"Mật khẩu Wi-Fi là gì nhỉ?" Hôm nay là lần thứ mấy rồi?</h2>
+      <p>Đọc cho khách thì nhầm chữ hoa chữ thường. Chép bảng trên tường thì lẫn số 0 với chữ O. Rồi lại giải thích từ đầu. MyFi gói tất cả lại trong một tấm ảnh và một mã QR.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <strong>Tiếng Việt</strong> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Chụp là kết nối</h2>
+        <p>Chụp bảng Wi-Fi hoặc hóa đơn, hay chọn ảnh từ thư viện. MyFi đọc tên mạng và mật khẩu rồi kết nối iPhone này. Nếu trên bảng có cả mã QR, ứng dụng đọc mã QR trước để thông tin chính xác.<br>Nếu chữ không rõ, chỉ cần kéo mảnh chữ lấy từ ảnh vào ô tên hoặc mật khẩu.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/01-scan.jpg" alt="Chụp là kết nối" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">Liên hệ</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tạo và in bảng Wi-Fi cho khách</h2>
+        <p>Chọn một trong 7 chủ đề, thêm tên quán, logo và các dòng như giờ mở cửa. Chọn dạng thẻ hoặc áp phích A4 dọc, lưu thành ảnh hoặc in ngay bằng AirPrint.<br>Làm sẵn nhiều bảng cho từng quán, từng bàn, và sửa bất cứ lúc nào.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/03-poster-card.jpg" alt="Tạo và in bảng Wi-Fi cho khách" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Nơi quay lại sẽ hiện lên đầu</h2>
+        <p>Wi-Fi bạn đã kết nối hay chia sẻ được lưu cùng vị trí lúc đó. Quay lại nơi cũ, Wi-Fi ở đó sẽ nằm trên cùng, và mọi nơi đã lưu đều xem được trên bản đồ.<br>Đặt mã QR của Wi-Fi hay chia sẻ nhất thành tiện ích trên Màn hình chính hoặc Màn hình khóa. Khách hỏi thì chỉ cần đưa màn hình ra.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/05-saved.jpg" alt="Nơi quay lại sẽ hiện lên đầu" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Bắt đầu chỉ với ba bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Mở ứng dụng</h3><p>Ứng dụng hỏi quyền vị trí một lần, vì iOS chỉ cho ứng dụng có quyền này biết tên Wi-Fi đang dùng.</p></li>
+<li class="card"><span class="n">2</span><h3>Chụp hoặc nhập</h3><p>Chụp bảng Wi-Fi, hoặc nhập mật khẩu Wi-Fi của bạn một lần.</p></li>
+<li class="card"><span class="n">3</span><h3>Kết nối hoặc đưa ra</h3><p>Kết nối iPhone này, hoặc mở mã QR cho camera của người kia quét là xong.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Làm ở đâu</h2>
+      <div class="card table">
+        <dl><div><dt>Kết nối từ ảnh chụp bảng</dt><dd><code>Thêm Wi-Fi</code>, chọn <code>Chụp ảnh</code> hoặc <code>Thư viện</code>, rồi <code>Kết nối iPhone này</code></dd></div><div><dt>Tự nhập thông tin</dt><dd><code>Thêm Wi-Fi</code>, rồi <code>Nhập tay</code></dd></div><div><dt>Chỉ tạo mã QR</dt><dd><code>Tạo mã QR không kết nối</code></dd></div><div><dt>Gửi mã QR qua tin nhắn</dt><dd>Chạm vào mạng đã lưu, rồi <code>Chia sẻ ảnh mã QR</code></dd></div><div><dt>Bảng dành cho khách</dt><dd>Chạm vào mạng đã lưu, rồi <code>In hoặc chia sẻ bảng dành cho khách</code></dd></div><div><dt>Biến điểm phát sóng thành mã QR</dt><dd>Chạm vào mạng đã lưu và bật <code>Điểm phát sóng của tôi</code></dd></div><div><dt>Kết nối hoặc chia sẻ chỉ bằng một lần vuốt</dt><dd>Trong danh sách, vuốt phải để kết nối, vuốt trái để chia sẻ mã QR</dd></div><div><dt>Xem những nơi đã lưu</dt><dd><code>Bản đồ</code>, cạnh <code>Mạng đã lưu</code></dd></div><div><dt>Đặt mã QR trên Màn hình chính</dt><dd>Chạm và giữ Màn hình chính, thêm tiện ích <code>Mã QR Wi-Fi</code> của MyFi</dd></div></dl>
+      </div>
+      <p class="muted">Bạn cũng có thể mở ngay mã QR bằng Siri hoặc ứng dụng Phím tắt.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Mọi tính năng đều miễn phí</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Miễn phí</h3>
+          <ul><li>Kết nối Wi-Fi từ ảnh chụp</li><li>Tạo mã QR và chia sẻ dưới dạng ảnh</li><li>Bảng cho khách với 7 chủ đề, dạng thẻ hoặc áp phích A4, in bằng AirPrint</li><li>Tiện ích trên Màn hình chính và Màn hình khóa</li><li>Bản đồ các Wi-Fi đã lưu</li><li>Không quảng cáo, không cần đăng ký</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Ủng hộ (tùy ý)</h3>
+          <ul><li>Nếu thích, bạn có thể gửi tiền tip để ủng hộ việc phát triển</li><li>Tiền tip không mở khóa gì cả. Không tip vẫn dùng được mọi tính năng</li></ul>
+          <p class="muted">Tiền tip là một khoản thanh toán nhỏ, trả một lần.</p>
+        </div>
+      </div>
+      <p class="muted">Không có gói đăng ký, không có tính năng trả phí.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Sao tôi phải tự nhập mật khẩu?</summary><p>Theo chính sách bảo mật của iOS, không ứng dụng nào đọc được mật khẩu Wi-Fi đã lưu trên máy. Vì vậy MyFi tự nhận tên mạng, còn mật khẩu bạn chỉ nhập lần đầu. Từ đó về sau ứng dụng dùng giá trị đã lưu.</p></details>
+<details><summary>Không thấy tên Wi-Fi đang kết nối.</summary><p>iOS chỉ cho ứng dụng có quyền vị trí biết tên Wi-Fi. Hãy cho phép MyFi trong Cài đặt › Quyền riêng tư &amp; Bảo mật › Dịch vụ định vị. Vị trí chỉ dùng để đọc tên mạng và nhận ra những nơi bạn quay lại.</p></details>
+<details><summary>Ứng dụng đọc sai tên hoặc mật khẩu.</summary><p>Chụp gần hơn và thẳng hơn. Nếu vẫn sai, kéo mảnh chữ đúng từ ảnh vào ô hoặc tự sửa. Nếu bảng có mã QR Wi-Fi, MyFi sẽ đọc mã đó và điền đúng thông tin.</p></details>
+<details><summary>Ứng dụng đọc được loại bảng nào?</summary><p>Đọc tốt nhất bảng ghi bằng tiếng Anh hoặc tiếng Hàn với nhãn như ID, PW, SSID, Network, Password. Kể cả không có nhãn, ứng dụng vẫn tìm ra dòng trông giống mật khẩu. Mã QR Wi-Fi trên bảng được đọc chính xác dù bằng ngôn ngữ nào.</p></details>
+<details><summary>Người nhận mã QR kết nối thế nào?</summary><p>Dù iPhone hay Android, chỉ cần dùng camera có sẵn quét mã rồi chạm vào lời mời kết nối. Không cần cài ứng dụng nào.</p></details>
+<details><summary>Người khác có thấy mật khẩu của tôi không?</summary><p>Mã QR chứa thông tin đăng nhập Wi-Fi theo chuẩn. Chia sẻ hay không luôn do bạn chọn, và bạn có thể ẩn mật khẩu trên bảng dành cho khách.</p></details>
+<details><summary>Sao tôi không kết nối được điểm phát sóng của chính mình?</summary><p>Điểm truy cập cá nhân của iPhone chính là chiếc điện thoại này, nên nó không thể tự kết nối với chính nó. Bật <code>Điểm phát sóng của tôi</code>, MyFi sẽ coi nó là mã QR để chia sẻ cho người khác.</p></details>
+<details><summary>Thông tin Wi-Fi của tôi được gửi đi đâu?</summary><p>MyFi không có máy chủ. Tên mạng, mật khẩu, kết quả đọc ảnh và vị trí chỉ được xử lý và lưu trên thiết bị của bạn. Không quảng cáo, không theo dõi. Ứng dụng chỉ gửi thống kê sử dụng ẩn danh và báo cáo lỗi lên Apple iCloud để sửa lỗi.</p></details>
+<details><summary>Dùng được trên thiết bị nào?</summary><p>iPhone chạy iOS 17 trở lên. Ứng dụng có 24 ngôn ngữ.</p></details></div>
+      <p class="contact">Có câu hỏi hay góp ý? Hãy gửi đến <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Tôi thường trả lời trong 2 đến 3 ngày.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Vị khách tiếp theo hỏi,<br>hãy đưa mã QR</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: tabelayı çek ve bağlan, Wi-Fi’ını QR koduyla paylaş",
+  "description": "Wi-Fi tabelasının fotoğrafını çek, iPhone hemen bağlansın. Kendi ağını tek bir QR koduyla paylaş, misafir tabelası bastır. Hepsi ücretsiz.",
+  "hero": {
+    "headline": "Şifreyi tek tek okumaya son.\nQR kodunu göster.",
+    "lead": "Arkadaşların kamerayı tutması yeterli, hemen bağlanırlar. Kafenin duvarındaki tabela mı? Tek fotoğraf, bu iPhone bağlanır. Kopyalarken yazım hatası yok.",
+    "cta": "App Store’dan ücretsiz indir",
+    "note": "Tüm özellikler ücretsiz. iOS 17 veya sonrası yüklü iPhone."
+  },
+  "demo": {
+    "title": "Wi-Fi’ın için QR kodu oluştur",
+    "lead": "Adı ya da şifreyi değiştir, tabela anında güncellensin. Bir telefonun kamerasını tut, gerçekten bağlanma önerisi çıkar.",
+    "ssidLabel": "Ağ adı",
+    "pwLabel": "Şifre (açık ağsa boş bırak)",
+    "themeLabel": "Tasarım",
+    "scan": "Telefonunun kamerasını soldaki QR koduna tut.",
+    "note": "Yazdıkların bu tarayıcıda kalır, hiçbir yere gönderilmez. Uygulamada mekânının adını, logosunu ve çalışma saatlerini ekleyip A4 poster olarak yazdırabilirsin.",
+    "heading": "Ücretsiz Wi-Fi",
+    "subtitle": "Rahatça kullanın",
+    "network": "Ağ",
+    "password": "Şifre",
+    "footer": "Bağlanmak için QR kodunu kamerayla tarayın",
+    "open": "Yok (açık ağ)",
+    "themes": [
+      "Gece yarısı",
+      "Gün batımı",
+      "Nane",
+      "Okyanus",
+      "Orman",
+      "Kafe",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "“Wi-Fi şifresi neydi?” Bugün kaçıncı kez?",
+    "text": "Okurken büyük küçük harfi karıştırırsın. Duvardaki tabeladan kopyalarken 0 ile O’yu karıştırırsın. Sonra her şeyi yeniden anlatırsın. MyFi bunu tek fotoğraf ve tek QR koduna indirir."
+  },
+  "features": [
+    {
+      "title": "Fotoğrafını çek, bağlan",
+      "text": "Wi-Fi tabelasının ya da fişin fotoğrafını çek veya fotoğraflardan seç. MyFi ağ adını ve şifreyi okuyup bu iPhone’u bağlar. Tabelada QR kodu da varsa önce onu okur, böylece bilgiler tam doğru olur.\nYazı net değilse fotoğraftan çıkarılan parçayı ad ya da şifre alanına sürüklemen yeterli.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Misafir tabelası hazırla, yazdır",
+      "text": "7 temadan birini seç; mekân adını, logoyu ve çalışma saatleri gibi satırları ekle. Kart ya da dikey A4 poster seç, görsel olarak kaydet veya AirPrint ile hemen yazdır.\nHer mekân ya da masa için ayrı tabelalar hazırla, istediğin zaman düzenle.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Döndüğün yerler en üstte",
+      "text": "Bağlandığın ya da paylaştığın ağlar o anki konumla birlikte kaydedilir. Aynı yere döndüğünde o ağ listenin en üstünde olur, kayıtlı tüm yerleri haritada da görürsün.\nEn çok paylaştığın Wi-Fi’ın QR kodunu Ana Ekran’a ya da Kilitli Ekran’a araç takımı olarak koy. Misafir sorunca ekranı göstermen yeter.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Üç adımda başla",
+    "items": [
+      {
+        "title": "Uygulamayı aç",
+        "text": "Bir kez konum izni ister; çünkü iOS bağlı olduğun Wi-Fi’ın adını yalnızca bu izni olan uygulamalara söyler."
+      },
+      {
+        "title": "Çek ya da yaz",
+        "text": "Bir tabelanın fotoğrafını çek ya da kendi Wi-Fi şifreni bir kez gir."
+      },
+      {
+        "title": "Bağlan ya da göster",
+        "text": "Bu iPhone’u bağla ya da QR kodunu karşındakinin kamerasına göster."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Nerede ne var",
+    "rows": [
+      [
+        "Tabela fotoğrafıyla bağlan",
+        "`Wi-Fi ekle`, ardından `Kamera` veya `Fotoğraflar`, ardından `Bu iPhone’u bağla`"
+      ],
+      [
+        "Bilgileri kendin gir",
+        "`Wi-Fi ekle`, ardından `Elle yaz`"
+      ],
+      [
+        "Yalnızca QR kodu oluştur",
+        "`Bağlanmadan QR kodu oluştur`"
+      ],
+      [
+        "QR kodunu mesajla gönder",
+        "Kayıtlı bir ağa dokun, ardından `QR görselini paylaş`"
+      ],
+      [
+        "Misafir tabelası",
+        "Kayıtlı bir ağa dokun, ardından `Misafir tabelasını yazdır veya paylaş`"
+      ],
+      [
+        "Erişim noktanı QR koduna çevir",
+        "Kayıtlı bir ağa dokun ve `Kişisel erişim noktam` seçeneğini aç"
+      ],
+      [
+        "Tek kaydırmayla bağlan ya da paylaş",
+        "Listede sağa kaydır bağlan, sola kaydır QR kodunu paylaş"
+      ],
+      [
+        "Kayıtlı yerleri gör",
+        "`Kayıtlı ağlar` yanındaki `Harita`"
+      ],
+      [
+        "QR kodu Ana Ekran’da",
+        "Ana Ekran’a basılı tut ve MyFi’ın `Wi-Fi QR` araç takımını ekle"
+      ]
+    ],
+    "note": "QR kodunu Siri ya da Kestirmeler uygulamasıyla da hemen açabilirsin."
+  },
+  "pricing": {
+    "title": "Tüm özellikler ücretsiz",
+    "free": {
+      "name": "Ücretsiz",
+      "items": [
+        "Fotoğraftan Wi-Fi’a bağlanma",
+        "QR kodu oluşturma ve görsel olarak paylaşma",
+        "7 temalı misafir tabelaları, kart ya da A4 poster, AirPrint ile yazdırma",
+        "Ana Ekran ve Kilitli Ekran araç takımları",
+        "Kayıtlı Wi-Fi haritası",
+        "Reklam yok, üyelik yok"
+      ]
+    },
+    "pro": {
+      "name": "Bahşiş (isteğe bağlı)",
+      "items": [
+        "Beğendiysen geliştirmeyi bahşişle destekleyebilirsin",
+        "Bahşiş hiçbir şeyin kilidini açmaz. Vermesen de tüm özellikleri kullanırsın"
+      ],
+      "note": "Bahşiş, küçük ve tek seferlik bir ödemedir."
+    },
+    "note": "Abonelik yok, ücretli özellik yok."
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "items": [
+      {
+        "q": "Şifreyi neden kendim yazmam gerekiyor?",
+        "a": "iOS hiçbir uygulamanın cihazda kayıtlı Wi-Fi şifrelerini okumasına izin vermez. Bu yüzden MyFi ağ adını tanır, şifreyi ise bir kez yazarsın. Sonrasında kayıtlı olanı kullanır."
+      },
+      {
+        "q": "Bağlı olduğum Wi-Fi’ın adını göremiyorum.",
+        "a": "iOS, Wi-Fi adını yalnızca konum izni olan uygulamalara verir. Ayarlar › Gizlilik ve Güvenlik › Konum Servisleri’nden MyFi’a izin ver. Konum yalnızca ağ adını okumak ve döndüğün yerleri tanımak için kullanılır."
+      },
+      {
+        "q": "Ad ya da şifre yanlış okundu.",
+        "a": "Yaklaş ve düz çek. Hâlâ yanlışsa fotoğraftaki doğru parçayı alana sürükle ya da elle düzelt. Tabelada Wi-Fi QR kodu varsa MyFi onu okuyup bilgileri tam doğru doldurur."
+      },
+      {
+        "q": "Hangi tabelaları okuyabiliyor?",
+        "a": "En iyi; ID, PW, SSID, Network veya Password gibi etiketlerle İngilizce ya da Korece yazılmış tabelaları okur. Etiket olmasa bile şifreye benzeyen satırı bulur. Tabeladaki Wi-Fi QR kodu hangi dilde olursa olsun tam doğru okunur."
+      },
+      {
+        "q": "Biri QR kodumla nasıl bağlanır?",
+        "a": "iPhone’da da Android’de de yerleşik kamerayı koda tutup bağlanma önerisine dokunması yeterli. Hiçbir uygulamaya gerek yok."
+      },
+      {
+        "q": "Başkaları şifremi görebilir mi?",
+        "a": "QR kodu standart Wi-Fi giriş bilgilerini içerir. Paylaşıp paylaşmamaya her zaman sen karar verirsin; misafir tabelasında şifreyi gizleyebilirsin de."
+      },
+      {
+        "q": "Kendi erişim noktama neden bağlanamıyorum?",
+        "a": "iPhone’unun Kişisel Erişim Noktası telefonun kendisidir, kendine bağlanamaz. `Kişisel erişim noktam` seçeneğini açarsan MyFi onu başkalarına verilecek bir QR kodu olarak ele alır."
+      },
+      {
+        "q": "Wi-Fi bilgilerim nereye gidiyor?",
+        "a": "MyFi’ın sunucusu yok. Ağ adları, şifreler, fotoğraf okuma sonuçları ve konumlar yalnızca cihazında işlenir ve saklanır. Reklam ya da izleme yok. Uygulama Apple iCloud’a yalnızca anonim kullanım istatistikleri ve hata raporları gönderir, böylece düzeltilebilir."
+      },
+      {
+        "q": "Hangi aygıtlarda çalışır?",
+        "a": "iOS 17 veya sonrası yüklü iPhone’da. Uygulama 24 dilde kullanılabilir."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Sıradaki misafir sorduğunda\nQR kodunu göster",
+    "cta": "App Store’dan ücretsiz indir"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Soru ya da önerin mi var? {email} adresine yaz. Genellikle 2 ila 3 gün içinde yanıt veririm."
+  }
+}

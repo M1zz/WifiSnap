@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: vyfoťte tabulku a připojte se, Wi-Fi sdílejte QR kódem</title>
+  <meta name="description" content="Vyfoťte tabulku s Wi-Fi a iPhone se připojí. Svou síť sdílejte jedním QR kódem a vytiskněte tabulku pro hosty. Všechno zdarma.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/cs/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi — Sdílení a připojení k Wi-Fi snadno a rychle</title>
-  <meta name="description" content="Sdílejte svou Wi-Fi jako QR kód, připojte se k síti vyfocením cedulky s heslem a vytvořte pro svůj podnik tabulky s Wi-Fi pro hosty. Aplikace pro iPhone.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Sdílení a připojení k Wi-Fi snadno a rychle.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: vyfoťte tabulku a připojte se, Wi-Fi sdílejte QR kódem">
+  <meta property="og:description" content="Vyfoťte tabulku s Wi-Fi a iPhone se připojí. Svou síť sdílejte jedním QR kódem a vytiskněte tabulku pro hosty. Všechno zdarma.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/cs/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/cs/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Sdílení a připojení k Wi-Fi snadno a rychle</p>
-      <p class="tagline">Už žádné hláskování hesel. Stačí jeden QR kód.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Prohlédnout funkce</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 nebo novější · iPhone</p>
-    </header>
+  <a class="skip" href="#main">Přejít k obsahu</a>
+  <header class="bar">
+    <a class="brand" href="../cs/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Jazyk</a>
+  </header>
 
-    <div class="card">
-      <h2>Stvořeno pro chvíle, jako jsou tyto</h2>
-      <p>Diktujete hostovi heslo k Wi-Fi a on ho stejně napíše špatně. Opisujete heslo z cedulky na zdi kavárny a spletete si jedno písmeno.
-        Vysvětlujete pořád dokola totéž heslo. MyFi z toho všeho udělá jeden QR kód a jednu fotku.</p>
-    </div>
-
-    <h2 id="features">Funkce</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Sdílejte Wi-Fi jako QR kód</h3>
-        <p>MyFi rozpozná název sítě, ke které jste připojeni. Stačí jednou zadat heslo a standardní Wi-Fi QR kód
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>) je hotový. Ostatním pak stačí <strong>namířit na něj vestavěný fotoaparát</strong> iPhonu nebo telefonu s Androidem a jsou připojeni.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Už žádné diktování hesla.<br>Stačí QR kód.</h1>
+        <p class="lead">Přátelé jen namíří fotoaparát a jsou připojení. Tabulka na zdi kavárny? Jedna fotka a tento iPhone se připojí. Konec překlepů při opisování.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">Stáhnout zdarma v App Storu</a><a class="try" href="#try">Vytvořte QR kód své Wi-Fi ↓</a></div>
+        <p class="muted small">Všechny funkce jsou zdarma. iPhone s iOS 17 nebo novějším.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Vyfoťte a připojte se</h3>
-        <p>Vyfoťte cedulku s Wi-Fi v kavárně nebo v pronajatém ubytování, případně vyberte fotku z knihovny.
-          Rozpoznávání textu přímo v zařízení doplní název sítě i heslo. Klepněte na <strong>Připojit tento iPhone</strong> a jste online.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Vytvořte tabulku s Wi-Fi pro hosty</h3>
-        <p>Navrhněte pro svůj podnik tabulku s Wi-Fi v jednom ze <strong>7 motivů</strong>. Přidejte název a logo podniku, zvolte
-          <strong>kartu</strong> pro obrazovky a sociální sítě nebo <strong>plakát A4</strong> na výšku pro tisk,
-          a pak ji uložte jako obrázek, nasdílejte nebo <strong>rovnou vytiskněte přes AirPrint</strong>. Tabulek si můžete uložit, kolik chcete.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Widget na ploše</h3>
-        <p>Umístěte QR kód Wi-Fi sítě, kterou často používáte, do widgetu na ploše.
-          Když se host zeptá, stačí mu ukázat displej. Aplikaci ani nemusíte otevírat.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Místa, kam se vracíte, jsou na prvním místě</h3>
-        <p>MyFi si pamatuje, kde jste se k jednotlivým sítím připojili nebo je sdíleli. Když se na stejné místo vrátíte,
-          daná síť se přesune na začátek seznamu. Uložená místa si můžete prohlédnout i na mapě.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>QR kód i pro váš hotspot</h3>
-        <p>Osobní hotspot vašeho iPhonu je samotný telefon, takže se k němu připojit nemůže.
-          MyFi hotspoty označuje zvlášť a místo pokusu o připojení vytvoří <strong>QR kód, který můžete dát ostatním</strong>.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/cs/02-qr.jpg" alt="Už žádné diktování hesla. Stačí QR kód." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Vaše data zůstávají ve vašem zařízení</h2>
-      <p>MyFi nemá žádný server. Názvy a hesla Wi-Fi, text přečtený z fotek i polohy se zpracovávají a ukládají
-        <strong>pouze ve vašem zařízení</strong> a nikam se neodesílají.
-        Žádné reklamy, žádná analytika třetích stran a žádné sledování. Do Apple iCloudu se odesílají jen anonymní statistiky používání a hlášení o pádech, které pomáhají aplikaci zlepšovat.</p>
-      <p><a href="privacy.html">Přečtěte si celé Zásady ochrany osobních údajů →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Dobré vědět</h2>
-      <ul>
-        <li>Z bezpečnostních důvodů <strong>iOS nedovolí žádné aplikaci číst hesla k Wi-Fi uložená ve vašem zařízení.</strong>
-          Proto sdílení funguje stylem „název se rozpozná automaticky, heslo zadáte jednou“. Potom už MyFi používá uložené heslo.</li>
-        <li>K připojení k síti potřebujete <strong>skutečný iPhone</strong>. iOS Simulator se k sítím Wi-Fi připojit nedokáže.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Vytvořte QR kód své Wi-Fi</h2>
+      <p class="muted">Změňte název nebo heslo a tabulka se hned upraví. Namiřte na ni fotoaparát telefonu a opravdu se objeví nabídka připojení.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Vytvořte QR kód své Wi-Fi&quot;, &quot;lead&quot;: &quot;Změňte název nebo heslo a tabulka se hned upraví. Namiřte na ni fotoaparát telefonu a opravdu se objeví nabídka připojení.&quot;, &quot;ssidLabel&quot;: &quot;Název sítě&quot;, &quot;pwLabel&quot;: &quot;Heslo (u otevřené sítě nechte prázdné)&quot;, &quot;themeLabel&quot;: &quot;Vzhled&quot;, &quot;scan&quot;: &quot;Namiřte fotoaparát telefonu na QR kód vlevo.&quot;, &quot;note&quot;: &quot;Co zadáte, zůstane v tomto prohlížeči a nikam se neposílá. V aplikaci přidáte název, logo a otevírací dobu podniku a vytisknete plakát A4.&quot;, &quot;heading&quot;: &quot;Wi-Fi zdarma&quot;, &quot;subtitle&quot;: &quot;Připojte se bez starostí&quot;, &quot;network&quot;: &quot;Síť&quot;, &quot;password&quot;: &quot;Heslo&quot;, &quot;footer&quot;: &quot;Nasměrujte fotoaparát na QR kód a připojte se&quot;, &quot;open&quot;: &quot;Žádné (otevřená síť)&quot;, &quot;themes&quot;: [&quot;Půlnoc&quot;, &quot;Západ slunce&quot;, &quot;Máta&quot;, &quot;Oceán&quot;, &quot;Les&quot;, &quot;Kavárna&quot;, &quot;Mono&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Podpora / Nápověda</a>
-      <a class="btn secondary" href="privacy.html">Zásady ochrany osobních údajů</a>
-    </div>
+    <section class="problem reveal">
+      <h2>„Jaké je heslo k Wi-Fi?“ Kolikrát už dnes?</h2>
+      <p>Diktujete ho a spletete velká písmena. Opisujete tabulku ze zdi a pletete si 0 a O. A pak to vysvětlujete znovu. MyFi to zkrátí na jednu fotku a jeden QR kód.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <strong>Čeština</strong> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vyfotíte a jste připojení</h2>
+        <p>Vyfoťte tabulku s Wi-Fi nebo účtenku, případně vyberte snímek z galerie. MyFi přečte název sítě a heslo a připojí tento iPhone. Je-li na tabulce i QR kód, přečte nejdřív ten, aby údaje byly přesné.<br>Když text není čitelný, přetáhněte útržek z fotky do pole názvu nebo hesla.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/01-scan.jpg" alt="Vyfotíte a jste připojení" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">Kontakt</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tabulka pro hosty i s tiskem</h2>
+        <p>Vyberte jeden ze 7 motivů a přidejte název, logo a řádky jako otevírací dobu. Zvolte kartu nebo plakát A4 na výšku, uložte jako obrázek nebo hned vytiskněte přes AirPrint.<br>Mějte víc tabulek, pro každý podnik nebo stůl, a upravujte je kdykoli.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/03-poster-card.jpg" alt="Tabulka pro hosty i s tiskem" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Kam se vracíte, je nahoře</h2>
+        <p>Sítě, ke kterým se připojíte nebo které sdílíte, se uloží i s místem. Až se vrátíte, bude ta síť nahoře v seznamu a všechna uložená místa uvidíte na mapě.<br>QR kód nejčastěji sdílené Wi-Fi si dejte jako widget na plochu nebo zamčenou obrazovku. Když se host zeptá, jen ukážete displej.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/05-saved.jpg" alt="Kam se vracíte, je nahoře" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Začnete ve třech krocích</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Otevřete aplikaci</h3><p>Jednou požádá o polohu, protože iOS prozradí název aktuální Wi-Fi jen aplikacím s tímto přístupem.</p></li>
+<li class="card"><span class="n">2</span><h3>Vyfoťte nebo zadejte</h3><p>Vyfoťte tabulku, nebo jednou zadejte heslo ke své Wi-Fi.</p></li>
+<li class="card"><span class="n">3</span><h3>Připojte nebo ukažte</h3><p>Připojte tento iPhone, nebo ukažte QR kód fotoaparátu druhého.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Kde co najdete</h2>
+      <div class="card table">
+        <dl><div><dt>Připojení z fotky tabulky</dt><dd><code>Přidat Wi-Fi</code>, pak <code>Fotoaparát</code> nebo <code>Galerie</code>, pak <code>Připojit tento iPhone</code></dd></div><div><dt>Ruční zadání údajů</dt><dd><code>Přidat Wi-Fi</code>, pak <code>Zadat ručně</code></dd></div><div><dt>Jen vytvořit QR kód</dt><dd><code>Vytvořit QR kód bez připojení</code></dd></div><div><dt>Poslat QR kód ve zprávě</dt><dd>Klepněte na uloženou síť, pak <code>Sdílet obrázek QR kódu</code></dd></div><div><dt>Tabulka pro hosty</dt><dd>Klepněte na uloženou síť, pak <code>Vytisknout nebo sdílet tabulku pro hosty</code></dd></div><div><dt>Vlastní hotspot jako QR kód</dt><dd>Klepněte na uloženou síť a zapněte <code>Můj hotspot</code></dd></div><div><dt>Připojit nebo sdílet jedním tahem</dt><dd>V seznamu přejeďte doprava pro připojení, doleva pro sdílení</dd></div><div><dt>Zobrazit uložená místa</dt><dd><code>Mapa</code> vedle <code>Uložené sítě</code></dd></div><div><dt>QR kód na ploše</dt><dd>Podržte prst na ploše a přidejte widget MyFi <code>QR kód Wi-Fi</code></dd></div></dl>
+      </div>
+      <p class="muted">QR kód otevřete hned i přes Siri nebo aplikaci Zkratky.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Všechny funkce jsou zdarma</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Zdarma</h3>
+          <ul><li>Připojení k Wi-Fi z fotky</li><li>Vytváření QR kódů a sdílení jako obrázek</li><li>Tabulky pro hosty v 7 motivech, karta nebo plakát A4, tisk přes AirPrint</li><li>Widgety na plochu a zamčenou obrazovku</li><li>Mapa uložených Wi-Fi</li><li>Bez reklam a bez registrace</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Spropitné (dobrovolné)</h3>
+          <ul><li>Pokud se vám aplikace líbí, můžete vývoj podpořit spropitným</li><li>Spropitné nic neodemyká. I bez něj máte všechny funkce</li></ul>
+          <p class="muted">Spropitné je malá jednorázová platba.</p>
+        </div>
+      </div>
+      <p class="muted">Žádné předplatné a žádné placené funkce.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Časté dotazy</h2>
+      <div class="faq"><details><summary>Proč musím heslo zadat sám?</summary><p>iOS nedovolí žádné aplikaci číst hesla k Wi-Fi uložená v zařízení. MyFi proto rozpozná název sítě a heslo zadáte jen jednou. Pak už použije uložené.</p></details>
+<details><summary>Nevidím název Wi-Fi, ke které jsem připojený.</summary><p>iOS dává název Wi-Fi jen aplikacím s přístupem k poloze. Povolte MyFi v Nastavení › Soukromí a zabezpečení › Polohové služby. Poloha slouží jen ke čtení názvu sítě a k poznání míst, kam se vracíte.</p></details>
+<details><summary>Název nebo heslo se přečetly špatně.</summary><p>Přibližte se a foťte rovně. Pokud to pořád nesedí, přetáhněte správný útržek z fotky do pole nebo ho opravte ručně. Má-li tabulka QR kód Wi-Fi, MyFi ho přečte a vyplní přesné údaje.</p></details>
+<details><summary>Jaké tabulky umí přečíst?</summary><p>Nejlépe zvládá tabulky v angličtině nebo korejštině s popisky jako ID, PW, SSID, Network nebo Password. I bez popisků najde řádek, který vypadá jako heslo. QR kód Wi-Fi na tabulce přečte přesně v jakémkoli jazyce.</p></details>
+<details><summary>Jak se někdo připojí přes můj QR kód?</summary><p>Na iPhonu i Androidu stačí namířit vestavěný fotoaparát na kód a klepnout na nabídku připojení. Žádnou aplikaci nepotřebuje.</p></details>
+<details><summary>Uvidí ostatní moje heslo?</summary><p>QR kód obsahuje standardní přihlašovací údaje k Wi-Fi. Jestli ho sdílíte, rozhodujete vždy vy, a na tabulce pro hosty můžete heslo skrýt.</p></details>
+<details><summary>Proč se nemůžu připojit ke svému hotspotu?</summary><p>Osobní hotspot iPhonu je tento telefon sám, k sobě se připojit nemůže. Zapněte <code>Můj hotspot</code> a MyFi ho bude brát jako QR kód pro ostatní.</p></details>
+<details><summary>Kam putují údaje o mé Wi-Fi?</summary><p>MyFi nemá server. Názvy sítí, hesla, výsledky rozpoznání fotek i polohy se zpracovávají a ukládají jen ve vašem zařízení. Žádné reklamy ani sledování. Aplikace posílá do Apple iCloud jen anonymní statistiky používání a hlášení chyb, aby se dala opravovat.</p></details>
+<details><summary>Na jakých zařízeních funguje?</summary><p>Na iPhonu s iOS 17 nebo novějším. Aplikace je ve 24 jazycích.</p></details></div>
+      <p class="contact">Dotazy nebo připomínky? Pište na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Obvykle odpovídám do 2 až 3 dnů.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Až se zeptá další host,<br>ukažte mu QR kód</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">Stáhnout zdarma v App Storu</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Jazyk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs" aria-current="page">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Ochrana soukromí</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

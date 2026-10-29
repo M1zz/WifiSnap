@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nb">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: ta bilde av oppslaget og koble til, del Wi-Fi med en QR-kode</title>
+  <meta name="description" content="Ta bilde av Wi-Fi-oppslaget, så kobler iPhonen seg til. Del ditt eget nett med én QR-kode, og skriv ut et gjesteoppslag. Alt er gratis.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/nb/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi – Del og koble til Wi-Fi på den enkle måten</title>
-  <meta name="description" content="Del Wi-Fi-en din som en QR-kode, koble til et nettverk ved å ta bilde av oppslaget, og lag Wi-Fi-oppslag for gjester i butikken din. En app for iPhone.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Del og koble til Wi-Fi på den enkle måten.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: ta bilde av oppslaget og koble til, del Wi-Fi med en QR-kode">
+  <meta property="og:description" content="Ta bilde av Wi-Fi-oppslaget, så kobler iPhonen seg til. Del ditt eget nett med én QR-kode, og skriv ut et gjesteoppslag. Alt er gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/nb/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/nb/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Del og koble til Wi-Fi på den enkle måten</p>
-      <p class="tagline">Slutt på å stave passord. Én QR-kode ordner det.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Se funksjonene</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 eller nyere · iPhone</p>
-    </header>
+  <a class="skip" href="#main">Gå til innholdet</a>
+  <header class="bar">
+    <a class="brand" href="../nb/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Språk</a>
+  </header>
 
-    <div class="card">
-      <h2>Laget for øyeblikk som disse</h2>
-      <p>Du leser opp Wi-Fi-passordet for en gjest, og de taster feil. Du skriver av passordet fra oppslaget på kafeveggen og får én bokstav feil.
-        Du forklarer det samme passordet igjen og igjen. MyFi gjør alt dette om til én QR-kode og ett bilde.</p>
-    </div>
-
-    <h2 id="features">Funksjoner</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Del Wi-Fi-en som en QR-kode</h3>
-        <p>MyFi finner selv navnet på nettverket du er koblet til. Skriv inn passordet én gang, så er en vanlig Wi-Fi-QR-kode
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>) klar. Andre trenger bare å <strong>rette det innebygde kameraet</strong> på iPhonen eller Android-telefonen sin mot den for å koble til.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Slutt å lese opp passordet.<br>Vis en QR-kode.</h1>
+        <p class="lead">Venner peker bare kameraet mot den, så er de på. Oppslaget på kaféveggen? Ett bilde, og denne iPhonen kobler seg til. Ingen tastefeil fra avskrift.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">Last ned gratis i App Store</a><a class="try" href="#try">Lag en QR-kode for ditt Wi-Fi ↓</a></div>
+        <p class="muted small">Alle funksjoner er gratis. iPhone med iOS 17 eller nyere.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Ta et bilde og koble til</h3>
-        <p>Ta bilde av Wi-Fi-oppslaget på kafeen eller i utleieboligen, eller velg et bilde fra biblioteket ditt.
-          Tekstgjenkjenning på enheten fyller inn nettverksnavn og passord. Trykk på <strong>Koble til denne iPhonen</strong>, så er du på nett.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Lag et Wi-Fi-oppslag for gjester</h3>
-        <p>Design et Wi-Fi-oppslag til butikken din med <strong>7 temaer</strong>. Legg til butikknavn og logo, og velg et
-          <strong>kort</strong> for skjermer og sosiale medier eller en stående <strong>A4-plakat</strong> for utskrift.
-          Lagre det som et bilde, del det, eller <strong>skriv det ut med en gang med AirPrint</strong>. Du kan ta vare på så mange oppslag du vil.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Widget på Hjem-skjermen</h3>
-        <p>Legg QR-koden til et nettverk du bruker ofte, i en widget på Hjem-skjermen.
-          Når en gjest spør, viser du bare skjermen. Du trenger ikke åpne appen.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Steder du kommer tilbake til, kommer først</h3>
-        <p>MyFi husker hvor du koblet til eller delte hvert nettverk. Når du kommer tilbake til samme sted,
-          flyttes nettverket øverst i listen. Du kan også se de lagrede stedene dine på et kart.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>QR-kode for Wi-Fi-sonen din også</h3>
-        <p>Delt Internett på iPhonen din er telefonen selv, så den kan ikke koble seg til den.
-          MyFi merker Wi-Fi-soner for seg og lager en <strong>QR-kode du kan dele ut</strong> i stedet for å prøve å koble til.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/nb/02-qr.jpg" alt="Slutt å lese opp passordet. Vis en QR-kode." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Dataene dine blir på enheten din</h2>
-      <p>MyFi har ingen server. Nettverksnavn og passord, tekst lest fra bilder og steder behandles og lagres
-        <strong>bare på enheten din</strong> og sendes aldri noe sted.
-        Det er ingen reklame, ingen analyse fra tredjeparter og ingen sporing. Bare anonym bruksstatistikk og krasjrapporter sendes til Apple iCloud for å gjøre appen bedre.</p>
-      <p><a href="privacy.html">Les hele personvernerklæringen →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Greit å vite</h2>
-      <ul>
-        <li>Av sikkerhetshensyn <strong>lar ikke iOS noen apper lese Wi-Fi-passordene som er lagret på enheten din.</strong>
-          Derfor fungerer deling som «navnet finnes automatisk, passordet skrives inn én gang». Deretter bruker MyFi det lagrede passordet.</li>
-        <li>For å koble til et nettverk trenger du en <strong>ekte iPhone</strong>. iOS Simulator kan ikke koble til Wi-Fi-nettverk.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Lag en QR-kode for ditt Wi-Fi</h2>
+      <p class="muted">Endre navn eller passord, så oppdateres oppslaget med en gang. Pek kameraet på en telefon mot det, så får du et ekte spørsmål om å koble til.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Lag en QR-kode for ditt Wi-Fi&quot;, &quot;lead&quot;: &quot;Endre navn eller passord, så oppdateres oppslaget med en gang. Pek kameraet på en telefon mot det, så får du et ekte spørsmål om å koble til.&quot;, &quot;ssidLabel&quot;: &quot;Nettverksnavn&quot;, &quot;pwLabel&quot;: &quot;Passord (la det stå tomt for et åpent nett)&quot;, &quot;themeLabel&quot;: &quot;Design&quot;, &quot;scan&quot;: &quot;Pek telefonkameraet mot QR-koden til venstre.&quot;, &quot;note&quot;: &quot;Det du skriver, blir i denne nettleseren og sendes ingen steder. I appen legger du til navn, logo og åpningstider for stedet og skriver det ut som en A4-plakat.&quot;, &quot;heading&quot;: &quot;Gratis Wi-Fi&quot;, &quot;subtitle&quot;: &quot;Bare bruk det&quot;, &quot;network&quot;: &quot;Nettverk&quot;, &quot;password&quot;: &quot;Passord&quot;, &quot;footer&quot;: &quot;Skann QR-koden med kameraet for å koble til&quot;, &quot;open&quot;: &quot;Ingen (åpent nettverk)&quot;, &quot;themes&quot;: [&quot;Midnatt&quot;, &quot;Solnedgang&quot;, &quot;Mynte&quot;, &quot;Hav&quot;, &quot;Skog&quot;, &quot;Kafé&quot;, &quot;Mono&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Kundestøtte / Hjelp</a>
-      <a class="btn secondary" href="privacy.html">Personvernerklæring</a>
-    </div>
+    <section class="problem reveal">
+      <h2>«Hva var Wi-Fi-passordet igjen?» Hvor mange ganger i dag?</h2>
+      <p>Du leser det opp og blander store og små bokstaver. Du skriver av oppslaget på veggen og forveksler 0 og O. Så forklarer du alt på nytt. MyFi gjør det til ett bilde og én QR-kode.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <strong>Norsk bokmål</strong> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ta et bilde, så er du på</h2>
+        <p>Ta bilde av Wi-Fi-oppslaget eller kvitteringen, eller velg et bilde. MyFi leser nettverksnavn og passord og kobler til denne iPhonen. Har oppslaget også en QR-kode, leses den først, så opplysningene blir helt riktige.<br>Er teksten utydelig, drar du bare en bit fra bildet inn i feltet for navn eller passord.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/01-scan.jpg" alt="Ta et bilde, så er du på" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">Kontakt</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Lag og skriv ut et gjesteoppslag</h2>
+        <p>Velg ett av 7 temaer, og legg til navn, logo og linjer som åpningstider. Velg kort eller stående A4-plakat, lagre det som bilde, eller skriv det ut med en gang via AirPrint.<br>Ha flere oppslag, ett for hvert sted eller bord, og endre dem når du vil.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/03-poster-card.jpg" alt="Lag og skriv ut et gjesteoppslag" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Steder du kommer tilbake til, står øverst</h2>
+        <p>Nettverk du kobler til eller deler, lagres sammen med stedet. Kommer du tilbake, står nettverket øverst, og alle lagrede steder vises på et kart.<br>Legg QR-koden til nettet du deler mest som widget på Hjem-skjermen eller låseskjermen. Spør en gjest, viser du bare skjermen.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/05-saved.jpg" alt="Steder du kommer tilbake til, står øverst" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>I gang på tre trinn</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Åpne appen</h3><p>Den spør om posisjon én gang, fordi iOS bare forteller navnet på nåværende Wi-Fi til apper med den tilgangen.</p></li>
+<li class="card"><span class="n">2</span><h3>Ta bilde eller skriv</h3><p>Ta bilde av et oppslag, eller skriv inn passordet til ditt eget Wi-Fi én gang.</p></li>
+<li class="card"><span class="n">3</span><h3>Koble til eller vis</h3><p>Koble til denne iPhonen, eller vis QR-koden til den andres kamera.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Hvor du finner hva</h2>
+      <div class="card table">
+        <dl><div><dt>Koble til fra et bilde av et oppslag</dt><dd><code>Legg til Wi-Fi</code>, så <code>Kamera</code> eller <code>Bilder</code>, så <code>Koble til denne iPhonen</code></dd></div><div><dt>Skriv inn opplysningene selv</dt><dd><code>Legg til Wi-Fi</code>, så <code>Skriv selv</code></dd></div><div><dt>Bare lage en QR-kode</dt><dd><code>Lag QR-kode uten tilkobling</code></dd></div><div><dt>Sende QR-koden i en melding</dt><dd>Trykk på et lagret nettverk, så <code>Del QR-bilde</code></dd></div><div><dt>Gjesteoppslag</dt><dd>Trykk på et lagret nettverk, så <code>Skriv ut eller del gjesteoppslag</code></dd></div><div><dt>Din egen sone som QR-kode</dt><dd>Trykk på et lagret nettverk og slå på <code>Min sone</code></dd></div><div><dt>Koble til eller del med ett sveip</dt><dd>Sveip til høyre i listen for å koble til, til venstre for å dele</dd></div><div><dt>Se lagrede steder</dt><dd><code>Kart</code>, ved siden av <code>Lagrede nettverk</code></dd></div><div><dt>QR-kode på Hjem-skjermen</dt><dd>Hold fingeren på Hjem-skjermen og legg til MyFi-widgeten <code>Wi-Fi-QR</code></dd></div></dl>
+      </div>
+      <p class="muted">Du kan også åpne QR-koden direkte med Siri eller Snarveier-appen.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Alle funksjoner er gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Koble til Wi-Fi fra et bilde</li><li>Lag QR-koder og del dem som bilde</li><li>Gjesteoppslag i 7 temaer, som kort eller A4-plakat, utskrift med AirPrint</li><li>Widgeter for Hjem-skjerm og låseskjerm</li><li>Kart over lagrede Wi-Fi-nett</li><li>Ingen reklame, ingen konto</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Tips (frivillig)</h3>
+          <ul><li>Liker du appen, kan du støtte utviklingen med et tips</li><li>Tips låser ikke opp noe. Uten tips har du fortsatt alle funksjoner</li></ul>
+          <p class="muted">Et tips er en liten engangsbetaling.</p>
+        </div>
+      </div>
+      <p class="muted">Ingen abonnement og ingen betalte funksjoner.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Vanlige spørsmål</h2>
+      <div class="faq"><details><summary>Hvorfor må jeg skrive passordet selv?</summary><p>iOS lar ingen apper lese Wi-Fi-passordene som er lagret på enheten. Derfor finner MyFi nettverksnavnet, og du skriver passordet én gang. Etter det bruker appen det lagrede.</p></details>
+<details><summary>Jeg ser ikke navnet på Wi-Fi-nettet jeg er koblet til.</summary><p>iOS gir bare Wi-Fi-navnet til apper med posisjonstilgang. Tillat MyFi under Innstillinger › Personvern og sikkerhet › Posisjonstjenester. Posisjonen brukes bare til å lese nettverksnavnet og kjenne igjen steder du kommer tilbake til.</p></details>
+<details><summary>Navn eller passord ble lest feil.</summary><p>Gå nærmere, og ta bildet rett. Er det fortsatt feil, dra riktig bit fra bildet inn i feltet eller rett det for hånd. Har oppslaget en Wi-Fi-QR-kode, leser MyFi den og fyller inn de nøyaktige opplysningene.</p></details>
+<details><summary>Hvilke oppslag kan den lese?</summary><p>Den gjør det best med oppslag på engelsk eller koreansk med merkelapper som ID, PW, SSID, Network eller Password. Selv uten merkelapper finner den linjen som ser ut som et passord. En Wi-Fi-QR-kode på oppslaget leses nøyaktig uansett språk.</p></details>
+<details><summary>Hvordan kobler andre seg til med QR-koden min?</summary><p>På iPhone og Android peker de bare det innebygde kameraet mot koden og trykker på spørsmålet om å koble til. De trenger ingen app.</p></details>
+<details><summary>Kan andre se passordet mitt?</summary><p>QR-koden inneholder vanlige Wi-Fi-påloggingsopplysninger. Du velger alltid selv om du deler den, og du kan skjule passordet på gjesteoppslaget.</p></details>
+<details><summary>Hvorfor kan jeg ikke koble til min egen sone?</summary><p>Den personlige sonen på iPhonen er selve telefonen, og den kan ikke koble til seg selv. Slå på <code>Min sone</code>, så behandler MyFi den som en QR-kode du kan dele ut.</p></details>
+<details><summary>Hvor havner Wi-Fi-opplysningene mine?</summary><p>MyFi har ingen server. Nettverksnavn, passord, resultater fra bilder og posisjoner behandles og lagres bare på enheten din. Ingen reklame eller sporing. Appen sender bare anonym bruksstatistikk og feilrapporter til Apple iCloud, så den kan rettes.</p></details>
+<details><summary>Hvilke enheter fungerer den på?</summary><p>iPhone med iOS 17 eller nyere. Appen finnes på 24 språk.</p></details></div>
+      <p class="contact">Spørsmål eller tilbakemeldinger? Skriv til <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Jeg svarer vanligvis innen 2 til 3 dager.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Når neste gjest spør,<br>vis QR-koden</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">Last ned gratis i App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Språk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb" aria-current="page">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Personvern</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

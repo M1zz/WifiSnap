@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi：拍一下就連上，用 QR Code 分享 Wi-Fi</title>
+  <meta name="description" content="拍下 Wi-Fi 告示牌就能連線，自己的 Wi-Fi 用一張 QR Code 分享，還能製作並列印訪客告示牌。所有功能都免費。">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/zh-Hant/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi — 輕鬆分享與連線 Wi-Fi</title>
-  <meta name="description" content="用 QR Code 分享 Wi-Fi，拍下 Wi-Fi 告示牌就能連線，還能為店家製作訪客 Wi-Fi 告示牌。一款 iPhone App。">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="輕鬆分享與連線 Wi-Fi。">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi：拍一下就連上，用 QR Code 分享 Wi-Fi">
+  <meta property="og:description" content="拍下 Wi-Fi 告示牌就能連線，自己的 Wi-Fi 用一張 QR Code 分享，還能製作並列印訪客告示牌。所有功能都免費。">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/zh-Hant/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/zh-Hant/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">輕鬆分享與連線 Wi-Fi</p>
-      <p class="tagline">不必再一個字一個字唸密碼，一張 QR Code 就搞定。</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">查看功能</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 或以上版本 · iPhone</p>
-    </header>
+  <a class="skip" href="#main">跳到主要內容</a>
+  <header class="bar">
+    <a class="brand" href="../zh-Hant/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">語言</a>
+  </header>
 
-    <div class="card">
-      <h2>專為這些時刻而設計</h2>
-      <p>你把 Wi-Fi 密碼唸給客人聽，對方卻輸入錯誤；你照著咖啡廳牆上的告示牌抄密碼，結果錯了一個字母；
-        同一組密碼，你解釋了一次又一次。有了 MyFi，這一切只需要一張 QR Code、一張照片。</p>
-    </div>
-
-    <h2 id="features">功能</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>用 QR Code 分享 Wi-Fi</h3>
-        <p>MyFi 會自動偵測你目前連線的網路名稱。只要輸入一次密碼，就能產生標準的 Wi-Fi QR Code
-          （<code>WIFI:S:…;T:WPA;P:…;;</code>）。對方只需用 iPhone 或 Android 手機的<strong>內建相機對準</strong>即可連線。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>不用再唸密碼，<br>一張 QR Code 就夠了</h1>
+        <p class="lead">朋友用相機掃一下就連上了。咖啡廳牆上的告示牌，拍一張照片這支 iPhone 就能連線。再也不會因為抄錯而連不上。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">在 App Store 免費下載</a><a class="try" href="#try">做一張你的 Wi-Fi QR Code ↓</a></div>
+        <p class="muted small">所有功能都免費。支援 iOS 17 以上的 iPhone。</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>拍一下就能連線</h3>
-        <p>拍下咖啡廳或民宿的 Wi-Fi 告示牌，或從圖庫中挑選一張照片。
-          裝置上的文字辨識會自動填入網路名稱和密碼。點一下<strong>連線此 iPhone</strong>，馬上就能上網。</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>製作訪客 Wi-Fi 告示牌</h3>
-        <p>提供 <strong>7 種主題</strong>，為你的店家設計 Wi-Fi 告示牌。加上店名和標誌，可選擇適合螢幕與社群媒體的
-          <strong>卡片</strong>，或適合列印的直式 <strong>A4 海報</strong>，
-          接著儲存成圖片、分享出去，或<strong>直接用 AirPrint 列印</strong>。告示牌數量不限，想存幾張都可以。</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>主畫面小工具</h3>
-        <p>把常用 Wi-Fi 的 QR Code 放到主畫面小工具上。
-          客人問起時，秀出螢幕就好，連 App 都不用打開。</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>常去的地方優先顯示</h3>
-        <p>MyFi 會記住你在哪裡連線或分享過每個網路。當你回到同一個地方，
-          該網路就會排到列表最上方。你也可以在地圖上查看已儲存的地點。</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>個人熱點也能產生 QR Code</h3>
-        <p>iPhone 的個人熱點是由這支手機本身發出的，因此無法連線到自己的熱點。
-          MyFi 會另外標示熱點，不會嘗試連線，而是產生一張<strong>可分享給他人的 QR Code</strong>。</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/zh-Hant/02-qr.jpg" alt="不用再唸密碼， 一張 QR Code 就夠了" width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>資料只存在你的裝置上</h2>
-      <p>MyFi 沒有伺服器。Wi-Fi 名稱與密碼、從照片辨識出的文字以及位置資訊，
-        <strong>都只在你的裝置上</strong>處理與儲存，絕不會傳送到任何地方。
-        沒有廣告、沒有第三方分析，也沒有追蹤。為了改善 App，僅會將匿名使用統計與當機報告傳送至 Apple iCloud。</p>
-      <p><a href="privacy.html">閱讀完整隱私權政策 →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>使用須知</h2>
-      <ul>
-        <li>基於安全考量，<strong>iOS 不允許任何 App 讀取裝置上儲存的 Wi-Fi 密碼。</strong>
-          因此分享時採用「自動偵測名稱，密碼只需輸入一次」的方式。之後，MyFi 會直接使用已儲存的密碼。</li>
-        <li>連線網路需要使用<strong>實體 iPhone</strong>。iOS 模擬器無法連線 Wi-Fi 網路。</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>做一張你的 Wi-Fi QR Code</h2>
+      <p class="muted">改一下名稱或密碼，告示牌馬上跟著變。用手機相機掃一下，真的會跳出加入網路的提示。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;做一張你的 Wi-Fi QR Code&quot;, &quot;lead&quot;: &quot;改一下名稱或密碼，告示牌馬上跟著變。用手機相機掃一下，真的會跳出加入網路的提示。&quot;, &quot;ssidLabel&quot;: &quot;Wi-Fi 名稱&quot;, &quot;pwLabel&quot;: &quot;密碼（沒有就留空）&quot;, &quot;themeLabel&quot;: &quot;樣式&quot;, &quot;scan&quot;: &quot;用手機內建相機掃一下左邊的 QR Code。&quot;, &quot;note&quot;: &quot;輸入的內容只在這個瀏覽器裡使用，不會傳送到任何地方。在 App 裡還可以加上店名、標誌和營業時間，列印成 A4 海報。&quot;, &quot;heading&quot;: &quot;免費 Wi-Fi&quot;, &quot;subtitle&quot;: &quot;歡迎使用&quot;, &quot;network&quot;: &quot;網路&quot;, &quot;password&quot;: &quot;密碼&quot;, &quot;footer&quot;: &quot;用相機掃描 QR Code 即可自動連線&quot;, &quot;open&quot;: &quot;無（開放網路）&quot;, &quot;themes&quot;: [&quot;午夜&quot;, &quot;日落&quot;, &quot;薄荷&quot;, &quot;海洋&quot;, &quot;森林&quot;, &quot;咖啡廳&quot;, &quot;黑白&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">支援 / 說明</a>
-      <a class="btn secondary" href="privacy.html">隱私權政策</a>
-    </div>
+    <section class="problem reveal">
+      <h2>「Wi-Fi 密碼是多少？」今天被問了幾次？</h2>
+      <p>唸給客人聽，大小寫說錯；照著牆上的告示抄，0 和 O 分不清；然後再解釋一遍。MyFi 把這些麻煩變成一張照片和一張 QR Code。</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <strong>繁體中文</strong> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>拍一下就連上</h2>
+        <p>拍下牆上的 Wi-Fi 告示牌或收據，或從相簿選一張，它會讀出網路名稱和密碼，直接讓這支 iPhone 連線。告示牌上如果有 QR Code，會先讀 QR Code，結果更準確。<br>文字沒認清時，把從照片擷取的片段拖到名稱或密碼欄就好。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/01-scan.jpg" alt="拍一下就連上" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">聯絡我們</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>製作並列印訪客告示牌</h2>
+        <p>從7種主題中選一種，加上店名、標誌和營業時間等文字。可選卡片或 A4 直式海報，存成圖片，或用 AirPrint 直接列印。<br>每家店、每張桌子都能做不同的告示牌，隨時修改。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/03-poster-card.jpg" alt="製作並列印訪客告示牌" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>回到老地方，它排在最前面</h2>
+        <p>連線過或分享過的 Wi-Fi 會連同當時的位置一起儲存。回到同一個地方，那裡的 Wi-Fi 會排在最上面，儲存過的地點也能在地圖上看。<br>常用的 Wi-Fi 可以做成 QR Code 放在主畫面或鎖定畫面小工具上，客人問起時亮出螢幕就好。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hant/05-saved.jpg" alt="回到老地方，它排在最前面" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>三個步驟就能開始</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>打開 App</h3><p>為了辨識目前連線的 Wi-Fi 名稱，第一次會請求一次位置權限。</p></li>
+<li class="card"><span class="n">2</span><h3>拍照或輸入</h3><p>拍下告示牌，或輸入一次自己的 Wi-Fi 密碼。</p></li>
+<li class="card"><span class="n">3</span><h3>連線或出示</h3><p>讓這支 iPhone 連線，或打開 QR Code 給對方的相機掃，就完成了。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>在哪裡操作</h2>
+      <div class="card table">
+        <dl><div><dt>用告示牌照片連線</dt><dd><code>加入 Wi-Fi</code> 裡選 <code>拍照</code> 或 <code>相簿</code>，再點 <code>連線此 iPhone</code></dd></div><div><dt>手動輸入後連線</dt><dd><code>加入 Wi-Fi</code> 裡選 <code>手動輸入</code></dd></div><div><dt>不連線，只做 QR Code</dt><dd><code>不連線，只製作 QR Code</code></dd></div><div><dt>用訊息傳送 QR Code</dt><dd>點一個已儲存的網路，再點 <code>分享 QR Code 圖片</code></dd></div><div><dt>訪客告示牌</dt><dd>點一個已儲存的網路，再點 <code>列印或分享訪客告示牌</code></dd></div><div><dt>把熱點做成 QR Code</dt><dd>點一個已儲存的網路，打開 <code>我的熱點</code></dd></div><div><dt>快速連線或分享</dt><dd>在列表中向右滑是連線，向左滑是分享 QR Code</dd></div><div><dt>查看儲存過的地點</dt><dd><code>已儲存的網路</code> 旁的 <code>地圖</code></dd></div><div><dt>把 QR Code 放在主畫面</dt><dd>長按主畫面，加入 MyFi 的 <code>Wi-Fi QR Code</code> 小工具</dd></div></dl>
+      </div>
+      <p class="muted">也可以用 Siri 或捷徑直接打開 QR Code。</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>所有功能都免費</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>免費</h3>
+          <ul><li>用照片連線 Wi-Fi</li><li>製作 QR Code 並以圖片分享</li><li>訪客告示牌：7種主題、卡片和 A4 海報、AirPrint 列印</li><li>主畫面和鎖定畫面小工具</li><li>已儲存 Wi-Fi 的地圖</li><li>沒有廣告，不用註冊</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>贊助支持（自由選擇）</h3>
+          <ul><li>喜歡的話，可以贊助小費支持開發</li><li>小費不會解鎖任何功能，不付也能用全部功能</li></ul>
+          <p class="muted">小費是一次性的小額付款。</p>
+        </div>
+      </div>
+      <p class="muted">沒有訂閱，也沒有付費功能。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>常見問題</h2>
+      <div class="faq"><details><summary>為什麼要自己輸入密碼？</summary><p>基於 iOS 的安全規定，任何 App 都讀不到裝置裡儲存的 Wi-Fi 密碼。所以名稱會自動辨識，密碼只需第一次輸入，之後就用儲存的值。</p></details>
+<details><summary>看不到目前連線的 Wi-Fi 名稱。</summary><p>iOS 只會把 Wi-Fi 名稱告訴有位置權限的 App。請到設定 › 隱私權與安全性 › 定位服務允許 MyFi。位置只用來辨識 Wi-Fi 名稱和認出你回到過的地方。</p></details>
+<details><summary>照片裡的名稱或密碼辨識錯了。</summary><p>靠近一點、拍正一點會比較好辨識。還是不對的話，把照片擷取的片段拖到正確的欄位，或直接修改。告示牌上有 Wi-Fi QR Code 時，會讀 QR Code 準確填入。</p></details>
+<details><summary>能辨識什麼樣的告示牌？</summary><p>最擅長以英文或韓文標示的告示牌，例如 ID、PW、SSID、Network、Password。沒有標示時，也會挑出看起來像密碼的那一行。告示牌上的 Wi-Fi QR Code 不論什麼語言都能準確讀取。</p></details>
+<details><summary>收到 QR Code 的人要怎麼連線？</summary><p>不論 iPhone 或 Android，用內建相機掃 QR Code 就會跳出加入網路的提示，不需要安裝任何 App。</p></details>
+<details><summary>別人看得到我的密碼嗎？</summary><p>QR Code 裡是標準的 Wi-Fi 連線資訊。要不要分享一律由你決定，告示牌上也可以隱藏密碼。</p></details>
+<details><summary>為什麼連不上自己的熱點？</summary><p>iPhone 的個人熱點就是這支手機本身，沒辦法連線到自己。打開 <code>我的熱點</code> 後，MyFi 會把它當成分享給別人的 QR Code 來處理。</p></details>
+<details><summary>我的 Wi-Fi 資訊會傳到哪裡？</summary><p>MyFi 沒有伺服器。Wi-Fi 名稱和密碼、照片辨識結果、位置都只在裝置裡處理和儲存。不使用廣告和追蹤工具，只會把用來改進 App 的匿名使用統計和錯誤報告傳到 Apple iCloud。</p></details>
+<details><summary>支援哪些裝置？</summary><p>iOS 17 以上的 iPhone。App 提供24種語言。</p></details></div>
+      <p class="contact">有問題或建議，請寄信到 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>。通常2到3天內回覆。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>下次客人問起，<br>亮出 QR Code 就好</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">在 App Store 免費下載</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="語言"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">隱私權政策</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

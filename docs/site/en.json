@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: snap a Wi-Fi sign to join, share yours with a QR code",
+  "description": "Snap a Wi-Fi sign and your iPhone joins. Share your own network with one QR code, and print a guest sign for your café. Everything is free.",
+  "hero": {
+    "headline": "Stop spelling out passwords.\nShow a QR code.",
+    "lead": "Friends just point their camera and they're on. Snap the sign on a café wall and this iPhone connects. No more typos from copying it by hand.",
+    "cta": "Get it free on the App Store",
+    "note": "Everything is free. iPhone with iOS 17 or later."
+  },
+  "demo": {
+    "title": "Make your Wi-Fi QR code",
+    "lead": "Change the name or password and the sign updates as you type. Point a phone camera at it and you'll get a real prompt to join.",
+    "ssidLabel": "Network name",
+    "pwLabel": "Password (leave empty for an open network)",
+    "themeLabel": "Design",
+    "scan": "Point your phone's Camera app at the QR code.",
+    "note": "What you type stays in this browser and is never sent anywhere. In the app you can add your shop name, logo and opening hours, and print it as an A4 poster.",
+    "heading": "Free Wi-Fi",
+    "subtitle": "Enjoy your stay",
+    "network": "Network",
+    "password": "Password",
+    "footer": "Point your camera at the QR code to connect",
+    "open": "None (open network)",
+    "themes": [
+      "Midnight",
+      "Sunset",
+      "Mint",
+      "Ocean",
+      "Forest",
+      "Café",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "\"What was the Wi‑Fi password again?\" How many times today?",
+    "text": "You read it out and get the capitals wrong. You copy the card on the café wall and mix up 0 and O. Then you explain it all over again. MyFi turns that into one photo and one QR code."
+  },
+  "features": [
+    {
+      "title": "Snap it, and you're on",
+      "text": "Take a photo of the Wi-Fi sign or receipt, or pick one from your library. MyFi reads the network name and password and connects this iPhone. If the sign has a QR code too, it reads that first, so the details are exact.\nIf the text is unclear, drag a piece picked out of the photo into the name or password field.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Make a guest sign and print it",
+      "text": "Pick one of 7 themes and add your shop name, logo and lines like opening hours. Choose a card or an A4 portrait poster, save it as an image, or print it right away with AirPrint.\nKeep several signs, one for each shop or table, and edit them any time.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Places you return to come first",
+      "text": "Networks you join or share are saved along with where you were. Come back and that network is at the top of the list, and every saved place is on a map.\nPut the QR code of the Wi-Fi you share most on your Home Screen or Lock Screen. When a guest asks, just show them your screen.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Three steps to start",
+    "items": [
+      {
+        "title": "Open the app",
+        "text": "It asks for location once, because iOS only shares the name of your current Wi-Fi with apps that have it."
+      },
+      {
+        "title": "Snap or type",
+        "text": "Photograph a sign, or enter your own Wi-Fi password once."
+      },
+      {
+        "title": "Join or show",
+        "text": "Connect this iPhone, or bring up the QR code and hold it up to the other person's camera."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Where to find it",
+    "rows": [
+      [
+        "Join from a photo of a sign",
+        "`Add Wi-Fi`, then `Camera` or `Photos`, then `Connect this phone`"
+      ],
+      [
+        "Type the details in",
+        "`Add Wi-Fi`, then `Type it in`"
+      ],
+      [
+        "Just make a QR code",
+        "`Make QR code without connecting`"
+      ],
+      [
+        "Send the QR code in a message",
+        "Tap a saved network, then `Share QR image`"
+      ],
+      [
+        "Guest sign",
+        "Tap a saved network, then `Print or share a guest sign`"
+      ],
+      [
+        "Share your hotspot as a QR code",
+        "Tap a saved network and turn on `My hotspot`"
+      ],
+      [
+        "Join or share in one swipe",
+        "In the list, swipe right to connect, swipe left to share the QR code"
+      ],
+      [
+        "See saved places",
+        "`Map`, next to `Saved networks`"
+      ],
+      [
+        "QR code on your Home Screen",
+        "Touch and hold the Home Screen and add MyFi's `Wi-Fi QR` widget"
+      ]
+    ],
+    "note": "You can also open the QR code right away with Siri or the Shortcuts app."
+  },
+  "pricing": {
+    "title": "Every feature is free",
+    "free": {
+      "name": "Free",
+      "items": [
+        "Join Wi-Fi from a photo",
+        "Make QR codes and share them as images",
+        "Guest signs in 7 themes, as a card or A4 poster, printed with AirPrint",
+        "Home Screen and Lock Screen widgets",
+        "A map of your saved Wi-Fi",
+        "No ads, no sign-up"
+      ]
+    },
+    "pro": {
+      "name": "Tip jar (optional)",
+      "items": [
+        "If you like it, you can leave a tip to support development",
+        "Tips don't unlock anything. Without one, you still get every feature"
+      ],
+      "note": "A tip is a small one-time payment."
+    },
+    "note": "No subscriptions and no paid features."
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "Why do I have to type my password?",
+        "a": "iOS doesn't let any app read the Wi-Fi passwords saved on your device. So MyFi detects the network name and you enter the password once. After that it uses the saved one."
+      },
+      {
+        "q": "I can't see the name of the Wi-Fi I'm on.",
+        "a": "iOS only gives the Wi-Fi name to apps with location access. Allow MyFi in Settings › Privacy & Security › Location Services. Location is only used to read the network name and to recognize places you come back to."
+      },
+      {
+        "q": "It read the name or password wrong.",
+        "a": "Get closer and keep the photo straight. If it's still off, drag the right piece from the photo into the field, or fix it by hand. If the sign has a Wi-Fi QR code, MyFi reads that and fills in the exact details."
+      },
+      {
+        "q": "Which signs can it read?",
+        "a": "It does best with signs labeled in English or Korean, such as ID, PW, SSID, Network and Password. Even without labels, it picks out the line that looks like a password. Any Wi-Fi QR code on the sign is read exactly, whatever the language."
+      },
+      {
+        "q": "How does someone join with my QR code?",
+        "a": "On iPhone or Android, they point the built-in camera at it and tap the prompt to join. They don't need any app."
+      },
+      {
+        "q": "Can other people see my password?",
+        "a": "The QR code holds standard Wi-Fi login details. You always choose whether to share it, and you can hide the password on a guest sign."
+      },
+      {
+        "q": "Why can't I connect to my own hotspot?",
+        "a": "Your iPhone's Personal Hotspot is this phone, so it can't join itself. Turn on `My hotspot` and MyFi treats it as a QR code to hand out instead."
+      },
+      {
+        "q": "Where does my Wi-Fi info go?",
+        "a": "MyFi has no server. Network names, passwords, photo results and locations are processed and stored only on your device. There are no ads or trackers. The app sends only anonymous usage stats and error reports to Apple iCloud to help fix it."
+      },
+      {
+        "q": "Which devices does it run on?",
+        "a": "iPhone with iOS 17 or later. The app comes in 24 languages."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Next time a guest asks,\nshow them the QR code",
+    "cta": "Get it free on the App Store"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "languages": "Language",
+    "privacy": "Privacy Policy",
+    "contact": "Questions or feedback? Write to {email}. I usually reply within 2 to 3 days."
+  }
+}

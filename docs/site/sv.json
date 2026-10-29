@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: fota skylten och anslut, dela ditt Wi-Fi med en QR-kod",
+  "description": "Fota Wi-Fi-skylten så ansluter iPhonen. Dela ditt eget nätverk med en QR-kod och skriv ut en gästskylt. Allt är gratis.",
+  "hero": {
+    "headline": "Sluta läsa upp lösenordet.\nVisa en QR-kod.",
+    "lead": "Vänner riktar bara kameran mot den och är uppkopplade. Skylten på kaféets vägg? En bild så ansluter den här iPhonen. Inga fler skrivfel när du skriver av.",
+    "cta": "Hämta gratis på App Store",
+    "note": "Alla funktioner är gratis. iPhone med iOS 17 eller senare."
+  },
+  "demo": {
+    "title": "Gör en QR-kod för ditt Wi-Fi",
+    "lead": "Ändra namn eller lösenord så uppdateras skylten direkt. Rikta en mobilkamera mot den så får du en riktig fråga om att ansluta.",
+    "ssidLabel": "Nätverksnamn",
+    "pwLabel": "Lösenord (lämna tomt för ett öppet nätverk)",
+    "themeLabel": "Design",
+    "scan": "Rikta mobilens kamera mot QR-koden till vänster.",
+    "note": "Det du skriver stannar i den här webbläsaren och skickas ingenstans. I appen lägger du till namn, logotyp och öppettider för stället och skriver ut det som en A4-affisch.",
+    "heading": "Gratis Wi-Fi",
+    "subtitle": "Varsågod och surfa",
+    "network": "Nätverk",
+    "password": "Lösenord",
+    "footer": "Skanna QR-koden med kameran för att ansluta",
+    "open": "Inget (öppet nätverk)",
+    "themes": [
+      "Midnatt",
+      "Solnedgång",
+      "Mynta",
+      "Hav",
+      "Skog",
+      "Kafé",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "”Vad var Wi-Fi-lösenordet nu igen?” Hur många gånger i dag?",
+    "text": "Du läser upp det och blandar ihop stora och små bokstäver. Du skriver av skylten på väggen och förväxlar 0 och O. Sedan förklarar du allt igen. MyFi gör det till en bild och en QR-kod."
+  },
+  "features": [
+    {
+      "title": "Fota så är du uppkopplad",
+      "text": "Fota Wi-Fi-skylten eller kvittot, eller välj en bild. MyFi läser nätverksnamn och lösenord och ansluter den här iPhonen. Finns det också en QR-kod på skylten läses den först, så att uppgifterna blir exakta.\nÄr texten otydlig drar du bara en bit från bilden till fältet för namn eller lösenord.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Gör och skriv ut en gästskylt",
+      "text": "Välj ett av 7 teman och lägg till namn, logotyp och rader som öppettider. Välj kort eller stående A4-affisch, spara som bild eller skriv ut direkt med AirPrint.\nHa flera skyltar, en för varje ställe eller bord, och ändra dem när du vill.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Platser du kommer tillbaka till hamnar överst",
+      "text": "Nätverk du ansluter till eller delar sparas tillsammans med platsen. Kommer du tillbaka hamnar det nätverket överst, och alla sparade platser syns på en karta.\nLägg QR-koden till ditt mest delade Wi-Fi som widget på hemskärmen eller låsskärmen. När en gäst frågar visar du bara skärmen.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Kom igång i tre steg",
+    "items": [
+      {
+        "title": "Öppna appen",
+        "text": "Den frågar om platsåtkomst en gång, eftersom iOS bara berättar namnet på ditt nuvarande Wi-Fi för appar som har det."
+      },
+      {
+        "title": "Fota eller skriv",
+        "text": "Fota en skylt, eller skriv in lösenordet till ditt eget Wi-Fi en gång."
+      },
+      {
+        "title": "Anslut eller visa",
+        "text": "Anslut den här iPhonen, eller visa QR-koden för den andras kamera."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Var du hittar vad",
+    "rows": [
+      [
+        "Anslut från en bild på en skylt",
+        "`Lägg till Wi-Fi`, sedan `Kamera` eller `Bilder`, sedan `Anslut den här iPhonen`"
+      ],
+      [
+        "Skriv in uppgifterna själv",
+        "`Lägg till Wi-Fi`, sedan `Skriv in själv`"
+      ],
+      [
+        "Gör bara en QR-kod",
+        "`Skapa QR-kod utan att ansluta`"
+      ],
+      [
+        "Skicka QR-koden i ett meddelande",
+        "Tryck på ett sparat nätverk, sedan `Dela QR-bild`"
+      ],
+      [
+        "Gästskylt",
+        "Tryck på ett sparat nätverk, sedan `Skriv ut eller dela gästskylt`"
+      ],
+      [
+        "Din egen hotspot som QR-kod",
+        "Tryck på ett sparat nätverk och slå på `Min hotspot`"
+      ],
+      [
+        "Anslut eller dela med ett svep",
+        "Svep åt höger i listan för att ansluta, åt vänster för att dela"
+      ],
+      [
+        "Se sparade platser",
+        "`Karta`, bredvid `Sparade nätverk`"
+      ],
+      [
+        "QR-kod på hemskärmen",
+        "Håll fingret på hemskärmen och lägg till MyFi-widgeten `Wi-Fi-QR`"
+      ]
+    ],
+    "note": "Du kan också öppna QR-koden direkt med Siri eller appen Genvägar."
+  },
+  "pricing": {
+    "title": "Alla funktioner är gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Anslut till Wi-Fi från en bild",
+        "Gör QR-koder och dela dem som bild",
+        "Gästskyltar i 7 teman, som kort eller A4-affisch, utskrift med AirPrint",
+        "Widgetar för hemskärm och låsskärm",
+        "Karta över dina sparade Wi-Fi",
+        "Ingen reklam, inget konto"
+      ]
+    },
+    "pro": {
+      "name": "Dricks (frivilligt)",
+      "items": [
+        "Gillar du appen kan du stötta utvecklingen med dricks",
+        "Dricks låser inte upp något. Utan dricks har du fortfarande alla funktioner"
+      ],
+      "note": "Dricks är en liten engångsbetalning."
+    },
+    "note": "Inga abonnemang och inga betalda funktioner."
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "items": [
+      {
+        "q": "Varför måste jag skriva lösenordet själv?",
+        "a": "iOS låter ingen app läsa Wi-Fi-lösenorden som sparats på enheten. Därför känner MyFi igen nätverksnamnet, och lösenordet skriver du in en gång. Sedan använder appen det sparade."
+      },
+      {
+        "q": "Jag ser inte namnet på mitt nuvarande Wi-Fi.",
+        "a": "iOS ger bara Wi-Fi-namnet till appar med platsåtkomst. Tillåt MyFi under Inställningar › Integritet och säkerhet › Platstjänster. Platsen används bara för att läsa nätverksnamnet och känna igen platser du återvänder till."
+      },
+      {
+        "q": "Namn eller lösenord lästes fel.",
+        "a": "Gå närmare och fota rakt. Blir det fortfarande fel, dra rätt bit från bilden till fältet eller rätta för hand. Har skylten en Wi-Fi-QR-kod läser MyFi den och fyller i exakta uppgifter."
+      },
+      {
+        "q": "Vilka skyltar kan den läsa?",
+        "a": "Den klarar sig bäst med skyltar på engelska eller koreanska med etiketter som ID, PW, SSID, Network eller Password. Även utan etiketter hittar den raden som ser ut som ett lösenord. En Wi-Fi-QR-kod på skylten läses exakt oavsett språk."
+      },
+      {
+        "q": "Hur ansluter någon med min QR-kod?",
+        "a": "På iPhone och Android riktar de bara den inbyggda kameran mot koden och trycker på frågan om att ansluta. Ingen app behövs."
+      },
+      {
+        "q": "Kan andra se mitt lösenord?",
+        "a": "QR-koden innehåller vanliga inloggningsuppgifter för Wi-Fi. Du väljer alltid själv om du delar den, och du kan dölja lösenordet på gästskylten."
+      },
+      {
+        "q": "Varför kan jag inte ansluta till min egen hotspot?",
+        "a": "Din iPhones Internetdelning är själva telefonen, och den kan inte ansluta till sig själv. Slå på `Min hotspot` så behandlar MyFi den som en QR-kod att dela ut."
+      },
+      {
+        "q": "Vart tar mina Wi-Fi-uppgifter vägen?",
+        "a": "MyFi har ingen server. Nätverksnamn, lösenord, resultat från bilder och platser behandlas och sparas bara på din enhet. Ingen reklam eller spårning. Appen skickar bara anonym användningsstatistik och felrapporter till Apple iCloud så att den kan rättas."
+      },
+      {
+        "q": "Vilka enheter fungerar den på?",
+        "a": "iPhone med iOS 17 eller senare. Appen finns på 24 språk."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "När nästa gäst frågar,\nvisa QR-koden",
+    "cta": "Hämta gratis på App Store"
+  },
+  "ui": {
+    "skip": "Hoppa till innehållet",
+    "languages": "Språk",
+    "privacy": "Integritetspolicy",
+    "contact": "Frågor eller synpunkter? Skriv till {email}. Jag svarar oftast inom 2 till 3 dagar."
+  }
+}

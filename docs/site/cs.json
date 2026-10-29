@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: vyfoťte tabulku a připojte se, Wi-Fi sdílejte QR kódem",
+  "description": "Vyfoťte tabulku s Wi-Fi a iPhone se připojí. Svou síť sdílejte jedním QR kódem a vytiskněte tabulku pro hosty. Všechno zdarma.",
+  "hero": {
+    "headline": "Už žádné diktování hesla.\nStačí QR kód.",
+    "lead": "Přátelé jen namíří fotoaparát a jsou připojení. Tabulka na zdi kavárny? Jedna fotka a tento iPhone se připojí. Konec překlepů při opisování.",
+    "cta": "Stáhnout zdarma v App Storu",
+    "note": "Všechny funkce jsou zdarma. iPhone s iOS 17 nebo novějším."
+  },
+  "demo": {
+    "title": "Vytvořte QR kód své Wi-Fi",
+    "lead": "Změňte název nebo heslo a tabulka se hned upraví. Namiřte na ni fotoaparát telefonu a opravdu se objeví nabídka připojení.",
+    "ssidLabel": "Název sítě",
+    "pwLabel": "Heslo (u otevřené sítě nechte prázdné)",
+    "themeLabel": "Vzhled",
+    "scan": "Namiřte fotoaparát telefonu na QR kód vlevo.",
+    "note": "Co zadáte, zůstane v tomto prohlížeči a nikam se neposílá. V aplikaci přidáte název, logo a otevírací dobu podniku a vytisknete plakát A4.",
+    "heading": "Wi-Fi zdarma",
+    "subtitle": "Připojte se bez starostí",
+    "network": "Síť",
+    "password": "Heslo",
+    "footer": "Nasměrujte fotoaparát na QR kód a připojte se",
+    "open": "Žádné (otevřená síť)",
+    "themes": [
+      "Půlnoc",
+      "Západ slunce",
+      "Máta",
+      "Oceán",
+      "Les",
+      "Kavárna",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "„Jaké je heslo k Wi-Fi?“ Kolikrát už dnes?",
+    "text": "Diktujete ho a spletete velká písmena. Opisujete tabulku ze zdi a pletete si 0 a O. A pak to vysvětlujete znovu. MyFi to zkrátí na jednu fotku a jeden QR kód."
+  },
+  "features": [
+    {
+      "title": "Vyfotíte a jste připojení",
+      "text": "Vyfoťte tabulku s Wi-Fi nebo účtenku, případně vyberte snímek z galerie. MyFi přečte název sítě a heslo a připojí tento iPhone. Je-li na tabulce i QR kód, přečte nejdřív ten, aby údaje byly přesné.\nKdyž text není čitelný, přetáhněte útržek z fotky do pole názvu nebo hesla.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Tabulka pro hosty i s tiskem",
+      "text": "Vyberte jeden ze 7 motivů a přidejte název, logo a řádky jako otevírací dobu. Zvolte kartu nebo plakát A4 na výšku, uložte jako obrázek nebo hned vytiskněte přes AirPrint.\nMějte víc tabulek, pro každý podnik nebo stůl, a upravujte je kdykoli.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Kam se vracíte, je nahoře",
+      "text": "Sítě, ke kterým se připojíte nebo které sdílíte, se uloží i s místem. Až se vrátíte, bude ta síť nahoře v seznamu a všechna uložená místa uvidíte na mapě.\nQR kód nejčastěji sdílené Wi-Fi si dejte jako widget na plochu nebo zamčenou obrazovku. Když se host zeptá, jen ukážete displej.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Začnete ve třech krocích",
+    "items": [
+      {
+        "title": "Otevřete aplikaci",
+        "text": "Jednou požádá o polohu, protože iOS prozradí název aktuální Wi-Fi jen aplikacím s tímto přístupem."
+      },
+      {
+        "title": "Vyfoťte nebo zadejte",
+        "text": "Vyfoťte tabulku, nebo jednou zadejte heslo ke své Wi-Fi."
+      },
+      {
+        "title": "Připojte nebo ukažte",
+        "text": "Připojte tento iPhone, nebo ukažte QR kód fotoaparátu druhého."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Kde co najdete",
+    "rows": [
+      [
+        "Připojení z fotky tabulky",
+        "`Přidat Wi-Fi`, pak `Fotoaparát` nebo `Galerie`, pak `Připojit tento iPhone`"
+      ],
+      [
+        "Ruční zadání údajů",
+        "`Přidat Wi-Fi`, pak `Zadat ručně`"
+      ],
+      [
+        "Jen vytvořit QR kód",
+        "`Vytvořit QR kód bez připojení`"
+      ],
+      [
+        "Poslat QR kód ve zprávě",
+        "Klepněte na uloženou síť, pak `Sdílet obrázek QR kódu`"
+      ],
+      [
+        "Tabulka pro hosty",
+        "Klepněte na uloženou síť, pak `Vytisknout nebo sdílet tabulku pro hosty`"
+      ],
+      [
+        "Vlastní hotspot jako QR kód",
+        "Klepněte na uloženou síť a zapněte `Můj hotspot`"
+      ],
+      [
+        "Připojit nebo sdílet jedním tahem",
+        "V seznamu přejeďte doprava pro připojení, doleva pro sdílení"
+      ],
+      [
+        "Zobrazit uložená místa",
+        "`Mapa` vedle `Uložené sítě`"
+      ],
+      [
+        "QR kód na ploše",
+        "Podržte prst na ploše a přidejte widget MyFi `QR kód Wi-Fi`"
+      ]
+    ],
+    "note": "QR kód otevřete hned i přes Siri nebo aplikaci Zkratky."
+  },
+  "pricing": {
+    "title": "Všechny funkce jsou zdarma",
+    "free": {
+      "name": "Zdarma",
+      "items": [
+        "Připojení k Wi-Fi z fotky",
+        "Vytváření QR kódů a sdílení jako obrázek",
+        "Tabulky pro hosty v 7 motivech, karta nebo plakát A4, tisk přes AirPrint",
+        "Widgety na plochu a zamčenou obrazovku",
+        "Mapa uložených Wi-Fi",
+        "Bez reklam a bez registrace"
+      ]
+    },
+    "pro": {
+      "name": "Spropitné (dobrovolné)",
+      "items": [
+        "Pokud se vám aplikace líbí, můžete vývoj podpořit spropitným",
+        "Spropitné nic neodemyká. I bez něj máte všechny funkce"
+      ],
+      "note": "Spropitné je malá jednorázová platba."
+    },
+    "note": "Žádné předplatné a žádné placené funkce."
+  },
+  "faq": {
+    "title": "Časté dotazy",
+    "items": [
+      {
+        "q": "Proč musím heslo zadat sám?",
+        "a": "iOS nedovolí žádné aplikaci číst hesla k Wi-Fi uložená v zařízení. MyFi proto rozpozná název sítě a heslo zadáte jen jednou. Pak už použije uložené."
+      },
+      {
+        "q": "Nevidím název Wi-Fi, ke které jsem připojený.",
+        "a": "iOS dává název Wi-Fi jen aplikacím s přístupem k poloze. Povolte MyFi v Nastavení › Soukromí a zabezpečení › Polohové služby. Poloha slouží jen ke čtení názvu sítě a k poznání míst, kam se vracíte."
+      },
+      {
+        "q": "Název nebo heslo se přečetly špatně.",
+        "a": "Přibližte se a foťte rovně. Pokud to pořád nesedí, přetáhněte správný útržek z fotky do pole nebo ho opravte ručně. Má-li tabulka QR kód Wi-Fi, MyFi ho přečte a vyplní přesné údaje."
+      },
+      {
+        "q": "Jaké tabulky umí přečíst?",
+        "a": "Nejlépe zvládá tabulky v angličtině nebo korejštině s popisky jako ID, PW, SSID, Network nebo Password. I bez popisků najde řádek, který vypadá jako heslo. QR kód Wi-Fi na tabulce přečte přesně v jakémkoli jazyce."
+      },
+      {
+        "q": "Jak se někdo připojí přes můj QR kód?",
+        "a": "Na iPhonu i Androidu stačí namířit vestavěný fotoaparát na kód a klepnout na nabídku připojení. Žádnou aplikaci nepotřebuje."
+      },
+      {
+        "q": "Uvidí ostatní moje heslo?",
+        "a": "QR kód obsahuje standardní přihlašovací údaje k Wi-Fi. Jestli ho sdílíte, rozhodujete vždy vy, a na tabulce pro hosty můžete heslo skrýt."
+      },
+      {
+        "q": "Proč se nemůžu připojit ke svému hotspotu?",
+        "a": "Osobní hotspot iPhonu je tento telefon sám, k sobě se připojit nemůže. Zapněte `Můj hotspot` a MyFi ho bude brát jako QR kód pro ostatní."
+      },
+      {
+        "q": "Kam putují údaje o mé Wi-Fi?",
+        "a": "MyFi nemá server. Názvy sítí, hesla, výsledky rozpoznání fotek i polohy se zpracovávají a ukládají jen ve vašem zařízení. Žádné reklamy ani sledování. Aplikace posílá do Apple iCloud jen anonymní statistiky používání a hlášení chyb, aby se dala opravovat."
+      },
+      {
+        "q": "Na jakých zařízeních funguje?",
+        "a": "Na iPhonu s iOS 17 nebo novějším. Aplikace je ve 24 jazycích."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Až se zeptá další host,\nukažte mu QR kód",
+    "cta": "Stáhnout zdarma v App Storu"
+  },
+  "ui": {
+    "skip": "Přejít k obsahu",
+    "languages": "Jazyk",
+    "privacy": "Ochrana soukromí",
+    "contact": "Dotazy nebo připomínky? Pište na {email}. Obvykle odpovídám do 2 až 3 dnů."
+  }
+}

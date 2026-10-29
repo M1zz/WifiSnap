@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: kuvaa kyltti ja yhdistä, jaa Wi-Fi QR-koodilla",
+  "description": "Kuvaa Wi-Fi-kyltti, niin iPhone yhdistää. Jaa oma verkkosi yhdellä QR-koodilla ja tulosta vieraskyltti. Kaikki on ilmaista.",
+  "hero": {
+    "headline": "Lopeta salasanan sanelu.\nNäytä QR-koodi.",
+    "lead": "Ystävät osoittavat vain kameralla, ja yhteys on päällä. Kahvilan seinän kyltti? Yksi kuva, ja tämä iPhone yhdistää. Ei enää näppäilyvirheitä kopioidessa.",
+    "cta": "Lataa ilmaiseksi App Storesta",
+    "note": "Kaikki ominaisuudet ovat ilmaisia. iPhone, jossa iOS 17 tai uudempi."
+  },
+  "demo": {
+    "title": "Tee Wi-Fi-verkollesi QR-koodi",
+    "lead": "Muuta nimeä tai salasanaa, niin kyltti päivittyy heti. Osoita sitä puhelimen kameralla, niin saat oikean kehotteen liittyä verkkoon.",
+    "ssidLabel": "Verkon nimi",
+    "pwLabel": "Salasana (jätä tyhjäksi, jos verkko on avoin)",
+    "themeLabel": "Ulkoasu",
+    "scan": "Osoita puhelimesi kameralla vasemmalla olevaa QR-koodia.",
+    "note": "Kirjoittamasi pysyy tässä selaimessa eikä lähde minnekään. Apissa voit lisätä paikan nimen, logon ja aukioloajat ja tulostaa A4-julisteen.",
+    "heading": "Ilmainen Wi-Fi",
+    "subtitle": "Ole hyvä ja käytä",
+    "network": "Verkko",
+    "password": "Salasana",
+    "footer": "Skannaa QR-koodi kameralla ja yhdistä",
+    "open": "Ei mitään (avoin verkko)",
+    "themes": [
+      "Keskiyö",
+      "Auringonlasku",
+      "Minttu",
+      "Valtameri",
+      "Metsä",
+      "Kahvila",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "”Mikä se Wi-Fin salasana olikaan?” Monesko kerta tänään?",
+    "text": "Sanot sen ääneen ja isot kirjaimet menevät väärin. Kopioit seinän kyltistä ja sekoitat 0:n ja O:n. Sitten selität kaiken uudelleen. MyFi tekee siitä yhden kuvan ja yhden QR-koodin."
+  },
+  "features": [
+    {
+      "title": "Kuvaa, ja olet verkossa",
+      "text": "Kuvaa Wi-Fi-kyltti tai kuitti tai valitse kuva kirjastosta. MyFi lukee verkon nimen ja salasanan ja yhdistää tämän iPhonen. Jos kyltissä on myös QR-koodi, se luetaan ensin, jotta tiedot ovat täsmälleen oikein.\nJos teksti on epäselvä, vedä kuvasta poimittu pala nimen tai salasanan kenttään.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Tee ja tulosta vieraskyltti",
+      "text": "Valitse yksi 7 teemasta ja lisää nimi, logo ja rivejä kuten aukioloajat. Valitse kortti tai pysty A4-juliste, tallenna kuvaksi tai tulosta heti AirPrintillä.\nPidä useita kylttejä, yksi jokaiselle paikalle tai pöydälle, ja muokkaa niitä milloin vain.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Paikat, joihin palaat, ovat ylimpänä",
+      "text": "Verkot, joihin yhdistät tai joita jaat, tallentuvat sijainnin kanssa. Kun palaat, se verkko on listan kärjessä, ja kaikki tallennetut paikat näkyvät kartalla.\nLaita useimmin jakamasi Wi-Fin QR-koodi widgetiksi Koti-valikkoon tai lukitulle näytölle. Kun vieras kysyy, näytä vain näyttöä.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Alkuun kolmessa vaiheessa",
+    "items": [
+      {
+        "title": "Avaa appi",
+        "text": "Se kysyy kerran sijaintilupaa, koska iOS kertoo nykyisen Wi-Fin nimen vain apeille, joilla lupa on."
+      },
+      {
+        "title": "Kuvaa tai kirjoita",
+        "text": "Kuvaa kyltti tai kirjoita oman Wi-Fisi salasana kerran."
+      },
+      {
+        "title": "Yhdistä tai näytä",
+        "text": "Yhdistä tämä iPhone tai näytä QR-koodi toisen kameralle."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Mistä löydät mitäkin",
+    "rows": [
+      [
+        "Yhdistäminen kyltin kuvasta",
+        "`Lisää Wi-Fi`, sitten `Kamera` tai `Kuvat`, sitten `Yhdistä tämä iPhone`"
+      ],
+      [
+        "Tietojen kirjoittaminen",
+        "`Lisää Wi-Fi`, sitten `Kirjoita itse`"
+      ],
+      [
+        "Pelkkä QR-koodi",
+        "`Tee QR-koodi yhdistämättä`"
+      ],
+      [
+        "QR-koodin lähettäminen viestissä",
+        "Napauta tallennettua verkkoa, sitten `Jaa QR-kuva`"
+      ],
+      [
+        "Vieraskyltti",
+        "Napauta tallennettua verkkoa, sitten `Tulosta tai jaa vieraskyltti`"
+      ],
+      [
+        "Oma hotspot QR-koodina",
+        "Napauta tallennettua verkkoa ja laita `Oma hotspotini` päälle"
+      ],
+      [
+        "Yhdistä tai jaa yhdellä pyyhkäisyllä",
+        "Pyyhkäise listassa oikealle yhdistääksesi, vasemmalle jakaaksesi"
+      ],
+      [
+        "Tallennetut paikat",
+        "`Kartta`, kohdan `Tallennetut verkot` vieressä"
+      ],
+      [
+        "QR-koodi Koti-valikkoon",
+        "Pidä sormea Koti-valikossa ja lisää MyFin `Wi-Fi-QR`-widget"
+      ]
+    ],
+    "note": "QR-koodin voi avata suoraan myös Sirillä tai Pikakomennot-apilla."
+  },
+  "pricing": {
+    "title": "Kaikki ominaisuudet ovat ilmaisia",
+    "free": {
+      "name": "Ilmainen",
+      "items": [
+        "Wi-Fi-yhteys kuvasta",
+        "QR-koodien teko ja jako kuvana",
+        "Vieraskyltit 7 teemalla, korttina tai A4-julisteena, tulostus AirPrintillä",
+        "Widgetit Koti-valikkoon ja lukitulle näytölle",
+        "Kartta tallennetuista Wi-Fi-verkoista",
+        "Ei mainoksia, ei rekisteröitymistä"
+      ]
+    },
+    "pro": {
+      "name": "Tippi (vapaaehtoinen)",
+      "items": [
+        "Jos pidät apista, voit tukea kehitystä tipillä",
+        "Tippi ei avaa mitään. Ilman sitäkin saat kaikki ominaisuudet"
+      ],
+      "note": "Tippi on pieni kertamaksu."
+    },
+    "note": "Ei tilauksia eikä maksullisia ominaisuuksia."
+  },
+  "faq": {
+    "title": "Usein kysyttyä",
+    "items": [
+      {
+        "q": "Miksi salasana pitää kirjoittaa itse?",
+        "a": "iOS ei anna minkään apin lukea laitteeseen tallennettuja Wi-Fi-salasanoja. Siksi MyFi tunnistaa verkon nimen, ja salasanan kirjoitat kerran. Sen jälkeen appi käyttää tallennettua."
+      },
+      {
+        "q": "En näe nykyisen Wi-Fin nimeä.",
+        "a": "iOS antaa Wi-Fin nimen vain apeille, joilla on sijaintilupa. Salli MyFi kohdassa Asetukset › Tietosuoja ja suojaus › Sijaintipalvelut. Sijaintia käytetään vain verkon nimen lukemiseen ja paikkojen tunnistamiseen, joihin palaat."
+      },
+      {
+        "q": "Nimi tai salasana luettiin väärin.",
+        "a": "Mene lähemmäs ja kuvaa suoraan. Jos se on yhä väärin, vedä oikea pala kuvasta kenttään tai korjaa käsin. Jos kyltissä on Wi-Fi-QR-koodi, MyFi lukee sen ja täyttää tarkat tiedot."
+      },
+      {
+        "q": "Millaisia kylttejä se osaa lukea?",
+        "a": "Parhaiten se lukee englannin- tai koreankielisiä kylttejä, joissa on merkintöjä kuten ID, PW, SSID, Network tai Password. Ilman merkintöjäkin se löytää rivin, joka näyttää salasanalta. Kyltin Wi-Fi-QR-koodi luetaan tarkasti kielestä riippumatta."
+      },
+      {
+        "q": "Miten joku yhdistää QR-koodillani?",
+        "a": "iPhonella ja Androidilla riittää osoittaa sisäänrakennetulla kameralla koodia ja napauttaa kehotetta. Mitään appia ei tarvita."
+      },
+      {
+        "q": "Näkevätkö muut salasanani?",
+        "a": "QR-koodissa on tavalliset Wi-Fi-kirjautumistiedot. Sinä päätät aina, jaatko sen, ja vieraskyltistä voit piilottaa salasanan."
+      },
+      {
+        "q": "Miksi en voi yhdistää omaan hotspotiini?",
+        "a": "iPhonen Oma yhteyspiste on tämä puhelin itse, eikä se voi yhdistää itseensä. Laita `Oma hotspotini` päälle, niin MyFi käsittelee sitä muille jaettavana QR-koodina."
+      },
+      {
+        "q": "Minne Wi-Fi-tietoni menevät?",
+        "a": "MyFillä ei ole palvelinta. Verkkojen nimet, salasanat, kuvista luetut tiedot ja sijainnit käsitellään ja tallennetaan vain laitteessasi. Ei mainoksia eikä seurantaa. Appi lähettää Apple iCloudiin vain nimettömiä käyttötilastoja ja virheraportteja korjaamista varten."
+      },
+      {
+        "q": "Millä laitteilla se toimii?",
+        "a": "iPhonella, jossa on iOS 17 tai uudempi. Appi on saatavilla 24 kielellä."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Kun seuraava vieras kysyy,\nnäytä QR-koodi",
+    "cta": "Lataa ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuoja",
+    "contact": "Kysyttävää tai palautetta? Kirjoita osoitteeseen {email}. Vastaan yleensä 2–3 päivässä."
+  }
+}

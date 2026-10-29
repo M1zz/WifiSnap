@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: ta bilde av oppslaget og koble til, del Wi-Fi med en QR-kode",
+  "description": "Ta bilde av Wi-Fi-oppslaget, så kobler iPhonen seg til. Del ditt eget nett med én QR-kode, og skriv ut et gjesteoppslag. Alt er gratis.",
+  "hero": {
+    "headline": "Slutt å lese opp passordet.\nVis en QR-kode.",
+    "lead": "Venner peker bare kameraet mot den, så er de på. Oppslaget på kaféveggen? Ett bilde, og denne iPhonen kobler seg til. Ingen tastefeil fra avskrift.",
+    "cta": "Last ned gratis i App Store",
+    "note": "Alle funksjoner er gratis. iPhone med iOS 17 eller nyere."
+  },
+  "demo": {
+    "title": "Lag en QR-kode for ditt Wi-Fi",
+    "lead": "Endre navn eller passord, så oppdateres oppslaget med en gang. Pek kameraet på en telefon mot det, så får du et ekte spørsmål om å koble til.",
+    "ssidLabel": "Nettverksnavn",
+    "pwLabel": "Passord (la det stå tomt for et åpent nett)",
+    "themeLabel": "Design",
+    "scan": "Pek telefonkameraet mot QR-koden til venstre.",
+    "note": "Det du skriver, blir i denne nettleseren og sendes ingen steder. I appen legger du til navn, logo og åpningstider for stedet og skriver det ut som en A4-plakat.",
+    "heading": "Gratis Wi-Fi",
+    "subtitle": "Bare bruk det",
+    "network": "Nettverk",
+    "password": "Passord",
+    "footer": "Skann QR-koden med kameraet for å koble til",
+    "open": "Ingen (åpent nettverk)",
+    "themes": [
+      "Midnatt",
+      "Solnedgang",
+      "Mynte",
+      "Hav",
+      "Skog",
+      "Kafé",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "«Hva var Wi-Fi-passordet igjen?» Hvor mange ganger i dag?",
+    "text": "Du leser det opp og blander store og små bokstaver. Du skriver av oppslaget på veggen og forveksler 0 og O. Så forklarer du alt på nytt. MyFi gjør det til ett bilde og én QR-kode."
+  },
+  "features": [
+    {
+      "title": "Ta et bilde, så er du på",
+      "text": "Ta bilde av Wi-Fi-oppslaget eller kvitteringen, eller velg et bilde. MyFi leser nettverksnavn og passord og kobler til denne iPhonen. Har oppslaget også en QR-kode, leses den først, så opplysningene blir helt riktige.\nEr teksten utydelig, drar du bare en bit fra bildet inn i feltet for navn eller passord.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Lag og skriv ut et gjesteoppslag",
+      "text": "Velg ett av 7 temaer, og legg til navn, logo og linjer som åpningstider. Velg kort eller stående A4-plakat, lagre det som bilde, eller skriv det ut med en gang via AirPrint.\nHa flere oppslag, ett for hvert sted eller bord, og endre dem når du vil.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Steder du kommer tilbake til, står øverst",
+      "text": "Nettverk du kobler til eller deler, lagres sammen med stedet. Kommer du tilbake, står nettverket øverst, og alle lagrede steder vises på et kart.\nLegg QR-koden til nettet du deler mest som widget på Hjem-skjermen eller låseskjermen. Spør en gjest, viser du bare skjermen.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "I gang på tre trinn",
+    "items": [
+      {
+        "title": "Åpne appen",
+        "text": "Den spør om posisjon én gang, fordi iOS bare forteller navnet på nåværende Wi-Fi til apper med den tilgangen."
+      },
+      {
+        "title": "Ta bilde eller skriv",
+        "text": "Ta bilde av et oppslag, eller skriv inn passordet til ditt eget Wi-Fi én gang."
+      },
+      {
+        "title": "Koble til eller vis",
+        "text": "Koble til denne iPhonen, eller vis QR-koden til den andres kamera."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Hvor du finner hva",
+    "rows": [
+      [
+        "Koble til fra et bilde av et oppslag",
+        "`Legg til Wi-Fi`, så `Kamera` eller `Bilder`, så `Koble til denne iPhonen`"
+      ],
+      [
+        "Skriv inn opplysningene selv",
+        "`Legg til Wi-Fi`, så `Skriv selv`"
+      ],
+      [
+        "Bare lage en QR-kode",
+        "`Lag QR-kode uten tilkobling`"
+      ],
+      [
+        "Sende QR-koden i en melding",
+        "Trykk på et lagret nettverk, så `Del QR-bilde`"
+      ],
+      [
+        "Gjesteoppslag",
+        "Trykk på et lagret nettverk, så `Skriv ut eller del gjesteoppslag`"
+      ],
+      [
+        "Din egen sone som QR-kode",
+        "Trykk på et lagret nettverk og slå på `Min sone`"
+      ],
+      [
+        "Koble til eller del med ett sveip",
+        "Sveip til høyre i listen for å koble til, til venstre for å dele"
+      ],
+      [
+        "Se lagrede steder",
+        "`Kart`, ved siden av `Lagrede nettverk`"
+      ],
+      [
+        "QR-kode på Hjem-skjermen",
+        "Hold fingeren på Hjem-skjermen og legg til MyFi-widgeten `Wi-Fi-QR`"
+      ]
+    ],
+    "note": "Du kan også åpne QR-koden direkte med Siri eller Snarveier-appen."
+  },
+  "pricing": {
+    "title": "Alle funksjoner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Koble til Wi-Fi fra et bilde",
+        "Lag QR-koder og del dem som bilde",
+        "Gjesteoppslag i 7 temaer, som kort eller A4-plakat, utskrift med AirPrint",
+        "Widgeter for Hjem-skjerm og låseskjerm",
+        "Kart over lagrede Wi-Fi-nett",
+        "Ingen reklame, ingen konto"
+      ]
+    },
+    "pro": {
+      "name": "Tips (frivillig)",
+      "items": [
+        "Liker du appen, kan du støtte utviklingen med et tips",
+        "Tips låser ikke opp noe. Uten tips har du fortsatt alle funksjoner"
+      ],
+      "note": "Et tips er en liten engangsbetaling."
+    },
+    "note": "Ingen abonnement og ingen betalte funksjoner."
+  },
+  "faq": {
+    "title": "Vanlige spørsmål",
+    "items": [
+      {
+        "q": "Hvorfor må jeg skrive passordet selv?",
+        "a": "iOS lar ingen apper lese Wi-Fi-passordene som er lagret på enheten. Derfor finner MyFi nettverksnavnet, og du skriver passordet én gang. Etter det bruker appen det lagrede."
+      },
+      {
+        "q": "Jeg ser ikke navnet på Wi-Fi-nettet jeg er koblet til.",
+        "a": "iOS gir bare Wi-Fi-navnet til apper med posisjonstilgang. Tillat MyFi under Innstillinger › Personvern og sikkerhet › Posisjonstjenester. Posisjonen brukes bare til å lese nettverksnavnet og kjenne igjen steder du kommer tilbake til."
+      },
+      {
+        "q": "Navn eller passord ble lest feil.",
+        "a": "Gå nærmere, og ta bildet rett. Er det fortsatt feil, dra riktig bit fra bildet inn i feltet eller rett det for hånd. Har oppslaget en Wi-Fi-QR-kode, leser MyFi den og fyller inn de nøyaktige opplysningene."
+      },
+      {
+        "q": "Hvilke oppslag kan den lese?",
+        "a": "Den gjør det best med oppslag på engelsk eller koreansk med merkelapper som ID, PW, SSID, Network eller Password. Selv uten merkelapper finner den linjen som ser ut som et passord. En Wi-Fi-QR-kode på oppslaget leses nøyaktig uansett språk."
+      },
+      {
+        "q": "Hvordan kobler andre seg til med QR-koden min?",
+        "a": "På iPhone og Android peker de bare det innebygde kameraet mot koden og trykker på spørsmålet om å koble til. De trenger ingen app."
+      },
+      {
+        "q": "Kan andre se passordet mitt?",
+        "a": "QR-koden inneholder vanlige Wi-Fi-påloggingsopplysninger. Du velger alltid selv om du deler den, og du kan skjule passordet på gjesteoppslaget."
+      },
+      {
+        "q": "Hvorfor kan jeg ikke koble til min egen sone?",
+        "a": "Den personlige sonen på iPhonen er selve telefonen, og den kan ikke koble til seg selv. Slå på `Min sone`, så behandler MyFi den som en QR-kode du kan dele ut."
+      },
+      {
+        "q": "Hvor havner Wi-Fi-opplysningene mine?",
+        "a": "MyFi har ingen server. Nettverksnavn, passord, resultater fra bilder og posisjoner behandles og lagres bare på enheten din. Ingen reklame eller sporing. Appen sender bare anonym bruksstatistikk og feilrapporter til Apple iCloud, så den kan rettes."
+      },
+      {
+        "q": "Hvilke enheter fungerer den på?",
+        "a": "iPhone med iOS 17 eller nyere. Appen finnes på 24 språk."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Når neste gjest spør,\nvis QR-koden",
+    "cta": "Last ned gratis i App Store"
+  },
+  "ui": {
+    "skip": "Gå til innholdet",
+    "languages": "Språk",
+    "privacy": "Personvern",
+    "contact": "Spørsmål eller tilbakemeldinger? Skriv til {email}. Jeg svarer vanligvis innen 2 til 3 dager."
+  }
+}

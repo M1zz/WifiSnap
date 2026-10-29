@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: fotografeer het bordje en verbind, deel je wifi met een QR-code</title>
+  <meta name="description" content="Fotografeer het wifi-bordje en je iPhone maakt verbinding. Deel je eigen wifi met één QR-code en print een gastenbordje. Alles is gratis.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/nl/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi – Wifi delen en verbinden, gewoon makkelijk</title>
-  <meta name="description" content="Deel je wifi als QR-code, maak verbinding met een netwerk door een foto van het bordje te maken en maak wifibordjes voor gasten in je zaak. Een app voor de iPhone.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Wifi delen en verbinden, gewoon makkelijk.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: fotografeer het bordje en verbind, deel je wifi met een QR-code">
+  <meta property="og:description" content="Fotografeer het wifi-bordje en je iPhone maakt verbinding. Deel je eigen wifi met één QR-code en print een gastenbordje. Alles is gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/nl/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/nl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Wifi delen en verbinden, gewoon makkelijk</p>
-      <p class="tagline">Nooit meer wachtwoorden spellen. Eén QR-code regelt het.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Bekijk de functies</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 of nieuwer · iPhone</p>
-    </header>
+  <a class="skip" href="#main">Naar de inhoud</a>
+  <header class="bar">
+    <a class="brand" href="../nl/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Taal</a>
+  </header>
 
-    <div class="card">
-      <h2>Gemaakt voor momenten als deze</h2>
-      <p>Je leest het wifiwachtwoord voor aan een gast en die typt het verkeerd. Je neemt het wachtwoord over van het bordje aan de muur van het café en hebt één letter fout.
-        Je legt hetzelfde wachtwoord keer op keer uit. MyFi maakt van dat alles één QR-code en één foto.</p>
-    </div>
-
-    <h2 id="features">Functies</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Deel je wifi als QR-code</h3>
-        <p>MyFi herkent de naam van het netwerk waarmee je verbonden bent. Voer het wachtwoord één keer in en een standaard wifi-QR-code
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>) staat klaar. Anderen hoeven alleen <strong>de ingebouwde camera</strong> van hun iPhone of Android-telefoon erop te richten om verbinding te maken.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Geen wachtwoorden meer voorlezen.<br>Laat een QR-code zien.</h1>
+        <p class="lead">Vrienden richten hun camera erop en ze zijn online. Het bordje aan de muur van het café? Eén foto en deze iPhone maakt verbinding. Geen typefouten meer bij het overschrijven.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">Gratis in de App Store</a><a class="try" href="#try">Maak de QR-code van je wifi ↓</a></div>
+        <p class="muted small">Alle functies zijn gratis. iPhone met iOS 17 of nieuwer.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Foto maken en verbinden</h3>
-        <p>Maak een foto van het wifibordje in een café of vakantiehuis, of kies een foto uit je bibliotheek.
-          Tekstherkenning op je apparaat vult de netwerknaam en het wachtwoord in. Tik op <strong>Deze iPhone verbinden</strong> en je bent online.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Maak een wifibordje voor gasten</h3>
-        <p>Ontwerp een wifibordje voor je zaak met <strong>7 thema's</strong>. Voeg de naam en het logo van je zaak toe en kies een
-          <strong>kaart</strong> voor schermen en social media of een staande <strong>A4-poster</strong> om te printen.
-          Bewaar het als afbeelding, deel het of <strong>print het meteen met AirPrint</strong>. Je kunt zoveel bordjes bewaren als je wilt.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Widget op het beginscherm</h3>
-        <p>Zet de QR-code van een netwerk dat je vaak gebruikt in een widget op je beginscherm.
-          Vraagt een gast erom, dan laat je gewoon je scherm zien. Je hoeft de app niet eens te openen.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Vaste plekken eerst</h3>
-        <p>MyFi onthoudt waar je met elk netwerk verbinding hebt gemaakt of het hebt gedeeld. Kom je terug op dezelfde plek,
-          dan staat dat netwerk bovenaan de lijst. Je kunt je bewaarde plekken ook op een kaart bekijken.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>Ook een QR-code voor je hotspot</h3>
-        <p>De persoonlijke hotspot van je iPhone is je telefoon zelf, dus die kan er geen verbinding mee maken.
-          MyFi markeert hotspots apart en maakt een <strong>QR-code om te delen</strong> in plaats van te proberen verbinding te maken.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/nl/02-qr.jpg" alt="Geen wachtwoorden meer voorlezen. Laat een QR-code zien." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Je gegevens blijven op je apparaat</h2>
-      <p>MyFi heeft geen server. Netwerknamen en wachtwoorden, tekst uit foto's en locaties worden
-        <strong>alleen op je apparaat</strong> verwerkt en bewaard, en nooit ergens naartoe gestuurd.
-        Geen advertenties, geen analysetools van derden en geen tracking. Alleen anonieme gebruiksstatistieken en crashrapporten worden naar Apple iCloud gestuurd om de app te verbeteren.</p>
-      <p><a href="privacy.html">Lees het volledige privacybeleid →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Goed om te weten</h2>
-      <ul>
-        <li>Om veiligheidsredenen <strong>laat iOS geen enkele app de wifiwachtwoorden lezen die op je apparaat zijn bewaard.</strong>
-          Daarom werkt delen als 'naam wordt automatisch herkend, wachtwoord voer je één keer in'. Daarna gebruikt MyFi het bewaarde wachtwoord.</li>
-        <li>Om verbinding te maken met een netwerk heb je een <strong>echte iPhone</strong> nodig. De iOS Simulator kan geen verbinding maken met wifinetwerken.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Maak de QR-code van je wifi</h2>
+      <p class="muted">Pas de naam of het wachtwoord aan en het bordje verandert meteen mee. Richt de camera van een telefoon erop en je krijgt echt de vraag om verbinding te maken.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Maak de QR-code van je wifi&quot;, &quot;lead&quot;: &quot;Pas de naam of het wachtwoord aan en het bordje verandert meteen mee. Richt de camera van een telefoon erop en je krijgt echt de vraag om verbinding te maken.&quot;, &quot;ssidLabel&quot;: &quot;Netwerknaam&quot;, &quot;pwLabel&quot;: &quot;Wachtwoord (leeg laten voor een open netwerk)&quot;, &quot;themeLabel&quot;: &quot;Ontwerp&quot;, &quot;scan&quot;: &quot;Richt de camera van je telefoon op de QR-code links.&quot;, &quot;note&quot;: &quot;Wat je typt, blijft in deze browser en wordt nergens heen gestuurd. In de app voeg je de naam, het logo en de openingstijden van je zaak toe en print je het als A4-poster.&quot;, &quot;heading&quot;: &quot;Gratis wifi&quot;, &quot;subtitle&quot;: &quot;Veel plezier&quot;, &quot;network&quot;: &quot;Netwerk&quot;, &quot;password&quot;: &quot;Wachtwoord&quot;, &quot;footer&quot;: &quot;Scan de QR-code met de camera om te verbinden&quot;, &quot;open&quot;: &quot;Geen (open netwerk)&quot;, &quot;themes&quot;: [&quot;Middernacht&quot;, &quot;Zonsondergang&quot;, &quot;Munt&quot;, &quot;Oceaan&quot;, &quot;Bos&quot;, &quot;Café&quot;, &quot;Mono&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Support / Hulp</a>
-      <a class="btn secondary" href="privacy.html">Privacybeleid</a>
-    </div>
+    <section class="problem reveal">
+      <h2>‘Wat was het wifi-wachtwoord ook alweer?’ Hoe vaak al vandaag?</h2>
+      <p>Je leest het voor en verwisselt hoofdletters. Je schrijft het bordje aan de muur over en haalt 0 en O door elkaar. Daarna leg je alles opnieuw uit. MyFi maakt er één foto en één QR-code van.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <strong>Nederlands</strong> · <a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Foto maken en je bent online</h2>
+        <p>Fotografeer het wifi-bordje of de kassabon, of kies een foto uit je bibliotheek. MyFi leest de netwerknaam en het wachtwoord en verbindt deze iPhone. Staat er ook een QR-code op het bordje, dan leest hij die eerst, zodat de gegevens precies kloppen.<br>Is de tekst onduidelijk, sleep dan een stukje uit de foto naar het veld voor naam of wachtwoord.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/01-scan.jpg" alt="Foto maken en je bent online" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">Contact</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Maak en print een gastenbordje</h2>
+        <p>Kies een van de 7 thema’s en voeg naam, logo en regels zoals openingstijden toe. Kies een kaart of een staande A4-poster, bewaar het als afbeelding of print het meteen met AirPrint.<br>Houd meerdere bordjes bij, één per zaak of tafel, en pas ze aan wanneer je wilt.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/03-poster-card.jpg" alt="Maak en print een gastenbordje" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Plekken waar je terugkomt, staan bovenaan</h2>
+        <p>Netwerken waarmee je verbindt of die je deelt, worden met de plek bewaard. Kom je terug, dan staat dat netwerk bovenaan, en alle bewaarde plekken zie je op een kaart.<br>Zet de QR-code van je meest gedeelde wifi als widget op je beginscherm of toegangsscherm. Vraagt een gast erom, dan laat je gewoon je scherm zien.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/05-saved.jpg" alt="Plekken waar je terugkomt, staan bovenaan" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>In drie stappen klaar</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Open de app</h3><p>Hij vraagt één keer om je locatie, omdat iOS de naam van je huidige wifi alleen doorgeeft aan apps met die toestemming.</p></li>
+<li class="card"><span class="n">2</span><h3>Fotografeer of typ</h3><p>Maak een foto van een bordje, of typ eenmalig het wachtwoord van je eigen wifi.</p></li>
+<li class="card"><span class="n">3</span><h3>Verbind of laat zien</h3><p>Verbind deze iPhone, of houd de QR-code voor de camera van de ander.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Waar vind je wat</h2>
+      <div class="card table">
+        <dl><div><dt>Verbinden met een foto van een bordje</dt><dd><code>Wifi toevoegen</code>, dan <code>Camera</code> of <code>Foto’s</code>, dan <code>Deze iPhone verbinden</code></dd></div><div><dt>Gegevens zelf invoeren</dt><dd><code>Wifi toevoegen</code>, dan <code>Zelf typen</code></dd></div><div><dt>Alleen een QR-code maken</dt><dd><code>QR-code maken zonder te verbinden</code></dd></div><div><dt>QR-code in een bericht sturen</dt><dd>Tik op een opgeslagen netwerk, dan <code>QR-afbeelding delen</code></dd></div><div><dt>Gastenbordje</dt><dd>Tik op een opgeslagen netwerk, dan <code>Gastenbordje printen of delen</code></dd></div><div><dt>Je eigen hotspot als QR-code</dt><dd>Tik op een opgeslagen netwerk en zet <code>Mijn hotspot</code> aan</dd></div><div><dt>Verbinden of delen met één veeg</dt><dd>Veeg in de lijst naar rechts om te verbinden, naar links om te delen</dd></div><div><dt>Bewaarde plekken bekijken</dt><dd><code>Kaart</code>, naast <code>Opgeslagen netwerken</code></dd></div><div><dt>QR-code op je beginscherm</dt><dd>Houd je beginscherm ingedrukt en voeg de MyFi-widget <code>Wifi-QR</code> toe</dd></div></dl>
+      </div>
+      <p class="muted">Je kunt de QR-code ook direct openen met Siri of de Opdrachten-app.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Alle functies zijn gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Verbinding met wifi via een foto</li><li>QR-codes maken en als afbeelding delen</li><li>Gastenbordjes in 7 thema’s, als kaart of A4-poster, printen met AirPrint</li><li>Widgets voor beginscherm en toegangsscherm</li><li>Kaart van je bewaarde wifi</li><li>Geen advertenties, geen account</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Fooi (vrijwillig)</h3>
+          <ul><li>Bevalt de app, dan kun je de ontwikkeling steunen met een fooi</li><li>Een fooi ontgrendelt niets. Zonder fooi heb je ook alle functies</li></ul>
+          <p class="muted">Een fooi is een kleine eenmalige betaling.</p>
+        </div>
+      </div>
+      <p class="muted">Geen abonnement en geen betaalde functies.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Veelgestelde vragen</h2>
+      <div class="faq"><details><summary>Waarom moet ik mijn wachtwoord zelf typen?</summary><p>iOS laat geen enkele app de wifi-wachtwoorden lezen die op je apparaat zijn bewaard. Daarom herkent MyFi de netwerknaam en typ jij het wachtwoord één keer. Daarna gebruikt de app het bewaarde.</p></details>
+<details><summary>Ik zie de naam van mijn huidige wifi niet.</summary><p>iOS geeft de wifi-naam alleen aan apps met locatietoegang. Sta MyFi toe in Instellingen › Privacy en beveiliging › Locatievoorzieningen. De locatie wordt alleen gebruikt om de netwerknaam te lezen en plekken te herkennen waar je terugkomt.</p></details>
+<details><summary>De naam of het wachtwoord is verkeerd gelezen.</summary><p>Ga dichterbij staan en fotografeer recht. Klopt het nog niet, sleep dan het juiste stukje uit de foto naar het veld of verbeter het zelf. Heeft het bordje een wifi-QR-code, dan leest MyFi die en vult de exacte gegevens in.</p></details>
+<details><summary>Welke bordjes kan hij lezen?</summary><p>Het best gaat het met bordjes in het Engels of Koreaans met labels zoals ID, PW, SSID, Network of Password. Ook zonder labels vindt hij de regel die op een wachtwoord lijkt. Een wifi-QR-code op het bordje wordt in elke taal exact gelezen.</p></details>
+<details><summary>Hoe maakt iemand verbinding met mijn QR-code?</summary><p>Op iPhone en Android richt je gewoon de ingebouwde camera op de code en tik je op de vraag om verbinding te maken. Een app is niet nodig.</p></details>
+<details><summary>Kunnen anderen mijn wachtwoord zien?</summary><p>De QR-code bevat de gewone wifi-inloggegevens. Of je hem deelt, bepaal jij altijd zelf, en op het gastenbordje kun je het wachtwoord verbergen.</p></details>
+<details><summary>Waarom kan ik niet verbinden met mijn eigen hotspot?</summary><p>De persoonlijke hotspot van je iPhone is de telefoon zelf, en die kan niet met zichzelf verbinden. Zet <code>Mijn hotspot</code> aan, dan behandelt MyFi hem als een QR-code om uit te delen.</p></details>
+<details><summary>Waar gaan mijn wifi-gegevens naartoe?</summary><p>MyFi heeft geen server. Netwerknamen, wachtwoorden, fotoresultaten en locaties worden alleen op je apparaat verwerkt en bewaard. Geen advertenties of tracking. De app stuurt alleen anonieme gebruiksstatistieken en foutmeldingen naar Apple iCloud, zodat hij verbeterd kan worden.</p></details>
+<details><summary>Op welke apparaten werkt het?</summary><p>Op iPhone met iOS 17 of nieuwer. De app is er in 24 talen.</p></details></div>
+      <p class="contact">Vragen of feedback? Mail naar <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Meestal antwoord ik binnen 2 à 3 dagen.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Vraagt de volgende gast erom,<br>laat dan de QR-code zien</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">Gratis in de App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Taal"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl" aria-current="page">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacybeleid</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

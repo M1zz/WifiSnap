@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: Aushang fotografieren und verbinden, WLAN per QR-Code teilen",
+  "description": "Fotografier den WLAN-Aushang und dein iPhone ist verbunden. Teil dein WLAN mit einem QR-Code und druck einen Gäste-Aushang. Alles kostenlos.",
+  "hero": {
+    "headline": "Kein Passwort mehr diktieren.\nEin QR-Code reicht.",
+    "lead": "Freunde halten nur die Kamera drauf und sind drin. Den Aushang an der Café-Wand fotografierst du einmal, und dein iPhone verbindet sich. Keine Tippfehler mehr beim Abschreiben.",
+    "cta": "Kostenlos im App Store laden",
+    "note": "Alle Funktionen sind kostenlos. iPhone ab iOS 17."
+  },
+  "demo": {
+    "title": "Mach deinen WLAN-QR-Code",
+    "lead": "Ändere Name oder Passwort, und der Aushang ändert sich sofort mit. Halt eine Handykamera drauf, dann erscheint wirklich die Frage, ob du dich verbinden willst.",
+    "ssidLabel": "WLAN-Name",
+    "pwLabel": "Passwort (leer lassen für ein offenes Netz)",
+    "themeLabel": "Design",
+    "scan": "Halt die Kamera deines Handys auf den QR-Code links.",
+    "note": "Was du eingibst, bleibt in diesem Browser und wird nirgendwohin gesendet. In der App fügst du Name, Logo und Öffnungszeiten deines Lokals hinzu und druckst alles als A4-Poster.",
+    "heading": "Kostenloses WLAN",
+    "subtitle": "Viel Spaß beim Surfen",
+    "network": "Netzwerk",
+    "password": "Passwort",
+    "footer": "QR-Code mit der Kamera scannen und automatisch verbinden",
+    "open": "Keins (offen)",
+    "themes": [
+      "Mitternacht",
+      "Sonnenuntergang",
+      "Minze",
+      "Ozean",
+      "Wald",
+      "Café",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "„Wie war noch mal das WLAN-Passwort?“ Wie oft heute schon?",
+    "text": "Du sagst es an und verwechselst Groß- und Kleinbuchstaben. Du schreibst den Zettel an der Café-Wand ab und verwechselst 0 und O. Dann erklärst du alles noch einmal. MyFi macht daraus ein Foto und einen QR-Code."
+  },
+  "features": [
+    {
+      "title": "Fotografieren und drin sein",
+      "text": "Fotografier den WLAN-Aushang oder den Kassenbon oder wähl ein Foto aus der Mediathek. MyFi liest Netzwerkname und Passwort und verbindet dein iPhone. Ist auf dem Aushang auch ein QR-Code, liest es zuerst den, damit alles exakt stimmt.\nIst der Text unklar, ziehst du einfach ein Stück aus dem Foto ins Namens- oder Passwortfeld.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Gäste-Aushang gestalten und drucken",
+      "text": "Wähl eins von 7 Designs und füg Name, Logo und Zeilen wie Öffnungszeiten hinzu. Entscheide dich für Karte oder A4-Hochformat, sichere es als Bild oder druck es direkt per AirPrint.\nLeg mehrere Aushänge an, für jedes Lokal oder jeden Tisch einen, und ändere sie jederzeit.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Wo du schon warst, steht ganz oben",
+      "text": "WLANs, mit denen du dich verbindest oder die du teilst, werden mit dem Ort gespeichert. Kommst du wieder, steht dieses Netz ganz oben, und alle gespeicherten Orte siehst du auf einer Karte.\nLeg den QR-Code deines meistgeteilten WLANs als Widget auf den Home-Bildschirm oder Sperrbildschirm. Fragt ein Gast, zeigst du einfach den Bildschirm.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten startklar",
+    "items": [
+      {
+        "title": "App öffnen",
+        "text": "Sie fragt einmal nach dem Standort, weil iOS den Namen des aktuellen WLANs nur Apps mit dieser Erlaubnis verrät."
+      },
+      {
+        "title": "Fotografieren oder eingeben",
+        "text": "Fotografier einen Aushang oder gib dein eigenes WLAN-Passwort einmal ein."
+      },
+      {
+        "title": "Verbinden oder zeigen",
+        "text": "Verbinde dein iPhone oder zeig den QR-Code der Kamera deines Gegenübers."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Wo du was findest",
+    "rows": [
+      [
+        "Mit dem Foto eines Aushangs verbinden",
+        "`WLAN hinzufügen`, dann `Kamera` oder `Mediathek`, dann `Dieses iPhone verbinden`"
+      ],
+      [
+        "Daten selbst eingeben",
+        "`WLAN hinzufügen`, dann `Manuell eingeben`"
+      ],
+      [
+        "Nur einen QR-Code erstellen",
+        "`QR-Code ohne Verbindung erstellen`"
+      ],
+      [
+        "QR-Code per Nachricht schicken",
+        "Gespeichertes Netz antippen, dann `QR-Bild teilen`"
+      ],
+      [
+        "Gäste-Aushang",
+        "Gespeichertes Netz antippen, dann `Gäste-Aushang drucken oder teilen`"
+      ],
+      [
+        "Eigenen Hotspot als QR-Code",
+        "Gespeichertes Netz antippen und `Mein Hotspot` einschalten"
+      ],
+      [
+        "Mit einem Wisch verbinden oder teilen",
+        "In der Liste nach rechts wischen zum Verbinden, nach links zum Teilen"
+      ],
+      [
+        "Gespeicherte Orte ansehen",
+        "`Karte` neben `Gespeicherte Netzwerke`"
+      ],
+      [
+        "QR-Code auf dem Home-Bildschirm",
+        "Home-Bildschirm gedrückt halten und das MyFi-Widget `WLAN-QR-Code` hinzufügen"
+      ]
+    ],
+    "note": "Den QR-Code kannst du auch direkt mit Siri oder der Kurzbefehle-App öffnen."
+  },
+  "pricing": {
+    "title": "Alle Funktionen sind kostenlos",
+    "free": {
+      "name": "Kostenlos",
+      "items": [
+        "Mit einem Foto ins WLAN",
+        "QR-Codes erstellen und als Bild teilen",
+        "Gäste-Aushänge in 7 Designs, als Karte oder A4-Poster, Druck per AirPrint",
+        "Widgets für Home- und Sperrbildschirm",
+        "Karte deiner gespeicherten WLANs",
+        "Keine Werbung, keine Anmeldung"
+      ]
+    },
+    "pro": {
+      "name": "Trinkgeld (freiwillig)",
+      "items": [
+        "Wenn dir die App gefällt, kannst du die Entwicklung mit einem Trinkgeld unterstützen",
+        "Trinkgeld schaltet nichts frei. Auch ohne hast du jede Funktion"
+      ],
+      "note": "Ein Trinkgeld ist eine kleine einmalige Zahlung."
+    },
+    "note": "Kein Abo und keine kostenpflichtigen Funktionen."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Warum muss ich mein Passwort selbst eingeben?",
+        "a": "iOS lässt keine App die auf dem Gerät gespeicherten WLAN-Passwörter lesen. Deshalb erkennt MyFi den Netzwerknamen, und das Passwort gibst du einmal ein. Danach nutzt die App das gespeicherte."
+      },
+      {
+        "q": "Ich sehe den Namen meines aktuellen WLANs nicht.",
+        "a": "iOS gibt den WLAN-Namen nur an Apps mit Standortzugriff weiter. Erlaube MyFi unter Einstellungen › Datenschutz & Sicherheit › Ortungsdienste. Der Standort dient nur dazu, den Netzwerknamen zu lesen und Orte wiederzuerkennen."
+      },
+      {
+        "q": "Name oder Passwort wurden falsch gelesen.",
+        "a": "Geh näher ran und fotografier gerade. Stimmt es dann noch nicht, zieh das richtige Stück aus dem Foto ins Feld oder korrigier es von Hand. Hat der Aushang einen WLAN-QR-Code, liest MyFi den und trägt alles exakt ein."
+      },
+      {
+        "q": "Welche Aushänge kann es lesen?",
+        "a": "Am besten klappt es mit Aushängen, die englisch oder koreanisch beschriftet sind, etwa ID, PW, SSID, Network oder Password. Auch ohne Beschriftung findet es die Zeile, die wie ein Passwort aussieht. Ein WLAN-QR-Code auf dem Aushang wird in jeder Sprache exakt gelesen."
+      },
+      {
+        "q": "Wie verbindet sich jemand mit meinem QR-Code?",
+        "a": "Auf iPhone wie Android einfach die eingebaute Kamera auf den Code halten und auf die Verbindungsfrage tippen. Eine App braucht es dafür nicht."
+      },
+      {
+        "q": "Können andere mein Passwort sehen?",
+        "a": "Der QR-Code enthält die üblichen WLAN-Zugangsdaten. Ob du teilst, entscheidest immer du, und auf dem Gäste-Aushang kannst du das Passwort ausblenden."
+      },
+      {
+        "q": "Warum kann ich mich nicht mit meinem eigenen Hotspot verbinden?",
+        "a": "Der persönliche Hotspot deines iPhones ist ja dieses Handy selbst, mit sich selbst kann es sich nicht verbinden. Schalt `Mein Hotspot` ein, dann behandelt MyFi ihn als QR-Code zum Weitergeben."
+      },
+      {
+        "q": "Wohin gehen meine WLAN-Daten?",
+        "a": "MyFi hat keinen Server. Netzwerknamen, Passwörter, Fotoauswertungen und Standorte werden nur auf deinem Gerät verarbeitet und gespeichert. Es gibt keine Werbung und kein Tracking. Die App sendet nur anonyme Nutzungsstatistiken und Fehlerberichte an Apple iCloud, damit sie verbessert werden kann."
+      },
+      {
+        "q": "Auf welchen Geräten läuft es?",
+        "a": "Auf dem iPhone ab iOS 17. Die App gibt es in 24 Sprachen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Fragt der nächste Gast,\nzeig ihm den QR-Code",
+    "cta": "Kostenlos im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutz",
+    "contact": "Fragen oder Feedback? Schreib an {email}. Ich antworte meist innerhalb von 2 bis 3 Tagen."
+  }
+}

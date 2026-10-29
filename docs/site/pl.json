@@ -1,0 +1,188 @@
+{
+  "title": "MyFi: sfotografuj tabliczkę i połącz się, udostępniaj Wi-Fi kodem QR",
+  "description": "Sfotografuj tabliczkę z Wi-Fi, a iPhone się połączy. Udostępnij swoją sieć jednym kodem QR i wydrukuj tabliczkę dla gości. Wszystko za darmo.",
+  "hero": {
+    "headline": "Koniec z dyktowaniem hasła.\nPokaż kod QR.",
+    "lead": "Znajomi tylko celują aparatem i już są w sieci. Tabliczka na ścianie kawiarni? Jedno zdjęcie i ten iPhone się łączy. Koniec z literówkami przy przepisywaniu.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Wszystkie funkcje są bezpłatne. iPhone z iOS 17 lub nowszym."
+  },
+  "demo": {
+    "title": "Zrób kod QR swojej sieci Wi-Fi",
+    "lead": "Zmień nazwę albo hasło, a tabliczka od razu się zmieni. Wyceluj w nią aparat telefonu, a naprawdę pojawi się propozycja połączenia.",
+    "ssidLabel": "Nazwa sieci",
+    "pwLabel": "Hasło (zostaw puste dla sieci otwartej)",
+    "themeLabel": "Wygląd",
+    "scan": "Wyceluj aparat telefonu w kod QR po lewej.",
+    "note": "To, co wpiszesz, zostaje w tej przeglądarce i nigdzie nie jest wysyłane. W aplikacji dodasz nazwę, logo i godziny otwarcia lokalu i wydrukujesz plakat A4.",
+    "heading": "Darmowe Wi-Fi",
+    "subtitle": "Korzystaj śmiało",
+    "network": "Sieć",
+    "password": "Hasło",
+    "footer": "Zeskanuj kod QR aparatem, aby się połączyć",
+    "open": "Brak (sieć otwarta)",
+    "themes": [
+      "Północ",
+      "Zachód słońca",
+      "Mięta",
+      "Ocean",
+      "Las",
+      "Kawiarnia",
+      "Mono"
+    ]
+  },
+  "problem": {
+    "title": "„Jakie było hasło do Wi-Fi?” Który raz dzisiaj?",
+    "text": "Dyktujesz je i mylisz wielkie litery. Przepisujesz tabliczkę ze ściany i mylisz 0 z O. A potem tłumaczysz wszystko od nowa. MyFi sprowadza to do jednego zdjęcia i jednego kodu QR."
+  },
+  "features": [
+    {
+      "title": "Zdjęcie i jesteś w sieci",
+      "text": "Sfotografuj tabliczkę z Wi-Fi albo paragon lub wybierz zdjęcie z biblioteki. MyFi odczyta nazwę sieci i hasło i połączy ten iPhone. Jeśli na tabliczce jest też kod QR, odczyta go najpierw, żeby dane były dokładne.\nGdy tekst jest niewyraźny, przeciągnij fragment ze zdjęcia do pola nazwy lub hasła.",
+      "shot": "01-scan"
+    },
+    {
+      "title": "Tabliczka dla gości z wydrukiem",
+      "text": "Wybierz jeden z 7 motywów i dodaj nazwę, logo oraz wiersze, np. godziny otwarcia. Wybierz kartę albo pionowy plakat A4, zapisz jako obraz lub od razu wydrukuj przez AirPrint.\nTrzymaj kilka tabliczek, po jednej na lokal czy stolik, i zmieniaj je, kiedy chcesz.",
+      "shot": "03-poster-card"
+    },
+    {
+      "title": "Miejsca, do których wracasz, są na górze",
+      "text": "Sieci, z którymi się łączysz albo które udostępniasz, zapisują się razem z miejscem. Gdy wrócisz, ta sieć będzie na górze listy, a wszystkie zapisane miejsca zobaczysz na mapie.\nPostaw kod QR najczęściej udostępnianej sieci jako widżet na ekranie początkowym lub ekranie blokady. Gdy gość zapyta, po prostu pokaż ekran.",
+      "shot": "05-saved"
+    }
+  ],
+  "steps": {
+    "title": "Zaczynasz w trzech krokach",
+    "items": [
+      {
+        "title": "Otwórz aplikację",
+        "text": "Raz poprosi o lokalizację, bo iOS podaje nazwę bieżącej sieci Wi-Fi tylko aplikacjom z tym dostępem."
+      },
+      {
+        "title": "Zrób zdjęcie lub wpisz",
+        "text": "Sfotografuj tabliczkę albo raz wpisz hasło do swojej sieci."
+      },
+      {
+        "title": "Połącz albo pokaż",
+        "text": "Połącz ten iPhone albo pokaż kod QR aparatowi drugiej osoby."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Gdzie co znaleźć",
+    "rows": [
+      [
+        "Połączenie ze zdjęcia tabliczki",
+        "`Dodaj Wi-Fi`, potem `Aparat` lub `Zdjęcia`, potem `Połącz ten iPhone`"
+      ],
+      [
+        "Ręczne wpisanie danych",
+        "`Dodaj Wi-Fi`, potem `Wpisz ręcznie`"
+      ],
+      [
+        "Tylko kod QR",
+        "`Utwórz kod QR bez łączenia`"
+      ],
+      [
+        "Wysłanie kodu QR w wiadomości",
+        "Stuknij zapisaną sieć, potem `Udostępnij obraz kodu QR`"
+      ],
+      [
+        "Tabliczka dla gości",
+        "Stuknij zapisaną sieć, potem `Wydrukuj lub udostępnij tabliczkę dla gości`"
+      ],
+      [
+        "Własny hotspot jako kod QR",
+        "Stuknij zapisaną sieć i włącz `Mój hotspot`"
+      ],
+      [
+        "Połącz lub udostępnij jednym ruchem",
+        "Na liście przesuń w prawo, by się połączyć, w lewo, by udostępnić"
+      ],
+      [
+        "Zapisane miejsca",
+        "`Mapa` obok `Zapisane sieci`"
+      ],
+      [
+        "Kod QR na ekranie początkowym",
+        "Przytrzymaj ekran początkowy i dodaj widżet MyFi `Kod QR Wi-Fi`"
+      ]
+    ],
+    "note": "Kod QR otworzysz od razu także przez Siri lub aplikację Skróty."
+  },
+  "pricing": {
+    "title": "Wszystkie funkcje są bezpłatne",
+    "free": {
+      "name": "Za darmo",
+      "items": [
+        "Łączenie z Wi-Fi ze zdjęcia",
+        "Tworzenie kodów QR i udostępnianie jako obraz",
+        "Tabliczki dla gości w 7 motywach, karta lub plakat A4, druk przez AirPrint",
+        "Widżety na ekran początkowy i ekran blokady",
+        "Mapa zapisanych sieci",
+        "Bez reklam i bez zakładania konta"
+      ]
+    },
+    "pro": {
+      "name": "Napiwek (dobrowolny)",
+      "items": [
+        "Jeśli aplikacja Ci się podoba, możesz wesprzeć jej rozwój napiwkiem",
+        "Napiwek niczego nie odblokowuje. Bez niego masz wszystkie funkcje"
+      ],
+      "note": "Napiwek to niewielka, jednorazowa płatność."
+    },
+    "note": "Bez subskrypcji i bez płatnych funkcji."
+  },
+  "faq": {
+    "title": "Częste pytania",
+    "items": [
+      {
+        "q": "Dlaczego muszę sam wpisać hasło?",
+        "a": "iOS nie pozwala żadnej aplikacji odczytać haseł Wi-Fi zapisanych na urządzeniu. Dlatego MyFi rozpoznaje nazwę sieci, a hasło wpisujesz tylko raz. Potem aplikacja używa zapisanego."
+      },
+      {
+        "q": "Nie widzę nazwy sieci, z którą jestem połączony.",
+        "a": "iOS podaje nazwę Wi-Fi tylko aplikacjom z dostępem do lokalizacji. Zezwól MyFi w Ustawienia › Prywatność i ochrona › Usługi lokalizacji. Lokalizacja służy tylko do odczytu nazwy sieci i rozpoznawania miejsc, do których wracasz."
+      },
+      {
+        "q": "Nazwa lub hasło zostały źle odczytane.",
+        "a": "Podejdź bliżej i zrób zdjęcie prosto. Jeśli nadal się nie zgadza, przeciągnij właściwy fragment ze zdjęcia do pola albo popraw ręcznie. Jeśli tabliczka ma kod QR Wi-Fi, MyFi go odczyta i wpisze dokładne dane."
+      },
+      {
+        "q": "Jakie tabliczki potrafi odczytać?",
+        "a": "Najlepiej radzi sobie z tabliczkami po angielsku lub koreańsku z etykietami typu ID, PW, SSID, Network czy Password. Nawet bez etykiet znajdzie wiersz, który wygląda jak hasło. Kod QR Wi-Fi na tabliczce odczytuje dokładnie w każdym języku."
+      },
+      {
+        "q": "Jak ktoś połączy się moim kodem QR?",
+        "a": "Na iPhonie i Androidzie wystarczy wycelować wbudowany aparat w kod i stuknąć propozycję połączenia. Żadna aplikacja nie jest potrzebna."
+      },
+      {
+        "q": "Czy inni zobaczą moje hasło?",
+        "a": "Kod QR zawiera standardowe dane logowania do Wi-Fi. O udostępnieniu zawsze decydujesz Ty, a na tabliczce dla gości możesz ukryć hasło."
+      },
+      {
+        "q": "Dlaczego nie mogę połączyć się z własnym hotspotem?",
+        "a": "Hotspot osobisty iPhone’a to ten sam telefon, który nie może połączyć się sam ze sobą. Włącz `Mój hotspot`, a MyFi potraktuje go jako kod QR do rozdawania."
+      },
+      {
+        "q": "Gdzie trafiają dane o moich sieciach?",
+        "a": "MyFi nie ma serwera. Nazwy sieci, hasła, wyniki rozpoznawania zdjęć i lokalizacje są przetwarzane i przechowywane tylko na Twoim urządzeniu. Bez reklam i śledzenia. Aplikacja wysyła do Apple iCloud tylko anonimowe statystyki użycia i raporty błędów, żeby można ją było poprawiać."
+      },
+      {
+        "q": "Na jakich urządzeniach działa?",
+        "a": "Na iPhonie z iOS 17 lub nowszym. Aplikacja jest dostępna w 24 językach."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Gdy zapyta kolejny gość,\npokaż kod QR",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Pytania lub uwagi? Napisz na {email}. Zwykle odpowiadam w ciągu 2–3 dni."
+  }
+}

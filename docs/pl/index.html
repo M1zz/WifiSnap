@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyFi: sfotografuj tabliczkę i połącz się, udostępniaj Wi-Fi kodem QR</title>
+  <meta name="description" content="Sfotografuj tabliczkę z Wi-Fi, a iPhone się połączy. Udostępnij swoją sieć jednym kodem QR i wydrukuj tabliczkę dla gości. Wszystko za darmo.">
+  <meta name="theme-color" content="#1E6FD9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6793472383">
   <link rel="canonical" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/WifiSnap/">
   <link rel="alternate" hreflang="en" href="https://m1zz.github.io/WifiSnap/en/">
@@ -28,103 +33,161 @@
   <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/WifiSnap/pl/">
   <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/WifiSnap/sv/">
   <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/WifiSnap/tr/">
-  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/en/">
-  <title>MyFi — Udostępniaj Wi-Fi i łącz się bez kłopotu</title>
-  <meta name="description" content="Udostępniaj swoją sieć Wi-Fi jako kod QR, łącz się z siecią, robiąc zdjęcie tabliczki z hasłem, i twórz tabliczki Wi-Fi dla gości swojego lokalu. Aplikacja na iPhone’a.">
-  <meta property="og:title" content="MyFi">
-  <meta property="og:description" content="Udostępniaj Wi-Fi i łącz się bez kłopotu.">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/WifiSnap/">
   <meta property="og:type" content="website">
-  <link rel="stylesheet" href="../style.css">
+  <meta property="og:title" content="MyFi: sfotografuj tabliczkę i połącz się, udostępniaj Wi-Fi kodem QR">
+  <meta property="og:description" content="Sfotografuj tabliczkę z Wi-Fi, a iPhone się połączy. Udostępnij swoją sieć jednym kodem QR i wydrukuj tabliczkę dla gości. Wszystko za darmo.">
+  <meta property="og:url" content="https://m1zz.github.io/WifiSnap/pl/">
+  <meta property="og:image" content="https://m1zz.github.io/WifiSnap/img/pl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#1E6FD9}@media (prefers-color-scheme:dark){:root{--accent:#5AB8F5}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">📶</div>
-      <h1>MyFi</h1>
-      <p class="sub">Udostępniaj Wi-Fi i łącz się bez kłopotu</p>
-      <p class="tagline">Koniec z literowaniem haseł. Wystarczy jeden kod QR.</p>
-      <div class="btn-row hero-btns">
-        <a class="btn" href="#features">Zobacz funkcje</a>
-        <a class="btn secondary" href="https://github.com/M1zz/WifiSnap">GitHub</a>
-      </div>
-      <p class="muted">iOS 17.0 lub nowszy · iPhone</p>
-    </header>
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="bar">
+    <a class="brand" href="../pl/"><img src="../icon.png" alt="" width="32" height="32">MyFi</a>
+    <a class="lang-link" href="#languages">Język</a>
+  </header>
 
-    <div class="card">
-      <h2>Stworzona na takie chwile</h2>
-      <p>Dyktujesz gościowi hasło do Wi-Fi, a on i tak wpisuje je z błędem. Przepisujesz hasło z tabliczki na ścianie kawiarni i mylisz jedną literę.
-        Tłumaczysz to samo hasło po raz kolejny. MyFi zamienia to wszystko w jeden kod QR i jedno zdjęcie.</p>
-    </div>
-
-    <h2 id="features">Funkcje</h2>
-    <div class="features">
-      <div class="feature">
-        <div class="ico">🔗</div>
-        <h3>Udostępniaj Wi-Fi jako kod QR</h3>
-        <p>MyFi rozpoznaje nazwę sieci, z którą masz połączenie. Wpisz hasło raz i gotowe — powstaje standardowy kod QR Wi-Fi
-          (<code>WIFI:S:…;T:WPA;P:…;;</code>). Aby się połączyć, inni muszą tylko <strong>skierować na niego wbudowany aparat</strong> iPhone’a lub telefonu z Androidem.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Koniec z dyktowaniem hasła.<br>Pokaż kod QR.</h1>
+        <p class="lead">Znajomi tylko celują aparatem i już są w sieci. Tabliczka na ścianie kawiarni? Jedno zdjęcie i ten iPhone się łączy. Koniec z literówkami przy przepisywaniu.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6793472383">Pobierz za darmo z App Store</a><a class="try" href="#try">Zrób kod QR swojej sieci Wi-Fi ↓</a></div>
+        <p class="muted small">Wszystkie funkcje są bezpłatne. iPhone z iOS 17 lub nowszym.</p>
       </div>
-      <div class="feature">
-        <div class="ico">📷</div>
-        <h3>Zrób zdjęcie i połącz się</h3>
-        <p>Sfotografuj tabliczkę z Wi-Fi w kawiarni lub wynajętym mieszkaniu albo wybierz zdjęcie z biblioteki.
-          Rozpoznawanie tekstu na urządzeniu samo uzupełni nazwę sieci i hasło. Stuknij <strong>Połącz ten iPhone</strong> i jesteś online.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🖼️</div>
-        <h3>Twórz tabliczki Wi-Fi dla gości</h3>
-        <p>Zaprojektuj tabliczkę Wi-Fi dla swojego lokalu, korzystając z <strong>7 motywów</strong>. Dodaj nazwę i logo lokalu, wybierz
-          <strong>kartę</strong> na ekrany i do mediów społecznościowych albo pionowy <strong>plakat A4</strong> do druku,
-          a potem zapisz ją jako obrazek, udostępnij lub <strong>od razu wydrukuj przez AirPrint</strong>. Możesz przechowywać dowolnie wiele tabliczek.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">🧩</div>
-        <h3>Widżet na ekranie początkowym</h3>
-        <p>Umieść kod QR często używanej sieci Wi-Fi w widżecie na ekranie początkowym.
-          Gdy gość zapyta o Wi-Fi, po prostu pokaż mu ekran. Nie trzeba nawet otwierać aplikacji.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📍</div>
-        <h3>Ulubione miejsca na początku listy</h3>
-        <p>MyFi zapamiętuje, gdzie łączysz się z daną siecią lub ją udostępniasz. Gdy wrócisz w to samo miejsce,
-          ta sieć trafi na górę listy. Zapisane miejsca możesz też zobaczyć na mapie.</p>
-      </div>
-      <div class="feature">
-        <div class="ico">📱</div>
-        <h3>Kod QR także dla hotspotu</h3>
-        <p>Hotspot osobisty Twojego iPhone’a to sam telefon, więc nie może on się z nim połączyć.
-          MyFi oznacza hotspoty osobno i zamiast próbować się łączyć, tworzy <strong>kod QR, który możesz przekazać innym</strong>.</p>
-      </div>
-    </div>
+      <div class="phone"><img src="../img/pl/02-qr.jpg" alt="Koniec z dyktowaniem hasła. Pokaż kod QR." width="600" height="1303" decoding="async"></div>
+    </section>
 
-    <div class="card">
-      <h2>Twoje dane zostają na urządzeniu</h2>
-      <p>MyFi nie ma żadnego serwera. Nazwy i hasła Wi-Fi, tekst odczytany ze zdjęć oraz lokalizacje są przetwarzane i przechowywane
-        <strong>wyłącznie na Twoim urządzeniu</strong> i nigdy nie są nigdzie wysyłane.
-        Bez reklam, bez analityki firm zewnętrznych i bez śledzenia. Aby pomóc w ulepszaniu aplikacji, do Apple iCloud trafiają jedynie anonimowe statystyki użycia i raporty o awariach.</p>
-      <p><a href="privacy.html">Przeczytaj pełną Politykę prywatności →</a></p>
-    </div>
 
-    <div class="card">
-      <h2>Warto wiedzieć</h2>
-      <ul>
-        <li>Ze względów bezpieczeństwa <strong>iOS nie pozwala żadnej aplikacji odczytać haseł Wi-Fi zapisanych na urządzeniu.</strong>
-          Dlatego udostępnianie działa według zasady „nazwa rozpoznawana automatycznie, hasło wpisywane raz”. Później MyFi korzysta już z zapisanego hasła.</li>
-        <li>Do łączenia z siecią potrzebny jest <strong>prawdziwy iPhone</strong>. Symulator iOS (Simulator) nie łączy się z sieciami Wi-Fi.</li>
-      </ul>
-    </div>
+    <section class="reveal" id="try">
+      <h2>Zrób kod QR swojej sieci Wi-Fi</h2>
+      <p class="muted">Zmień nazwę albo hasło, a tabliczka od razu się zmieni. Wyceluj w nią aparat telefonu, a naprawdę pojawi się propozycja połączenia.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Zrób kod QR swojej sieci Wi-Fi&quot;, &quot;lead&quot;: &quot;Zmień nazwę albo hasło, a tabliczka od razu się zmieni. Wyceluj w nią aparat telefonu, a naprawdę pojawi się propozycja połączenia.&quot;, &quot;ssidLabel&quot;: &quot;Nazwa sieci&quot;, &quot;pwLabel&quot;: &quot;Hasło (zostaw puste dla sieci otwartej)&quot;, &quot;themeLabel&quot;: &quot;Wygląd&quot;, &quot;scan&quot;: &quot;Wyceluj aparat telefonu w kod QR po lewej.&quot;, &quot;note&quot;: &quot;To, co wpiszesz, zostaje w tej przeglądarce i nigdzie nie jest wysyłane. W aplikacji dodasz nazwę, logo i godziny otwarcia lokalu i wydrukujesz plakat A4.&quot;, &quot;heading&quot;: &quot;Darmowe Wi-Fi&quot;, &quot;subtitle&quot;: &quot;Korzystaj śmiało&quot;, &quot;network&quot;: &quot;Sieć&quot;, &quot;password&quot;: &quot;Hasło&quot;, &quot;footer&quot;: &quot;Zeskanuj kod QR aparatem, aby się połączyć&quot;, &quot;open&quot;: &quot;Brak (sieć otwarta)&quot;, &quot;themes&quot;: [&quot;Północ&quot;, &quot;Zachód słońca&quot;, &quot;Mięta&quot;, &quot;Ocean&quot;, &quot;Las&quot;, &quot;Kawiarnia&quot;, &quot;Mono&quot;]}"></div>
+    </section>
 
-    <div class="btn-row">
-      <a class="btn" href="support.html">Wsparcie / Pomoc</a>
-      <a class="btn secondary" href="privacy.html">Polityka prywatności</a>
-    </div>
+    <section class="problem reveal">
+      <h2>„Jakie było hasło do Wi-Fi?” Który raz dzisiaj?</h2>
+      <p>Dyktujesz je i mylisz wielkie litery. Przepisujesz tabliczkę ze ściany i mylisz 0 z O. A potem tłumaczysz wszystko od nowa. MyFi sprowadza to do jednego zdjęcia i jednego kodu QR.</p>
+    </section>
 
-    <nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a> · <a href="../en/index.html" hreflang="en" lang="en">English (US)</a> · <a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a> · <a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> · <a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> · <a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a> · <a href="../es/index.html" hreflang="es" lang="es">Español</a> · <a href="../de/index.html" hreflang="de" lang="de">Deutsch</a> · <a href="../fr/index.html" hreflang="fr" lang="fr">Français</a> · <a href="../it/index.html" hreflang="it" lang="it">Italiano</a> · <a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> · <a href="../th/index.html" hreflang="th" lang="th">ไทย</a> · <a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a> · <a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a> · <a href="../da/index.html" hreflang="da" lang="da">Dansk</a> · <a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a> · <a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a> · <a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a> · <a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a> · <a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a> · <strong>Polski</strong> · <a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a> · <a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Zdjęcie i jesteś w sieci</h2>
+        <p>Sfotografuj tabliczkę z Wi-Fi albo paragon lub wybierz zdjęcie z biblioteki. MyFi odczyta nazwę sieci i hasło i połączy ten iPhone. Jeśli na tabliczce jest też kod QR, odczyta go najpierw, żeby dane były dokładne.<br>Gdy tekst jest niewyraźny, przeciągnij fragment ze zdjęcia do pola nazwy lub hasła.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/01-scan.jpg" alt="Zdjęcie i jesteś w sieci" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
 
-    <footer>
-      © 2026 MyFi · <a href="https://github.com/M1zz/WifiSnap">GitHub</a> ·
-      <a href="mailto:leeo@kakao.com">Kontakt</a>
-    </footer>
-  </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tabliczka dla gości z wydrukiem</h2>
+        <p>Wybierz jeden z 7 motywów i dodaj nazwę, logo oraz wiersze, np. godziny otwarcia. Wybierz kartę albo pionowy plakat A4, zapisz jako obraz lub od razu wydrukuj przez AirPrint.<br>Trzymaj kilka tabliczek, po jednej na lokal czy stolik, i zmieniaj je, kiedy chcesz.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/03-poster-card.jpg" alt="Tabliczka dla gości z wydrukiem" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Miejsca, do których wracasz, są na górze</h2>
+        <p>Sieci, z którymi się łączysz albo które udostępniasz, zapisują się razem z miejscem. Gdy wrócisz, ta sieć będzie na górze listy, a wszystkie zapisane miejsca zobaczysz na mapie.<br>Postaw kod QR najczęściej udostępnianej sieci jako widżet na ekranie początkowym lub ekranie blokady. Gdy gość zapyta, po prostu pokaż ekran.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/05-saved.jpg" alt="Miejsca, do których wracasz, są na górze" width="600" height="1303" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Zaczynasz w trzech krokach</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Otwórz aplikację</h3><p>Raz poprosi o lokalizację, bo iOS podaje nazwę bieżącej sieci Wi-Fi tylko aplikacjom z tym dostępem.</p></li>
+<li class="card"><span class="n">2</span><h3>Zrób zdjęcie lub wpisz</h3><p>Sfotografuj tabliczkę albo raz wpisz hasło do swojej sieci.</p></li>
+<li class="card"><span class="n">3</span><h3>Połącz albo pokaż</h3><p>Połącz ten iPhone albo pokaż kod QR aparatowi drugiej osoby.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Gdzie co znaleźć</h2>
+      <div class="card table">
+        <dl><div><dt>Połączenie ze zdjęcia tabliczki</dt><dd><code>Dodaj Wi-Fi</code>, potem <code>Aparat</code> lub <code>Zdjęcia</code>, potem <code>Połącz ten iPhone</code></dd></div><div><dt>Ręczne wpisanie danych</dt><dd><code>Dodaj Wi-Fi</code>, potem <code>Wpisz ręcznie</code></dd></div><div><dt>Tylko kod QR</dt><dd><code>Utwórz kod QR bez łączenia</code></dd></div><div><dt>Wysłanie kodu QR w wiadomości</dt><dd>Stuknij zapisaną sieć, potem <code>Udostępnij obraz kodu QR</code></dd></div><div><dt>Tabliczka dla gości</dt><dd>Stuknij zapisaną sieć, potem <code>Wydrukuj lub udostępnij tabliczkę dla gości</code></dd></div><div><dt>Własny hotspot jako kod QR</dt><dd>Stuknij zapisaną sieć i włącz <code>Mój hotspot</code></dd></div><div><dt>Połącz lub udostępnij jednym ruchem</dt><dd>Na liście przesuń w prawo, by się połączyć, w lewo, by udostępnić</dd></div><div><dt>Zapisane miejsca</dt><dd><code>Mapa</code> obok <code>Zapisane sieci</code></dd></div><div><dt>Kod QR na ekranie początkowym</dt><dd>Przytrzymaj ekran początkowy i dodaj widżet MyFi <code>Kod QR Wi-Fi</code></dd></div></dl>
+      </div>
+      <p class="muted">Kod QR otworzysz od razu także przez Siri lub aplikację Skróty.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Wszystkie funkcje są bezpłatne</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Za darmo</h3>
+          <ul><li>Łączenie z Wi-Fi ze zdjęcia</li><li>Tworzenie kodów QR i udostępnianie jako obraz</li><li>Tabliczki dla gości w 7 motywach, karta lub plakat A4, druk przez AirPrint</li><li>Widżety na ekran początkowy i ekran blokady</li><li>Mapa zapisanych sieci</li><li>Bez reklam i bez zakładania konta</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Napiwek (dobrowolny)</h3>
+          <ul><li>Jeśli aplikacja Ci się podoba, możesz wesprzeć jej rozwój napiwkiem</li><li>Napiwek niczego nie odblokowuje. Bez niego masz wszystkie funkcje</li></ul>
+          <p class="muted">Napiwek to niewielka, jednorazowa płatność.</p>
+        </div>
+      </div>
+      <p class="muted">Bez subskrypcji i bez płatnych funkcji.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Częste pytania</h2>
+      <div class="faq"><details><summary>Dlaczego muszę sam wpisać hasło?</summary><p>iOS nie pozwala żadnej aplikacji odczytać haseł Wi-Fi zapisanych na urządzeniu. Dlatego MyFi rozpoznaje nazwę sieci, a hasło wpisujesz tylko raz. Potem aplikacja używa zapisanego.</p></details>
+<details><summary>Nie widzę nazwy sieci, z którą jestem połączony.</summary><p>iOS podaje nazwę Wi-Fi tylko aplikacjom z dostępem do lokalizacji. Zezwól MyFi w Ustawienia › Prywatność i ochrona › Usługi lokalizacji. Lokalizacja służy tylko do odczytu nazwy sieci i rozpoznawania miejsc, do których wracasz.</p></details>
+<details><summary>Nazwa lub hasło zostały źle odczytane.</summary><p>Podejdź bliżej i zrób zdjęcie prosto. Jeśli nadal się nie zgadza, przeciągnij właściwy fragment ze zdjęcia do pola albo popraw ręcznie. Jeśli tabliczka ma kod QR Wi-Fi, MyFi go odczyta i wpisze dokładne dane.</p></details>
+<details><summary>Jakie tabliczki potrafi odczytać?</summary><p>Najlepiej radzi sobie z tabliczkami po angielsku lub koreańsku z etykietami typu ID, PW, SSID, Network czy Password. Nawet bez etykiet znajdzie wiersz, który wygląda jak hasło. Kod QR Wi-Fi na tabliczce odczytuje dokładnie w każdym języku.</p></details>
+<details><summary>Jak ktoś połączy się moim kodem QR?</summary><p>Na iPhonie i Androidzie wystarczy wycelować wbudowany aparat w kod i stuknąć propozycję połączenia. Żadna aplikacja nie jest potrzebna.</p></details>
+<details><summary>Czy inni zobaczą moje hasło?</summary><p>Kod QR zawiera standardowe dane logowania do Wi-Fi. O udostępnieniu zawsze decydujesz Ty, a na tabliczce dla gości możesz ukryć hasło.</p></details>
+<details><summary>Dlaczego nie mogę połączyć się z własnym hotspotem?</summary><p>Hotspot osobisty iPhone’a to ten sam telefon, który nie może połączyć się sam ze sobą. Włącz <code>Mój hotspot</code>, a MyFi potraktuje go jako kod QR do rozdawania.</p></details>
+<details><summary>Gdzie trafiają dane o moich sieciach?</summary><p>MyFi nie ma serwera. Nazwy sieci, hasła, wyniki rozpoznawania zdjęć i lokalizacje są przetwarzane i przechowywane tylko na Twoim urządzeniu. Bez reklam i śledzenia. Aplikacja wysyła do Apple iCloud tylko anonimowe statystyki użycia i raporty błędów, żeby można ją było poprawiać.</p></details>
+<details><summary>Na jakich urządzeniach działa?</summary><p>Na iPhonie z iOS 17 lub nowszym. Aplikacja jest dostępna w 24 językach.</p></details></div>
+      <p class="contact">Pytania lub uwagi? Napisz na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>. Zwykle odpowiadam w ciągu 2–3 dni.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Gdy zapyta kolejny gość,<br>pokaż kod QR</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6793472383">Pobierz za darmo z App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Język"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English (US)</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl" aria-current="page">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Polityka prywatności</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 MyFi</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>
