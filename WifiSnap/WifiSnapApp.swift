@@ -29,6 +29,8 @@ struct WifiSnapApp: App {
                 // 실행 횟수·긍정 행동(연결·QR 저장)이 쌓이면 한 번 만족도를 묻는다.
                 // 만족 → 시스템 리뷰 요청 / 아쉬움 → 피드백 화면
                 .leeoSatisfactionCheck(WifiSnapSpec.self)
+                // 아이폰 듀오: 창 크기로 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
+                .foldAware()
                 // 팁 상품을 불러오고 끝나지 않은 팁을 마저 센다 (무료 앱이라 LeeoStore 대신 혼자)
                 .task { await WifiSnapSpec.tipJar.startStandalone() }
         }

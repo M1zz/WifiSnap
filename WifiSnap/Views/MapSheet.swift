@@ -32,7 +32,7 @@ struct MapSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("닫기") { dismiss() }
+                    Button("닫기", systemImage: "xmark") { dismiss() }
                 }
             }
             .sheet(item: $qrNetwork) { net in

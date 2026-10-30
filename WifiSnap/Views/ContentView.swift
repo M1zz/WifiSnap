@@ -59,6 +59,11 @@ struct ContentView: View {
     /// 글자 크기 배율 — 저장 목록 높이를 큰 글자에 맞춰 키운다
     @ScaledMetric(relativeTo: .body) private var textScale: CGFloat = 1
 
+    /// 아이폰 듀오를 폈는가. 펴면 와이파이 상세(QR)가 결과 쪽 판에 늘 서 있다.
+    @Environment(\.foldLayout) private var fold
+    /// 펼친 화면에서 목록으로 고른 와이파이. 없으면 지금 연결된 것, 그다음 가장 최근 것.
+    @State private var foldSelectedID: UUID?
+
     enum ActiveSheet: Identifiable {
         case picker(ImagePicker.Source)
         case detail(SavedNetwork)
@@ -88,56 +93,63 @@ struct ContentView: View {
     }
 
     var body: some View {
-        mainStack
-            .background(backgroundLayer)
-            .onAppear {
-                currentNetwork.refresh()
-                scanExpanded = (connectedSaved == nil)
-                #if DEBUG
-                applyScreenshotScene()
-                #endif
-                // 이전 버전에서 저장한 네트워크만 있어도 목록 팁이 뜨도록 여기서도 도네이션.
-                // (연결 시점에만 도네이션하면 이미 목록이 있는 사용자에게는 팁이 영영 안 뜬다)
-                if !store.networks.isEmpty {
-                    Task { await WifiSnapTips.savedNetwork.donate() }
-                }
-                // 첫 실행 안내는 처음 온 사용자에게만. 이미 와이파이를 저장해 쓰던 사용자는
-                // 이 기능이 생기기 전부터 쓰던 사람이라 다시 가르치지 않는다.
-                if !hasSeenOnboarding {
-                    if store.networks.isEmpty {
-                        showOnboarding = true
-                    } else {
-                        hasSeenOnboarding = true
-                    }
-                }
+        // 아이폰 듀오를 펴면 고르는 쪽(가로면 왼쪽, 세로면 아래)에 지금 화면, 결과 쪽(오른쪽, 위)에 고른 와이파이의 QR.
+        // 접혀 있거나 보통 아이폰이면 고르는 쪽만 그린다. 지금 화면 그대로다.
+        FoldSplitView {
+            mainStack
+                .background(backgroundLayer)
+        } result: {
+            foldDetailPane
+        }
+        .onAppear {
+            currentNetwork.refresh()
+            scanExpanded = (connectedSaved == nil)
+            #if DEBUG
+            applyScreenshotScene()
+            #endif
+            // 이전 버전에서 저장한 네트워크만 있어도 목록 팁이 뜨도록 여기서도 도네이션.
+            // (연결 시점에만 도네이션하면 이미 목록이 있는 사용자에게는 팁이 영영 안 뜬다)
+            if !store.networks.isEmpty {
+                Task { await WifiSnapTips.savedNetwork.donate() }
             }
-            .onChange(of: connectedSaved?.id) { _, id in
-                // 연결되면 '와이파이 추가' 섹션을 접고, 끊기면 다시 펼친다
-                withAnimation(.snappy) { scanExpanded = (id == nil) }
-                anchorConnectedLocation()
-            }
-            // 위치가 뒤늦게 잡히는 경우(권한 승인 직후 등)에도 앵커를 남긴다
-            .onChange(of: currentNetwork.currentLocation?.timestamp) { _, _ in
-                anchorConnectedLocation()
-            }
-            .onChange(of: scenePhase) { _, phase in
-                // 설정에서 와이파이를 바꾸고 돌아온 경우를 잡는다
-                if phase == .active { currentNetwork.refresh() }
-            }
-            .sheet(item: $activeSheet, content: sheetContent)
-            .alert(item: $statusMessage, content: alertContent)
-            .onOpenURL(perform: handleDeepLink)
-            .fullScreenCover(isPresented: $showOnboarding) {
-                WifiSnapOnboardingView {
+            // 첫 실행 안내는 처음 온 사용자에게만. 이미 와이파이를 저장해 쓰던 사용자는
+            // 이 기능이 생기기 전부터 쓰던 사람이라 다시 가르치지 않는다.
+            if !hasSeenOnboarding {
+                if store.networks.isEmpty {
+                    showOnboarding = true
+                } else {
                     hasSeenOnboarding = true
-                    showOnboarding = false
                 }
             }
-            // 단축어로 열린 경우 — 앱이 막 켜졌어도 구독 즉시 남아 있던 요청을 받는다
-            .onReceive(router.$pending.compactMap { $0 }) { route in
-                router.pending = nil
-                handleRoute(route)
+        }
+        .onChange(of: connectedSaved?.id) { _, id in
+            // 연결되면 '와이파이 추가' 섹션을 접고, 끊기면 다시 펼친다
+            withAnimation(.snappy) { scanExpanded = (id == nil) }
+            anchorConnectedLocation()
+        }
+        // 위치가 뒤늦게 잡히는 경우(권한 승인 직후 등)에도 앵커를 남긴다
+        .onChange(of: currentNetwork.currentLocation?.timestamp) { _, _ in
+            anchorConnectedLocation()
+        }
+        .onChange(of: scenePhase) { _, phase in
+            // 설정에서 와이파이를 바꾸고 돌아온 경우를 잡는다
+            if phase == .active { currentNetwork.refresh() }
+        }
+        .sheet(item: $activeSheet, content: sheetContent)
+        .alert(item: $statusMessage, content: alertContent)
+        .onOpenURL(perform: handleDeepLink)
+        .fullScreenCover(isPresented: $showOnboarding) {
+            WifiSnapOnboardingView {
+                hasSeenOnboarding = true
+                showOnboarding = false
             }
+            .foldConfined()
+        }
+        // 단축어로 열린 경우, 앱이 막 켜졌어도 구독 즉시 남아 있던 요청을 받는다
+        .onReceive(router.$pending.compactMap { $0 }) { route in
+            router.pending = nil
+            handleRoute(route)
+        }
     }
 
     #if DEBUG
@@ -170,7 +182,7 @@ struct ContentView: View {
             // 지금 연결된 와이파이가 우선, 없으면 가장 최근에 저장한 것
             let latest = store.networks.max(by: { $0.savedAt < $1.savedAt })
             if let network = connectedSaved ?? latest {
-                activeSheet = .detail(network)
+                showDetail(network)
             } else {
                 // 보여 줄 QR이 아직 없다 — 와이파이를 추가하는 곳을 펼쳐 둔다
                 withAnimation(.snappy) { scanExpanded = true }
@@ -192,7 +204,48 @@ struct ContentView: View {
             store.networks.first { $0.id.uuidString == id }
         }
         guard let network = pinned ?? store.networks.max(by: { $0.savedAt < $1.savedAt }) else { return }
-        activeSheet = .detail(network)
+        showDetail(network)
+    }
+
+    // MARK: - 아이폰 듀오
+
+    /// 와이파이 상세를 연다. 펼친 화면이면 시트 대신 결과 쪽 판이 그 와이파이로 바뀐다.
+    private func showDetail(_ network: SavedNetwork) {
+        if fold.isUnfolded {
+            foldSelectedID = network.id
+        } else {
+            activeSheet = .detail(network)
+        }
+    }
+
+    private var foldNetwork: SavedNetwork? {
+        store.networks.first { $0.id == foldSelectedID }
+            ?? connectedSaved
+            ?? store.networks.max(by: { $0.savedAt < $1.savedAt })
+    }
+
+    /// 펼친 화면의 결과 쪽: 시트로 열던 와이파이 상세(QR · 비밀번호 · 안내판)를 그대로 세운다.
+    private var foldDetailPane: some View {
+        Group {
+            if let network = foldNetwork {
+                NetworkDetailSheet(network: network,
+                                   posterStore: posterStore,
+                                   isPane: true,
+                                   onSetHotspot: { store.setHotspot(id: network.id, $0) }) {
+                    credentials = WifiCredentials(ssid: network.ssid, password: network.password)
+                    connect()
+                }
+                // 다른 와이파이를 고르면 QR 을 새로 만든다.
+                .id(network.id)
+            } else {
+                ContentUnavailableView("저장된 네트워크 없음",
+                                       systemImage: "qrcode",
+                                       description: Text("이 폰을 연결하거나, 연결 없이 QR만 만들어요"))
+            }
+        }
+        .background(Color(.systemGroupedBackground).ignoresSafeArea())
+        // 이 판 안에서는 접히지 않은 화면처럼 선다.
+        .environment(\.foldLayout, .single)
     }
 
     private var mainStack: some View {
@@ -796,7 +849,7 @@ struct ContentView: View {
     private func savedRow(_ network: SavedNetwork) -> some View {
         Button {
             markSavedRowUsed()
-            activeSheet = .detail(network)
+            showDetail(network)
         } label: {
             HStack(spacing: 10) {
                 // 와이파이 이름 앞 구분자
@@ -1062,7 +1115,7 @@ struct ContentView: View {
         LeeoEngagement.shared.registerSignificantEvent()
 
         guard let saved = store.network(for: ssid) else { return }
-        activeSheet = .detail(saved)
+        showDetail(saved)
     }
 
     private func connect() {

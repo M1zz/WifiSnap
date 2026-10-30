@@ -9,6 +9,8 @@ struct NetworkDetailSheet: View {
     var onConnect: () -> Void
     /// 핫스팟 여부를 사용자가 고쳤을 때 (이름만으로 한 짐작이 틀릴 수 있다)
     var onSetHotspot: (Bool) -> Void
+    /// 아이폰 듀오를 폈을 때 결과 쪽 판에 늘 서 있는가. 그때는 닫을 것이 없다.
+    var isPane = false
 
     @Environment(\.dismiss) private var dismiss
     @State private var qrImage: UIImage?
@@ -20,9 +22,11 @@ struct NetworkDetailSheet: View {
 
     init(network: SavedNetwork,
          posterStore: PosterDesignStore,
+         isPane: Bool = false,
          onSetHotspot: @escaping (Bool) -> Void,
          onConnect: @escaping () -> Void) {
         self.network = network
+        self.isPane = isPane
         self.posterStore = posterStore
         self.onSetHotspot = onSetHotspot
         self.onConnect = onConnect
@@ -49,8 +53,10 @@ struct NetworkDetailSheet: View {
             .navigationTitle("와이파이 상세")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button("닫기") { dismiss() }
+                if !isPane {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button("닫기", systemImage: "xmark") { dismiss() }
+                    }
                 }
             }
         }

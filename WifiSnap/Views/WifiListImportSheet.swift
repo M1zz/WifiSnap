@@ -40,10 +40,10 @@ struct WifiListImportSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button("닫기") { dismiss() }
+                    Button("닫기", systemImage: "xmark") { dismiss() }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("추가") { addSelected() }
+                    Button("추가", systemImage: "plus") { addSelected() }
                         .font(.body.weight(.semibold))
                         .disabled(selectedNames.isEmpty)
                 }

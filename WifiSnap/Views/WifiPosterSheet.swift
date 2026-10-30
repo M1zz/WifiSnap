@@ -292,7 +292,7 @@ struct WifiPosterSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button("닫기") { dismiss() }
+                    Button("닫기", systemImage: "xmark") { dismiss() }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
