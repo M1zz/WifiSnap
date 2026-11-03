@@ -66,6 +66,7 @@ struct QRCodeSheet: View {
             }
         }
         .presentationDetents([.large])
+        .brightensForQR()
         .task {
             // 무거운 QR 렌더링을 백그라운드에서 수행 → 시트 애니메이션이 끊기지 않음
             let ssid = self.ssid

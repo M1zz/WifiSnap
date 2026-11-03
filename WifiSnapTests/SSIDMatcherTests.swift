@@ -31,7 +31,7 @@ final class SSIDMatcherTests: XCTestCase {
     }
 
     func testBrandCanonicalOnlyTouchesWholeShortTokens() {
-        XCTAssertEqual(SSIDMatcher.brandCanonical("kt_giga_5g"), "KT_GIGA_5g")
+        XCTAssertEqual(SSIDMatcher.brandCanonical("kt_giga_5g"), "KT_GiGA_5G")
         // pocket 안의 'kt'는 브랜드가 아니다
         XCTAssertEqual(SSIDMatcher.brandCanonical("pocket"), "pocket")
     }
@@ -53,5 +53,15 @@ final class SSIDMatcherTests: XCTestCase {
         // 짧은 이름은 한 글자 차이로도 오교정 위험이 크다
         XCTAssertNil(SSIDMatcher.bestMatch(for: "Hame", in: ["Home"]))
         XCTAssertNil(SSIDMatcher.bestMatch(for: "Starbucks", in: ["CAFE_MOMO_5G"]))
+    }
+
+    /// 안내판에 대문자로 적힌 KT 이름 — 실제 방송 이름은 GiGA 라서 첫 대안이 그것이어야 한다
+    func testSignWrittenInCapitalsSuggestsKTSpellingFirst() {
+        XCTAssertEqual(SSIDMatcher.caseVariants(of: "KT_GIGA_5G_1234").first, "KT_GiGA_5G_1234")
+    }
+
+    func testSKAndLGSpellings() {
+        XCTAssertEqual(SSIDMatcher.brandCanonical("SK_WIFIGIGA1A2B"), "SK_WiFiGIGA1A2B")
+        XCTAssertEqual(SSIDMatcher.brandCanonical("U+NET9A3C"), "U+Net9A3C")
     }
 }

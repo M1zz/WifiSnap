@@ -61,6 +61,8 @@ struct NetworkDetailSheet: View {
             }
         }
         .presentationDetents([.large])
+        // 손님에게 QR을 내밀 때 화면이 어두우면 잘 안 읽힌다. 펼친 듀오 화면에 늘 서 있는 판에서는 켜지 않는다.
+        .brightensForQR(!isPane)
         // 인쇄는 안내판 편집 화면에서 수행 (테마·문구를 고른 뒤 AirPrint)
         .sheet(isPresented: $showPoster) {
             PosterListSheet(store: posterStore, ssid: network.ssid, password: network.password)

@@ -39,12 +39,10 @@ enum WifiConnector {
                 return String(localized: "와이파이 이름이 너무 길어요. (최대 32바이트)")
             case .badPasswordLength(let count):
                 return String(localized: "비밀번호가 \(count)자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요.")
-            case .notFound(let ssid, let suggestions):
+            case .notFound(let ssid, _):
                 var text = String(localized: "'\(ssid)' 와이파이에 붙지 못했어요.") + "\n"
                 text += String(localized: "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요.")
-                if !suggestions.isEmpty {
-                    text += "\n\n" + String(localized: "이런 표기일 수도 있어요:") + "\n" + suggestions.map { "• \($0)" }.joined(separator: "\n")
-                }
+                // 대소문자 후보는 알림창의 글이 아니라 입력 카드에서 눌러서 고르게 한다 (ContentView.retrySection)
                 return text
             case .message(let text):
                 return text

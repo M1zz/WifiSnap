@@ -116,10 +116,18 @@ enum SSIDMatcher {
     /// 국내 공유기 이름에 흔한 토큰의 정식 표기.
     /// wholeToken=true는 짧아서 다른 단어 안에 우연히 박히기 쉬운 것(kt가 pocket 안에 들어가는 등)이라
     /// 앞뒤가 영숫자가 아닐 때만 바꾼다.
+    ///
+    /// 순서가 뜻을 가진다 — 뒤의 규칙이 앞의 결과를 덮는다.
+    /// KT 공유기는 `KT_GiGA_5G_…`로 방송하지만 안내판에는 `GIGA`로 적힌 일이 많고,
+    /// SK 공유기는 반대로 `SK_WiFiGIGA…`가 정식이라 'giga'를 하나로 정할 수 없다.
     private static let brandSpellings: [(pattern: String, canonical: String, wholeToken: Bool)] = [
         ("wi-fi", "Wi-Fi", false),
         ("wifi", "WiFi", false),
-        ("giga", "GIGA", false),
+        ("giga", "GiGA", false),
+        ("wifigiga", "WiFiGIGA", false),
+        ("u+net", "U+Net", false),
+        ("2g", "2G", true),
+        ("5g", "5G", true),
         ("iptime", "ipTIME", false),
         ("olleh", "olleh", false),
         ("wlan", "WLAN", false),

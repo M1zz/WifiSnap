@@ -7,6 +7,17 @@ struct RecognizedLine {
     let text: String
     /// Vision 좌표계(좌하단 원점, 0~1 정규화)
     let boundingBox: CGRect
+    /// 줄을 이루는 낱말들 — 사진 위를 문질러 값을 고를 때 쓴다
+    var words: [RecognizedWord] = []
+}
+
+/// 줄 안의 낱말 하나. `PW:abcd1234`처럼 붙어 있어도 ':' '=' 에서 나눠, 라벨을 빼고 값만 고를 수 있게 한다.
+struct RecognizedWord {
+    let text: String
+    /// Vision 좌표계(좌하단 원점, 0~1 정규화)
+    let boundingBox: CGRect
+    /// 앞 낱말과 공백으로 떨어져 있었는지 (붙여 고를 때 공백을 되살린다)
+    let spaceBefore: Bool
 }
 
 /// Vision 프레임워크로 사진 속 텍스트를 줄 단위로 인식
@@ -84,9 +95,39 @@ enum TextRecognizer {
         return observations
             .sorted { $0.boundingBox.midY > $1.boundingBox.midY }
             .compactMap { observation in
-                guard let text = observation.topCandidates(1).first?.string else { return nil }
-                return RecognizedLine(text: text, boundingBox: observation.boundingBox)
+                guard let candidate = observation.topCandidates(1).first else { return nil }
+                return RecognizedLine(text: candidate.string,
+                                      boundingBox: observation.boundingBox,
+                                      words: words(in: candidate))
             }
+    }
+
+    /// 공백과 라벨 구분자(':' '=')에서 줄을 나눠 낱말마다 자리를 구한다
+    private static func words(in candidate: VNRecognizedText) -> [RecognizedWord] {
+        let text = candidate.string
+        let separators = CharacterSet.whitespaces.union(CharacterSet(charactersIn: ":：=＝"))
+        var result: [RecognizedWord] = []
+        var index = text.startIndex
+        var spaceBefore = false
+        while index < text.endIndex {
+            if text[index].unicodeScalars.allSatisfy({ separators.contains($0) }) {
+                // 공백이었을 때만 '띄어 썼다'로 본다 — 라벨 구분자는 값의 일부가 아니다
+                spaceBefore = text[index].isWhitespace || spaceBefore
+                index = text.index(after: index)
+                continue
+            }
+            var end = index
+            while end < text.endIndex, !text[end].unicodeScalars.allSatisfy({ separators.contains($0) }) {
+                end = text.index(after: end)
+            }
+            if let box = try? candidate.boundingBox(for: index..<end)?.boundingBox {
+                result.append(RecognizedWord(text: String(text[index..<end]), boundingBox: box,
+                                             spaceBefore: spaceBefore && !result.isEmpty))
+            }
+            spaceBefore = false
+            index = end
+        }
+        return result
     }
 
     /// 두 인식 결과를 같은 자리끼리 짝지어, 줄마다 더 멀쩡해 보이는 쪽을 남긴다.

@@ -23,6 +23,9 @@ struct CredentialPuzzleView: View {
     private enum Slot { case ssid, password }
 
     @State private var targeted: Slot?
+    /// 지금 직접 타이핑 중인 칸. 이 칸만 입력칸이 되고, 나머지는 글자로만 보인다.
+    @State private var editing: Slot?
+    @FocusState private var focused: Slot?
     private let puzzleTip = CredentialPuzzleTip()
 
     var body: some View {
@@ -35,6 +38,11 @@ struct CredentialPuzzleView: View {
             ForEach(groups) { group in
                 tokenGroup(group)
             }
+        }
+        // 키보드를 내리면 다시 글자로 돌아가 드롭을 받을 수 있게 한다
+        // (다른 칸을 탭해 옮겨 가는 중이면 그 칸은 그대로 둔다)
+        .onChange(of: focused) { old, now in
+            if now == nil, editing == old { editing = nil }
         }
     }
 
@@ -56,11 +64,28 @@ struct CredentialPuzzleView: View {
                 Text(slot == .ssid ? String(localized: "아이디") : String(localized: "비밀번호"))
                     .font(.caption2.weight(.semibold))
                     .foregroundStyle(.secondary)
-                // 끌어다 놓기와 별개로 직접 고칠 수도 있어야 한다
-                TextField("아래 조각을 탭하거나 직접 입력", text: value)
-                    .font(.body.weight(.medium))
-                    .textInputAutocapitalization(.never)
-                    .autocorrectionDisabled()
+                // 직접 고칠 수도 있어야 하지만, 입력칸은 끌어 온 글을 놓은 자리에 끼워 넣어
+                // 칸 전체를 바꾸는 드롭을 가로챈다. 그래서 탭해서 고칠 때만 입력칸으로 바꾼다.
+                if editing == slot {
+                    TextField("아래 조각을 탭하거나 직접 입력", text: value)
+                        .font(.body.weight(.medium))
+                        .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled()
+                        .focused($focused, equals: slot)
+                        .onAppear { focused = slot }
+                        .onSubmit { editing = nil }
+                } else {
+                    Text(value.wrappedValue.isEmpty
+                         ? String(localized: "아래 조각을 탭하거나 직접 입력")
+                         : value.wrappedValue)
+                        .font(.body.weight(.medium))
+                        .foregroundStyle(value.wrappedValue.isEmpty ? Color(.placeholderText) : .primary)
+                        .lineLimit(1)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .contentShape(Rectangle())
+                        .onTapGesture { editing = slot }
+                        .accessibilityAddTraits(.isButton)
+                }
             }
 
             if !value.wrappedValue.isEmpty {

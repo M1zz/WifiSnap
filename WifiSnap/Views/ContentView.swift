@@ -23,6 +23,10 @@ struct ContentView: View {
     @State private var ssidCandidates: [String] = []
     // 사진에서 읽은 값 조각들 — 아이디·비밀번호 칸으로 끌어다 놓는 퍼즐 조각
     @State private var scanTokens: [String] = []
+    // 연결에 실패한 뒤 다시 해 볼 것 — 이름의 대소문자, 비밀번호의 헷갈리는 글자 (0·O, 1·l …)
+    @State private var connectRetry = ConnectRetry()
+    // 방금 읽은 안내판 사진 — 그 위를 문질러 아이디·비밀번호를 다시 고를 수 있게 남겨 둔다
+    @State private var scanPhoto: UIImage?
     @State private var isRecognizing = false
     // 스캔을 시작하면 인식 실패해도 입력 카드를 열어둬 직접 입력할 수 있게 함
     @State private var showScanResult = false
@@ -66,6 +70,8 @@ struct ContentView: View {
 
     enum ActiveSheet: Identifiable {
         case picker(ImagePicker.Source)
+        case liveScan
+        case photoPick(UIImage)
         case detail(SavedNetwork)
         case poster(SavedNetwork)
         case share(SavedNetwork, UIImage)
@@ -76,6 +82,8 @@ struct ContentView: View {
         var id: String {
             switch self {
             case .picker(let source): return "picker-\(source.id)"
+            case .liveScan: return "liveScan"
+            case .photoPick: return "photoPick"
             case .detail(let network): return "detail-\(network.id)"
             case .poster(let network): return "poster-\(network.id)"
             case .share(let network, _): return "share-\(network.id)"
@@ -188,7 +196,11 @@ struct ContentView: View {
                 withAnimation(.snappy) { scanExpanded = true }
             }
         case .scanWifiPhoto:
-            activeSheet = .picker(UIImagePickerController.isSourceTypeAvailable(.camera) ? .camera : .library)
+            if ImagePicker.isCameraAvailable {
+                openCamera()
+            } else {
+                activeSheet = .picker(.library)
+            }
         }
     }
 
@@ -303,6 +315,17 @@ struct ContentView: View {
         case .picker(let source):
             ImagePicker(source: source) { image in runOCR(on: image) }
                 .ignoresSafeArea()
+        case .liveScan:
+            LiveScanView { result, photo in
+                beginScanResult()
+                scanPhoto = photo
+                switch result {
+                case .qr(let qr): applyWifiQR(qr)
+                case .lines(let lines): applyLines(lines)
+                }
+            }
+        case .photoPick(let image):
+            PhotoTextPickerView(image: image, ssid: $credentials.ssid, password: $credentials.password)
         case .detail(let network):
             NetworkDetailSheet(network: network,
                                posterStore: posterStore,
@@ -602,7 +625,7 @@ struct ContentView: View {
             if scanExpanded {
                 HStack(spacing: 10) {
                     Button {
-                        activeSheet = .picker(.camera)
+                        openCamera()
                     } label: {
                         Label("촬영", systemImage: "camera.fill")
                             .frame(maxWidth: .infinity, minHeight: 40)
@@ -627,6 +650,8 @@ struct ContentView: View {
                     credentials = WifiCredentials()
                     ssidCandidates = []    // 스캔 후보는 직접 입력 모드와 무관
                     scanTokens = []
+                    connectRetry = ConnectRetry()
+                    scanPhoto = nil
                     typingSSID = true
                     showScanResult = true
                     focusSSID = true
@@ -662,6 +687,23 @@ struct ContentView: View {
                                          password: $credentials.password)
                 }
 
+                // 읽은 값이 엉뚱하면 사진을 보고 사람이 직접 짚는 게 가장 빠르다
+                if let scanPhoto {
+                    Button {
+                        activeSheet = .photoPick(scanPhoto)
+                    } label: {
+                        Label("사진에서 문질러 고르기", systemImage: "hand.draw")
+                            .font(.subheadline.weight(.semibold))
+                            .frame(maxWidth: .infinity, minHeight: 36)
+                    }
+                    .buttonStyle(.bordered)
+                    .tint(.orange)
+                }
+
+                if !isConnecting {
+                    retrySection
+                }
+
                 // 핫스팟 이름이면 두 버튼의 무게를 뒤집는다 — 내 폰은 내 핫스팟에 붙을 수 없어서
                 // '이 폰 연결'은 반드시 실패하는 버튼이고, 정작 필요한 건 QR 쪽이다.
                 if inputLooksLikeHotspot {
@@ -686,6 +728,110 @@ struct ContentView: View {
                 .frame(width: 4)
                 .padding(.vertical, 10)
         }
+    }
+
+    /// 연결에 실패한 뒤 다시 해 볼 것들. iOS는 이름과 비밀번호 중 무엇이 틀렸는지 알려 주지 않아서 둘 다 낸다.
+    /// - 이름: 대소문자만 다른 후보(안내판의 GIGA가 실제로는 GiGA인 경우)와, 글자를 눌러 대소문자를 바꾸는 칸
+    /// - 비밀번호: 헷갈리는 글자(0·O, 1·l …)를 바꾼 후보
+    /// 후보를 누르면 그 값으로 바로 다시 연결한다. 바뀐 글자는 색으로 짚어 안내판과 눈으로 맞춰 보게 한다.
+    @ViewBuilder
+    private var retrySection: some View {
+        if let failedSSID = connectRetry.failedSSID {
+            let names = connectRetry.nameSuggestions(current: credentials.ssid)
+            let passwords = connectRetry.passwordSuggestions(current: credentials.password)
+            VStack(alignment: .leading, spacing: 12) {
+                if !names.isEmpty {
+                    retryChips(title: String(localized: "이름의 대소문자가 다를 수 있어요"), icon: "textformat",
+                               values: names, base: failedSSID,
+                               hint: Text("이 이름으로 다시 연결")) { credentials.ssid = $0 }
+                }
+                caseToggle(original: failedSSID)
+                if !passwords.isEmpty {
+                    retryChips(title: String(localized: "비밀번호 글자를 잘못 읽었을 수도 있어요"), icon: "character.magnify",
+                               values: passwords, base: credentials.password,
+                               hint: Text("이 비밀번호로 다시 연결")) { credentials.password = $0 }
+                }
+            }
+        }
+    }
+
+    private func retryChips(title: String, icon: String, values: [String], base: String,
+                            hint: Text, apply: @escaping (String) -> Void) -> some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Label(title, systemImage: icon)
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(.secondary)
+            FlowLayout(spacing: 6) {
+                ForEach(values, id: \.self) { value in
+                    Button {
+                        apply(value)
+                        connect()
+                    } label: {
+                        Text(highlightingChange(from: base, to: value))
+                            .font(.callout.monospaced())
+                            .padding(.horizontal, 10)
+                            .padding(.vertical, 6)
+                            .background(Color(.tertiarySystemFill), in: Capsule())
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel(Text(verbatim: value))
+                    .accessibilityHint(hint)
+                }
+            }
+        }
+    }
+
+    /// 이름을 한 글자씩 펼쳐 두고, 누른 글자의 대소문자를 바꾼다.
+    /// 후보에 없는 표기(GIGA → GiGA처럼 한 글자만 다른 것)도 키보드 없이 몇 번 눌러 맞출 수 있다.
+    private func caseToggle(original: String) -> some View {
+        let originalChars = Array(original)
+        return VStack(alignment: .leading, spacing: 6) {
+            Label("글자를 눌러 대소문자를 바꿀 수 있어요", systemImage: "hand.tap")
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(.secondary)
+            FlowLayout(spacing: 3) {
+                ForEach(Array(credentials.ssid.enumerated()), id: \.offset) { index, character in
+                    let changed = index < originalChars.count && originalChars[index] != character
+                    Button {
+                        flipCase(at: index)
+                    } label: {
+                        Text(String(character))
+                            .font(.body.monospaced().weight(.semibold))
+                            .foregroundStyle(changed ? Color.orange : character.isCased ? .primary : .secondary)
+                            .frame(minWidth: 24, minHeight: 34)
+                            .background(character.isCased ? Color(.tertiarySystemFill) : .clear,
+                                        in: RoundedRectangle(cornerRadius: 6))
+                    }
+                    .buttonStyle(.plain)
+                    .disabled(!character.isCased)
+                    .accessibilityLabel(Text(verbatim: String(character)))
+                }
+            }
+        }
+    }
+
+    private func flipCase(at index: Int) {
+        var characters = Array(credentials.ssid)
+        guard characters.indices.contains(index) else { return }
+        let character = characters[index]
+        let flipped = character.isUppercase ? character.lowercased() : character.uppercased()
+        // ß처럼 바꾸면 글자 수가 달라지는 글자는 건드리지 않는다
+        guard flipped.count == 1, let replacement = flipped.first else { return }
+        characters[index] = replacement
+        credentials.ssid = String(characters)
+    }
+
+    /// 두 값에서 달라진 글자만 굵은 주황색으로
+    private func highlightingChange(from old: String, to new: String) -> AttributedString {
+        var text = AttributedString(new)
+        let oldChars = Array(old)
+        for (offset, character) in new.enumerated() where offset >= oldChars.count || oldChars[offset] != character {
+            let start = text.index(text.startIndex, offsetByCharacters: offset)
+            let end = text.index(start, offsetByCharacters: 1)
+            text[start..<end].foregroundColor = .orange
+            text[start..<end].font = .callout.monospaced().bold()
+        }
+        return text
     }
 
     /// 지금 입력된 이름이 기기 핫스팟처럼 보이는지 — 버튼의 무게와 안내 문구를 여기에 맞춘다
@@ -1025,56 +1171,71 @@ struct ContentView: View {
 
     // MARK: - Actions
 
-    private func runOCR(on image: UIImage) {
-        isRecognizing = true
+    /// 카메라로 와이파이를 읽는다. 실시간 읽기가 되는 기기면 비추기만 하면 되고,
+    /// 안 되는 기기(오래된 폰·카메라 권한 거절)는 예전처럼 사진을 찍는다.
+    private func openCamera() {
+        activeSheet = LiveScanView.isAvailable ? .liveScan : .picker(.camera)
+    }
+
+    /// 스캔 결과를 받을 입력 카드를 연다 — 사진이든 실시간 읽기든 같다
+    private func beginScanResult() {
         manualEntry = false   // 스캔 경로 — 입력 카드 헤더를 '스캔' 문구로
         typingSSID = false    // 인식 결과는 후보 중에서 고르는 게 기본
+        connectRetry = ConnectRetry()
         // 인식 결과가 비어도 직접 입력할 수 있도록 입력 카드를 열어둔다
         showScanResult = true
+    }
+
+    private func runOCR(on image: UIImage) {
+        beginScanResult()
+        scanPhoto = image
+        isRecognizing = true
 
         // 안내판에 QR이 함께 인쇄돼 있으면 글자를 추측할 이유가 없다 —
         // 그 QR 안에 이름과 비밀번호가 오탈자 없이 그대로 들어 있다.
         TextRecognizer.decodeWifiQR(in: image) { qr in
             if let qr {
-                credentials = qr
-                ssidCandidates = [qr.ssid]
-                scanTokens = [qr.ssid, qr.password].filter { !$0.isEmpty }
-                isRecognizing = false
+                applyWifiQR(qr)
                 statusMessage = StatusMessage(text: String(localized: "사진 속 QR에서 읽었어요."), isError: false)
                 return
             }
-            recognizeText(on: image)
+            TextRecognizer.recognizeLines(in: image, completion: applyLines)
         }
     }
 
-    private func recognizeText(on image: UIImage) {
-        TextRecognizer.recognizeLines(in: image) { lines in
-            let scan = WifiCredentialParser.parse(lines: lines)
-            credentials = scan.credentials
-            // OCR 오탈자 교정: 아는 이름과 사실상 같으면 그 이름으로 바꾼다 (후보도 같이 교정해야
-            // 칩의 선택 표시가 어긋나지 않는다)
-            let known = knownSSIDs
-            var seen = Set<String>()
-            ssidCandidates = scan.ssidCandidates
-                .map { SSIDMatcher.bestMatch(for: $0, in: known) ?? $0 }
-                .filter { seen.insert($0).inserted }
-            // 퍼즐 조각은 사진에 나온 순서 그대로 (아는 이름으로의 교정만 적용)
-            var seenTokens = Set<String>()
-            scanTokens = scan.tokens
-                .map { SSIDMatcher.bestMatch(for: $0, in: known) ?? $0 }
-                .filter { seenTokens.insert($0).inserted }
-            if let corrected = SSIDMatcher.bestMatch(for: credentials.ssid, in: known) {
-                credentials.ssid = corrected
-            }
-            isRecognizing = false
-            // 인식 결과는 저장하지 않는다 — 잘못 읽은 이름이 목록에 쌓이는 걸 막기 위해
-            // 실제 연결에 성공한 뒤에만 저장한다(connect 참고).
-            if credentials.ssid.isEmpty && credentials.password.isEmpty {
-                statusMessage = StatusMessage(
-                    text: String(localized: "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요."),
-                    isError: true
-                )
-            }
+    private func applyWifiQR(_ qr: WifiCredentials) {
+        credentials = qr
+        ssidCandidates = [qr.ssid]
+        scanTokens = [qr.ssid, qr.password].filter { !$0.isEmpty }
+        isRecognizing = false
+    }
+
+    private func applyLines(_ lines: [String]) {
+        let scan = WifiCredentialParser.parse(lines: lines)
+        credentials = scan.credentials
+        // OCR 오탈자 교정: 아는 이름과 사실상 같으면 그 이름으로 바꾼다 (후보도 같이 교정해야
+        // 칩의 선택 표시가 어긋나지 않는다)
+        let known = knownSSIDs
+        var seen = Set<String>()
+        ssidCandidates = scan.ssidCandidates
+            .map { SSIDMatcher.bestMatch(for: $0, in: known) ?? $0 }
+            .filter { seen.insert($0).inserted }
+        // 퍼즐 조각은 사진에 나온 순서 그대로 (아는 이름으로의 교정만 적용)
+        var seenTokens = Set<String>()
+        scanTokens = scan.tokens
+            .map { SSIDMatcher.bestMatch(for: $0, in: known) ?? $0 }
+            .filter { seenTokens.insert($0).inserted }
+        if let corrected = SSIDMatcher.bestMatch(for: credentials.ssid, in: known) {
+            credentials.ssid = corrected
+        }
+        isRecognizing = false
+        // 인식 결과는 저장하지 않는다 — 잘못 읽은 이름이 목록에 쌓이는 걸 막기 위해
+        // 실제 연결에 성공한 뒤에만 저장한다(connect 참고).
+        if credentials.ssid.isEmpty && credentials.password.isEmpty {
+            statusMessage = StatusMessage(
+                text: String(localized: "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요."),
+                isError: true
+            )
         }
     }
 
@@ -1107,6 +1268,8 @@ struct ContentView: View {
 
         // 입력 카드는 닫고 필드를 비운다 (연결 성공 시와 동일한 정리)
         showScanResult = false
+        connectRetry = ConnectRetry()
+        scanPhoto = nil
         credentials = WifiCredentials()
         ssidCandidates = []
         scanTokens = []
@@ -1149,6 +1312,8 @@ struct ContentView: View {
                 )
                 // 연결됐으니 입력 카드는 닫고 필드를 비운다
                 showScanResult = false
+                connectRetry = ConnectRetry()
+                scanPhoto = nil
                 credentials = WifiCredentials()
                 ssidCandidates = []
                 scanTokens = []
@@ -1157,6 +1322,13 @@ struct ContentView: View {
                 // 연결에 성공한 순간 — 만족도 질문의 근거로 센다
                 LeeoEngagement.shared.registerSignificantEvent()
             case .failure(let error):
+                // 그 이름에 끝내 못 붙었다 = 이름의 대소문자나 비밀번호 글자를 잘못 읽었을 수 있다.
+                // 입력 카드에 다시 해 볼 후보를 띄운다.
+                if case WifiConnector.ConnectError.notFound(_, let names) = error {
+                    connectRetry.recordFailure(ssid: credentials.ssid,
+                                               password: credentials.password,
+                                               nameSuggestions: names)
+                }
                 statusMessage = StatusMessage(text: error.localizedDescription, isError: true)
             }
         }
