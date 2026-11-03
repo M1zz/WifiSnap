@@ -3,6 +3,200 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.3
+
+### 앱스토어 (한국어)
+
+안내판에 카메라를 대기만 하면 바로 읽어요.
+사진 위를 문질러 아이디와 비밀번호를 고를 수 있어요.
+연결이 안 되면 헷갈린 글자와 대소문자를 바로 고쳐요.
+QR을 보여 줄 때 화면이 자동으로 밝아져요.
+저장한 와이파이가 매일 자동으로 백업돼요.
+
+### 앱스토어 (영어)
+
+Just point the camera at a Wi-Fi sign.
+Rub a photo to pick a name or password.
+Easily fix misread letters and capitals.
+The screen brightens when showing a QR.
+Your saved Wi-Fi is backed up every day.
+
+### App Store (en-GB)
+
+Just point the camera at a Wi-Fi sign.
+Rub a photo to pick a name or password.
+Easily fix misread letters and capitals.
+The screen brightens when showing a QR.
+Your saved Wi-Fi is backed up every day.
+
+### 앱스토어 (일본어)
+
+案内板にカメラを向けるだけで読み取ります。
+写真をなぞって名前やパスワードを選べます。
+読み違えた文字や大文字小文字をすぐ直せます。
+QRを見せるときは画面が明るくなります。
+保存したWi-Fiが毎日自動でバックアップされます。
+
+### 앱스토어 (중국어(간체))
+
+只需把相机对准 Wi-Fi 告示牌即可读取。
+在照片上划一下即可选出名称或密码。
+连接失败时可快速修正认错的字母和大小写。
+出示二维码时屏幕会自动调亮。
+已保存的 Wi-Fi 每天自动备份。
+
+### 앱스토어 (중국어(번체))
+
+只要把相機對準 Wi-Fi 告示牌就能讀取。
+在照片上劃一下即可選出名稱或密碼。
+連線失敗時可快速修正認錯的字母與大小寫。
+出示 QR 碼時螢幕會自動調亮。
+已儲存的 Wi-Fi 每天自動備份。
+
+### 앱스토어 (러시아어)
+
+Наведите камеру на табличку с Wi-Fi.
+Выбирайте имя и пароль пальцем на фото.
+Быстро исправляйте ошибки в буквах.
+Экран ярче, когда вы показываете QR.
+Сохранённые сети копируются каждый день.
+
+### 앱스토어 (스페인어)
+
+Apunta la cámara al cartel del wifi.
+Elige nombre y contraseña con el dedo.
+Corrige al momento letras mal leídas.
+La pantalla se ilumina al mostrar el QR.
+Copia diaria automática de tus redes.
+
+### 앱스토어 (독일어)
+
+Kamera aufs WLAN-Schild halten, fertig.
+Namen und Passwort im Foto markieren.
+Falsch gelesene Zeichen schnell beheben.
+Hellerer Bildschirm beim Zeigen des QR.
+Gespeicherte WLANs täglich gesichert.
+
+### 앱스토어 (프랑스어)
+
+Visez l'affiche Wi-Fi, c'est tout.
+Sélectionnez nom et code sur la photo.
+Corrigez vite les lettres mal lues.
+Écran plus lumineux pour montrer le QR.
+Sauvegarde auto quotidienne des Wi-Fi.
+
+### 앱스토어 (이탈리아어)
+
+Inquadra il cartello Wi-Fi e basta.
+Scegli nome e password sulla foto.
+Correggi subito le lettere lette male.
+Schermo più chiaro quando mostri il QR.
+Backup automatico giornaliero dei Wi-Fi.
+
+### 앱스토어 (포르투갈어(브라질))
+
+Aponte a câmera para a placa do Wi-Fi.
+Escolha nome e senha deslizando na foto.
+Corrija rápido letras lidas errado.
+A tela clareia ao mostrar o QR.
+Backup automático diário das suas redes.
+
+### 앱스토어 (태국어)
+
+แค่หันกล้องไปที่ป้าย Wi-Fi ก็อ่านได้เลย
+ลากนิ้วบนรูปเพื่อเลือกชื่อและรหัสผ่าน
+แก้ตัวอักษรที่อ่านผิดได้ทันที
+หน้าจอสว่างขึ้นเมื่อแสดง QR
+Wi-Fi ที่บันทึกไว้จะสำรองอัตโนมัติทุกวัน
+
+### 앱스토어 (베트남어)
+
+Chỉ cần hướng camera vào bảng Wi-Fi.
+Vuốt trên ảnh để chọn tên và mật khẩu.
+Sửa nhanh chữ đọc sai và chữ hoa thường.
+Màn hình sáng hơn khi đưa mã QR.
+Tự động sao lưu Wi-Fi đã lưu mỗi ngày.
+
+### 앱스토어 (체코어)
+
+Stačí namířit kameru na ceduli s Wi-Fi.
+Název a heslo vyberete prstem na fotce.
+Rychle opravíte špatně přečtená písmena.
+Při ukázání QR se displej rozjasní.
+Uložené sítě se denně zálohují samy.
+
+### 앱스토어 (덴마크어)
+
+Peg bare kameraet mod Wi-Fi-skiltet.
+Vælg navn og kode med fingeren på foto.
+Ret hurtigt fejllæste bogstaver.
+Skærmen lyser op, når du viser QR.
+Gemte Wi-Fi sikkerhedskopieres hver dag.
+
+### 앱스토어 (그리스어)
+
+Στρέψτε την κάμερα στην πινακίδα Wi-Fi.
+Διαλέξτε όνομα και κωδικό στη φωτό.
+Διορθώστε γρήγορα λάθος γράμματα.
+Η οθόνη φωτίζει όταν δείχνετε το QR.
+Αυτόματο αντίγραφο ασφαλείας κάθε μέρα.
+
+### 앱스토어 (핀란드어)
+
+Osoita vain kameralla Wi-Fi-kylttiä.
+Valitse nimi ja salasana kuvasta.
+Korjaa väärin luetut kirjaimet heti.
+Näyttö kirkastuu QR-koodia näyttäessä.
+Verkot varmuuskopioidaan joka päivä.
+
+### 앱스토어 (인도네시아어)
+
+Cukup arahkan kamera ke papan Wi-Fi.
+Usap foto untuk memilih nama dan sandi.
+Perbaiki cepat huruf yang salah baca.
+Layar lebih terang saat menunjukkan QR.
+Wi-Fi tersimpan dicadangkan tiap hari.
+
+### 앱스토어 (노르웨이어(보크말))
+
+Bare pek kameraet mot Wi-Fi-skiltet.
+Velg navn og passord med fingeren.
+Rett raskt feilleste bokstaver.
+Skjermen lyser opp når du viser QR.
+Daglig automatisk sikkerhetskopi.
+
+### 앱스토어 (네덜란드어)
+
+Richt de camera op het wifi-bordje.
+Kies naam en wachtwoord op de foto.
+Verbeter snel verkeerd gelezen tekens.
+Feller scherm als je de QR laat zien.
+Dagelijkse automatische back-up.
+
+### 앱스토어 (폴란드어)
+
+Wystarczy skierować aparat na tabliczkę.
+Wybierz nazwę i hasło palcem na zdjęciu.
+Szybko popraw źle odczytane litery.
+Ekran rozjaśnia się przy pokazywaniu QR.
+Codzienna automatyczna kopia sieci.
+
+### 앱스토어 (스웨덴어)
+
+Rikta bara kameran mot wifi-skylten.
+Välj namn och lösenord med fingret.
+Rätta snabbt felläsa bokstäver.
+Skärmen blir ljusare när du visar QR.
+Daglig automatisk säkerhetskopia.
+
+### 앱스토어 (튀르키예어)
+
+Kamerayı Wi-Fi tabelasına tutun, yeter.
+Fotoğrafta ad ve şifreyi parmakla seçin.
+Yanlış okunan harfleri hemen düzeltin.
+QR gösterirken ekran parlaklaşır.
+Kayıtlı ağlar her gün yedeklenir.
+
 ## 1.0.2
 
 ### 앱스토어 (한국어)

@@ -48,7 +48,7 @@ extension WifiSnapSpec {
         .init(id: "sync.icloud", status: .planned,
               title: NSLocalizedString("기기 간 동기화", comment: "Roadmap item: sync.icloud"),
               detail: NSLocalizedString("기기를 바꿔도 저장한 와이파이와 안내판이 그대로 이어져요.", comment: "Roadmap item detail: sync.icloud")),
-        .init(id: "backup", status: .planned,
+        .init(id: "backup", status: .shipped("1.0.3"),
               title: NSLocalizedString("백업과 내보내기", comment: "Roadmap item: backup"),
               detail: NSLocalizedString("저장한 와이파이와 안내판을 파일로 저장하고 다시 불러올 수 있어요.", comment: "Roadmap item detail: backup")),
         .init(id: "lock.faceid", status: .planned,
