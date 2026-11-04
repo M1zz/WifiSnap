@@ -13,6 +13,8 @@ final class AppRouter: ObservableObject {
         case showWifiQR
         /// 와이파이 안내문 촬영을 바로 시작한다
         case scanWifiPhoto
+        /// 저장한 와이파이 하나의 QR 상세를 연다 (Spotlight · Siri 에서 고른 것, SavedNetwork.id 문자열)
+        case showNetwork(String)
     }
 
     @Published var pending: Route?

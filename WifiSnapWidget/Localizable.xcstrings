@@ -1480,6 +1480,154 @@
           }
         }
       }
+    },
+    "위젯에 보여 줄 저장한 와이파이" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "위젯에 보여 줄 저장한 와이파이"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved Wi-Fi network to show in the widget"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved Wi-Fi network to show in the widget"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要在小组件中显示的已保存 Wi-Fi"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要在小工具中顯示的已儲存 Wi-Fi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ウィジェットに表示する保存済みのWi-Fi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённая сеть Wi-Fi для показа в виджете"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La red Wi-Fi guardada que se mostrará en el widget"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das gespeicherte WLAN, das im Widget angezeigt wird"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le réseau Wi-Fi enregistré à afficher dans le widget"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La rete Wi-Fi salvata da mostrare nel widget"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A rede Wi-Fi salva que aparece no widget"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi ที่บันทึกไว้ซึ่งจะแสดงในวิดเจ็ต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mạng Wi-Fi đã lưu sẽ hiện trên tiện ích"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložená síť Wi-Fi, která se zobrazí ve widgetu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gemte Wi-Fi-netværk, der vises i widgetten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το αποθηκευμένο Wi-Fi που θα εμφανίζεται στο widget"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgetissä näytettävä tallennettu Wi-Fi-verkko"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi tersimpan yang ditampilkan di widget"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det lagrede Wi-Fi-nettverket som vises i widgeten"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het opgeslagen wifinetwerk dat in de widget verschijnt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisana sieć Wi-Fi wyświetlana w widżecie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det sparade Wi-Fi-nätverket som visas i widgeten"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget’ta gösterilecek kayıtlı Wi-Fi ağı"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

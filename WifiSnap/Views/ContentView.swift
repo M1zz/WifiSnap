@@ -1,4 +1,5 @@
 import SwiftUI
+import AppIntents
 import CoreLocation
 import TipKit
 import LeeoKit
@@ -142,6 +143,8 @@ struct ContentView: View {
         .onChange(of: scenePhase) { _, phase in
             // 설정에서 와이파이를 바꾸고 돌아온 경우를 잡는다
             if phase == .active { currentNetwork.refresh() }
+            // Spotlight · Siri 가 찾는 저장한 와이파이를 지금 목록에 맞춘다
+            if phase != .inactive { Task { await SavedWifiEntity.reindex() } }
         }
         .sheet(item: $activeSheet, content: sheetContent)
         .alert(item: $statusMessage, content: alertContent)
@@ -195,6 +198,12 @@ struct ContentView: View {
                 // 보여 줄 QR이 아직 없다 — 와이파이를 추가하는 곳을 펼쳐 둔다
                 withAnimation(.snappy) { scanExpanded = true }
             }
+        case .showNetwork(let id):
+            if let network = store.networks.first(where: { $0.id.uuidString == id }) {
+                showDetail(network)
+            } else {
+                handleRoute(.showWifiQR)   // 그새 지워졌다 — 지금 것(없으면 최근 것)으로
+            }
         case .scanWifiPhoto:
             if ImagePicker.isCameraAvailable {
                 openCamera()
@@ -223,6 +232,8 @@ struct ContentView: View {
 
     /// 와이파이 상세를 연다. 펼친 화면이면 시트 대신 결과 쪽 판이 그 와이파이로 바뀐다.
     private func showDetail(_ network: SavedNetwork) {
+        // Siri 가 '이 와이파이 QR 열기'를 배우게 한다
+        IntentDonationManager.shared.donate(intent: OpenSavedWifiIntent(target: SavedWifiEntity(network)))
         if fold.isUnfolded {
             foldSelectedID = network.id
         } else {

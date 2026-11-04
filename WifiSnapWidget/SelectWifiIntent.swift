@@ -90,7 +90,7 @@ struct SelectWifiIntent: WidgetConfigurationIntent {
     static var title: LocalizedStringResource = "와이파이 선택"
     static var description = IntentDescription("위젯에 고정할 와이파이를 고릅니다. 고르지 않으면 가장 최근에 연결한 와이파이를 보여줍니다.")
 
-    @Parameter(title: "와이파이")
+    @Parameter(title: "와이파이", description: "위젯에 보여 줄 저장한 와이파이")
     var network: WifiNetworkEntity?
 
     init() {}
