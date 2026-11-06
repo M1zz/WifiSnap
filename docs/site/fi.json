@@ -1,11 +1,11 @@
 {
   "title": "MyFi: kuvaa kyltti ja yhdistä, jaa Wi-Fi QR-koodilla",
-  "description": "Kuvaa Wi-Fi-kyltti, niin iPhone yhdistää. Jaa oma verkkosi yhdellä QR-koodilla ja tulosta vieraskyltti. Kaikki on ilmaista.",
+  "description": "Kuvaa Wi-Fi-kyltti, niin iPhone yhdistää. Jaa oma verkkosi yhdellä QR-koodilla ja tulosta vieraskyltti. Yhdistäminen ja jakaminen ovat ilmaisia.",
   "hero": {
     "headline": "Lopeta salasanan sanelu.\nNäytä QR-koodi.",
     "lead": "Ystävät osoittavat vain kameralla, ja yhteys on päällä. Kahvilan seinän kyltti? Yksi kuva, ja tämä iPhone yhdistää. Ei enää näppäilyvirheitä kopioidessa.",
     "cta": "Lataa ilmaiseksi App Storesta",
-    "note": "Kaikki ominaisuudet ovat ilmaisia. iPhone, jossa iOS 17 tai uudempi."
+    "note": "Yhdistäminen ja jakaminen ovat ilmaisia. iPhone, jossa iOS 17 tai uudempi."
   },
   "demo": {
     "title": "Tee Wi-Fi-verkollesi QR-koodi",
@@ -112,27 +112,26 @@
     "note": "QR-koodin voi avata suoraan myös Sirillä tai Pikakomennot-apilla."
   },
   "pricing": {
-    "title": "Kaikki ominaisuudet ovat ilmaisia",
+    "title": "Aloita ilmaiseksi, valitse Plus tai Pro tarvittaessa",
     "free": {
       "name": "Ilmainen",
       "items": [
-        "Wi-Fi-yhteys kuvasta",
-        "QR-koodien teko ja jako kuvana",
-        "Vieraskyltit 7 teemalla, korttina tai A4-julisteena, tulostus AirPrintillä",
-        "Widgetit Koti-valikkoon ja lukitulle näytölle",
-        "Kartta tallennetuista Wi-Fi-verkoista",
+        "Yhdistä Wi-Fiin kuvasta",
+        "Tee QR-koodeja ja jaa ne kuvina, myös hotspotille",
+        "Tallenna enintään 20 Wi-Fi-verkkoa",
+        "Yksi vieraskyltti (kortti, 2 teemaa) ja tulostus AirPrintillä",
         "Ei mainoksia, ei rekisteröitymistä"
       ]
     },
     "pro": {
-      "name": "Tippi (vapaaehtoinen)",
+      "name": "Plus ja Pro",
       "items": [
-        "Jos pidät apista, voit tukea kehitystä tipillä",
-        "Tippi ei avaa mitään. Ilman sitäkin saat kaikki ominaisuudet"
+        "Plus: rajattomasti verkkoja ja kylttejä, kaikki 7 teemaa, paikan nimi, omat rivit ja nimikkeet, A4-juliste",
+        "Pro: kaikki Plusin ominaisuudet sekä QR-widgetit koti- ja lukitusnäytölle, kartta yhdistämispaikoista, Pikakomennot ja Siri sekä tuonti kuvakaappauksesta"
       ],
-      "note": "Tippi on pieni kertamaksu."
+      "note": "Valitse viikko-, kuukausi- tai vuositilaus tai kertamaksu pysyvästi."
     },
-    "note": "Ei tilauksia eikä maksullisia ominaisuuksia."
+    "note": "Tippi on pelkkä kiitos eikä avaa mitään. Jos käytit MyFitä ennen maksullisia ominaisuuksia, Pro säilyy sinulla."
   },
   "faq": {
     "title": "Usein kysyttyä",

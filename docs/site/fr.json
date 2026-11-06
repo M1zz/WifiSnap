@@ -1,11 +1,11 @@
 {
   "title": "MyFi : photographiez l’affichette pour vous connecter, partagez le Wi-Fi par QR code",
-  "description": "Photographiez l’affichette Wi-Fi et l’iPhone se connecte. Partagez votre réseau avec un QR code et imprimez une affichette invités. Tout est gratuit.",
+  "description": "Photographiez l’affichette Wi-Fi et l’iPhone se connecte. Partagez votre réseau avec un QR code et imprimez une affichette invités. Se connecter et partager sont gratuits.",
   "hero": {
     "headline": "Ne dictez plus le mot de passe.\nMontrez un QR code.",
     "lead": "Vos amis visent le code avec l’appareil photo et ils sont connectés. L’affichette au mur du café ? Une photo, et cet iPhone se connecte. Fini les fautes de frappe en recopiant.",
     "cta": "Télécharger gratuitement sur l’App Store",
-    "note": "Toutes les fonctions sont gratuites. iPhone sous iOS 17 ou ultérieur."
+    "note": "Se connecter et partager sont gratuits. iPhone sous iOS 17 ou ultérieur."
   },
   "demo": {
     "title": "Créez le QR code de votre Wi-Fi",
@@ -112,27 +112,26 @@
     "note": "Vous pouvez aussi ouvrir le QR code directement avec Siri ou l’app Raccourcis."
   },
   "pricing": {
-    "title": "Toutes les fonctions sont gratuites",
+    "title": "Commencez gratuitement, passez à Plus ou Pro au besoin",
     "free": {
       "name": "Gratuit",
       "items": [
-        "Connexion au Wi-Fi à partir d’une photo",
-        "Création de QR codes et partage en image",
-        "Affichettes invités en 7 thèmes, carte ou affiche A4, impression AirPrint",
-        "Widgets pour l’écran d’accueil et l’écran verrouillé",
-        "Plan de vos Wi-Fi enregistrés",
-        "Sans publicité, sans inscription"
+        "Connexion au Wi-Fi en une photo",
+        "Créer des QR codes et les partager en image, y compris pour votre partage de connexion",
+        "Jusqu’à 20 réseaux Wi-Fi enregistrés",
+        "Une affichette invités (carte, 2 thèmes), impression via AirPrint",
+        "Sans pub, sans inscription"
       ]
     },
     "pro": {
-      "name": "Pourboire (facultatif)",
+      "name": "Plus et Pro",
       "items": [
-        "Si l’app vous plaît, vous pouvez soutenir son développement avec un pourboire",
-        "Le pourboire ne débloque rien. Sans lui, vous avez toutes les fonctions"
+        "Plus : réseaux et affichettes illimités, les 7 thèmes, nom de l’établissement, lignes et libellés personnalisés, affiche A4",
+        "Pro : tout Plus, avec les widgets QR pour l’écran d’accueil et l’écran verrouillé, la carte des lieux de connexion, Raccourcis et Siri, et l’import depuis une capture"
       ],
-      "note": "Un pourboire est un petit paiement unique."
+      "note": "Abonnement à la semaine, au mois ou à l’année, ou paiement unique à vie."
     },
-    "note": "Pas d’abonnement, aucune fonction payante."
+    "note": "Les pourboires sont un simple merci et ne débloquent rien. Si vous utilisiez MyFi avant l’arrivée des fonctions payantes, vous gardez Pro."
   },
   "faq": {
     "title": "Questions fréquentes",

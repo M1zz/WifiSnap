@@ -1,11 +1,11 @@
 {
   "title": "MyFi: Aushang fotografieren und verbinden, WLAN per QR-Code teilen",
-  "description": "Fotografier den WLAN-Aushang und dein iPhone ist verbunden. Teil dein WLAN mit einem QR-Code und druck einen Gäste-Aushang. Alles kostenlos.",
+  "description": "Fotografier den WLAN-Aushang und dein iPhone ist verbunden. Teil dein WLAN mit einem QR-Code und druck einen Gäste-Aushang. Verbinden und Teilen sind kostenlos.",
   "hero": {
     "headline": "Kein Passwort mehr diktieren.\nEin QR-Code reicht.",
     "lead": "Freunde halten nur die Kamera drauf und sind drin. Den Aushang an der Café-Wand fotografierst du einmal, und dein iPhone verbindet sich. Keine Tippfehler mehr beim Abschreiben.",
     "cta": "Kostenlos im App Store laden",
-    "note": "Alle Funktionen sind kostenlos. iPhone ab iOS 17."
+    "note": "Verbinden und Teilen sind kostenlos. iPhone ab iOS 17."
   },
   "demo": {
     "title": "Mach deinen WLAN-QR-Code",
@@ -112,27 +112,26 @@
     "note": "Den QR-Code kannst du auch direkt mit Siri oder der Kurzbefehle-App öffnen."
   },
   "pricing": {
-    "title": "Alle Funktionen sind kostenlos",
+    "title": "Kostenlos starten, Plus oder Pro bei Bedarf",
     "free": {
       "name": "Kostenlos",
       "items": [
         "Mit einem Foto ins WLAN",
-        "QR-Codes erstellen und als Bild teilen",
-        "Gäste-Aushänge in 7 Designs, als Karte oder A4-Poster, Druck per AirPrint",
-        "Widgets für Home- und Sperrbildschirm",
-        "Karte deiner gespeicherten WLANs",
+        "QR-Codes erstellen und als Bild teilen, auch für deinen Hotspot",
+        "Bis zu 20 WLANs speichern",
+        "Ein Gäste-Aushang (Karte, 2 Designs), Druck per AirPrint",
         "Keine Werbung, keine Anmeldung"
       ]
     },
     "pro": {
-      "name": "Trinkgeld (freiwillig)",
+      "name": "Plus und Pro",
       "items": [
-        "Wenn dir die App gefällt, kannst du die Entwicklung mit einem Trinkgeld unterstützen",
-        "Trinkgeld schaltet nichts frei. Auch ohne hast du jede Funktion"
+        "Plus: unbegrenzt WLANs und Aushänge, alle 7 Designs, Name des Lokals, eigene Zeilen und Bezeichnungen, A4-Poster",
+        "Pro: alles aus Plus, dazu QR-Widgets für Home- und Sperrbildschirm, Karte deiner Verbindungsorte, Kurzbefehle und Siri sowie Import aus einem Bildschirmfoto"
       ],
-      "note": "Ein Trinkgeld ist eine kleine einmalige Zahlung."
+      "note": "Wähle ein Abo pro Woche, Monat oder Jahr oder zahle einmal für immer."
     },
-    "note": "Kein Abo und keine kostenpflichtigen Funktionen."
+    "note": "Trinkgeld ist ein Dankeschön und schaltet nichts frei. Wer MyFi schon vor den kostenpflichtigen Funktionen genutzt hat, behält Pro."
   },
   "faq": {
     "title": "Häufige Fragen",

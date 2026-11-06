@@ -1,11 +1,11 @@
 {
   "title": "MyFi: fotografe a placa e conecte, compartilhe o Wi-Fi com um QR",
-  "description": "Fotografe a placa do Wi-Fi e o iPhone conecta. Compartilhe sua rede com um código QR e imprima uma placa para visitantes. Tudo grátis.",
+  "description": "Fotografe a placa do Wi-Fi e o iPhone conecta. Compartilhe sua rede com um código QR e imprima uma placa para visitantes. Conectar e compartilhar é grátis.",
   "hero": {
     "headline": "Chega de ditar a senha.\nMostre um código QR.",
     "lead": "Os amigos apontam a câmera e já estão conectados. A placa na parede do café? Uma foto e este iPhone conecta. Acabaram os erros de digitação ao copiar.",
     "cta": "Baixe grátis na App Store",
-    "note": "Todos os recursos são grátis. iPhone com iOS 17 ou posterior."
+    "note": "Conectar e compartilhar é grátis. iPhone com iOS 17 ou posterior."
   },
   "demo": {
     "title": "Crie o código QR do seu Wi-Fi",
@@ -112,27 +112,26 @@
     "note": "Você também pode abrir o código QR direto com a Siri ou com o app Atalhos."
   },
   "pricing": {
-    "title": "Todos os recursos são grátis",
+    "title": "Comece grátis e escolha Plus ou Pro quando precisar",
     "free": {
       "name": "Grátis",
       "items": [
-        "Conectar ao Wi-Fi com uma foto",
-        "Criar códigos QR e compartilhar como imagem",
-        "Placas para visitantes em 7 temas, cartão ou pôster A4, impressão com AirPrint",
-        "Widgets para a Tela de Início e a Tela Bloqueada",
-        "Mapa dos Wi-Fi salvos",
-        "Sem anúncios e sem cadastro"
+        "Conecte ao Wi-Fi com uma foto",
+        "Crie códigos QR e compartilhe como imagem, inclusive do seu ponto de acesso",
+        "Salve até 20 redes Wi-Fi",
+        "Uma placa para visitantes (cartão, 2 temas) e impressão com AirPrint",
+        "Sem anúncios, sem cadastro"
       ]
     },
     "pro": {
-      "name": "Gorjeta (opcional)",
+      "name": "Plus e Pro",
       "items": [
-        "Se gostar, você pode apoiar o desenvolvimento com uma gorjeta",
-        "A gorjeta não desbloqueia nada. Sem ela, você tem todos os recursos"
+        "Plus: redes e placas ilimitadas, os 7 temas, nome do estabelecimento, linhas extras e rótulos, pôster A4",
+        "Pro: tudo do Plus, mais widgets de QR na Tela de Início e na Tela Bloqueada, mapa dos lugares onde você se conectou, Atalhos e Siri, e importação de uma captura de tela"
       ],
-      "note": "A gorjeta é um pequeno pagamento único."
+      "note": "Escolha assinatura semanal, mensal ou anual, ou pague uma vez pelo vitalício."
     },
-    "note": "Sem assinaturas e sem recursos pagos."
+    "note": "As gorjetas são só um agradecimento e não liberam nada. Quem já usava o MyFi antes dos recursos pagos continua com o Pro."
   },
   "faq": {
     "title": "Perguntas frequentes",

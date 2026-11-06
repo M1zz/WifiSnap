@@ -11,6 +11,14 @@ struct PosterListSheet: View {
 
     @Environment(\.dismiss) private var dismiss
     @State private var editing: PosterDesign?
+    @ObservedObject private var purchases = PurchaseManager.shared
+    /// 두 번째 안내판부터는 Plus — 만들거나 복제하려 하면 페이월을 낸다.
+    @State private var paywall: ProFeature?
+
+    /// 안내판을 한 장 더 둘 수 있는가. 이미 만든 안내판은 몇 장이든 열고 고치고 지울 수 있다.
+    private var canAddSign: Bool {
+        purchases.allows(.unlimitedSigns) || store.designs.count < FreeLimit.signs
+    }
 
     var body: some View {
         NavigationStack {
@@ -26,7 +34,7 @@ struct PosterListSheet: View {
                                     Label("삭제", systemImage: "trash")
                                 }
                                 Button {
-                                    editing = store.duplicate(design)
+                                    if canAddSign { editing = store.duplicate(design) } else { paywall = .unlimitedSigns }
                                 } label: {
                                     Label("복제", systemImage: "doc.on.doc")
                                 }
@@ -45,7 +53,7 @@ struct PosterListSheet: View {
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
-                        editing = store.addNew()
+                        if canAddSign { editing = store.addNew() } else { paywall = .unlimitedSigns }
                     } label: {
                         Label("새 안내판", systemImage: "plus")
                     }
@@ -62,6 +70,7 @@ struct PosterListSheet: View {
             .sheet(item: $editing) { design in
                 WifiPosterSheet(ssid: ssid, password: password, store: store, design: design)
             }
+            .sheet(item: $paywall) { PaywallView(highlight: $0) }
         }
     }
 

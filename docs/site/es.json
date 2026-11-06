@@ -1,11 +1,11 @@
 {
   "title": "MyFi: fotografía el cartel y conéctate, comparte tu Wi-Fi con un QR",
-  "description": "Fotografía el cartel del Wi-Fi y el iPhone se conecta. Comparte tu red con un código QR e imprime un cartel para invitados. Todo es gratis.",
+  "description": "Fotografía el cartel del Wi-Fi y el iPhone se conecta. Comparte tu red con un código QR e imprime un cartel para invitados. Conectarte y compartir es gratis.",
   "hero": {
     "headline": "No dictes más la contraseña.\nEnseña un código QR.",
     "lead": "Tus amigos apuntan con la cámara y ya están dentro. ¿El cartel en la pared de la cafetería? Una foto y este iPhone se conecta. Se acabaron las erratas al copiarla.",
     "cta": "Descárgala gratis en el App Store",
-    "note": "Todas las funciones son gratis. iPhone con iOS 17 o posterior."
+    "note": "Conectarte y compartir es gratis. iPhone con iOS 17 o posterior."
   },
   "demo": {
     "title": "Crea el código QR de tu Wi-Fi",
@@ -112,27 +112,26 @@
     "note": "También puedes abrir el código QR directamente con Siri o con la app Atajos."
   },
   "pricing": {
-    "title": "Todas las funciones son gratis",
+    "title": "Empieza gratis y añade Plus o Pro cuando lo necesites",
     "free": {
       "name": "Gratis",
       "items": [
-        "Conectarte al Wi-Fi con una foto",
-        "Crear códigos QR y compartirlos como imagen",
-        "Carteles para invitados en 7 temas, tarjeta o póster A4, impresión con AirPrint",
-        "Widgets para la pantalla de inicio y la bloqueada",
-        "Mapa de tus redes guardadas",
-        "Sin anuncios y sin registro"
+        "Conéctate al Wi-Fi con una foto",
+        "Crea códigos QR y compártelos como imagen, también de tu punto de acceso",
+        "Guarda hasta 20 redes Wi-Fi",
+        "Un cartel para invitados (tarjeta, 2 temas) e impresión con AirPrint",
+        "Sin anuncios ni registro"
       ]
     },
     "pro": {
-      "name": "Propina (opcional)",
+      "name": "Plus y Pro",
       "items": [
-        "Si te gusta, puedes apoyar el desarrollo con una propina",
-        "La propina no desbloquea nada. Sin ella tienes todas las funciones"
+        "Plus: redes y carteles ilimitados, los 7 temas, nombre del local, líneas extra y etiquetas, póster A4",
+        "Pro: todo lo de Plus, además de widgets con QR en la pantalla de inicio y la bloqueada, mapa de dónde te conectaste, Atajos y Siri, e importación desde una captura"
       ],
-      "note": "La propina es un pequeño pago único."
+      "note": "Elige suscripción semanal, mensual o anual, o un pago único de por vida."
     },
-    "note": "Sin suscripciones y sin funciones de pago."
+    "note": "Las propinas son solo un agradecimiento y no desbloquean nada. Si ya usabas MyFi antes de las funciones de pago, conservas Pro."
   },
   "faq": {
     "title": "Preguntas frecuentes",

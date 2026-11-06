@@ -1,11 +1,11 @@
 {
   "title": "MyFi: tag et billede af opslaget og kom på, del dit Wi-Fi med en QR-kode",
-  "description": "Tag et billede af Wi-Fi-opslaget, så går din iPhone på. Del dit eget netværk med én QR-kode, og udskriv et gæsteopslag. Alt er gratis.",
+  "description": "Tag et billede af Wi-Fi-opslaget, så går din iPhone på. Del dit eget netværk med én QR-kode, og udskriv et gæsteopslag. Det er gratis at oprette forbindelse og dele.",
   "hero": {
     "headline": "Slut med at læse koden op.\nVis en QR-kode.",
     "lead": "Venner peger bare kameraet på den, så er de på. Opslaget på caféens væg? Ét billede, og din iPhone går på. Ingen tastefejl fra afskrivning.",
     "cta": "Hent gratis i App Store",
-    "note": "Alle funktioner er gratis. iPhone med iOS 17 eller nyere."
+    "note": "Det er gratis at oprette forbindelse og dele. iPhone med iOS 17 eller nyere."
   },
   "demo": {
     "title": "Lav en QR-kode til dit Wi-Fi",
@@ -112,27 +112,26 @@
     "note": "Du kan også åbne QR-koden direkte med Siri eller appen Genveje."
   },
   "pricing": {
-    "title": "Alle funktioner er gratis",
+    "title": "Start gratis, og vælg Plus eller Pro, når du får brug for det",
     "free": {
       "name": "Gratis",
       "items": [
-        "Gå på Wi-Fi fra et billede",
-        "Lav QR-koder og del dem som billede",
-        "Gæsteopslag i 7 temaer, som kort eller A4-plakat, udskrevet med AirPrint",
-        "Widgets til hjemmeskærm og låseskærm",
-        "Kort over dine gemte Wi-Fi",
-        "Ingen reklamer, ingen konto"
+        "Gå på Wi-Fi med et billede",
+        "Lav QR-koder og del dem som billeder, også til dit hotspot",
+        "Gem op til 20 Wi-Fi-netværk",
+        "Ét gæsteopslag (kort, 2 temaer) og udskrivning med AirPrint",
+        "Ingen reklamer, ingen tilmelding"
       ]
     },
     "pro": {
-      "name": "Drikkepenge (frivilligt)",
+      "name": "Plus og Pro",
       "items": [
-        "Kan du lide appen, kan du støtte udviklingen med drikkepenge",
-        "Drikkepenge låser ikke noget op. Uden dem har du stadig alle funktioner"
+        "Plus: ubegrænset Wi-Fi og opslag, alle 7 temaer, stedets navn, egne linjer og etiketter, A4-plakat",
+        "Pro: alt i Plus samt QR-widgets til hjemmeskærm og låseskærm, kort over steder, du har forbundet, Genveje og Siri og import fra skærmbillede"
       ],
-      "note": "Drikkepenge er en lille engangsbetaling."
+      "note": "Vælg ugentligt, månedligt eller årligt abonnement, eller betal én gang for livstid."
     },
-    "note": "Intet abonnement og ingen betalte funktioner."
+    "note": "Drikkepenge er bare et tak og låser ikke noget op. Brugte du MyFi, før der kom betalingsfunktioner, beholder du Pro."
   },
   "faq": {
     "title": "Ofte stillede spørgsmål",

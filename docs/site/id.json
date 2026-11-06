@@ -1,11 +1,11 @@
 {
   "title": "MyFi: foto papan Wi-Fi lalu tersambung, bagikan Wi-Fi lewat kode QR",
-  "description": "Foto papan Wi-Fi dan iPhone langsung tersambung. Bagikan Wi-Fi Anda dengan satu kode QR dan cetak papan untuk tamu. Semuanya gratis.",
+  "description": "Foto papan Wi-Fi dan iPhone langsung tersambung. Bagikan Wi-Fi Anda dengan satu kode QR dan cetak papan untuk tamu. Menyambung dan berbagi QR gratis.",
   "hero": {
     "headline": "Tak perlu lagi mendikte kata sandi.\nTunjukkan kode QR.",
     "lead": "Teman cukup mengarahkan kamera, langsung tersambung. Papan di dinding kafe? Satu foto, iPhone ini tersambung. Tak ada lagi salah ketik saat menyalin.",
     "cta": "Unduh gratis di App Store",
-    "note": "Semua fitur gratis. iPhone dengan iOS 17 atau lebih baru."
+    "note": "Menyambung dan berbagi QR gratis. iPhone dengan iOS 17 atau lebih baru."
   },
   "demo": {
     "title": "Buat kode QR Wi-Fi Anda",
@@ -112,27 +112,26 @@
     "note": "Kode QR juga bisa langsung dibuka lewat Siri atau app Pintasan."
   },
   "pricing": {
-    "title": "Semua fitur gratis",
+    "title": "Mulai gratis, pilih Plus atau Pro saat perlu",
     "free": {
       "name": "Gratis",
       "items": [
-        "Tersambung ke Wi-Fi dari foto",
-        "Membuat kode QR dan membagikannya sebagai gambar",
-        "Papan tamu dengan 7 tema, kartu atau poster A4, cetak lewat AirPrint",
-        "Widget Layar Utama dan Layar Terkunci",
-        "Peta Wi-Fi tersimpan",
-        "Tanpa iklan, tanpa daftar akun"
+        "Sambung ke Wi-Fi dari foto",
+        "Buat kode QR dan bagikan sebagai gambar, termasuk hotspot",
+        "Simpan hingga 20 Wi-Fi",
+        "Satu papan untuk tamu (kartu, 2 tema) dan cetak dengan AirPrint",
+        "Tanpa iklan, tanpa daftar"
       ]
     },
     "pro": {
-      "name": "Tip (opsional)",
+      "name": "Plus dan Pro",
       "items": [
-        "Kalau suka, Anda bisa mendukung pengembangan dengan memberi tip",
-        "Tip tidak membuka apa pun. Tanpa tip pun semua fitur tetap bisa dipakai"
+        "Plus: Wi-Fi dan papan tanpa batas, ke-7 tema, nama tempat, baris tambahan dan label, poster A4",
+        "Pro: semua isi Plus, ditambah widget QR di Layar Utama dan Layar Terkunci, peta tempat Anda tersambung, Pintasan dan Siri, serta impor dari tangkapan layar"
       ],
-      "note": "Tip adalah pembayaran kecil sekali bayar."
+      "note": "Pilih langganan mingguan, bulanan, atau tahunan, atau bayar sekali seumur hidup."
     },
-    "note": "Tanpa langganan dan tanpa fitur berbayar."
+    "note": "Tip hanyalah ucapan terima kasih dan tidak membuka fitur apa pun. Jika Anda memakai MyFi sebelum ada fitur berbayar, Anda tetap mendapat Pro."
   },
   "faq": {
     "title": "Pertanyaan umum",

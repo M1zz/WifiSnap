@@ -1,11 +1,11 @@
 {
   "title": "MyFi: tabelayı çek ve bağlan, Wi-Fi’ını QR koduyla paylaş",
-  "description": "Wi-Fi tabelasının fotoğrafını çek, iPhone hemen bağlansın. Kendi ağını tek bir QR koduyla paylaş, misafir tabelası bastır. Hepsi ücretsiz.",
+  "description": "Wi-Fi tabelasının fotoğrafını çek, iPhone hemen bağlansın. Kendi ağını tek bir QR koduyla paylaş, misafir tabelası bastır. Bağlanmak ve paylaşmak ücretsiz.",
   "hero": {
     "headline": "Şifreyi tek tek okumaya son.\nQR kodunu göster.",
     "lead": "Arkadaşların kamerayı tutması yeterli, hemen bağlanırlar. Kafenin duvarındaki tabela mı? Tek fotoğraf, bu iPhone bağlanır. Kopyalarken yazım hatası yok.",
     "cta": "App Store’dan ücretsiz indir",
-    "note": "Tüm özellikler ücretsiz. iOS 17 veya sonrası yüklü iPhone."
+    "note": "Bağlanmak ve paylaşmak ücretsiz. iOS 17 veya sonrası yüklü iPhone."
   },
   "demo": {
     "title": "Wi-Fi’ın için QR kodu oluştur",
@@ -112,27 +112,26 @@
     "note": "QR kodunu Siri ya da Kestirmeler uygulamasıyla da hemen açabilirsin."
   },
   "pricing": {
-    "title": "Tüm özellikler ücretsiz",
+    "title": "Ücretsiz başla, gerektiğinde Plus ya da Pro seç",
     "free": {
       "name": "Ücretsiz",
       "items": [
-        "Fotoğraftan Wi-Fi’a bağlanma",
-        "QR kodu oluşturma ve görsel olarak paylaşma",
-        "7 temalı misafir tabelaları, kart ya da A4 poster, AirPrint ile yazdırma",
-        "Ana Ekran ve Kilitli Ekran araç takımları",
-        "Kayıtlı Wi-Fi haritası",
+        "Fotoğrafla Wi-Fi’a bağlan",
+        "QR kodu oluştur ve görsel olarak paylaş, erişim noktan için de",
+        "20 Wi-Fi ağına kadar kaydet",
+        "Bir misafir tabelası (kart, 2 tema) ve AirPrint ile yazdırma",
         "Reklam yok, üyelik yok"
       ]
     },
     "pro": {
-      "name": "Bahşiş (isteğe bağlı)",
+      "name": "Plus ve Pro",
       "items": [
-        "Beğendiysen geliştirmeyi bahşişle destekleyebilirsin",
-        "Bahşiş hiçbir şeyin kilidini açmaz. Vermesen de tüm özellikleri kullanırsın"
+        "Plus: sınırsız Wi-Fi ve tabela, 7 temanın tamamı, mekân adı, ek satırlar ve etiketler, A4 poster",
+        "Pro: Plus’taki her şey, ayrıca ana ekran ve kilit ekranı QR widget’ları, bağlandığın yerlerin haritası, Kestirmeler ve Siri, ekran görüntüsünden içe aktarma"
       ],
-      "note": "Bahşiş, küçük ve tek seferlik bir ödemedir."
+      "note": "Haftalık, aylık ya da yıllık abonelik seç veya ömür boyu için bir kez öde."
     },
-    "note": "Abonelik yok, ücretli özellik yok."
+    "note": "Bahşiş sadece bir teşekkür, hiçbir şeyin kilidini açmaz. Ücretli özellikler gelmeden önce MyFi kullanıyorsan Pro sende kalır."
   },
   "faq": {
     "title": "Sık sorulan sorular",

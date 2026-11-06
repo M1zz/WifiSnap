@@ -1,11 +1,11 @@
 {
   "title": "MyFi: snap a Wi-Fi sign to join, share yours with a QR code",
-  "description": "Snap a Wi-Fi sign and your iPhone joins. Share your own network with one QR code, and print a guest sign for your café. Everything is free.",
+  "description": "Snap a Wi-Fi sign and your iPhone joins. Share your own network with one QR code, and print a guest sign for your café. Connecting and sharing are free.",
   "hero": {
     "headline": "Stop spelling out passwords.\nShow a QR code.",
     "lead": "Friends just point their camera and they're on. Snap the sign on a café wall and this iPhone connects. No more typos from copying it by hand.",
     "cta": "Get it free on the App Store",
-    "note": "Everything is free. iPhone with iOS 17 or later."
+    "note": "Connecting and sharing are free. iPhone with iOS 17 or later."
   },
   "demo": {
     "title": "Make your Wi-Fi QR code",
@@ -112,27 +112,26 @@
     "note": "You can also open the QR code right away with Siri or the Shortcuts app."
   },
   "pricing": {
-    "title": "Every feature is free",
+    "title": "Start free, add Plus or Pro when you need it",
     "free": {
       "name": "Free",
       "items": [
         "Join Wi-Fi from a photo",
-        "Make QR codes and share them as images",
-        "Guest signs in 7 themes, as a card or A4 poster, printed with AirPrint",
-        "Home Screen and Lock Screen widgets",
-        "A map of your saved Wi-Fi",
+        "Make QR codes and share them as images, including your hotspot",
+        "Save up to 20 Wi-Fi networks",
+        "One guest sign (card, 2 themes), printed with AirPrint",
         "No ads, no sign-up"
       ]
     },
     "pro": {
-      "name": "Tip jar (optional)",
+      "name": "Plus and Pro",
       "items": [
-        "If you like it, you can leave a tip to support development",
-        "Tips don't unlock anything. Without one, you still get every feature"
+        "Plus: unlimited Wi-Fi and signs, all 7 themes, your shop name, extra lines and labels, A4 posters",
+        "Pro: everything in Plus, plus Home Screen and Lock Screen QR widgets, a map of where you connected, Shortcuts and Siri, and import from a screenshot"
       ],
-      "note": "A tip is a small one-time payment."
+      "note": "Choose weekly, monthly or yearly, or pay once for lifetime."
     },
-    "note": "No subscriptions and no paid features."
+    "note": "Tips are just a thank-you and don't unlock anything. If you used MyFi before paid features arrived, you keep Pro."
   },
   "faq": {
     "title": "Common questions",

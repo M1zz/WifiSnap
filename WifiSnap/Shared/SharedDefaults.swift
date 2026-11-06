@@ -12,6 +12,12 @@ enum SharedDefaults {
     /// 앱이 마지막으로 확인한 '지금 연결된 SSID'.
     /// 위젯은 NEHotspotNetwork.fetchCurrent를 쓸 수 없어(포그라운드 앱 전용) 이 값에 의존한다.
     static let currentSSIDKey = "wifisnap.current.ssid"
+    /// QR 위젯이 잠겼는가 (Pro 가 아님). 위젯은 결제를 조회할 수 없어서 앱이 확인한 답을 여기 적어 둔다.
+    /// 값이 없으면(앱이 아직 확인 전) 잠그지 않는다 — 산 사람의 위젯이 잠깐이라도 잠기면 안 된다.
+    static let widgetLockedKey = "wifisnap.widget.locked"
+
+    /// 잠긴 위젯을 누르면 가는 곳 — 앱의 페이월(위젯 줄을 짚어서).
+    static let paywallDeepLink = URL(string: "wifisnap://paywall/widget")!
 
     static let store: UserDefaults = {
         guard let shared = UserDefaults(suiteName: appGroupID) else {

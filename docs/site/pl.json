@@ -1,11 +1,11 @@
 {
   "title": "MyFi: sfotografuj tabliczkę i połącz się, udostępniaj Wi-Fi kodem QR",
-  "description": "Sfotografuj tabliczkę z Wi-Fi, a iPhone się połączy. Udostępnij swoją sieć jednym kodem QR i wydrukuj tabliczkę dla gości. Wszystko za darmo.",
+  "description": "Sfotografuj tabliczkę z Wi-Fi, a iPhone się połączy. Udostępnij swoją sieć jednym kodem QR i wydrukuj tabliczkę dla gości. Łączenie i udostępnianie są bezpłatne.",
   "hero": {
     "headline": "Koniec z dyktowaniem hasła.\nPokaż kod QR.",
     "lead": "Znajomi tylko celują aparatem i już są w sieci. Tabliczka na ścianie kawiarni? Jedno zdjęcie i ten iPhone się łączy. Koniec z literówkami przy przepisywaniu.",
     "cta": "Pobierz za darmo z App Store",
-    "note": "Wszystkie funkcje są bezpłatne. iPhone z iOS 17 lub nowszym."
+    "note": "Łączenie i udostępnianie są bezpłatne. iPhone z iOS 17 lub nowszym."
   },
   "demo": {
     "title": "Zrób kod QR swojej sieci Wi-Fi",
@@ -112,27 +112,26 @@
     "note": "Kod QR otworzysz od razu także przez Siri lub aplikację Skróty."
   },
   "pricing": {
-    "title": "Wszystkie funkcje są bezpłatne",
+    "title": "Zacznij za darmo, wybierz Plus lub Pro, gdy zechcesz",
     "free": {
       "name": "Za darmo",
       "items": [
         "Łączenie z Wi-Fi ze zdjęcia",
-        "Tworzenie kodów QR i udostępnianie jako obraz",
-        "Tabliczki dla gości w 7 motywach, karta lub plakat A4, druk przez AirPrint",
-        "Widżety na ekran początkowy i ekran blokady",
-        "Mapa zapisanych sieci",
-        "Bez reklam i bez zakładania konta"
+        "Tworzenie kodów QR i udostępnianie ich jako obraz, także dla hotspotu",
+        "Do 20 zapisanych sieci Wi-Fi",
+        "Jedna tabliczka dla gości (karta, 2 motywy) i druk przez AirPrint",
+        "Bez reklam i rejestracji"
       ]
     },
     "pro": {
-      "name": "Napiwek (dobrowolny)",
+      "name": "Plus i Pro",
       "items": [
-        "Jeśli aplikacja Ci się podoba, możesz wesprzeć jej rozwój napiwkiem",
-        "Napiwek niczego nie odblokowuje. Bez niego masz wszystkie funkcje"
+        "Plus: bez limitu sieci i tabliczek, wszystkie 7 motywów, nazwa lokalu, własne wiersze i etykiety, plakat A4",
+        "Pro: wszystko z Plus oraz widżety QR na ekranie początkowym i blokady, mapa miejsc połączeń, Skróty i Siri, import ze zrzutu ekranu"
       ],
-      "note": "Napiwek to niewielka, jednorazowa płatność."
+      "note": "Wybierz subskrypcję tygodniową, miesięczną lub roczną albo jednorazową płatność dożywotnią."
     },
-    "note": "Bez subskrypcji i bez płatnych funkcji."
+    "note": "Napiwek to tylko podziękowanie i niczego nie odblokowuje. Jeśli korzystałeś z MyFi przed pojawieniem się płatnych funkcji, zachowujesz Pro."
   },
   "faq": {
     "title": "Częste pytania",

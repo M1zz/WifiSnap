@@ -1,11 +1,11 @@
 {
   "title": "MyFi: ta bilde av oppslaget og koble til, del Wi-Fi med en QR-kode",
-  "description": "Ta bilde av Wi-Fi-oppslaget, så kobler iPhonen seg til. Del ditt eget nett med én QR-kode, og skriv ut et gjesteoppslag. Alt er gratis.",
+  "description": "Ta bilde av Wi-Fi-oppslaget, så kobler iPhonen seg til. Del ditt eget nett med én QR-kode, og skriv ut et gjesteoppslag. Det er gratis å koble til og dele.",
   "hero": {
     "headline": "Slutt å lese opp passordet.\nVis en QR-kode.",
     "lead": "Venner peker bare kameraet mot den, så er de på. Oppslaget på kaféveggen? Ett bilde, og denne iPhonen kobler seg til. Ingen tastefeil fra avskrift.",
     "cta": "Last ned gratis i App Store",
-    "note": "Alle funksjoner er gratis. iPhone med iOS 17 eller nyere."
+    "note": "Det er gratis å koble til og dele. iPhone med iOS 17 eller nyere."
   },
   "demo": {
     "title": "Lag en QR-kode for ditt Wi-Fi",
@@ -112,27 +112,26 @@
     "note": "Du kan også åpne QR-koden direkte med Siri eller Snarveier-appen."
   },
   "pricing": {
-    "title": "Alle funksjoner er gratis",
+    "title": "Start gratis, og velg Plus eller Pro når du trenger det",
     "free": {
       "name": "Gratis",
       "items": [
-        "Koble til Wi-Fi fra et bilde",
-        "Lag QR-koder og del dem som bilde",
-        "Gjesteoppslag i 7 temaer, som kort eller A4-plakat, utskrift med AirPrint",
-        "Widgeter for Hjem-skjerm og låseskjerm",
-        "Kart over lagrede Wi-Fi-nett",
-        "Ingen reklame, ingen konto"
+        "Koble til Wi-Fi med et bilde",
+        "Lag QR-koder og del dem som bilder, også for sonen din",
+        "Lagre opptil 20 Wi-Fi-nettverk",
+        "Ett gjesteoppslag (kort, 2 temaer) og utskrift med AirPrint",
+        "Ingen reklame, ingen registrering"
       ]
     },
     "pro": {
-      "name": "Tips (frivillig)",
+      "name": "Plus og Pro",
       "items": [
-        "Liker du appen, kan du støtte utviklingen med et tips",
-        "Tips låser ikke opp noe. Uten tips har du fortsatt alle funksjoner"
+        "Plus: ubegrenset Wi-Fi og oppslag, alle 7 temaer, navn på stedet, egne linjer og etiketter, A4-plakat",
+        "Pro: alt i Plus, pluss QR-widgeter på Hjem-skjermen og låseskjermen, kart over steder du koblet til, Snarveier og Siri, og import fra skjermbilde"
       ],
-      "note": "Et tips er en liten engangsbetaling."
+      "note": "Velg ukentlig, månedlig eller årlig abonnement, eller betal én gang for livstid."
     },
-    "note": "Ingen abonnement og ingen betalte funksjoner."
+    "note": "Tips er bare et takk og låser ikke opp noe. Brukte du MyFi før betalingsfunksjonene kom, beholder du Pro."
   },
   "faq": {
     "title": "Vanlige spørsmål",

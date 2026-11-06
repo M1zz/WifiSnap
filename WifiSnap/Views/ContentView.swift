@@ -58,6 +58,8 @@ struct ContentView: View {
 
     // 단축어·Siri 에서 들어온 요청 (→ Intents/WifiSnapShortcuts.swift)
     @ObservedObject private var router = AppRouter.shared
+    // 무료 · Plus · Pro (→ Store/Plan.swift). 잠긴 자리에서 페이월을 낸다.
+    @ObservedObject private var purchases = PurchaseManager.shared
 
     // 앱으로 돌아올 때 SSID를 다시 확인 — 위젯이 참조하는 '지금 연결됨'을 최신으로 유지한다
     @Environment(\.scenePhase) private var scenePhase
@@ -79,6 +81,10 @@ struct ContentView: View {
         case map
         case importList
         case settings
+        /// 요금제. 잠긴 기능에서 들어왔으면 그 기능을 짚는다.
+        case paywall(ProFeature?)
+        /// 구독 중인 사람에게 평생으로 옮겨 갈 졸업가 (→ LeeoGraduation)
+        case graduation
 
         var id: String {
             switch self {
@@ -91,6 +97,8 @@ struct ContentView: View {
             case .map: return "map"
             case .importList: return "importList"
             case .settings: return "settings"
+            case .paywall(let feature): return "paywall-\(feature?.rawValue ?? "")"
+            case .graduation: return "graduation"
             }
         }
     }
@@ -142,7 +150,13 @@ struct ContentView: View {
         }
         .onChange(of: scenePhase) { _, phase in
             // 설정에서 와이파이를 바꾸고 돌아온 경우를 잡는다
-            if phase == .active { currentNetwork.refresh() }
+            if phase == .active {
+                currentNetwork.refresh()
+                Task {
+                    await purchases.refresh()
+                    offerGraduationIfDue()
+                }
+            }
             // Spotlight · Siri 가 찾는 저장한 와이파이를 지금 목록에 맞춘다
             if phase != .inactive { Task { await SavedWifiEntity.reindex() } }
         }
@@ -186,25 +200,42 @@ struct ContentView: View {
     }
     #endif
 
+    /// 구독 6개월째 · 갱신 7일 전에 한 번씩 '구독 졸업' 평생가를 보인다. 다른 시트가 떠 있으면 다음 기회로.
+    private func offerGraduationIfDue() {
+        guard activeSheet == nil, !showOnboarding, purchases.graduationIsDue else { return }
+        purchases.markGraduationOffered()
+        activeSheet = .graduation
+    }
+
+    /// 잠긴 기능이면 페이월을 낸다. 열려 있으면 true.
+    private func unlocked(_ feature: ProFeature) -> Bool {
+        guard !purchases.allows(feature) else { return true }
+        activeSheet = .paywall(feature)
+        return false
+    }
+
+    /// 이 이름을 새로 저장하려면 무료 한도를 넘는가. 이미 저장한 것을 고치는 것은 언제나 된다.
+    private func exceedsFreeSaves(_ ssid: String) -> Bool {
+        !purchases.allows(.unlimitedNetworks)
+            && store.network(for: ssid) == nil
+            && store.networks.count >= FreeLimit.savedNetworks
+    }
+
     /// 단축어·Siri 요청 처리
     private func handleRoute(_ route: AppRouter.Route) {
         switch route {
         case .showWifiQR:
-            // 지금 연결된 와이파이가 우선, 없으면 가장 최근에 저장한 것
-            let latest = store.networks.max(by: { $0.savedAt < $1.savedAt })
-            if let network = connectedSaved ?? latest {
-                showDetail(network)
-            } else {
-                // 보여 줄 QR이 아직 없다 — 와이파이를 추가하는 곳을 펼쳐 둔다
-                withAnimation(.snappy) { scanExpanded = true }
-            }
+            guard unlocked(.shortcuts) else { return }
+            showCurrentQR()
         case .showNetwork(let id):
+            // Spotlight 에서 고른 저장한 와이파이 — 내 데이터를 여는 길이라 잠그지 않는다
             if let network = store.networks.first(where: { $0.id.uuidString == id }) {
                 showDetail(network)
             } else {
-                handleRoute(.showWifiQR)   // 그새 지워졌다 — 지금 것(없으면 최근 것)으로
+                showCurrentQR()   // 그새 지워졌다 — 지금 것(없으면 최근 것)으로
             }
         case .scanWifiPhoto:
+            guard unlocked(.shortcuts) else { return }
             if ImagePicker.isCameraAvailable {
                 openCamera()
             } else {
@@ -213,10 +244,26 @@ struct ContentView: View {
         }
     }
 
+    /// 지금 연결된 와이파이가 우선, 없으면 가장 최근에 저장한 것의 QR 을 연다.
+    private func showCurrentQR() {
+        let latest = store.networks.max(by: { $0.savedAt < $1.savedAt })
+        if let network = connectedSaved ?? latest {
+            showDetail(network)
+        } else {
+            // 보여 줄 QR이 아직 없다 — 와이파이를 추가하는 곳을 펼쳐 둔다
+            withAnimation(.snappy) { scanExpanded = true }
+        }
+    }
+
     /// 위젯 탭 → wifisnap://qr?id=… → 그 위젯에 고정된 와이파이의 QR 상세를 연다.
     /// id가 없거나 이미 지워진 네트워크면 가장 최근 것으로 대체한다.
     /// 잠금화면 위젯은 QR이 vibrant 렌더링으로 변환돼 스캔이 어려우므로 이 경로가 실질적인 사용법이다.
     private func handleDeepLink(_ url: URL) {
+        // 잠긴 위젯을 누르면 wifisnap://paywall/widget 으로 온다
+        if url.scheme == "wifisnap", url.host == "paywall" {
+            activeSheet = .paywall(.widget)
+            return
+        }
         guard url.scheme == "wifisnap", url.host == "qr" else { return }
 
         let requestedID = URLComponents(url: url, resolvingAgainstBaseURL: false)?
@@ -282,7 +329,8 @@ struct ContentView: View {
                 scanCard
                 // 와이파이를 모아 둔 수가 문턱을 넘은 직후 — 목록 바로 위에 응원 부탁 한 장 (모달 아님)
                 // 저장하면 상세 시트가 바로 덮으므로, 시트가 닫혀 보이는 때에만 세운다 (안 보일 때 '물었음'으로 남지 않게)
-                if activeSheet == nil {
+                // 응원 부탁은 이미 Pro 를 가진 사람에게만 한다.
+                if activeSheet == nil, purchases.tier == .pro {
                     LeeoTipAskSlot<WifiSnapSpec>(tipJar: WifiSnapSpec.tipJar,
                                                  reached: WifiSnapTipMoments.reached(savedCount: store.networks.count))
                 }
@@ -357,6 +405,13 @@ struct ContentView: View {
             WifiListImportSheet(store: knownSSIDStore)
         case .settings:
             SettingsSheet()
+        case .paywall(let feature):
+            PaywallView(highlight: feature)
+        case .graduation:
+            LeeoGraduationOfferView(graduate: purchases.product(ProProduct.graduate)) {
+                await purchases.refresh()
+            }
+            .presentationDragIndicator(.visible)
         }
     }
 
@@ -468,9 +523,10 @@ struct ContentView: View {
             // 설정 앱 화면 모양에 기대는 기능이라 원격 킬스위치로 내릴 수 있게 둔다.
             if LeeoRemoteFlags.isEnabled(WifiSnapFlag.settingsListImport) {
                 Button {
-                    activeSheet = .importList
+                    if unlocked(.captureImport) { activeSheet = .importList }
                 } label: {
-                    Label("설정 캡처에서 목록 가져오기…", systemImage: "text.viewfinder")
+                    Label("설정 캡처에서 목록 가져오기…",
+                          systemImage: purchases.allows(.captureImport) ? "text.viewfinder" : "lock.fill")
                 }
             }
             Button {
@@ -941,9 +997,9 @@ struct ContentView: View {
                 // 지도에서 보기 (위치가 기록된 네트워크가 있을 때만)
                 if hasMappableNetworks {
                     Button {
-                        activeSheet = .map
+                        if unlocked(.map) { activeSheet = .map }
                     } label: {
-                        Label("지도", systemImage: "map")
+                        Label("지도", systemImage: purchases.allows(.map) ? "map" : "lock.fill")
                             .font(.caption.weight(.semibold))
                     }
                     .buttonStyle(.bordered)
@@ -1270,6 +1326,12 @@ struct ContentView: View {
         // 스마트 어포스트로피(Leeo’s iPhone)를 ASCII '로 바꿔 버리면 실제 SSID와 달라진다.
         let ssid = SSIDMatcher.sanitize(credentials.ssid, foldLookalikes: !manualEntry)
         guard !ssid.isEmpty else { return }
+        // 21번째부터는 Plus. 입력한 것은 그대로 두어 사고 나서 바로 다시 저장할 수 있게 한다.
+        guard !exceedsFreeSaves(ssid) else {
+            dismissKeyboard()
+            activeSheet = .paywall(.unlimitedNetworks)
+            return
+        }
         let password = credentials.password
         dismissKeyboard()
 
@@ -1312,15 +1374,20 @@ struct ContentView: View {
                 // iOS가 알려준 표기를 저장한다 — OCR이 대소문자를 틀렸어도, 연결 전에 미리
                 // 만들어 둔 QR의 이름이 달랐어도 여기서 그 항목의 이름이 정식 표기로 바로잡힌다.
                 let here = currentNetwork.currentLocation?.coordinate
-                store.upsert(ssid: joined.ssid, password: password,
-                             latitude: here?.latitude, longitude: here?.longitude,
-                             verifiedName: true)
-                statusMessage = StatusMessage(
-                    text: joined.verified
-                        ? String(localized: "'\(joined.ssid)'에 연결했어요.")
-                        : String(localized: "'\(joined.ssid)' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)"),
-                    isError: false
-                )
+                if exceedsFreeSaves(joined.ssid) {
+                    // 연결은 이미 됐다. 저장만 무료 한도에 걸렸다 — 그 말을 페이월 맨 위에서 한다.
+                    activeSheet = .paywall(.unlimitedNetworks)
+                } else {
+                    store.upsert(ssid: joined.ssid, password: password,
+                                 latitude: here?.latitude, longitude: here?.longitude,
+                                 verifiedName: true)
+                    statusMessage = StatusMessage(
+                        text: joined.verified
+                            ? String(localized: "'\(joined.ssid)'에 연결했어요.")
+                            : String(localized: "'\(joined.ssid)' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)"),
+                        isError: false
+                    )
+                }
                 // 연결됐으니 입력 카드는 닫고 필드를 비운다
                 showScanResult = false
                 connectRetry = ConnectRetry()

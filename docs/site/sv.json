@@ -1,11 +1,11 @@
 {
   "title": "MyFi: fota skylten och anslut, dela ditt Wi-Fi med en QR-kod",
-  "description": "Fota Wi-Fi-skylten så ansluter iPhonen. Dela ditt eget nätverk med en QR-kod och skriv ut en gästskylt. Allt är gratis.",
+  "description": "Fota Wi-Fi-skylten så ansluter iPhonen. Dela ditt eget nätverk med en QR-kod och skriv ut en gästskylt. Att ansluta och dela är gratis.",
   "hero": {
     "headline": "Sluta läsa upp lösenordet.\nVisa en QR-kod.",
     "lead": "Vänner riktar bara kameran mot den och är uppkopplade. Skylten på kaféets vägg? En bild så ansluter den här iPhonen. Inga fler skrivfel när du skriver av.",
     "cta": "Hämta gratis på App Store",
-    "note": "Alla funktioner är gratis. iPhone med iOS 17 eller senare."
+    "note": "Att ansluta och dela är gratis. iPhone med iOS 17 eller senare."
   },
   "demo": {
     "title": "Gör en QR-kod för ditt Wi-Fi",
@@ -112,27 +112,26 @@
     "note": "Du kan också öppna QR-koden direkt med Siri eller appen Genvägar."
   },
   "pricing": {
-    "title": "Alla funktioner är gratis",
+    "title": "Börja gratis, välj Plus eller Pro när du behöver",
     "free": {
       "name": "Gratis",
       "items": [
-        "Anslut till Wi-Fi från en bild",
-        "Gör QR-koder och dela dem som bild",
-        "Gästskyltar i 7 teman, som kort eller A4-affisch, utskrift med AirPrint",
-        "Widgetar för hemskärm och låsskärm",
-        "Karta över dina sparade Wi-Fi",
-        "Ingen reklam, inget konto"
+        "Anslut till Wi-Fi med ett foto",
+        "Skapa QR-koder och dela dem som bilder, även för din hotspot",
+        "Spara upp till 20 Wi-Fi-nätverk",
+        "En gästskylt (kort, 2 teman) och utskrift med AirPrint",
+        "Ingen reklam, ingen registrering"
       ]
     },
     "pro": {
-      "name": "Dricks (frivilligt)",
+      "name": "Plus och Pro",
       "items": [
-        "Gillar du appen kan du stötta utvecklingen med dricks",
-        "Dricks låser inte upp något. Utan dricks har du fortfarande alla funktioner"
+        "Plus: obegränsat Wi-Fi och skyltar, alla 7 teman, platsens namn, egna rader och etiketter, A4-affisch",
+        "Pro: allt i Plus samt QR-widgetar för hemskärmen och låsskärmen, karta över platser du anslöt, Genvägar och Siri, och import från skärmavbild"
       ],
-      "note": "Dricks är en liten engångsbetalning."
+      "note": "Välj vecko-, månads- eller årsprenumeration, eller betala en gång för livstid."
     },
-    "note": "Inga abonnemang och inga betalda funktioner."
+    "note": "Dricks är bara ett tack och låser inte upp något. Använde du MyFi innan betalfunktionerna kom behåller du Pro."
   },
   "faq": {
     "title": "Vanliga frågor",

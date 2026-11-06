@@ -20,11 +20,14 @@ struct WifiQREntry: TimelineEntry {
     /// 앱이 마지막으로 확인했을 때 이 와이파이에 연결돼 있었는지
     let isCurrent: Bool
     let qrImage: UIImage?
+    /// QR 위젯은 Pro. 앱이 Pro 가 아니라고 확인해 둔 때만 잠긴다 (→ SharedDefaults.widgetLockedKey).
+    var isLocked = false
 
     var hasNetwork: Bool { !ssid.isEmpty }
 
-    /// 위젯을 탭하면 앱의 QR 상세로 간다
+    /// 위젯을 탭하면 앱의 QR 상세로 간다. 잠겼으면 페이월로.
     var deepLink: URL? {
+        if isLocked { return SharedDefaults.paywallDeepLink }
         guard let networkID else { return URL(string: "wifisnap://qr") }
         return URL(string: "wifisnap://qr?id=\(networkID)")
     }
@@ -46,6 +49,10 @@ struct WifiQRProvider: AppIntentTimelineProvider {
     }
 
     private func makeEntry(for configuration: SelectWifiIntent) -> WifiQREntry {
+        // 잠긴 위젯에는 와이파이 이름도 QR 도 싣지 않는다
+        if SharedDefaults.store.bool(forKey: SharedDefaults.widgetLockedKey) {
+            return WifiQREntry(date: Date(), ssid: "", networkID: nil, isCurrent: false, qrImage: nil, isLocked: true)
+        }
         // 고정한 것 → 지금 연결된 것 → 가장 최근에 연결한 것
         guard let picked = WidgetNetworks.networkToShow(pinnedID: configuration.network?.id) else {
             return WifiQREntry(date: Date(), ssid: "", networkID: nil, isCurrent: false, qrImage: nil)
@@ -81,6 +88,48 @@ struct WifiQRWidgetView: View {
 
     @ViewBuilder
     private var content: some View {
+        if entry.isLocked {
+            lockedState
+        } else {
+            unlockedContent
+        }
+    }
+
+    /// Pro 가 아닐 때. 누르면 앱의 페이월이 위젯 줄을 짚어 열린다.
+    @ViewBuilder
+    private var lockedState: some View {
+        switch family {
+        case .accessoryInline:
+            Label("QR 위젯은 Pro", systemImage: "lock.fill")
+        case .accessoryCircular:
+            ZStack {
+                AccessoryWidgetBackground()
+                Image(systemName: "lock.fill")
+                    .font(.title3)
+            }
+            .accessibilityLabel(Text("QR 위젯은 Pro"))
+        case .accessoryRectangular:
+            Label("QR 위젯은 Pro", systemImage: "lock.fill")
+                .font(.headline)
+        default:
+            VStack(spacing: 6) {
+                Image(systemName: "lock.fill")
+                    .font(.title2)
+                    .foregroundStyle(.secondary)
+                Text("QR 위젯은 Pro")
+                    .font(.caption.weight(.semibold))
+                    .multilineTextAlignment(.center)
+                Text("탭해서 알아보기")
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+            }
+            .padding(4)
+        }
+    }
+
+    @ViewBuilder
+    private var unlockedContent: some View {
         switch family {
         case .accessoryInline:
             // 인라인은 한 줄 텍스트만 — 시각 요소를 넣을 수 없다

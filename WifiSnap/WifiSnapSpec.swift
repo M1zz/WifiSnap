@@ -34,8 +34,26 @@ enum WifiSnapSpec: LeeoAppSpec {
     /// App Store 앱 ID — 설정의 '리뷰 남기기'가 리뷰 작성 페이지로 바로 연결된다.
     static let appStoreID: String? = "6793472383"
 
-    /// 수익모델 (LeeoKit 3.x 부터 필수) — 인앱 결제가 없는 무료 앱.
-    static let monetization = LeeoMonetization.free
+    /// 수익모델 (LeeoKit 3.x 부터 필수) — 무료로 쓰다가, 가게 안내판은 Plus, 먼저 나타나는 것은 Pro.
+    /// 칸마다 주 · 월 · 연 구독과 평생. 무엇이 어느 칸인지는 `ProFeature.tier` 한 곳에 있다 (→ Store/Plan.swift).
+    static let monetization = LeeoMonetization.freemiumSubscription(
+        LeeoSubscriptionConfig(
+            productIDs: ProProduct.all,
+            // 자체 약관이 없으므로 애플 표준 사용권 계약(EULA)을 건다. 구독을 파는 앱의 심사 필수 항목이다.
+            termsURL: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!,
+            entitlementIDs: Set(ProProduct.tierByProduct.keys),
+            gate: LeeoGatePolicy(
+                freeLimits: [Gate.savedNetworks: FreeLimit.savedNetworks, Gate.signs: FreeLimit.signs],
+                proOnly: Set(ProFeature.allCases.map(\.rawValue))
+                    .subtracting([ProFeature.unlimitedNetworks.rawValue, ProFeature.unlimitedSigns.rawValue])),
+            // 개발자 응원 팁. ⚠️ 기능을 여는 상품이 아니다 — productIDs · entitlementIDs 에 넣지 않는다.
+            tipJar: LeeoTipJarConfig(productIDs: ProProduct.tips)))
+
+    /// 게이트 열쇠말 (무료 한도).
+    enum Gate {
+        static let savedNetworks = "savedNetworks"
+        static let signs = "signs"
+    }
 
     /// 익명 사용 통계 → FeedbackHub(CloudKit). 기본값(Noop)이면 부트스트랩이 아무것도 보내지 않는다.
     static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: WifiSnapSpec.self)
@@ -44,13 +62,8 @@ enum WifiSnapSpec: LeeoAppSpec {
 // MARK: - 팁 (개발자 응원하기)
 
 extension WifiSnapSpec {
-    /// 무료 앱이라 LeeoStore 가 없다 — 팁만 혼자 받는다(앱을 열 때 `startStandalone()`, → WifiSnapApp).
-    /// 소모성 상품 셋, 작은 것부터. ⚠️ 기능을 여는 상품이 아니다.
-    @MainActor static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
-        "com.leeo.wifisnap.tip.small",
-        "com.leeo.wifisnap.tip.medium",
-        "com.leeo.wifisnap.tip.large",
-    ]))
+    /// 팁은 결제 리스너를 함께 쓰려고 LeeoStore 안에 둔다(→ PurchaseManager). 소모성 셋, 작은 것부터.
+    @MainActor static var tipJar: LeeoTipJar { PurchaseManager.shared.store.tipJar! }
 }
 
 /// 팁을 부탁할 만한 순간 — 마이파이에 모아 둔 와이파이 수. 저장할 때마다 하나씩 는다.

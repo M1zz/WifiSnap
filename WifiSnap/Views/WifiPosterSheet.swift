@@ -270,6 +270,10 @@ struct WifiPosterSheet: View {
     // 로고는 사진이라 저장하지 않고 이 화면에서만 유지한다
     @State private var logoImage: UIImage?
     @State private var logoPickerItem: PhotosPickerItem?
+    // 테마 · A4 · 가게 이름 · 덧붙일 문구 · 라벨은 Plus. 잠긴 것을 고르면 페이월을 낸다.
+    // 이미 고른 값은 그대로 그리고 인쇄한다 — 잠그는 것은 새로 고르는 것뿐이다.
+    @ObservedObject private var purchases = PurchaseManager.shared
+    @State private var paywall: ProFeature?
 
     private var theme: PosterTheme { design.theme }
     private var layout: PosterLayout { design.layout }
@@ -310,6 +314,7 @@ struct WifiPosterSheet: View {
         .sheet(item: $shareItem) { item in
             ActivityShareSheet(image: item.image)
         }
+        .sheet(item: $paywall) { PaywallView(highlight: $0) }
         // 고칠 때마다 바로 저장 — '저장' 버튼을 눌러야 하는 부담을 없앤다
         .onChange(of: design) { _, updated in
             store.save(updated)
@@ -349,7 +354,17 @@ struct WifiPosterSheet: View {
     // MARK: 레이아웃(카드 / A4) 선택
 
     private var layoutPicker: some View {
-        Picker("형태", selection: $design.layoutID.animation(.snappy)) {
+        // A4 는 Plus — 잠겨 있으면 고르는 대신 페이월을 낸다.
+        let layout = Binding<String>(
+            get: { design.layoutID },
+            set: { id in
+                if id == PosterLayout.a4.rawValue, !purchases.allows(.a4Poster) {
+                    paywall = .a4Poster
+                } else {
+                    withAnimation(.snappy) { design.layoutID = id }
+                }
+            })
+        return Picker("형태", selection: layout) {
             ForEach(PosterLayout.allCases) { option in
                 Text(option.label).tag(option.rawValue)
             }
@@ -368,8 +383,13 @@ struct WifiPosterSheet: View {
                 HStack(spacing: 12) {
                     ForEach(PosterTheme.all) { item in
                         let isSelected = design.themeID == item.id
+                        let isLocked = !FreeLimit.themeIDs.contains(item.id) && !purchases.allows(.allThemes)
                         Button {
-                            withAnimation(.snappy) { design.themeID = item.id }
+                            if isLocked {
+                                paywall = .allThemes
+                            } else {
+                                withAnimation(.snappy) { design.themeID = item.id }
+                            }
                         } label: {
                             VStack(spacing: 6) {
                                 RoundedRectangle(cornerRadius: 12, style: .continuous)
@@ -379,6 +399,16 @@ struct WifiPosterSheet: View {
                                         RoundedRectangle(cornerRadius: 12, style: .continuous)
                                             .strokeBorder(isSelected ? Color.accentColor : .clear, lineWidth: 3)
                                     }
+                                    .overlay(alignment: .bottomTrailing) {
+                                        if isLocked {
+                                            Image(systemName: "lock.fill")
+                                                .font(.caption2.weight(.bold))
+                                                .foregroundStyle(.white)
+                                                .padding(4)
+                                                .background(.black.opacity(0.55), in: Circle())
+                                                .padding(3)
+                                        }
+                                    }
                                 Text(item.name)
                                     .font(.caption2.weight(isSelected ? .bold : .regular))
                                     .foregroundStyle(isSelected ? .primary : .secondary)
@@ -386,6 +416,7 @@ struct WifiPosterSheet: View {
                         }
                         .buttonStyle(.plain)
                         .accessibilityAddTraits(isSelected ? .isSelected : [])
+                        .accessibilityHint(isLocked ? ProLockBadge.spoken(.allThemes) : "")
                     }
                 }
                 .padding(.horizontal, 2)
@@ -408,12 +439,15 @@ struct WifiPosterSheet: View {
                 .font(.subheadline.weight(.semibold))
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            labeledField(title: String(localized: "매장 이름"), text: $design.storeName, placeholder: String(localized: "예) 라운지 카페"))
+            labeledField(title: String(localized: "매장 이름"), text: $design.storeName, placeholder: String(localized: "예) 라운지 카페"),
+                         lockedBy: .signText)
             labeledField(title: String(localized: "뱃지 (비우면 숨김)"), text: $design.badge, placeholder: "WiFi")
             labeledField(title: String(localized: "제목"), text: $design.heading, placeholder: String(localized: "무료 와이파이"))
             labeledField(title: String(localized: "안내 문구"), text: $design.subtitle, placeholder: String(localized: "편하게 이용하세요"))
-            labeledField(title: String(localized: "네트워크 라벨"), text: $design.networkLabel, placeholder: String(localized: "네트워크"))
-            labeledField(title: String(localized: "비밀번호 라벨"), text: $design.passwordLabel, placeholder: String(localized: "비밀번호"))
+            labeledField(title: String(localized: "네트워크 라벨"), text: $design.networkLabel, placeholder: String(localized: "네트워크"),
+                         lockedBy: .signText)
+            labeledField(title: String(localized: "비밀번호 라벨"), text: $design.passwordLabel, placeholder: String(localized: "비밀번호"),
+                         lockedBy: .signText)
             labeledField(title: String(localized: "맨 아래 문구 (비우면 숨김)"), text: $design.footer,
                          placeholder: String(localized: "카메라로 QR을 비추면 자동 연결"))
 
@@ -500,9 +534,11 @@ struct WifiPosterSheet: View {
         logoImage = image
     }
 
-    /// 영업시간·인스타 계정처럼 매장이 원하는 만큼 덧붙이는 줄
+    /// 영업시간·인스타 계정처럼 매장이 원하는 만큼 덧붙이는 줄.
+    /// Plus 가 없으면 이미 쓴 줄은 보이고 지울 수 있지만, 새로 더하거나 고치지는 못한다.
     private var extraLinesEditor: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        let isLocked = !purchases.allows(.signText)
+        return VStack(alignment: .leading, spacing: 8) {
             Text("직접 쓰는 줄")
                 .font(.subheadline.weight(.semibold))
             Text("영업시간, 인스타 계정, 매장 안내처럼 원하는 문구를 줄 단위로 넣으세요.")
@@ -512,8 +548,13 @@ struct WifiPosterSheet: View {
 
             ForEach(design.extraLines.indices, id: \.self) { index in
                 HStack(spacing: 8) {
-                    TextField("예) 영업시간 09:00–22:00", text: $design.extraLines[index])
-                        .textFieldStyle(.roundedBorder)
+                    if isLocked {
+                        Text(design.extraLines[index])
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                    } else {
+                        TextField("예) 영업시간 09:00–22:00", text: $design.extraLines[index])
+                            .textFieldStyle(.roundedBorder)
+                    }
                     Button {
                         design.extraLines.remove(at: index)
                     } label: {
@@ -526,9 +567,9 @@ struct WifiPosterSheet: View {
             }
 
             Button {
-                design.extraLines.append("")
+                if isLocked { paywall = .signText } else { design.extraLines.append("") }
             } label: {
-                Label("줄 추가", systemImage: "plus.circle")
+                Label("줄 추가", systemImage: isLocked ? "lock.fill" : "plus.circle")
                     .font(.subheadline.weight(.semibold))
             }
             .buttonStyle(.bordered)
@@ -550,13 +591,37 @@ struct WifiPosterSheet: View {
         design.extraLines = []
     }
 
-    private func labeledField(title: String, text: Binding<String>, placeholder: String) -> some View {
+    /// - Parameter lockedBy: 이 칸을 여는 기능. 잠겨 있으면 지금 값만 보이고, 누르면 페이월이 뜬다.
+    private func labeledField(title: String, text: Binding<String>, placeholder: String,
+                              lockedBy feature: ProFeature? = nil) -> some View {
         VStack(alignment: .leading, spacing: 6) {
             Text(title)
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(.secondary)
-            TextField(placeholder, text: text)
-                .textFieldStyle(.roundedBorder)
+            if let feature, !purchases.allows(feature) {
+                Button {
+                    paywall = feature
+                } label: {
+                    HStack(spacing: 8) {
+                        Text(text.wrappedValue.isEmpty ? placeholder : text.wrappedValue)
+                            .foregroundStyle(text.wrappedValue.isEmpty ? .tertiary : .secondary)
+                            .lineLimit(1)
+                        Spacer(minLength: 4)
+                        ProLockBadge(feature: feature)
+                    }
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 7)
+                    .background(Color(.tertiarySystemFill), in: RoundedRectangle(cornerRadius: 6))
+                    .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(title)
+                .accessibilityValue(text.wrappedValue)
+                .accessibilityHint(ProLockBadge.spoken(feature))
+            } else {
+                TextField(placeholder, text: text)
+                    .textFieldStyle(.roundedBorder)
+            }
         }
     }
 

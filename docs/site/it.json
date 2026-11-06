@@ -1,11 +1,11 @@
 {
   "title": "MyFi: fotografa il cartello e ti connetti, condividi il Wi-Fi con un QR",
-  "description": "Fotografa il cartello del Wi-Fi e l’iPhone si connette. Condividi la tua rete con un codice QR e stampa un cartello per gli ospiti. Tutto gratis.",
+  "description": "Fotografa il cartello del Wi-Fi e l’iPhone si connette. Condividi la tua rete con un codice QR e stampa un cartello per gli ospiti. Connettersi e condividere è gratis.",
   "hero": {
     "headline": "Basta dettare la password.\nMostra un codice QR.",
     "lead": "Gli amici inquadrano con la fotocamera e sono connessi. Il cartello sul muro del bar? Una foto e questo iPhone si connette. Niente più errori a ricopiarla.",
     "cta": "Scaricalo gratis dall’App Store",
-    "note": "Tutte le funzioni sono gratis. iPhone con iOS 17 o successivo."
+    "note": "Connettersi e condividere è gratis. iPhone con iOS 17 o successivo."
   },
   "demo": {
     "title": "Crea il codice QR del tuo Wi-Fi",
@@ -112,27 +112,26 @@
     "note": "Puoi anche aprire subito il codice QR con Siri o con l’app Comandi Rapidi."
   },
   "pricing": {
-    "title": "Tutte le funzioni sono gratis",
+    "title": "Inizia gratis, aggiungi Plus o Pro quando serve",
     "free": {
       "name": "Gratis",
       "items": [
-        "Connessione al Wi-Fi da una foto",
-        "Creazione di codici QR e condivisione come immagine",
-        "Cartelli per gli ospiti in 7 temi, scheda o poster A4, stampa con AirPrint",
-        "Widget per schermata Home e schermata di blocco",
-        "Mappa dei Wi-Fi salvati",
-        "Niente pubblicità, niente registrazione"
+        "Connessione al Wi-Fi con una foto",
+        "Crea codici QR e condividili come immagine, anche per l’hotspot",
+        "Fino a 20 reti Wi-Fi salvate",
+        "Un cartello per gli ospiti (scheda, 2 temi) e stampa con AirPrint",
+        "Niente pubblicità, nessuna registrazione"
       ]
     },
     "pro": {
-      "name": "Mancia (facoltativa)",
+      "name": "Plus e Pro",
       "items": [
-        "Se ti piace, puoi sostenere lo sviluppo con una mancia",
-        "La mancia non sblocca nulla. Anche senza hai tutte le funzioni"
+        "Plus: reti e cartelli illimitati, tutti i 7 temi, nome del locale, righe ed etichette personalizzate, poster A4",
+        "Pro: tutto di Plus, più widget QR per la schermata Home e di blocco, mappa dei luoghi di connessione, Comandi rapidi e Siri, importazione da screenshot"
       ],
-      "note": "La mancia è un piccolo pagamento singolo."
+      "note": "Scegli un abbonamento settimanale, mensile o annuale, oppure paga una volta per sempre."
     },
-    "note": "Nessun abbonamento e nessuna funzione a pagamento."
+    "note": "Le mance sono solo un grazie e non sbloccano nulla. Se usavi MyFi prima delle funzioni a pagamento, mantieni Pro."
   },
   "faq": {
     "title": "Domande frequenti",

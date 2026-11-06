@@ -1,11 +1,11 @@
 {
   "title": "MyFi: fotografeer het bordje en verbind, deel je wifi met een QR-code",
-  "description": "Fotografeer het wifi-bordje en je iPhone maakt verbinding. Deel je eigen wifi met één QR-code en print een gastenbordje. Alles is gratis.",
+  "description": "Fotografeer het wifi-bordje en je iPhone maakt verbinding. Deel je eigen wifi met één QR-code en print een gastenbordje. Verbinden en delen zijn gratis.",
   "hero": {
     "headline": "Geen wachtwoorden meer voorlezen.\nLaat een QR-code zien.",
     "lead": "Vrienden richten hun camera erop en ze zijn online. Het bordje aan de muur van het café? Eén foto en deze iPhone maakt verbinding. Geen typefouten meer bij het overschrijven.",
     "cta": "Gratis in de App Store",
-    "note": "Alle functies zijn gratis. iPhone met iOS 17 of nieuwer."
+    "note": "Verbinden en delen zijn gratis. iPhone met iOS 17 of nieuwer."
   },
   "demo": {
     "title": "Maak de QR-code van je wifi",
@@ -112,27 +112,26 @@
     "note": "Je kunt de QR-code ook direct openen met Siri of de Opdrachten-app."
   },
   "pricing": {
-    "title": "Alle functies zijn gratis",
+    "title": "Begin gratis, kies Plus of Pro wanneer je het nodig hebt",
     "free": {
       "name": "Gratis",
       "items": [
-        "Verbinding met wifi via een foto",
-        "QR-codes maken en als afbeelding delen",
-        "Gastenbordjes in 7 thema’s, als kaart of A4-poster, printen met AirPrint",
-        "Widgets voor beginscherm en toegangsscherm",
-        "Kaart van je bewaarde wifi",
-        "Geen advertenties, geen account"
+        "Verbinden met wifi via een foto",
+        "QR-codes maken en als afbeelding delen, ook voor je hotspot",
+        "Tot 20 wifinetwerken bewaren",
+        "Eén gastenbordje (kaart, 2 thema’s) en printen met AirPrint",
+        "Geen reclame, geen account"
       ]
     },
     "pro": {
-      "name": "Fooi (vrijwillig)",
+      "name": "Plus en Pro",
       "items": [
-        "Bevalt de app, dan kun je de ontwikkeling steunen met een fooi",
-        "Een fooi ontgrendelt niets. Zonder fooi heb je ook alle functies"
+        "Plus: onbeperkt wifi en bordjes, alle 7 thema’s, naam van de zaak, eigen regels en labels, A4-poster",
+        "Pro: alles van Plus, plus QR-widgets voor beginscherm en toegangsscherm, een kaart van plekken waar je verbond, Opdrachten en Siri, en importeren uit een schermafbeelding"
       ],
-      "note": "Een fooi is een kleine eenmalige betaling."
+      "note": "Kies per week, maand of jaar, of betaal één keer voor levenslang."
     },
-    "note": "Geen abonnement en geen betaalde functies."
+    "note": "Fooien zijn alleen een bedankje en ontgrendelen niets. Gebruikte je MyFi al vóór de betaalde functies, dan houd je Pro."
   },
   "faq": {
     "title": "Veelgestelde vragen",

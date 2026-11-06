@@ -1,11 +1,11 @@
 {
   "title": "MyFi: chụp bảng là kết nối, chia sẻ Wi-Fi bằng mã QR",
-  "description": "Chụp bảng Wi-Fi là iPhone kết nối ngay. Chia sẻ Wi-Fi của bạn bằng một mã QR và in bảng dành cho khách. Mọi tính năng đều miễn phí.",
+  "description": "Chụp bảng Wi-Fi là iPhone kết nối ngay. Chia sẻ Wi-Fi của bạn bằng một mã QR và in bảng dành cho khách. Kết nối và chia sẻ QR đều miễn phí.",
   "hero": {
     "headline": "Đừng đọc mật khẩu nữa.\nChỉ cần một mã QR.",
     "lead": "Bạn bè chỉ cần đưa camera vào là vào mạng. Bảng Wi-Fi trên tường quán cà phê? Chụp một tấm là iPhone này kết nối. Hết cảnh chép sai từng ký tự.",
     "cta": "Tải miễn phí trên App Store",
-    "note": "Mọi tính năng đều miễn phí. iPhone chạy iOS 17 trở lên."
+    "note": "Kết nối và chia sẻ QR đều miễn phí. iPhone chạy iOS 17 trở lên."
   },
   "demo": {
     "title": "Tạo mã QR cho Wi-Fi của bạn",
@@ -112,27 +112,26 @@
     "note": "Bạn cũng có thể mở ngay mã QR bằng Siri hoặc ứng dụng Phím tắt."
   },
   "pricing": {
-    "title": "Mọi tính năng đều miễn phí",
+    "title": "Bắt đầu miễn phí, chọn Plus hoặc Pro khi cần",
     "free": {
       "name": "Miễn phí",
       "items": [
         "Kết nối Wi-Fi từ ảnh chụp",
-        "Tạo mã QR và chia sẻ dưới dạng ảnh",
-        "Bảng cho khách với 7 chủ đề, dạng thẻ hoặc áp phích A4, in bằng AirPrint",
-        "Tiện ích trên Màn hình chính và Màn hình khóa",
-        "Bản đồ các Wi-Fi đã lưu",
+        "Tạo mã QR và chia sẻ dưới dạng ảnh, cả điểm phát sóng",
+        "Lưu tối đa 20 mạng Wi-Fi",
+        "Một bảng cho khách (dạng thẻ, 2 chủ đề) và in bằng AirPrint",
         "Không quảng cáo, không cần đăng ký"
       ]
     },
     "pro": {
-      "name": "Ủng hộ (tùy ý)",
+      "name": "Plus và Pro",
       "items": [
-        "Nếu thích, bạn có thể gửi tiền tip để ủng hộ việc phát triển",
-        "Tiền tip không mở khóa gì cả. Không tip vẫn dùng được mọi tính năng"
+        "Plus: không giới hạn Wi-Fi và bảng, đủ 7 chủ đề, tên cửa hàng, dòng thêm và nhãn, áp phích A4",
+        "Pro: mọi thứ của Plus, thêm tiện ích QR trên Màn hình chính và màn hình khóa, bản đồ nơi đã kết nối, Phím tắt và Siri, nhập từ ảnh chụp màn hình"
       ],
-      "note": "Tiền tip là một khoản thanh toán nhỏ, trả một lần."
+      "note": "Chọn gói tuần, tháng, năm hoặc trả một lần trọn đời."
     },
-    "note": "Không có gói đăng ký, không có tính năng trả phí."
+    "note": "Tiền tip chỉ là lời cảm ơn, không mở khóa tính năng nào. Nếu bạn dùng MyFi từ trước khi có tính năng trả phí, bạn vẫn giữ Pro."
   },
   "faq": {
     "title": "Câu hỏi thường gặp",
