@@ -34,6 +34,8 @@ struct WifiSnapApp: App {
                 .leeoFeedbackReplyNotice(WifiSnapSpec.self)
                 // 아이폰 듀오: 창 크기로 접힘을 재서 아래로 흘린다. 시트 · 알림창도 접힌 선을 비킨다 (LeeoKit Fold).
                 .foldAware()
+                // 유료가 되면 콘페티, 모든 사용자가 한 번은 감사를 받는다. 판정은 LeeoStore 가 한다 (LeeoKit).
+                .leeoCelebrations(appName: WifiSnapSpec.appName)
                 // 영수증을 읽고 요금제 상품을 불러온다. 팁 상품 · 끝나지 않은 팁도 LeeoStore 가 함께 챙긴다.
                 .task { await PurchaseManager.shared.refresh() }
         }
