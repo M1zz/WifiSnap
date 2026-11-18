@@ -10,144 +10,168 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 저장한 와이파이를 iPhone 검색에서 찾아요.
 검색 결과를 누르면 그 QR이 바로 열려요.
 단축어로 원하는 와이파이 QR을 열 수 있어요.
+Plus와 Pro 요금제로 더 많은 기능을 열 수 있어요.
 
 ### 앱스토어 (영어)
 
 Find saved Wi-Fi in iPhone search.
 Tap a result to open its QR instantly.
 Open any saved Wi-Fi QR with Shortcuts.
+New Plus and Pro plans unlock more.
 
 ### App Store (en-GB)
 
 Find saved Wi-Fi in iPhone search.
 Tap a result to open its QR instantly.
 Open any saved Wi-Fi QR with Shortcuts.
+New Plus and Pro plans unlock more.
 
 ### 앱스토어 (일본어)
 
 保存したWi-FiをiPhoneの検索で探せます。
 検索結果をタップするとQRがすぐ開きます。
 ショートカットで好きなWi-FiのQRを開けます。
+PlusとProプランで機能がさらに広がります。
 
 ### 앱스토어 (중국어(간체))
 
 在 iPhone 搜索中即可找到已存 Wi-Fi。
 轻点搜索结果即可直接打开二维码。
 可用快捷指令打开任意 Wi-Fi 二维码。
+全新 Plus 和 Pro 方案，解锁更多功能。
 
 ### 앱스토어 (중국어(번체))
 
 在 iPhone 搜尋中即可找到已存 Wi-Fi。
 點一下搜尋結果即可直接打開 QR 碼。
 可用捷徑打開任一 Wi-Fi 的 QR 碼。
+全新 Plus 與 Pro 方案，解鎖更多功能。
 
 ### 앱스토어 (러시아어)
 
 Ищите сохранённые сети в поиске iPhone.
 Нажмите на результат, чтобы открыть QR.
 Открывайте QR нужной сети через Команды.
+Новые планы Plus и Pro дают больше.
 
 ### 앱스토어 (스페인어)
 
 Busca tus redes wifi desde el iPhone.
 Toca un resultado y se abre su QR.
 Abre el QR de cualquier red con Atajos.
+Los planes Plus y Pro desbloquean más.
 
 ### 앱스토어 (독일어)
 
 Gespeicherte WLANs in der iPhone-Suche.
 Treffer antippen und QR-Code öffnen.
 QR jedes WLANs per Kurzbefehl öffnen.
+Neue Pläne Plus und Pro bieten mehr.
 
 ### 앱스토어 (프랑스어)
 
 Trouvez vos Wi-Fi dans la recherche.
 Touchez un résultat pour ouvrir son QR.
 Ouvrez le QR d'un Wi-Fi avec Raccourcis.
+Découvrez les offres Plus et Pro.
 
 ### 앱스토어 (이탈리아어)
 
 Trova i Wi-Fi salvati nella ricerca.
 Tocca un risultato per aprirne il QR.
 Apri il QR di ogni Wi-Fi con Comandi.
+Scopri i nuovi piani Plus e Pro.
 
 ### 앱스토어 (포르투갈어(브라질))
 
 Ache suas redes na busca do iPhone.
 Toque no resultado para abrir o QR.
 Abra o QR de qualquer rede com Atalhos.
+Conheça os novos planos Plus e Pro.
 
 ### 앱스토어 (태국어)
 
 หา Wi-Fi ที่บันทึกไว้ได้จากการค้นหา
 แตะผลการค้นหาเพื่อเปิด QR ได้ทันที
 เปิด QR ของ Wi-Fi ไหนก็ได้ด้วยคำสั่งลัด
+ปลดล็อกฟีเจอร์เพิ่มด้วยแผน Plus และ Pro
 
 ### 앱스토어 (베트남어)
 
 Tìm Wi-Fi đã lưu ngay trong tìm kiếm.
 Chạm vào kết quả để mở mã QR ngay.
 Mở mã QR của Wi-Fi bằng Phím tắt.
+Mở khóa thêm với gói Plus và Pro mới.
 
 ### 앱스토어 (체코어)
 
 Uložené sítě najdete v hledání iPhonu.
 Klepnutím na výsledek se otevře QR.
 QR libovolné sítě otevřete Zkratkami.
+Nové tarify Plus a Pro odemknou víc.
 
 ### 앱스토어 (덴마크어)
 
 Find gemte Wi-Fi i søgning på iPhone.
 Tryk på et resultat for at åbne QR.
 Åbn QR for et Wi-Fi med Genveje.
+Lås op for mere med Plus og Pro.
 
 ### 앱스토어 (그리스어)
 
 Βρείτε τα Wi-Fi σας στην αναζήτηση.
 Πατήστε ένα αποτέλεσμα για το QR.
 Ανοίξτε QR με τις Συντομεύσεις.
+Νέα πακέτα Plus και Pro με περισσότερα.
 
 ### 앱스토어 (핀란드어)
 
 Löydä tallennetut verkot hausta.
 Napauta tulosta, niin QR aukeaa heti.
 Avaa verkon QR Pikakomennoilla.
+Plus ja Pro avaavat lisää toimintoja.
 
 ### 앱스토어 (인도네시아어)
 
 Temukan Wi-Fi tersimpan di pencarian.
 Ketuk hasil untuk langsung membuka QR.
 Buka QR Wi-Fi mana pun lewat Pintasan.
+Coba paket Plus dan Pro yang baru.
 
 ### 앱스토어 (노르웨이어(보크말))
 
 Finn lagrede Wi-Fi i søk på iPhone.
 Trykk på et treff for å åpne QR-en.
 Åpne QR for et Wi-Fi med Snarveier.
+Lås opp mer med Plus og Pro.
 
 ### 앱스토어 (네덜란드어)
 
 Vind bewaarde wifi via zoeken op iPhone.
 Tik op een resultaat om de QR te openen.
 Open elke wifi-QR met Opdrachten.
+Ontgrendel meer met Plus en Pro.
 
 ### 앱스토어 (폴란드어)
 
 Znajdź zapisane sieci w wyszukiwarce.
 Stuknij wynik, by od razu otworzyć QR.
 Otwieraj QR dowolnej sieci Skrótami.
+Nowe plany Plus i Pro odblokują więcej.
 
 ### 앱스토어 (스웨덴어)
 
 Hitta sparade wifi i iPhone-sökningen.
 Tryck på en träff för att öppna QR.
 Öppna QR för valfritt wifi med Genvägar.
+Lås upp mer med Plus och Pro.
 
 ### 앱스토어 (튀르키예어)
 
 Kayıtlı ağları iPhone aramasında bulun.
 Sonuca dokunun, QR hemen açılsın.
 Ağın QR'ını Kestirmeler ile açın.
+Plus ve Pro ile daha fazlasını açın.
 
 ## 1.0.3
 
