@@ -73,7 +73,7 @@ Snap to join, print signs
 
 ### 키워드
 
-wireless,password,share,guest,poster,hotspot,cafe,rental,hostel,router,widget,camera,scan,airprint
+host,welcome sign,qr generator,printable,qr code generator,network,guest,share,hostel,airprint,cafe
 
 ### 프로모션 텍스트
 
@@ -195,7 +195,7 @@ MyFi:Wi-Fi QR
 
 ### 키워드
 
-パスワード,共有,ゲスト,無線,ホットスポット,カフェ,民泊,ホテル,店舗,ルーター,ウィジェット,カメラ,スキャン,ポスター,AirPrint,ネット,宿,QRコード,読み取り,飲食店,旅館,教室
+ゲストWi-Fi,WiFiパスワード,おもてなし,Wi-Fi共有,看板,QRコード生成,QRコード作成,QR作成,WiFi接続,無線,ゲスト,ホットスポット,ルーター,民泊,カフェ,教室,ポスター,宿
 
 ### 프로모션 텍스트
 
@@ -256,7 +256,7 @@ MyFi：Wi-Fi 二维码
 
 ### 키워드
 
-无线网络,密码,分享,扫码,访客,热点,咖啡馆,民宿,酒店,餐厅,店铺,路由器,小组件,相机,海报,AirPrint,识别,网络,门店,宾馆,办公室,教室,前台,蹭网,上网,密码分享,图片识别
+密码分享,访客网络,二维码制作,二维码生成,连网,wifi密码,共享wifi,无线密码,连wifi,wifi分享,访客,咖啡馆,扫码,蹭网,门店,AirPrint,密码,上网,教室,无线网络,分享
 
 ### 프로모션 텍스트
 
