@@ -1476,3 +1476,21 @@ darkInterface
 differentiateWithoutColor
 sufficientContrast
 reducedMotion
+
+## 심사 메모
+
+All 13 In-App Purchases are in this build. Eleven are visible right away; two appear only after a prior purchase. Please use a Sandbox account with no previous purchases (or clear its purchase history) and follow the steps in order.
+
+Visible right away (11):
+Tap the gear icon at the top of the main screen to open Settings, then tap "See plans". The Plus and Pro cards offer Yearly and Lifetime; tap "Show weekly and monthly" for Monthly and Weekly: com.leeo.wifisnap.plus, .plus.yearly, .plus.monthly, .plus.weekly, .pro, .pro.yearly, .pro.monthly, .pro.weekly.
+The three tips (.tip.small, .tip.medium, .tip.large) are under "Support the Developer" in Settings.
+
+com.leeo.wifisnap.pro.upgrade (Pro Lifetime for people who already own Plus Lifetime):
+1. Settings > See plans > Plus card > Lifetime > Buy lifetime.
+2. Open See plans again. On the Pro card choose Lifetime. The button now reads "Upgrade to Pro Lifetime". This is com.leeo.wifisnap.pro.upgrade.
+
+com.leeo.wifisnap.pro.graduate (switch an active subscription to lifetime):
+3. On the same Pro card tap "Show weekly and monthly", choose Weekly and tap Subscribe.
+4. Close the paywall and open Settings. Below "Manage subscription" a new row "Switch to Lifetime" appears. Tap it to see com.leeo.wifisnap.pro.graduate.
+
+If the Sandbox account already owns any Pro product, the Pro card no longer offers purchases and step 2 cannot be reached, so please start from an account with no purchases.
