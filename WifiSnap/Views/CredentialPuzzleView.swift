@@ -77,7 +77,7 @@ struct CredentialPuzzleView: View {
                 } else {
                     Text(value.wrappedValue.isEmpty
                          ? String(localized: "아래 조각을 탭하거나 직접 입력")
-                         : value.wrappedValue)
+                         : value.wrappedValue.bidiIsolated)
                         .font(.body.weight(.medium))
                         .foregroundStyle(value.wrappedValue.isEmpty ? Color(.placeholderText) : .primary)
                         .lineLimit(1)
@@ -169,7 +169,7 @@ struct CredentialPuzzleView: View {
             // 넣은 조각은 색만이 아니라 체크 표시로도 구별한다 (색맹·흑백 화면)
             HStack(spacing: 4) {
                 if isUsed { Image(systemName: "checkmark").accessibilityHidden(true) }
-                Text(token).lineLimit(1)
+                Text(token.bidiIsolated).lineLimit(1)
             }
             .font(.caption.weight(.medium))
             .padding(.horizontal, 10)

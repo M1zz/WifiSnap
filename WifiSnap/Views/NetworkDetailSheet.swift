@@ -39,7 +39,7 @@ struct NetworkDetailSheet: View {
                 VStack(spacing: 20) {
                     qrArea
                     // 이름은 어떤 길이여도 온전히 — 줄바꿈은 허용, 말줄임은 금지
-                    Text(network.ssid)
+                    Text(network.ssid.bidiIsolated)
                         .font(.title3.weight(.bold))
                         .multilineTextAlignment(.center)
                         .fixedSize(horizontal: false, vertical: true)
@@ -121,7 +121,7 @@ struct NetworkDetailSheet: View {
                     .font(.footnote)
                     .foregroundStyle(.secondary)
                     .accessibilityHidden(true)
-                Text(revealPassword ? network.password : String(repeating: "•", count: min(network.password.count, 12)))
+                Text(revealPassword ? network.password.bidiIsolated : String(repeating: "•", count: min(network.password.count, 12)))
                     .font(.body.monospaced())
                     .lineLimit(1)
                     .truncationMode(.middle)

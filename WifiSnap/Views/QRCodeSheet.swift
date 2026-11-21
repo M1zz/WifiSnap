@@ -35,7 +35,7 @@ struct QRCodeSheet: View {
                         .accessibilityLabel(String(localized: "\(ssid) 연결용 QR 코드"))
 
                     VStack(spacing: 4) {
-                        Text(ssid).font(.headline)
+                        Text(ssid.bidiIsolated).font(.headline)
                         Text("카메라로 비추면 바로 연결돼요")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)

@@ -173,7 +173,7 @@ struct PhotoTextPickerView: View {
             Text(label)
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(.secondary)
-            Text(value.isEmpty ? "…" : value)
+            Text(value.isEmpty ? "…" : value.bidiIsolated)
                 .font(.callout.weight(.medium))
                 .lineLimit(1)
                 .truncationMode(.middle)

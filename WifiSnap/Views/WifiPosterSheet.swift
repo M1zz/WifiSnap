@@ -212,7 +212,8 @@ struct WifiPosterView: View {
             if design.showPassword {
                 Divider().overlay(theme.foreground.opacity(0.12))
                 infoRow(label: design.passwordLabel,
-                        value: password.isEmpty ? String(localized: "없음 (개방)") : password, mono: true)
+                        value: password.isEmpty ? String(localized: "없음 (개방)") : password,
+                        mono: !password.isEmpty)
             }
         }
         .background(theme.panel, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
@@ -225,7 +226,7 @@ struct WifiPosterView: View {
                 .foregroundStyle(theme.secondary)
                 .fixedSize()   // 라벨을 바꿔 쓸 수 있으므로 고정 폭 대신 글자에 맞춘다
                 .frame(minWidth: 58, alignment: .leading)
-            Text(value)
+            Text(value.bidiIsolated)
                 .font(mono ? .callout.weight(.bold).monospaced() : .callout.weight(.bold))
                 .foregroundStyle(theme.foreground)
                 .textSelection(.enabled)
@@ -264,6 +265,8 @@ struct WifiPosterSheet: View {
     @State var design: PosterDesign
 
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.layoutDirection) private var layoutDirection
+    @Environment(\.locale) private var locale
 
     @State private var qrImage: UIImage?
     @State private var shareItem: ShareImage?
@@ -644,7 +647,10 @@ struct WifiPosterSheet: View {
     /// 현재 안내판을 고해상도 이미지로 렌더링해 시스템 공유 시트(인쇄 포함)로 전달.
     @MainActor
     private func exportPoster() {
-        let renderer = ImageRenderer(content: posterView)
+        // 렌더러는 화면의 환경을 물려받지 않는다 — 아랍어 안내판도 오른쪽에서 왼쪽으로 그리게 넘겨 준다
+        let renderer = ImageRenderer(content: posterView
+            .environment(\.layoutDirection, layoutDirection)
+            .environment(\.locale, locale))
         // 레이아웃별 배율 — 카드 3배(약 1020px), A4 6배(약 2160×3054px, 인쇄용)
         renderer.scale = layout.metrics.exportScale
         if let image = renderer.uiImage {

@@ -3,6 +3,12 @@
   "strings" : {
     "QR 위젯은 Pro" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أداة QR ضمن Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
     },
     "앱에서 한 번 연결하면 여기에 QR이 떠요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتصل مرة واحدة من التطبيق وسيظهر رمز QR هنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -299,6 +311,12 @@
     },
     "와이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "واي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -447,6 +465,12 @@
     },
     "와이파이 QR" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز QR للواي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -595,6 +619,12 @@
     },
     "와이파이 선택" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار شبكة واي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -743,6 +773,12 @@
     },
     "위젯에 고정할 와이파이를 고릅니다. 고르지 않으면 가장 최근에 연결한 와이파이를 보여줍니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر الشبكة التي تريد تثبيتها في الأداة. إن لم تختر، تُعرض آخر شبكة اتصلت بها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -891,6 +927,12 @@
     },
     "저장된 와이파이 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد شبكات محفوظة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1039,6 +1081,12 @@
     },
     "지금 연결된 와이파이의 QR을 보여줍니다. 길게 눌러 '위젯 편집'에서 특정 와이파이로 고정할 수도 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعرض رمز QR للشبكة المتصل بها الآن. المس مطولًا ثم اختر «تحرير الأداة» لتثبيت شبكة معيّنة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1187,6 +1235,12 @@
     },
     "지금 연결됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متصل الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1335,6 +1389,12 @@
     },
     "카메라로 비추면 바로 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجّه الكاميرا للاتصال فورًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1483,6 +1543,12 @@
     },
     "탭하면 큰 QR" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط لتكبير رمز QR"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1631,88 +1697,10 @@
     },
     "위젯에 보여 줄 저장한 와이파이" : {
       "localizations" : {
-        "ko" : {
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "위젯에 보여 줄 저장한 와이파이"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The saved Wi-Fi network to show in the widget"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The saved Wi-Fi network to show in the widget"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要在小组件中显示的已保存 Wi-Fi"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "要在小工具中顯示的已儲存 Wi-Fi"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ウィジェットに表示する保存済みのWi-Fi"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сохранённая сеть Wi-Fi для показа в виджете"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "La red Wi-Fi guardada que se mostrará en el widget"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Das gespeicherte WLAN, das im Widget angezeigt wird"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le réseau Wi-Fi enregistré à afficher dans le widget"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "La rete Wi-Fi salvata da mostrare nel widget"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "A rede Wi-Fi salva que aparece no widget"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Wi-Fi ที่บันทึกไว้ซึ่งจะแสดงในวิดเจ็ต"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mạng Wi-Fi đã lưu sẽ hiện trên tiện ích"
+            "value" : "الشبكة المحفوظة التي تظهر في الأداة"
           }
         },
         "cs" : {
@@ -1727,10 +1715,34 @@
             "value" : "Det gemte Wi-Fi-netværk, der vises i widgetten"
           }
         },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das gespeicherte WLAN, das im Widget angezeigt wird"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το αποθηκευμένο Wi-Fi που θα εμφανίζεται στο widget"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved Wi-Fi network to show in the widget"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved Wi-Fi network to show in the widget"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La red Wi-Fi guardada que se mostrará en el widget"
           }
         },
         "fi" : {
@@ -1739,10 +1751,34 @@
             "value" : "Widgetissä näytettävä tallennettu Wi-Fi-verkko"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le réseau Wi-Fi enregistré à afficher dans le widget"
+          }
+        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi tersimpan yang ditampilkan di widget"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La rete Wi-Fi salvata da mostrare nel widget"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ウィジェットに表示する保存済みのWi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "위젯에 보여 줄 저장한 와이파이"
           }
         },
         "nb" : {
@@ -1763,10 +1799,28 @@
             "value" : "Zapisana sieć Wi-Fi wyświetlana w widżecie"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A rede Wi-Fi salva que aparece no widget"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённая сеть Wi-Fi для показа в виджете"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det sparade Wi-Fi-nätverket som visas i widgeten"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi ที่บันทึกไว้ซึ่งจะแสดงในวิดเจ็ต"
           }
         },
         "tr" : {
@@ -1774,11 +1828,35 @@
             "state" : "translated",
             "value" : "Widget’ta gösterilecek kayıtlı Wi-Fi ağı"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mạng Wi-Fi đã lưu sẽ hiện trên tiện ích"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要在小组件中显示的已保存 Wi-Fi"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要在小工具中顯示的已儲存 Wi-Fi"
+          }
         }
       }
     },
     "탭해서 알아보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط لمعرفة المزيد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

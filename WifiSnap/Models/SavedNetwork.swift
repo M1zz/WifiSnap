@@ -160,3 +160,12 @@ final class NetworkStore: ObservableObject {
         WidgetCenter.shared.reloadAllTimelines()
     }
 }
+
+// MARK: - 값은 글 방향에 휩쓸리지 않게
+
+extension String {
+    /// 와이파이 이름 · 비밀번호처럼 사용자가 적은 값을 화면에 그릴 때 쓴다.
+    /// 아랍어(오른쪽에서 왼쪽) 화면에서는 값 끝의 기호가 앞으로 튀어 "lounge2026!" 이 "!lounge2026" 으로 보였다.
+    /// 앞뒤를 방향 격리 문자(FSI … PDI)로 감싸면 값은 제 글자 방향 그대로 놓인다. 저장 · 복사 · QR 에는 쓰지 않는다.
+    var bidiIsolated: String { "\u{2068}\(self)\u{2069}" }
+}

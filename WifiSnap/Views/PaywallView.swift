@@ -102,7 +102,7 @@ struct PaywallView: View {
     private var reason: String? {
         switch highlight {
         case .unlimitedNetworks:
-            String(localized: "연결은 그대로 돼요. 무료로는 와이파이를 \(FreeLimit.savedNetworks)개까지 저장해요.")
+            String(localized: "연결은 그대로 돼요. 무료로는 와이파이를 \(FreeLimit.savedNetworks)개까지 저장해요.", locale: .app)
         case .unlimitedSigns:
             String(localized: "무료로는 안내판을 한 장까지 만들어요.")   // FreeLimit.signs
         default:
@@ -497,7 +497,7 @@ struct PlanComparisonTable: View {
         case .yes:          String(localized: "포함")
         case .no:           String(localized: "없음")
         case .unlimited:    String(localized: "무제한")
-        case .count(let n): n.formatted()
+        case .count(let n): n.formatted(.number.locale(.app))
         }
     }
 }

@@ -70,7 +70,7 @@ final class PosterDesignStore: ObservableObject {
 
     @discardableResult
     func addNew() -> PosterDesign {
-        let design = PosterDesign(name: String(localized: "안내판 \(designs.count + 1)"))
+        let design = PosterDesign(name: String(localized: "안내판 \(designs.count + 1)", locale: .app))
         designs.insert(design, at: 0)
         persist()
         return design

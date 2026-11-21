@@ -108,7 +108,7 @@ struct PosterListSheet: View {
 
             Spacer(minLength: 4)
 
-            Image(systemName: "chevron.right")
+            Image(systemName: "chevron.forward")
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(.tertiary)
         }

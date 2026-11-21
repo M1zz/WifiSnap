@@ -38,6 +38,22 @@ struct WifiSnapApp: App {
                 .leeoCelebrations(appName: WifiSnapSpec.appName)
                 // 영수증을 읽고 요금제 상품을 불러온다. 팁 상품 · 끝나지 않은 팁도 LeeoStore 가 함께 챙긴다.
                 .task { await PurchaseManager.shared.refresh() }
+                // 숫자는 0-9 로 (아랍어에서 ١٢٣ 과 섞이지 않게 → Locale.app)
+                .environment(\.locale, .app)
         }
     }
+}
+
+// MARK: - 숫자는 0-9 로
+
+extension Locale {
+    /// 화면에 쓰는 로케일. 아랍어에서는 숫자를 0-9 로 맞춘다 — 사우디 기기는 ١٢٣ 이 기본이라
+    /// "لوحاتي (١٢)" 와 문구 속 "8 أحرف" 가 한 화면에 섞였다. 다른 언어는 기기 그대로.
+    static let app: Locale = {
+        let current = Locale.current
+        guard Bundle.main.preferredLocalizations.first == "ar" else { return current }
+        var parts = Locale.Components(locale: current)
+        parts.numberingSystem = Locale.NumberingSystem("latn")
+        return Locale(components: parts)
+    }()
 }

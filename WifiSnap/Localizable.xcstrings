@@ -3,6 +3,12 @@
   "strings" : {
     "%@ / 월" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / شهر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
     },
     "%@ / 주" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / أسبوع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -299,6 +311,12 @@
     },
     "%@ 사본" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسخة من ⁨%@⁩"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -447,6 +465,12 @@
     },
     "%@ 손님용 안내판 미리보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معاينة لوحة الضيوف لشبكة ⁨%@⁩"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -595,6 +619,12 @@
     },
     "%@ 연결용 QR 코드" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز QR للاتصال بشبكة ⁨%@⁩"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -743,6 +773,12 @@
     },
     "%@ 와이파이 QR" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز QR لشبكة ⁨%@⁩"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -891,6 +927,12 @@
     },
     "%@ 조각" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جزء ⁨%@⁩"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1039,6 +1081,12 @@
     },
     "'%@' 연결을 설정했어요.\n연결됐는지 확인하려면 위치 권한이 필요해요. (설정 > 마이파이 > 위치)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم إعداد الاتصال بشبكة «⁨%@⁩».\nللتأكد من نجاح الاتصال، يحتاج التطبيق إلى إذن الموقع. (الإعدادات > MyFi > الموقع)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1187,6 +1235,12 @@
     },
     "'%@' 와이파이에 붙지 못했어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر الانضمام إلى شبكة «⁨%@⁩»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1335,6 +1389,12 @@
     },
     "'%@' 표기로 다시 시도 중…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ المحاولة مجددًا بكتابة «⁨%@⁩»…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1483,6 +1543,12 @@
     },
     "'%@'에 연결했어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم الاتصال بشبكة «⁨%@⁩»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1631,6 +1697,12 @@
     },
     "A4 포스터" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملصق A4"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1779,6 +1851,12 @@
     },
     "Face ID 잠금" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القفل بـ Face ID"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1927,6 +2005,12 @@
     },
     "Face ID나 Touch ID로 앱을 잠가 저장한 비밀번호를 지켜요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقفل التطبيق بـ Face ID أو Touch ID لتبقى كلمات السر المحفوظة في أمان."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2075,6 +2159,12 @@
     },
     "Pro 평생으로 올리기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الترقية إلى Pro مدى الحياة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2223,6 +2313,12 @@
     },
     "QR 공유 · 핫스팟" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة QR ونقطة الاتصال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2371,6 +2467,12 @@
     },
     "QR 만드는 중…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ إنشاء رمز QR…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2519,6 +2621,12 @@
     },
     "QR 만들기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء رمز QR"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2667,6 +2775,12 @@
     },
     "QR 생성 실패" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر إنشاء رمز QR"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2815,6 +2929,12 @@
     },
     "QR 위젯" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أداة QR"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2963,6 +3083,12 @@
     },
     "QR 이미지 공유" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة صورة QR"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3111,6 +3237,12 @@
     },
     "QR만 만들면 이 폰은 연결하지 않고 저장만 해요. 비밀번호가 틀리면 QR도 연결되지 않으니 확인해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند إنشاء رمز QR فقط تُحفظ الشبكة دون أن يتصل بها هذا الهاتف. وإذا كانت كلمة السر خاطئة فلن يعمل رمز QR أيضًا، فتأكد منها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3259,6 +3391,12 @@
     },
     "QR을 만들지 못했어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر إنشاء رمز QR."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3407,6 +3545,12 @@
     },
     "SSID (와이파이 이름)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSID (اسم الشبكة)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3555,6 +3699,12 @@
     },
     "SSID 접두사가 올바르지 않아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بادئة SSID غير صالحة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3703,6 +3853,12 @@
     },
     "VoiceOver로 더 편하게" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تجربة أفضل مع VoiceOver"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3851,6 +4007,12 @@
     },
     "[마이파이 %@] 문의" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استفسار عن MyFi ⁨%@⁩"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3999,6 +4161,12 @@
     },
     "iOS는 저장된 와이파이 목록을 앱에 알려주지 않아서, 캡처가 유일한 방법이에요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يشارك iOS قائمة الشبكات المحفوظة مع التطبيقات، لذا فلقطة الشاشة هي الطريقة الوحيدة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4147,6 +4315,12 @@
     },
     "가게 이름 · 문구 · 라벨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم المتجر والنصوص والتسميات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4295,6 +4469,12 @@
     },
     "가져오기에 포함" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تضمين في الاستيراد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4443,6 +4623,48 @@
     },
     "가져온 이름 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم يُستورد أي اسم"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم استيراد اسم واحد"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم استيراد اسمين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم استيراد %lld أسماء"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم استيراد %lld اسمًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم استيراد %lld اسم"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4591,6 +4813,12 @@
     },
     "값 위를 손가락으로 문질러 고르세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرّر إصبعك فوق النص لتحديده"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4739,6 +4967,12 @@
     },
     "값을 불러오는 중…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ تحميل الأسعار…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4887,6 +5121,12 @@
     },
     "개인정보 처리방침" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سياسة الخصوصية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5035,6 +5275,12 @@
     },
     "건너뛰기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5183,6 +5429,12 @@
     },
     "고치는 즉시 저장돼요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُحفظ كل تعديل فورًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5331,6 +5583,12 @@
     },
     "공유" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5479,6 +5737,12 @@
     },
     "구독 관리" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إدارة الاشتراك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5627,6 +5891,12 @@
     },
     "구독은 기간이 끝나기 24시간 전까지 해지하지 않으면 같은 요금으로 자동 갱신되며, Apple 계정으로 결제됩니다. 해지와 관리는 App Store 계정 설정에서 합니다. 평생은 구독이 아니라 한 번 결제입니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتجدد الاشتراك تلقائيًا بالسعر نفسه ما لم يُلغَ قبل 24 ساعة على الأقل من نهاية مدته، ويُحصَّل المبلغ من حساب Apple. يمكنك إدارة الاشتراك أو إلغاؤه من إعدادات حسابك في App Store. أما خيار مدى الحياة فهو دفعة واحدة وليس اشتراكًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5775,6 +6045,12 @@
     },
     "구독하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اشترك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5923,6 +6199,12 @@
     },
     "구매 복원" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعادة المشتريات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6071,6 +6353,12 @@
     },
     "근처 와이파이 먼저" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشبكات القريبة أولًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6219,6 +6507,12 @@
     },
     "글자 되돌리기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعادة النص الأصلي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6367,6 +6661,12 @@
     },
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تتكيّف الشاشات بأناقة عند تكبير الخط دون أن يُقص أي نص."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6515,6 +6815,12 @@
     },
     "글자를 눌러 대소문자를 바꿀 수 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط على أي حرف لتبديله بين الكبير والصغير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6663,6 +6969,12 @@
     },
     "기기 간 동기화" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزامنة بين الأجهزة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6811,6 +7123,12 @@
     },
     "기기를 바꿔도 저장한 와이파이와 안내판이 그대로 이어져요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنتقل شبكاتك ولوحاتك المحفوظة معك عند تغيير جهازك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6959,6 +7277,12 @@
     },
     "내 데이터 한 번에 지우기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف كل بياناتي دفعة واحدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7107,6 +7431,12 @@
     },
     "내 버전" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطتك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7255,6 +7585,12 @@
     },
     "내 안내판" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لوحتي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7403,6 +7739,12 @@
     },
     "내 안내판 (%lld)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لوحاتي (%lld)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7551,6 +7893,12 @@
     },
     "내 핫스팟" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نقطة الاتصال الخاصة بي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7699,6 +8047,12 @@
     },
     "네트워크" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشبكة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7847,6 +8201,12 @@
     },
     "네트워크 라벨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسمية الشبكة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7995,6 +8355,12 @@
     },
     "네트워크 이름(SSID)이 올바르지 않아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم الشبكة (SSID) غير صالح."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8143,6 +8509,12 @@
     },
     "네트워크 정보를 확인해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُرجى التحقق من بيانات الشبكة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8291,6 +8663,12 @@
     },
     "다른 캡처 고르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار لقطة شاشة أخرى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8439,6 +8817,12 @@
     },
     "다시 불러오기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة المحاولة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8587,6 +8971,12 @@
     },
     "다음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8735,6 +9125,12 @@
     },
     "다크 모드" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوضع الداكن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8883,6 +9279,12 @@
     },
     "단축어 · Siri" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاختصارات وSiri"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9031,6 +9433,12 @@
     },
     "닫기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إغلاق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9179,6 +9587,12 @@
     },
     "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبقى كل شيء سهل القراءة حتى مع زيادة التباين أو صعوبة التمييز بين الألوان."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9327,6 +9741,12 @@
     },
     "더 많은 나라 말로 앱을 쓸 수 있게 해요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق بمزيد من اللغات."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9475,6 +9895,12 @@
     },
     "더 많은 언어" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لغات أكثر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9623,6 +10049,12 @@
     },
     "도움말" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المساعدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9771,6 +10203,12 @@
     },
     "두 번 탭하면 QR 코드로 돌아갑니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط مرتين للعودة إلى رمز QR."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9919,6 +10357,12 @@
     },
     "디자인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التصميم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10067,6 +10511,12 @@
     },
     "마이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10215,6 +10665,12 @@
     },
     "마이파이 Plus" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi Plus"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10363,6 +10819,12 @@
     },
     "마이파이 Plus · Pro" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi Plus وPro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10511,6 +10973,12 @@
     },
     "마이파이 Pro" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi Pro"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10659,6 +11127,12 @@
     },
     "맞는 것만 켜 두고, 틀린 글자는 눌러서 고친 뒤 오른쪽 위 '추가'를 누르세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أبقِ الأسماء الصحيحة فقط مفعّلة، واضغط على أي اسم لتصحيح أحرفه، ثم اضغط «إضافة» في الأعلى."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10807,6 +11281,12 @@
     },
     "매장 로고" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شعار المتجر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10955,6 +11435,12 @@
     },
     "매장 이름" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم المتجر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11103,6 +11589,12 @@
     },
     "매장마다 자리마다, 우리 가게답게" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لوحة لكل ركن، بأسلوب متجرك"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11251,6 +11743,12 @@
     },
     "매장이나 집에 둘 와이파이 안내판을 만들어\n인쇄하거나 이미지로 공유할 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صمّم لوحة واي فاي لمتجرك أو منزلك،\nثم اطبعها أو شاركها كصورة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11399,6 +11897,12 @@
     },
     "맨 아래 문구 (비우면 숨김)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السطر الأخير (يُخفى إذا تُرك فارغًا)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11547,6 +12051,12 @@
     },
     "메인 화면 카드에는 가장 최근에 고친 안내판이 보여요. 왼쪽으로 밀면 복제·삭제할 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعرض بطاقة الشاشة الرئيسية آخر لوحة عدّلتها. اسحب لليمين لتكرارها أو حذفها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11695,6 +12205,12 @@
     },
     "메일로 문의 (%@)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "راسلنا بالبريد (⁨%@⁩)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11843,6 +12359,12 @@
     },
     "모노" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أحادي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11991,6 +12513,12 @@
     },
     "모든 기능이 열려 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل الميزات متاحة لك."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12139,6 +12667,12 @@
     },
     "목록에서 바로 쓰기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجراءات سريعة من القائمة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12287,6 +12821,12 @@
     },
     "목록에서 와이파이 고르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار من القائمة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12435,6 +12975,12 @@
     },
     "무료" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مجاني"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12583,6 +13129,12 @@
     },
     "무료 와이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "واي فاي مجاني"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12731,6 +13283,12 @@
     },
     "무료로는 안내판을 한 장까지 만들어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تتيح النسخة المجانية لوحة واحدة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12879,6 +13437,12 @@
     },
     "무제한" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير محدود"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13027,6 +13591,12 @@
     },
     "문의" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل معنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13175,6 +13745,12 @@
     },
     "미드나잇" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منتصف الليل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13323,6 +13899,12 @@
     },
     "미리보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معاينة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13471,6 +14053,12 @@
     },
     "민트" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نعناعي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13619,6 +14207,12 @@
     },
     "백업과 내보내기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النسخ الاحتياطي والتصدير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13767,6 +14361,12 @@
     },
     "뱃지 (비우면 숨김)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشارة (تُخفى إذا تُركت فارغة)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13915,6 +14515,12 @@
     },
     "변경" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تغيير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14063,6 +14669,12 @@
     },
     "보기 편한 색과 대비" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ألوان وتباين أريح للعين"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14211,6 +14823,12 @@
     },
     "보내 주신 의견은 개발자가 하나하나 직접 읽어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ المطوّر كل رسالة ترسلها بنفسه."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14359,6 +14977,12 @@
     },
     "보여주기 전에 설정 > 개인용 핫스팟에서 ‘다른 사람의 연결 허용’을 켜 주세요. 꺼져 있으면 QR을 찍어도 네트워크를 찾지 못해요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبل عرضه، فعّل «السماح للآخرين بالانضمام» من الإعدادات > نقطة الاتصال الشخصية. إذا كان الخيار متوقفًا فلن يجد من يمسح رمز QR الشبكة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14507,6 +15131,12 @@
     },
     "보여주기만 하면 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اعرضه فيتصلون فورًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14655,6 +15285,12 @@
     },
     "복원" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعادة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14803,6 +15439,12 @@
     },
     "복제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تكرار"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14951,6 +15593,12 @@
     },
     "비밀번호" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15099,6 +15747,12 @@
     },
     "비밀번호 글자를 잘못 읽었을 수도 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ربما قُرئ أحد أحرف كلمة السر خطأً"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15247,6 +15901,12 @@
     },
     "비밀번호 라벨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسمية كلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15395,6 +16055,12 @@
     },
     "비밀번호 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إظهار كلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15543,6 +16209,12 @@
     },
     "비밀번호 복사" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسخ كلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15691,6 +16363,12 @@
     },
     "비밀번호 복사됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم نسخ كلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15839,6 +16517,12 @@
     },
     "비밀번호 숨기기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إخفاء كلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15987,6 +16671,12 @@
     },
     "비밀번호 지우기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح كلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16135,6 +16825,12 @@
     },
     "비밀번호 표시" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض كلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16283,6 +16979,12 @@
     },
     "비밀번호 형식이 올바르지 않아요. (WEP은 5자 또는 13자)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صيغة كلمة السر غير صالحة. (تحتاج WEP إلى 5 أو 13 حرفًا)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16431,6 +17133,12 @@
     },
     "비밀번호 형식이 올바르지 않아요. (WPA는 8~63자)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صيغة كلمة السر غير صالحة. (تحتاج WPA من 8 إلى 63 حرفًا)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16579,6 +17287,48 @@
     },
     "비밀번호가 %lld자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كلمة السر فارغة. يجب ألا تقل كلمة سر الواي فاي عن 8 أحرف (ومفاتيح WEP القديمة 5 أو 13). تأكد من عدم نقص أي حرف."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كلمة السر مكوّنة من حرف واحد. يجب ألا تقل كلمة سر الواي فاي عن 8 أحرف (ومفاتيح WEP القديمة 5 أو 13). تأكد من عدم نقص أي حرف."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كلمة السر مكوّنة من حرفين. يجب ألا تقل كلمة سر الواي فاي عن 8 أحرف (ومفاتيح WEP القديمة 5 أو 13). تأكد من عدم نقص أي حرف."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كلمة السر مكوّنة من %lld أحرف. يجب ألا تقل كلمة سر الواي فاي عن 8 أحرف (ومفاتيح WEP القديمة 5 أو 13). تأكد من عدم نقص أي حرف."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كلمة السر مكوّنة من %lld حرفًا. يجب ألا تقل كلمة سر الواي فاي عن 8 أحرف (ومفاتيح WEP القديمة 5 أو 13). تأكد من عدم نقص أي حرف."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "كلمة السر مكوّنة من %lld حرف. يجب ألا تقل كلمة سر الواي فاي عن 8 أحرف (ومفاتيح WEP القديمة 5 أو 13). تأكد من عدم نقص أي حرف."
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16727,6 +17477,12 @@
     },
     "비밀번호로 넣기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدامه ككلمة السر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16875,6 +17631,12 @@
     },
     "사진 속 QR에서 읽었어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تمت القراءة من رمز QR في الصورة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17023,6 +17785,12 @@
     },
     "사진 한 장으로 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتصل بصورة واحدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17171,6 +17939,12 @@
     },
     "사진에서 ID/PW를 찾지 못했어요. 직접 입력하거나 더 가까이서 선명하게 찍어보세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نعثر على اسم الشبكة أو كلمة السر في الصورة. أدخلهما يدويًا، أو صوّر من مسافة أقرب وبوضوح أكبر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17319,6 +18093,12 @@
     },
     "사진에서 고르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحديد من الصورة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17467,6 +18247,12 @@
     },
     "사진에서 문질러 고르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحديد بالتمرير على الصورة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17615,6 +18401,12 @@
     },
     "사진에서 읽은 이름 — 맞는 걸 골라주세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسماء قُرئت من الصورة: اختر الصحيح"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17763,6 +18555,12 @@
     },
     "사진에서 읽음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقروء من الصورة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17911,6 +18709,12 @@
     },
     "사진으로 자동 입력" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التعبئة من صورة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18059,6 +18863,12 @@
     },
     "삭제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18207,6 +19017,12 @@
     },
     "새 안내판" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لوحة جديدة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18355,6 +19171,12 @@
     },
     "선셋" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غروب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18503,6 +19325,12 @@
     },
     "선택" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18651,6 +19479,12 @@
     },
     "선택 사항 — 상단에 표시" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختياري، يظهر في الأعلى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18799,6 +19633,12 @@
     },
     "선택 안 됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير محدد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18947,6 +19787,12 @@
     },
     "선택됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محدد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19095,6 +19941,12 @@
     },
     "설정" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإعدادات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19243,6 +20095,12 @@
     },
     "설정 캡처에서 목록 가져오기…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استيراد القائمة من لقطة شاشة الإعدادات…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19391,6 +20249,12 @@
     },
     "손끝으로 느끼는 반응" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استجابة لمسية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19539,6 +20403,12 @@
     },
     "손님 안내판" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لوحات الضيوف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19687,6 +20557,12 @@
     },
     "손님 안내판부터 잠금 화면 QR까지. 연 구독이나 평생 중에 고르세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "من لوحات الضيوف إلى رمز QR على شاشة القفل. اختر الاشتراك السنوي أو مدى الحياة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19835,6 +20711,12 @@
     },
     "손님용 안내판 만들기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء لوحة واي فاي للضيوف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19983,6 +20865,12 @@
     },
     "손님용 안내판 인쇄·공유" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طباعة لوحة الضيوف أو مشاركتها"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20131,6 +21019,12 @@
     },
     "스캔한 와이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شبكات ممسوحة من صورة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20279,6 +21173,12 @@
     },
     "시스템 설정으로 관리되는 네트워크라 변경할 수 없어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تُدار هذه الشبكة من إعدادات النظام ولا يمكن تغييرها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20427,6 +21327,12 @@
     },
     "시작하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20575,6 +21481,12 @@
     },
     "아래 조각을 탭하거나 직접 입력" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط على جزء بالأسفل أو اكتبه يدويًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20723,6 +21635,12 @@
     },
     "아래 조각을 탭하면 빈 칸에 들어가요. 길게 누르면 아이디·비밀번호 중 어디에 넣을지 고를 수 있고, 끌어다 놓아도 돼요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط على أي جزء بالأسفل ليوضع في الخانة الفارغة. اضغط مطولًا لتختار بين اسم الشبكة وكلمة السر، أو اسحبه إلى مكانه."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20871,6 +21789,12 @@
     },
     "아이디" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم الشبكة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21019,6 +21943,12 @@
     },
     "아이디 지우기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح اسم الشبكة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21167,6 +22097,12 @@
     },
     "아이디로 넣기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدامه كاسم الشبكة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21315,6 +22251,12 @@
     },
     "아이폰 '설정 > Wi-Fi' 화면을 캡처한 뒤 그 사진을 고르면, 목록에 있는 이름을 읽어옵니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التقط لقطة شاشة لصفحة Wi-Fi في الإعدادات، ثم اخترها هنا ليقرأ التطبيق أسماء الشبكات في القائمة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21463,6 +22405,12 @@
     },
     "안내 문구" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرسالة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21611,6 +22559,12 @@
     },
     "안내문 촬영" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصوير اللوحة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21759,6 +22713,12 @@
     },
     "안내판 %lld" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لوحة %lld"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21907,6 +22867,12 @@
     },
     "안내판 만들기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء لوحة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22055,6 +23021,12 @@
     },
     "안내판 이름 (목록에서만 보임)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم اللوحة (يظهر في القائمة فقط)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22203,6 +23175,12 @@
     },
     "안내판 이미지 공유·인쇄" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة صورة اللوحة أو طباعتها"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22351,6 +23329,12 @@
     },
     "안내판 테마" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سمات اللوحات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22499,6 +23483,12 @@
     },
     "안내판에 인쇄되는 글자" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النص المطبوع على اللوحة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22647,6 +23637,12 @@
     },
     "안내판을 꾸미다 앱이 꺼져도 하던 내용이 남아 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبقى تصميم لوحتك كما هو حتى لو أُغلق التطبيق أثناء العمل عليه."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22795,6 +23791,12 @@
     },
     "알 수 없는 오류가 발생했어요. 신호 범위 안에 있는지 확인해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حدث خطأ غير معروف. تأكد من أنك ضمن نطاق الشبكة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22943,6 +23945,12 @@
     },
     "알림" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنبيهات الشبكات القريبة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23091,6 +24099,12 @@
     },
     "앨범" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصور"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23239,6 +24253,12 @@
     },
     "앱이 화면에 떠 있는 상태에서 시도해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُرجى المحاولة مجددًا والتطبيق مفتوح على الشاشة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23387,6 +24407,12 @@
     },
     "어두운 화면에서도 글자와 단추가 또렷하게 보여요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تبقى النصوص والأزرار واضحة في الوضع الداكن."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23535,6 +24561,12 @@
     },
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند فتح التطبيق أول مرة بعد التحديث، تعرّف على الجديد."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23683,6 +24715,12 @@
     },
     "업데이트 소식" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الجديد"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23831,6 +24869,12 @@
     },
     "없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير مشمول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23979,6 +25023,12 @@
     },
     "없음 (개방)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بدون (شبكة مفتوحة)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24127,6 +25177,12 @@
     },
     "여기서 저장한 와이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شبكات حُفظت هنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24275,6 +25331,12 @@
     },
     "연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتصال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24423,6 +25485,12 @@
     },
     "연결 실패" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر الاتصال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24571,6 +25639,12 @@
     },
     "연결 없이 QR 만들기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء رمز QR دون اتصال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24719,6 +25793,12 @@
     },
     "연결 중…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ الاتصال…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24867,6 +25947,12 @@
     },
     "연결 확인 창에서 '연결'을 눌러야 연결됩니다. 다시 시도해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يجب الضغط على «انضمام» في نافذة التأكيد. يُرجى المحاولة مجددًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25015,6 +26101,12 @@
     },
     "연결용 QR" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز QR للاتصال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25163,6 +26255,48 @@
     },
     "연결은 그대로 돼요. 무료로는 와이파이를 %lld개까지 저장해요." : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا يزال بإمكانك الاتصال. لا تحفظ النسخة المجانية أي شبكة."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا يزال بإمكانك الاتصال. تحفظ النسخة المجانية شبكة واحدة فقط."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا يزال بإمكانك الاتصال. تحفظ النسخة المجانية حتى شبكتين."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا يزال بإمكانك الاتصال. تحفظ النسخة المجانية حتى %lld شبكات."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا يزال بإمكانك الاتصال. تحفظ النسخة المجانية حتى %lld شبكة."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا يزال بإمكانك الاتصال. تحفظ النسخة المجانية حتى %lld شبكة."
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25311,6 +26445,12 @@
     },
     "연결했던 곳 지도" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خريطة الأماكن التي اتصلت فيها"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25459,6 +26599,12 @@
     },
     "영어 지원" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دعم كامل للإنجليزية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25607,6 +26753,12 @@
     },
     "영업시간, 인스타 계정, 매장 안내처럼 원하는 문구를 줄 단위로 넣으세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف ما تشاء من نصوص سطرًا سطرًا، مثل ساعات العمل أو حساب إنستغرام أو تعليمات المكان."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25755,6 +26907,12 @@
     },
     "예) 계산대용" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مثال: عند الكاشير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -25903,6 +27061,12 @@
     },
     "예) 라운지 카페" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مثال: مقهى لاونج"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26051,6 +27215,12 @@
     },
     "예) 영업시간 09:00–22:00" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مثال: نعمل من 9 ص إلى 10 م"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26199,6 +27369,12 @@
     },
     "오션" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محيط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26349,6 +27525,48 @@
       "comment" : "Tip ask card: how many Wi-Fi networks the person has saved",
       "extractionState" : "manual",
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم تحفظ أي شبكة واي فاي في MyFi بعد"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت شبكة واي فاي واحدة في MyFi"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت شبكتي واي فاي في MyFi"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت %lld شبكات واي فاي في MyFi"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت %lld شبكة واي فاي في MyFi"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت %lld شبكة واي فاي في MyFi"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "variations" : {
             "plural" : {
@@ -26689,6 +27907,12 @@
     },
     "와이파이 QR" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز QR للواي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26837,6 +28061,12 @@
     },
     "와이파이 QR 보여주기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض رمز QR للواي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -26985,6 +28215,12 @@
     },
     "와이파이 목록 가져오기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استيراد قائمة الشبكات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27133,6 +28369,12 @@
     },
     "와이파이 상세" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفاصيل الشبكة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27281,6 +28523,12 @@
     },
     "와이파이 선택" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار شبكة واي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27429,6 +28677,12 @@
     },
     "와이파이 안내문 촬영" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصوير لوحة الواي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27577,6 +28831,12 @@
     },
     "와이파이 이름" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم الشبكة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27725,6 +28985,12 @@
     },
     "와이파이 이름이 너무 길어요. (최대 32바이트)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم الشبكة طويل جدًا. (الحد الأقصى 32 بايت)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -27873,6 +29139,12 @@
     },
     "와이파이 이름이 비어 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم الشبكة فارغ."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28021,6 +29293,12 @@
     },
     "와이파이 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة شبكة واي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28169,6 +29447,12 @@
     },
     "와이파이에 연결되거나 글자를 읽어 내면 가볍게 떨려서 알려 줘요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اهتزاز خفيف عند الانضمام إلى شبكة أو عند التعرف على النص."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28317,6 +29601,12 @@
     },
     "와이파이에 연결하거나 '여기'에서 공유하면 그 위치가 지도에 기록돼요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند الاتصال بشبكة أو المشاركة من «هنا» يُسجَّل موقعها على الخريطة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28465,6 +29755,12 @@
     },
     "완료" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28613,6 +29909,12 @@
     },
     "외국인 손님도 읽을 수 있게 앱과 안내판을 영어로도 써요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق وأنشئ لوحات الواي فاي بالإنجليزية ليقرأها زوارك من الخارج أيضًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28761,6 +30063,12 @@
     },
     "요금제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخطط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -28909,6 +30217,12 @@
     },
     "요금제 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الخطط"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29057,6 +30371,12 @@
     },
     "요금제를 불러오지 못했어요. 인터넷 연결을 확인하고 다시 불러와 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر تحميل الخطط. تحقق من اتصالك بالإنترنت وحاول مجددًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29205,6 +30525,12 @@
     },
     "움직임 줄이기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقليل الحركة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29353,6 +30679,12 @@
     },
     "움직임 줄이기를 켜면 화면 효과가 차분해져요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تفعيل «تقليل الحركة» تصبح تأثيرات الشاشة أهدأ."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29501,6 +30833,12 @@
     },
     "원하면 앱 안에서 저장한 와이파이와 안내판을 모두 지울 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احذف كل شبكاتك ولوحاتك المحفوظة من داخل التطبيق متى شئت."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29649,6 +30987,12 @@
     },
     "월 구독" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شهري"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29797,6 +31141,12 @@
     },
     "위젯 · 지도 · 단축어 · 캡처로 가져오기는 Pro에서 열려요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأداة والخريطة والاختصارات والاستيراد من لقطة الشاشة متاحة في Pro."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -29945,6 +31295,12 @@
     },
     "의견 · 리뷰" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الآراء والتقييمات"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30093,6 +31449,12 @@
     },
     "이 Apple 계정에서 구매한 기록을 찾지 못했습니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نعثر على مشتريات لحساب Apple هذا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30241,6 +31603,12 @@
     },
     "이 네트워크는 일회성 연결을 지원하지 않아요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا تدعم هذه الشبكة الاتصال لمرة واحدة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30389,6 +31757,12 @@
     },
     "이 비밀번호로 다시 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة المحاولة بكلمة السر هذه"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30537,6 +31911,12 @@
     },
     "이 이름으로 다시 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة المحاولة بهذا الاسم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30685,6 +32065,12 @@
     },
     "이 줄 삭제" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف هذا السطر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30833,6 +32219,12 @@
     },
     "이 카드를 보여주세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اعرض هذه البطاقة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -30981,6 +32373,12 @@
     },
     "이 폰 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "توصيل هذا الهاتف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31129,6 +32527,12 @@
     },
     "이 폰에 설정됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مُعدّة على هذا الهاتف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31277,6 +32681,12 @@
     },
     "이 폰을 연결하거나, 연결 없이 QR만 만들어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصّل هذا الهاتف، أو أنشئ رمز QR فقط دون اتصال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31425,6 +32835,12 @@
     },
     "이 폰이 아는 와이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شبكات يعرفها هذا الهاتف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31573,6 +32989,12 @@
     },
     "이 폰이 아는 이름" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسماء يعرفها هذا الهاتف"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31721,6 +33143,12 @@
     },
     "이대로 쓰기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدام ما قُرئ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -31869,6 +33297,12 @@
     },
     "이런 표기일 수도 있어요:" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ربما تُكتب هكذا:"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32017,6 +33451,12 @@
     },
     "이름 읽는 중…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ قراءة الأسماء…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32165,6 +33605,12 @@
     },
     "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تأكد من صحة الاسم وكلمة السر تمامًا بما في ذلك الأحرف الكبيرة والصغيرة، ومن أنك ضمن نطاق الشبكة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32313,6 +33759,12 @@
     },
     "이름을 찾지 못했어요. 목록이 잘 보이게 다시 캡처하거나, 아래에서 직접 적어 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نعثر على أي أسماء. التقط لقطة شاشة أوضح للقائمة، أو اكتب الأسماء بالأسفل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32461,6 +33913,12 @@
     },
     "이름의 대소문자가 다를 수 있어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قد تختلف الأحرف الكبيرة والصغيرة في الاسم"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32609,6 +34067,12 @@
     },
     "이미 연결되어 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنت متصل بالفعل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32757,6 +34221,12 @@
     },
     "이미지 저장 · 인쇄" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ الصورة وطباعتها"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32905,6 +34375,12 @@
     },
     "이용약관" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شروط الاستخدام"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33053,6 +34529,12 @@
     },
     "이전 연결 요청을 처리 중이에요. 잠시 후 다시 시도해 주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يزال طلب اتصال سابق قيد التنفيذ. حاول مجددًا بعد قليل."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33201,6 +34683,12 @@
     },
     "인스타그램 DM (@lee25_ios)" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رسالة على إنستغرام (⁨@lee25_ios⁩)"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33349,6 +34837,12 @@
     },
     "인식 중…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ القراءة…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33497,6 +34991,48 @@
     },
     "읽어낸 이름 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم يُعثر على أي اسم"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم العثور على اسم واحد"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم العثور على اسمين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم العثور على %lld أسماء"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم العثور على %lld اسمًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم العثور على %lld اسم"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33645,6 +35181,12 @@
     },
     "잠김, %@에서 열려요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقفل، متاح في %@"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33793,6 +35335,12 @@
     },
     "저장된 네트워크" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشبكات المحفوظة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -33941,6 +35489,12 @@
     },
     "저장된 네트워크 없음" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد شبكات محفوظة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34089,6 +35643,12 @@
     },
     "저장한 와이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شبكاتي المحفوظة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34237,6 +35797,12 @@
     },
     "저장한 와이파이 지도" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خريطة الشبكات المحفوظة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34385,6 +35951,12 @@
     },
     "저장한 와이파이가 있는 곳에 오면 알림으로 알려 줘요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تلقَّ إشعارًا عند وصولك إلى مكان فيه شبكة محفوظة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34533,6 +36105,12 @@
     },
     "저장한 와이파이는 위치와 함께 기억돼요. 그 장소에 다시 오면 목록 맨 위로 올라오고 '📍 근처' 뱃지가 붙어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تُحفظ شبكاتك مع موقعها. عند عودتك إلى المكان نفسه تنتقل إلى أعلى القائمة مع شارة «📍 قريب»."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34681,6 +36259,12 @@
     },
     "저장한 와이파이와 안내판을 파일로 저장하고 다시 불러올 수 있어요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ شبكاتك ولوحاتك في ملف واستعدها لاحقًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34829,6 +36413,12 @@
     },
     "적용됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مُطبّق"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -34977,6 +36567,12 @@
     },
     "접힘" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مطويّ"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35119,6 +36715,12 @@
     },
     "제거" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إزالة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35267,6 +36869,12 @@
     },
     "제목" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنوان"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35415,6 +37023,12 @@
     },
     "조각을 탭해서 채우기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط على الأجزاء للتعبئة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35563,6 +37177,12 @@
     },
     "주 · 월 구독도 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الاشتراك الأسبوعي والشهري"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35711,6 +37331,12 @@
     },
     "주 구독" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسبوعي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -35859,6 +37485,12 @@
     },
     "줄 추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة سطر"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36007,6 +37639,12 @@
     },
     "지금 쓰는 칸" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطتك الحالية"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36155,6 +37793,12 @@
     },
     "지금 연결된 와이파이를 QR로 보여 주세요.\n친구가 카메라로 비추면 비밀번호를 몰라도 바로 연결돼요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اعرض رمز QR للشبكة التي تتصل بها الآن.\nعندما يوجّه صديقك الكاميرا إليه يتصل فورًا دون أن يعرف كلمة السر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36303,6 +37947,12 @@
     },
     "지금 연결된 와이파이의 QR을 엽니다. 연결된 와이파이가 저장돼 있지 않으면 가장 최근에 저장한 와이파이를 엽니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح رمز QR للشبكة المتصل بها الآن. وإذا لم تكن محفوظة يفتح آخر شبكة حفظتها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36451,6 +38101,12 @@
     },
     "지금 연결됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متصل الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36599,6 +38255,12 @@
     },
     "지도" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخريطة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36747,6 +38409,12 @@
     },
     "지도에 표시할 위치가 없어요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد مواقع لعرضها على الخريطة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -36895,6 +38563,12 @@
     },
     "직접 쓰는 줄" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسطر مخصّصة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37043,6 +38717,48 @@
     },
     "직접 쓴 줄 %lld개" : {
       "localizations" : {
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا توجد أسطر مخصّصة"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سطر مخصّص واحد"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "سطران مخصّصان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld أسطر مخصّصة"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld سطرًا مخصّصًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld سطر مخصّص"
+                }
+              }
+            }
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37191,6 +38907,12 @@
     },
     "직접 입력" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إدخال يدوي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37339,6 +39061,12 @@
     },
     "직접 입력…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إدخال يدوي…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37487,6 +39215,12 @@
     },
     "직접 입력한 와이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شبكات أدخلتها يدويًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37635,6 +39369,12 @@
     },
     "직접 적어 넣기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتبه يدويًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37783,6 +39523,12 @@
     },
     "찍어서 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوّر واتصل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37931,6 +39677,12 @@
     },
     "찍어서 연결하고 QR로 나누는 일은 계속 무료예요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التصوير للاتصال ومشاركة رمز QR مجانيان دائمًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38079,6 +39831,12 @@
     },
     "찾기 전에 먼저 나타나게" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تظهر أمامك قبل أن تبحث عنها"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38227,6 +39985,12 @@
     },
     "처음 안내 다시 보기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة عرض المقدمة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38375,6 +40139,12 @@
     },
     "처음부터 함께해 주셔서 고마워요. Pro를 평생 그대로 쓰세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شكرًا لأنك معنا منذ البداية. Pro لك مدى الحياة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38523,6 +40293,12 @@
     },
     "촬영" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكاميرا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38671,6 +40447,12 @@
     },
     "촬영·앨범·직접 입력" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكاميرا أو الصور أو الإدخال اليدوي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38819,6 +40601,12 @@
     },
     "추가" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -38967,6 +40755,12 @@
     },
     "친구가 QR을 카메라로 비추면 비밀번호 없이 바로 연결돼요. 카드를 밀거나 탭하면 손님용 안내판 미리보기로 뒤집혀요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عندما يوجّه صديقك الكاميرا إلى رمز QR يتصل فورًا دون كلمة سر. اسحب البطاقة أو اضغط عليها لتنقلب إلى معاينة لوحة الضيوف."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39115,6 +40909,12 @@
     },
     "카드" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بطاقة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39263,6 +41063,12 @@
     },
     "카메라로 QR을 비추면 자동 연결" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجّه الكاميرا إلى رمز QR للاتصال تلقائيًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39411,6 +41217,12 @@
     },
     "카메라로 비추면 바로 연결돼요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجّه الكاميرا إليه للاتصال فورًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39559,6 +41371,12 @@
     },
     "카메라로 비추면 비밀번호 없이 연결됩니다. 두 번 탭하면 안내판 미리보기로 뒤집습니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجّه الكاميرا إليه للاتصال دون كلمة سر. اضغط مرتين للانتقال إلى معاينة لوحة الضيوف."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39707,6 +41525,12 @@
     },
     "카메라를 열어 와이파이 안내문을 찍으면 이름과 비밀번호를 읽어 줍니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح الكاميرا لتصوّر لوحة الواي فاي ويقرأ اسم الشبكة وكلمة السر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39855,6 +41679,12 @@
     },
     "카페" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقهى"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40003,6 +41833,12 @@
     },
     "카페·숙소의 와이파이 안내문을 찍거나 앨범에서 고르세요.\n이름과 비밀번호를 읽어 이 폰을 연결해 줘요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوّر لوحة الواي فاي في المقهى أو مكان الإقامة، أو اخترها من صورك.\nيقرأ التطبيق الاسم وكلمة السر ويوصل هذا الهاتف."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40151,6 +41987,12 @@
     },
     "카페·숙소의 와이파이 안내문을 촬영하거나 앨범에서 고르면, ID와 비밀번호를 알아서 읽어 연결해요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوّر لوحة الواي فاي في المقهى أو مكان الإقامة أو اخترها من صورك، فيقرأ التطبيق اسم الشبكة وكلمة السر ويتصل تلقائيًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40299,6 +42141,12 @@
     },
     "캡처 고르기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار لقطة شاشة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40447,6 +42295,12 @@
     },
     "캡처로 목록 가져오기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاستيراد من لقطة شاشة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40595,6 +42449,12 @@
     },
     "캡처에서 가져옴" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مستورد من لقطة شاشة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40743,6 +42603,12 @@
     },
     "큰 글씨에 맞춘 화면" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشات تناسب الخط الكبير"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -40891,6 +42757,12 @@
     },
     "탭하면 빈 칸에 넣습니다. 길게 누르면 넣을 칸을 고릅니다." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط لوضعه في خانة فارغة، أو اضغط مطولًا لاختيار الخانة."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41039,6 +42911,12 @@
     },
     "편하게 이용하세요" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نتمنى لك وقتًا ممتعًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41187,6 +43065,12 @@
     },
     "펼쳐짐" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "موسّع"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41329,6 +43213,12 @@
     },
     "펼치는 아이폰 화면" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاشة iPhone القابل للطي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41477,6 +43367,12 @@
     },
     "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم الشاشة العريضة في iPhone القابل للطي كجزأين متجاورين."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41625,6 +43521,12 @@
     },
     "평생으로 사기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شراء مدى الحياة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41773,6 +43675,12 @@
     },
     "포레스트" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غابة"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -41921,6 +43829,12 @@
     },
     "포함" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشمول"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42069,6 +43983,12 @@
     },
     "하던 일 이어서 하기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تابع من حيث توقفت"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42217,6 +44137,12 @@
     },
     "핫스팟은 이 폰으로 연결할 수 없어요. QR을 만들어 상대에게 보여주세요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يمكن الانضمام إلى نقطة الاتصال من هذا الهاتف. أنشئ رمز QR واعرضه على الشخص الآخر."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42365,6 +44291,12 @@
     },
     "행을 탭하면 QR·상세가 열려요. 오른쪽으로 밀면 이 폰 연결, 왼쪽으로 밀면 QR 공유예요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط على أي صف لفتح رمز QR والتفاصيل. اسحب لليسار لتوصيل هذا الهاتف، أو لليمين لمشاركة رمز QR."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42513,6 +44445,12 @@
     },
     "형태" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشكل"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42661,6 +44599,12 @@
     },
     "화면 읽기 기능이 와이파이 정보와 단추를 빠짐없이, 알맞은 순서로 읽어 줘요." : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ VoiceOver كل تفاصيل الشبكة وكل زر بالترتيب الصحيح."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42809,6 +44753,12 @@
     },
     "확인" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -42957,6 +44907,12 @@
     },
     "확인 중…" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ التحقق…"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43105,6 +45061,12 @@
     },
     "📍 근처" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 قريب"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43253,6 +45215,12 @@
     },
     "📍 여기" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 هنا"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43401,6 +45369,12 @@
     },
     "📍 지금 연결됨" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📍 متصل الآن"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43549,6 +45523,12 @@
     },
     "📶 핫스팟" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "📶 نقطة اتصال"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -43697,88 +45677,10 @@
     },
     "와이파이 QR 열기" : {
       "localizations" : {
-        "ko" : {
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "와이파이 QR 열기"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open Wi-Fi QR"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open Wi-Fi QR"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开 Wi-Fi 二维码"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打開 Wi-Fi QR Code"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Wi-Fi QRを開く"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Открыть QR-код Wi-Fi"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abrir QR de Wi-Fi"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WLAN-QR-Code öffnen"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ouvrir le QR Wi-Fi"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apri QR Wi-Fi"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abrir QR do Wi-Fi"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "เปิด QR ของ Wi-Fi"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mở mã QR Wi-Fi"
+            "value" : "فتح رمز QR للواي فاي"
           }
         },
         "cs" : {
@@ -43793,10 +45695,34 @@
             "value" : "Åbn Wi-Fi QR"
           }
         },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WLAN-QR-Code öffnen"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Άνοιγμα QR Wi-Fi"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Wi-Fi QR"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Wi-Fi QR"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir QR de Wi-Fi"
           }
         },
         "fi" : {
@@ -43805,10 +45731,34 @@
             "value" : "Avaa Wi-Fi-QR"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir le QR Wi-Fi"
+          }
+        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buka QR Wi-Fi"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri QR Wi-Fi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi QRを開く"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "와이파이 QR 열기"
           }
         },
         "nb" : {
@@ -43829,10 +45779,28 @@
             "value" : "Otwórz kod QR Wi-Fi"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir QR do Wi-Fi"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть QR-код Wi-Fi"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öppna Wi-Fi-QR"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิด QR ของ Wi-Fi"
           }
         },
         "tr" : {
@@ -43840,93 +45808,33 @@
             "state" : "translated",
             "value" : "Wi-Fi QR’ını aç"
           }
-        }
-      }
-    },
-    "저장한 와이파이 하나를 골라 그 QR 화면을 엽니다." : {
-      "localizations" : {
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "저장한 와이파이 하나를 골라 그 QR 화면을 엽니다."
-          }
         },
-        "en" : {
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opens the QR code screen for a Wi-Fi network you saved."
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Opens the QR code screen for a Wi-Fi network you saved."
+            "value" : "Mở mã QR Wi-Fi"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打开你保存的某个 Wi-Fi 的二维码页面。"
+            "value" : "打开 Wi-Fi 二维码"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "打開你儲存的某個 Wi-Fi 的 QR Code 畫面。"
+            "value" : "打開 Wi-Fi QR Code"
           }
-        },
-        "ja" : {
+        }
+      }
+    },
+    "저장한 와이파이 하나를 골라 그 QR 화면을 엽니다." : {
+      "localizations" : {
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "保存したWi-FiのQRコード画面を開きます。"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Открывает экран с QR-кодом сохранённой сети Wi-Fi."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abre la pantalla del código QR de una red Wi-Fi que guardaste."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Öffnet den QR-Code eines gespeicherten WLANs."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ouvre l’écran du code QR d’un réseau Wi-Fi enregistré."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apre la schermata del codice QR di una rete Wi-Fi salvata."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Abre a tela do QR de uma rede Wi-Fi que você salvou."
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "เปิดหน้า QR ของ Wi-Fi ที่คุณบันทึกไว้"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mở màn hình mã QR của một mạng Wi-Fi bạn đã lưu."
+            "value" : "اختر شبكة محفوظة لفتح شاشة رمز QR الخاص بها."
           }
         },
         "cs" : {
@@ -43941,10 +45849,34 @@
             "value" : "Åbner QR-koden for et Wi-Fi-netværk, du har gemt."
           }
         },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnet den QR-Code eines gespeicherten WLANs."
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ανοίγει την οθόνη QR ενός αποθηκευμένου δικτύου Wi-Fi."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens the QR code screen for a Wi-Fi network you saved."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens the QR code screen for a Wi-Fi network you saved."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre la pantalla del código QR de una red Wi-Fi que guardaste."
           }
         },
         "fi" : {
@@ -43953,10 +45885,34 @@
             "value" : "Avaa tallentamasi Wi-Fi-verkon QR-koodinäkymän."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvre l’écran du code QR d’un réseau Wi-Fi enregistré."
+          }
+        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Membuka layar kode QR untuk Wi-Fi yang kamu simpan."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apre la schermata del codice QR di una rete Wi-Fi salvata."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存したWi-FiのQRコード画面を開きます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장한 와이파이 하나를 골라 그 QR 화면을 엽니다."
           }
         },
         "nb" : {
@@ -43977,10 +45933,28 @@
             "value" : "Otwiera ekran z kodem QR zapisanej sieci Wi-Fi."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre a tela do QR de uma rede Wi-Fi que você salvou."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открывает экран с QR-кодом сохранённой сети Wi-Fi."
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öppnar QR-koden för ett Wi-Fi-nätverk du har sparat."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดหน้า QR ของ Wi-Fi ที่คุณบันทึกไว้"
           }
         },
         "tr" : {
@@ -43988,93 +45962,33 @@
             "state" : "translated",
             "value" : "Kaydettiğin bir Wi-Fi ağının QR ekranını açar."
           }
-        }
-      }
-    },
-    "QR을 열 저장한 와이파이" : {
-      "localizations" : {
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "QR을 열 저장한 와이파이"
-          }
         },
-        "en" : {
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The saved Wi-Fi network whose QR code to open"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The saved Wi-Fi network whose QR code to open"
+            "value" : "Mở màn hình mã QR của một mạng Wi-Fi bạn đã lưu."
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "要打开二维码的已保存 Wi-Fi"
+            "value" : "打开你保存的某个 Wi-Fi 的二维码页面。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "要打開 QR Code 的已儲存 Wi-Fi"
+            "value" : "打開你儲存的某個 Wi-Fi 的 QR Code 畫面。"
           }
-        },
-        "ja" : {
+        }
+      }
+    },
+    "QR을 열 저장한 와이파이" : {
+      "localizations" : {
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "QRコードを開く保存済みのWi-Fi"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сохранённая сеть Wi-Fi, QR-код которой нужно открыть"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "La red Wi-Fi guardada cuyo QR quieres abrir"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Das gespeicherte WLAN, dessen QR-Code geöffnet wird"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Le réseau Wi-Fi enregistré dont ouvrir le QR"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "La rete Wi-Fi salvata di cui aprire il QR"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "A rede Wi-Fi salva cujo QR será aberto"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Wi-Fi ที่บันทึกไว้ซึ่งจะเปิด QR"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mạng Wi-Fi đã lưu cần mở mã QR"
+            "value" : "الشبكة المحفوظة التي تريد فتح رمز QR لها"
           }
         },
         "cs" : {
@@ -44089,10 +46003,34 @@
             "value" : "Det gemte Wi-Fi-netværk, hvis QR-kode skal åbnes"
           }
         },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das gespeicherte WLAN, dessen QR-Code geöffnet wird"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Το αποθηκευμένο Wi-Fi του οποίου θα ανοίξει το QR"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved Wi-Fi network whose QR code to open"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved Wi-Fi network whose QR code to open"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La red Wi-Fi guardada cuyo QR quieres abrir"
           }
         },
         "fi" : {
@@ -44101,10 +46039,34 @@
             "value" : "Tallennettu Wi-Fi-verkko, jonka QR-koodi avataan"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le réseau Wi-Fi enregistré dont ouvrir le QR"
+          }
+        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wi-Fi tersimpan yang kode QR-nya akan dibuka"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La rete Wi-Fi salvata di cui aprire il QR"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QRコードを開く保存済みのWi-Fi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR을 열 저장한 와이파이"
           }
         },
         "nb" : {
@@ -44125,10 +46087,28 @@
             "value" : "Zapisana sieć Wi-Fi, której kod QR ma się otworzyć"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A rede Wi-Fi salva cujo QR será aberto"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённая сеть Wi-Fi, QR-код которой нужно открыть"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det sparade Wi-Fi-nätverket vars QR-kod ska öppnas"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi ที่บันทึกไว้ซึ่งจะเปิด QR"
           }
         },
         "tr" : {
@@ -44136,93 +46116,33 @@
             "state" : "translated",
             "value" : "QR’ı açılacak kayıtlı Wi-Fi ağı"
           }
-        }
-      }
-    },
-    "Siri에게 말로 부탁하기" : {
-      "localizations" : {
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri에게 말로 부탁하기"
-          }
         },
-        "en" : {
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Just ask Siri"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Just ask Siri"
+            "value" : "Mạng Wi-Fi đã lưu cần mở mã QR"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "直接问 Siri"
+            "value" : "要打开二维码的已保存 Wi-Fi"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "直接問 Siri"
+            "value" : "要打開 QR Code 的已儲存 Wi-Fi"
           }
-        },
-        "ja" : {
+        }
+      }
+    },
+    "Siri에게 말로 부탁하기" : {
+      "localizations" : {
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Siriに話しかけるだけ"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Просто попросите Siri"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pídeselo a Siri"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Einfach Siri fragen"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Demandez simplement à Siri"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chiedi a Siri"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "É só pedir à Siri"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "แค่บอก Siri"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chỉ cần nhờ Siri"
+            "value" : "اطلب من Siri"
           }
         },
         "cs" : {
@@ -44237,10 +46157,34 @@
             "value" : "Spørg bare Siri"
           }
         },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einfach Siri fragen"
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Απλώς ζητήστε το από τη Siri"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just ask Siri"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just ask Siri"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pídeselo a Siri"
           }
         },
         "fi" : {
@@ -44249,10 +46193,34 @@
             "value" : "Pyydä vain Siriä"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Demandez simplement à Siri"
+          }
+        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cukup minta Siri"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiedi a Siri"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siriに話しかけるだけ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri에게 말로 부탁하기"
           }
         },
         "nb" : {
@@ -44273,10 +46241,28 @@
             "value" : "Wystarczy poprosić Siri"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "É só pedir à Siri"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Просто попросите Siri"
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fråga bara Siri"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แค่บอก Siri"
           }
         },
         "tr" : {
@@ -44284,93 +46270,33 @@
             "state" : "translated",
             "value" : "Siri’ye söylemen yeterli"
           }
-        }
-      }
-    },
-    "앱 이름을 말하지 않아도 Siri가 저장한 와이파이를 찾아 QR을 바로 보여 줘요." : {
-      "localizations" : {
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "앱 이름을 말하지 않아도 Siri가 저장한 와이파이를 찾아 QR을 바로 보여 줘요."
-          }
         },
-        "en" : {
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Siri will find your saved Wi-Fi and show its QR code, even if you don’t say the app’s name."
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri will find your saved Wi-Fi and show its QR code, even if you don’t say the app’s name."
+            "value" : "Chỉ cần nhờ Siri"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "即使不说出 App 名称，Siri 也能找到你保存的 Wi-Fi 并直接显示二维码。"
+            "value" : "直接问 Siri"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "即使不說出 App 名稱，Siri 也能找到你儲存的 Wi-Fi 並直接顯示 QR Code。"
+            "value" : "直接問 Siri"
           }
-        },
-        "ja" : {
+        }
+      }
+    },
+    "앱 이름을 말하지 않아도 Siri가 저장한 와이파이를 찾아 QR을 바로 보여 줘요." : {
+      "localizations" : {
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "アプリ名を言わなくても、Siriが保存したWi-Fiを見つけてすぐにQRコードを表示します。"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri найдёт сохранённую сеть Wi-Fi и сразу покажет её QR-код, даже если не называть приложение."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri encontrará tu Wi-Fi guardada y mostrará su QR al instante, aunque no digas el nombre de la app."
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri findet dein gespeichertes WLAN und zeigt sofort den QR-Code – auch ohne den App-Namen zu nennen."
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri trouvera votre réseau Wi-Fi enregistré et affichera son QR, même sans dire le nom de l’app."
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri troverà la rete Wi-Fi salvata e ne mostrerà subito il QR, anche senza dire il nome dell’app."
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "A Siri vai encontrar o Wi-Fi salvo e mostrar o QR na hora, mesmo sem você dizer o nome do app."
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri จะหา Wi-Fi ที่คุณบันทึกไว้และแสดง QR ให้ทันที แม้ไม่ได้พูดชื่อแอป"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siri sẽ tìm Wi-Fi bạn đã lưu và hiện mã QR ngay, kể cả khi bạn không nói tên ứng dụng."
+            "value" : "يجد Siri شبكتك المحفوظة ويعرض رمز QR لها فورًا، حتى دون ذكر اسم التطبيق."
           }
         },
         "cs" : {
@@ -44385,10 +46311,34 @@
             "value" : "Siri finder dit gemte Wi-Fi og viser QR-koden med det samme – også uden at du siger appens navn."
           }
         },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri findet dein gespeichertes WLAN und zeigt sofort den QR-Code – auch ohne den App-Namen zu nennen."
+          }
+        },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Η Siri θα βρει το αποθηκευμένο Wi-Fi και θα δείξει αμέσως το QR, ακόμη κι αν δεν πείτε το όνομα της εφαρμογής."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri will find your saved Wi-Fi and show its QR code, even if you don’t say the app’s name."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri will find your saved Wi-Fi and show its QR code, even if you don’t say the app’s name."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri encontrará tu Wi-Fi guardada y mostrará su QR al instante, aunque no digas el nombre de la app."
           }
         },
         "fi" : {
@@ -44397,10 +46347,34 @@
             "value" : "Siri löytää tallentamasi Wi-Fi-verkon ja näyttää sen QR-koodin heti, vaikka et sanoisi apin nimeä."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri trouvera votre réseau Wi-Fi enregistré et affichera son QR, même sans dire le nom de l’app."
+          }
+        },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri akan menemukan Wi-Fi yang kamu simpan dan langsung menampilkan QR-nya, meski kamu tidak menyebut nama aplikasinya."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri troverà la rete Wi-Fi salvata e ne mostrerà subito il QR, anche senza dire il nome dell’app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリ名を言わなくても、Siriが保存したWi-Fiを見つけてすぐにQRコードを表示します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱 이름을 말하지 않아도 Siri가 저장한 와이파이를 찾아 QR을 바로 보여 줘요."
           }
         },
         "nb" : {
@@ -44421,10 +46395,28 @@
             "value" : "Siri znajdzie zapisaną sieć Wi-Fi i od razu pokaże jej kod QR, nawet jeśli nie podasz nazwy aplikacji."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Siri vai encontrar o Wi-Fi salvo e mostrar o QR na hora, mesmo sem você dizer o nome do app."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri найдёт сохранённую сеть Wi-Fi и сразу покажет её QR-код, даже если не называть приложение."
+          }
+        },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri hittar ditt sparade Wi-Fi och visar QR-koden direkt, även om du inte säger appens namn."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri จะหา Wi-Fi ที่คุณบันทึกไว้และแสดง QR ให้ทันที แม้ไม่ได้พูดชื่อแอป"
           }
         },
         "tr" : {
@@ -44432,11 +46424,35 @@
             "state" : "translated",
             "value" : "Uygulamanın adını söylemesen bile Siri kayıtlı Wi-Fi’ını bulup QR’ını hemen gösterir."
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri sẽ tìm Wi-Fi bạn đã lưu và hiện mã QR ngay, kể cả khi bạn không nói tên ứng dụng."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使不说出 App 名称，Siri 也能找到你保存的 Wi-Fi 并直接显示二维码。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使不說出 App 名稱，Siri 也能找到你儲存的 Wi-Fi 並直接顯示 QR Code。"
+          }
         }
       }
     },
     "와이파이" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "واي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

@@ -73,7 +73,7 @@ struct MapSheet: View {
                 .frame(width: 40, height: 40)
                 .background(.green, in: RoundedRectangle(cornerRadius: 10))
             VStack(alignment: .leading, spacing: 2) {
-                Text(net.ssid)
+                Text(net.ssid.bidiIsolated)
                     .font(.headline)
                     .lineLimit(1)
                     .truncationMode(.middle)

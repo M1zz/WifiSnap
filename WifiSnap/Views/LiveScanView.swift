@@ -73,7 +73,7 @@ struct LiveScanView: View {
             Text(label)
                 .font(.caption.weight(.semibold))
                 .foregroundStyle(.secondary)
-            Text(value.isEmpty ? "…" : value)
+            Text(value.isEmpty ? "…" : value.bidiIsolated)
                 .font(.body.weight(.medium))
                 .lineLimit(1)
                 .truncationMode(.middle)

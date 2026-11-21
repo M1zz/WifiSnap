@@ -68,6 +68,9 @@ struct ContentView: View {
 
     /// 아이폰 듀오를 폈는가. 펴면 와이파이 상세(QR)가 결과 쪽 판에 늘 서 있다.
     @Environment(\.foldLayout) private var fold
+    // 접힌 칸의 꺾쇠는 글 방향 쪽을 가리킨다 (아랍어에서는 왼쪽)
+    @Environment(\.layoutDirection) private var layoutDirection
+    private var collapsedAngle: Double { layoutDirection == .rightToLeft ? 90 : -90 }
     /// 펼친 화면에서 목록으로 고른 와이파이. 없으면 지금 연결된 것, 그다음 가장 최근 것.
     @State private var foldSelectedID: UUID?
 
@@ -539,7 +542,7 @@ struct ContentView: View {
         } label: {
             HStack(spacing: 8) {
                 Image(systemName: "wifi").foregroundStyle(.secondary)
-                Text(credentials.ssid.isEmpty ? String(localized: "와이파이 선택") : credentials.ssid)
+                Text(credentials.ssid.isEmpty ? String(localized: "와이파이 선택") : credentials.ssid.bidiIsolated)
                     .foregroundStyle(credentials.ssid.isEmpty ? .secondary : .primary)
                     .lineLimit(1)
                     .truncationMode(.middle)
@@ -629,7 +632,7 @@ struct ContentView: View {
                         Text("📍 지금 연결됨")
                             .font(.caption.weight(.semibold))
                             .foregroundStyle(.green)
-                        Text(network.ssid)
+                        Text(network.ssid.bidiIsolated)
                             .font(.title3.weight(.bold))
                             .lineLimit(1)
                             .truncationMode(.middle)
@@ -681,7 +684,7 @@ struct ContentView: View {
                     Image(systemName: "chevron.down")
                         .font(.caption.weight(.semibold))
                         .foregroundStyle(.secondary)
-                        .rotationEffect(.degrees(scanExpanded ? 0 : -90))
+                        .rotationEffect(.degrees(scanExpanded ? 0 : collapsedAngle))
                         .accessibilityHidden(true)
                 }
                 .contentShape(Rectangle())
@@ -983,7 +986,7 @@ struct ContentView: View {
                         Image(systemName: "chevron.down")
                             .font(.caption.weight(.semibold))
                             .foregroundStyle(.secondary)
-                            .rotationEffect(.degrees(savedExpanded ? 0 : -90))
+                            .rotationEffect(.degrees(savedExpanded ? 0 : collapsedAngle))
                             .accessibilityHidden(true)
                     }
                     .contentShape(Rectangle())
@@ -1072,7 +1075,7 @@ struct ContentView: View {
                     .accessibilityHidden(true)
 
                 // 이름은 어떤 길이여도 잘리지 않는다 — 모자라면 여러 줄로 감싼다
-                Text(network.ssid)
+                Text(network.ssid.bidiIsolated)
                     .font(.body.weight(.medium))
                     .multilineTextAlignment(.leading)
                     .fixedSize(horizontal: false, vertical: true)
@@ -1095,7 +1098,7 @@ struct ContentView: View {
                         .fixedSize()   // 뱃지는 압축·줄바꿈 없이 항상 온전히
                 }
 
-                Image(systemName: "chevron.right")
+                Image(systemName: "chevron.forward")
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.tertiary)
                     .accessibilityHidden(true)
@@ -1426,6 +1429,8 @@ private struct ConnectedFlipCard: View {
     @State private var posterImage: UIImage?
     @State private var flipped = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.layoutDirection) private var layoutDirection
+    @Environment(\.locale) private var locale
     /// 카드 실제 폭 — 뒷면 안내판을 축소 없이 보여주려면 필요하다
     @State private var cardWidth: CGFloat = 330
 
@@ -1544,7 +1549,10 @@ private struct ConnectedFlipCard: View {
         cardDesign.layoutID = PosterLayout.card.rawValue
         let poster = WifiPosterView(ssid: ssid, password: password,
                                     design: cardDesign, qrImage: qr)
-        let renderer = ImageRenderer(content: poster)
+        // 렌더러는 화면의 환경을 물려받지 않는다 — 아랍어 안내판도 오른쪽에서 왼쪽으로 그리게 넘겨 준다
+        let renderer = ImageRenderer(content: poster
+            .environment(\.layoutDirection, layoutDirection)
+            .environment(\.locale, locale))
         renderer.scale = 3
         posterImage = renderer.uiImage
     }

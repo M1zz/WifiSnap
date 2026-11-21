@@ -53,6 +53,7 @@ enum ScreenshotMode {
         "pl": Demo(hotspot: "iPhone Zosi", bakery: "Piekarnia Księżyc", store: "Kawiarnia Lounge", signName: "Lada na parterze", hours: "Czynne 9:00–22:00"),
         "sv": Demo(hotspot: "Elsas iPhone", bakery: "Bageriet Månsken", store: "Lounge Café", signName: "Disken", hours: "Öppet 9–22"),
         "tr": Demo(hotspot: "Elif’in iPhone’u", bakery: "Ay Işığı Fırını", store: "Lounge Kafe", signName: "Giriş kasası", hours: "Açık 09.00 - 22.00"),
+        "ar": Demo(hotspot: "iPhone نورة", bakery: "مخبز ضوء القمر", store: "مقهى لاونج", signName: "كاونتر الاستقبال", hours: "أوقات العمل 9 ص - 10 م"),
     ]
 
     static var demo: Demo {

@@ -3,6 +3,12 @@
   "strings" : {
     "CFBundleDisplayName" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MyFi"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
     },
     "NSCameraUsageDescription" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يستخدم MyFi الكاميرا لقراءة اسم الشبكة وكلمة السر من لوحة الواي فاي التي تصوّرها."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -299,6 +311,12 @@
     },
     "NSLocationWhenInUseUsageDescription" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مطلوب لمعرفة اسم شبكة الواي فاي المتصل بها حاليًا."
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

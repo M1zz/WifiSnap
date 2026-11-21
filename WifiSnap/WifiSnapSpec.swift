@@ -75,7 +75,7 @@ enum WifiSnapTipMoments {
     static func reached(savedCount count: Int) -> [LeeoTipMoment] {
         saved.filter { count >= $0 }.map { threshold in
             LeeoTipMoment(id: "saved.\(threshold)",
-                          message: String(localized: "와이파이 \(count)개를 마이파이에 모아 두었어요",
+                          message: String(localized: "와이파이 \(count)개를 마이파이에 모아 두었어요", locale: .app,
                                           comment: "Tip ask card: how many Wi-Fi networks the person has saved"))
         }
     }

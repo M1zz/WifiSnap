@@ -3,6 +3,12 @@
   "strings" : {
     "CFBundleDisplayName" : {
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز QR للواي فاي"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",

@@ -38,7 +38,7 @@ enum WifiConnector {
             case .ssidTooLong:
                 return String(localized: "와이파이 이름이 너무 길어요. (최대 32바이트)")
             case .badPasswordLength(let count):
-                return String(localized: "비밀번호가 \(count)자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요.")
+                return String(localized: "비밀번호가 \(count)자예요. 와이파이 비밀번호는 8자 이상이어야 해요(구형 WEP은 5자 또는 13자). 빠뜨린 글자가 없는지 확인해 주세요.", locale: .app)
             case .notFound(let ssid, _):
                 var text = String(localized: "'\(ssid)' 와이파이에 붙지 못했어요.") + "\n"
                 text += String(localized: "이름·비밀번호의 대소문자까지 정확한지, 신호 범위 안에 있는지 확인해 주세요.")

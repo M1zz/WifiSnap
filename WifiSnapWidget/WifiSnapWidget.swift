@@ -152,7 +152,7 @@ struct WifiQRWidgetView: View {
                 HStack(spacing: 8) {
                     accessoryQR
                     VStack(alignment: .leading, spacing: 1) {
-                        Text(entry.ssid)
+                        Text(entry.ssid.bidiIsolated)
                             .font(.headline)
                             .lineLimit(1)
                             .truncationMode(.middle)
@@ -174,7 +174,7 @@ struct WifiQRWidgetView: View {
                         Label(entry.isCurrent ? String(localized: "지금 연결됨") : String(localized: "와이파이"), systemImage: "wifi")
                             .font(.caption2.weight(.semibold))
                             .foregroundStyle(entry.isCurrent ? Color.green : .secondary)
-                        Text(entry.ssid)
+                        Text(entry.ssid.bidiIsolated)
                             .font(.headline)
                             .fixedSize(horizontal: false, vertical: true)
                         Text("카메라로 비추면 바로 연결")
@@ -191,7 +191,7 @@ struct WifiQRWidgetView: View {
             if entry.hasNetwork {
                 VStack(spacing: 6) {
                     qr
-                    Text(entry.ssid)
+                    Text(entry.ssid.bidiIsolated)
                         .font(.caption2.weight(.semibold))
                         .lineLimit(1)
                         .truncationMode(.middle)

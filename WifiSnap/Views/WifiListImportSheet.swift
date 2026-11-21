@@ -141,7 +141,7 @@ struct WifiListImportSheet: View {
         if !store.ssids.isEmpty {
             Section("가져온 이름 \(store.ssids.count)개") {
                 ForEach(store.ssids, id: \.self) { ssid in
-                    Text(ssid)
+                    Text(ssid.bidiIsolated)
                         .lineLimit(1)
                         .truncationMode(.middle)
                         .swipeActions(edge: .trailing, allowsFullSwipe: true) {
