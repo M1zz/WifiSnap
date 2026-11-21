@@ -3,6 +3,158 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.5
+
+### 앱스토어 (한국어)
+
+이제 아랍어로도 쓸 수 있어요
+아랍어에서는 화면이 오른쪽에서 왼쪽으로 놓여요
+손님용 안내판도 아랍어로 만들어 인쇄해요
+
+### 앱스토어 (영어)
+
+Now available in Arabic
+Arabic screens run right to left
+Make and print guest signs in Arabic
+
+### App Store (en-GB)
+
+Now available in Arabic
+Arabic screens run right to left
+Make and print guest signs in Arabic
+
+### 앱스토어 (일본어)
+
+アラビア語で使えるようになりました
+アラビア語では画面が右から左に並びます
+ゲスト用のWi-Fi案内もアラビア語で印刷できます
+
+### 앱스토어 (중국어(간체))
+
+现已支持阿拉伯语
+阿拉伯语界面从右向左排列
+可用阿拉伯语制作并打印访客 Wi-Fi 告示
+
+### 앱스토어 (중국어(번체))
+
+現已支援阿拉伯語
+阿拉伯語介面由右至左排列
+可用阿拉伯語製作並列印訪客 Wi-Fi 告示
+
+### 앱스토어 (러시아어)
+
+Теперь доступен арабский язык
+На арабском экраны идут справа налево
+Таблички для гостей и на арабском
+
+### 앱스토어 (스페인어)
+
+Ya disponible en árabe
+En árabe, todo va de derecha a izquierda
+Crea e imprime carteles en árabe
+
+### 앱스토어 (독일어)
+
+Jetzt auch auf Arabisch
+Arabisch läuft von rechts nach links
+Gäste-Aushänge auch auf Arabisch drucken
+
+### 앱스토어 (프랑스어)
+
+Désormais disponible en arabe
+En arabe, affichage de droite à gauche
+Créez et imprimez vos affiches en arabe
+
+### 앱스토어 (이탈리아어)
+
+Ora disponibile in arabo
+In arabo si legge da destra a sinistra
+Crea e stampa cartelli in arabo
+
+### 앱스토어 (포르투갈어(브라질))
+
+Agora disponível em árabe
+Em árabe, leitura da direita à esquerda
+Crie e imprima placas em árabe
+
+### 앱스토어 (태국어)
+
+ตอนนี้ใช้งานเป็นภาษาอาหรับได้แล้ว
+ภาษาอาหรับแสดงผลจากขวาไปซ้าย
+พิมพ์ป้าย Wi-Fi เป็นภาษาอาหรับได้
+
+### 앱스토어 (베트남어)
+
+Đã hỗ trợ tiếng Ả Rập
+Tiếng Ả Rập hiển thị từ phải sang trái
+Tạo và in biển Wi-Fi bằng tiếng Ả Rập
+
+### 앱스토어 (체코어)
+
+Nově také v arabštině
+Arabština se zobrazuje zprava doleva
+Cedulky pro hosty vytisknete i arabsky
+
+### 앱스토어 (덴마크어)
+
+Nu også på arabisk
+Arabisk vises fra højre mod venstre
+Lav og print gæsteskilte på arabisk
+
+### 앱스토어 (그리스어)
+
+Τώρα διαθέσιμο και στα αραβικά
+Στα αραβικά, από δεξιά προς αριστερά
+Πινακίδες για επισκέπτες και στα αραβικά
+
+### 앱스토어 (핀란드어)
+
+Nyt myös arabiaksi
+Arabia näkyy oikealta vasemmalle
+Tee ja tulosta vieraskyltit arabiaksi
+
+### 앱스토어 (인도네시아어)
+
+Kini tersedia dalam bahasa Arab
+Bahasa Arab tampil dari kanan ke kiri
+Cetak papan Wi-Fi berbahasa Arab
+
+### 앱스토어 (노르웨이어(보크말))
+
+Nå også på arabisk
+Arabisk vises fra høyre mot venstre
+Lag og skriv ut gjesteskilt på arabisk
+
+### 앱스토어 (네덜란드어)
+
+Nu ook in het Arabisch
+Arabisch loopt van rechts naar links
+Print gastenborden in het Arabisch
+
+### 앱스토어 (폴란드어)
+
+Teraz także po arabsku
+Arabski wyświetla się od prawej do lewej
+Twórz i drukuj tabliczki po arabsku
+
+### 앱스토어 (스웨덴어)
+
+Nu även på arabiska
+Arabiska visas från höger till vänster
+Skriv ut gästskyltar på arabiska
+
+### 앱스토어 (튀르키예어)
+
+Artık Arapça da kullanılabilir
+Arapçada ekranlar sağdan sola akar
+Misafir tabelalarını Arapça yazdırın
+
+### 앱스토어 (아랍어)
+
+صار التطبيق متاحًا باللغة العربية
+تُعرض الشاشات من اليمين إلى اليسار
+صمّم لوحات الضيوف بالعربية واطبعها
+
 ## 1.0.4
 
 ### 앱스토어 (한국어)
