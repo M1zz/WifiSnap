@@ -40,3 +40,14 @@
   .demo-card { grid-template-columns: 1fr; }
   .mf-sign { width: 100%; max-width: 340px; justify-self: center; }
 }
+
+/* 오른쪽에서 왼쪽으로 쓰는 언어(아랍어). 공용 sitegen.css 는 왼쪽 · 오른쪽으로 적혀 있어 여기서 뒤집는다.
+   와이파이 이름 · 비밀번호는 값이라 글 방향에 휩쓸리지 않게 둔다("lounge2026!" 이 "!lounge2026" 이 되지 않게). */
+.mf-rows dd { unicode-bidi: plaintext; }
+[dir="rtl"] .mf-rows dd { text-align: left; }
+[dir="rtl"] .mf-field input { direction: ltr; text-align: right; }
+[dir="rtl"] .plan ul { padding-left: 0; padding-right: 1.2em; }
+[dir="rtl"] summary { padding-left: var(--s6); padding-right: 0; }
+[dir="rtl"] summary::after { right: auto; left: 0; }
+[dir="rtl"] .skip { left: auto; right: var(--s4); }
+@media (max-width: 760px) { [dir="rtl"] .hero { text-align: right; } }
