@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """App Store 크리에이티브 자산(제품 페이지 헤더 · 검색 결과) 생성: HTML → 헤드리스 Chrome.
 
 사용법: python3 scripts/make_creative_assets.py [언어 ...]     (없으면 전부)
@@ -138,6 +139,10 @@ STORE["tr"] = "tr"
 SCREEN["tr"] = "tr"
 SEARCH["tr"] = ("Wi-Fi QR", "Misafirler için<br>Wi-Fi tabelası", "QR koduyla bağlanın,<br>tek adımda yazdırın")
 HEADER["tr"] = ("Wi-Fi’yi paylaşın", "Şifreyi söylemeyin:<br>QR kodunu gösterin")
+STORE["ar"] = "ar"
+SCREEN["ar"] = "ar"
+SEARCH["ar"] = ("رمز QR للواي فاي", "لوحات واي فاي<br>لضيوفك", "اتصال برمز QR<br>وطباعة بخطوة واحدة")
+HEADER["ar"] = ("شارك الواي فاي", "لا تُملِ كلمة السر<br>اعرض رمز QR")
 # i18n-end
 
 
@@ -261,6 +266,10 @@ def shot(lang, name):
     return (RAW / SCREEN.get(lang, lang) / SHOT_FILE[name]).as_uri()
 
 
+# 오른쪽에서 왼쪽으로 쓰는 언어: 검색 결과는 글을 오른쪽에, 기기를 왼쪽에 둔다(안전 영역이 좌우 대칭이라 그대로 뒤집는다)
+RTL = {"ar"}
+
+
 def search_html(lang):
     W, H, (l, t, r, b) = SPEC["search"]
     eyebrow, headline, sub = SEARCH[lang]
@@ -268,12 +277,13 @@ def search_html(lang):
     col = int(sw * 0.56)
     ph_w = 1040
     ph_left = l + col + int(sw * 0.04)
+    x = (lambda left, width: W - left - width) if lang in RTL else (lambda left, width: left)
     return f"""
-<div class="glow" style="left:{ph_left - 300}px;top:500px;width:1700px;height:1700px;background:rgba(10,124,255,.16)"></div>
-<div class="glow" style="left:{l - 700}px;top:{t - 500}px;width:1400px;height:1000px;background:rgba(124,77,255,.07)"></div>
+<div class="glow" style="left:{x(ph_left - 300, 1700)}px;top:500px;width:1700px;height:1700px;background:rgba(10,124,255,.16)"></div>
+<div class="glow" style="left:{x(l - 700, 1400)}px;top:{t - 500}px;width:1400px;height:1000px;background:rgba(124,77,255,.07)"></div>
 {stars(W, H, 7, 0)}
-{phone(shot(lang, "02-poster.png"), ph_left, t - 360, ph_w, 0)}
-<div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
+{phone(shot(lang, "02-poster.png"), x(ph_left, ph_w), t - 360, ph_w, 0)}
+<div class="text" style="left:{x(l, col)}px;top:{t}px;width:{col}px;height:{sh}px">
   <div class="eyebrow" style="font-size:96px">{eyebrow}</div>
   <div class="headline" data-max="250" data-min="140" style="margin-top:36px">{headline}</div>
   <div class="sub" style="font-size:84px;margin-top:52px">{sub}</div>
@@ -299,7 +309,7 @@ def header_html(lang):
 def render(lang, kind):
     W, H, _ = SPEC[kind]
     body = search_html(lang) if kind == "search" else header_html(lang)
-    page = (f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>'
+    page = (f'<!doctype html><html lang="{lang}" dir="{"rtl" if lang in RTL else "ltr"}"><head><meta charset="utf-8"><style>'
             f'{BASE_CSS % {"W": W, "H": H}}</style></head><body>{body}{FIT_JS}</body></html>')
     html_path = pathlib.Path(tempfile.gettempdir()) / f"wifisnap-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """App Store 마케팅 스크린샷: 시뮬레이터 원본 캡처 + 헤드라인 → HTML → 헤드리스 Chrome.
 
 사용법: python3 scripts/make_marketing_screenshots.py [언어 ...]   (없으면 전부)
@@ -217,6 +218,14 @@ SHOTS["tr"] = [
     ("04-poster-a4.png", "flat-rotate", "Yazdırmaya hazır<br>A4 poster", "7 tema, AirPrint ile tek adımda yazdırın"),
     ("05-saved.png", "dark", "Kullandığınız tüm Wi-Fi’ler<br>tek yerde", "Yakına gelince doğru ağ en üstte çıkar"),
 ]
+STORE["ar"] = "ar"
+SHOTS["ar"] = [
+    ("01-scan.png", "hero-bleed", "صوّر اللوحة<br>واتصل فورًا", "يقرأ اسم الشبكة وكلمة السر من الصورة"),
+    ("02-qr.png", "left-text", "رمز QR واحد<br>بدل إملاء كلمة السر", "يكفي أن يوجّه صديقك الكاميرا"),
+    ("03-poster-card.png", "text-bottom", "لوحات واي فاي للضيوف", "أضف اسم متجرك وأوقات العمل"),
+    ("04-poster-a4.png", "flat-rotate", "ملصق A4<br>جاهز للطباعة", "7 سمات، وطباعة مباشرة عبر AirPrint"),
+    ("05-saved.png", "dark", "كل شبكاتك<br>في مكان واحد", "عند وصولك تظهر شبكة المكان أولًا"),
+]
 # i18n-end
 
 
@@ -318,9 +327,21 @@ body {{ background:#131316; }}
 """,
 }
 
+# 오른쪽에서 왼쪽으로 쓰는 언어: 글은 오른쪽에, 기울인 폰은 거울처럼 반대로 놓는다
+RTL = {"ar"}
+RTL_CSS = {
+    "left-text": """
+.text { text-align:right; padding:260px 110px 0 100px; }
+.wrap { left:auto; right:290px; perspective-origin:70% 30%; }
+.phone { transform:rotateY(-16deg) rotateX(2deg); }
+""",
+    "text-bottom": ".phone { transform:rotateY(10deg) rotateX(2deg); }",
+    "flat-rotate": ".wrap { left:auto; right:120px; } .phone { transform:rotate(6deg); }",
+}
+
 TEXT = '<div class="text"><div class="dot"></div><div class="headline">{headline}</div><div class="sub">{sub}</div></div>'
 PHONE = '<div class="wrap"><div class="phone"><img src="{img}"></div></div>'
-HTML = '<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
+HTML = '<!doctype html><html lang="{lang}" dir="{dir}"><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
 
 def chrome_shot(html, png, tmp):
@@ -367,7 +388,9 @@ def render(lang):
             phone = PHONE.format(img=src.as_uri())
             body = phone + text if layout == "text-bottom" else text + phone
             html = pathlib.Path(tmp) / f"{lang}-{fname}.html"
-            html.write_text(HTML.format(lang=lang, css=BASE_CSS + LAYOUTS[layout], body=body), encoding="utf-8")
+            rtl = lang in RTL
+            css = BASE_CSS + LAYOUTS[layout] + (RTL_CSS.get(layout, "") if rtl else "")
+            html.write_text(HTML.format(lang=lang, dir="rtl" if rtl else "ltr", css=css, body=body), encoding="utf-8")
             png = out_dir / fname
             if not any(chrome_shot(html, png, tmp) for _ in range(3)):
                 raise SystemExit(f"그리지 못했다: {png}")
