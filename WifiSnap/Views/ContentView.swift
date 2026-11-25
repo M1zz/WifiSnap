@@ -166,6 +166,8 @@ struct ContentView: View {
         .sheet(item: $activeSheet, content: sheetContent)
         .alert(item: $statusMessage, content: alertContent)
         .onOpenURL(perform: handleDeepLink)
+        // 할인 기간이면 앱을 연 뒤 한 번 할인 배너를 띄운다. 단추는 요금제를 연다 (LeeoKit).
+        .leeoSaleBanner { if activeSheet == nil { activeSheet = .paywall(nil) } }
         .fullScreenCover(isPresented: $showOnboarding) {
             WifiSnapOnboardingView {
                 hasSeenOnboarding = true
