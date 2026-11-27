@@ -169,7 +169,8 @@ struct ContentView: View {
         // 할인 기간이면 앱을 연 뒤 한 번 할인 배너를 띄운다. 단추는 요금제를 연다 (LeeoKit).
         .leeoSaleBanner { if activeSheet == nil { activeSheet = .paywall(nil) } }
         .fullScreenCover(isPresented: $showOnboarding) {
-            WifiSnapOnboardingView {
+            WifiSnapOnboardingView { skipped in
+                LeeoAnalyticsCenter.track(.custom(name: skipped ? "onboarding_skipped" : "onboarding_completed", parameters: [:]))
                 hasSeenOnboarding = true
                 showOnboarding = false
             }
@@ -1404,6 +1405,7 @@ struct ContentView: View {
                 Task { await WifiSnapTips.savedNetwork.donate() }
                 // 연결에 성공한 순간 — 만족도 질문의 근거로 센다
                 LeeoEngagement.shared.registerSignificantEvent()
+                LeeoAnalyticsCenter.track(.custom(name: "wifi_connected", parameters: [:]))
             case .failure(let error):
                 // 그 이름에 끝내 못 붙었다 = 이름의 대소문자나 비밀번호 글자를 잘못 읽었을 수 있다.
                 // 입력 카드에 다시 해 볼 후보를 띄운다.

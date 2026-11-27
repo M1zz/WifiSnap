@@ -159,7 +159,7 @@ struct SettingsSheet: View {
                 }
             }
             .fullScreenCover(isPresented: $showOnboarding) {
-                WifiSnapOnboardingView { showOnboarding = false }
+                WifiSnapOnboardingView { _ in showOnboarding = false }
                     .foldConfined()
             }
             .sheet(isPresented: $showPaywall) { PaywallView() }

@@ -3,7 +3,8 @@ import SwiftUI
 /// 첫 실행 안내 — 이 앱이 해 주는 세 가지를 한 장씩 보여 준다.
 /// 처음 연 사용자에게 한 번(ContentView 의 hasSeenOnboarding), 이후엔 설정 > 처음 안내 다시 보기.
 struct WifiSnapOnboardingView: View {
-    var onFinish: () -> Void
+    /// `true` 면 끝까지 넘기지 않고 건너뛰었다.
+    var onFinish: (_ skipped: Bool) -> Void
 
     @State private var page = 0
 
@@ -35,7 +36,7 @@ struct WifiSnapOnboardingView: View {
         VStack(spacing: 0) {
             HStack {
                 Spacer()
-                Button("건너뛰기", action: onFinish)
+                Button("건너뛰기") { onFinish(true) }
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .opacity(isLastPage ? 0 : 1)
@@ -55,7 +56,7 @@ struct WifiSnapOnboardingView: View {
 
             Button {
                 if isLastPage {
-                    onFinish()
+                    onFinish(false)
                 } else {
                     withAnimation { page += 1 }
                 }
