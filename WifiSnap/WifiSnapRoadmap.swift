@@ -32,6 +32,9 @@ extension WifiSnapSpec {
         .init(id: "a11y.motion", status: .building,
               title: NSLocalizedString("움직임 줄이기", comment: "Roadmap item: a11y.motion"),
               detail: NSLocalizedString("움직임 줄이기를 켜면 화면 효과가 차분해져요.", comment: "Roadmap item detail: a11y.motion")),
+        .init(id: "platform.mac", status: .building,
+              title: NSLocalizedString("맥 메뉴 막대에서 QR 보여 주기", comment: "Roadmap item: platform.mac"),
+              detail: NSLocalizedString("카운터의 맥에서 와이파이 QR을 크게 띄워 손님에게 보여 주고, 안내판을 바로 인쇄해요.", comment: "Roadmap item detail: platform.mac")),
         // MARK: 다음에 만들어요
         .init(id: "lang.english", status: .planned,
               title: NSLocalizedString("영어 지원", comment: "Roadmap item: lang.english"),

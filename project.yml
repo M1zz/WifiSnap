@@ -6,6 +6,8 @@ options:
   bundleIdPrefix: com.leeo
   deploymentTarget:
     iOS: "17.0"
+    # 맥은 메뉴 막대 앱이다 (→ WifiSnap/Mac). LeeoKit 이 macOS 14 부터라 맞춘다.
+    macOS: "14.0"
   createIntermediateGroups: true
 
 settings:
@@ -20,19 +22,73 @@ settings:
 packages:
   LeeoKit:
     url: https://github.com/M1zz/LeeoKit.git
-    majorVersion: 3.51.2
+    majorVersion: 3.54.0
 
 # ⚠️ 스킴(xcshareddata/xcschemes)은 손으로 관리한다. WifiSnap 스킴의 실행에 StoreKit 설정
 #    (WifiSnap.storekit)이 붙어 있어 시뮬레이터에서 요금제 구매를 시험할 수 있다.
 #    xcodegen generate 는 스킴을 지우므로, 돌린 뒤 git checkout 으로 스킴을 되살린다.
 targets:
+  # 아이폰과 맥이 한 타깃 · 한 번들 ID 다 — 같은 App Store 레코드라 산 것이 맥에서도 이어진다.
+  # 맥은 메뉴 막대에서 QR 을 크게 띄우고 안내판을 인쇄하는 것만 한다. 카메라 스캔 · 연결(NEHotspot) ·
+  # 위젯 · 단축어는 아이폰 전용이라 아래 destinationFilters 로 아이폰에만 넣는다.
   WifiSnap:
     type: application
-    platform: iOS
+    platform: auto
+    supportedDestinations: [iOS, macOS]
     sources:
       - path: WifiSnap
+        excludes:
+          - "Views/**"
+          - "Intents/**"
+          - "Tips/**"
+          - "Mac/**"
+          - Models/KnownSSIDStore.swift
+          - Services/CurrentNetworkService.swift
+          - Services/PasswordLookalikes.swift
+          - Services/SSIDMatcher.swift
+          - Services/TextRecognizer.swift
+          - Services/WifiConnector.swift
+          - Services/WifiCredentialParser.swift
+          - Services/WifiListParser.swift
+          - Services/WifiQRPayload.swift
+          - Shared/QRBrightness.swift
+          - Shared/ScreenshotMode.swift
+          - WifiSnapMac.entitlements
+      # 아이폰 전용
+      - path: WifiSnap/Views
+        destinationFilters: [iOS]
+      - path: WifiSnap/Intents
+        destinationFilters: [iOS]
+      - path: WifiSnap/Tips
+        destinationFilters: [iOS]
+      - path: WifiSnap/Models/KnownSSIDStore.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Services/CurrentNetworkService.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Services/PasswordLookalikes.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Services/SSIDMatcher.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Services/TextRecognizer.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Services/WifiConnector.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Services/WifiCredentialParser.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Services/WifiListParser.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Services/WifiQRPayload.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Shared/QRBrightness.swift
+        destinationFilters: [iOS]
+      - path: WifiSnap/Shared/ScreenshotMode.swift
+        destinationFilters: [iOS]
+      # 맥 전용 — 메뉴 막대 · 큰 QR 창 · 안내판 인쇄
+      - path: WifiSnap/Mac
+        destinationFilters: [macOS]
     dependencies:
       - target: WifiSnapWidget
+        destinationFilters: [iOS]
       - package: LeeoKit
     # CFBundleURLTypes(위젯 딥링크)는 INFOPLIST_KEY_* 로 넣을 수 없어 Info.plist를 명시한다
     info:
@@ -54,6 +110,11 @@ targets:
           - UIInterfaceOrientationPortrait
         NSCameraUsageDescription: "와이파이 안내판을 촬영해 아이디와 비밀번호를 인식합니다."
         NSLocationWhenInUseUsageDescription: "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
+        # 맥: 위치 권한이 있어야 지금 와이파이 이름(CoreWLAN)을 읽는다
+        NSLocationUsageDescription: "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
+        # 맥: Dock 없이 메뉴 막대에만 사는 앱 (아이폰은 이 키를 보지 않는다)
+        LSUIElement: true
+        LSApplicationCategoryType: public.app-category.utilities
         # 위젯을 탭하면 wifisnap://qr 로 앱이 열린다
         CFBundleURLTypes:
           - CFBundleURLName: com.leeo.wifisnap
@@ -63,6 +124,9 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.leeo.wifisnap   # 고정 — 변경 금지
         GENERATE_INFOPLIST_FILE: NO
         CODE_SIGN_ENTITLEMENTS: WifiSnap/WifiSnap.entitlements
+        # 맥은 샌드박스 · 인쇄 · 위치 권한이 따로 필요하고, 핫스팟 · 앱 그룹 권한은 없다
+        "CODE_SIGN_ENTITLEMENTS[sdk=macosx*]": WifiSnap/WifiSnapMac.entitlements
+        "ENABLE_HARDENED_RUNTIME[sdk=macosx*]": YES
         TARGETED_DEVICE_FAMILY: "1"
     preBuildScripts:
       # 번들 ID가 실수로(Xcode UI 편집, 팀 자동설정 등) 바뀌면 빌드를 멈춘다

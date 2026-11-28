@@ -309,6 +309,160 @@
         }
       }
     },
+    "NSLocationUsageDescription" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مطلوب لمعرفة اسم شبكة الواي فاي المتصل بها حاليًا."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je potřeba k ověření názvu sítě Wi-Fi, ke které jste právě připojeni."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er nødvendig for at tjekke navnet på det Wi-Fi, du er forbundet til."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird benötigt, um den Namen des aktuell verbundenen WLANs zu prüfen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απαιτείται για τον έλεγχο του ονόματος του Wi-Fi στο οποίο είστε συνδεδεμένοι."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Needed to check the name of the Wi-Fi network you’re currently connected to."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Needed to check the name of the Wi-Fi network you’re currently connected to."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se necesita para comprobar el nombre de la red Wi-Fi a la que estás conectado."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarvitaan sen Wi-Fi-verkon nimen tarkistamiseen, johon olet yhdistänyt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nécessaire pour vérifier le nom du réseau Wi-Fi auquel vous êtes connecté."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diperlukan untuk memeriksa nama Wi-Fi yang sedang tersambung."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serve per verificare il nome della rete Wi-Fi a cui sei connesso."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在接続しているWi-Fiの名前を確認するために必要です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "현재 연결된 와이파이 이름을 확인하기 위해 필요합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trengs for å sjekke navnet på Wi-Fi-nettverket du er koblet til."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nodig om de naam te controleren van het wifi-netwerk waarmee je verbonden bent."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potrzebne do sprawdzenia nazwy sieci Wi-Fi, z którą jesteś połączony."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necessária para verificar o nome da rede Wi-Fi à qual você está conectado."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужна, чтобы определить название сети Wi-Fi, к которой вы сейчас подключены."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behövs för att kontrollera namnet på det Wi-Fi du är ansluten till."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จำเป็นต่อการตรวจสอบชื่อ Wi-Fi ที่คุณเชื่อมต่ออยู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlı olduğunuz Wi-Fi ağının adını kontrol etmek için gerekir."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cần để kiểm tra tên Wi-Fi bạn đang kết nối."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用于确认当前所连接的 Wi-Fi 名称。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用於確認目前所連線的 Wi-Fi 名稱。"
+          }
+        }
+      }
+    },
     "NSLocationWhenInUseUsageDescription" : {
       "localizations" : {
         "ar" : {

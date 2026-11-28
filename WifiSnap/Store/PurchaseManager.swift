@@ -60,7 +60,7 @@ final class PurchaseManager: ObservableObject {
 
     /// 이 기능을 써도 되는가.
     func allows(_ feature: ProFeature) -> Bool {
-        #if DEBUG
+        #if DEBUG && os(iOS)
         if ScreenshotMode.isActive { return true }
         #endif
         return !sellsPaid || tier >= feature.tier

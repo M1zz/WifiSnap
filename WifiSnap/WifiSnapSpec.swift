@@ -15,7 +15,12 @@ enum WifiSnapSpec: LeeoAppSpec {
     static let appName = "마이파이"
     static let developerEmail = "leeo@kakao.com"
     /// 위젯과 나눠 쓰는 기록 — 백업 금고가 함께 떠 둔다.
+    /// 맥에는 위젯이 없어 그룹 저장소를 쓰지 않는다(→ SharedDefaults).
+    #if os(macOS)
+    static let appGroups: [String] = []
+    #else
     static let appGroups = ["group.com.leeo.wifisnap"]
+    #endif
 
     /// 공용 피드백 허브(FeedbackHub)로 수집 — appIdentifier(번들 ID)로 앱을 구분한다.
     /// 컨테이너 권한은 WifiSnap.entitlements 에 있다 — 빼면 CKContainer 를 만드는 순간 앱이 죽는다.

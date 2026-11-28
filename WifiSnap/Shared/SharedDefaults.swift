@@ -20,12 +20,17 @@ enum SharedDefaults {
     static let paywallDeepLink = URL(string: "wifisnap://paywall/widget")!
 
     static let store: UserDefaults = {
+        #if os(macOS)
+        // 맥에는 위젯이 없다. 권한 없는 그룹 저장소를 열면 macOS 가 "다른 앱의 데이터에 접근" 확인 창을 띄우므로 앱 저장소를 쓴다.
+        return .standard
+        #else
         guard let shared = UserDefaults(suiteName: appGroupID) else {
             // 그룹을 못 만드는 환경 — 앱은 정상 동작하고 위젯만 빈 상태가 된다
             return .standard
         }
         migrateIfNeeded(into: shared)
         return shared
+        #endif
     }()
 
     /// 공유 저장소를 쓰기 전 버전에서 앱 전용 저장소에 넣어둔 목록을 한 번 옮긴다

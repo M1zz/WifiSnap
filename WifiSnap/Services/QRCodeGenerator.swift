@@ -1,5 +1,23 @@
-import UIKit
+import SwiftUI
 import CoreImage.CIFilterBuiltins
+#if canImport(UIKit)
+import UIKit
+/// 아이폰은 UIImage, 맥은 NSImage. QR · 안내판 그림은 두 곳에서 같은 코드로 만든다.
+typealias PlatformImage = UIImage
+#else
+import AppKit
+typealias PlatformImage = NSImage
+#endif
+
+extension Image {
+    init(platformImage: PlatformImage) {
+        #if canImport(UIKit)
+        self.init(uiImage: platformImage)
+        #else
+        self.init(nsImage: platformImage)
+        #endif
+    }
+}
 
 /// 표준 WiFi QR 문자열(WIFI:S:...;T:WPA;P:...;;)과 QR 이미지를 생성
 /// 이 QR을 아이폰/안드로이드 기본 카메라로 비추면 바로 연결 제안이 뜸
@@ -23,7 +41,7 @@ enum QRCodeGenerator {
         return "WIFI:S:\(escape(ssid));T:WPA;P:\(escape(password));;"
     }
 
-    static func qrImage(for text: String, scale: CGFloat = 14) -> UIImage? {
+    static func qrImage(for text: String, scale: CGFloat = 14) -> PlatformImage? {
         let filter = CIFilter.qrCodeGenerator()
         filter.message = Data(text.utf8)
         filter.correctionLevel = "M"
@@ -34,11 +52,15 @@ enum QRCodeGenerator {
         guard let cgImage = context.createCGImage(transformed, from: transformed.extent) else {
             return nil
         }
+        #if canImport(UIKit)
         return UIImage(cgImage: cgImage)
+        #else
+        return NSImage(cgImage: cgImage, size: CGSize(width: cgImage.width, height: cgImage.height))
+        #endif
     }
 
     /// - Parameter scale: 모듈 하나당 픽셀 수. 위젯처럼 메모리가 빡빡한 곳에서는 낮춰 쓴다.
-    static func wifiQRImage(ssid: String, password: String, scale: CGFloat = 14) -> UIImage? {
+    static func wifiQRImage(ssid: String, password: String, scale: CGFloat = 14) -> PlatformImage? {
         qrImage(for: wifiString(ssid: ssid, password: password), scale: scale)
     }
 }
